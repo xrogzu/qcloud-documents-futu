@@ -2,11 +2,11 @@
 
 Decompress the package, you'll see two demos, one for one-on-one communication and one for multi-people communication.
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-1.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-1.png)
 
 The multi-people communication demo project is created through Eclipse.
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-2.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-2.png)
 
 The apk package is located under the bin directory which can be used to install the demo directly.
 
@@ -18,21 +18,21 @@ Operation flow charts and API documents are located under the doc directory.
 
 Currently, AV SDK is supported for Android 2.3 or above. However, since compatibility with IM SDK is required, make sure your development environment is **Android 4.0** or above.
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-3.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-3.png)
 
 ## 3. SDK Integration
 
 SDK libraries are provided in the form of jar files and dynamic link libraries (so). Place the so files under <project name>/libs/armeabi and place eup_1.9.2__allproguad_rqdp.jar, imsdk.jar, qavsdk.jar under /libs. Refresh Eclipse and they will be automatically added to project reference.
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-4.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-4.png)
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-5.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-5.png)
 
 > Note: Uncheck **Force error when external jars contain native libraries** in the **Preferences** section of Eclipse.
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-6.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-6.png)
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-7.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-7.png)
 
 
 

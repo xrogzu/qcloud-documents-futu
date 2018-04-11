@@ -3,7 +3,7 @@ ILVB SDK1.4 provides non-interactive broadcasting feature, and with Tencent Clou
 Here's the non-interactive broadcasting feature development guide:
 
 ## 1 Timing Diagram
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/hudongzhibolz-2.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/hudongzhibolz-2.png)
 
 ## 2. Start Non-interactive Broadcasting
 

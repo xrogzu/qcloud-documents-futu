@@ -528,12 +528,12 @@ Description:
 7. With the same instance specification, the performances of standard version and standalone version are the same 
 
 ### 3.5 Performance Curve
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-4.png)
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-5.png)
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-6.png)
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-7.png)
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-8.png)
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-9.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-4.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-5.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-6.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-7.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-8.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-9.png)
 
 ## 4. Performance of Standard Version
 ### 4.1 Testing Tool
@@ -639,7 +639,7 @@ Description:
 7. With the same instance specification, the performances of standard version and standalone version are the same 
 
 ### 4.5 Performance Curve
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-1.png)
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-2.png)
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-3.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-1.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-2.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-3.png)
 

@@ -73,4 +73,4 @@ func main() {
 ```
 
 **Execution results**:
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Go-1.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Go-1.png)

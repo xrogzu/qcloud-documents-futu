@@ -12,11 +12,11 @@ After registration, you first need to pass **developer identity verification**, 
 
 Go to Tencent Cloud video [solution overview page](http://cloud.tencent.com/solution_video.html), and click "Free Activation" button at the bottom, as shown below:
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/jianjie-2.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/jianjie-2.png)
 
 Then, you are directed to the "Application for Activation of Video Solution" page, as shown below:
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/jianjie-3.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/jianjie-3.png)
 
 Enter required information correctly in this page, so that we can provide better service based on your business status. Complete the video service application process by clicking **Submit for Application** at the bottom, and go to the next step: create App.
 

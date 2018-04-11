@@ -78,15 +78,15 @@ The following shows how to use VS2010 to create a new project and use the SDK.
 
 We assume that the SDK is stored under D:\QAVSDK, and the new VS2010 project is placed under D:\QAVSDKDemoProj, as shown below.
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-1.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-1.png)
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-2.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-2.png)
 
 **1. Create VS2010 project**
 
 Open VS2010 and create an MFC Application project named "QAVSDKDemo", which is placed under the D:\QAVSDKDemoProj\ directory, as shown below.
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-3.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-3.png)
 
 **2. Modify project configuration**
 
@@ -102,11 +102,11 @@ Lastly, under Configuration Properties\Linker\Input\Additional Dependencies, add
 
 as shown below.
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-4.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-4.png)
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-5.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-5.png)
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-6.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-6.png)
 
 
 
@@ -114,7 +114,7 @@ as shown below.
 
 To use the APIs provided by the SDK, you need to reference SDK header files and namespaces in the code, as shown below:
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-7.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-7.png)
 
 Then you can start development using the SDK. For more information about how to use each SDK API, please see the provided demo source program and relevant documents.
 
@@ -122,7 +122,7 @@ Then you can start development using the SDK. For more information about how to 
 
 SDK's dynamic library dll files and audio/video parameter configuration files are required for running the executable. For this purpose, copy all the dll files and configuration files of the Debug or Release versions (under D:\QAVSDK\bin\) to the directory where the executable is located, as shown below. 
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-8.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-8.png)
 
 ## Developer Document
 

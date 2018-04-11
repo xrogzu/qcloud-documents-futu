@@ -3,7 +3,7 @@ Non-interactive broadcasting is available as of ILVB SDK1.4. Combined with Tence
 The following is the non-interactive broadcasting development guide:
 
 ## 1 Timing Diagram
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/hudongzhibolz-2.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/hudongzhibolz-2.png)
 
 ## 2. Start Non-interactive Broadcasting
 

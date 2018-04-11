@@ -22,7 +22,7 @@ Create a new instance in the console
   [View Example Codes](http://cloud.tencent.com/wiki/%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B)
 Create a new instance:
 	
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Resis-1.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Resis-1.png)
 
 Initialize password for the instance:
 	

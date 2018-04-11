@@ -12,4 +12,4 @@
 
 #### Initializing an Instance
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xinjian-03.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xinjian-03.png)

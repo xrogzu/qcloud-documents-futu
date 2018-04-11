@@ -6,4 +6,4 @@ Click on the instance name to enter the page where you can view its detailed inf
 3. The monitoring chart can be viewed in the instance details list
 4. You can view the monitoring data for the last 30 days
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xinjian-06.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xinjian-06.png)

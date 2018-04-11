@@ -45,7 +45,7 @@ After the initialization of password, the instance can be put into use:
 
 When the cursor slides over the instance name, a "Modify" button will appear. Click the button to modify the instance name.
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Resis-4.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Resis-4.png)
 
 ### 2.3	Dynamic Expansion of Instance
 1) In the instance list page, select the instance to be expanded, and click the "Expand" button.
@@ -64,7 +64,7 @@ Note: 	During the expansion of a standalone instance, if the remaining capacity 
 
 2) Choose the time period for which you want to view the monitor data.
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Resis-8.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Resis-8.png)
 
 ## 4	Clearing Instances
 
@@ -73,14 +73,14 @@ You can clear up all the data inside an instance in the instance details page of
 <span style = "color:#F00">Note: Clearing up data will affect the services provided by the instance, and the instance will become inaccessible during the process. Please proceed with caution.</span>
 
 1) Click the instance name in the instance list and enter its details page.
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Resis-9.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Resis-9.png)
 
 2) Click the "Clear Instance" button in the instance details page.
 ![](//mccdn.qcloud.com/img569de2e0ae341.png)
 
 3) Enter the instance password and click "Clear".
  <span style = "color:#F00"> Note: The password here is the instance password set by the user, rather than the<instance ID: instance password>link password for accessing the instance.</span>
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Resis-11.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Resis-11.png)
  
 4) When the task is submitted, the instance goes into a "Clearing" status
 ![](//mccdn.qcloud.com/img569de2a1b3a44.png)

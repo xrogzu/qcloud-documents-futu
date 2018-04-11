@@ -5,7 +5,7 @@ You can use the recording feature only after the Tencent Cloud VOD service is ac
 The following is the recording feature development guide:
 
 ## 1 Timing Diagram
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/hudongzhibolz-1.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/hudongzhibolz-1.png)
 
 ## 2 Start Recording
 

@@ -17,21 +17,21 @@ DemoAPP本身自带了官网内置的APP应用信息，可以直接使用上传�
 (1) APPID为开发者在[移动服务控制台——应用管理](http://app.qcloud.com/)创建应用时获取的AppID；
 (2) USERID是开发者自己业务体系中的userid，用户可以自己设置也可以使用DemoAPP自带的123456；
 (3) SIGN为签名。签名是开发者客户端向其业务服务器请求得到的，验证自己的移动是否开通时，开发者可以参考服务器端SDK，选择熟悉的语言SDK，根据其提供的接口生成签名。
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-1.jpg)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-1.jpg)
 填写注册信息：
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-2.jpg)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-2.jpg)
 
 ### 3.2	使用上传、暂停、删除、查询、复制等操作
 图片服务页面如下：
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-3.jpg)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-3.jpg)
 视频服务页面如下：
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-4.jpg)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-4.jpg)
 
 ### 3.3	IOS返回码说明
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-5.jpg)
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-6.jpg)
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-7.jpg)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-5.jpg)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-6.jpg)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-7.jpg)
 
 ### 3.4	Android返回码说明
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-8.jpg)
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-9.jpg)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-8.jpg)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-9.jpg)

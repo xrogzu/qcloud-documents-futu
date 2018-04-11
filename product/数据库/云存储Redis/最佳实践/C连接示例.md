@@ -66,4 +66,4 @@ if (argc < 4) {
 ```
 
 **运行结果**：
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Clianjie-1.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Clianjie-1.png)

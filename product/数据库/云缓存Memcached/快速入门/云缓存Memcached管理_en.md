@@ -16,7 +16,7 @@ Note:
 
 On the Cloud Memcached management view page in Console, click the "Clear" button next to the table to be cleaned up. After your confirmation for the operation, the cleaning begins at backend. When the cleaning is completed, a message indicating the successful cleaning will appear.
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NoSQLClearTable.jpg)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NoSQLClearTable.jpg)
 
 ## 4 Return table
 Note:
@@ -24,7 +24,7 @@ Note:
 
 On the Cloud Memcached management view page in Console, check the table to be returned, and click the "Return Selected Table" button. After your click the "Submit for Return" button, the data clean-up begins and the table is deleted at backend.
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NoSQLDeleteTable.jpg)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NoSQLDeleteTable.jpg)
 
 ## 5 Enable "expire"
 1. To use the expire feature, you first need to enable it for the corresponding CMEM instance in Tencent Cloud console.

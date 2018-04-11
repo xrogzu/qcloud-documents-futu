@@ -39,4 +39,4 @@ Use the client phpredis and download it at https://github.com/phpredis/phpredis
 
 
 **Execution results**:
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/PHP-1.jpg)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/PHP-1.jpg)

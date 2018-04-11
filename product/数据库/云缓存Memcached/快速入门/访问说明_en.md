@@ -22,7 +22,7 @@ If the client does not have any access requests for 180 seconds since the last a
 Log in to Tencent Cloud and go to Management Center, click "Cloud Memcached" and view the IP:Port assigned by the system in the "Management View" of Cloud Memcached.
 This IP:Port is used to access the Cloud Memcached service.
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Nosql_access_2.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Nosql_access_2.png)
 
 2. Implement code to achieve Cloud Memcached service access
 

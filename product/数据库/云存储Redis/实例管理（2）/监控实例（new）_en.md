@@ -4,4 +4,4 @@
 
 2) Choose the time period for viewing the monitor data.
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Resis-8.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Resis-8.png)

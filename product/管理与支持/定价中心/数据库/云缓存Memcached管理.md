@@ -16,7 +16,7 @@
 
 在管理中心的云缓存Memcached管理视图页面，在需要清空的的表后点击“清空”按钮，确认清空后，后台开始清空操作。清空完成后，页面会提示清空成功。
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NoSQLClearTable.jpg)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NoSQLClearTable.jpg)
 
 ## 4 表退还
 注意：
@@ -24,7 +24,7 @@
 
 进入管理中心的云缓存Memcached管理视图页面，勾选需要退还的表，然后点击“退还选中表”按钮，点击“提交退还”按钮后，后台开始清理表数据并删除表。
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NoSQLDeleteTable.jpg)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NoSQLDeleteTable.jpg)
 
 ## 5 开启expire过期删除
 详见:开启expire过期删除功能

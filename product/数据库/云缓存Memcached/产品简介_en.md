@@ -15,4 +15,4 @@
 (6) Care-free with automatic capacity expansion feature. The expansion process is transparent to user access and does not affect services. Cloud Memcached has a comprehensive monitoring and operation team who can handle failures for users during midnight.
 (7) Easy to use, immediately available after application and no installation needed. You can access Cloud Memcached by directly using Memcached API.
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NoSQLStorageAdvantagesV3.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NoSQLStorageAdvantagesV3.png)

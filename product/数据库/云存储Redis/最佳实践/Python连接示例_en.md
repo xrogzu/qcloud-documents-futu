@@ -27,4 +27,4 @@ print r.get('name')
 ```
 
 **Execution results**:
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Pythpon-1.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Pythpon-1.png)

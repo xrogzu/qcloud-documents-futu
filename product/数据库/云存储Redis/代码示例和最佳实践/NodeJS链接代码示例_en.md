@@ -45,4 +45,4 @@ client.get("redis", function (err, reply) {
 ```
 
 **Execution results**:
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NodeJS-1.jpg)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NodeJS-1.jpg)

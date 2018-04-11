@@ -9,27 +9,27 @@ Invited or approved users may create and manage their MongoDB clusters at https:
 
 4)	Verify whether the information entered is correct, and click **OK**
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xinjian-01.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xinjian-01.png)
 
 5) 	Check the status of the instance to be created.
 
 If it is in a status of "Creating", please wait a few minutes.
 
 If it is in a status of "To be initialized", it has been created.
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xinjian-02.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xinjian-02.png)
 
 ## 2 Initializing instance
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xinjian-03.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xinjian-03.png)
 
 You will see the available private network IPs in the CVM once the initialization operation is finished.
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xinjian-04.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xinjian-04.png)
 
 ## 3. Viewing Detailed Information & Monitoring Data
 
 Click on the instance name to enter the page where you can view its detailed information and monitoring data.
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xinjian-05.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xinjian-05.png)
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xinjian-06.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xinjian-06.png)

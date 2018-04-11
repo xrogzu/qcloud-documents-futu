@@ -4,4 +4,4 @@
 
 2) 选择要查看的监控时间段
 
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Resis-8.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Resis-8.png)

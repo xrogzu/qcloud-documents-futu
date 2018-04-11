@@ -22,7 +22,7 @@
   [查看代码示例](http://cloud.tencent.com/wiki/%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B)
 新建实例：
 	
-![](//qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Resis-1.png)
+![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Resis-1.png)
 
 实例初始化密码：
 	
