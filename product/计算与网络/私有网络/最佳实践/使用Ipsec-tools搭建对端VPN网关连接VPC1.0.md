@@ -1,7 +1,7 @@
 腾讯云私有网络 VPC 可以通过加密的 VPN 通道连接客户 IDC，只需在 VPC 及用户 IDC 中设置 VPN 网关及对端网关即可。客户如果暂时不打算使用 Cisco、Juniper 或 H3C 等厂家的硬件 VPN 设备，也可以使用开源软件在服务器上搭建对端网关。本文以在 CentOS 上安装 ipsec-tools 为例，介绍如何通过开源软件连接腾讯云 VPC，建立混合云场景。
 
 ## 1. 环境说明
-![](//mccdn.qcloud.com/img56c6836ccfc95.png)
+![](https://mccdn.qcloud.com/img56c6836ccfc95.png)
 
 如上图所示，左边是您在腾讯云上建立的私有网络。为了将 VPC 与右边的客户 IDC 互通，可以利用公网在两者之间建立加密 Ipsec VPN 通道，保障传输数据的安全可靠。
 
@@ -38,7 +38,7 @@ rpm -ivh ipsec-tools-0.8.0-25.3.i686.rpm
 ```
 racoon –V
 ```
-![](//mccdn.qcloud.com/img56c68a299aed9.png)
+![](https://mccdn.qcloud.com/img56c68a299aed9.png)
 
 ## 3. 配置 Ipsec-tools
 需要配置的文件包括：
@@ -57,7 +57,7 @@ vi /etc/racoon/setkey.conf
 设置如下信息：
 
 假设您 VPC 的 CIDR 为`10.100.2.0/24`，VPC 上 VPN 网关的 IP 地址为 `112.\*.\*.251`。您IDC的CIDR为 `172.16.2.0/24`，本地 VPN 设备的 IP 地址为 `112.\*.\*.152`，则配置如下：
-![](//mccdn.qcloud.com/img56c68be5ba93c.png)
+![](https://mccdn.qcloud.com/img56c68be5ba93c.png)
 
 ### 3.2. 配置密钥
 使用以下命令打开配置文件：
@@ -66,7 +66,7 @@ vi /etc/racoon/setkey.conf
 vi /etc/racoon/psk.txt
 ```
 仍然假设您 VPC 上 VPN 网关的 IP 地址为 `112.\*.\*.251`，预共享密钥为 tes t，则 psk.txt 配置内容如下：
-![](//mccdn.qcloud.com/img56c68ca34b349.png)
+![](https://mccdn.qcloud.com/img56c68ca34b349.png)
 
 并执行以下命令：
 
@@ -84,7 +84,7 @@ vi /etc/racoon/racoon.conf
 
 仍然假设您 VPC 上 VPN 网关的 IP 地址为 `112.\*.\*.251`，您本地 VPN 设备的 IP 地址为 `112.\*.\*.152`，则 racoon.conf 配置内容如下：
 <div style="text-align:center'>
-![](//mccdn.qcloud.com/img56c68dc067617.png)
+![](https://mccdn.qcloud.com/img56c68dc067617.png)
 
 </div>
 ## 4. 启动 Ipsec-tools
@@ -106,7 +106,7 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 ```
 setkey -D
 ```
-![](//mccdn.qcloud.com/img56c68edfa569d.png)
+![](https://mccdn.qcloud.com/img56c68edfa569d.png)
 
 
 在您的 IDC 网络中需要将目的 IP 为 VPC 的 CIDR 的报文路由到您的对端 VPN 网关，即前面介绍的配置 Ipsec-tools 的机器。

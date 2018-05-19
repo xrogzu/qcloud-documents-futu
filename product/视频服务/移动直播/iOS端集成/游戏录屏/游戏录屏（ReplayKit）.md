@@ -34,11 +34,11 @@ Xcode 9及以上的版本，手机也必须升级至iOS 11以上，模拟器无�
 
 在现有工程选择“New”->"Target…"，选择“Broadcast Upload Extension"，如图所示
 
-![4](//mc.qcloudimg.com/static/img/9d18eb52c817ba14bbd707be56adb84c/image.png)
+![4](https://mc.qcloudimg.com/static/img/9d18eb52c817ba14bbd707be56adb84c/image.png)
 
 配置好Product Name，注意勾选"Include UI Extension"。点“Finish“后可以看到，工程多了两个目录，并且target也多了两个，分别是直播扩展和UI扩展。
 
-![5](//mc.qcloudimg.com/static/img/6712032a19170ea7725ae8b445c7dddc/image.png)
+![5](https://mc.qcloudimg.com/static/img/6712032a19170ea7725ae8b445c7dddc/image.png)
 
 iOS 10的Replay Kit支持两种直播方式
 
@@ -47,7 +47,7 @@ iOS 10的Replay Kit支持两种直播方式
 
 方式1延迟高，不灵活，优点是扩展app无须关心编码问题；方式2可以自定义发送的内容，可配置性高。目前SDK仅支持第二种方式。由于Xcode默认使用了方式1，因此需要修改直播扩展Info.plist到如图所示
 
-![6](//mc.qcloudimg.com/static/img/bc86b68eb7c88ceb989c8b059ce41472/image.png)
+![6](https://mc.qcloudimg.com/static/img/bc86b68eb7c88ceb989c8b059ce41472/image.png)
 
 ### 导入RTMP SDK
 

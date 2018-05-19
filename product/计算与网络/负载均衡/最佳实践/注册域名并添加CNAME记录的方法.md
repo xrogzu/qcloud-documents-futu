@@ -12,7 +12,7 @@
 
 登录腾讯云【管理中心】-【云产品】-【域名管理】-【解析】, 示例的主域名为qcloudtest.com。
 
-![](//mccdn.qcloud.com/static/img/196c66e6643ccd88eba9f8b9373a297e/image.png)
+![](https://mccdn.qcloud.com/static/img/196c66e6643ccd88eba9f8b9373a297e/image.png)
 
 ### 2.2. 添加CNAME记录
 
@@ -57,7 +57,7 @@ d. CNAME记录值主要填写空间商给您提供的域名
 
 其余值可以按照默认进行操作。添加完毕后，点击【确定】。
 
-![](//mccdn.qcloud.com/static/img/3d952308d0e576fa3a2be640b3238074/image.png)
+![](https://mccdn.qcloud.com/static/img/3d952308d0e576fa3a2be640b3238074/image.png)
 
 ### 2.3. 查看CNAME记录
 

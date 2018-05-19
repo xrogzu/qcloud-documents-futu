@@ -48,6 +48,8 @@
     * 解决方法：如发现有恶意进程，可使用`chkconfig 服务名 off`命令关闭，同时检查`/etc/rc.local`中是否有异常项目，如有请注释掉。
     * 风险性：高
 
+
+
 2. 进入 cron 文件目录，查看是否存在非法定时任务脚本
     * 检查说明：查看`/etc/crontab`，`/etc/cron.d`，`/etc/cron.daily`，`cron.hourly/`，`cron.monthly`，`cron.weekly/`是否存在可以脚本或程序。
     * 解决方法：如发现有不认识的计划任务，可定位脚本确认是否正常业务脚本，如果非正常业务脚本，可直接注释掉任务内容或删除脚本。
@@ -64,7 +66,7 @@
 
 2. 升级修复应用程序漏洞
  * 检查说明：机器被入侵，部分原因是系统使用的应用程序软件版本较老，存在较多的漏洞而没有修复，导致可以被入侵利用。
- * 解决方法：比较典型的漏洞如 ImageMagick、openssl、glibc 等，用户可以根据腾讯云已发布安全通告指导通过 apt-get/yum 等方式进行直接升级修复。
+ * 解决方法：比较典型的漏洞如 ImageMagick、openssl、glibc 等，用户可以根据已发布安全通告指导通过 apt-get/yum 等方式进行直接升级修复。
   * 风险性：高
 
 <a id="ex"></a>
@@ -115,7 +117,7 @@ find data -type d -exec chmod 770 {} \;
 netstat -anltp
 ```
 
-5. 通过 **腾讯云-安全组防火墙** 限制仅允许制定 IP 访问管理或通过编辑`/etc/hosts.deny`、`/etc/hosts.allow`两个文件来限制 IP。
+5. 通过 **安全组防火墙** 限制仅允许制定 IP 访问管理或通过编辑`/etc/hosts.deny`、`/etc/hosts.allow`两个文件来限制 IP。
 
 6. 应用程序尽量不使用 **root** 权限。
 如 Apache、Redis、MySQL、Nginx 等程序，尽量不要以 root 权限的方式运行。
@@ -128,4 +130,5 @@ netstat -anltp
     * 对重要的业务数据进行异地备份或云备份，避免主机被入侵后无法恢复。
     * 除了你的 home，root 目录外，你还应当备份 /etc 和可用于取证的 /var/log 目录。
 
-9. 安装腾讯云 **主机安全 Agent**，在发生攻击后，可以了解自身风险情况。
+9. 安装
+10.  **主机安全 Agent**，在发生攻击后，可以了解自身风险情况。

@@ -4,7 +4,7 @@
 3) 选择列表上方的地域，点击【申请】按钮。
 4) 申请结束后即可在 EIP 列表中看到您申请的 EIP。
 <div style="text-align:center">
-![](//mccdn.qcloud.com/static/img/ba977c383635c2eca9b826d7a9520194/image.png)
+![](https://mccdn.qcloud.com/static/img/ba977c383635c2eca9b826d7a9520194/image.png)
 
 </div>
 

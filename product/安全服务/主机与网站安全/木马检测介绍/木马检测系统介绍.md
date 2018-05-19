@@ -17,4 +17,4 @@ https://imgcache.qq.com/qcloud/csec/yunjing/static/ydeyes_win32.exe
 
 **安全加固组件卸载**
 Window操作系统下，请直接卸载并重装安全组件。
-![](//mccdn.qcloud.com/img56c6323482b7f.png)
+![](https://mccdn.qcloud.com/img56c6323482b7f.png)

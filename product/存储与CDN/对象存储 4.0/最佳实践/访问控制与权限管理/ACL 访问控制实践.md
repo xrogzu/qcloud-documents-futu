@@ -85,8 +85,8 @@ COS 支持一系列的预定义授权，称之为标准 ACL，下表列出了标
 ## ACL 示例
 ### 为存储桶设置 ACL
 以下示例对存储桶授予了另一个根账户的读取权限：
-![为存储桶设置 ACL](//mc.qcloudimg.com/static/img/7088f7b6c3336668b4b04f63392e069d/image.jpg)
+![为存储桶设置 ACL](https://mc.qcloudimg.com/static/img/7088f7b6c3336668b4b04f63392e069d/image.jpg)
 
 ### 为对象设置 ACL
 以下示例对某个对象授予了另一个根账户的读取权限：
-![为对象设置 ACL](//mc.qcloudimg.com/static/img/9ed379e66236d84bdd3c070e99f95e7d/image.jpg)
+![为对象设置 ACL](https://mc.qcloudimg.com/static/img/9ed379e66236d84bdd3c070e99f95e7d/image.jpg)

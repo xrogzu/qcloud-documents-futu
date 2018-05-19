@@ -21,7 +21,7 @@ background: #efefef;
 ## 基本概念
 网络访问控制列表（Access Control List，ACL）是一个子网级别无状态的可选安全层，用于控制进出子网的数据流，可以精确到协议和端口粒度。如下图所示，其规则与 <a href="https://cloud.tencent.com/doc/product/213/500" target="_blank">安全组</a> 相似。但由于网络 ACL 无状态的特性，即使设置入站规则允许某些访问，如果没有设置相应的出站规则会导致无法响应访问。
 <div style="text-align:center">
-![](//mccdn.qcloud.com/static/img/04de33187d40d6891f7e5c8da120fdc7/image.png)
+![](https://mccdn.qcloud.com/static/img/04de33187d40d6891f7e5c8da120fdc7/image.png)
 
 </div>
 ## 使用场景

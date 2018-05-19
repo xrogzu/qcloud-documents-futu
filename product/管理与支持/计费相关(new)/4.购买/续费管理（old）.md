@@ -7,7 +7,7 @@
 
 为了方便您对资源的查找，您可以根据资源所属地域、资源的到期时间范畴对资源进行筛选。
 
-![](//mc.qcloudimg.com/static/img/54d76756618ac9570ba861353cd248d2/image.png)
+![](https://mc.qcloudimg.com/static/img/54d76756618ac9570ba861353cd248d2/image.png)
 
 ## 批量资源续费
 

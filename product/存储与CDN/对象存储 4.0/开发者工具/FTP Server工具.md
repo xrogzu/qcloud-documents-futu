@@ -98,7 +98,7 @@ log_dir             = log                  # 设置日志的存放目录，默�
 python ftp_server.py
 ```
 运行命令后，见到如下图示，即代表 FTP Server 服务启动成功，您可以开始使用 FTP 客户端对配置的 IP 和端口进行访问了。
-![运行成功](//mc.qcloudimg.com/static/img/7bbb20b2ba2c6cf9678a47d8753499cc/image.png)
+![运行成功](https://mc.qcloudimg.com/static/img/7bbb20b2ba2c6cf9678a47d8753499cc/image.png)
 
 ## 停止
 `Ctrl + C`即可取消 FTP Server 运行（直接运行，或 screen 方式放在后台运行）。

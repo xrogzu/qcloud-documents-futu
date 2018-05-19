@@ -25,7 +25,7 @@ pod 'QCloudCOSXML'
 ##### 使用打包好的动态库导入
 
 将的 **QCloudCOSXML.framework和QCloudCore.framework** 拖入到工程中：
-![](//mc.qcloudimg.com/static/img/7a26a0cdbfa897ca3270ecad402ae3b4/image.png)
+![](https://mc.qcloudimg.com/static/img/7a26a0cdbfa897ca3270ecad402ae3b4/image.png)
 并添加以下依赖库：
 
 1. CoreTelephony

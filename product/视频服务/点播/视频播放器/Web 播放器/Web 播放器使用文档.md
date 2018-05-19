@@ -23,7 +23,7 @@
 点播服务开通之后，进入 [点播视频管理](https://console.cloud.tencent.com/video/videolist) 就可以上传新的视频文件，如果您没有开通点播服务，则无法操作这一步骤。
 ### step 3：获取 fileID 与 appID
 上传完视频并转码之后，您就可以在视频管理页面查到文件的 fileID ，这个是播放器播放视频的最基本信息，同时您的 appID 也可以在视频管理页面查看到。下图中的两个 ID，左边一个是视频文件的 fileID，另一个是您的 appID。
-![](//mc.qcloudimg.com/static/img/fcad44c3392b229f3a53d5f8b2c52961/image.png)
+![](https://mc.qcloudimg.com/static/img/fcad44c3392b229f3a53d5f8b2c52961/image.png)
 ## 初始化 Web 播放器
 在准备工作完成后，通过以下 3 个步骤，您就可以在您的网页上添加一个视频播放器。
 ### step 1：在页面中引入文件

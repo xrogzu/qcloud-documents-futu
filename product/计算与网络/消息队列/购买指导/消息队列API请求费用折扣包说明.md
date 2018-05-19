@@ -10,7 +10,7 @@
 **二、折扣包定价说明**
 
 
-![](//mc.qcloudimg.com/static/img/6048edf6fc829e3f9b68a7c403d6d377/image.jpg)
+![](https://mc.qcloudimg.com/static/img/6048edf6fc829e3f9b68a7c403d6d377/image.jpg)
 
 
 

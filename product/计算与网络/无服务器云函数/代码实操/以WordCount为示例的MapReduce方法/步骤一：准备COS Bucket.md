@@ -9,4 +9,4 @@
 4) 按照相同的方式创建中间阶段 Bucket `middlestagebucket`和目标 Bucket `destmr`
 
 5) 在源 Bucket（即srcmr）中，上传一个文本文件，本示例中使用了一个 [Serverless.txt](	http://srcmr-1251740579.cosgz.myqcloud.com/serverless.txt) 文本文件作为演示。（在实际关联 COS 前手动调用函数进行测试验证时，您要将包含该文件的示例数据传递给 SCF 函数，且 SCF 函数将根据该数据寻找相应的文件。因此您需要先创建此示例文件。）
-![](//mc.qcloudimg.com/static/img/a80d72a80fe68e091109271f5cdba2b7/image.png)
+![](https://mc.qcloudimg.com/static/img/a80d72a80fe68e091109271f5cdba2b7/image.png)

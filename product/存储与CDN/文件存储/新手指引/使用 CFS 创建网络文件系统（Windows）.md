@@ -5,20 +5,20 @@
 登录腾讯云官网，选择【云产品】>【计算与网络】>【云服务器】，单击【立即选购】，进入 [云服务器购买页面](https://buy.cloud.tencent.com/buy/cvm)。
 
 ### 1. 选择地域与机型
-![](//mc.qcloudimg.com/static/img/3ed8bab8cce3dde578a6e3fb14267ea5/image.png)
+![](https://mc.qcloudimg.com/static/img/3ed8bab8cce3dde578a6e3fb14267ea5/image.png)
 - 选择计费模式：包年包月或按量付费（无法购买按量付费云服务器的用户请先进行 [实名认证](https://console.cloud.tencent.com/developer/auth)）。更多信息请看 [计费模式说明](/doc/product/213/2180)。
 - 选择地域和可用区。当您需要多台云服务器时，选择不同可用区可实现容灾效果。
 - 选择机型和配置。实例类型详细说明，请参见 [实例类型概述](/doc/product/213/7153) 。
 
 ### 2. 选择镜像
-![](//mc.qcloudimg.com/static/img/56c4ecbdb12dd0a366ecf701153fce1d/image.png)
+![](https://mc.qcloudimg.com/static/img/56c4ecbdb12dd0a366ecf701153fce1d/image.png)
 - 选择镜像提供方。
 腾讯云提供公共镜像、自定义镜像、共享镜像、服务市场，您可参考 [镜像类型](/doc/product/213/4941) 文档进行选择。对于刚开始使用腾讯云的用户，推荐选择公共镜像，其中包含了正版 Windows 操作系统，后续运行环境自行搭建。
 - 选择操作系统：选择 Windows Server 。
 - 选择系统版本。
 
 ### 3. 选择存储与网络
-![](//mc.qcloudimg.com/static/img/e95a5bf7bf47c60f43dd0ee62946b67a/image.png)
+![](https://mc.qcloudimg.com/static/img/e95a5bf7bf47c60f43dd0ee62946b67a/image.png)
 - 选择硬盘类型和数据盘大小。
 腾讯云提供云硬盘和本地硬盘两种类型（均默认 50GB 系统盘，系统盘大小任选）。
  - 云硬盘：采用一盘三备的分布式存储方式，数据可靠性高。
@@ -35,7 +35,7 @@
 - 选择购买时长与续费方式（仅限包年包月云服务器）。
 
 ### 4. 设置信息
-![](//mc.qcloudimg.com/static/img/fbc4230b5e6a19ef6ec60ffebfc62aaa/image.png)
+![](https://mc.qcloudimg.com/static/img/fbc4230b5e6a19ef6ec60ffebfc62aaa/image.png)
 - 命名主机：您可选择创建后命名，也可立即命名。
 - 登录信息设置：您可设置密码，也可自动生成。设置的密码可在创建后修改，自动生成的密码将会以站内信方式发送。
 - 选择安全组（**确保登录端口 3389 开放**，更多信息见 [安全组](/doc/product/213/5221)） 。
@@ -48,7 +48,7 @@
 ## 二、创建文件系统及挂载点
 
 1. 进入腾讯云 [控制台](https://console.cloud.tencent.com/)，单击【云产品】>【存储】>【文件存储】，即可进入 CFS 控制台。
-![](//mc.qcloudimg.com/static/img/4fee6ea61cfba11927f6891527237610/image.png)
+![](https://mc.qcloudimg.com/static/img/4fee6ea61cfba11927f6891527237610/image.png)
 
 2. 在腾讯云 CFS 控制台，单击【新建】，弹出创建文件系统弹窗。在创建文件系统弹窗中填写相关信息，确认无误后，单击【确定】即可创建文件系统。
 ![](https://main.qcloudimg.com/raw/3797c04469bf0da994d2e2876a2a39ad.png)
@@ -83,9 +83,9 @@ CIFS/SMB 文件系统挂载点信息如下:
    
 **控制台登录云服务器**
 1. 在云服务器列表的操作列，单击【登录】按钮即可通过 VNC 连接至 Windows 云服务器。
-![](//mc.qcloudimg.com/static/img/d017c67c9f447c1441cf74ed4ac2b279/image.png)
+![](https://mc.qcloudimg.com/static/img/d017c67c9f447c1441cf74ed4ac2b279/image.png)
 2. 通过单击左上角发送【Ctrl-Alt-Delete】命令进入系统登录界面。
-![](//mc.qcloudimg.com/static/img/e4dbc02ca9ae2a7cb9ada5316effd31a/image.png)
+![](https://mc.qcloudimg.com/static/img/e4dbc02ca9ae2a7cb9ada5316effd31a/image.png)
 3. 输入帐号（Administrator）和密码即可登录。
 
 >**注意：**
@@ -231,8 +231,8 @@ umount X：
 ## 五、终止资源
 您可以从腾讯云控制台轻松终止 CVM 实例和文件系统。事实上，最好终止不再使用的资源，以免继续为其付费。
 1. 终止腾讯云实例。进入腾讯云云服务器 [控制台](https://console.cloud.tencent.com/cvm/index)，选中需要终止的实例，单击【更多】>【云主机状态】，可以选中【销毁】以终止 CVM 实例。
-![](//mc.qcloudimg.com/static/img/76c588284e3b525702d748b5cd7b8b00/image.png)
+![](https://mc.qcloudimg.com/static/img/76c588284e3b525702d748b5cd7b8b00/image.png)
 2. 终止文件系统。进入腾讯云文件存储 [控制台](https://console.cloud.tencent.com/cfs)，选中需要终止的文件系统，单击【删除】并【确认】，即可删除文件系统。
-![](//mc.qcloudimg.com/static/img/28cade4807a283ffdcb1fc2a39a7ad88/image.png)
+![](https://mc.qcloudimg.com/static/img/28cade4807a283ffdcb1fc2a39a7ad88/image.png)
 
 

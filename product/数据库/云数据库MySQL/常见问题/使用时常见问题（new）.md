@@ -93,9 +93,9 @@ MySQL 实例的配置由云数据库统一管理，并支持部分参数的自�
 
 1. 命令行方式
 以下变量可以单击“进入管理中心”，进入[总览页面](https://console.cloud.tencent.com/)：
-![总览](//mc.qcloudimg.com/static/img/e3b4a1474b5d47ded82b5f2c3b534caf/image.png)
+![总览](https://mc.qcloudimg.com/static/img/e3b4a1474b5d47ded82b5f2c3b534caf/image.png)
 在”使用中的云产品“下拉菜单下单击“云数据库”，进入[MySQL-实例列表](https://console.cloud.tencent.com/cdb)：
-![管理](//mc.qcloudimg.com/static/img/ca4c7858bcf89a2d0fe97fdcd4754e42/image.png)
+![管理](https://mc.qcloudimg.com/static/img/ca4c7858bcf89a2d0fe97fdcd4754e42/image.png)
 单击管理列表下的参数设置，其中常见的 var\_name 包括如下变量：
 <table class="t">
 <tbody><tr>
@@ -136,7 +136,7 @@ MySQL 实例的配置由云数据库统一管理，并支持部分参数的自�
 </td></tr></tbody></table>
 2. phpMyAdmin 控制台方式
 通过 phpMyAdmin 登录云数据库后，单击上面菜单中的【变量】，在下面的变量列表中，单击需要修改的变量对应的【编辑】按钮，对其进行修改后单击【保存】。
-![](//mc.qcloudimg.com/static/img/dbe6b04b221424dc11fedd1507e03f09/image.png)
+![](https://mc.qcloudimg.com/static/img/dbe6b04b221424dc11fedd1507e03f09/image.png)
 更多请参考 [云数据库可以修改的配置](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/cdb_user_modify_var.xls)。
 
 ## 22. 云数据库的连接数有限制吗？
@@ -149,10 +149,10 @@ MySQL 实例的配置由云数据库统一管理，并支持部分参数的自�
 云数据库的慢查询时间（long\_query\_time）的默认值是 10 秒，用户可以自行修改，命令跟配置参数的命令行方式一样,详见[数据库MySQL](https://cloud.tencent.com/document/product/236)，在参数配置里可修改。
 点击“进入管理中心”，进入[总览页面](https://console.cloud.tencent.com/)：
 
-![总览](//mc.qcloudimg.com/static/img/33ad26ed6b2fde8caad10566c7e21206/image.png)
+![总览](https://mc.qcloudimg.com/static/img/33ad26ed6b2fde8caad10566c7e21206/image.png)
 在”使用中的云产品“下拉菜单下单击“云数据库”，进入[MySQL-实例列表](https://console.cloud.tencent.com/cdb)：
 
-![管理](//mc.qcloudimg.com/static/img/0513c3baad993254f80fbd0be0825f96/image.png)
+![管理](https://mc.qcloudimg.com/static/img/0513c3baad993254f80fbd0be0825f96/image.png)
 
 单击管理列表下的参数设置，修改的变量如下：
 <table>

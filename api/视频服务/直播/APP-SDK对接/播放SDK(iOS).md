@@ -36,7 +36,7 @@ _txLivePlayer = [[TXLivePlayer alloc] init];
 step2中的示例代码有一个叫做_myView参数，该参数的作用就是指定视频图像的渲染区域：SDK会在_myView之上构建一个图像控件用于实时渲染视频画面。
 
 如果您想要在渲染画面之上实现弹幕、献花之类的UI控件，可以如下图这般创建一个与_myView平级的兄弟view，并将其叠加在_myView之上，简言之，让_myView只用来渲染对于编写清晰的UI代码会比较有帮助。
- ![](//mccdn.qcloud.com/static/img/75b41bd0e9d8a6c2ec8406dc706de503/image.png)
+ ![](https://mccdn.qcloud.com/static/img/75b41bd0e9d8a6c2ec8406dc706de503/image.png)
 
 如果您想要调整渲染界面的大小，只需要调整myView的大小就可以了，内部的视频画面会跟随myView的大小变化而自动地适应。
 
@@ -59,7 +59,7 @@ NSString* flvUrl = @"http://2157.liveplay.myqcloud.com/live/2157_xxxx.flv";
 
 ### step 5: 填充&适应&旋转
 如果你希望调整画面的显示方式，SDK也提供了多种选择：
-![](//mc.qcloudimg.com/static/img/ef948faaf1d62e8ae69e3fe94ab433dc/image.png)
+![](https://mc.qcloudimg.com/static/img/ef948faaf1d62e8ae69e3fe94ab433dc/image.png)
 
 - **setRenderMode**
 

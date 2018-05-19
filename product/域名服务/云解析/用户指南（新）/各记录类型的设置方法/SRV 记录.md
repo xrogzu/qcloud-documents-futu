@@ -10,5 +10,5 @@ SRV 记录用来标识某台服务器使用了某个服务，常见于微软系�
 记录生成后会自动在域名后面补一个“.”，这是正常现象。
 5. MX 优先级不需要填写。
 6. TTL 不需要填写，添加时系统会自动生成，默认为 600 秒（TTL 为缓存时间，数值越小，修改记录各地生效时间越快）。
-![](//mc.qcloudimg.com/static/img/afcb502b0484cd24b71229c01b27af02/image.png)
+![](https://mc.qcloudimg.com/static/img/afcb502b0484cd24b71229c01b27af02/image.png)
 

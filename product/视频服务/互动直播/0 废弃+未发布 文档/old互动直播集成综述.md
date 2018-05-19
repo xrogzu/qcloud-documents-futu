@@ -56,14 +56,14 @@ AVSDK提供摄像头采集、编码、解码、美颜等一系列功能（下图
 
 4.通知业务服务器创建房间完成
 
-![图示：创建房间交互流程](//mccdn.qcloud.com/static/img/682b59a66ee6dfd391f1b5841320b799/image.png)
+![图示：创建房间交互流程](https://mccdn.qcloud.com/static/img/682b59a66ee6dfd391f1b5841320b799/image.png)
 
 ## 观众进入房间交互逻辑
 在主播完成房间创建后，业务直播平台已经有当前正在直播的房间列表。观众在登陆后可以看到该房间列表点击后进入房间，可发IM消息或者业务逻辑通知给其他已经在看的观众和主播。详细流程图如下：
 
 **注意：AVSDK不提供观众进入直播间通知，且不维护房间成员数及列表，可使用IMSDK实现或业务自行实现（见示意图虚线部分）**
 
-![图示：观众进入房间交互](//mccdn.qcloud.com/static/img/cc9e2d826186c7e7af274d72827ca5ad/image.png)
+![图示：观众进入房间交互](https://mccdn.qcloud.com/static/img/cc9e2d826186c7e7af274d72827ca5ad/image.png)
 
 ## 观众主播IM消息交互逻辑
 观众正在欣赏主播表演同时，可以和主播进行IM互动，进行聊天、送花和送礼物等其它操作
@@ -75,7 +75,7 @@ AVSDK提供摄像头采集、编码、解码、美颜等一系列功能（下图
 
 **当直播间内成员较多时，较大消息量可能会引起主播性能问题，业务侧需要优化渲染策略，同时互动直播云（IMSDK）可控制消息频率**
 
-![图示：IM及其他消息互动](//mccdn.qcloud.com/static/img/85ec89b3af73dfad66491abdd75f3f8a/image.png)
+![图示：IM及其他消息互动](https://mccdn.qcloud.com/static/img/85ec89b3af73dfad66491abdd75f3f8a/image.png)
 
 ## 观众退出房间交互逻辑
 观众退出房间时，也需要通知给主播和其它的观众，相关流程可参考[观众进入房间交互逻辑]()
@@ -89,7 +89,7 @@ AVSDK提供摄像头采集、编码、解码、美颜等一系列功能（下图
 
 流程图如下：
 
-![图示：主播退出房间交互](//mccdn.qcloud.com/static/img/1756876dc4b82627d695511d6bd81c1d/image.png)
+![图示：主播退出房间交互](https://mccdn.qcloud.com/static/img/1756876dc4b82627d695511d6bd81c1d/image.png)
 
 
 ## 视频连麦
@@ -98,7 +98,7 @@ AVSDK提供摄像头采集、编码、解码、美颜等一系列功能（下图
 可下载随心播进行体验，并可参考随心播封装代码（[Android下载](http://android.myapp.com/myapp/detail.htm?apkName=com.tencent.qcloud.suixinbo)、[iOS下载](https://itunes.apple.com/cn/app/sui-xin-bo/id1037944078?mt=8))
 
 上麦的实现流程如下：
-![邀请上麦](//mccdn.qcloud.com/static/img/94595a0b1a426415c39b4e81e085c255/image.png)
+![邀请上麦](https://mccdn.qcloud.com/static/img/94595a0b1a426415c39b4e81e085c255/image.png)
 **注意**
 - 邀请A上麦需要发点多点的消息（可使用云通信IMSDK的单聊消息，用CustomElem实现
 - 一定要在A完成上麦（开麦克风、摄像头，上传本地画面）完成后，再发送上麦广播通知
@@ -106,7 +106,7 @@ AVSDK提供摄像头采集、编码、解码、美颜等一系列功能（下图
 
 
 下麦的实现流程如下：
-![A下麦](//mccdn.qcloud.com/static/img/29b14a667d287144e6612262ac39ba4f/image.png)
+![A下麦](https://mccdn.qcloud.com/static/img/29b14a667d287144e6612262ac39ba4f/image.png)
 **注意**
 - 主播和观众A下麦都需要考虑（代码中要做好保护）
 - 下麦的广播通知和下麦者关闭本地视频上传可同时进行（但建议先发出下麦通知，再关闭本地画面）

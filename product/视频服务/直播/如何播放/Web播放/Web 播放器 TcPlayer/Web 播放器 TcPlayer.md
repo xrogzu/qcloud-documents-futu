@@ -13,7 +13,7 @@
 Web 播放器的视频播放能力本身不是网页代码实现的，而是靠浏览器的支持，所以其兼容性并不像我们想象的那么好，您必须要接受一个事实：**不是所有的手机浏览器都能有符合预期的表现**，有些手机浏览器甚至根本就不支持视频播放。最常见的用于网页直播的视频源地址是以 m3u8 结尾的地址，我们称其为 HLS (HTTP Live Streaming)，这是苹果推出的标准，由于苹果的影响力，目前各手机浏览器产品对这种格式的兼容性最好，但它有个天然的问题，就是延迟比较大，一般是 20-30 秒左右的延迟，在手机浏览器上我们并没有其它选择。
 
  在 PC 上情况会好很多，因为 PC 上的浏览器目前还没有抛弃 flash 控件，而 flash 控件不追求洁癖，支持的视频源格式挺多的，而且各浏览器上的 flash 控件都是 Adobe 自己开发，所以兼容性非常好。
-![](//mc.qcloudimg.com/static/img/ea4a95c7a0c8d88c7b6557277510efea/image.png)
+![](https://mc.qcloudimg.com/static/img/ea4a95c7a0c8d88c7b6557277510efea/image.png)
 
 ## 对接攻略
 
@@ -42,7 +42,7 @@ Web 播放器的视频播放能力本身不是网页代码实现的，而是靠�
 ```
 http://2157.liveplay.myqcloud.com/2157_358535a.m3u8      // m3u8播放地址
 ```
-![](//mc.qcloudimg.com/static/img/7923a14be5525bd37719c18d54243403/image.png)
+![](https://mc.qcloudimg.com/static/img/7923a14be5525bd37719c18d54243403/image.png)
 我们现在要在手机浏览器上播放这个 URL 的视频，javascript 代码如下：
 
 ```javascript
@@ -126,7 +126,7 @@ http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-cover.html
 ### Step 5：多清晰度的支持
 #### 5.1 原理介绍
 我们知道优酷、土豆、腾讯上的视频有些是有多清晰度选择的，这个效果如何实现呢？
-![](//mc.qcloudimg.com/static/img/5769d1bd31db2d9ed258d0bf62be3f0f/image.png)
+![](https://mc.qcloudimg.com/static/img/5769d1bd31db2d9ed258d0bf62be3f0f/image.png)
 **播放器本身是没有能力去改变视频的清晰度的**，在视频源产生的地方其实只有一种清晰度，我们称之为原画，而原画视频编码格式和封装格式有很多种，在 Web 端无法完全支持播放所有的视频格式，点播支持必须是以 H.264 为视频编码，以 mp4、FLV 为封装格式的视频。
 
 那么多清晰度是怎么实现的呢？ 这里就是视频云发挥作用的地方了：
@@ -166,7 +166,7 @@ var player = new TcPlayer('id_test_video', {
 http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-clarity.html?autoplay=true
 ```
 正常情况将看到这样的效果：
-![](//mc.qcloudimg.com/static/img/68c513d931214e86549dd9c0426efe04/image.png)
+![](https://mc.qcloudimg.com/static/img/68c513d931214e86549dd9c0426efe04/image.png)
 **PC 端现已支持多种清晰度播放并支持切换的功能，移动端尚未支持。**
 
 ### Step 6：定制错误提示语
@@ -361,9 +361,9 @@ Flash 模式下特有的事件：`netStatus`
 
 在非自动播放的条件下，加载视频至待播放状态，移动端和 PC Flash 触发的事件区别。
 **移动端：**
-![移动端](//mc.qcloudimg.com/static/img/ddf4e9ff5998dc84b1887fba0e94d446/image.png)
+![移动端](https://mc.qcloudimg.com/static/img/ddf4e9ff5998dc84b1887fba0e94d446/image.png)
 **PC Flash：**
-![PC Flash](//mc.qcloudimg.com/static/img/f49d8aa8ef678b63ac73e69f254c20bb/image.png)
+![PC Flash](https://mc.qcloudimg.com/static/img/f49d8aa8ef678b63ac73e69f254c20bb/image.png)
 
 **备注：以上是两种平台的差异，然而在移动端的各种设备和 App 之间同样存在差异。**
 

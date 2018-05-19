@@ -59,7 +59,7 @@ CDB for SQL Server 提供包年包月（预付费）模式。
 2.根据需要选择目标规格，并支付响应费用，成功后系统将自动升级实例规格
 
 **升级弹窗**
- ![](//mccdn.qcloud.com/static/img/4d6921e8a3253856bf056d96684bc911/image.png)
+ ![](https://mccdn.qcloud.com/static/img/4d6921e8a3253856bf056d96684bc911/image.png)
 
 ### 升级费用
 
@@ -75,7 +75,7 @@ CDB for SQL Server 提供包年包月（预付费）模式。
 
 1.在“管理中心—云数据库—SQLServer—续费”中选择选择相应的实例，点击“续费”或“批量续费”
 2.在“用户中心->续费管理 ->云数据库（SQL SERVER）”待续费项，选择选择相应的实例，点击“续费”或“批量续费”，如下图：
-![](//mccdn.qcloud.com/static/img/83e3996b0c4d0fe59cbd9bf83fbc8b72/image.png)
+![](https://mccdn.qcloud.com/static/img/83e3996b0c4d0fe59cbd9bf83fbc8b72/image.png)
 3.在“用户中心->续费管理 ->云数据库（SQL SERVER）”待续费项中，也选择响应的实例，支持自动续费，或到期不续费等操作。
 
 ### 续费费用

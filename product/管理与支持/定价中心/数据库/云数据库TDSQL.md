@@ -128,7 +128,7 @@ CDB for TDSQL 目前提供多种实例版本，关于更多版本详情，请参
 1.在“管理中心>云数据库>TDSQL”中选择选择相应的实例，点击“升级”，弹出升级弹窗
 2.根据需要选择目标规格，并支付响应费用，成功后系统将自动升级实例规格
 升级界面如下：
-![](//mccdn.qcloud.com/static/img/d5916ce64bd27d051a305476c0191449/image.png)
+![](https://mccdn.qcloud.com/static/img/d5916ce64bd27d051a305476c0191449/image.png)
 
 【注意事项】
 
@@ -145,15 +145,15 @@ CDB for TDSQL 目前提供多种实例版本，关于更多版本详情，请参
 
 #### 新增分片
 进入管理中心>分布式云数据库，点击“新增分片”按钮，通过弹出选择新增分片的规格和数量，即可升级。
-![](//mccdn.qcloud.com/static/img/b9cff4d43c31ffac56b2296945ac2337/image.png)
-![](//mccdn.qcloud.com/static/img/6742591dcd12c8f56e6a11cdf0670e79/image.png)
+![](https://mccdn.qcloud.com/static/img/b9cff4d43c31ffac56b2296945ac2337/image.png)
+![](https://mccdn.qcloud.com/static/img/6742591dcd12c8f56e6a11cdf0670e79/image.png)
 
 #### 升级分片
 升级分片指不增加分片数量，但将单个分片的规格升级到更大。** 当前版本暂不支持该能力，计划后续支持。**
 
 1.进入管理中心>分布式云数据库，点击“管理”按钮，进入管理页面，选择分片管理，点击需要升级的分片，即可升级。
-![](//mccdn.qcloud.com/static/img/d77ef38bc7becc785decbd51fd285b84/image.png)
-![](//mccdn.qcloud.com/static/img/0bb016e4be65e8865a86cd4f4eb20c59/image.png)
+![](https://mccdn.qcloud.com/static/img/d77ef38bc7becc785decbd51fd285b84/image.png)
+![](https://mccdn.qcloud.com/static/img/0bb016e4be65e8865a86cd4f4eb20c59/image.png)
 
 ## 续费指导
 
@@ -161,7 +161,7 @@ CDB for TDSQL 目前提供多种实例版本，关于更多版本详情，请参
 
 1.在“管理中心—云数据库—TDSQL—续费”中选择选择相应的实例，点击“续费”或“批量续费”
 2.在“用户中心->续费管理 ->云数据库（TDSQL）”待续费项，选择选择相应的实例，点击“续费”或“批量续费”，如下图：
-![](//mccdn.qcloud.com/static/img/ac67608a62020ce34e84c7e985eafc0a/image.png)
+![](https://mccdn.qcloud.com/static/img/ac67608a62020ce34e84c7e985eafc0a/image.png)
 3.在“用户中心->续费管理 ->云数据库（TDSQL）”待续费项中，也选择响应的实例，支持自动续费，或到期不续费等操作。
 
 ### 续费费用

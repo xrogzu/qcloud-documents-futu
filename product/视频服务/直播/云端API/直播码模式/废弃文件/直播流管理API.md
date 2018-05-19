@@ -1,5 +1,5 @@
 ## 与腾讯云后台通讯
-![](//mc.qcloudimg.com/static/img/bb38ba7d007910df41b2775a63c6e0d3/image.png)
+![](https://mc.qcloudimg.com/static/img/bb38ba7d007910df41b2775a63c6e0d3/image.png)
 
 您的服务器与腾讯云服务器的信息同步可以通过两种方式组合实现：
 - **API 调用**：腾讯云提供了一组直播码管理API，包括状态查询和状态管理等功能，供您的后台服务器调用。
@@ -41,7 +41,7 @@
 
 - **sign（安全签名）**:  <font color='blue'>sign = MD5(key + t) </font>，即把加密key 和 t 进行字符串拼接后，计算一下md5值。这里的key即CGI调用key，您在腾讯云直播管理[控制台](https://console.cloud.tencent.com/live/livecodemanage) 中可以进行设置：
 
-![](//mc.qcloudimg.com/static/img/e5034b47cead66be46b1f81a1fea8274/image.png)
+![](https://mc.qcloudimg.com/static/img/e5034b47cead66be46b1f81a1fea8274/image.png)
 
 - **安全原理**
 由于MD5是不可逆的HASH算法，所以只要确保KEY不泄露，即使攻击者拿到很多对t和sign也无法反算出KEY值，进而无法进行伪装攻击。

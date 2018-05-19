@@ -127,7 +127,6 @@
 - **ModifyCbsStorageAttributes ：**修改指定云硬盘的名称或项目 ID。
 - **DescribeCbsStorages ：**查询云硬盘的详细信息性。
 - **DescribeInstancesCbsNum ：**查询云主机已挂载的弹性云盘数量和可挂载的弹性云盘的总数。
-- **RenewCbsStorage ：**续费指定的弹性云盘。
 - **ResizeCbsStorage ：**扩容指定的弹性云盘。
 
 以下策略不允许用户修改云硬盘属性。
@@ -277,5 +276,4 @@
 Action中换成您要进行允许或拒绝的操作。
 Resource中换成您要授权的具体资源。
 Effect中换成允许或者拒绝。
-
 

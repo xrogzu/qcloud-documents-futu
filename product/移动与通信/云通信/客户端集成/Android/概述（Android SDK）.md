@@ -155,11 +155,11 @@ ImSDK 中会话（Conversation）分为两种：
 
 如下图所示，一个会话表示与一个好友的对话。
 
-![](//mccdn.qcloud.com/static/img/6a12c1ea947e7b36a7abe25e55c33608/image.jpg)
+![](https://mccdn.qcloud.com/static/img/6a12c1ea947e7b36a7abe25e55c33608/image.jpg)
 
 **消息：**ImSDK 中消息（Message）表示要发送给对方的内容，消息包括若干属性，如是否自己已读，是否已经发送成功，发送人帐号，消息产生时间等。一条消息由若干 `Elem` 组合而成，每种 `Elem` 可以是文本、图片、表情等等，消息支持多种 `Elem` 组合发送。
 
-![](//avc.qcloud.com/wiki2.0/im/imgs/20151012094526_95348.png)
+![](https://avc.qcloud.com/wiki2.0/im/imgs/20151012094526_95348.png)
 
 **群组 ID：**群组 ID 唯一标识一个群，由后台生成，创建群组时返回。
 

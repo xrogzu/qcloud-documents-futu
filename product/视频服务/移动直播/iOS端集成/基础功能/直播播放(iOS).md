@@ -8,7 +8,7 @@
 
 - **协议的支持**
 通常使用的直播协议如下，APP端推荐使用 FLV 协议的直播地址(以“http”打头，以“.flv”结尾)：
-![](//mc.qcloudimg.com/static/img/94c348ff7f854b481cdab7f5ba793921/image.jpg)
+![](https://mc.qcloudimg.com/static/img/94c348ff7f854b481cdab7f5ba793921/image.jpg)
 
 ## 特别说明
 - **是否有限制？**
@@ -37,7 +37,7 @@ TXLivePlayer _txLivePlayer = [[TXLivePlayer alloc] init];
 
 如果您要调整渲染画面的大小，只需要调整你所常见的 view 的大小和位置即可，SDK 会让视频画面跟着您的 view 的大小和位置进行实时的调整。
 
-![](//mccdn.qcloud.com/static/img/75b41bd0e9d8a6c2ec8406dc706de503/image.png)
+![](https://mccdn.qcloud.com/static/img/75b41bd0e9d8a6c2ec8406dc706de503/image.png)
  
 > **如何做动画？**
 > 针对view做动画是比较自由的，不过请注意此处动画所修改的目标属性应该是 <font color='red'>transform</font> 属性而不是 frame 属性。
@@ -83,7 +83,7 @@ NSString* flvUrl = @"http://2157.liveplay.myqcloud.com/live/2157_xxxx.flv";
 | RENDER_ROTATION_PORTRAIT | 正常播放（Home键在画面正下方） | 
 | RENDER_ROTATION_LANDSCAPE | 画面顺时针旋转270度（Home键在画面正左方） | 
 
-![](//mc.qcloudimg.com/static/img/ef948faaf1d62e8ae69e3fe94ab433dc/image.png)
+![](https://mc.qcloudimg.com/static/img/ef948faaf1d62e8ae69e3fe94ab433dc/image.png)
 
 
 ### step 5: 暂停播放
@@ -132,12 +132,12 @@ NSString* flvUrl = @"http://2157.liveplay.myqcloud.com/live/2157_xxxx.flv";
 ### step 8: 屏幕截图
 通过调用 **snapshot** 您可以截取当前直播画面为一帧屏幕，此功能只会截取当前直播流的视频画面，如果您需要截取当前的整个 UI 界面，请调用 iOS 的系统 API 来实现。
 
-![](//mc.qcloudimg.com/static/img/f63830d29c16ce90d8bdc7440623b0be/image.jpg)
+![](https://mc.qcloudimg.com/static/img/f63830d29c16ce90d8bdc7440623b0be/image.jpg)
 
 ### step 9: 截流录制
 截流录制是直播播放场景下的一种扩展功能：观众在观看直播时，可以通过点击录制按钮把一段直播的内容录制下来，并通过视频分发平台（比如腾讯云的点播系统）发布出去，这样就可以在微信朋友圈等社交平台上以 UGC 消息的形式进行传播。
 
-![](//mc.qcloudimg.com/static/img/2963b8f0af228976c9c7f2b11a514744/image.png)
+![](https://mc.qcloudimg.com/static/img/2963b8f0af228976c9c7f2b11a514744/image.png)
 
 ```objectivec
 //如下代码用于展示直播播放场景下的录制功能

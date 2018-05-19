@@ -8,7 +8,7 @@
 
 - **协议的支持**
  通常使用的点播协议如下，现在比较流行的是HLS(以“http”打头，以“.m3u8”结尾)的点播地址：
-![](//mc.qcloudimg.com/static/img/4b42a00bb7ce2f58f362f35397734177/image.jpg)
+![](https://mc.qcloudimg.com/static/img/4b42a00bb7ce2f58f362f35397734177/image.jpg)
 
 ## 特别说明
 视频云 SDK  <font color='red'>**不会对**</font> 播放地址的来源做限制，即您可以用它来播放腾讯云或非腾讯云的播放地址。但视频云 SDK 中的播放器只支持 FLV 、RTMP 和 HLS（m3u8）三种格式的直播地址，以及 MP4、 HLS（m3u8）和 FLV 三种格式的点播地址。
@@ -77,7 +77,7 @@ mVodPlayer.startPlay(authBuilder);
 | RENDER_ROTATION_PORTRAIT | 正常播放（Home键在画面正下方） | 
 | RENDER_ROTATION_LANDSCAPE | 画面顺时针旋转270度（Home键在画面正左方） | 
 
-![](//mc.qcloudimg.com/static/img/ef948faaf1d62e8ae69e3fe94ab433dc/image.png)
+![](https://mc.qcloudimg.com/static/img/ef948faaf1d62e8ae69e3fe94ab433dc/image.png)
 
 
 ### step 5: 播放控制
@@ -110,7 +110,7 @@ stopPlay 的布尔型参数含义为—— “是否清除最后一帧画面”�
 ### step 7: 屏幕截图
 通过调用 **snapshot** 您可以截取当前视频为一帧画面，此功能只会截取当前直播流的视频画面，如果您需要截取当前的整个 UI 界面，请调用 Android 的系统 API 来实现。
 
-![](//mc.qcloudimg.com/static/img/f63830d29c16ce90d8bdc7440623b0be/image.jpg)
+![](https://mc.qcloudimg.com/static/img/f63830d29c16ce90d8bdc7440623b0be/image.jpg)
 
 ```java
 mVodPlayer.snapshot(new ITXSnapshotListener() {
@@ -126,7 +126,7 @@ mVodPlayer.snapshot(new ITXSnapshotListener() {
 ### step 8: 变速播放
 点播播放器支持变速播放，通过接口`setRate`设置点播播放速率来完成，支持快速与慢速播放，如0.5X、1.0X、1.2X、2X等。
 
-![](//mc.qcloudimg.com/static/img/8666305d62167cfb7c1e670d14fbd689/image.png)
+![](https://mc.qcloudimg.com/static/img/8666305d62167cfb7c1e670d14fbd689/image.png)
 
  ```java
 //如下代码用于展示点播倍速播放
@@ -168,7 +168,7 @@ mVodPlayer.startPlay(playUrl);                         
 
 这就是视频播放中无缝切换的背后技术支撑，您可以使用 TXVodPlayer 中的 setAutoPlay 开关来实现这个功能，具体做法如下：
 
-![](//mc.qcloudimg.com/static/img/7331417ebbdfe6306fe96f4b76c8d0ad/image.jpg)
+![](https://mc.qcloudimg.com/static/img/7331417ebbdfe6306fe96f4b76c8d0ad/image.jpg)
 
 ```java
 // 播放视频A: 如果将 autoPlay 设置为 true， 那么 startPlay 调用会立刻开始视频的加载和播放
@@ -231,7 +231,7 @@ ArrayList<TXBitrateItem> bitrates = mVodPlayer.getSupportedBitrates(); //获取�
 
 您可以为 TXVodPlayer 对象绑定一个 **TXVodPlayerListener** 监听器，进度通知会通过 **PLAY_EVT_PLAY_PROGRESS** 事件回调到您的应用程序，该事件的附加信息中即包含上述两个进度指标。
 
-![](//mc.qcloudimg.com/static/img/6ac5e2fe87e642e6c2e6342d72464f4a/image.png)
+![](https://mc.qcloudimg.com/static/img/6ac5e2fe87e642e6c2e6342d72464f4a/image.png)
 
 ```java
 public void onPlayEvent(int event, Bundle param) {

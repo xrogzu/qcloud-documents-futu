@@ -8,7 +8,7 @@
 2. 到 [控制台密钥管理](https://console.qcloud.com/capi) 获取您的项目 SecretId 和 SecretKey
 3. 配置 CORS 规则，配置例子如下图：
 
-![cors](cors.png)
+![cors](https:cors.png)
 
 ## 二、计算签名
 
@@ -113,7 +113,7 @@ Ajax 上传需要浏览器支持基本的 Html5 特性，当前方案使用的�
 
 执行效果如下图：
 
-![Ajax 上传](upload_1.png)
+![Ajax 上传](https:upload_1.png)
 
 ### 方案B：使用 form 表单上传
 
@@ -229,7 +229,7 @@ Form 表单上传可以支持低版本的浏览器比如 ie8 的上传，当前�
 
 执行效果如下图：
 
-![Form 表单上传](upload_2.png)
+![Form 表单上传](https:upload_2.png)
 
 ## 相关文档
 

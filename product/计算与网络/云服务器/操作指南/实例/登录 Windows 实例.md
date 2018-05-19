@@ -11,8 +11,8 @@
 
 - 管理员账号：对于 Windows 类型的实例，管理员帐号统一为 **Administrator** 
 - 密码：
-  - 若用户在启动实例时选择【自动生成密码】，则初始密码由系统随机分配。您可以登录 [腾讯云控制台](https://cloud.tencent.com/login) ，单击右侧站内信按钮，查收新购买的服务器，页面中将包含云主机登录管理员帐号及初始密码，如下图所示。
-  ![](//mc.qcloudimg.com/static/img/9c289677e1d79bafb13bd3692ec4f363/image.png)
+  - 若用户在启动实例时选择【自动生成密码】，则初始密码由系统随机分配。您可以登录 [云平台控制台](https://cloud.tencent.com/login) ，单击右侧站内信按钮，查收新购买的服务器，页面中将包含云主机登录管理员帐号及初始密码，如下图所示。
+  ![](https://mc.qcloudimg.com/static/img/9c289677e1d79bafb13bd3692ec4f363/image.png)
 
   - 若用户在启动实例时选择【自定义密码】，则密码为用户在购买云服务器实例时指定的密码。有关密码的更多内容，请参考 [登录密码](/doc/product/213/6093) 。
 
@@ -24,11 +24,11 @@
 1. 在本地 Windows 机器上，单击【开始菜单】-【Run】，输入 `mstsc` 命令，即可打开远程桌面连接对话框。
 
 2. 在输入框输入 Windows 服务器的公网 IP（登录 [云服务器控制台](https://console.cloud.tencent.com) 可查看云服务器的公网 IP），如下图所示：
-![](//mccdn.qcloud.com/img56b1a11a3c31f.png)
+![](https://mccdn.qcloud.com/img56b1a11a3c31f.png)
 
 3. 单击【连接】，在新打开的界面中输入前提条件中获取的管理员账号和对应的密码，如下图所示：
-![](//mccdn.qcloud.com/static/img/878a0e8ef1a0bcc51ad5de2bcce4e353/image.png)
-![](//mccdn.qcloud.com/static/img/e140d3151ac8747014313b33e6413568/image.png)
+![](https://mccdn.qcloud.com/static/img/878a0e8ef1a0bcc51ad5de2bcce4e353/image.png)
+![](https://mccdn.qcloud.com/static/img/e140d3151ac8747014313b33e6413568/image.png)
 
 4. 单击【确定】，即可登录到 Windows 实例。
 
@@ -81,24 +81,3 @@ Microsoft Remote Desktop for Mac 下载指引参见 [用于 Mac OS 的远程登�
 >**注意：**
 >如果登录失败，请检查您的云服务器实例是否允许 3389 端口的入流量。端口的查看请参考 [安全组](/doc/product/213/5221) ,若您的云服务器处于 [私有网络](/doc/product/213/5227) 环境下，请同时查看相关子网的 [网络ACL](/doc/product/215/5132) 。  
 
-## 使用 VNC 登录
-### 登录工具
-VNC登陆是腾讯云为用户提供的一种通过 Web 浏览器远程连接云服务器的方式。在没有安装远程登陆客户端或者客户端远程登陆无法使用的情况下，用户可以通过 VNC 登陆连接到云服务器，观察云服务器状态，并且可通过云服务器账户进行基本的云服务器管理操作。
-
-VNC登陆的场景至少包括以下几种:
-- 查看云服务器的启动进度
-- 无法通过客户端 SSH 或 mstsc 登录时，通过 VNC 登陆来登录服务器 
-
-### 操作步骤
-1. 登录 [云服务器控制台](https://console.cloud.tencent.com) 。
-
-2. 在云服务器列表的操作列，点击【登录】按钮即可通过 VNC 连接至  Windows 云服务器。
-![](//mccdn.qcloud.com/img56b1a6cb7b3e8.png)
-
-3. 通过在左上角单击 Ctrl - Alt - Del 命令进入系统登录界面：
-![](//mccdn.qcloud.com/img56b1a6ff2e305.png)
-
->**注意：**
->- 该终端为独享，即同一时间只有一个用户可以使用VNC登录。
->- 要正常使用VNC登录，需要使用现代浏览器，如：chrome，firefox，IE10及以上版本等。
->- 暂不支持文件上传下载

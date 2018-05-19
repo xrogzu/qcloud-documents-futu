@@ -26,8 +26,8 @@
 
 实例初始化密码：
 	
-![](//mccdn.qcloud.com/img569de0e096f15.png)
+![](https://mccdn.qcloud.com/img569de0e096f15.png)
 
 密码初始化完成，实例正常运行：
 	
-![](//mccdn.qcloud.com/img569de0f790f16.png)
+![](https://mccdn.qcloud.com/img569de0f790f16.png)

@@ -21,4 +21,4 @@
 ![](https://mc.qcloudimg.com/static/img/f46449eb65604011464c6a6856c527f5/3.png)
 5.点击“立即支付”按钮，进入支付页面
 6.在支付页面中支付即可完成购买。
-![](//mccdn.qcloud.com/static/img/028c36f3febba8084dd57f896b1501d0/image.png)
+![](https://mccdn.qcloud.com/static/img/028c36f3febba8084dd57f896b1501d0/image.png)

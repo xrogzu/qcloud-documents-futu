@@ -30,7 +30,7 @@ BITRATE( = VIDEO_BITRATE + AUDIO_BITRATE ) 指的是编码器每秒产生了多�
 #### CACHE_SIZE & DROP_CNT
 如果主播当前网络的上传速度不OK，那么很容易出现 BITRATE >= NET_SPEED 的情况，此时音视频数据会在主播的手机上积压起来，积压的严重程度以 CACHE_SIZE 进行评估，如果 CACHE_SIZE 超过警戒阈值，SDK 会主动丢弃一些音视频数据，进而触发 DROP_CNT 的累加。
 
-![](//mc.qcloudimg.com/static/img/3c10b3a268b4807a184b767b1cc4363c/image.png)
+![](https://mc.qcloudimg.com/static/img/3c10b3a268b4807a184b767b1cc4363c/image.png)
 
 #### CPU_USAGE
 - 如果 **系统CPU使用率** 超过 80%，音视频编码的稳定性会受到影响，可能导致画面和声音的随机卡顿。
@@ -48,19 +48,19 @@ BITRATE( = VIDEO_BITRATE + AUDIO_BITRATE ) 指的是编码器每秒产生了多�
 - **主播端-应发速率-实发速率曲线图**
 蓝色曲线代表 BITRATE 的统计曲线，即 SDK 产生的音视频数据，即绿色曲线发表实际网络发出去多少。两条线重合度越高表示推流质量越好。
 
-![](//mc.qcloudimg.com/static/img/53773c13d29d39063a1fbd2ff228ab6a/image.png)
+![](https://mc.qcloudimg.com/static/img/53773c13d29d39063a1fbd2ff228ab6a/image.png)
 
 - **主播端-音视频数据堆积情况**
  + 如果曲线始终贴着 0 刻度线走，说明整个推流过程非常顺畅，一点都没有堆积。
  + 如果出现 > 0 的部分，说明当时有网络波动导致数据积压，有可能在播放端产生轻微卡顿和音画不同步的现象；
  + 如果堆积超出红色警戒线，说明已经产生了丢包，必然会在播放端产生卡顿和音画不同步的现象。
  
-![](//mc.qcloudimg.com/static/img/665a7ae6063594d3e85c62b2eda4c1d1/image.png)
+![](https://mc.qcloudimg.com/static/img/665a7ae6063594d3e85c62b2eda4c1d1/image.png)
 
 - **云端-应收视频时长-实收视频时长曲线**
 这里是腾讯云服务端的统计图表，如果您不是使用腾讯云 SDK 推流，那么您将只能看到这个图表，前面两个（数据源来自 SDK）是看不到的。蓝绿两条线重合度越高，说明推流质量越好。
 
-![](//mc.qcloudimg.com/static/img/c07d5faa3df10ad774801aa3c79cc8a5/image.png)
+![](https://mc.qcloudimg.com/static/img/c07d5faa3df10ad774801aa3c79cc8a5/image.png)
 
 ## TXLivePlayListener
 
@@ -88,4 +88,4 @@ TXLivePlayListener 的 onNetStatus 回调，会每隔 1-2 秒会将 SDK 内部�
 - CACHE_SIZE 越小，播放的延迟越低，但下载速度稍有风吹草动就可能引发卡顿。
 
 TXLivePlayer 的有三种模式用于控制播放缓冲区的大小，设置方法可以参考【基础功能-播放功能】的对接文档：
-![](//mc.qcloudimg.com/static/img/1d5a860ff74f9d026a36c04dd8bb27ef/image.jpg)
+![](https://mc.qcloudimg.com/static/img/1d5a860ff74f9d026a36c04dd8bb27ef/image.jpg)

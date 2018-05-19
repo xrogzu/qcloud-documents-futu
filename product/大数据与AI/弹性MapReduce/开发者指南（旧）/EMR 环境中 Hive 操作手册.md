@@ -21,7 +21,7 @@ hdfs dfs -put ./hive\_test.data /user/hadoop/hive-test/
 ```
  - 数据存储在 COS 
 在 COS 上创建一个存储桶（Bucket），如：hivecos，并在 hivecos 中创建文件夹，如：hivetest，将数据文件上传到 hivetest 中，如图所示：
-![](//mc.qcloudimg.com/static/img/16acafa53d968e1ec88c6f085e8bd0a3/image.png)
+![](https://mc.qcloudimg.com/static/img/16acafa53d968e1ec88c6f085e8bd0a3/image.png)
 COS 的文件全路径为：`cosn://hivecos/hivetest/hive_test.data`。
 
 ### 2. 连接数据库
@@ -158,7 +158,7 @@ select * from hive_test limit 10;
 
 ##  基于 HUE 的操作
 进入 HUE 的 Hive 编辑模式，并选择对应的数据库。
-![](//mc.qcloudimg.com/static/img/4041add865aedc3c6a711fd2c0392833/image.png)
+![](https://mc.qcloudimg.com/static/img/4041add865aedc3c6a711fd2c0392833/image.png)
 ###  基于 HUE 元数据管理创建表
 在 HUE 的 hive sql 编辑框里输入以下 hive-SQL 创建表和导入数据的命令，单击【▶】执行。
 ```
@@ -167,7 +167,7 @@ select * from hive_test limit 10;
     load data local inpath "/usr/local/service/hadoop/bin/hive\_test.data" into table hive\_test;
 ```
 示例如下图：
-![](//mc.qcloudimg.com/static/img/bd546d039bdf2c3a487d792bea54389d/image.png)
+![](https://mc.qcloudimg.com/static/img/bd546d039bdf2c3a487d792bea54389d/image.png)
 ### 基于 HUE 查询数据报表展示
 HUE 可以将查询结果以图表的方式展示。
 1. 执行以下 SQL 语句得出数据结果：
@@ -175,9 +175,9 @@ HUE 可以将查询结果以图表的方式展示。
 select * from hive_test limit 10；
 ```
 执行完成后，结果数据如下图所示：
-![](//mc.qcloudimg.com/static/img/78dcf17b84cf4e6800a7eb9088fffdf2/image.png)
+![](https://mc.qcloudimg.com/static/img/78dcf17b84cf4e6800a7eb9088fffdf2/image.png)
 2. 选择图例模式，查看结果图（本示例中选择【Pie】）。
-![](//mc.qcloudimg.com/static/img/235f2081a255cd4a787ac145855d5587/image.png)
+![](https://mc.qcloudimg.com/static/img/235f2081a255cd4a787ac145855d5587/image.png)
 
 ### 基于 HUE 的任务调度
 #### 1. 准备工作流数据
@@ -216,27 +216,27 @@ select * from hive_test limit 10；
 
 #### 2. 创建工作流
 2.1 在 HUE 页面中单击【Workflows】>【Editors】>【Workflows】，进入 Workflow Editor 页面。
-![](//mc.qcloudimg.com/static/img/4a57aaba3f6a3d95f4cad15e45b5d5a8/image.png)
+![](https://mc.qcloudimg.com/static/img/4a57aaba3f6a3d95f4cad15e45b5d5a8/image.png)
 2.2 单击【create】，进入当前 Workflow 的 HDFS 空间。
-![](//mc.qcloudimg.com/static/img/120400512a20320938933925311f8779/image.png)
+![](https://mc.qcloudimg.com/static/img/120400512a20320938933925311f8779/image.png)
 2.3 上传 hive script 文件和 hive-site.xml 文件，并在`lib`目录中加入 MySQL 的 jdbc jar 包。
-![](//mc.qcloudimg.com/static/img/878f20da0df4fd426c8173caffd9fd64/image.png)
+![](https://mc.qcloudimg.com/static/img/878f20da0df4fd426c8173caffd9fd64/image.png)
 2.4 在工作流编辑页面中拖一个 hive，选择刚刚上传的 hive script 文件和 hive-site.xml 文件。
-![](//mc.qcloudimg.com/static/img/d1a5306cf83a299be4c9937b116a93a9/image.png)
+![](https://mc.qcloudimg.com/static/img/d1a5306cf83a299be4c9937b116a93a9/image.png)
 
 #### 3. 创建定时任务
 HUE 的定时任务是 coordinator, 类似于 Linux 的 crontab，支持的调度粒度可以到分钟级别。
 3.1 单击 【Workflows】>【Editors】>【Coordinator】>【Create】，创建 coordinator。
-![](//mc.qcloudimg.com/static/img/eea286d55aa9d7a7fd70f04174410525/image.png)
+![](https://mc.qcloudimg.com/static/img/eea286d55aa9d7a7fd70f04174410525/image.png)
 3.2 单击【choose a workflow...】，选择一个创建好的流程。
-![](//mc.qcloudimg.com/static/img/c7cdefa232325bcc29599819fbd377a0/image.png)
+![](https://mc.qcloudimg.com/static/img/c7cdefa232325bcc29599819fbd377a0/image.png)
 3.3 选择需要调度的粒度和时间间隔，可以多选，用于支持多个时间间隔。
-![](//mc.qcloudimg.com/static/img/90d903f7e9fcce240cd279da337d6e29/image.png)
+![](https://mc.qcloudimg.com/static/img/90d903f7e9fcce240cd279da337d6e29/image.png)
 
 #### 4. 执行定时任务
 选择 coordinator 的执行时间区间，然后单击【submit】。
-![](//mc.qcloudimg.com/static/img/0888e25e6a1ed10843c4b6d1d4e62484/image.png)
+![](https://mc.qcloudimg.com/static/img/0888e25e6a1ed10843c4b6d1d4e62484/image.png)
 在 coordinator 的监控页面可以看到 coordinator 的调度情况。
-![](//mc.qcloudimg.com/static/img/b26649ef261e536f0ebb797a6e86d73a/image.png)
+![](https://mc.qcloudimg.com/static/img/b26649ef261e536f0ebb797a6e86d73a/image.png)
 
 

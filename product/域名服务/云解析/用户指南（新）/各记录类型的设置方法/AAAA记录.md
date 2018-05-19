@@ -6,5 +6,5 @@
 3. 线路类型（默认为必填项，否则会导致部分用户无法解析；在下图中，默认的作用为：除了联通用户之外的所有用户，都会指向 ff06:0:0:0:0:0:0:c3）。
 4. 记录值为 IP 地址，只可以填写 IPv6 地址。
 5. TTL 为缓存时间，数值越小，修改记录各地生效时间越快，默认为 600 秒。
-![](//mc.qcloudimg.com/static/img/2b1e91003b5241e47f7313a820189511/image.png)
-![](//mc.qcloudimg.com/static/img/e0ee082c511e65e38c720b1339e6859c/image.png)
+![](https://mc.qcloudimg.com/static/img/2b1e91003b5241e47f7313a820189511/image.png)
+![](https://mc.qcloudimg.com/static/img/e0ee082c511e65e38c720b1339e6859c/image.png)

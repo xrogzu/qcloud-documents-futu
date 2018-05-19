@@ -38,13 +38,13 @@ RTMP SDK 1.8.2 开始才支持连麦功能，请到 [下载页](https://cloud.te
 ### step1. “大主播”推流
 我们在 [Android 推流](https://cloud.tencent.com/document/product/454/7885) 中有详细介绍如何在主播端开启直播功能，这里您可以直接参考，流程上都是一样的。所以，如果您是第一次接触RTMP SDK，务必要先阅读一下基础推流功能的文档。
 
-![](//mc.qcloudimg.com/static/img/779bb742c46a415b505cb8b21c6b2c59/image.png)
+![](https://mc.qcloudimg.com/static/img/779bb742c46a415b505cb8b21c6b2c59/image.png)
 
 需要您注意的是，在连麦场景中有三处差异需要您关注：
 
 - **1.1 推流URL加连麦参数**
 在[如何获取推流地址](https://cloud.tencent.com/document/product/454/7915#.E5.90.8E.E5.8F.B0.E8.87.AA.E5.8A.A8.E6.8B.BC.E8.A3.85.EF.BC.9F)中，我们详细介绍了推流地址的拼装规则，如果要做连麦，推流地址里面还要额外加一段参数：
-![](//mc.qcloudimg.com/static/img/a066ac2f6caf1764b69477a9aa031d0e/image.png)
+![](https://mc.qcloudimg.com/static/img/a066ac2f6caf1764b69477a9aa031d0e/image.png)
 
  **&mix=layer:s;session_id:1234;t_id:1** 的作用是告诉腾讯云：这条直播流是支持连麦的，连麦房间号为 1234。
  
@@ -72,7 +72,7 @@ RTMP SDK 1.8.2 开始才支持连麦功能，请到 [下载页](https://cloud.te
 
 ### step2. 请求连麦
 这一步的目的是让“大主播”在交互上有决定权，同时也是让“小主播（们）”拿到低延时链路的“船票”（session_id），这张船票会在 step4 中用到。
-![](//mc.qcloudimg.com/static/img/8c22aa239260eb464e69ab5c1dacd87b/image.png)
+![](https://mc.qcloudimg.com/static/img/8c22aa239260eb464e69ab5c1dacd87b/image.png)
 
 如上图所示：观众 A 向主播请求 “我想跟你连麦”，主播回应同意或者拒绝。如果同意，主播的回应消息中一定要把 Step1.1 中的 session_id 带给 A。
 
@@ -80,7 +80,7 @@ RTMP SDK 1.8.2 开始才支持连麦功能，请到 [下载页](https://cloud.te
 
 ### step3. “小主播”推流
 观众 A 如果得到“大主播”的恩准，就跃身成为“小主播”，接下来“小主播”要开始推流，否则“大主播”看不到“小主播”的影像。
-![](//mc.qcloudimg.com/static/img/e65523468a3cdf617f2215b5a07c139a/image.png)
+![](https://mc.qcloudimg.com/static/img/e65523468a3cdf617f2215b5a07c139a/image.png)
 
 “小主播”推流的对接方案跟 Step1 中“大主播”推流的对接方案一样，也是两处修改点：
 
@@ -120,17 +120,17 @@ RTMP SDK 1.8.2 开始才支持连麦功能，请到 [下载页](https://cloud.te
 
 #### 4.1 “小主播”看“大主播”
 “小主播（们）”不能再继续使用之前的 CDN 观看地址，而是需要**切换**成加速链路，以便能低延迟接收“大主播”的音视频流。
-![](//mc.qcloudimg.com/static/img/a98470959a254737e790f06622b2c4aa/image.png)
+![](https://mc.qcloudimg.com/static/img/a98470959a254737e790f06622b2c4aa/image.png)
 
 #### 4.2 “大主播”看“小主播”
 “大主播”也需要看到小主播（们）的画面，所以需要**新增**一条低延迟链路来接收“小主播（们）”的音视频流。
-![](//mc.qcloudimg.com/static/img/e17f48dc39b0883cac8af03c39fe53f6/image.png)
+![](https://mc.qcloudimg.com/static/img/e17f48dc39b0883cac8af03c39fe53f6/image.png)
 
 #### 4.3 启用低延迟播放
 不管是“大主播”还是“小主播”，低延时的播放链路都是可以用过 **TXLivePlayer** 来实现的，具体做法如下：
 
 - **4.3.1 生成低延时链路的URL**
-![](//mc.qcloudimg.com/static/img/59c492abef77cddaf026cfd7509de678/image.png)
+![](https://mc.qcloudimg.com/static/img/59c492abef77cddaf026cfd7509de678/image.png)
  + URL 必须选用 **rtmp** 播放协议 ，flv 是没有办法做到秒级延迟的。
  + session_id 必须是对方的，简言之，如果是“小主播（们）”这边拼装播放地址，session_id 就是“大主播”的。同房连麦场景，大小主播都共用一个session_id，我们就不用操心这事儿了。
  + 播放地址必须要加防盗链签名，签名方法参考 [推流防盗链的计算](https://cloud.tencent.com/document/product/454/7915#.E9.98.B2.E7.9B.97.E9.93.BE.E7.9A.84.E8.AE.A1.E7.AE.97.EF.BC.9F)。因为几乎所有腾讯云的客户都配置了推流防盗链KEY，为了减少您的接入成本，可以直接使用推流防盗链KEY。
@@ -194,7 +194,7 @@ Step1 和 Step3 中有介绍如何让“大主播”和“小主播”使用自�
 
 #### 5.2 服务端混流（Beta）
 服务端混流是腾讯云近期推出的一项新解决方案，目前外网已经可以支持，但还处于 Beta 阶段，我们还在不断地优化和完善中。它是腾讯云视频转码集群的一个附加模块，可以将多路视频流直接在云端混成一路，减少下行的带宽压力。
-![](//mc.qcloudimg.com/static/img/acc74a1e1a53eb7c248da22832ef894c/image.png)
+![](https://mc.qcloudimg.com/static/img/acc74a1e1a53eb7c248da22832ef894c/image.png)
 
 - **服务端混流的优势**
   + 观众端平滑过渡，整个连麦过程中观看地址都是不变的。
@@ -215,7 +215,7 @@ Step1 和 Step3 中有介绍如何让“大主播”和“小主播”使用自�
 ## 跨房连麦
 腾讯云 RTMP 直播支持跨房连麦互动，所以小主播（们）可以是原房间里的普通观众，也可以是另一直播间里的其他主播。
 
-![](//mc.qcloudimg.com/static/img/f864df3868777e1fd0255c9c1b5f3fc2/image.png)
+![](https://mc.qcloudimg.com/static/img/f864df3868777e1fd0255c9c1b5f3fc2/image.png)
 
 在对接方案上，跨房连麦跟同房连麦并没有太多区别，我们参照同房连麦的思路进行说明：
 

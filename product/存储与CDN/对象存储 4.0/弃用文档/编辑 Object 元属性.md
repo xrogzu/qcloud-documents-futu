@@ -23,7 +23,7 @@ COS提供了 5 种头部标识可以配置：
 
 在弹出来的设置 Header弹窗中添加参数，并选择类型，如果是自定义内容则需要输入自定义的名称。输入对应值，并按确定保存。
 
-![](//mccdn.qcloud.com/static/img/3bb5a7c32049a07d8077477f7106fcf7/image.jpg)
+![](https:https://mccdn.qcloud.com/static/img/3bb5a7c32049a07d8077477f7106fcf7/image.jpg)
 
 
 ## 示例
@@ -49,7 +49,7 @@ COS提供了 5 种头部标识可以配置：
 
 当添加了一些配置如下：
 
-![](//mccdn.qcloud.com/static/img/3bb5a7c32049a07d8077477f7106fcf7/image.jpg)
+![](https:https://mccdn.qcloud.com/static/img/3bb5a7c32049a07d8077477f7106fcf7/image.jpg)
 
 再次发起请求，浏览器或客户端得到的 Object 头部范例如下：
 

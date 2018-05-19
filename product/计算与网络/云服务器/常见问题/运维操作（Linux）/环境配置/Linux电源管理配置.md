@@ -2,7 +2,7 @@
 Linux 系统在没有安装 ACPI 管理程序时会导致软关机失败。本文档介绍检查 ACPI 安装情况与安装操作。
 ## ACPI 介绍
  - 概述：ACPI（Advanced Configuration and Power Interface），高级配置与电源管理。是 Intel、Microsoft 和东芝共同开发的一种电源管理标准。 
- - 比较：在x86机器中，存在两种电源管理方法，**APM** (Advanced Power Management，高级电源管理)和 **ACPI** (Advanced Configuration and Power Interface，高级配置和电源接口)。APM 是老标准，而 ACPI 则提供了管理电脑和设备更为灵活的接口。Linux支持这两种协议，不过有时还需要手工配置。另外，两个标准不能同时运行。缺省情况下 Linux 运行 ACPI 。腾讯云推荐您使用 ACPI 电源方案。
+ - 比较：在x86机器中，存在两种电源管理方法，**APM** (Advanced Power Management，高级电源管理)和 **ACPI** (Advanced Configuration and Power Interface，高级配置和电源接口)。APM 是老标准，而 ACPI 则提供了管理电脑和设备更为灵活的接口。Linux支持这两种协议，不过有时还需要手工配置。另外，两个标准不能同时运行。缺省情况下 Linux 运行 ACPI 。云平台推荐您使用 ACPI 电源方案。
  - CoreOS 系统说明：CoreOS 系统无需安装。
  
 ## 检查方法

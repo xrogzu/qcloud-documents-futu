@@ -16,7 +16,7 @@
  1. 分析列出资源占用情况，记录需要终止的进程 PID 。
 
  2. 输入` k `，再输入需要终止进程的 PID ，回车终止。此处以终止 PID 为 23 的进程为例。
-![](//mc.qcloudimg.com/static/img/61cd74354cf2b4d2a80a83528a500f5c/image.png)
+![](https://mc.qcloudimg.com/static/img/61cd74354cf2b4d2a80a83528a500f5c/image.png)
  >**注意:**
  >若回车后出现`kill PID 23 with signal [15]:`，则继续回车使用默认设定即可。
 
@@ -26,12 +26,12 @@
 ** 问题描述：**
 &nbsp;&nbsp;&nbsp;&nbsp;load average 是 CPU 负载的评估，其值越高，说明其任务队列越长，处于等待执行的任务越多。
 &nbsp;&nbsp;&nbsp;&nbsp;通过 top 观察，类似如下图所示，CPU 很空闲，但是 load average 却非常高。
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](//mc.qcloudimg.com/static/img/4ddf663a68ee602d8cf8075d88edccf6/image.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://mc.qcloudimg.com/static/img/4ddf663a68ee602d8cf8075d88edccf6/image.png)
  
 ** 处理办法：**
  
  1. 输入` ps -axjf `指令查看进程状态。查看是否存在 D 状态进程。（D 状态是指不可中断的睡眠状态。该状态进程无法被杀死，也无法自行退出。）
-![](//mc.qcloudimg.com/static/img/32420d3fe022b57d85120c941705dbf6/image.png)
+![](https://mc.qcloudimg.com/static/img/32420d3fe022b57d85120c941705dbf6/image.png)
 
  2. 若出现较多 D 状态进程，通过恢复该进程依赖资源或重启系统解决。
 

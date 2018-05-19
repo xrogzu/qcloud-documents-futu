@@ -1,5 +1,5 @@
 如下图所示，在本练习中，您将创建一个 VPC 和子网，并在您的子网中部署一个云服务器，通过绑定弹性IP使其能与Internet通信，最后通过安全组对进出该云服务器的流量进行筛选，保证主机通信的安全。在真实应用环境下，您能够从本地计算机访问您的云服务器，并使用此方案创建面向公众的 Web服务器；例如，托管一个博客。
-![](//mccdn.qcloud.com/static/img/7a428200fc9782b02d05d220ae6328bb/image.png)
+![](https://mccdn.qcloud.com/static/img/7a428200fc9782b02d05d220ae6328bb/image.png)
 
 
 
@@ -11,7 +11,7 @@
 3)	填写私有网络和子网的名称和 CIDR，并选择子网的可用区。
 4)	点击【创建】。
 
-![](//mccdn.qcloud.com/static/img/55cdba64e785d9b073bc4169a9459e39/image.png)
+![](https://mccdn.qcloud.com/static/img/55cdba64e785d9b073bc4169a9459e39/image.png)
 
 ### 第二步：创建子网
 您可以同时创建一个或多个子网。
@@ -23,7 +23,7 @@
 5)	（可选）点击【新增一行】，可以同时创建多个子网。
 6)	点击【创建】。
 
-![](//mccdn.qcloud.com/static/img/66a4e93f7f8dfeeed421fb799fd09137/image.png)
+![](https://mccdn.qcloud.com/static/img/66a4e93f7f8dfeeed421fb799fd09137/image.png)
 
 
 ### 第三步：新建路由表关联子网
@@ -37,7 +37,7 @@
 6) 点击【编辑按钮】，在下拉框中选择关联路由表。
 7) 点击【保存】。
 
-![](//mccdn.qcloud.com/static/img/a41758221e11cacef5dbdbd53f06049a/image.png)
+![](https://mccdn.qcloud.com/static/img/a41758221e11cacef5dbdbd53f06049a/image.png)
 
 
 ### 第四步：向子网中添加云主机
@@ -58,7 +58,7 @@
 2) 单击【申请】按钮。
 3) 选择申请与私有网络在同一地域的 EIP，完成后即可在 EIP 列表中看到您申请的 EIP。
 4) 在 EIP 列表中选择指定 IP，点击【绑定】，选择刚刚创建的私有网络内云服务器绑定。绑定完成之后，您的云主机即可访问公网。
-![](//mccdn.qcloud.com/static/img/4853aa0215993d8ce40e965cafee6bf8/image.png)
+![](https://mccdn.qcloud.com/static/img/4853aa0215993d8ce40e965cafee6bf8/image.png)
 
 ### （可选）第六步：创建安全组进行网络流量控制
 [安全组](https://cloud.tencent.com/doc/product/213/500)是腾讯云提供的实例级别防火墙，可以对任意云服务器进行入/出流量控制。
@@ -70,5 +70,5 @@
 
 例如：允许来自您本地计算机（IP：186.23.55.90）通过 HTTP 请求云服务器，可以创建一条类似下图的规则。
 
-![](//mccdn.qcloud.com/static/img/3dab4565be71898ca2e0e9cf79639c92/image.png)
+![](https://mccdn.qcloud.com/static/img/3dab4565be71898ca2e0e9cf79639c92/image.png)
 

@@ -18,9 +18,9 @@
 3. 在弹出框中，选择升级后的配置，单击【确认】即可。
 
  - **包年包月实例弹框：**
-![](//mc.qcloudimg.com/static/img/c58002204cb5a0481fed03c7ad9903b1/image.png)
+![](https://mc.qcloudimg.com/static/img/c58002204cb5a0481fed03c7ad9903b1/image.png)
  - **按量计费实例弹框：**
-![](//mc.qcloudimg.com/static/img/2736588533362e5904a7d006136ceb01/image.png)
+![](https://mc.qcloudimg.com/static/img/2736588533362e5904a7d006136ceb01/image.png)
 
 ### 通过 API 调整实例配置
 用户可以使用 UpgradeCdb、InquiryCdbUpgradePrice 和 GetCdbUpgradeJobInfo 接口升级实例配置，具体内容可参考 [升级实例 API ](https://cloud.tencent.com/document/product/236/7164)。

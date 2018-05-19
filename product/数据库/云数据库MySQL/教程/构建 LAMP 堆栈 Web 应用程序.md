@@ -15,12 +15,12 @@ LAMP 指 Linux+Apache+Mysql/MariaDB+Perl/PHP/Python，是一组常用来搭建�
 ```
 yum install mysql -y
 ```
-![](//mc.qcloudimg.com/static/img/8b952d6d7d767413a6558e82df092d44/image.png)
+![](https://mc.qcloudimg.com/static/img/8b952d6d7d767413a6558e82df092d44/image.png)
 2. 安装完成后，连接到腾讯云数据库实例：
 ```
 mysql -h hostname -u username -p
 ```
-![](//mc.qcloudimg.com/static/img/297856a53959582220b9bba6f06ce9f6/image.png)
+![](https://mc.qcloudimg.com/static/img/297856a53959582220b9bba6f06ce9f6/image.png)
 其中，hostname 为数据库实例的内网 IP 地址，username 为您的数据库用户名。
 3. 连接成功后，即可退出数据库，进行下一步操作。
 ```
@@ -32,7 +32,7 @@ quit;
 ```
 yum install httpd -y
 ```
-![](//mc.qcloudimg.com/static/img/dc142f813e8e8474a5994e2e841828f2/image.png)
+![](https://mc.qcloudimg.com/static/img/dc142f813e8e8474a5994e2e841828f2/image.png)
 2. 启动 Apache 服务：
 ```
 service httpd start
@@ -42,14 +42,14 @@ service httpd start
 此步骤需要您的云主机在安全组中配置来源为 **all**，端口协议为 **TCP:80** 的入站规则。关于安全组的配置方法请参考 [安全组](https://cloud.tencent.com/document/product/213/5221)。
 
 在您本地的浏览器中输入`http://115.xxx.xxx.xxx/`（其中 `115.xxx.xxx.xxx`为您的云服务器公网 IP 地址），出现下列画面表示 Apache 启动成功。
-![](//mc.qcloudimg.com/static/img/3cde70e76a386b81f96ea9919280269d/image.png)
+![](https://mc.qcloudimg.com/static/img/3cde70e76a386b81f96ea9919280269d/image.png)
 
 ### 安装 PHP 
 1. 在云服务器实例中使用 `yum` 安装 PHP：
 ```
 yum install php -y
 ```
-![](//mc.qcloudimg.com/static/img/61a0864ddbb70e65c63ad5093e8165d4/image.png)
+![](https://mc.qcloudimg.com/static/img/61a0864ddbb70e65c63ad5093e8165d4/image.png)
 
 ### 创建项目测试 LAMP 环境
 1. 在云服务器 `/var/www/html` 目录下创建一个 info.php 文件，示例代码参考如下：
@@ -61,4 +61,4 @@ yum install php -y
 service httpd restart
 ```
 3. 在您本地的浏览器中输入 `http://0.0.0.0/info.php` ，其中 `0.0.0.0`为您的云服务器公网 IP 地址，出现下列画面表示 LAMP 服务部署成功。
-![](//mc.qcloudimg.com/static/img/0bc6667d122fe85d505fbe50b507b60a/image.png)
+![](https://mc.qcloudimg.com/static/img/0bc6667d122fe85d505fbe50b507b60a/image.png)

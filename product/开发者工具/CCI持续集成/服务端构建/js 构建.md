@@ -1,7 +1,7 @@
 ##  python 构建 
 ### 新建工程
 1. 进入 CCI 持续集成界面后，单击左侧菜单栏中的 【服务端构建】。单击 【新建】 按钮，新建服务端构建工程。
-![](//mc.qcloudimg.com/static/img/2fb5c8b3c5791d58c97dc21d417f30cb/image.png)
+![](https://mc.qcloudimg.com/static/img/2fb5c8b3c5791d58c97dc21d417f30cb/image.png)
 2. 进入新建工程后时，依次填写工程名称（必填）和工程描述（选填）。
 3. 依次选择代码仓库和分支，代码仓库和分支的创建请参考 [Tgit 代码托管文档](https://cloud.tencent.com/document/product/612)。
 4. **编程语言** 中单击 【 js 】 选项，**构建类型** 会根据构建类型自动定位为【 js】，**构建环境** 会根据构建类型自动定位为【JavaScript】。
@@ -10,7 +10,7 @@
 7. 勾选【触发方式】（选填），根据需求勾选【定时触发】或【代码变更触发】（可同时勾选两种方式，或勾选其一，或都不勾选）。
    若您勾选了【定时触发】，可以滑动选择定时触发时间（选填）。
 8. 若您想对工程的超时时间，构建结构通知和环境变量进行设置时，单击【显示高级设置】，在显示的页面中进行填写和勾选。
- ![](//mc.qcloudimg.com/static/img/97e4dc84142cd8557f56b8fd460e4c52/image.png)
+ ![](https://mc.qcloudimg.com/static/img/97e4dc84142cd8557f56b8fd460e4c52/image.png)
 9. 填写完成后，单击页面右下方【确认】，完成新建工程创建，或单击【返回】，取消新建工程创建。
  
  

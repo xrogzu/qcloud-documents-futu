@@ -2,7 +2,7 @@
 
 当前回源设置支持源站 IP 为电信、移动、联通、长宽的 IP 段，并有其他运营商支持不断新增中。
 
-![](//mccdn.qcloud.com/img5697c84160bd9.png)
+![](https://mccdn.qcloud.com/img5697c84160bd9.png)
 
 ## 配置说明
 

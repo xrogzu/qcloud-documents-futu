@@ -70,11 +70,11 @@ IOS工程请务必检查一下工程中"Other Linker Flags"是否包含-all_load
 
 #### 找不到函数定义（Undefined Symbols  ）
 一般是工程配置问题，尤其是IOS下分多种指令架构，armv7, arm64, x86模拟器等等，另外检查下IOS工程的Link Binary With Libraries的配置，我们的SDK需要依赖的库如下（请参考demo工程的配置）：
-![txc_rtmp_sdk_link_lib](//mccdn.qcloud.com/static/img/6605e78efb384799b9b4e1c6a5a7aac6/image.jpg)
+![txc_rtmp_sdk_link_lib](https://mccdn.qcloud.com/static/img/6605e78efb384799b9b4e1c6a5a7aac6/image.jpg)
 如果出现如下错误：
-![](//mccdn.qcloud.com/static/img/8424405ffd2e666c481c1792d8296172/image.jpg)
+![](https://mccdn.qcloud.com/static/img/8424405ffd2e666c481c1792d8296172/image.jpg)
 请检查工程的c++库的配置：
-![](//mccdn.qcloud.com/static/img/07665b7aa7f6495417bb8e2f850f3afa/image.jpg)
+![](https://mccdn.qcloud.com/static/img/07665b7aa7f6495417bb8e2f850f3afa/image.jpg)
 
 #### 画面渲染异常（OpenGL ES冲突）
 指集成视频云SDK之后，客户原APP的UI渲染界面表现异常（且原工程中有使用cocos2d或者OpenGL ES）

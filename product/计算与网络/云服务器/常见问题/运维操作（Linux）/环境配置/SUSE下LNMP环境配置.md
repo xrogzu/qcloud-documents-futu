@@ -25,7 +25,7 @@ Saving to: `index.html'
 
 3. 浏览器中测试 Nginx 服务是否正常运行。访问 CentOS 云服务器公网 IP。
 若服务正常，显示结果如下。
-![](//mc.qcloudimg.com/static/img/fce31b900d308c4a5d57b1d316574a58/image.png)
+![](https://mc.qcloudimg.com/static/img/fce31b900d308c4a5d57b1d316574a58/image.png)
 
 ## 安装配置 MySQL
 1. 安装 MySQL。输入命令：`yum install mysql mysql-server mysql-devel` 。
@@ -80,7 +80,7 @@ pm.max_spare_servers = 3
 /etc/init.d/nginx start
 ```
 如图所示：
-![](//mccdn.qcloud.com/img56b01d2fa2d5c.png)
+![](https://mccdn.qcloud.com/img56b01d2fa2d5c.png)
 
 
 ## 环境配置验证

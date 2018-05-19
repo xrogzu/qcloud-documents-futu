@@ -16,7 +16,7 @@
 
 | 系统 | 版本 | 下载地址 | 
 |---------|---------|---------|---------|
-| iOS | 1.4.2.180 |  ![](//mccdn.qcloud.com/static/img/96240acaa7936727d75609a983262a27/image.png)|
+| iOS | 1.4.2.180 |  ![](https://mccdn.qcloud.com/static/img/96240acaa7936727d75609a983262a27/image.png)|
 | Android|1.5.1.301 | [下载](https://mccdn.qcloud.com/static/archive/5afff09d6b40a48db78243c24c5ca651/rtmpdemo-1.5.1.301.apk.zip)|
 
 ## 变更历史

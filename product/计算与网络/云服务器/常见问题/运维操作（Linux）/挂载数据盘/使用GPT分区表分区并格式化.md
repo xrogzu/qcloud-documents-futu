@@ -36,13 +36,13 @@
 ### FreeBSD 系统操作方法
 #### 1. 查看磁盘列表
 使用命令 `diskinfo -v /dev/vtbd1` 查看磁盘设备列表。
-![](//mccdn.qcloud.com/img56a616a9911da.png)
+![](https://mccdn.qcloud.com/img56a616a9911da.png)
 
 #### 2. 创建 GPT 分区
 1）. 执行命令 `gpart create -s gpt vtbd1`。
-![](//mccdn.qcloud.com/img56a6171206c80.png)
+![](https://mccdn.qcloud.com/img56a6171206c80.png)
 2）. 执行命令 `gpart add -t freebsd-ufs -a 1M vtbd1`。
-![](//mccdn.qcloud.com/img56a6172bb39c0.png) 
+![](https://mccdn.qcloud.com/img56a6172bb39c0.png) 
 
 #### 3. 查看新分区消息
 使用命令 `diskinfo -v /dev/vtbd1` 查看新分区消息。
@@ -58,4 +58,4 @@
 修改 /etc/fstab 文件，设置系统重启时自动挂载新分区。
 执行命令 `vi /etc/fstab` ，进入编辑页面，键入`i`进入编辑模式；
 将 `/dev/vtbd1p1       /ufs     rw       0        0` 添加至文本末端，再按 Esc 键，输入`:wq`保存并返回到命令行，此时已成功修改 fstab 文件。
-![](//mccdn.qcloud.com/img56a6188004bac.png)
+![](https://mccdn.qcloud.com/img56a6188004bac.png)

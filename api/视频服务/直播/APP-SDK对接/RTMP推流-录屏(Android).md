@@ -2,7 +2,7 @@
 ## 手机录屏
 RTMP SDK 1.6.1 开始支持手机录屏直播，即可以直接把主播的手机画面作为直播源，同时可以叠加摄像头预览，应用于游戏直播、移动端APP演示等需要手机屏幕画面的场景。
 
-![](//mc.qcloudimg.com/static/img/bf82394c56c13298f322df25c5de4e16/image.png)
+![](https://mc.qcloudimg.com/static/img/bf82394c56c13298f322df25c5de4e16/image.png)
 
 录屏功能在 iOS 和 Android 下有两套截然不同的实现方案：
 - **Android 平台**
@@ -13,7 +13,7 @@ iOS 10.0 系统以后开始支持，基于iOS系统的扩展方式实现，即�
 
 ## 功能体验
 我们在小直播Demo中，基于腾讯云 RTMP SDK 实现了两个平台的手机录屏功能，您可以扫描下图中的二维码安装并体验之。
-![](//mc.qcloudimg.com/static/img/3939152d7b9a6fd0812b886ea049dc83/image.png)
+![](https://mc.qcloudimg.com/static/img/3939152d7b9a6fd0812b886ea049dc83/image.png)
 
 ## 对接攻略
 
@@ -50,7 +50,7 @@ mLivePusher.startScreenCapture();
 
 ### step 4: 隐私模式
 隐私模式是录屏直播的一项基础功能：主播在录屏直播过程中，如果有些操作不希望观众看到（比如输入游戏的账号密码等等），那么此时TA可以启动**隐私模式**，隐私模式下，主播的推流还是持续的，观众也一直能看到的画面，只是看到的画面是一张提示“主播正在忙...”的等待中画面。
-![](//mc.qcloudimg.com/static/img/558efb32484da9813253620c0c4b1165/image.png)
+![](https://mc.qcloudimg.com/static/img/558efb32484da9813253620c0c4b1165/image.png)
 
 要实现这样功能，您可以按如下步骤进行对接：
 - **4.1) 设置pauseImg**

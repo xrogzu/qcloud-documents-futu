@@ -78,4 +78,4 @@
 step 5.3 中的脚本都是单机数据库配置方案，如果您要部署两台服务（一台做主机，一台做备机），那么单机数据库显然不合适，这个时候就要考虑使用云数据库（Cloud DataBase CDB），它是一套分布式数据库解决方案，这样可以解决多台服务器并发访问的数据一致性问题。
 
  **开通云数据库，初始化完数据库的密码后，请参照代码打包中的createDB.sh文件创建数据库表，完成之后将云数据库的名称、ip、端口以及帐号密码更新到live_demo/live_demo_service/conf/cdn.route.ini中：**
-![](//mc.qcloudimg.com/static/img/8461915e3f992a75dea1ce458cb80dc8/image.jpg)
+![](https://mc.qcloudimg.com/static/img/8461915e3f992a75dea1ce458cb80dc8/image.jpg)

@@ -1,5 +1,5 @@
 管理人员登录 [微金小云客服管理系统](https://ics.webank.com) ，在【系统管理】>【App 接入】单击 Android SDK 接入说明，接入指引如下：
-![1](//mc.qcloudimg.com/static/img/e780a5c87f7dd26b80a4fad5ac05ae63/image.png)
+![1](https://mc.qcloudimg.com/static/img/e780a5c87f7dd26b80a4fad5ac05ae63/image.png)
 ### SDK 接入（Android）
 接入前请先确保后台接入正常，接入配置为 Android Studio。
 云客服 SDK（WeCcsSdk）最低支持到 Android API 14:Android 4.0(ICS)，请在构建项目时注意。

@@ -10,7 +10,7 @@ LBS定制可以提供给基于地理位置距离进行优先的搜索业务，�
 
 第二步：在高级组件定制”LBS“里设置经纬度字段，并保存开启LBS距离优先策略。
 
-![](//mccdn.qcloud.com/img5698f6224f42f.png)
+![](https://mccdn.qcloud.com/img5698f6224f42f.png)
 
 ## 3 使用
 

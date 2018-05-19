@@ -8,7 +8,7 @@ RabbitMQ 是具有代表性的开源消息中间件，当前较多地应用于�
 ### 1.1. 确认机制
 
 网络异常、机器异常、程序异常等多种情况都可能导致业务丢失消息。对消息进行确认可以解决消息的丢失问题，确认成功意味着消息已被验证并正确处理。
-![](//mccdn.qcloud.com/static/img/163df9296d3add5dede94173a54e01df/image.png)
+![](https://mccdn.qcloud.com/static/img/163df9296d3add5dede94173a54e01df/image.png)
 
 RabbitMQ 使用生产消息确认、消费者确认机制来提供可靠交付功能。
 
@@ -44,11 +44,11 @@ CMQ 与 RabbitMQ 的底层原理、实现方式有很多相似之处，但在更
 CMQ 和 RabbitMQ 都能够使用多台机器进行热备份，提高可用性。CMQ 基于 Raft 算法实现，简单易维护。RabbitMQ 使用自创的 GM算法（Guaranteed Multicast），学习难度较高。
 
 Raft协议中，Log复制只要大多数节点向Leader返回成功，Leader就可以应用该请求，向客户端返回成功：
-![](//mccdn.qcloud.com/static/img/bcf3dbba73a38775779763dacf2d79d8/image.png)
+![](https://mccdn.qcloud.com/static/img/bcf3dbba73a38775779763dacf2d79d8/image.png)
 　　　
 GM可靠多播将集群中所有节点组成一个环。Log 复制依次从 Leader 向后继节点传播，当 Leader 再次收到该请求时，发出确认消息在环中传播，直至 Leader 再次收到该确认消息，表明Log 在环中所有节点同步完成。
 
-![](//mccdn.qcloud.com/static/img/117c56f150966c375070977947543286/image.png)
+![](https://mccdn.qcloud.com/static/img/117c56f150966c375070977947543286/image.png)
 
 GM算法要求Log在集群所有节点同步之后才能向客户端返回成功；Raft算法则只要求大多数节点同步完成。Raft算法在同步路径上比GM算法减少了近一半的等待时间。
 

@@ -126,17 +126,8 @@ TDSQL接口的错误码分为两类：
 | FenceError | 围拢接口错误 |
 | IllegalExclusterID | 非法的独享集群ID |
 | RegionUnavailable | 该区域无此服务 |
-| NotSupportNow | 暂时不支持按量计费功能 |
-| BalanceIsNotEnough | 余额不足 |
 | ReachTheAmounLimit | 购买数量超过限制 |
-| PriceParamError | 计费接口参数错误 |
-| GetPriceError | 获取价格失败 |
-| PriceDBError | 计费DB操作失败 |
-| InvalidCoupon | 无效的代金券 |
 | GetGoodsConfigFailed | 获取商品配置失败 |
 | IllegalGoodsID | 商品ID无效 |
 | IllegalGoodsOperation | 不允许对商品进行对应操作 |
-| FailedToPay | 支付失败 |
-| SomeBillsFailed | 支付成功但部分订单发货失败 |
-| PayError | 支付过程出错 |
 

@@ -1,6 +1,6 @@
 ## 1.工程结构
 从github下载小直播代码后，您将看到TCLVBIMDemo.xcworkspace文件，这是小直播的Xcode工程工作区，用于管理小直播的代码工程和依赖的第三方开源类库（位于Pods目录下），如果您需要编译或浏览小直播相关代码，请打开此文件，请勿直接打开小直播的工程文件TCLVBIMDemo.xcodeproj。打开TCLVBIMDemo.xcworkspace后，您将看到如下的工程目录结构：
-![](//mc.qcloudimg.com/static/img/8673bf53392e34a9f38d8a5a8625e8eb/image.jpg)
+![](https://mc.qcloudimg.com/static/img/8673bf53392e34a9f38d8a5a8625e8eb/image.jpg)
 
 |工程目录 | 说明 | 
 |---------|---------|
@@ -60,10 +60,10 @@
 - 主播端可以展示观众列表，当有观众进入，退出房间时候，观众列表会刷新，主播也会收到观众进入或则退出房间消息
 
 #### 推流时序图
-![](//mc.qcloudimg.com/static/img/6fb00666a6a1cdea732fbddccc5fc786/image.png)
+![](https://mc.qcloudimg.com/static/img/6fb00666a6a1cdea732fbddccc5fc786/image.png)
 
 #### UI层级结构
-![](//mc.qcloudimg.com/static/img/df03a372dfdb1fe5ca8a8675dc9e7dcb/image.png)
+![](https://mc.qcloudimg.com/static/img/df03a372dfdb1fe5ca8a8675dc9e7dcb/image.png)
 
 #### 相关代码
 - Logic:
@@ -79,7 +79,7 @@
 - 观众端可以展示主播信息，观众列表，当有观众进入，退出房间时候，观众列表会刷新，同时消息列表也会展示其他观众进入，退出房间的消息。
 
 #### 播放时序图
-![](//mc.qcloudimg.com/static/img/fb9f9002c2d973d069bb9c1568037e26/image.png)
+![](https://mc.qcloudimg.com/static/img/fb9f9002c2d973d069bb9c1568037e26/image.png)
 
 #### UI层级结构
 请参考推流模块的UI层级结构

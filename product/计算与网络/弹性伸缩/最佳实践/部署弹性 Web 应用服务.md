@@ -7,7 +7,7 @@
 本项目以某休闲类网站为例，该网站 20：00-24：00 是访问高峰时段。
 - 非高峰时段的负载部署固定资源，可采用包年包月 CVM。
 - 高峰时段采用按量计费的 CVM。通过定时任务在 20：00 扩容 1 台 CVM 实例，并在 24：00 进行缩容。
-![](//mc.qcloudimg.com/static/img/cd4f9a05923871165c6e7184b984336e/image.png)
+![](https://mc.qcloudimg.com/static/img/cd4f9a05923871165c6e7184b984336e/image.png)
 
 ### 一、创建集群自定义镜像
 基于一台集群中现有的机器制作镜像。关于创建自定义镜像的更多信息，请参考 [制作自定义镜像](/doc/product/213/4942)。
@@ -26,15 +26,15 @@
 
 1. 登录 [弹性伸缩控制台](https://console.cloud.tencent.com/autoscaling/config)，单击导航条中的【启动配置】。
 2. 选择项目和地域，这里需要选择您的 Web 应用所在的项目和地域。本项目选择“默认项目”和“华南地区（广州）”。
-![](//mc.qcloudimg.com/static/img/653ebf516d940a90fd79728e5d319cdc/image.png)
+![](https://mc.qcloudimg.com/static/img/653ebf516d940a90fd79728e5d319cdc/image.png)
 3. 选择机型。关于机型选择的更多信息，请参考 [推荐选型](https://cloud.tencent.com/act/recommended)。本项目选择系列 1 标准型 1 颗 CPU 1GB 内存。
-![](//mc.qcloudimg.com/static/img/301ed9b779010186705029631853a6ab/image.png)
+![](https://mc.qcloudimg.com/static/img/301ed9b779010186705029631853a6ab/image.png)
 4. 选择镜像。在【自定义镜像】中，指定刚才您创建的镜像。本项目以“test”为例。
-![](//mc.qcloudimg.com/static/img/192691062ce8fa93f2bbcd0f02af5bc2/image.png)
+![](https://mc.qcloudimg.com/static/img/192691062ce8fa93f2bbcd0f02af5bc2/image.png)
 5. 选择存储和网络。
-![](//mc.qcloudimg.com/static/img/2ec4987b14f97966851f90849c016167/image.png)
+![](https://mc.qcloudimg.com/static/img/2ec4987b14f97966851f90849c016167/image.png)
 6. 设置信息。设置密码和安全组。
-![](//mc.qcloudimg.com/static/img/ee9caea59c347e581fb82c273407e28d/image.png)
+![](https://mc.qcloudimg.com/static/img/ee9caea59c347e581fb82c273407e28d/image.png)
 
 ### 三、创建伸缩组
 1. 在 [弹性伸缩控制台](https://console.cloud.tencent.com/autoscaling)，单击【伸缩组】>【新建】，填写集群的相关管理信息。确认无误后，单击【下一步】。
@@ -46,15 +46,15 @@
  - **支持网络**：会话服务器的网络环境。本项目选择“基础网络”。
  - **支持可用区**：即选择扩容机器落在哪个可用区里，此处按会话服务器所在的可用区勾选即可。本项目选择“广州二区”。
  - **移出策略**：提供“移出最旧的云主机”和“移出最新的云主机”两种策略。本项目选择“移出最旧的云主机”。
-![](//mc.qcloudimg.com/static/img/1dfcdab95c12ad0b999a09de98e8508a/image.png)
+![](https://mc.qcloudimg.com/static/img/1dfcdab95c12ad0b999a09de98e8508a/image.png)
 2. 选择负载均衡。扩容出来的机器会自动挂载到您关联的负载均衡下，您可以选择已有负载均衡或者新建负载均衡。确认无误后，单击【完成】，完成创建。
  - **负载均衡**：选择集群的负载均衡。本项目不选择负载均衡。
-![](//mc.qcloudimg.com/static/img/2771bbfe477d54400fcb72b21014668b/image.png)
+![](https://mc.qcloudimg.com/static/img/2771bbfe477d54400fcb72b21014668b/image.png)
 
 ### 四、添加现有 CVM 实例进伸缩组
 
 1. 在 [弹性伸缩控制台](https://console.cloud.tencent.com/autoscaling) 点击伸缩组名称，进入伸缩组管理页面，单击【关联云主机】>【添加云主机】。
-![](//mc.qcloudimg.com/static/img/9063e98237388d8bfbbb72f267103a42/image.png)
+![](https://mc.qcloudimg.com/static/img/9063e98237388d8bfbbb72f267103a42/image.png)
 
 2. 在弹出的对话框中，选择集群已有的服务器加入伸缩组。非高峰时期，建议退还集群中未充分利用的服务器以节约成本。
 ![](https://mc.qcloudimg.com/static/img/8a3ba69a5ffc9e9004e91c8a300149c2/image.jpg)
@@ -65,9 +65,9 @@
 ### 五、设置扩缩容策略
 
 弹性伸缩支持定时扩缩容和基于告警动态扩缩容，可以设置接收扩缩容通知，以及查看历史扩缩容详情。
-![](//mc.qcloudimg.com/static/img/9ff9af152c4d99a1955c837f1177f131/image.png)
+![](https://mc.qcloudimg.com/static/img/9ff9af152c4d99a1955c837f1177f131/image.png)
 本项目以设置定时扩缩容为例进行说明。在伸缩组管理页面，单击【定时任务】>【+新建】，弹出新建定时任务页面。
-![](//mc.qcloudimg.com/static/img/98f7fd2432fd64b88c3090fa0487a2da/image.png)
+![](https://mc.qcloudimg.com/static/img/98f7fd2432fd64b88c3090fa0487a2da/image.png)
 -  **设置定时扩容任务**
 ![](https://mc.qcloudimg.com/static/img/e3c790c1fa7594643bcfb591e5ca949b/image.jpg)
 > **注意：**

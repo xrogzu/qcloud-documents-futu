@@ -1,6 +1,6 @@
 ## 容器镜像服务权限介绍
 
-腾讯云容器镜像的描述格式是: `ccr.ccs.tencentyun.com/${namespace}/${name}:${tag}`。
+容器镜像的描述格式是: `ccr.ccs.tencentyun.com/${namespace}/${name}:${tag}`。
 镜像仓库的权限围绕以下两个字段进行设置：
 * `${namespace}`: 镜像所属命名空间；
 * `${name}`: 镜像名字；
@@ -21,7 +21,7 @@
 
 如果您需要细致地管理协作者权限，请使用[自定义策略授权](#自定义策略授权)。
 
-容器镜像服务权限基于腾讯云CAM进行管理，您可以详细了解CAM的使用方法：
+容器镜像服务权限基于云平台CAM进行管理，您可以详细了解CAM的使用方法：
 [用户管理](https://cloud.tencent.com/document/product/598/10598)，
 [策略管理](https://cloud.tencent.com/document/product/598/10601)，
 [授权管理](https://cloud.tencent.com/document/product/598/10602)
@@ -96,7 +96,7 @@
 
 _resource `qcs::ccr:::repo/*` 格式说明_:
 
-* `qcs::ccr:::` 为固定格式，表示开发商的腾讯云容器镜像仓库服务；
+* `qcs::ccr:::` 为固定格式，表示开发商的容器镜像仓库服务；
 * `repo` 为固定前缀，代表资源类型，这里是镜像仓库；
 * 斜杠(`/`)后面的 `*` 表示匹配所有镜像仓库。
 

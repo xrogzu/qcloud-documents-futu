@@ -1,28 +1,28 @@
-## 简介
-VPN 连接是一种通过公网加密通道连接您的对端 IDC 和私有网络的方式。如下图所示，腾讯云 VPN 连接分为以下几个组成部分：
+﻿## 简介
+VPN 连接是一种通过公网加密通道连接您的对端 IDC 和私有网络的方式。如下图所示， VPN 连接分为以下几个组成部分：
 - VPN网关：创建的私有网络 IPsec VPN 网关
 - 对端网关： IDC 端的 IPsec VPN 服务网关
 - VPN通道：加密的 IPsec VPN 通道
-![](//mccdn.qcloud.com/static/img/a654d376b4e4e13ae2bb65b13239cef2/image.png)
+![](https://mccdn.qcloud.com/static/img/a654d376b4e4e13ae2bb65b13239cef2/image.png)
 
 私有网络内可以建立VPN网关，每个VPN网关可以建立多个VPN通道，每个VPN通道可以打通一个本地IDC。需要注意的是，**在建立VPN连接之后，您需要在路由表中配置相关路由策略，才能真正实现通信。**
  
 ## VPN网关
-VPN 网关是私有网络建立 VPN 连接的出口网关，与对端网关（IDC 侧的 IPsec VPN 服务网关）配合使用，主要用于腾讯云私有网络和外部 IDC 之间建立安全可靠的加密网络通信。腾讯云 VPN 网关通过软件虚拟化实现，采用双机热备策略，单台故障时自动切换，不影响业务正常运行。
+VPN 网关是私有网络建立 VPN 连接的出口网关，与对端网关（IDC 侧的 IPsec VPN 服务网关）配合使用，主要用于私有网络和外部 IDC 之间建立安全可靠的加密网络通信。 VPN 网关通过软件虚拟化实现，采用双机热备策略，单台故障时自动切换，不影响业务正常运行。
 
 VPN网关根据带宽上限分为5种设置，分别为：5M、10M、20M、50M、100M。您可以随时调整 VPN 网关带宽设置，即时生效。
 
 如果您需要 BGP 高防为 VPN 网关提供超大带宽的 DDoS 和 CC 防护，您可以将高防包绑定到 VPN 网关上，实现安全防护。
 
 ## 对端网关
-对端网关是指 IDC 机房的 IPsec VPN 服务网关，对端网关需与腾讯云 VPN 网关配合使用，一个VPN网关可与多个对端网关建立带有加密的VPN网络通道。
+对端网关是指 IDC 机房的 IPsec VPN 服务网关，对端网关需与 VPN 网关配合使用，一个VPN网关可与多个对端网关建立带有加密的VPN网络通道。
 
 ## VPN通道
 VPN网关和对端网关建立后，即可建立VPN通道，用于私有网络和外部 IDC 之间的加密通信。当前 VPN 通道支持 IPsec 加密协议，可满足绝大多数 VPN 连接的需求。
 
 VPN 通道在运营商公网中运行，公网的网络阻塞、抖动会对VPN网络质量有影响，因此也无法提供 SLA 服务协议保障。如果业务对延时、抖动敏感，建议通过专线接入私有网络，更多内容可以查看[专线接入服务](https://cloud.tencent.com/product/dc.html)。
 
-腾讯云上的 VPN 通道在实现 IPsec 中使用 IKE（Internet Key Exchange，因特网密钥交换）协议来建立会话。IKE 具有一套自保护机制，可以在不安全的网络上安全地认证身份、分发密钥、建立 IPSec 会话。
+云平台上的 VPN 通道在实现 IPsec 中使用 IKE（Internet Key Exchange，因特网密钥交换）协议来建立会话。IKE 具有一套自保护机制，可以在不安全的网络上安全地认证身份、分发密钥、建立 IPSec 会话。
 
 VPN通道的建立包括以下配置信息：
 - 基本信息
@@ -49,7 +49,7 @@ SPD策略1 本端网段 `10.0.0.0/24`，对端网段为 `192.168.0.0/24`、`192.
 SPD策略2 本端网段 `10.0.1.0/24`，对端网段为 `192.168.2.0/24`。
 SPD策略3 本端网段 `10.0.2.0/24`，对端网段为 `192.168.2.0/24`。
 
-![](//mccdn.qcloud.com/static/img/5b32174d312e31c5b5a9162a50456de8/image.png)
+![](https://mccdn.qcloud.com/static/img/5b32174d312e31c5b5a9162a50456de8/image.png)
  
 ### IKE配置
 
@@ -74,16 +74,6 @@ SPD策略3 本端网段 `10.0.2.0/24`，对端网段为 `192.168.2.0/24`。
 |PFS|支持 disable、dh-group1、dh-group2、dh-group5、dh-group14和dh-group24|
 |IPsec SA lifetime(s)|单位：秒|
 |IPsec SA lifetime(KB)|单位：KB|
-
-## VPN 网关流控
-VPN 网关流控提供 **IP-网关** 粒度的“监”与“控”能力，精细化网关流量可视化让网络运维人员对网关中流量一目了然，IP-网关粒度的限速能力助力异常流量屏蔽。
-例如，某日凌晨，某公司的网关流量突增，通过智能网关流控，运维人员可根据该突增时间点，追踪是哪些 IP 造成的流量突增，从而快速定位根源。不仅如此，网关流控提供基于 IP-网关粒度的带宽控制，可限制某 IP 到网关的带宽，可屏蔽异常流量，保障关键业务。
-
-**网关流控主要价值如下：**
-
-- 精确的网关故障排查能力，最小化网络故障时间；结合流量实时查询、TOP N 排名功能，可分析来源 IP 及其关键指标，快速定位异常流量。
-- 基于 IP-网关粒度的“监”与“控”能力；结合分钟级的网络流量查询，可及时发现异常流量抢占带宽，设置 IP-网关粒度带宽限制，保障核心业务稳定畅行。
-- 全时全流的网关流量分析能力，降低云上网络成本。通过 qos 控制成本，可在网络预算有限的情况下，限制非关键业务带宽，以降低成本。
 
 ## 使用约束
 ### VPN连接约束
@@ -111,28 +101,6 @@ b.以B类中128~191开头举例，128~191.x.0.0以及128~191.x.255.255;
 c. 以C类中192~223开头举例，192~223.x.x.0以及192~223.x.x.255;
 - 内部服务地址：169.254.x.x/16;
 
-## 计费模式
- VPN通道和对端网关**免费**。
- VPN网关支持两种计费模式，按量付费和按月付费。
-1) **按量后付费**，包含网关租用费（按小时计费）和访问公网产生的流量费用，[查看公网流量费用](https://cloud.tencent.com/document/product/213/10579#.E6.8C.89.E6.B5.81.E9.87.8F.E8.AE.A1.E8.B4.B9)。
-
-| 地域 | 国内 |硅谷、法兰克福、香港、韩国|  多伦多、新加坡 |
-|---------|---------|---------|---------|
-| 价格 | 0.48元/h | 0.58元/h |0.75元/h |
-
-
-2) **按月预付费**，单价已包含 IDC 带宽的费用，云主机无需重复购买网络带宽。具体如下表所示：
-
-| 配置（Mbps） |除北美（多伦多）外|北美（多伦多）|
-|---------|---------|
-|5 |380 |480|
-|10 |880 |1330|
-|20 |1880 |2330|
-|50 |4880 |	5330|
-|100 |9880 |10330|
-
-关于私有网络服务的更多价格，可以参考[私有网络价格总览](https://cloud.tencent.com/doc/product/215/3079)。
-
 ## 操作指南
 
 ### 快速入门
@@ -146,18 +114,18 @@ IPsec VPN 可以在控制台实现全自助配置，您需要完成以下几步�
 
 示例：
 通过IPsec VPN连接打通您在**广州**的私有网络TomVPC中子网A`192.168.1.0/24`与您的IDC中子网`10.0.1.0/24`，而您IDC中VPN 网关的公网 IP 是`202.108.22.5`。
-![](//mc.qcloudimg.com/static/img/0cfc46cf11e4d53164219b1c386509a1/1.png)
+![](https://mc.qcloudimg.com/static/img/0cfc46cf11e4d53164219b1c386509a1/1.png)
 
 您需要完成以下几个步骤：
 #### 第一步：创建VPN网关
-1)	登录[腾讯云控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入[私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)。
+1)	登录[云平台控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入[私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)。
 2)	点击左导航栏中【VPN连接】-【VPN网关】选项卡。
 3) 在列表的上端选择私有网络myVPC所在**广州**和私有网络`TomVPC`，点击【新建】。
 4) 填写VPN网关名称（如：TomVPNGw）选择合适的带宽配置并付款后，VPN网关创建完成之后，系统随机分配公网IP，如：`203.195.147.82`。
 
 #### 第二步：创建对端网关
 在VPN通道创建前，需要创建对端网关：
-1)	登录[腾讯云控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入[私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)。
+1)	登录[云平台控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入[私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)。
 2)	点击左导航栏中【VPN连接】-【对端网关】选项卡。
 3)	在列表的上端选择地域：**广州**，点击【新建】。
 4)	填写对端网关名称（如：TomVPNUserGw）和 IDC 的 VPN 网关的公网 IP `202.108.22.5 `。
@@ -166,7 +134,7 @@ IPsec VPN 可以在控制台实现全自助配置，您需要完成以下几步�
 ####  第三步：创建VPN通道
 创建VPN 通道分为以下几个步骤：
 
-1)	登录[腾讯云控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入[私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)。
+1)	登录[云平台控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入[私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)。
 2)  点击左导航栏中【VPN连接】-【VPN通道】选项卡。
 3)  在列表的上端选择私有网络myVPC所在**广州**和私有网络`TomVPC`，点击【新建】。
 4)  输入通道名称（如：TomVPNConn），选择VPN网关`TomVPNGw`与对端网关`TomVPNUserGw`，并输入预共享密钥（如：`123456`）。
@@ -180,7 +148,7 @@ IPsec VPN 可以在控制台实现全自助配置，您需要完成以下几步�
 
 ####  第五步：修改路由表
 截止至第四步，我们已经将一条VPN通道配置成功，但是由于您还未将子网A中的流量路由至VPN网关上，子网A中的网段还不能与IDC中的网段通信。现在配置路由：
-1)	登录[腾讯云控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入[私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)。
+1)	登录[云平台控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入[私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)。
 2)	点击左导航栏中【子网】，在列表的上端选择私有网络myVPC所在**广州**和私有网络`TomVPC`，点击子网A所关联的路由表 ID 进入该路由表的详情页。
 3)	点击【编辑按钮】，点击【新增一行】，输入目的端网段（`10.0.1.0/24`），下一跳类型选择【VPN网关】，再选择刚刚创建的 VPN 网关 `TomVPNGw`。
 4)	点击【保存】，即完成需要通信的子网的出包路由设定。
@@ -190,58 +158,29 @@ IPsec VPN 可以在控制台实现全自助配置，您需要完成以下几步�
 
 ### 查看监控数据
 VPN 通道和 VPN 网关提供监控数据查看功能。
-1)	登录[腾讯云控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入[私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)。
+1)	登录[云平台控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入[私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)。
 2)	点击左导航栏中【VPN连接】-【VPN网关】或者【VPN通道】选项卡。
 3)  点击列表页中监控一列的图标查看监控数据。
 
 ### 设置告警
 VPN 通道提供告警功能：
-1)	登录[腾讯云控制台](https://console.cloud.tencent.com/)点击顶部导航条【云产品】-【监控与管理】-[【云监控】](https://console.cloud.tencent.com/monitor/overview)，选择左导航栏内的【我的告警】-[【告警策略】](https://console.cloud.tencent.com/monitor/policylist)，点击：新增告警策略。
+1)	登录[云平台控制台](https://console.cloud.tencent.com/)点击顶部导航条【云产品】-【监控与管理】-[【云监控】](https://console.cloud.tencent.com/monitor/overview)，选择左导航栏内的【我的告警】-[【告警策略】](https://console.cloud.tencent.com/monitor/policylist)，点击：新增告警策略。
 2)	填写告警策略名称，在策略类型中选择【VPN通道】，然后添加告警触发条件。
 3)	**关联告警对象**：选择告警接收组，保存后即可在告警策略列表中查看已设置的告警策略。
 4)	**查看告警信息**：告警条件被触发后，您将接受到短信/邮件/站内信等通知，同时可以在左导航【我的告警】-【告警列表】中查看。有关告警的更多信息，请参考[创建告警](https://cloud.tencent.com/doc/product/248/1073)。
 
 ### 查看 VPN 网关详细信息
-1)	登录[腾讯云控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入[私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)。
+1)	登录[云平台控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入[私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)。
 2)	点击左导航栏中【VPN连接】-【VPN网关】选项卡。
 3)  点击 VPN 网关 ID 即可进入 VPN 网关详情页查看 VPN 网关信息。
 
 ### 修改 VPN 通道配置
-1)	登录[腾讯云控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入[私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)。
+1)	登录[云平台控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入[私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)。
 2)	点击左导航栏中【VPN连接】-【VPN通道】选项卡。
 3)  点击 VPN 网关 ID 即可进入 VPN 网关详情页查看 VPN 网关信息。
 4)  您可以在基本信息页中修改基本信息和SPD策略，或者您可以在高级配置修改IKE和Ipsec配置。
 
-### 开启网关流控明细
-开启后，可查看某 VPN 网关上过去 7 天内的经过该网关的 IP 流量指标，可设置某个 IP 流向某 VPN 网关的出带宽。
 
-1. 登录腾讯云控制台，单击导航条【云产品】>【私有网络】，进入私有网络控制台，选择【VPN 连接】>【VPN 网关】。
-2. 在 VPN 网关列表中单击 ID 进入 VPN 网关详情页。
-3. 单击【监控】tab，单击右上角开启网关流控明细开关。
-开启网关流控明细，需要 5~6 分钟采集数据、发布数据，一段时间您可在监控图表下方查看监控明细表格。
-
->**注意：**
->该功能处于内测中，请提工单申请。
-
-### 设置网关流控明细
-您在开启网关流控明细，可设置某个 IP 留向某 VPN 网关的出带宽。
-
-1. 登录腾讯云控制台，单击导航条【云产品】>【私有网络】，进入私有网络控制台，选择【VPN 连接】>【VPN 网关】。
-2. 在 VPN 网关列表中单击 ID 进入 VPN 网关详情页。
-3. 单击【监控】tab，找到需要设置监控明细的 IP，设置其出带宽限制。
-
-
-### 查看网关流控明细
-1. 登录腾讯云控制台，单击导航条【云产品】>【私有网络】，进入私有网络控制台，选择【VPN 连接】>【VPN 网关】。
-2. 在 VPN 网关列表中单击 ID 进入 VPN 网关详情页。
-3. 单击【监控】tab，在网关流控明细表右上方，单击【查看已限制 IP】。
-
- 
-### 绑定高防包
-1. 登录 [腾讯云控制台](https://console.cloud.tencent.com/)点击导航条【安全】>【大禹网络安全】，选择左导航栏的[【BGP 高防包】](https://console.cloud.tencent.com/dayu/bgp/list/sp/gz)
-2. 选择您已有的高防包实例，单击更换设备操作，选择需要防护的 VPN 网关。
-3. 单击【确认】，即为该 VPN 网关关联了高防包功能。
- 
 ## API概览
 您可以使用API操作来设置和管理您的VPN连接，私有网络的更多相关API可以参考[私有网络所有 API 概览。](https://cloud.tencent.com/doc/api/245/909)
 ### VPN 相关接口
@@ -260,7 +199,7 @@ VPN 通道提供告警功能：
 | 删除对端网关 | [DeleteUserGw](http://cloud.tencent.com/doc/api/245/5117) | 删除指定对端网关。 |
 | 修改对端网关名称 | [ModifyUserGw](http://cloud.tencent.com/doc/api/245/5118) | 修改对端网关名称。 |
 | 查询对端网关列表 | [DescribeUserGw](http://cloud.tencent.com/doc/api/245/5119) | 根据用户信息，如对端网关ID，名称，查询对应对端网关的信息。|
-| 获取可支持的对端网关厂商信息 | [DescribeUserGwVendor](http://cloud.tencent.com/doc/api/245/5120) | 查询腾讯云vpn网关可支持的对端网关厂商信息。 |
+| 获取可支持的对端网关厂商信息 | [DescribeUserGwVendor](http://cloud.tencent.com/doc/api/245/5120) | 查询vpn网关可支持的对端网关厂商信息。 |
 
 
 ### VPN通道相关接口

@@ -1,12 +1,12 @@
 1.  新用户需在腾讯云官网进行 [注册](https://cloud.tencent.com/register?s_url=https%3A%2F%2F.qcloud.com%2Fdocument%2Fproduct%2F213)  ，注册指引可参考 [如何注册腾讯云](https://cloud.tencent.com/document/product/378/9603)。
 2.  到【开发者工具】>【TAPD敏捷项目管理】产品介绍页上单击【免费注册】。
-![](//mc.qcloudimg.com/static/img/fe775b7ce4d6aac38fc1cd4b14439aec/image.png)
+![](https://mc.qcloudimg.com/static/img/fe775b7ce4d6aac38fc1cd4b14439aec/image.png)
 3. 授权访问 TAPD 注册页面。 
-![](//mc.qcloudimg.com/static/img/69028abc0449522643f8a3dacde8a927/image.png)
+![](https://mc.qcloudimg.com/static/img/69028abc0449522643f8a3dacde8a927/image.png)
 4.  按照提示完善公司信息和个人信息注册 TAPD 敏捷研发版本。
-![](//mc.qcloudimg.com/static/img/d1c08e060baf21660353cf41c894730b/image.png)
+![](https://mc.qcloudimg.com/static/img/d1c08e060baf21660353cf41c894730b/image.png)
 5. 进入邮箱查收激活邮件，点击验证完成注册。注册成功后，你将成为该公司的管理员。
-![](//mc.qcloudimg.com/static/img/a79fc6e9ef85d550ff69fd8df553b8d6/image.png)
+![](https://mc.qcloudimg.com/static/img/a79fc6e9ef85d550ff69fd8df553b8d6/image.png)
 
 >**注意：**
 > 1. 一个邮箱只能注册一家公司，不能重复注册。

@@ -1,13 +1,12 @@
-腾讯云容器服务 (Cloud Container Service) 是高度可扩展的高性能容器管理服务，您可以在托管的云服务器实例集群上轻松运行应用程序。在本教程中，您将了解如何使用容器服务快速创建和管理容器集群，并在集群内快速、弹性地部署您的服务。
+容器服务 (Cloud Container Service) 是高度可扩展的高性能容器管理服务，您可以在托管的云服务器实例集群上轻松运行应用程序。在本教程中，您将了解如何使用容器服务快速创建和管理容器集群，并在集群内快速、弹性地部署您的服务。
 
 ## 步骤1：创建集群
-首先您需要创建集群。集群是指容器运行所需云资源的集合，包含了若干台云主机、负载均衡器等腾讯云资源。
-1. 登录 [腾讯云容器服务控制台](https://console.cloud.tencent.com/ccs) 。
+首先您需要创建集群。集群是指容器运行所需云资源的集合，包含了若干台云主机、负载均衡器等云资源。
+1. 登录 [容器服务控制台](https://console.cloud.tencent.com/ccs) 。
 2. 单击左侧导航栏中的【集群】，单击集群列表页的【+ 新建】。
-![](//mc.qcloudimg.com/static/img/3e20524b9aaa91e937bcfd02270d69c7/image.png)
+![](https://mc.qcloudimg.com/static/img/3e20524b9aaa91e937bcfd02270d69c7/image.png)
 3. 设置集群的基本信息。
  - **集群名称**：您要创建的集群的名称。不超过60个字符。
- - **计费模式**：提供包年包月和按量计费两种计费模式，详细对比请查看 [计费模式说明](/doc/product/213/2180)。
  - **所在地域**：建议您根据所在地理位置选择靠近的地域。可降低访问延迟，提高下载速度。
  - **可用区**：同地域内，内网互通；不同地域，内网不通。需要多个内网通信的用户须选择相同的地域。
  - **节点网络**：为集群内主机分配在节点网络地址范围内的 IP 地址。参阅 [容器及节点网络设置](/doc/product/457/9083)。
@@ -21,7 +20,6 @@
 5. 填写云主机配置并单击 【完成】。
  - **系统盘**：固定为 50G 。
  - **数据盘**：步长 10G ，最高为 4000G 。
- - **公网宽带**：提供两种计费模式，详细对比参看 [购买网络带宽](/doc/product/213/509)。
  - **带宽**：勾选 **免费分配公网 IP** ，系统将免费分配公网 IP ，若不需要，请选择带宽值为 0 。
  - **登录方式**：提供三种对应登录方式。
   i. **设置密码**：请根据提示设置对应密码。
@@ -36,13 +34,13 @@
 ## 步骤2：创建服务
 您现已创建了集群，接下来就是创建服务。服务是由多个相同配置的容器和访问这些容器的规则组成的微服务。
 1. 单击左侧导航栏中的【服务】，单击服务列表页的【+ 新建】。
-![](//mc.qcloudimg.com/static/img/11f7f75d7b051a815da8bfe1e744a8e8/image.png)
+![](https://mc.qcloudimg.com/static/img/11f7f75d7b051a815da8bfe1e744a8e8/image.png)
 2.  设置服务的基本信息。
  - **服务名称**：要创建的集群的名称。服务名称由小写字母、数字和 - 组成，且由小写字母开头，小写字母或数字结尾。
  - **所在地域**：建议您根据所在地理位置选择靠近的地域。
  - **运行集群**：选择服务所要运行的集群。运行集群需要选择运行中和集群内有可用主机的集群。
  - **服务描述**：创建服务的相关信息。该信息将显示在 **服务信息** 页面。
-![](//mc.qcloudimg.com/static/img/9254649a08d86761bcb8287fe5a45141/image.png)
+![](https://mc.qcloudimg.com/static/img/9254649a08d86761bcb8287fe5a45141/image.png)
 3. 设置数据卷。
 要指定容器挂载至指定路径时，单击【添加数据卷】。
 >**注意：**
@@ -51,23 +49,23 @@
  - **类型**： 支持使用本地硬盘、云硬盘、NFS 盘、配置文件四种类型的数据卷。相关详细介绍请参阅 [容器服务数据卷使用说明](https://cloud.tencent.com/document/product/457/9112#.E5.AE.B9.E5.99.A8.E6.9C.8D.E5.8A.A1.E6.95.B0.E6.8D.AE.E5.8D.B7.E4.BD.BF.E7.94.A8.E8.AF.B4.E6.98.8E)。
  - **名称**：数据卷的名称。
  - **路径**：指定容器要挂载的路径。
- ![](//mc.qcloudimg.com/static/img/2f3c75de6cb710e4163ff8c468a7e287/image.png)
+ ![](https://mc.qcloudimg.com/static/img/2f3c75de6cb710e4163ff8c468a7e287/image.png)
 4. 设置运行容器。
  - **名称** ：要创建容器的名称。
  - **镜像**：单击【选择镜像】，可选择在我的镜像、我的收藏、TencentHub 镜像、DockerHub 镜像和其他镜像下创建服务。
  - **版本**：容器服务默认选择版本。如果您需要使用镜像的其它版本，单击版本显示框选择。
- ![](//mc.qcloudimg.com/static/img/647899fd3bb0fccd34bdbbc2e32fbad0/image.png)
+ ![](https://mc.qcloudimg.com/static/img/647899fd3bb0fccd34bdbbc2e32fbad0/image.png)
 5. 其他设置。
  -  **实例数量**：一个实例由相关的一个或多个容器构成。可单击 + 或 - 控制实例数量。
  -  **服务访问方式**：服务的访问方式决定了这个服务的网络属性，不同访问方式的服务可以提供不同网络能力。提供的四种访问方式详细介绍请参阅 [服务访问方式设置](https://cloud.tencent.com/document/product/457/9098)。
- ![](//mc.qcloudimg.com/static/img/709ab652384bb5905718dc0ff01903f4/image.png)
+ ![](https://mc.qcloudimg.com/static/img/709ab652384bb5905718dc0ff01903f4/image.png)
 6. 单击【创建服务】完成服务创建。创建完成的服务将出现在服务列表中。
 
 ## 步骤3：查看资源
 在上述步骤中，您创建了集群、服务。在此步骤中，您将查看您所创建的资源。
 ### 查看集群
 1. 单击左侧导航栏中的【集群】，单击集群列表页集群的【ID/名称】，如 cls-r3g887p9。
-![](//mc.qcloudimg.com/static/img/394db8837335eaf3244844cd2881d231/image.png)
+![](https://mc.qcloudimg.com/static/img/394db8837335eaf3244844cd2881d231/image.png)
 2. **节点列表** ：节点是一台已注册到集群内的云服务器。可以进行新建节点、添加已有节点、移除节点的操作
 **Namespace 列表**：Namespace 是对一组资源和对象的抽象集合。单击【Namespace 列表】，可以对 Namespace 进行新建和删除操作。
 **集群信息**：显示了集群的基本信息。
@@ -75,30 +73,30 @@
 
 ### 查看服务
 1. 单击左侧导航栏中的【服务】，单击服务列表页服务的【名称】，如 cfs1。
-![](//mc.qcloudimg.com/static/img/9dcddd72ac2a2c955be166d23ed9dd12/image.png)
+![](https://mc.qcloudimg.com/static/img/9dcddd72ac2a2c955be166d23ed9dd12/image.png)
 2. **实例列表**：实例由相关的一个或多个容器构成。可以进行更新实例数量和销毁实例操作。
 **服务信息**：显示了服务基本信息、配置信息和端口映射信息。
 **实例信息**：显示了实例的基本信息。
 **事件**：创建服务时会跳转至此页面，显示服务创建时流水事件。
-![](//mc.qcloudimg.com/static/img/6e0f4e936465ac1895642a122e14737a/image.png)
+![](https://mc.qcloudimg.com/static/img/6e0f4e936465ac1895642a122e14737a/image.png)
 
 ## 步骤4：删除资源
 在本教程中，您启动了两种资源：集群和服务。在此步骤中，您将清除所有的资源以免产生不必要的费用。
 ### 删除集群
 1. 单击左侧导航栏中的【集群】，单击集群列表页面右侧的【删除】。
-![](//mc.qcloudimg.com/static/img/fc2cf76d876c28f8ee103e34226b300d/image.png)
+![](https://mc.qcloudimg.com/static/img/fc2cf76d876c28f8ee103e34226b300d/image.png)
 2. 单击【确定】。
-![](//mc.qcloudimg.com/static/img/6bbe325ce866351392d0ffd6a2b3a0d7/image.png)
+![](https://mc.qcloudimg.com/static/img/6bbe325ce866351392d0ffd6a2b3a0d7/image.png)
 >**注意：**
 >集群在删除期间，无法对外提供服务，请提前做好准备，以免造成影响。
 
 ### 删除服务
 1. 单击左侧导航栏中的【服务】，单击服务列表右侧【更多】下的【删除】。
-![](//mc.qcloudimg.com/static/img/927afdd93623127bd5ee9b8c5bacf858/image.png)
+![](https://mc.qcloudimg.com/static/img/927afdd93623127bd5ee9b8c5bacf858/image.png)
 2. 单击【确定】。
-![](//mc.qcloudimg.com/static/img/07c697f52454ea7ed439653702a32750/image.png)
+![](https://mc.qcloudimg.com/static/img/07c697f52454ea7ed439653702a32750/image.png)
 
 ## 更多
-通过本教程，您已经了解如何在腾讯云容器服务 CSS 中配置、部署和删除服务。使用腾讯云容器服务 CSS，您将无需安装、运维、扩展您的集群管理基础设施，只需进行简单的API调用，便可启动和停止 Docker 应用程序，查询集群的完整状态，以及使用各种云服务。
+通过本教程，您已经了解如何在容器服务 CSS 中配置、部署和删除服务。使用容器服务 CSS，您将无需安装、运维、扩展您的集群管理基础设施，只需进行简单的API调用，便可启动和停止 Docker 应用程序，查询集群的完整状态，以及使用各种云服务。
 
 您可以进入下一个教程，了解 [负载均衡](/doc/product/457/9110) 和 [镜像仓库](/doc/product/457/9118) 的基本概念和操作。您还可以通过 [快速入门](/doc/product/457/7851) 里的入门实例快速入门构建服务。

@@ -9,7 +9,7 @@
 
 - **FLV**: Adobe公司所推的标准，目前直播平台最常用的封装格式，在PC端有FLASH的强力支持，但在移动终端只有APP实现播放器才有可能支持（或者使用本播放器），大部分手机端浏览器均不支持。目前腾讯视频云的直播录制，采用的就是FLV视频格式。
 
-![](//mc.qcloudimg.com/static/img/9e79a1e82a61b5ae6c45e6da93f3980a/image.png)
+![](https://mc.qcloudimg.com/static/img/9e79a1e82a61b5ae6c45e6da93f3980a/image.png)
 
 
 ## 基础篇

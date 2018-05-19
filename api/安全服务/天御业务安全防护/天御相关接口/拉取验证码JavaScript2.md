@@ -173,9 +173,9 @@ https://domain/v2/index.php?Action=CaptchaQuery
 ```
 
 ## 6. JavaScript样例
-![](//mccdn.qcloud.com/img5693ad9809b39.png)
+![](https://mccdn.qcloud.com/img5693ad9809b39.png)
 
 ## 7. JavaScript使用参考
-![](//mccdn.qcloud.com/img5693adaad4352.png)
+![](https://mccdn.qcloud.com/img5693adaad4352.png)
 
 代码下载链接：http://url.cn/f5F9ix

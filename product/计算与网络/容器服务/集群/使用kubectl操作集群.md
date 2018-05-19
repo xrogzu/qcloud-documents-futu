@@ -2,8 +2,8 @@
 
 如果您已经安装有kubectl工具，请忽略本步骤。详细安装kubectl过程参考[Installing and Setting up kubectl](https://kubernetes.io/docs/user-guide/prereqs/)
 
-下载kubectl（腾讯云主机内网下载）:
->注：腾讯云容器服务创建的云主机，默认已安装kubectl工具。
+下载kubectl（云主机内网下载）:
+>注：容器服务创建的云主机，默认已安装kubectl工具。
 
 ```shell
 # Linux

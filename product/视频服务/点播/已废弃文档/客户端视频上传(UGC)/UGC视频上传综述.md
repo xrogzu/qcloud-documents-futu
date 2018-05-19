@@ -21,7 +21,7 @@ UGC视频上传的整体流程分为如下两步：
 
 如下图所示：
 
-![](//mc.qcloudimg.com/static/img/460e9bda01a743188498d046a30e8300/image.png)
+![](https://mc.qcloudimg.com/static/img/460e9bda01a743188498d046a30e8300/image.png)
 
 注意：
 

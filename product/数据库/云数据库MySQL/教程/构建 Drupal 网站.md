@@ -44,7 +44,7 @@ service httpd start
 此步骤需要您的云主机在安全组中配置来源为 **all**，端口协议为 **TCP:80** 的入站规则。关于安全组的配置方法请参考 [安全组](https://cloud.tencent.com/document/product/213/5221)。
 
 在您本地的浏览器中输入`http://115.xxx.xxx.xxx/`（其中 `115.xxx.xxx.xxx`为您的云服务器公网 IP 地址），出现下列画面表示 Apache 启动成功。
-![](//mc.qcloudimg.com/static/img/3cde70e76a386b81f96ea9919280269d/image.png)
+![](https://mc.qcloudimg.com/static/img/3cde70e76a386b81f96ea9919280269d/image.png)
 
 ### 安装 PHP 
 1. 在云服务器实例中使用 `yum` 安装 PHP 及其扩展。
@@ -60,7 +60,7 @@ yum install php php-dom php-dg php-mysql php-pdo -y
 service httpd restart
 ```
 4. 在您本地的浏览器中输入 `http://115.xxx.xxx.xxx/info.php`（其中 `115.xxx.xxx.xxx`为您的云服务器公网 IP 地址） ，出现下列画面表示 PHP 安装成功。
-![](//mc.qcloudimg.com/static/img/0bc6667d122fe85d505fbe50b507b60a/image.png)
+![](https://mc.qcloudimg.com/static/img/0bc6667d122fe85d505fbe50b507b60a/image.png)
 
 ### 安装 Drupal 服务
 1. 下载 Drupal 安装包。
@@ -86,14 +86,14 @@ chown -R apache:apache /var/www/html/sites
 service httpd restart
 ```
 6. 在您本地的浏览器中输入`http://115.xxx.xxx.xxx/`（其中 `115.xxx.xxx.xxx`为您的云服务器公网 IP 地址）,进入 Drupal 安装界面。选择安装版本，单击【Save and continue】。
-![](//mc.qcloudimg.com/static/img/73f38550392e4fa6c496ed2afd0263a9/image.png)
+![](https://mc.qcloudimg.com/static/img/73f38550392e4fa6c496ed2afd0263a9/image.png)
 7. 选择安装语言，单击 【Save and continue】。
-![](//mc.qcloudimg.com/static/img/9ab7121915a685816504a80d347be29c/image.png)
+![](https://mc.qcloudimg.com/static/img/9ab7121915a685816504a80d347be29c/image.png)
 8. 设置数据库，输入您在 **安装 mariadb 服务** 中配置的数据库信息。
-![](//mc.qcloudimg.com/static/img/a4d53a2d9421be3d223862585cf1c61e/image.png)
+![](https://mc.qcloudimg.com/static/img/a4d53a2d9421be3d223862585cf1c61e/image.png)
 9. 输入站点信息。
- ![](//mc.qcloudimg.com/static/img/c124ba56012c3a3bd8023a65cdb87b52/image.png)
+ ![](https://mc.qcloudimg.com/static/img/c124ba56012c3a3bd8023a65cdb87b52/image.png)
 10. 完成 Drupal 的安装。
-![](//mc.qcloudimg.com/static/img/ed4795e8c6cb3183c56aeb8e18ef5d4a/image.png)
+![](https://mc.qcloudimg.com/static/img/ed4795e8c6cb3183c56aeb8e18ef5d4a/image.png)
 11. 后续可以访问 `http://115.xxx.xxx.xxx/`（其中 `115.xxx.xxx.xxx`为您的云服务器公网 IP 地址）对网站进行个性化设置。
-![](//mc.qcloudimg.com/static/img/1c27ddd5419452fb92b8348d03586101/image.png)
+![](https://mc.qcloudimg.com/static/img/1c27ddd5419452fb92b8348d03586101/image.png)

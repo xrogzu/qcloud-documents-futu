@@ -1,7 +1,7 @@
 ## java 构建 
 ### 新建工程
 1. 进入 CCI 持续集成界面后，单击左侧菜单栏中的【服务端构建】。单击【新建】按钮，新建服务端构建工程。
-![](//mc.qcloudimg.com/static/img/a85d6fc850c325f35853ec8f82e53feb/image.png)
+![](https://mc.qcloudimg.com/static/img/a85d6fc850c325f35853ec8f82e53feb/image.png)
 2. 进入新建工程后时，依次填写工程名称（必填）和工程描述（选填）。
 3. 依次选择代码仓库和分支，代码仓库和分支的创建请参考 [Tgit 代码托管文档](https://cloud.tencent.com/document/product/612)。
 4. **编程语言** 中单击【 java 】选项，根据用户需求选择 `ant`  或 `maven` 构建类型，构建环境会根据构建类型自动定位。
@@ -11,17 +11,17 @@
 7. 勾选【触发方式】（选填），根据需求勾选【定时触发】或【代码变更触发】（可同时勾选两种方式，或勾选其一，或都不勾选）。
    若您勾选了【定时触发】，可以滑动选择定时触发时间（选填）。
 8. 若您想对工程的超时时间，构建结构通知和环境变量进行设置时，单击【显示高级设置】，在显示的页面中进行填写和勾选。
- ![](//mc.qcloudimg.com/static/img/97e4dc84142cd8557f56b8fd460e4c52/image.png)
+ ![](https://mc.qcloudimg.com/static/img/97e4dc84142cd8557f56b8fd460e4c52/image.png)
 9. 填写完成后，单击页面右下方【确认】，完成新建工程创建，或单击【返回】，取消新建工程创建。
  
  
 ### 触发构建
 
 -  新建工程后，单击【确认】，进入工程触发构建页面。
-![](//mc.qcloudimg.com/static/img/3c6ee54ea09fd52e8372ae9a68c7e301/image.png)
+![](https://mc.qcloudimg.com/static/img/3c6ee54ea09fd52e8372ae9a68c7e301/image.png)
  触发构建的方式有三种：
    -  手动触发
-   在 **工作区** 中单击【手动创建】，选择代码段，单击【构建】，开始构建。![](//mc.qcloudimg.com/static/img/d54b6ba2fe78e4b9880df4de57190d42/image.png)
+   在 **工作区** 中单击【手动创建】，选择代码段，单击【构建】，开始构建。![](https://mc.qcloudimg.com/static/img/d54b6ba2fe78e4b9880df4de57190d42/image.png)
    -  代码变更触发
    代码变更码发生变更时，CCI 平台即开始以最新版本代码执行构建的方式。
    -  定时触发

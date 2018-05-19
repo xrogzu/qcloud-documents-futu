@@ -184,7 +184,7 @@ where value->"$.item"="paper" limit 1
    </tr>
    <tr>
     <td >
-     <span style="font-size:14px;">单场索引</span><br>
+     <span style="font-size:14px;">单列索引</span><br>
     </td>
     <td>
      <span style="font-size:14px;">对qty建立索引

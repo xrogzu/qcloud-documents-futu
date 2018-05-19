@@ -11,9 +11,9 @@
 3. 打开 sysprep 工具。
  运行位于 `C:\windows\system32\sysprep` 文件夹下的 `sysprep.exe` 程序。
 【系统清理操作】选择 **进入系统全新体验（OOBE）**，同时勾选【通用】选项，【关机选项】选择 **重新启动**。
- ![](//mccdn.qcloud.com/static/img/1dfa18a861c0a70b880b5130ff40d572/image.png)
+ ![](https://mccdn.qcloud.com/static/img/1dfa18a861c0a70b880b5130ff40d572/image.png)
 4. 单击 **确定** 后系统重新启动，启动后按照向导完成配置（选择语言、重设密码等）。
 5. 验证 SID。
 单击【开始】>【运行】，输入 `cmd` 打开命令行界面，执行命令 `whoami /user `，验证 SID 是否已修改。
- ![](//mccdn.qcloud.com/static/img/6c1c0784b3e51b5dca3a19f381ea2e02/image.png)
+ ![](https://mccdn.qcloud.com/static/img/6c1c0784b3e51b5dca3a19f381ea2e02/image.png)
 6. 参照步骤 2 保存的配置信息重新设置网卡相关信息（IP 地址、网关地址、DNS 等）。

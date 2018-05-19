@@ -34,14 +34,14 @@ ImSDK.framework 支持iOS 7.0 及以上系统。
 
 创建一个新工程，填入工程名，这里以IMDemo为例：
 
-![](//avc.qcloud.com/wiki2.0/im/imgs/20150928013356_56054.jpg)
-![](//avc.qcloud.com/wiki2.0/im/imgs/20150928013638_56711.jpg)
+![](https://avc.qcloud.com/wiki2.0/im/imgs/20150928013356_56054.jpg)
+![](https://avc.qcloud.com/wiki2.0/im/imgs/20150928013638_56711.jpg)
 
 ### 1.4 集成ImSDK
 
 选中IMDemo的Target，在General面板中的Linked Frameworks and Libraries添加依赖库。
 
-![](//avc.qcloud.com/wiki2.0/im/imgs/20150928013833_31715.jpg)
+![](https://avc.qcloud.com/wiki2.0/im/imgs/20150928013833_31715.jpg)
 
 需要添加的依赖库有：
 
@@ -71,11 +71,11 @@ IMSDKBugly.framework
 
 如下图所示，一个会话表示与一个好友的对话：
 
-![](//mccdn.qcloud.com/static/img/6a12c1ea947e7b36a7abe25e55c33608/image.jpg)
+![](https://mccdn.qcloud.com/static/img/6a12c1ea947e7b36a7abe25e55c33608/image.jpg)
 
 消息：ImSDK中消息(Message)表示要发送给对方的内容，消息包括若干属性，如是否自己已读，是否已经发送成功，发送人帐号，消息产生时间等；一条消息由若干Elem组合而成，每种Elem可以是文本、图片、表情等等，消息支持多种Elem组合发送。
 
-![](//avc.qcloud.com/wiki2.0/im/imgs/20150928014948_11392.png)
+![](https://avc.qcloud.com/wiki2.0/im/imgs/20150928014948_11392.png)
 
 群组Id：群组Id唯一标识一个群，由后台生成，创建群组时返回。
 

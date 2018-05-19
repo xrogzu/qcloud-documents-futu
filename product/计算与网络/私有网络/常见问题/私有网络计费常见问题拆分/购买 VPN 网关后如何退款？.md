@@ -1,11 +1,11 @@
 您好，VPN 网关退款可以参考以下步骤：
-![](//mc.qcloudimg.com/static/img/29cb3b429573ef0632bdc96ed7e51aec/image.png)
+![](https://mc.qcloudimg.com/static/img/29cb3b429573ef0632bdc96ed7e51aec/image.png)
 
 1. 登录腾讯云官网，在 管理中心 选择【发起工单】。
-![](//mc.qcloudimg.com/static/img/f91073cbf61e2413bd8dfd68e1786639/image.png)
+![](https://mc.qcloudimg.com/static/img/f91073cbf61e2413bd8dfd68e1786639/image.png)
 
 2. 进入 [【提交工单】](https://console.cloud.tencent.com/) 页面，根据要退还的问题类型进行选择。
-![](//mc.qcloudimg.com/static/img/a99cc1bddd9f85492f10d0495af5106b/image.png)
+![](https://mc.qcloudimg.com/static/img/a99cc1bddd9f85492f10d0495af5106b/image.png)
 
 3. 以云服务 CVM 为示例，申请退货，找到云服务器 CVM，单击【提交工单】选择退还原因，填写问题描述，提交工单。
 腾讯云客服人员将会根据您提交的申请在两个工作日内进行处理，退款成功后会有退款的订单产生，请注意查看。

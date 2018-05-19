@@ -12,7 +12,7 @@
 
 以专业版为例，下载完的SDK解压后有以下几个部分：
 
-![](//mc.qcloudimg.com/static/img/5ef04a5e101beea834813e58fc5115ec/androidzippkg.png)
+![](https://mc.qcloudimg.com/static/img/5ef04a5e101beea834813e58fc5115ec/androidzippkg.png)
 
 | 文件名 | 说明 | 
 |---------|---------|
@@ -39,7 +39,7 @@
 
 在本例中，新建一个名字叫做HelloSDK的iOS工程，将下载下来的`TXLiteAVSDK_Professional.framework`拷贝至工程目录。目录结构如下图所示：
 
-![](//mc.qcloudimg.com/static/img/d2b95540742662c006039adabb44188a/RTX20170811-210804.png)
+![](https://mc.qcloudimg.com/static/img/d2b95540742662c006039adabb44188a/RTX20170811-210804.png)
 
 ### 2、添加Framework
 

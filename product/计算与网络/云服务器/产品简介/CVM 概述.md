@@ -59,9 +59,3 @@
 - [使用 SDK >>](https://cloud.tencent.com/document/developer-resource)
 
 - [使用命令行工具 >>](https://cloud.tencent.com/document/product/440/6317)
-
-## CVM 定价
-CVM 支持包年包月和按量付费。更多信息，请参考 [ CVM 实例价格](/doc/product/213/2176) 。
-
-CVM 及相关资源的价格信息，请参考 [产品定价](https://buy.cloud.tencent.com/calculator/cvm) 。
-

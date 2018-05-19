@@ -46,7 +46,7 @@ var groupSystemNotifys = {
 
 Demo提供了查看群系统消息通知的入口： 
 
-![](//mccdn.qcloud.com/static/img/acf4d425d2353617a543784916396539/image.png)
+![](https://mccdn.qcloud.com/static/img/acf4d425d2353617a543784916396539/image.png)
 
 ## 1 申请加群 
 
@@ -54,7 +54,7 @@ Demo提供了查看群系统消息通知的入口：
 
 Demo提供了查看加群申请的入口： 
 
-![](//mccdn.qcloud.com/static/img/ccc1a4aa08e8141fb90d18be59b18b2a/image.png)
+![](https://mccdn.qcloud.com/static/img/ccc1a4aa08e8141fb90d18be59b18b2a/image.png)
 
 **示例：** 
 
@@ -282,7 +282,7 @@ demo增加了发送自定义通知入口。
 
 在demo中点击【菜单】->【群组】->【我的群组】，发送自定义群通知如下图：
 
-![](//mccdn.qcloud.com/static/img/b762e41a5b46b23ac72699bf330adb75/image.png)
+![](https://mccdn.qcloud.com/static/img/b762e41a5b46b23ac72699bf330adb75/image.png)
 
 **发送demo：** 
 

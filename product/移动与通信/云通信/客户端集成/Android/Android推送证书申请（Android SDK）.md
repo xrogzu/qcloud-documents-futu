@@ -13,15 +13,15 @@
 
 首先，需要到 [小米开发者中心](http://dev.xiaomi.com/developer/selectBindType?userId=557535808) 注册开发者帐号。请根据指引完成资料填写，并等待资格审核通过。这里请根据个人实际情况选择帐号类型。
 
-![小米推送-注册](//mccdn.qcloud.com/static/img/04a4cfcc6a1d02125a61674f2a916a40/image.png)
+![小米推送-注册](https://mccdn.qcloud.com/static/img/04a4cfcc6a1d02125a61674f2a916a40/image.png)
 
 开发者帐号审核通过后，进入 `管理控制台 -> 消息推送`，然后创建一个新的应用。
 
-![小米推送-创建应用](//mccdn.qcloud.com/static/img/53bd8862d2ba5fe46bd9e0fc6026a740/image.png)
+![小米推送-创建应用](https://mccdn.qcloud.com/static/img/53bd8862d2ba5fe46bd9e0fc6026a740/image.png)
 
 根据指引创建应用成功后，进入该应用的详情页面，就可以看到该应用的详细信息，包括`应用包名`，`AppID`，`AppKey`，`AppSecret`。把这些信息记录下来，以备后用。
 
-![小米推送-应用详情](//mccdn.qcloud.com/static/img/e108aef3f58418eddd1b77c9c452ee3d/image.png)
+![小米推送-应用详情](https://mccdn.qcloud.com/static/img/e108aef3f58418eddd1b77c9c452ee3d/image.png)
 
 ## 2. 华为证书申请
 
@@ -37,21 +37,21 @@
 
 首先， 需要到 [华为开发者联盟](http://developer.huawei.com/cn/consumer/devunion/openPlatform/html/regLogin_smrz.html) 注册开发者帐号。请根据指引完成资料填写，并等待资格审核通过。这里请根据个人实际情况选择帐号类型。
 
-![华为推送-注册](//mccdn.qcloud.com/static/img/d14b455655295a549fd5cd800b622be4/image.png)
+![华为推送-注册](https://mccdn.qcloud.com/static/img/d14b455655295a549fd5cd800b622be4/image.png)
 
 开发者帐号审核通过后，可以进入 `管理中心 -> 创建移动应用` 新建一个应用。
 
-![华为推送-创建应用](//mccdn.qcloud.com/static/img/7d95c138939902013fb9b96198f3d44c/image.png)
+![华为推送-创建应用](https://mccdn.qcloud.com/static/img/7d95c138939902013fb9b96198f3d44c/image.png)
 
 根据指引创建应用成功后，为该应用添加Push权益。
 
-![华为推送-添加权益1](//mccdn.qcloud.com/static/img/99210a7c4506f4b6fe44db5d54c29438/image.png)
+![华为推送-添加权益1](https://mccdn.qcloud.com/static/img/99210a7c4506f4b6fe44db5d54c29438/image.png)
 
-![华为推送-添加权益2](//mccdn.qcloud.com/static/img/9fd84e68a74606074a6543787c5d1690/image.png)
+![华为推送-添加权益2](https://mccdn.qcloud.com/static/img/9fd84e68a74606074a6543787c5d1690/image.png)
 
 然后进入该应用详情页面就可以看到该应用对应的`应用包名`，`APP ID`，`APP SECRET`。把这些信息记录下来，以备后用。
 
-![华为推送-应用详情](//mccdn.qcloud.com/static/img/90deabf4a7f7f637fe1357464b423c19/image.png)
+![华为推送-应用详情](https://mccdn.qcloud.com/static/img/90deabf4a7f7f637fe1357464b423c19/image.png)
 
 ## 3. 魅族证书申请
 

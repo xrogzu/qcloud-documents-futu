@@ -3,7 +3,7 @@
 
 请选择对应SDK，直接下载
 
-![](//mccdn.qcloud.com/static/img/ad06a93314a82105c581dde2c31d9c58/image.png)
+![](https://mccdn.qcloud.com/static/img/ad06a93314a82105c581dde2c31d9c58/image.png)
 
 
 ### 2 查阅使用说明

@@ -41,7 +41,7 @@ mLivePlayer.startPlay(flvUrl, TXLivePlayer.PLAY_TYPE_LIVE_FLV); //推荐FLV
 
 ### step 4: 画面调整
 如果你希望调整画面的显示方式，SDK也提供了多种选择：
-![](//mc.qcloudimg.com/static/img/ef948faaf1d62e8ae69e3fe94ab433dc/image.png)
+![](https://mc.qcloudimg.com/static/img/ef948faaf1d62e8ae69e3fe94ab433dc/image.png)
 
 - **setRenderMode**
 

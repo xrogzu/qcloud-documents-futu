@@ -1698,7 +1698,7 @@ TIMGroupPendencyItem *item = [pendencies firstObject];
 
 当有用户被邀请加入群组，或者有用户被移出群组时，群内会产生有提示消息，调用方可以根据需要展示给群组用户，或者忽略。提示消息使用一个特殊的Elem标识，通过新消息回调返回消息（参见2.3. 新消息通知）：
 如下图中，展示一条修改群名的事件消息： 
-![](//mccdn.qcloud.com/static/img/cc5b0e33ed6bd492fca7d8fb8469307a/image.jpg)
+![](https://mccdn.qcloud.com/static/img/cc5b0e33ed6bd492fca7d8fb8469307a/image.jpg)
 
 **消息原型：** 	
 

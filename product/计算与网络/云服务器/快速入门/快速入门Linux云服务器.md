@@ -1,9 +1,9 @@
 
-本文档主要介绍如何快速使用 Linux 系统的云服务器实例的相关功能，引导新手快速了解腾讯云云服务器的创建和配置。
+本文档主要介绍如何快速使用 Linux 系统的云服务器实例的相关功能，引导新手快速了解云服务器的创建和配置。
 <div id="page1"></div>
 ## 步骤一：准备与选型
-### 注册腾讯云账号
-新用户需在腾讯云官网进行[【注册】](https://cloud.tencent.com/register?s_url=https%3A%2F%2Fcloud.tencent.com%2Fdocument%2Fproduct%2F213)，注册指引可参考 [如何注册腾讯云](/doc/product/378/9603) 。
+### 注册云平台账号
+新用户需在云平台官网进行[【注册】](https://cloud.tencent.com/register?s_url=https%3A%2F%2Fcloud.tencent.com%2Fdocument%2Fproduct%2F213)，注册指引可参考 [如何注册云平台](/doc/product/378/9603) 。
 
 ### 确定云服务器所在地域及可用区
 地域选择原则：
@@ -11,11 +11,11 @@
 请根据您的用户所在地理位置选择云服务器地域。云服务器越靠近访问客户，越能获得较小的访问时延和较高的访问速度。比如：您的用户大部分位于长江三角洲附近时，上海地域是较好的选择。
  - 内网通信同地域原则。
 同地域内，内网互通；不同地域，内网不通。需要多个云服务器内网通信的用户须选择相同云服务器地域。
-相同地域下的云服务器可以通过内网相互通信（内网通信，免费）。
-不同地域之间的云服务器不能通过内网互相通信（通信需经过公网，收费）。
+相同地域下的云服务器可以通过内网相互通信（内网通信）。
+不同地域之间的云服务器不能通过内网互相通信（通信需经过公网）。
 
 ### 确定云服务器配置方案
-腾讯云提供如下推荐配置：[【推荐选型】](https://cloud.tencent.com/act/recommended)
+云平台提供如下推荐配置：[【推荐选型】](https://cloud.tencent.com/act/recommended)
 - 入门型：适用于起步阶段的个人网站。如：个人博客等小型网站。
 - 基础型：适合有一定访问量的网站或应用。如：较大型企业官网、小型电商网站。
 - 普及型：适合常使用云计算等一定计算量的需求。如：门户网站、SaaS 软件、小型 App 。
@@ -23,19 +23,15 @@
 
 若推荐的配置不能满足您的需求，您可以在[【更多机型】](https://buy.cloud.tencent.com/cvm?tabIndex=1)中根据实际需要比较各配置方案。当然您也可以在购买云服务器之后，根据您的需求随时进行 [配置升级](/doc/product/213/%E8%B0%83%E6%95%B4CVM%E5%AE%9E%E4%BE%8B%E9%85%8D%E7%BD%AE#1.-配置升级)  或  [配置降级](/doc/product/213/%E8%B0%83%E6%95%B4CVM%E5%AE%9E%E4%BE%8B%E9%85%8D%E7%BD%AE#2.-配置降级) 。
 
-### 确定付费方式
-腾讯云提供 包年包月 和 按量付费 两种付费模式。详见 [计费模式说明](/doc/product/213/2180) 。
-若您选择按量付费，则需先完成 [实名认证](https://console.cloud.tencent.com/developer/infomation) 。
 
-<div id="page2"></div>
 ## 步骤二：创建 Linux 云服务器
-本步骤介绍 Linux 云服务器的创建，腾讯云提供快速配置和自定义配置两种方式。本部分以快速配置为例说明，若快速配置不能满足您的需求，您可参考 [自定义配置 Linux 云服务器](/doc/product/213/10517) 文档进行配置。
+本步骤介绍 Linux 云服务器的创建，云平台提供快速配置和自定义配置两种方式。本部分以快速配置为例说明，若快速配置不能满足您的需求，您可参考 [自定义配置 Linux 云服务器](/doc/product/213/10517) 文档进行配置。
  > 注意：
  > 初次购买的账户默认进入【快速配置】页面，购买过的用户默认进入【自定义配置】页面。
 
-![](//mc.qcloudimg.com/static/img/4daa9004a9b40bd378f0486b92f2a4d3/image.png)
+![](https://mc.qcloudimg.com/static/img/4daa9004a9b40bd378f0486b92f2a4d3/image.png)
 
- 1. 登录腾讯云官网，选择【云产品】-【计算与网络】-【云服务器】，单击【立即选购】按钮，进入 [云服务器购买页面](https://buy.cloud.tencent.com/buy/cvm)。
+ 1. 登录云平台官网，选择【云产品】-【计算与网络】-【云服务器】，单击【立即选购】按钮，进入 [云服务器购买页面](https://buy.cloud.tencent.com/buy/cvm)。
 
  2. 选择镜像。快速配置向您推荐 Ubuntu Server 16.04.1 LTS 64位 与CentOS 7.2 64位 的操作系统方案。
  
@@ -65,7 +61,7 @@
    
 ### 查看站内信及云服务器信息
 完成云服务器的购买和创建后，云服务器的实例名称、公网 IP 地址、内网 IP 地址、登录名、初始登录密码等信息都将以 [站内信](https://console.cloud.tencent.com/message) 的方式发送到账户上。
-![](//mc.qcloudimg.com/static/img/d2d6900e58fc4f7b141b770de23cd3d8/image.png)
+![](https://mc.qcloudimg.com/static/img/d2d6900e58fc4f7b141b770de23cd3d8/image.png)
  1. 登录 [云服务器控制台](https://console.cloud.tencent.com/cvm) 。登录后即可看到公网 IP 地址、内网 IP 地址等信息。
  
  2. 单击右上角【站内信】。
@@ -75,7 +71,7 @@
 
 ### 控制台登录云服务器
  1. 在云服务列表页的操作列，单击【登录】按钮即可通过 WebShell 登录 Linux 云服务器。
-	![](//mccdn.qcloud.com/img56b1a6cb7b3e8.png)
+	![](https://mccdn.qcloud.com/img56b1a6cb7b3e8.png)
 	
  2. 输入帐号（root ，Ubuntu 系统用户为 ubuntu）和站内信中的初始密码（或您修改后的密码）即可登录。
 
@@ -95,14 +91,14 @@
  1. 通过步骤三介绍的方法登录 Linux 云服务器。
 
 	> **注意：**
-	> 仅支持对数据盘进行分区，不支持对系统盘进行分区。若您强行对系统盘分区可能导致系统崩溃等严重问题，针对此种情况腾讯云不承担赔偿责任。
+	> 仅支持对数据盘进行分区，不支持对系统盘进行分区。若您强行对系统盘分区可能导致系统崩溃等严重问题，针对此种情况云平台不承担赔偿责任。
 
  2. 输入命令`fdisk -l`查看您的数据盘信息。
 	本示例中，有一个 54 GB 的数据盘`(/vdb)`需要挂载。
 	>**注意：**
 	>`fdisk -l`与`df -h` 都为拆看数据盘信息命令，但在没有分区和格式化数据盘之前，使用`df -h` 命令无法看到数据盘。
 
-	![](//mc.qcloudimg.com/static/img/f26b5a092e1521556410afdc75a95474/image.png)
+	![](https://mc.qcloudimg.com/static/img/f26b5a092e1521556410afdc75a95474/image.png)
 
  3. 对数据盘进行分区。按照界面的提示，依次操作：
 
@@ -115,10 +111,10 @@
  	7. 输入`wq`(保存分区表)，回车开始分区。
 
 	这里以创建 1 个分区为例，开发者也可以根据自己的需求创建多个分区。
-	![](//mc.qcloudimg.com/static/img/8a9c8ff4db5a7e4622bf2968d0309129/image.png)
+	![](https://mc.qcloudimg.com/static/img/8a9c8ff4db5a7e4622bf2968d0309129/image.png)
 
  4. 使用`fdisk -l`命令，即可查看到，新的分区 vdb1 已经创建完成。
-	![](//mc.qcloudimg.com/static/img/304ccd9491f2a25b8d3b33b5213faa0e/image.png)
+	![](https://mc.qcloudimg.com/static/img/304ccd9491f2a25b8d3b33b5213faa0e/image.png)
 
 ### 格式化数据盘
 
@@ -128,7 +124,7 @@
 	```
 	mkfs.ext3 /dev/vdb1
 	```
-	![](//mc.qcloudimg.com/static/img/fce59c4aba93c688c429fe4760452264/image.png)
+	![](https://mc.qcloudimg.com/static/img/fce59c4aba93c688c429fe4760452264/image.png)
 
  2. 挂载分区
 	使用以下命令创建 mydata 目录并将分区挂载在该目录下：
@@ -141,7 +137,7 @@
 	df -h
 	```
 	出现如图框选的 vdb1 信息则说明挂载成功，即可以查看到数据盘了。
-	![](//mc.qcloudimg.com/static/img/d6bc35b30b823c567812affd032bfedf/image.png)
+	![](https://mc.qcloudimg.com/static/img/d6bc35b30b823c567812affd032bfedf/image.png)
 
  3. 设置启动自动挂载
 如果希望云服务器在重启或开机时能自动挂载数据盘，必须将分区信息添加到 `/etc/fstab `中。
@@ -154,6 +150,6 @@
 	cat /etc/fstab
 	```
 	出现如图最下方框选的 vdb1 信息则说明添加分区信息成功。
-	![](//mc.qcloudimg.com/static/img/39025e909cd849d5a34378a7d0078d13/image.png)
+	![](https://mc.qcloudimg.com/static/img/39025e909cd849d5a34378a7d0078d13/image.png)
 	
 **至此，您已完成 Linux 系统的云服务器的创建和基础配置。**

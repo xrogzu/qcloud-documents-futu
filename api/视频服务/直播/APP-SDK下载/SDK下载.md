@@ -29,7 +29,7 @@
 
 ## DEMO体验
 **【界面截图】**
-![](//mc.qcloudimg.com/static/img/a39eddc4b5f1ea062355ab865a845fb9/image.png)
+![](https://mc.qcloudimg.com/static/img/a39eddc4b5f1ea062355ab865a845fb9/image.png)
 
 **【功能支持】** 
 - 推流：RTMP 推流
@@ -37,7 +37,7 @@
 - 点播：MP4、HLS和FLV格式的在线点播
 
 **【APP安装】**
-![](//mc.qcloudimg.com/static/img/ab0875058708003998c3830f7329b887/image.png)
+![](https://mc.qcloudimg.com/static/img/ab0875058708003998c3830f7329b887/image.png)
 
 **【体验地址】**
 如下是3组测试地址，RTMP推流具有排它性：同一时间、同一URL，<font color='red'>只能有一个主播</font>在推流中。所以如果您体验推流总是断开（被后台拒绝），说明地址已经被其他的体验者占用。
@@ -66,7 +66,7 @@ PLAY(HLS) : http://2000.liveplay.myqcloud.com/2000_4eb4da7079af11e69776e435c87f0
 
 ## 小直播APP
 **【界面截图】**
-![](//mc.qcloudimg.com/static/img/05d2e651ff6c9332211eaf7fea167cfa/image.png)
+![](https://mc.qcloudimg.com/static/img/05d2e651ff6c9332211eaf7fea167cfa/image.png)
 
 **【功能支持】** 
 - 直播：支持实时直播和观看，延迟3s以内，视频秒开体验。
@@ -74,6 +74,6 @@ PLAY(HLS) : http://2000.liveplay.myqcloud.com/2000_4eb4da7079af11e69776e435c87f0
 - 回放：超过一分钟的直播内容会自动进入录播列表，提供回看能力。
 
 **【APP安装】**
-![](//mc.qcloudimg.com/static/img/0fbc0caa7f9e5a45d92e50f7cf4e6f0f/image.png)
+![](https://mc.qcloudimg.com/static/img/0fbc0caa7f9e5a45d92e50f7cf4e6f0f/image.png)
 
 

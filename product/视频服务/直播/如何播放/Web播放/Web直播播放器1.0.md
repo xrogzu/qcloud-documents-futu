@@ -31,7 +31,7 @@ WEB SDK直播视频格式支持：
 ### Step 3：获取ID
 您可以在直播管理控制台查找到直播频道并对该频道进行管理。在控制界面您可以找到app_id。在**基础设置**中，可以查询到该频道的频道id。
 
-![](//mc.qcloudimg.com/static/img/c891d20153fe9e46e1647bd7494ab021/image.png)
+![](https://mc.qcloudimg.com/static/img/c891d20153fe9e46e1647bd7494ab021/image.png)
 
 ### Step 4：页面准备
 在需要播放视频的页面（包括PC或H5）中引入初始化脚本

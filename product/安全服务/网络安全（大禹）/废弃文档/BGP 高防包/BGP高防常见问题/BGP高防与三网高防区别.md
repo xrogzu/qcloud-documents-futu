@@ -1,1 +1,1 @@
-![](//mccdn.qcloud.com/static/img/d9812b5cc94a6323052a0ca35fb31b5d/image.png)
+![](https://mccdn.qcloud.com/static/img/d9812b5cc94a6323052a0ca35fb31b5d/image.png)

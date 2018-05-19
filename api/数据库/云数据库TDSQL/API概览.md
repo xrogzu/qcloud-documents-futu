@@ -8,13 +8,10 @@
 | 开放外网地址 | [CdbTdsqlOpenWanIP](/doc/api/309/5535) | 开放外网地址 |
 | 关闭外网地址 | [CdbTdsqlCloseWanIP](/doc/api/309/5536) | 关闭外网地址 |
 | 查询实例规格 | [CdbTdsqlGetSpecList](/doc/api/309/5537) | 查询实例规格 |
-| 查询价格 |[CdbTdsqlGetPrice](/doc/api/309/5538)| 查询价格 |
-| 创建实例 |[CdbTdsqlCreateInstance](/doc/api/309/5539)| 创建实例（包年包月） |
+| 创建实例 |[CdbTdsqlCreateInstance](/doc/api/309/5539)| 创建实例 |
 | 初始化实例 |[CdbTdsqlInitInstance](/doc/api/309/5540)| 初始化实例 |
-| 续费实例 |[CdbTdsqlRenewInstance](/doc/api/309/5541)| 续费实例 |
 | 查询项目列表 |[CdbTdsqlGetProjectList](/doc/api/309/5604)| 查询项目列表 |
 | 查询流程状态 |[CdbTdsqlGetFlowInfo](/doc/api/309/5605)| 查询流程状态 |
-| 查询订单信息 |[CdbTdsqlGetOrderInfo](/doc/api/309/5690)| 查询订单信息 |
 | 获取自定义备份时间 |[CdbTdsqlGetBackupTime](/doc/api/309/5970)| 获取自定义备份时间 |
 | 设置自定义备份时间 |[CdbTdsqlSetBackupTime](/doc/api/309/5969)| 设置自定义备份时间 |
 

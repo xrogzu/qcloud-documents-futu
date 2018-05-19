@@ -15,11 +15,11 @@
 
 - FLV: Adobe公司所推的标准，目前直播平台最常用的封装格式，在PC端有FLASH的强力支持，但在移动终端只有APP实现播放器才有可能支持（或者使用本播放器），大部分手机端浏览器均不支持。目前腾讯视频云的直播录制，采用的就是FLV视频格式。
 
-![vod](//mccdn.qcloud.com/static/img/7ecad3956506eafad7170f0d5e4ebfa3/image.jpg)
+![vod](https://mccdn.qcloud.com/static/img/7ecad3956506eafad7170f0d5e4ebfa3/image.jpg)
 
 ## DEMO体验
 ### DEMO安装
-![](//mc.qcloudimg.com/static/img/ab0875058708003998c3830f7329b887/image.png)
+![](https://mc.qcloudimg.com/static/img/ab0875058708003998c3830f7329b887/image.png)
 
 ### 功能支持
 - 推流：RTMP 推流
@@ -27,7 +27,7 @@
 - 点播：MP4、HLS和FLV格式的在线点播
 
 ### 界面截图
-![](//mc.qcloudimg.com/static/img/a39eddc4b5f1ea062355ab865a845fb9/image.png)
+![](https://mc.qcloudimg.com/static/img/a39eddc4b5f1ea062355ab865a845fb9/image.png)
 
 ## 播放器SDK
 - iOS播放器SDK；

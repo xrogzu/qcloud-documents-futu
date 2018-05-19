@@ -53,7 +53,7 @@ CDB for MySQL支持控制台续费和续费中心续费两种方式，并在续�
 
 ### 按量计费
  
- ![](//mccdn.qcloud.com/img567f91951599d.png)
+ ![](https://mccdn.qcloud.com/img567f91951599d.png)
  
 - 余额预警
 
