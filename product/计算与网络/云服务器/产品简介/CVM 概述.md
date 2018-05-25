@@ -1,8 +1,8 @@
 ## 简介
-腾讯云云服务器 (Cloud Virtual Machine，CVM) 是在云中提供可扩展的计算服务，避免了使用传统服务器时需要预估资源用量及前期投入的情况。通过使用腾讯云 CVM ，您可以在短时间内快速启动任意数量的云服务器并即时部署应用程序。腾讯云 CVM 支持用户自定义一切资源：CPU、内存、硬盘、网络、安全等等，并可在访问量和负载等需求发生变化时轻松地调整它们。
+云服务器 (Cloud Virtual Machine，CVM) 是在云中提供可扩展的计算服务，避免了使用传统服务器时需要预估资源用量及前期投入的情况。通过使用 CVM ，您可以在短时间内快速启动任意数量的云服务器并即时部署应用程序。 CVM 支持用户自定义一切资源：CPU、内存、硬盘、网络、安全等等，并可在访问量和负载等需求发生变化时轻松地调整它们。
 
 ## 相关概念
-了解腾讯云 CVM 时，通常会涉及到以下概念：
+了解 CVM 时，通常会涉及到以下概念：
 
 - [**实例**](/doc/product/213/4939)：云上的虚拟计算资源。
 
@@ -27,35 +27,27 @@
 
 - [**地域和可用区**](/doc/product/213/6091)：实例和其他资源的启动位置。
 
-- [**腾讯云控制台**](https://console.cloud.tencent.com)：基于 Web 的用户界面。
+- [**云控制台**](https://console.tce.fsphere.cn)：基于 Web 的用户界面。
 
 
 ## 相关服务
 
-- 您可以使用一个预设模版来启动新的云服务器。预设模版可以包含任何您希望在初始化时就包含在云服务器中的环境或应用程序。腾讯云提供大量经审核的第三方预设模版，帮助用户快速搭建环境。更多信息，请参考[服务市场](http://market.cloud.tencent.com/)。
+- 您可以使用负载均衡横跨多个云服务器实例自动分配来自客户端的请求流量。更多信息，请参考 [负载均衡产品文档](https://tce.fsphere.cn/doc/product/214)。
 
-- 您可以使用弹性伸缩定时或根据条件地自动增加及减少服务器集群数量。更多信息，请参考 [弹性伸缩产品文档](https://cloud.tencent.com/doc/product/377)。
+- 您可以使用云监控服务监控云服务器实例及其系统盘。更多信息，请参考 [云监控产品文档](https://tce.fsphere.cn/doc/product/248)。
 
-- 您可以使用负载均衡横跨多个云服务器实例自动分配来自客户端的请求流量。更多信息，请参考 [负载均衡产品文档](https://cloud.tencent.com/doc/product/214)。
+- 您可以在云上部署关系数据库，也可以使用云数据库。更多信息，请参考[云数据库MySQL](https://tce.fsphere.cn/doc/product/236)。
 
-- 您可以使用容器服务管理在一组云服务器的应用生命周期。更多信息，请参考 [容器服务产品文档](https://cloud.tencent.com/doc/product/457)。
-
-
-- 您可以使用云监控服务监控云服务器实例及其系统盘。更多信息，请参考 [云监控产品文档](https://cloud.tencent.com/doc/product/248)。
-
-- 您可以在云上部署关系数据库，也可以使用腾讯云云数据库。更多信息，请参考[云数据库MySQL](https://cloud.tencent.com/doc/product/236)。
-
-- 您可以编写代码调用腾讯云 API 访问腾讯云云的产品和服务，更多信息，请参考[腾讯云 API 文档](https://cloud.tencent.com/document/api)。
-
+- 您可以编写代码调用云 API 访问云产品和服务，更多信息，请参考[云 API 文档](https://tce.fsphere.cn/document/api)。
 
 ## 使用 CVM
 
-腾讯云 CVM 提供基于 Web 的用户界面，即控制台，如果您已注册腾讯云账户，您可以直接登录 [ CVM 控制台](https://console.cloud.tencent.com/cvm)，对您的 CVM 进行操作。
+ CVM 提供基于 Web 的用户界面，即控制台，如果您已注册云平台账户，您可以直接登录 [ CVM 控制台](https://console.tce.fsphere.cn/cvm)，对您的 CVM 进行操作。
 
-腾讯云 CVM 也提供了 API 接口方便您管理云服务器 CVM，有关 CVM API 操作的更多信息，请参阅 [API 文档](https://cloud.tencent.com/document/api/213/568)。
+ CVM 也提供了 API 接口方便您管理云服务器 CVM，有关 CVM API 操作的更多信息，请参阅 [API 文档](https://tce.fsphere.cn/document/api/213/568)。
 
-您可以使用 SDK（支持 PHP/Python/Java/.NET/Node.js）编程或使用腾讯云命令行工具调用 CVM API，具体请参考：
+您可以使用 SDK（支持 PHP/Python/Java/.NET/Node.js）编程或使用云平台命令行工具调用 CVM API，具体请参考：
 
-- [使用 SDK >>](https://cloud.tencent.com/document/developer-resource)
+- [使用 SDK >>](https://tce.fsphere.cn/document/developer-resource)
 
-- [使用命令行工具 >>](https://cloud.tencent.com/document/product/440/6317)
+- [使用命令行工具 >>](https://tce.fsphere.cn/document/product/440/6317)

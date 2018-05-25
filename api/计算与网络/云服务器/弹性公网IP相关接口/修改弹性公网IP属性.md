@@ -2,7 +2,7 @@
 
 本接口 (ModifyAddressAttribute) 用于修改[弹性公网IP](/document/product/213/1941)（简称 EIP）的名称。
 
-接口请求域名：<font style="color:red">eip.api.qcloud.com</font>
+接口请求域名：<font style="color:red">eip.api.tce.fsphere.cn</font>
 
 
 ## 2. 输入参数
@@ -39,7 +39,7 @@
 
 #### 请求参数
 <pre>
-https://eip.api.qcloud.com/v2/index.php?Action=ModifyAddressAttribute
+https://eip.api.tce.fsphere.cn/v2/index.php?Action=ModifyAddressAttribute
 &Version=2017-03-12
 &AddressId=eip-p2x6wxc0
 &AddressName=test_eip

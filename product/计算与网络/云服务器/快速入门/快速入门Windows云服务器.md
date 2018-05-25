@@ -4,7 +4,7 @@
 <div id="page1"></div>
 ## 步骤一：准备与选型
 ### 注册云平台账号
-新用户需在云平台官网进行[【注册】](https://cloud.tencent.com/register?s_url=https%3A%2F%2Fcloud.tencent.com%2Fdocument%2Fproduct%2F213)，注册指引可参考 [如何注册云平台](/doc/product/378/9603) 。
+新用户需在云平台官网进行[【注册】](https://tce.fsphere.cn/register?s_url=https%3A%2F%2Ftce.fsphere.cn%2Fdocument%2Fproduct%2F213)，注册指引可参考 [如何注册云平台](/doc/product/378/9603) 。
 
 ### 确定云服务器所在地域及可用区
 地域选择原则：
@@ -16,25 +16,21 @@
 不同地域之间的云服务器不能通过内网互相通信（通信需经过公网）。
 
 ### 确定云服务器配置方案
-云平台提供如下推荐配置：[【推荐选型】](https://cloud.tencent.com/act/recommended)
+云平台提供如下推荐配置：[【推荐选型】](https://tce.fsphere.cn/act/recommended)
 - 入门型：适用于起步阶段的个人网站。如：个人博客等小型网站。
 - 基础型：适合有一定访问量的网站或应用。如：较大型企业官网、小型电商网站。
 - 普及型：适合常使用云计算等一定计算量的需求。如：门户网站、SaaS 软件、小型 App 。
 - 应用型：适用于并发要求较高的应用及适合对云服务器网络及计算性能有一定要求的应用场景。如：大型门户、电商网站、游戏 App 。
 
-若推荐的配置不能满足您的需求，您可以在[【更多机型】](https://buy.cloud.tencent.com/cvm?tabIndex=1)中根据实际需要比较各配置方案。当然您也可以在购买云服务器之后，根据您的需求随时进行 [配置升级](/doc/product/213/%E8%B0%83%E6%95%B4CVM%E5%AE%9E%E4%BE%8B%E9%85%8D%E7%BD%AE#1.-配置升级) 或 [配置降级](/doc/product/213/%E8%B0%83%E6%95%B4CVM%E5%AE%9E%E4%BE%8B%E9%85%8D%E7%BD%AE#2.-配置降级) 。
+若推荐的配置不能满足您的需求，您可以在[【更多机型】](https://buy.tce.fsphere.cn/cvm?tabIndex=1)中根据实际需要比较各配置方案。当然您也可以在购买云服务器之后，根据您的需求随时进行 [配置升级](/doc/product/213/%E8%B0%83%E6%95%B4CVM%E5%AE%9E%E4%BE%8B%E9%85%8D%E7%BD%AE#1.-配置升级) 或 [配置降级](/doc/product/213/%E8%B0%83%E6%95%B4CVM%E5%AE%9E%E4%BE%8B%E9%85%8D%E7%BD%AE#2.-配置降级) 。
 >**注意：**
 > Windows 云服务器无法作为 [公网网关](/doc/product/215/%E7%BD%91%E5%85%B3#1.-公网网关) 使用，需要公网网关的用户请参考 [快速入门 Linux 云服务器](/doc/product/213/2936) 。
 
 
 ## 步骤二：创建 Windows 云服务器
 本步骤介绍 Windows 云服务器的创建，云平台提供快速配置 和自定义配置两种方式。本部分以快速配置为例说明，若快速配置不能满足您的需求，您可参考 [自定义配置 Windows 云服务器](/doc/product/213/10516) 文档进行配置。
-> 注意：
- > 初次购买的账户默认进入【快速配置】页面，购买过的用户默认进入【自定义配置】页面。
 
-![](https://mc.qcloudimg.com/static/img/377368de9e85b21bf90632480dad903c/image.png)
-
- 1. 登录云平台官网，选择【云产品】-【计算与网络】-【云服务器】，单击【立即选购】按钮，进入 [云服务器购买页面](https://buy.cloud.tencent.com/buy/cvm) 。
+ 1. 登录云平台官网，选择【云产品】-【计算与网络】-【云服务器】，单击【立即选购】按钮，进入 [云服务器购买页面](https://buy.tce.fsphere.cn/buy/cvm) 。
 
  2. 选择镜像。选择符合需求的 Windows 操作系统。
  
@@ -63,27 +59,14 @@
    更多内容请参考 [登录密码](/doc/product/213/6093) 。
    
 ### 查看站内信及云服务器信息
-完成云服务器的购买和创建后，云服务器的实例名称、公网 IP 地址、内网 IP 地址、登录名、初始登录密码等信息都将以 [站内信](https://console.cloud.tencent.com/message) 的方式发送到账户上。
+完成云服务器的购买和创建后，云服务器的实例名称、公网 IP 地址、内网 IP 地址、登录名、初始登录密码等信息都将以 [站内信](https://console.tce.fsphere.cn/message) 的方式发送到账户上。
 
-![](https://mc.qcloudimg.com/static/img/1385695211763c620c31d603136c3128/image.png)
- 1. 登录 [云服务器控制台](https://console.cloud.tencent.com/cvm) 。登录后即可看到公网 IP 地址、内网 IP 地址等信息。
+ 1. 登录 [云服务器控制台](https://console.tce.fsphere.cn/cvm) 。登录后即可看到公网 IP 地址、内网 IP 地址等信息。
 
  2. 单击右上角【站内信】。
 
  3. 站内信页面即可查看新创建的云服务器，及登录名与密码等信息。
 
-
-### 控制台登录云服务器
- 1. 在云服务器列表的操作列，单击【登录】按钮即可通过 VNC 连接至 Windows 云服务器：
-	![](https://mccdn.qcloud.com/img56b1a6cb7b3e8.png)
-
- 2. 通过单击左上角发送 Ctrl-Alt-Delete 命令进入系统登录界面：
-	![](https://mc.qcloudimg.com/static/img/e4dbc02ca9ae2a7cb9ada5316effd31a/image.png)
-	
- 3. 输入帐号（Administrator）和站内信中的初始密码（或您修改后的密码）即可登录。
-
->**注意：**
->该终端为独享，即同一时间只有一个用户可以使用控制台登录。
 
 <div id="page4"></div>
 ## 步骤四：格式化与分区数据盘

@@ -2,7 +2,7 @@
 
 本接口 (DescribeAddresses) 用于查询一个或多个[弹性公网IP](/document/product/213/1941)（简称 EIP）的详细信息。
 
-接口请求域名：<font style="color:red">eip.api.qcloud.com</font>
+接口请求域名：<font style="color:red">eip.api.tce.fsphere.cn</font>
 
 * 如果参数为空，返回当前用户一定数量（Limit所指定的数量，默认为20）的 EIP。
 
@@ -30,7 +30,6 @@ EIP 过滤条件表
 | instance-id| String| 否| （过滤条件）按照 EIP 绑定的实例 ID 过滤。实例 ID 形如：`ins-11112222`。|
 | private-ip-address| String| 否|（过滤条件）按照 EIP 绑定的内网 IP 过滤。|
 | network-interface-id| String| 否|（过滤条件）按照 EIP 绑定的弹性网卡 ID 过滤。弹性网卡 ID 形如：`eni-11112222`。|
-| is-arrears| String| 否|（过滤条件）按照 EIP 是否欠费进行过滤。取值范围：<br><li>TRUE：EIP 处于欠费状态<br><li>FALSE：EIP 费用状态正常。|
 
 
 ## 3. 输出参数
@@ -49,7 +48,7 @@ EIP 过滤条件表
 
 #### 请求参数
 <pre>
-https://eip.api.qcloud.com/v2/index.php?Action=DescribeAddresses
+https://eip.api.tce.fsphere.cn/v2/index.php?Action=DescribeAddresses
 &Version=2017-03-12
 &AddressIds.1=eip-hxlqja90
 &<<a href="/document/api/213/11650">公共请求参数</a>>
@@ -85,7 +84,7 @@ https://eip.api.qcloud.com/v2/index.php?Action=DescribeAddresses
 
 #### 请求参数
 <pre>
-https://eip.api.qcloud.com/v2/index.php?Action=DescribeAddresses
+https://eip.api.tce.fsphere.cn/v2/index.php?Action=DescribeAddresses
 &Version=2017-03-12
 &Filters.1.Name=address-id
 &Filters.1.Values.1=eip-hxlqja90

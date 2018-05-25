@@ -1,7 +1,7 @@
 本文档介绍在多个 Linux 系统云服务器非关机状态下批量进行重置密码的操作。
 
 ## 脚本下载
-云平台已为您编写好重置操作的脚本，下载该重置脚本，可方便的批量在线重置。下载地址：`http://batchchpasswd-10016717.file.myqcloud.com/batch-chpasswd.tgz`
+云平台已为您编写好重置操作的脚本，下载该重置脚本，可方便的批量在线重置。下载地址：`http://batchchpasswd-10016717.file.mytce.fsphere.cn/batch-chpasswd.tgz`
 
 ## CentOS / SUSE 系统操作方法
 1. 修改 hosts.txt 文件。输入命令：`vi /etc/hosts`

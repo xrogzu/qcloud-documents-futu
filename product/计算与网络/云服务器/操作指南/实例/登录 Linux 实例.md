@@ -1,10 +1,4 @@
-在购买并启动了 Linux 类型的实例后，您可以连接并登录它。根据您本地的操作系统和 CVM 实例是否可被 Internet 访问，不同情况下可以使用不同的登录方式，具体内容可参考下表：
-<table><tbody>
-<tr><th>本地操作系统类型</th><th> Linux 云服务器实例有公网 IP</th><th> Linux 云服务器实例没有公网 IP</th></tr>
-<tr><td>Windows</td><td>WebShell 登录<br>VNC 登录<br>远程登录软件登录<br>密钥登录</td><td rowspan="3">VNC登录</td></tr>
-<tr><td>Linux</td><td>WebShell 登录<br>VNC 登录<br>SSH 登录<br>密钥登录</td></tr>
-<tr><td>Mac OS</td><td>WebShell 登录<br>VNC 登录<br>SSH 登录<br>密钥登录</td></tr>
-</tbody></table>
+在购买并启动了 Linux 类型的实例后，您可以连接并登录它。根据您本地的操作系统和 CVM 实例是否可被 Internet 访问，不同情况下可以使用不同的登录方式。
 
 ## 前提条件
 ### 使用密码登录的前提条件
@@ -17,8 +11,7 @@
 | Ubuntu             | ubuntu |
 
 - 密码：
-  - 若用户在启动实例时选择【自动生成密码】，则初始密码由系统随机分配。您可以登录[云平台控制台](https://console.cloud.tencent.com)，点击右侧站内信按钮，查收新购买的服务器页面中将包含云主机登录管理员帐号及初始密码，如下图所示。
-    ![](https://mc.qcloudimg.com/static/img/d2d6900e58fc4f7b141b770de23cd3d8/image.png)
+  - 若用户在启动实例时选择【自动生成密码】，则初始密码由系统随机分配。您可以登录[云平台控制台](https://console.tce.fsphere.cn)，点击右侧站内信按钮，查收新购买的服务器页面中将包含云主机登录管理员帐号及初始密码。
 
   - 若用户在启动实例时选择了自定义密码，则密码为用户在购买云服务器实例时指定的密码。有关密码的更多内容，如忘记登录密码应该如何操作，请参考 [登录密码](/doc/product/213/6093)。
 
@@ -33,7 +26,7 @@
 1. 安装 Windows 远程登录软件，参考下载地址：https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
 2. 使用 PUTTY 连接 Linux 云服务器。打开Putty客户端，在PuTTY Configuration 窗口中输入以下内容：
-  >- Host Name：云服务器的公网 IP（登录 [云服务器控制台](https://console.cloud.tencent.com)，可在列表页及详情页中获取主机公网IP）。
+  >- Host Name：云服务器的公网 IP（登录 [云服务器控制台](https://console.tce.fsphere.cn)，可在列表页及详情页中获取主机公网IP）。
   >- Port：云服务器的端口，必须填 22。（请确保云主机 22 端口已开放，详见查看 [安全组(/doc/product/213/5221) 及 [网络ACL](/doc/product/215/5132)）
   >- Connect type：选择“ SSH ”。
 
@@ -66,7 +59,7 @@
   ![](https://mccdn.qcloud.com/img56a5c67ea3edb.png)
 
 6. 在Session配置页中，配置服务器的IP，端口，连接类型。
- - IP：云服务器的公网IP。登录 [云服务器控制台](https://console.cloud.tencent.com)，可在列表页及详情页中获取主机公网IP。
+ - IP：云服务器的公网IP。登录 [云服务器控制台](https://console.tce.fsphere.cn)，可在列表页及详情页中获取主机公网IP。
  - 端口：云服务器的端口，必须填 22 。（请确保云主机22端口已开放，详见查看 安全组 及 网络ACL）。
 
 6. 在【Saved Sessions】输入框中中输入会话名称（本例为 test ），再单击【Save】按钮，然后双击会话名称或者单击【Open】按钮发起登录请求。
@@ -101,29 +94,3 @@
 
 >**注意：**
 >如果登录失败，请检查您的云服务器实例是否允许 22 端口的入流量。端口的查看请参考 [安全组](/doc/product/213/5221) ，若您的云服务器处于 [私有网络](/doc/product/213/5227) 环境下，请同时查看相关子网的 [网络ACL](/doc/product/215/5132) 。 
-
-## 使用 WebShell 登录实例（推荐）
-### 登录工具
-WebShell 登录是云平台提供的 Web 浏览器远程连接云服务器的方式。相比 VNC，WebShell 的各方面体验更接近于使用 Putty 和 SSH 等客户端登录方式，在云服务器拥有公网 IP 和开启了对应登录端口情况下，使用 WebShell 可以获取更好的远程访问体验。
-
-**优点：**
-- 支持快捷键复制粘贴。
-- 支持鼠标滚屏。
-- 支持中文输入法。
-- 安全性高，每次登录需要输入密码或密钥。
-
-### 操作步骤
-1. 登录 [云服务器控制台](https://console.cloud.tencent.com) 。在顶部菜单中选择【云产品】>【云计算与网络】>【云服务器】。
-2.  如图所示进入云服务器列表，在需要登录的 Linux 云服务器中单击【登录】按钮。
-  ![](https://mc.qcloudimg.com/static/img/0c9dd598a6b9405e43e54dd412fc7ffd/Snipaste_2018-02-02_18-32-54.png)
-	
-3. 在跳转的新标签页中可看到如下图的界面，可以选择【密码登录】或者【密钥登录】两种方式进行登录。
-![](https://mc.qcloudimg.com/static/img/ed96f4638ad6b343ff38fc19452b8188/Snipaste_2018-02-02_18-20-17.png)
-
-4. 若密码或密钥无误，将会通过系统验证，成功使用 Webshell 方式登录 Linux 云服务器。
-![](https://mc.qcloudimg.com/static/img/31b25c56a1e6afdd39533436589ceb04/Snipaste_2018-02-02_18-21-02.png)
-
->**注意：**
->- 需要云服务器有公网 IP。
->- 需要云服务器打开 SSH 远程登录端口（默认 22）。
-

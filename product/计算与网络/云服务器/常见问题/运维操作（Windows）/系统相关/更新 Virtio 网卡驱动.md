@@ -8,7 +8,7 @@
 >更新过程中网络会闪断，更新前请检查是否会影响业务，更新后需要重启计算机。
 
 1. 登录云服务器。
-2. 通过内网下载适用于 Window Server 2008 R2 和 Windows Server 2012 R2 的 VirtIO 网卡驱动安装文件。内网下载地址：http://mirrors.tencentyun.com/install/windows/virtio_64_10003.msi
+2. 通过内网下载适用于 Window Server 2008 R2 和 Windows Server 2012 R2 的 VirtIO 网卡驱动安装文件。内网下载地址：http://mirrors.tce.fsphere.cn/install/windows/virtio_64_10003.msi
 3. 下载完成后，双击启动安装程序，选择【典型】安装模式，单击**下一步**按钮。
 ![](https://mccdn.qcloud.com/static/img/0d596e42ae299cfa295a0493dc68bc4d/image.png)
 4. 安装过程中出现安全提示，勾选【始终信任来自“Tencent Technology（Shenzhen）Company Limited”的软件】，单击**安装**按钮。

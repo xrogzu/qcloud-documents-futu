@@ -10,18 +10,18 @@ Ubuntu 官方已经停止了 Ubuntu 10.04 LTS的维护，因此，现云平台�
 打开apt源配置文件` vi /etc/apt/sources.list`,修改以下代码：
 
 ```
-deb-src http://mirrors.tencentyun.com/old-archives/ubuntu lucid main restricted universe multiverse
-deb-src http://mirrors.tencentyun.com/old-archives/ubuntu lucid-updates main restricted universe multiverse
-deb-src http://mirrors.tencentyun.com/old-archives/ubuntu lucid-security main restricted universe multiverse
-deb-src http://mirrors.tencentyun.com/old-archives/ubuntu lucid-backports main restricted universe multiverse
-deb http://mirrors.tencentyun.com/old-archives/ubuntu lucid main restricted universe multiverse
-deb http://mirrors.tencentyun.com/old-archives/ubuntu lucid-updates main restricted universe multiverse
-deb http://mirrors.tencentyun.com/old-archives/ubuntu lucid-security main restricted universe multiverse
-deb http://mirrors.tencentyun.com/old-archives/ubuntu lucid-backports main restricted universe multiverse
+deb-src http://mirrors.tce.fsphere.cn/old-archives/ubuntu lucid main restricted universe multiverse
+deb-src http://mirrors.tce.fsphere.cn/old-archives/ubuntu lucid-updates main restricted universe multiverse
+deb-src http://mirrors.tce.fsphere.cn/old-archives/ubuntu lucid-security main restricted universe multiverse
+deb-src http://mirrors.tce.fsphere.cn/old-archives/ubuntu lucid-backports main restricted universe multiverse
+deb http://mirrors.tce.fsphere.cn/old-archives/ubuntu lucid main restricted universe multiverse
+deb http://mirrors.tce.fsphere.cn/old-archives/ubuntu lucid-updates main restricted universe multiverse
+deb http://mirrors.tce.fsphere.cn/old-archives/ubuntu lucid-security main restricted universe multiverse
+deb http://mirrors.tce.fsphere.cn/old-archives/ubuntu lucid-backports main restricted universe multiverse
 ```
 
 ## 方法二：运行自动脚本
-通过云平台提供的脚本 [old-archive.run](http://ubuntu10-10016717.cos.myqcloud.com/old-archive.run) 进行配置，将此文件下载至 Ubuntu 10.04 云服务器内部并执行以下命令：
+通过云平台提供的脚本 [old-archive.run](http://ubuntu10-10016717.cos.mytce.fsphere.cn/old-archive.run) 进行配置，将此文件下载至 Ubuntu 10.04 云服务器内部并执行以下命令：
 
 ```
 chmod +x old-archive.run

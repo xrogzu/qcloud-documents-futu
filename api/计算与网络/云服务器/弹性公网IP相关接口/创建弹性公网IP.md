@@ -2,10 +2,10 @@
 
 本接口 (AllocateAddresses) 用于申请一个或多个[弹性公网IP](/document/product/213/1941)（简称 EIP）。
 
-接口请求域名：<font style="color:red">eip.api.qcloud.com</font>
+接口请求域名：<font style="color:red">eip.api.tce.fsphere.cn</font>
 
 * EIP 是专为动态云计算设计的静态 IP 地址。借助 EIP，您可以快速将 EIP 重新映射到您的另一个实例上，从而屏蔽实例故障。
-* 您的 EIP 与腾讯云账户相关联，而不是与某个实例相关联。在您选择显式释放该地址，或欠费超过七天之前，它会一直与您的腾讯云账户保持关联。
+* 您的 EIP 与云平台账户相关联，而不是与某个实例相关联。在您选择显式释放该地址，它会一直与您的云平台账户保持关联。
 * 平台对用户每地域能申请的 EIP 最大配额有所限制，可参见 [EIP 产品简介](/document/product/213/5733)，上述配额可通过 [DescribeAddressQuota](/document/api/213/1378) 接口获取。
 
 
@@ -31,15 +31,15 @@
 
 | 错误码 | 描述 |
 |---------|---------|
-|AddressQuotaLimitExceeded|账户配额不足，每个腾讯云账户每个地域下最多可创建 20 个 EIP。|
-|AddressQuotaLimitExceeded.DailyAllocate|申购次数不足，每个腾讯云账户每个地域每天申购次数为配额数*2 次。|
+|AddressQuotaLimitExceeded|账户配额不足，每个云平台账户每个地域下最多可创建 20 个 EIP。|
+|AddressQuotaLimitExceeded.DailyAllocate|申购次数不足，每个云平台账户每个地域每天申购次数为配额数*2 次。|
 
 ## 5. 示例代码
 
 #### 请求参数
 
 <pre>
-https://eip.api.qcloud.com/v2/index.php?Action=AllocateAddresses
+https://eip.api.tce.fsphere.cn/v2/index.php?Action=AllocateAddresses
 &Version=2017-03-12
 &AddressCount=1
 &<<a href="/document/api/213/11650">公共请求参数</a>>

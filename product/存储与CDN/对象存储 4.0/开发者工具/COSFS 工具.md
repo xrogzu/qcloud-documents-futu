@@ -4,8 +4,6 @@ COSFS 工具支持将 COS 存储桶挂载到本地，像使用本地文件系统
 - 大文件传输功能；
 - MD5 数据校验功能。
 
-## 使用限制 
-本工具可以支持对COS V4、V5 版本存储的访问，但是域名均需使用 COS V5 域名。
 ## 使用环境 
 ### 系统环境 
 主流 Linux 系统
@@ -131,11 +129,11 @@ umount -l /mnt
 ### 常见问题
 * 如何挂载目录
    在挂载命令的时候，可以指定目录，如
-   
+
   `cosfs appid:my-bucket:/my-dir /tmp/cosfs -ourl=http://cn-south.myqcloud.com -odbglevel=info -ouse_cache=/path/to/local_cache`
    注意，my-dir必须以/开头
-   
-   
+
+
 * 为什么之前可用写文件，突然不能写了？
 
    由于cos鉴权产品策略调整，所以老版本的cosfs工具会导致策略校验不过，因此需要拉取最新的cosfs工具重新mount
@@ -147,7 +145,7 @@ umount -l /mnt
   ```
     hecking for common_lib_checking... configure: error: Package requirements (fuse >= 2.8.4 libcurl >= 7.0 libxml-2.0 >=    2.6) were not met:
     Requested 'fuse >= 2.8.4' but version of fuse is 2.8.3 
-    ```
+  ```
 
    此时，你需要来手动安装fuse版本，具体步骤
 

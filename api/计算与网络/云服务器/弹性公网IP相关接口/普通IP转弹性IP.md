@@ -2,7 +2,7 @@
 
 本接口 (TransformAddress) 用于将实例的普通公网 IP 转换为[弹性公网IP](/document/product/213/1941)（简称 EIP）。
 
-接口请求域名：<font style="color:red">eip.api.qcloud.com</font>
+接口请求域名：<font style="color:red">eip.api.tce.fsphere.cn</font>
 
 
 * 平台对用户每地域每日解绑 EIP 重新分配普通公网 IP 次数有所限制（可参见 [EIP 产品简介](/document/product/213/1941)）。上述配额可通过 [DescribeAddressQuota](/document/api/213/1378) 接口获取。
@@ -15,7 +15,7 @@
 | 参数名称 | 类型 | 是否必选 | 描述 |
 |---------|---------|---------|---------|
 | Version |String|是|表示 API 版本号，主要用于标识请求的不同 API 版本。 本接口第一版本可传：2017-03-12。|
-|InstanceId|String|是|待操作有普通公网 IP 的实例 ID。实例 ID 形如：`ins-11112222`。可通过登录[控制台](https://console.cloud.tencent.com/cvm)查询，也可通过 [DescribeInstances](/document/api/213/9389) 接口返回值中的`InstanceId`获取。|
+|InstanceId|String|是|待操作有普通公网 IP 的实例 ID。实例 ID 形如：`ins-11112222`。可通过登录[控制台](https://console.tce.fsphere.cn/cvm)查询，也可通过 [DescribeInstances](/document/api/213/9389) 接口返回值中的`InstanceId`获取。|
 
 
 ## 3. 输出参数
@@ -31,8 +31,8 @@
 
 | 错误码 | 描述 |
 |---------|---------|
-|AddressQuotaLimitExceeded|账户配额不足，每个腾讯云账户每个地域下最多可创建 20 个 EIP。|
-|AddressQuotaLimitExceeded.DailyAllocate|申购次数不足，每个腾讯云账户每个地域每天申购次数为配额数*2 次。|
+|AddressQuotaLimitExceeded|账户配额不足，每个云平台账户每个地域下最多可创建 20 个 EIP。|
+|AddressQuotaLimitExceeded.DailyAllocate|申购次数不足，每个云平台账户每个地域每天申购次数为配额数*2 次。|
 |InvalidInstanceId.NotFound|实例 ID 不存在。|
 |InvalidInstanceState|指定实例当前状态不能进行普通公网 IP 转换 EIP 操作。|
 |InvalidInstance.NotSupported|指定实例不支持将普通公网 IP 转换为 EIP。|
@@ -42,7 +42,7 @@
 #### 请求参数
 
 <pre>
-https://eip.api.qcloud.com/v2/index.php?Action=TransformAddress
+https://eip.api.tce.fsphere.cn/v2/index.php?Action=TransformAddress
 &Version=2017-03-12
 &InstanceId=ins-3ea0qeu6
 &<<a href="/document/api/213/11650">公共请求参数</a>>

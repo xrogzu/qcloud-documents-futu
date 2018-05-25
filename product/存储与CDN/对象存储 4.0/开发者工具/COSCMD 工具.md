@@ -1,7 +1,5 @@
 ## 功能说明
 使用 COSCMD 工具，用户可通过简单的命令行指令实现对对象（Object）的批量上传、下载、删除等操作。
-## 使用限制
-适用于 COS V4、V5 版本；针对 V3 迁移过来的用户也可以使用，但要用 V3 用户的 appid 才可以。
 ## 使用环境
 ### 系统环境
 Windows 或 Linux 系统
@@ -269,17 +267,6 @@ coscmd getbucketacl //操作示例
 coscmd putbucketacl <cospath> //命令格式
 coscmd getobjectacl aaa/aaa.txt //操作示例
 ```
-
-### 恢复归档文件
-- 命令如下：
-```
-coscmd restore <cospath>  //命令格式
-coscmd restore a.txt -d 3 -t  Expedited//操作示例
-coscmd restore a.txt -d 3 -t  Bulk///操作示例
-```
-请将"<>"中的参数替换为您需要打印文件列表的 COS 上文件的路径（cospath）。
-* 使用 `-d day` 设置临时副本的过期时间；默认值：7。
-* 使用 `-t tier` 具体复原过程类型，枚举值： Expedited ，Standard ，Bulk；默认值：Standard。
 
 ### Debug 模式执行命令
 在各命令前加上`-d`或者`-debug`，在命令执行的过程中，会显示详细的操作信息 。示例如下：

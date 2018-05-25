@@ -34,8 +34,8 @@ fdisk -l
 #### 查看数据盘信息
 执行命令`parted 磁盘路径 print`命令来确认云硬盘的容量变化。如在过程中收到如下提示,请输入`Fix`：
 
-![](https:https://mccdn.qcloud.com/static/img/cf51cda9a12085f76949ab0d5dd0fbfc/image.png)
-![](https:https://mccdn.qcloud.com/static/img/01a0a7a8fdfe6f05f2739f0326a74ef9/image.png)
+![](https://mccdn.qcloud.com/static/img/cf51cda9a12085f76949ab0d5dd0fbfc/image.png)
+![](https://mccdn.qcloud.com/static/img/01a0a7a8fdfe6f05f2739f0326a74ef9/image.png)
 这里扩容后的云硬盘大小为107GB，已有分区的大小为10.7GB。
 
 #### 卸载已挂载数据盘
@@ -44,7 +44,7 @@ fdisk -l
 ```
 mount | grep '磁盘路径' 
 ```
-![](https:https://mccdn.qcloud.com/static/img/edc5bbd6834e1dd929ce0eb00acd53ca/image.png)
+![](https://mccdn.qcloud.com/static/img/edc5bbd6834e1dd929ce0eb00acd53ca/image.png)
 这里云硬盘上有一个分区(vdb1)挂载在/data上，需要将其解挂。
 
 使用以下命令解挂：
@@ -59,7 +59,7 @@ umount 挂载点
 
 再次使用`mount | grep '/dev/vdb' `命令来确认此硬盘上所有分区的文件系统都已解挂。
 
-![](https:https://mccdn.qcloud.com/static/img/a2f6db45a94485785ea15e6ea950bcb8/image.png)
+![](https://mccdn.qcloud.com/static/img/a2f6db45a94485785ea15e6ea950bcb8/image.png)
 
 #### 数据盘分区 
 确认云硬盘所有分区均已卸载后，执行以下命令新建一个分区：
@@ -96,8 +96,8 @@ mkfs.[fstype] [分区路径]
 #### 查看数据盘信息
 执行命令`parted 磁盘路径 print`命令来确认云硬盘的容量变化。如在过程中收到如下提示,请输入`Fix`：
 
-![](https:https://mccdn.qcloud.com/static/img/cf51cda9a12085f76949ab0d5dd0fbfc/image.png)
-![](https:https://mccdn.qcloud.com/static/img/01a0a7a8fdfe6f05f2739f0326a74ef9/image.png)
+![](https://mccdn.qcloud.com/static/img/cf51cda9a12085f76949ab0d5dd0fbfc/image.png)
+![](https://mccdn.qcloud.com/static/img/01a0a7a8fdfe6f05f2739f0326a74ef9/image.png)
 这里扩容后的云硬盘大小为107GB，已有分区的大小为10.7GB。
 
 #### 卸载已挂载数据盘
@@ -106,7 +106,7 @@ mkfs.[fstype] [分区路径]
 ```
 mount | grep '磁盘路径' 
 ```
-![](https:https://mccdn.qcloud.com/static/img/edc5bbd6834e1dd929ce0eb00acd53ca/image.png)
+![](https://mccdn.qcloud.com/static/img/edc5bbd6834e1dd929ce0eb00acd53ca/image.png)
 这里云硬盘上有一个分区(vdb1)挂载在/data上，需要将其解挂。
 
 使用以下命令解挂：
@@ -121,7 +121,7 @@ umount 挂载点
 
 再次使用`mount | grep '/dev/vdb' `命令来确认此硬盘上所有分区的文件系统都已解挂。
 
-![](https:https://mccdn.qcloud.com/static/img/a2f6db45a94485785ea15e6ea950bcb8/image.png)
+![](https://mccdn.qcloud.com/static/img/a2f6db45a94485785ea15e6ea950bcb8/image.png)
 
 #### 数据盘分区 
 确认云硬盘所有分区均已卸载后，执行以下命令，将原分区删除并以同样的起始偏移新建一个分区：
@@ -273,7 +273,7 @@ umount 挂载点
 执行以下命令下载工具：
 
 ```
-wget -O /tmp/devresize.py http://mirrors.tencentyun.com/install/virts/devresize.py
+wget -O /tmp/devresize.py http://mirrors.tce.fsphere.cn/install/virts/devresize.py
 ```
 
 #### 执行扩容工具

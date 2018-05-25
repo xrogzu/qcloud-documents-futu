@@ -2,7 +2,7 @@
 
 本接口 (DisassociateAddress) 用于解绑[弹性公网IP](/document/product/213/1941)（简称 EIP）。
 
-接口请求域名：<font style="color:red">eip.api.qcloud.com</font>
+接口请求域名：<font style="color:red">eip.api.tce.fsphere.cn</font>
 
 * 只有状态为 BIND 和 BIND_ENI 的 EIP 才能进行解绑定操作。
 * EIP 如果被封堵，则不能进行解绑定操作。
@@ -51,7 +51,7 @@
 
 #### 请求参数
 <pre>
-  https://cvm.api.qcloud.com/v2/index.php?Action=DisassociateAddress
+  https://cvm.api.tce.fsphere.cn/v2/index.php?Action=DisassociateAddress
   &Version=2017-03-12
   &AddressId=eip-ek0cdz1g
   &<<a href="/document/api/213/11650">公共请求参数</a>>
@@ -75,7 +75,7 @@
 
 #### 请求参数
 <pre>
-  https://cvm.api.qcloud.com/v2/index.php?Action=DisassociateAddress
+  https://cvm.api.tce.fsphere.cn/v2/index.php?Action=DisassociateAddress
   &Version=2017-03-12
   &AddressId=eip-ek0cdz1g
   &ReallocateNormalPublicIp=TRUE

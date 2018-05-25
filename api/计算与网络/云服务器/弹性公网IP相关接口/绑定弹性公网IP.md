@@ -2,13 +2,12 @@
 
 本接口 (AssociateAddress) 用于将[弹性公网IP](/document/product/213/1941)（简称 EIP）绑定到实例或弹性网卡的指定内网 IP 上。
 
-接口请求域名：<font style="color:red">eip.api.qcloud.com</font>
+接口请求域名：<font style="color:red">eip.api.tce.fsphere.cn</font>
 
 
 * 将 EIP 绑定到实例上，其本质是将 EIP 绑定到实例上主网卡的主内网 IP 上。
 * 将 EIP 绑定到主网卡的主内网IP上，绑定过程会把其上绑定的普通公网 IP 自动解绑并释放。
 * 如果指定网卡的内网 IP 已经绑定了 EIP，则必须先解绑该 EIP，才能再绑定新的。
-* EIP 如果欠费或被封堵，则不能被绑定。
 * 只有状态为 UNBIND 的 EIP 才能够被绑定。
 
 
@@ -20,9 +19,9 @@
 |---------|---------|---------|---------|
 | Version |String|是|表示 API 版本号，主要用于标识请求的不同 API 版本。 本接口第一版本可传：2017-03-12。|
 | AddressId | String| 是| 标识 EIP 的唯一 ID。EIP 唯一 ID 形如：`eip-11112222`。|
-| InstanceId| String| 否| 要绑定的实例 ID。实例 ID 形如：`ins-11112222`。可通过登录[控制台](https://console.cloud.tencent.com/cvm)查询，也可通过 [DescribeInstances](/document/api/213/9389) 接口返回值中的`InstanceId`获取。
-| NetworkInterfaceId | String| 否| 要绑定的弹性网卡 ID。 弹性网卡 ID 形如：`eni-11112222`。`NetworkInterfaceId` 与 `InstanceId` 不可同时指定。弹性网卡 ID 可通过登录[控制台](https://console.cloud.tencent.com/vpc/eni)查询，也可通过[DescribeNetworkInterfaces](/document/api/215/4814)接口返回值中的`networkInterfaceId`获取。|
-| PrivateIpAddress | String| 否| 要绑定的内网 IP。如果指定了 `NetworkInterfaceId` 则也必须指定 `PrivateIpAddress` ，表示将 EIP 绑定到指定弹性网卡的指定内网 IP 上。同时要确保指定的 `PrivateIpAddress` 是指定的 `NetworkInterfaceId` 上的一个内网 IP。指定弹性网卡的内网 IP 可通过登录[控制台](https://console.cloud.tencent.com/vpc/eni)查询，也可通过[DescribeNetworkInterfaces](/document/api/215/4814)接口返回值中的`privateIpAddress`获取。|
+| InstanceId| String| 否| 要绑定的实例 ID。实例 ID 形如：`ins-11112222`。可通过登录[控制台](https://console.tce.fsphere.cn/cvm)查询，也可通过 [DescribeInstances](/document/api/213/9389) 接口返回值中的`InstanceId`获取。
+| NetworkInterfaceId | String| 否| 要绑定的弹性网卡 ID。 弹性网卡 ID 形如：`eni-11112222`。`NetworkInterfaceId` 与 `InstanceId` 不可同时指定。弹性网卡 ID 可通过登录[控制台](https://console.tce.fsphere.cn/vpc/eni)查询，也可通过[DescribeNetworkInterfaces](/document/api/215/4814)接口返回值中的`networkInterfaceId`获取。|
+| PrivateIpAddress | String| 否| 要绑定的内网 IP。如果指定了 `NetworkInterfaceId` 则也必须指定 `PrivateIpAddress` ，表示将 EIP 绑定到指定弹性网卡的指定内网 IP 上。同时要确保指定的 `PrivateIpAddress` 是指定的 `NetworkInterfaceId` 上的一个内网 IP。指定弹性网卡的内网 IP 可通过登录[控制台](https://console.tce.fsphere.cn/vpc/eni)查询，也可通过[DescribeNetworkInterfaces](/document/api/215/4814)接口返回值中的`privateIpAddress`获取。|
 
 
 ## 3. 输出参数
@@ -40,7 +39,6 @@
 |---------|---------|
 |InvalidAddressId.NotFound|指定的 EIP 不存在。|
 |InvalidAddressId.Blocked|指定 EIP 处于被封堵状态。当 EIP 处于封堵状态的时候是不能够进行绑定操作的，需要先进行解封。|
-|InvalidAddressIdState.InArrears|指定 EIP 处于欠费状态。|
 |InvalidAddressIdStatus.NotPermit|指定 EIP 当前状态不能进行绑定操作。只有 EIP 的状态是 UNBIND 时才能进行绑定操作。|
 |InvalidInstanceId.NotFound|指定实例 ID 不存在。|
 |InvalidInstanceId.AlreadyBindEip|指定实例已经绑定了 EIP。需先解绑当前的 EIP 才能再次进行绑定操作。|
@@ -63,7 +61,7 @@
 
 #### 请求参数
 <pre>
-  https://cvm.api.qcloud.com/v2/index.php?Action=AssociateAddress
+  https://cvm.api.tce.fsphere.cn/v2/index.php?Action=AssociateAddress
   &Version=2017-03-12
   &AddressId=eip-ek0cdz1g
   &InstanceId=ins-1bmpb9tu
@@ -87,7 +85,7 @@
 
 #### 请求参数
 <pre>
-  https://cvm.api.qcloud.com/v2/index.php?Action=AssociateAddress
+  https://cvm.api.tce.fsphere.cn/v2/index.php?Action=AssociateAddress
   &Version=2017-03-12
   &AddressId=eip-ek0cdz1g
   &NetworkInterfaceId=eni-8x55qvrh

@@ -49,7 +49,7 @@
 至此，FileZilla 服务已经搭建好。
 
 ## 使用测试
-客户端通过本地 FileZilla 工具，连接至云服务器上搭建的 FTP 服务器。输入 FTP 服务器公网 IP 、账号、密码，单击【快速连接】，即可看到服务器分享给该用户的目录，并且可以看到之前放在该目录里面的文件“欢迎使用腾讯云服务器.txt ”。
+客户端通过本地 FileZilla 工具，连接至云服务器上搭建的 FTP 服务器。输入 FTP 服务器公网 IP 、账号、密码，单击【快速连接】，即可看到服务器分享给该用户的目录，并且可以看到之前放在该目录里面的文件“欢迎使用云平台服务器.txt ”。
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://mc.qcloudimg.com/static/img/5e7fdbc24a8d5ca0690af8b09bf5a2e0/image.png)
 
  FileZilla 服务器此刻可监控到客户端的连接。

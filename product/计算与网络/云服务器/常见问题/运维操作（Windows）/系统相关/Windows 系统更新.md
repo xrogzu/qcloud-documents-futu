@@ -14,14 +14,14 @@
 一些比较少用的服务在内网补丁服务器上可能搜索不到更新补丁。对于这一问题，云平台还在完善更多的补丁程序过程中。
 
 内网的补丁服务器的使用方法如下:
-1. 登录 Windows 云服务器后，通过 IE 浏览器在内网下载设置工具 wusin.bat。下载地址为：http://mirrors.tencentyun.com/install/windows/wusin.bat
+1. 登录 Windows 云服务器后，通过 IE 浏览器在内网下载设置工具 wusin.bat。下载地址为：http://mirrors.tce.fsphere.cn/install/windows/wusin.bat
 2. 将下载的设置工具保存到 C:\wusin.bat，打开控制台执行:
 ![](https://mccdn.qcloud.com/img56b2bae4c1a05.png)
 >**注意：**
 >通过 IE 直接执行这个脚本，控制台窗口会自动关闭，无法观察输出信息。
 
 如果不再需要使用内网 Windows 补丁服务器，可以下载清理工具 wusout.bat 进行清理，方法如下:
-1. 登录 Windows 云服务器后，通过 IE 浏览器下载清理工具 wuout.bat。下载地址为：http://mirrors.tencentyun.com/install/windows/wusout.bat
+1. 登录 Windows 云服务器后，通过 IE 浏览器下载清理工具 wuout.bat。下载地址为：http://mirrors.tce.fsphere.cn/install/windows/wusout.bat
 2. 将下载的清理工具保存到 C:\wusout.bat，并且在控制台执行:
 ![](https://mccdn.qcloud.com/img56b2bb66dc99f.png)
 >**注意：**

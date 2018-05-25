@@ -31,7 +31,7 @@
 
  2. 单击 【添加角色和功能(Add Roles)】添加服务器角色，勾选 "Web Server(IIS)"选项卡 ，单击【下一步(Next)】：
 ![](https://mccdn.qcloud.com/img56b1bb12831b3.png)
-![](https://mccdn.qcloud.com/img56b1bcee2d9e8.png)
+![](//mccdn.qcloud.com/img56b1bcee2d9e8.png)
 
  3. 在 选择角色服务(Role Services)时，勾选 "CGI"选项卡：
 ![](https://mccdn.qcloud.com/img56b1bd1b8f220.png)

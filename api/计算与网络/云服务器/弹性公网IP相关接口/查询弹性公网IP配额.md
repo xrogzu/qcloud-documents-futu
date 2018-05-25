@@ -2,7 +2,7 @@
 
 本接口 (DescribeAddressQuota) 用于查询您账户的[弹性公网IP](/document/product/213/1941)（简称 EIP）在当前地域的配额信息。配额详情可参见 [EIP 产品简介](/document/product/213/5733)。
 
-接口请求域名：<font style="color:red">eip.api.qcloud.com</font>
+接口请求域名：<font style="color:red">eip.api.tce.fsphere.cn</font>
 
 
 ## 2. 输入参数
@@ -28,7 +28,7 @@
 
 #### 请求参数
 <pre>
-  https://eip.api.qcloud.com/v2/index.php?Action=DescribeAddressQuota
+  https://eip.api.tce.fsphere.cn/v2/index.php?Action=DescribeAddressQuota
   &Version=2017-03-12
   &<<a href="/document/api/213/11650">公共请求参数</a>>
 </pre>

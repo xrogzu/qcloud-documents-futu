@@ -2,7 +2,7 @@
 
 本接口(UpdateInstanceVpcConfig)用于修改实例vpc属性，如私有网络ip。
 
-接口请求域名：<font style="color:red">cvm.api.qcloud.com</font>
+接口请求域名：<font style="color:red">cvm.api.tce.fsphere.cn</font>
 
 
 * 此操作默认会关闭实例，完成后再启动。

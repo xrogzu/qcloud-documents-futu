@@ -17,9 +17,6 @@ GitHub 链接：[COS FTP Server 工具](https://github.com/tencentyun/cos-ftp-se
 python setup.py install   # 这里可能需要sudo或者root权限
 ```
 
-### 特别说明
-本工具使用 COS XML 接口开发
-
 ## 功能说明
 #### 上传机制
 流式上传，不落本地磁盘，只要按照标准的 FTP 协议配置工作目录即可，不占用实际的磁盘存储空间。

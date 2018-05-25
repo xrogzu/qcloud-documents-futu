@@ -7,7 +7,7 @@
 
 ## 操作步骤
 
-- 登录[云主机控制台](https://console.cloud.tencent.com/cvm/index)。
+- 登录[云主机控制台](https://console.tce.fsphere.cn/cvm/index)。
 - 选择地域。
 - 找到需要查看详情的实例，单击实例ID，进入实例详情页面。
 - 在实例详情页，点击【弹性网卡】-【修改主IP】。

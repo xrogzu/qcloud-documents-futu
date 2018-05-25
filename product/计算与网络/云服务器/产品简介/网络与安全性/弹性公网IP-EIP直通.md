@@ -18,7 +18,7 @@
 2. 脚本下载到本地后，上传至需要进行 EIP 直通的云主机中。
 
 ### 二、开启 EIP 直通
-1. 登录 [云服务器控制台](https://console.cloud.tencent.com/cvm/overview)。
+1. 登录 [云服务器控制台](https://console.tce.fsphere.cn/cvm/overview)。
 
 2. 在左侧导航窗格中，点击【弹性公网IP】。
 

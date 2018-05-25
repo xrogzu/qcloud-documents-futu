@@ -9,7 +9,7 @@
  
 ## 自动激活
 云平台为 Windows 服务器的激活封装了一个脚本，简化了手工激活的步骤。
-请在您的 Windows 云服务器上访问以下地址：http://mirrors.tencentyun.com/install/windows/activate-win.bat 下载脚本，并在下载完成后执行该脚本，即可完成自动激活。
+请在您的 Windows 云服务器上访问以下地址：http://mirrors.tce.fsphere.cn/install/windows/activate-win.bat 下载脚本，并在下载完成后执行该脚本，即可完成自动激活。
 
 ## 手工运行激活
 激活步骤：
@@ -17,7 +17,7 @@
 2. 单击【开始】>【运行】，输入`cmd.exe`以打开控制台窗口。
 3. 在控制台依次输入一下命令：
 ```
-cscript /nologo %windir%/system32/slmgr.vbs -skms kms.tencentyun.com:1688
+cscript /nologo %windir%/system32/slmgr.vbs -skms kms.tce.fsphere.cn:1688
 cscript /nologo %windir%/system32/slmgr.vbs -ato
 ```
 
@@ -27,7 +27,7 @@ cscript /nologo %windir%/system32/slmgr.vbs -ato
 > 在某些系统上，如果系统时钟存在问题，手工激活的时候会出现错误，此时需要先同步系统时钟。
 > 同步时钟的方法为：在控制台窗口输入以下命令：
 >```
->w32tm /config /syncfromflags:manual /manualpeerlist:"ntpupdate.tencentyun.com"
+>w32tm /config /syncfromflags:manual /manualpeerlist:"ntpupdate.tce.fsphere.cn"
 >w32tm /resync
 >```
 

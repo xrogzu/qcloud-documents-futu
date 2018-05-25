@@ -2,7 +2,7 @@
 
 本接口 (ReleaseAddresses) 用于释放一个或多个[弹性公网IP](/document/product/213/1941)（简称 EIP）。
 
-接口请求域名：<font style="color:red">eip.api.qcloud.com</font>
+接口请求域名：<font style="color:red">eip.api.tce.fsphere.cn</font>
 
 * 该操作不可逆，释放后 EIP 关联的 IP 地址将不再属于您的名下。
 * 只有状态为 UNBIND 的 EIP 才能进行释放操作。
@@ -37,7 +37,7 @@
 
 #### 请求参数
 <pre>
-https://eip.api.qcloud.com/v2/index.php?Action=ReleaseAddresses
+https://eip.api.tce.fsphere.cn/v2/index.php?Action=ReleaseAddresses
 &Version=2017-03-12
 &AddressIds.1=eip-gzc5rgr2
 &<<a href="/document/api/213/11650">公共请求参数</a>>

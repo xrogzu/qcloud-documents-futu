@@ -40,7 +40,7 @@
 
 #### 2. 创建 GPT 分区
 1）. 执行命令 `gpart create -s gpt vtbd1`。
-![](https://mccdn.qcloud.com/img56a6171206c80.png)
+![](//mccdn.qcloud.com/img56a6171206c80.png)
 2）. 执行命令 `gpart add -t freebsd-ufs -a 1M vtbd1`。
 ![](https://mccdn.qcloud.com/img56a6172bb39c0.png) 
 
