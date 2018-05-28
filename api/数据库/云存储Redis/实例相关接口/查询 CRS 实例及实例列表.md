@@ -33,7 +33,7 @@
 | data.redisSet.redisId | String | 实例唯一串号| 
 | data.redisSet.appid | Int | appid | 
 | data.redisSet.projectId | Int | 项目id | 
-| data.redisSet.regionId | Int | 地域id 1--广州 4--上海 5-- 香港 6--多伦多 7--上海金融 8--北京 9-- 新加坡 11--深圳金融 15--美西（硅谷） | 
+| data.redisSet.regionId | Int | 地域id 1--广州 4--上海  7--上海金融 8--北京  11--深圳金融  | 
 | data.redisSet.zoneId | Int | 区域id | 
 | data.redisSet.vpcId | Int | vpc网络id，不推荐使用 |
 | data.redisSet.unVpcId | String | vpc网络id，推荐使用 |  
@@ -48,8 +48,7 @@
 | data.redisSet.sizeUsed | Int | 实例当前已使用容量，单位：MB | 
 | data.redisSet.typeId | Int | 实例类型，1：集群版；2：主从版| 
 | data.redisSet.typeIddesc | String | 实例类型描述 |
-| data.redisSet.autoRenewFlag | Int | 实例是否设置自动续费标识，1：设置自动续费；0：未设置自动续费 |  
-| data.redisSet.deadlineTime | String | 实例到期时间 |
+ | data.redisSet.deadlineTime | String | 实例到期时间 |
 
 
 ## 4. 错误码

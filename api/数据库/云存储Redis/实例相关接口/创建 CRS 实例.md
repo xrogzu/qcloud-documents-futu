@@ -2,11 +2,10 @@
 本接口(CreateRedis)用于创建实例。
 接口请求域名：<font style='color:red'>redis.api.qcloud.com </font>
 
-1) 实例容量单位：MB， 取值为1024的整数倍， 范围以 [查询售卖规格](http://cloud.tencent.com/doc/api/260/4974)接口返回的规格为准， 取值范围[data.types.minMemSize, data.types.maxMemSize]， 主从版默认取值范围[1024MB, 61440MB]， 集群版默认配置为：[1024MB, 307200MB]
-2) 单次购买实例数量以 [查询售卖规格](http://cloud.tencent.com/doc/api/260/4974)接口返回的规格为准， 取值范[data.types.minBuyNum, data.types.maxBuyNum]， 默认值为： [1, 100]
-3) 购买时长单位：月， 取值范围 [1,2,3,4,5,6,7,8,9,10,11,12,24,36]
-4) 密码规则： 长度为8-16个字符；至少包含字母、数字和字符（!@#%^()）中的两种
-5) 如果需要购买某可用区的实例，请通过[工单](https://console.cloud.tencent.com/workorder/create?level1_id=10&level2_id=103&level1_name=%E6%95%B0%E6%8D%AE%E5%BA%93&level2_name=%E4%BA%91%E5%AD%98%E5%82%A8Redis%20CRS)提起申请
+1) 实例容量单位：MB， 取值为1024的整数倍， 范围以 [查询售卖规格](http://cloud.tencent.com/doc/api/260/4974)接口返回的规格为准， 取值范围[data.types.minMemSize, data.types.maxMemSize]， 主从版默认取值范围[1024MB, 61440MB]， 集群版默认配置为：[1024MB, 307200MB]  
+2) 单次购买实例数量以 [查询售卖规格](http://cloud.tencent.com/doc/api/260/4974)接口返回的规格为准， 取值范[data.types.minBuyNum, data.types.maxBuyNum]， 默认值为： [1, 100]  
+3) 密码规则： 长度为8-16个字符；至少包含字母、数字和字符（!@#%^()）中的两种  
+
 
 
 ## 2. 输入参数
