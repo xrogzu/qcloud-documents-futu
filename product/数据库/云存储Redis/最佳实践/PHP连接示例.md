@@ -1,4 +1,4 @@
-﻿**运行前必备**：
+**运行前必备**：
 
 使用客户端phpredis，下载和参考地址：https://github.com/phpredis/phpredis
 
@@ -13,24 +13,24 @@
   $pwd = "1234567q";
 
   $redis = new Redis();
-  //连接redis
+  //连接redis  
   if ($redis->connect($host, $port) == false) {
     die($redis->getLastError());
   }
-  //鉴权
+  //鉴权  
   if ($redis->auth($instanceid . ":" . $pwd) == false) {
     die($redis->getLastError());
   }
   
   /**接下来可以愉快的开始操作redis实例，可以参考：https://github.com/phpredis/phpredis */
   
-  //设置key
+  //设置key  
   if ($redis->set("redis", "tencent") == false) {
     die($redis->getLastError());
   }
   echo "set key redis suc, value is:tencent\n";
   
-  //获取key
+  //获取key  
   $value = $redis->get("redis");
   echo "get key redis is:".$value."\n";
 ?>

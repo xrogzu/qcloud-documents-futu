@@ -1,15 +1,15 @@
-﻿**运行前必备**:
+**运行前必备**:
 
 下载并安装 hiredis
 https://github.com/redis/hiredis
 
 **示例代码**：
 ```
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+\#include <stdio.h>  
+\#include <stdlib.h>  
+\#include <string.h>  
 
-#include <hiredis.h>
+\#include <hiredis.h>  
 
 int main(int argc, char **argv) {
     unsigned int j;

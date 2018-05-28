@@ -1,6 +1,6 @@
 
 ```
-package main
+package main  
 
 import (
 	"fmt"
@@ -9,13 +9,13 @@ import (
 	"strconv"
 	"strings"
 	"github.com/garyburd/redigo/redis"
-)
+)  
 
 func checkErr(err error) {
 	if err != nil {
 		panic(err.Error())
 	}
-}
+}  
 
 func randomName(length int) string {
 	rand.Seed(time.Now().UnixNano())
@@ -32,7 +32,7 @@ func randomName(length int) string {
 		}
 	}
 	return strings.Join(rn, "")
-}
+}  
 
 func main() {
 	const TOTAL_SIZE = 10000

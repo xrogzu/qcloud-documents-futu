@@ -51,6 +51,7 @@ func main() {
 	}
 	fmt.Println()
 }
-```
+```    
+
 结果如下：
 ![](https://mc.qcloudimg.com/static/img/6119908db94734b6b398075da64ef2d4/image.png)
