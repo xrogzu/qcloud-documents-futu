@@ -11,28 +11,28 @@ RAID（独立磁盘冗余阵列，Redundant Array of Independent Disks）可以�
 </tbody>
 </table>
 
-下面介绍如何使用4块弹性云盘来构建RAID0阵列。Linux内核提供了md模块在底层管理RAID设备，我们可以使用mdadm工具来调用md模块。
+下面介绍如何使用4块腾讯云弹性云盘来构建RAID0阵列。Linux内核提供了md模块在底层管理RAID设备，我们可以使用mdadm工具来调用md模块。
 
-![](https://mccdn.qcloud.com/static/img/9f42e96976ee6f3655090a4208f461c5/image.png)
+![](//mccdn.qcloud.com/static/img/9f42e96976ee6f3655090a4208f461c5/image.png)
 >注：请及时对将要到期的弹性云盘进行续费操作，以避免由于弹性云盘到期导致被系统强制隔离对RAID阵列产生影响。
 
 ## 安装mdadm（以CentOS为例）
-![](https://mccdn.qcloud.com/static/img/59896b0ee3f20cd0f20f2f3633e56a1f/image.png)
+![](//mccdn.qcloud.com/static/img/59896b0ee3f20cd0f20f2f3633e56a1f/image.png)
 
 ## 使用mdadm创建RAID0
-![](https://mccdn.qcloud.com/static/img/8d180220850c396dcf91266b43f2220d/image.png)
+![](//mccdn.qcloud.com/static/img/8d180220850c396dcf91266b43f2220d/image.png)
 
 >注：创建RAID1、RAID01、RAID10时最好使用相同大小的分区创建RAID，以避免对磁盘空间的浪费。
 
 ## 使用mkfs创建文件系统
-![](https://mccdn.qcloud.com/static/img/e92608f31d914556a585e3190a009a64/image.png)
+![](//mccdn.qcloud.com/static/img/e92608f31d914556a585e3190a009a64/image.png)
 
 ## 挂载文件系统
-![](https://mccdn.qcloud.com/static/img/a4c36941609c64a3753648622392de65/image.png)
+![](//mccdn.qcloud.com/static/img/a4c36941609c64a3753648622392de65/image.png)
 
 ## 修改mdadm配置文件
 确定文件系统UUID：
-![](https://mccdn.qcloud.com/static/img/e42b1f74126420929cd3b3668cca3f21/image.png)
+![](//mccdn.qcloud.com/static/img/e42b1f74126420929cd3b3668cca3f21/image.png)
 
 执行以下命令修改mdadm配置文件：
 
