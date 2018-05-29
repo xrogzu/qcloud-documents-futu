@@ -12,7 +12,7 @@ LoadBalance 团队在4月推出**公网应用型LB**独家能力：自定义重�
 假定开发者购买了负载均衡器，后端绑定了 100 台 CVM，配置网站 https://example.com 。开发者希望用户在浏览器中输入网址时，直接键入www.example.com 即可通过 HTTPS 协议安全访问。（即无论 HTTP/HTTPS 请求，都返回 HTTPS，强制使用加密能力）
 此时用户输入的 www.example.com 请求转发流程如下：
 该请求以 HTTP 协议传输，通过 VIP 访问 CLB 负载均衡监听器的 80 端口，并被转发到后端云服务器的 8080 端口。
-通过在腾讯云后端服务器的 nginx 上配置 rewrite 操作，该请求经过 8080 端口，并被重写到 https://example.com 页面。
+通过在云平台后端服务器的 nginx 上配置 rewrite 操作，该请求经过 8080 端口，并被重写到 https://example.com 页面。
 此时浏览器再次发送 https://example.com 请求到相应的 HTTPS 站点，该请求通过 VIP 访问负载均衡监听器的 443 端口，并被转发到后端云服务器的 80 端口。至此，请求转发完成。架构如下图所示：
 
 ![](https://mc.qcloudimg.com/static/img/b5d0efa20da5872ac3d29a41fd29d945/11.jpg)
@@ -48,7 +48,7 @@ server {
 
 上述架构中，CLB 的主要作用是对 HTTPS 进行代理，因此无论是 HTTP 还是 HTTPS 请求，到了 CLB 转发给后端 CVM 时，都是 HTTP 请求。此时，**客户端到LB 时如果为 HTTPS 协议，则采用加密传输的方式，但 LB 到后端服务器依然是明文传输。**此时，开发者无法分辨出前端的请求是 HTTPS 还是 HTTPS。
 
-为了解决这个问题，腾讯云 CLB 在将请求转发给后端 CVM 时，头部 header 会植入 X-Client-Proto，从而便于开发者依据 header 内容判断请求类型：
+为了解决这个问题，云平台 CLB 在将请求转发给后端 CVM 时，头部 header 会植入 X-Client-Proto，从而便于开发者依据 header 内容判断请求类型：
 - X-Client-Proto: http （前端为 HTTP 请求）
 - X-Client-Proto: https （前端为 HTTPS 请求）
 
@@ -60,9 +60,9 @@ server {
 ### 2. CLB 强制 HTTP 跳转方案
 
 #### A.方案说明
-假定开发者需要配置网站 https://example.com 。开发者希望用户在浏览器中输入网址时，直接键入www.example.com 即可通过 HTTPS 协议安全访问。www.example.com 下，不仅仅是一个地址，后端关联的 URL 可能有数百的（用正则匹配），总的 real server 数量会有几百个，逐一配置难度太大。腾讯云支持一键式的，强制 HTTPS 跳转。
+假定开发者需要配置网站 https://example.com 。开发者希望用户在浏览器中输入网址时，直接键入www.example.com 即可通过 HTTPS 协议安全访问。www.example.com 下，不仅仅是一个地址，后端关联的 URL 可能有数百的（用正则匹配），总的 real server 数量会有几百个，逐一配置难度太大。云平台支持一键式的，强制 HTTPS 跳转。
 
-第一步，先在 [腾讯云负载均衡控制台](https://console.cloud.tencent.com/loadbalance/index?rid=1) 将 LB 的 HTTPS 监听器配置好，也就是将 https://example.com 的 Web 环境搭建好。
+第一步，先在 [负载均衡控制台](https://console.cloud.tencent.com/loadbalance/index?rid=1) 将 LB 的 HTTPS 监听器配置好，也就是将 https://example.com 的 Web 环境搭建好。
 ![](https://mc.qcloudimg.com/static/img/61a723a69c581968a46fe86447f1473a/1111.jpg)
 第二步，到应用型负载均衡器控制台处启用重定向能力，目前支持域名级别，整体跳转。
 ![](https://mc.qcloudimg.com/static/img/e066362fed8d3cf7740dd50c49c6004b/2222.jpg)

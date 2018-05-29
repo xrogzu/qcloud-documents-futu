@@ -1,20 +1,15 @@
-目前负载均衡***公网有固定IP型产品***支持A记录和CNAME的绑定，用户可通过注册域名并添加A记录和CNAME记进行访问。
+目前负载均衡***公网有固定IP型产品***支持A记录和CNAME的绑定，用户可通过域名添加A记录和CNAME记进行访问。
 
-## 1. 域名注册
 
-注册域名可以通过打开[域名注册页面](https://cloud.tencent.com/product/dm.html) 进行域名查询和注册。
+##  添加CNAME记录
 
-相关文档可以参考[如何注册域名](https://cloud.tencent.com/doc/product/242/3717)
+### 1. 进入域名解析页面
 
-## 2. 添加CNAME记录
+登录云平台【管理中心】-【云产品】-【域名管理】-【解析】, 示例的主域名为qcloudtest.com。
 
-### 2.1. 进入域名解析页面
+![](https://main.qcloudimg.com/raw/005aec8272c6384a9626e62b5d3bd735.png)
 
-登录腾讯云【管理中心】-【云产品】-【域名管理】-【解析】, 示例的主域名为qcloudtest.com。
-
-![](https://mccdn.qcloud.com/static/img/196c66e6643ccd88eba9f8b9373a297e/image.png)
-
-### 2.2. 添加CNAME记录
+### 2. 添加CNAME记录
 
 在【解析】页面，点击【添加】，用户可以添加CNAME记录，操作指引如下：
 
@@ -59,10 +54,10 @@ d. CNAME记录值主要填写空间商给您提供的域名
 
 ![](https://mccdn.qcloud.com/static/img/3d952308d0e576fa3a2be640b3238074/image.png)
 
-### 2.3. 查看CNAME记录
+### 3. 查看CNAME记录
 
 添加记录完毕后，可以在【解析】页面查看所添加的CNAME记录，并对其进行修改、管理等操作。
 
-### 2.4. 测试解析结果
+### 4. 测试解析结果
 
 用户为测试域名是否解析正常，可以直接访问绑定后的CNAME域名（如例子中的www.qcloudtest.com ）。注: 解析大概需要十分钟左右生效。

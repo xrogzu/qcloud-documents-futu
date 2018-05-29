@@ -11,7 +11,7 @@ Cookie就是这样一个用来标识每一次请求的状态位。经过多年�
 
 ![](https://mccdn.qcloud.com/static/img/58f3b8fb6182198e549315f3192bd11a/image.png)
 
-1) 当首次向腾讯云发起请求时，HTTP请求头如下：
+1) 当首次向发起请求时，HTTP请求头如下：
 
 ```
 Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,/;q=0.8 
@@ -21,7 +21,7 @@ Connection:keep-alive
 Host:cloud.tencent.com
 ```
 
-2) 请求到达腾讯云的服务器以后，腾讯云的服务器生成响应，并在响应的头部写入cookie信息：
+2) 请求到达的服务器以后，的服务器生成响应，并在响应的头部写入cookie信息：
 
 ```
 Set-Cookie:BD_HOME=1; path=/ 
@@ -79,7 +79,7 @@ cookie是有生命周期的。一旦到了cookie的失效日期，客户端的co
 以上从浏览器本身的限制和生成cookie时的选项对cookie的管理进行了简单的总结。接下来就通过一些简单的代码来演示如何创建和获取cookie。
 
 ### 服务器端创建cookie
-腾讯云服务器通过发送一个带有Set-Cookie的HTTP消息响应头来创建一个cookie。例如：
+服务器通过发送一个带有Set-Cookie的HTTP消息响应头来创建一个cookie。例如：
 
 ```
 // 创建一个cookie对象 

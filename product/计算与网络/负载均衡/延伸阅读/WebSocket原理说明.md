@@ -55,7 +55,7 @@ Sec-WebSocket-Accept: K7DJLdLooIwIG/MOpvWFB3y3FE8=
 
 在开发方面，WebSocket API 也十分简单：只需要实例化 WebSocket，创建连接，然后服务端和客户端就可以相互发送和响应消息。在WebSocket 实现及案例分析部分可以看到详细的 WebSocket API 及代码实现。
 
-腾讯云公网有日租类型七层负载均衡转发部分支持Websocket，目前包括英魂之刃、银汉游戏等多家企业已接入使用。当出现不兼容问题时，请修改websocket配置，websocket server不校验下图中圈出的字段：
+公网有日租类型七层负载均衡转发部分支持Websocket，目前包括英魂之刃、银汉游戏等多家企业已接入使用。当出现不兼容问题时，请修改websocket配置，websocket server不校验下图中圈出的字段：
 
 ![](https://mccdn.qcloud.com/static/img/53d8a8462bdf6d4ebe8e1134e40919ef/image.png)
 
