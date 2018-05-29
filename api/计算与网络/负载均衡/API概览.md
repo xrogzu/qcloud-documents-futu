@@ -3,8 +3,6 @@
 
 | 接口名 | Action | 功能描述 |
 |---------|---------|---------|
-| [查询负载均衡实例价格](https://cloud.tencent.com/document/api/214/1328) | InquiryLBPrice | 查询负载均衡实例的价格。|
-| [购买负载均衡](https://cloud.tencent.com/document/api/214/1254)  | CreateLoadBalancer | 通过该接口来购买负载均衡。|
 | [查询负载均衡实例列表](https://cloud.tencent.com/document/api/214/1261) | DescribeLoadBalancers | 查询负载均衡实例的列表。|
 | [删除负载均衡实例](https://cloud.tencent.com/document/api/214/1257)| DeleteLoadBalancers | 删除负载均衡实例。|
 | [查询负载均衡异步接口的执行结果](https://cloud.tencent.com/document/product/214/4007) | DescribeLoadBalancersTaskResult | 查询负载均衡异步操作接口的执行结果。|

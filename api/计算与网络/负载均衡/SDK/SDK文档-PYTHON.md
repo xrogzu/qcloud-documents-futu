@@ -22,10 +22,10 @@ Python 2.x 目前不支持 Python 3
 
 获取云 API 密钥的方法如下：
 
-登录 [腾讯云控制台](https://console.cloud.tencent.com/)，选择【云产品】>【云 API 密钥】选项。
+登录 [云平台控制台](https://console.cloud.tencent.com/)，选择【云产品】>【云 API 密钥】选项。
 
 用户可在此新建新的云 API 密钥或使用现有密钥。点击密钥 ID 进入详情页获取使用的密钥 secretId 和对应的 secretKey。
-![](https://mc.qcloudimg.com/static/img/47b2cf18add4d32a867f115fffb6af48/2.png)
+![](https://main.qcloudimg.com/raw/edfa6bb04aae17bed240bd77d13c4641.png)
 
 
 #### CLB Python SDK下载

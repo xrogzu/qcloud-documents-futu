@@ -1,8 +1,8 @@
 ## 服务地址
-腾讯云负载均衡（CLB）使用的域名访问地址为：`lb.api.qcloud.com`
+负载均衡（CLB）使用的域名访问地址为：`lb.api.qcloud.com`
 
 ## 通信协议
-腾讯云 API 的所有接口均通过 HTTPS 进行通信，提供高安全性的通信通道。
+ API 的所有接口均通过 HTTPS 进行通信，提供高安全性的通信通道。
 
 ## 请求方法
 同时支持 POST 和 GET 请求，需要注意不能混合使用。即如果使用 GET 方式，则参数均从 Querystring 取得；如果使用 POST 方式，则参数均从 Request Body 中取得，Querystring 中的参数将忽略。两种方式参数格式规则相同，一般使用 GET，当参数字符串过长时使用 POST，请见各接口详细描述。
