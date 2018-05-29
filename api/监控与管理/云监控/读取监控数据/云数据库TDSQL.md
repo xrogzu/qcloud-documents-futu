@@ -3,7 +3,7 @@
 域名：monitor.api.qcloud.com
 接口：GetMonitorData
 
-腾讯云云数据库TDSQL定位于OLTP场景下高安全性的企业级云数据库，十余年来一直应用于腾讯计费业务，TDSQL兼容MySQL语法，拥有诸如线程池、审计、异地容灾等高级功能，同时具有云数据库的易扩展性、简单性和性价比。具体介绍请参考<a href="/doc/product/237/产品概述" title="产品概述">云数据库TDSQL简介</a>页面。
+云数据库TDSQL定位于OLTP场景下高安全性的企业级云数据库，十余年来一直应用于计量业务，TDSQL兼容MySQL语法，拥有诸如线程池、审计、异地容灾等高级功能，同时具有云数据库的易扩展性、简单性和性价比。具体介绍请参考<a href="/doc/product/237/产品概述" title="产品概述">云数据库TDSQL简介</a>页面。
 
 查询云数据库TDSQL产品监控数据，入参取值如下：
 namespace：qce/tdsql
