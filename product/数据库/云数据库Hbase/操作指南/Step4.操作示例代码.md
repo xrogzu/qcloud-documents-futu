@@ -40,7 +40,7 @@ public class Connect {
 			// 设置重试参数
 			config.setInt("hbase.client.retries.number", 1);
 			/*
-			 * 要连接腾讯云的hbase服务必须设置此值为true；不设置该值功能和社区版相同，可以正常连接自建hbase服务
+			 * 要连接云平台的hbase服务必须设置此值为true；不设置该值功能和社区版相同，可以正常连接自建hbase服务
 			 */
 			config.setBoolean("chbase.tencent.enable", true);
 
@@ -76,7 +76,7 @@ public class Connect {
 			// 设置重试参数
 			config.setInt("hbase.client.retries.number", 1);
 			/*
-			 * 要连接腾讯云的hbase服务必须设置此值为true；不设置该值功能和社区版相同，可以正常连接自建hbase服务
+			 * 要连接云平台的hbase服务必须设置此值为true；不设置该值功能和社区版相同，可以正常连接自建hbase服务
 			 */
 			config.setBoolean("chbase.tencent.enable", true);
 
@@ -109,7 +109,7 @@ public class Connect {
 			// 设置重试参数
 			config.setInt("hbase.client.retries.number", 1);
 			/*
-			 * 要连接腾讯云的hbase服务必须设置此值为true；不设置该值功能和社区版相同，可以正常连接自建hbase服务
+			 * 要连接云平台的hbase服务必须设置此值为true；不设置该值功能和社区版相同，可以正常连接自建hbase服务
 			 */
 			config.setBoolean("chbase.tencent.enable", true);
 
@@ -143,7 +143,7 @@ public class Connect {
 			// 设置重试参数
 			config.setInt("hbase.client.retries.number", 1);
 			/*
-			 * 要连接腾讯云的hbase服务必须设置此值为true；不设置该值功能和社区版相同，可以正常连接自建hbase服务
+			 * 要连接云平台的hbase服务必须设置此值为true；不设置该值功能和社区版相同，可以正常连接自建hbase服务
 			 */
 			config.setBoolean("chbase.tencent.enable", true);
 
@@ -177,7 +177,7 @@ public class Connect {
 			// 设置重试参数
 			config.setInt("hbase.client.retries.number", 1);
 			/*
-			 * 要连接腾讯云的hbase服务必须设置此值为true；不设置该值功能和社区版相同，可以正常连接自建hbase服务
+			 * 要连接云平台的hbase服务必须设置此值为true；不设置该值功能和社区版相同，可以正常连接自建hbase服务
 			 */
 			config.setBoolean("chbase.tencent.enable", true);
 
@@ -210,7 +210,7 @@ public class Connect {
 			// 设置重试参数
 			config.setInt("hbase.client.retries.number", 1);
 			/*
-			 * 要连接腾讯云的hbase服务必须设置此值为true；不设置该值功能和社区版相同，可以正常连接自建hbase服务
+			 * 要连接云平台的hbase服务必须设置此值为true；不设置该值功能和社区版相同，可以正常连接自建hbase服务
 			 */
 			config.setBoolean("chbase.tencent.enable", true);
 			Scan scan = new Scan();

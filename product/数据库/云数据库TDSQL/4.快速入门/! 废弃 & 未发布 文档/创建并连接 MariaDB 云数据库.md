@@ -1,11 +1,11 @@
 在本文档中，您可以创建 MariaDB 云数据库实例并连接到该数据库实例。最后，您将删除该数据库实例。
 
 > **注意：**
-> 在创建 MariaDB 云数据库实例之前，您必须拥有一个腾讯云帐户。如果您没有腾讯云帐户，请在 [注册页面](https://cloud.tencent.com/register) 填写相关信息注册腾讯云帐户。
+> 在创建 MariaDB 云数据库实例之前，您必须拥有一个云平台帐户。如果您没有云平台帐户，请在 [注册页面](http://tce.fsphere.cn/register) 填写相关信息注册云平台帐户。
 
 ## 一、创建 MariaDB 云数据库实例
-在此步骤中，您会使用腾讯云控制台创建 MariaDB 云数据库实例。
-1. 登录 [云数据库控制台](https://console.cloud.tencent.com/cdb)。
+在此步骤中，您会使用云平台控制台创建 MariaDB 云数据库实例。
+1. 登录 [云数据库控制台](http://console.tce.fsphere.cn/cdb)。
 ![](https://mc.qcloudimg.com/static/img/7f454c8f988ec22c4045b33c47571024/image.png)
 2. 在右侧导航栏选择需要创建的云数据库类型，单击【TDSQL（MariaDB）】>【实例列表】>【+新建】，进入 MariaDB 云数据库购买界面。
 ![](https://mc.qcloudimg.com/static/img/ffda5d7af5a406bd600b7732dd194928/image.png)
@@ -19,7 +19,7 @@
  - 购买数量和购买时长。
 
  ![](https://mc.qcloudimg.com/static/img/90a3065265c7be9af4151c97c9ee4658/image.png)
-4. 进入 [云数据库控制台](https://console.cloud.tencent.com/cdb)，选择【TDSQL（MariaDB）】，查看刚才创建的云数据库实例。状态显示是 **未初始化**。
+4. 进入 [云数据库控制台](http://console.tce.fsphere.cn/cdb)，选择【TDSQL（MariaDB）】，查看刚才创建的云数据库实例。状态显示是 **未初始化**。
 ![](https://mc.qcloudimg.com/static/img/a5f1f71b222633d6290287c0ab5b62b9/image.png)
 5. 单击【初始化】，弹出初始化配置窗口，进行云数据库初始化操作。
 ![](https://mc.qcloudimg.com/static/img/3d916c037e6cd988dac8f69416c8c15d/image.png)
@@ -36,7 +36,7 @@
  - 帐号名。由字母、数字、下划线组成，字母开头，字母或数字结尾，最长 16 个字符组成。本教程以“test123”为例。
  - 主机。也可以理解为 HOST，支持 IP、IP 段、% 三种形式；% 代表结尾符，例如我们要支持 10.10.10.1~10.10.10.254 的所有主机 IP，可以输入 10.10.10.%；不输入代表 %。
  - 是否只读帐号。选中表示该帐号只能使用读请求（select）。
- - 密码。密码为 8~16 位的任意字符。腾讯云建议您的密码至少包括英文、数字和符号等，并定期修改密码。
+ - 密码。密码为 8~16 位的任意字符。云平台建议您的密码至少包括英文、数字和符号等，并定期修改密码。
 
  ![](https://mc.qcloudimg.com/static/img/b5673f5c88f57d4a389fc4e673416659/image.png)
 设置帐号拥有的权限，单击【保存配置】。
@@ -52,8 +52,8 @@
 
 ## 二、连接 MariaDB 云数据库实例
 连接 MariaDB 云数据库的方式有两种：
-- 内网访问：使用腾讯云中一台与 MariaDB 数据库实例网络相通的 CVM 实例来访问 MariaDB 数据库实例的内网地址。此台 CVM 需要与数据库处于某个 VPC 下的同一个子网中，关于 VPC 的更多信息请查看 [VPC概述](/doc/product/215/535)。
-- 外网访问：在外网的 Windows 或者 Linux 主机中，安装数据库客户端来访问腾讯云中的 MariaDB 云数据库实例的外网地址。
+- 内网访问：使用云平台中一台与 MariaDB 数据库实例网络相通的 CVM 实例来访问 MariaDB 数据库实例的内网地址。此台 CVM 需要与数据库处于某个 VPC 下的同一个子网中，关于 VPC 的更多信息请查看 [VPC概述](/doc/product/215/535)。
+- 外网访问：在外网的 Windows 或者 Linux 主机中，安装数据库客户端来访问云平台中的 MariaDB 云数据库实例的外网地址。
 
 **注意：**
 > 外网访问需要开启数据库实例的外网地址，从而使您的数据库服务暴露在公网上，此操作可能导致数据库被入侵或攻击。建议您使用内网访问的方式来登录数据库。
@@ -73,7 +73,7 @@ b. 打开 SQLyog，输入 MariaDB 数据库实例的内网 IP 和端口号，数
 c. 登录成功的界面如图所示，在此页面上您可以看到 MariaDB 数据库的各种模式和对象，您可以开始创建表，进行数据插入和查询等操作。
 ![](https://mc.qcloudimg.com/static/img/7646040af53a923f47c4973a4aac7680/image.png)
 **从 Linux 系统登录**
-a. 以 CentOS 7.2 64 位系统的 CVM 为例，利用 CentOS 自带的包管理软件 Yum 去腾讯云的镜像源下载安装 MySQL 客户端。
+a. 以 CentOS 7.2 64 位系统的 CVM 为例，利用 CentOS 自带的包管理软件 Yum 去云平台的镜像源下载安装 MySQL 客户端。
 相关命令为：
 ```
 yum install mysql

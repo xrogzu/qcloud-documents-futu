@@ -3,7 +3,7 @@
 
 #### 方案简介
 
-为了提供更好的智能化设备体验，我们打造了集成腾讯云小微 AI 能力的语音方案。该方案的能力大致分为以下几个部分：
+为了提供更好的智能化设备体验，我们打造了集成云平台小微 AI 能力的语音方案。该方案的能力大致分为以下几个部分：
 
 *   ** 唤醒模块 **
 *   ** 静音检测 **
@@ -32,19 +32,19 @@
 接入大致分为以下几个步骤：
 
 *   从 [小微硬件开放平台](https://xiaowei.qcloud.com/hardware.html) 申请接入。
-*   下载小微设备端 SDK，我们在官网提供了最新的 [Android](https://cloud.tencent.com/document/product/645/14215) 和[Linux](https://cloud.tencent.com/document/product/645/14216)版本的 SDK。
+*   下载小微设备端 SDK，我们在官网提供了最新的 [Android](http://tce.fsphere.cn/document/product/645/14215) 和[Linux](http://tce.fsphere.cn/document/product/645/14216)版本的 SDK。
 *   参考文档和 demo 实现功能并进行测试。
 *   提供体验设备，完成产品体验。
 
-## 接入腾讯云小微硬件开放平台
+## 接入云平台小微硬件开放平台
 
 ### 简介概述
 
-腾讯云小微硬件开放平台是一个能将语音交互能力输出给第三方硬件厂商的平台，无论是音箱、电视、玩具、OTT 盒子、投影仪还是汽车，只需要一个 SDK 即可完成接入，为设备赋予人工智能语音能力。
+云平台小微硬件开放平台是一个能将语音交互能力输出给第三方硬件厂商的平台，无论是音箱、电视、玩具、OTT 盒子、投影仪还是汽车，只需要一个 SDK 即可完成接入，为设备赋予人工智能语音能力。
 
 硬件开放平台接入目前支持 Android 和 linux 两大平台接入。
 
-腾讯云小微硬件开放平台将语音唤醒、语音识别、语义分析、信令收发以及众多的内置资源及服务，如音乐、天气、导航等核心能力提供给智能音箱、智能电视、智能玩具、OTT 盒子等传统硬件领域的合作伙伴，实现用户与设备、设备与服务之间的语音联动能力。
+云平台小微硬件开放平台将语音唤醒、语音识别、语义分析、信令收发以及众多的内置资源及服务，如音乐、天气、导航等核心能力提供给智能音箱、智能电视、智能玩具、OTT 盒子等传统硬件领域的合作伙伴，实现用户与设备、设备与服务之间的语音联动能力。
 
 我们致力于帮助传统硬件快速转型为具有语音控制能力的智能硬件，帮助合作伙伴降低云端、APP 端等研发成本，提升用户粘性并通过开放腾讯的丰富资源以及服务来给予硬件更多想象空间。
 
@@ -64,13 +64,13 @@
 
 1：用户可通过语音唤醒音箱（或其他硬件设备，此处以音箱为例），并说出具体的指令；
 
-在这里指令的内容指的是腾讯云小微 skill 的能力（具体 skill 的能力和配置可见 skill 部分 wiki，在这里不多作赘述），包含内置 skill 和第三方 skill 两大块，提供丰富的资源和服务能力，下图是重点能力的概览。
+在这里指令的内容指的是云平台小微 skill 的能力（具体 skill 的能力和配置可见 skill 部分 wiki，在这里不多作赘述），包含内置 skill 和第三方 skill 两大块，提供丰富的资源和服务能力，下图是重点能力的概览。
 
-[![腾讯云小微 skill 能力](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img / 腾讯云小微 skill 能力. png)](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img / 腾讯云小微 skill 能力. png)
+[![云平台小微 skill 能力](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img / 云平台小微 skill 能力. png)](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img / 云平台小微 skill 能力. png)
 
 2：音箱将语音内容传送到云端；
 
-基于腾讯云为设备提供快速、安全、稳定的云端环境，让硬件设备开发者更加聚焦在硬件设计与功能创新本身。
+基于云平台为设备提供快速、安全、稳定的云端环境，让硬件设备开发者更加聚焦在硬件设计与功能创新本身。
 
 3：云端对用户的语音进行识别与分析；
 
@@ -82,7 +82,7 @@
 
 ### 硬件开放平台申请接入流程
 
-开发者申请接入腾讯云小微硬件开放平台需要在 [官网](https://xiaowei.qcloud.com/hardware.html) 递交申请资料，进入腾讯云小微官网 -- 硬件开放开放 -- 点击【申请内测】：
+开发者申请接入云平台小微硬件开放平台需要在 [官网](https://xiaowei.qcloud.com/hardware.html) 递交申请资料，进入云平台小微官网 -- 硬件开放开放 -- 点击【申请内测】：
 
 [![image](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img / 申请内测. jpg)](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img / 申请内测. jpg)
 
@@ -96,7 +96,7 @@
 
 [![image](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img / 资料填写. jpg)](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img / 资料填写. jpg)
 
-以上信息确认填写无误之后，选择提交，会获得您的申请接入单号，腾讯云小微团队会尽快通过邮件反馈审核结果给开发者注册的邮箱地址，开发者也可以在申请页面查看审核进度及反馈。
+以上信息确认填写无误之后，选择提交，会获得您的申请接入单号，云平台小微团队会尽快通过邮件反馈审核结果给开发者注册的邮箱地址，开发者也可以在申请页面查看审核进度及反馈。
 
 [![image](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img / 申请记录. png)](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img / 申请记录. png)
 
@@ -148,7 +148,7 @@
 
 ### 为设备配置 skill
 
-每一个接入腾讯云小微的硬件都有使用我们强大资源和服务的权限，此处需要使用同一个账号在我们腾讯云小微 skill 平台进行创建，创建完成之后就会显示在这里，开发者可以自行选择该硬件需要使用的 skill。
+每一个接入云平台小微的硬件都有使用我们强大资源和服务的权限，此处需要使用同一个账号在我们云平台小微 skill 平台进行创建，创建完成之后就会显示在这里，开发者可以自行选择该硬件需要使用的 skill。
 
 [![image](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img / 配置平台 - skill.png)](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img / 配置平台 - skill.png)
 
@@ -161,11 +161,11 @@ OTA 能力配置中分为【正式环境】和【测试环境】两个部分，�
 
 ### 样机审核
 
-当产品所有功能均开发完毕后需要将样机寄送至腾讯云小微团队进行测试审核，只有审核通过之后产品才可以正式认证上线。
+当产品所有功能均开发完毕后需要将样机寄送至云平台小微团队进行测试审核，只有审核通过之后产品才可以正式认证上线。
 
 ## 实现指引
 
-下面说明中的部分名词 可以参考 [基本名词解释](https://cloud.tencent.com/document/product/645/14217)。
+下面说明中的部分名词 可以参考 [基本名词解释](http://tce.fsphere.cn/document/product/645/14217)。
 
 #### 第一行代码——SDK 登录
 
@@ -232,7 +232,7 @@ TXAIAudioSDK.getInstance().init(this);
 
 #### 监听绑定者列表变化
 
-SDK 运行后，需要使用腾讯云小微 App 对其进行绑定，才可以正常使用所有内置 Skill，所以在登录后，应该对绑定者进行判断，如果没有绑定者，应该提示用户扫描二维码进行绑定。（sn 和 license 等信息是出厂的时候就决定好的，绑定二维码为固定格式，格式为 “[https://xiaowei.tencent.com/device/bind?pid=2100000000&sn=1234567890123456&token=31082E2E16B535A1D8BD73EA877199B6”，其中 token 为 licence 的 md5 值，需要大写。）](https://xiaowei.tencent.com/device/bind?pid=2100000000&sn=1234567890123456&token=31082E2E16B535A1D8BD73EA877199B6”，其中 token 为 licence 的 md5 值，需要大写。）)
+SDK 运行后，需要使用云平台小微 App 对其进行绑定，才可以正常使用所有内置 Skill，所以在登录后，应该对绑定者进行判断，如果没有绑定者，应该提示用户扫描二维码进行绑定。（sn 和 license 等信息是出厂的时候就决定好的，绑定二维码为固定格式，格式为 “[https://xiaowei.tencent.com/device/bind?pid=2100000000&sn=1234567890123456&token=31082E2E16B535A1D8BD73EA877199B6”，其中 token 为 licence 的 md5 值，需要大写。）](https://xiaowei.tencent.com/device/bind?pid=2100000000&sn=1234567890123456&token=31082E2E16B535A1D8BD73EA877199B6”，其中 token 为 licence 的 md5 值，需要大写。）)
 
 ```
 TXDeviceBaseManager.setOnBinderEventListener(new TXDeviceBaseManager.OnBinderEventListener() {
@@ -244,7 +244,7 @@ TXDeviceBaseManager.setOnBinderEventListener(new TXDeviceBaseManager.OnBinderEve
     public void onBinderListChange(int error, ArrayList<TXBinderInfo> arrayList) {
         if (error == 0) {
             // 如果 arrayList 长度为 0，说明没绑定者，或者解绑了，需要提示用户进行绑定
-            TXAIAudioSDK.getInstance().requestTTS("请先使用腾讯云小微 App 扫描二维码进行绑定");
+            TXAIAudioSDK.getInstance().requestTTS("请先使用云平台小微 App 扫描二维码进行绑定");
         }
     }
 });
@@ -252,7 +252,7 @@ TXDeviceBaseManager.setOnBinderEventListener(new TXDeviceBaseManager.OnBinderEve
 
 #### 开启唤醒模块
 
-唤醒模块的介绍参照 [唤醒模块说明](https://cloud.tencent.com/document/product/645/14218);
+唤醒模块的介绍参照 [唤醒模块说明](http://tce.fsphere.cn/document/product/645/14218);
 
 #### 语音请求
 
@@ -364,7 +364,7 @@ onState 中会返回以下几种状态，在不同的状态可以进行不同的
 | 20 | AI_AUDIO_STATE_MSGPROXY_STAT           | 消息代收状态更新的通知                                     |
 | 21 | AI_AUDIO_STATE_MSG_SEND                | 发送消息的状态通知                                         |
 
-对于有屏设备，需要关注 AI_AUDIO_STATE_RESPONSE 带下来的结构化数据，进行 UI 展示，具体参照 [UI 模板实现指引](https://cloud.tencent.com/document/product/645/14224)。
+对于有屏设备，需要关注 AI_AUDIO_STATE_RESPONSE 带下来的结构化数据，进行 UI 展示，具体参照 [UI 模板实现指引](http://tce.fsphere.cn/document/product/645/14224)。
 
 当用户对设备进行唤醒后，应该开始进行语音请求：
 
@@ -406,7 +406,7 @@ TXAIAudioSDK.getInstance().setRecognizeEventListener(new TXAIAudioSDK.RecognizeE
 });
 ```
 
-至此，我们已经完成了一次语音请求，当后台返回需要播放的结果后，将使用 SDK 的播放控制进行播放，具体参照 [播放控制说明](https://cloud.tencent.com/document/product/645/14221
+至此，我们已经完成了一次语音请求，当后台返回需要播放的结果后，将使用 SDK 的播放控制进行播放，具体参照 [播放控制说明](http://tce.fsphere.cn/document/product/645/14221
 );
 
 #### TXAIAudioSDK 的其他接口说明
@@ -431,17 +431,17 @@ TXAIAudioSDK.getInstance().setRecognizeEventListener(new TXAIAudioSDK.RecognizeE
 | setVideoEncDecMode              | 设置硬软编解模式, 这个标记只对 Android4.4 以上系统生效。                                                           |
 | enableRealtimeWordslist         | 开启关闭可见可达                                                                                                |
 | setWordslist                    | 设置可见可达屏幕词表。                                                                                          |
-| activeApp                       | 切换播放控制激活的场景，参照 [播放控制说明](https://cloud.tencent.com/document/product/645/14221)。              |
-| dataReport                      | 上报事件发生记录，参照 [播放控制说明](https://cloud.tencent.com/document/product/645/14221)。                    |
-| fireClockEvent                  | 触发后台闹钟，参照 [Skill 对接](https://cloud.tencent.com/document/product/645/14247)。             |
-| getMorePlayList                 | 加载更多播放列表元素，参照 [UI 模板实现指引](https://cloud.tencent.com/document/product/645/14224)。              |
-| getPlayDetailInfo               | 加载更多播放列表元素，参照 [UI 模板实现指引](https://cloud.tencent.com/document/product/645/14224)。              |
-| setChatParam                    | 设置通话的参数，参照 [音视频通话接入指引](https://cloud.tencent.com/document/product/645/14233)。 |
-| setFavorite                     | 收藏或取消收藏指定音乐，参照 [UI 模板实现指引](https://cloud.tencent.com/document/product/645/14224)。            |
-| setPlayerEventListener          | 设置播放控制播放器事件监听，参照 [UI 模板实现指引](https://cloud.tencent.com/document/product/645/14224)。        |
-| setIPlayerManager               | 设置播放控制的播放器，参照 [播放控制说明](https://cloud.tencent.com/document/product/645/14221)。                |
-| setPlayerCurrentState           | 设置播放控制的播放器状态，参照 [播放控制说明](https://cloud.tencent.com/document/product/645/14221)。            |
-| setPlayByID                     | 设置当前播放的音乐元素，参照 [UI 模板实现指引](https://cloud.tencent.com/document/product/645/14224)。            |
-| getMsgInfo                      | 拉取消息详情接口，参照 [UI 模板实现指引](https://cloud.tencent.com/document/product/645/14224)。                  |
-| setMsgCommand                   | 控制指定的消息，参照 [UI 模板实现指引](https://cloud.tencent.com/document/product/645/14224)。                    |
-| startAudioVideoChat             | 呼叫指定的用户，参照[音视频通话接入指引](https://cloud.tencent.com/document/product/645/14233)。 |
+| activeApp                       | 切换播放控制激活的场景，参照 [播放控制说明](http://tce.fsphere.cn/document/product/645/14221)。              |
+| dataReport                      | 上报事件发生记录，参照 [播放控制说明](http://tce.fsphere.cn/document/product/645/14221)。                    |
+| fireClockEvent                  | 触发后台闹钟，参照 [Skill 对接](http://tce.fsphere.cn/document/product/645/14247)。             |
+| getMorePlayList                 | 加载更多播放列表元素，参照 [UI 模板实现指引](http://tce.fsphere.cn/document/product/645/14224)。              |
+| getPlayDetailInfo               | 加载更多播放列表元素，参照 [UI 模板实现指引](http://tce.fsphere.cn/document/product/645/14224)。              |
+| setChatParam                    | 设置通话的参数，参照 [音视频通话接入指引](http://tce.fsphere.cn/document/product/645/14233)。 |
+| setFavorite                     | 收藏或取消收藏指定音乐，参照 [UI 模板实现指引](http://tce.fsphere.cn/document/product/645/14224)。            |
+| setPlayerEventListener          | 设置播放控制播放器事件监听，参照 [UI 模板实现指引](http://tce.fsphere.cn/document/product/645/14224)。        |
+| setIPlayerManager               | 设置播放控制的播放器，参照 [播放控制说明](http://tce.fsphere.cn/document/product/645/14221)。                |
+| setPlayerCurrentState           | 设置播放控制的播放器状态，参照 [播放控制说明](http://tce.fsphere.cn/document/product/645/14221)。            |
+| setPlayByID                     | 设置当前播放的音乐元素，参照 [UI 模板实现指引](http://tce.fsphere.cn/document/product/645/14224)。            |
+| getMsgInfo                      | 拉取消息详情接口，参照 [UI 模板实现指引](http://tce.fsphere.cn/document/product/645/14224)。                  |
+| setMsgCommand                   | 控制指定的消息，参照 [UI 模板实现指引](http://tce.fsphere.cn/document/product/645/14224)。                    |
+| startAudioVideoChat             | 呼叫指定的用户，参照[音视频通话接入指引](http://tce.fsphere.cn/document/product/645/14233)。 |

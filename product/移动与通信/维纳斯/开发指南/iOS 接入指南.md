@@ -87,7 +87,7 @@ if (request.HTTPBody)
 
 开发商终端需要修改老的接口，替换为 Wns 的收发接口(该接口不支持 http 的 301，302 跳转)
 >注意：
-**此模式下，sdk 会自动将 url 设置为 cmd，wns 会统计每 个cmd 的成功率等信息，对应的，需要在控制台配置 url 域名对应的路由。路由配置请参考：[控制台说明](https://cloud.tencent.com/document/product/276/3005)。**
+**此模式下，sdk 会自动将 url 设置为 cmd，wns 会统计每 个cmd 的成功率等信息，对应的，需要在控制台配置 url 域名对应的路由。路由配置请参考：[控制台说明](http://tce.fsphere.cn/document/product/276/3005)。**
 
 ```
             NSString *cmd = @"user.qzone.qq.com/xunren";  
@@ -142,7 +142,7 @@ NSData *data = [NSData dataWithBytes:"abcdefg" length:7];
         }
 ```
 >注意：
->**cmd 必须是细化到接口，wns 会统计每个 cmd 的成功率等信息，对应的，需要在控制台配置域名 user.qzone.qq.com 对应的路由。路由配置请参考：[控制台说明](https://cloud.tencent.com/document/product/276/3005)。**
+>**cmd 必须是细化到接口，wns 会统计每个 cmd 的成功率等信息，对应的，需要在控制台配置域名 user.qzone.qq.com 对应的路由。路由配置请参考：[控制台说明](http://tce.fsphere.cn/document/product/276/3005)。**
 
 
 ### 用户绑定和接收 push

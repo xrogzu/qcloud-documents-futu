@@ -3,8 +3,8 @@
 
 <span id="前期准备"></span>
 ## 一、前期准备
-1. 登录  [COS 控制台](https://console.cloud.tencent.com/cos4) 并创建存储桶，得到 Bucket（存储桶名称） 和 Region（地域名称）。
-2. 登录 [控制台密钥管理](https://console.cloud.tencent.com/cam/capi) 获取您的项目 SecretId 和 SecretKey。
+1. 登录  [COS 控制台](http://console.tce.fsphere.cn/cos4) 并创建存储桶，得到 Bucket（存储桶名称） 和 Region（地域名称）。
+2. 登录 [控制台密钥管理](http://console.tce.fsphere.cn/cam/capi) 获取您的项目 SecretId 和 SecretKey。
 3. 在 COS 控制台，进入新建的存储桶，单击【基础配置】，配置 CORS 规则，配置示例如下图：
 ![cors](https://mc.qcloudimg.com/static/img/2e7791e9274ce3ebf8b25bbeafcd7b45/image.png)
 
@@ -249,5 +249,5 @@ Form 表单上传支持低版本的浏览器的上传（如 IE8），当前方�
 ![Form 表单上传](https://mc.qcloudimg.com/static/img/b7944177f25a64c3f6c19275b586c32f/image.png)
 ## 相关文档
 若您有更丰富的接口调用需求，请参考以下 JavaScript SDK 文档：
-- [JavaScript SDK](https://cloud.tencent.com/document/product/436/11459)
-- [JavaScript SDK（历史版本 API）](https://cloud.tencent.com/document/product/436/8095)
+- [JavaScript SDK](http://tce.fsphere.cn/document/product/436/11459)
+- [JavaScript SDK（历史版本 API）](http://tce.fsphere.cn/document/product/436/8095)

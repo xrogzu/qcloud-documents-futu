@@ -458,4 +458,4 @@ public void onFinish(int resultCode, boolean nextShowGuide, String faceCode, Str
 | FACEVERIFY_ERROR_OUT_OF_TIME_ACTIVE_DETECT = 72000; | 活体验证超时         |
 | FACEVERIFY_ERROR_ACTIVE_DETECT_NOFACE=80000; | 活体检测时人脸曾移出框外   |
 
-上一步：[SDK 启动](https://cloud.tencent.com/document/product/655/13824)
+上一步：[SDK 启动](http://tce.fsphere.cn/document/product/655/13824)

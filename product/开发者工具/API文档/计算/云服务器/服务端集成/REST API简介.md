@@ -1,5 +1,5 @@
 ## REST API简介 
-REST API是腾讯云暴露给APP后台的HTTP管理接口，其主要目的在于为APP后台提供一个后台管理入口。 
+REST API是云平台暴露给APP后台的HTTP管理接口，其主要目的在于为APP后台提供一个后台管理入口。 
 目前云通信支持的REST API参见REST API接口列表。 
 除了REST API，APP控制台亦可实现简单的数据管理、单发/群发消息；相比之下，REST API接口较为原始，但管理能力却更为强大。
 ## 调用示例 

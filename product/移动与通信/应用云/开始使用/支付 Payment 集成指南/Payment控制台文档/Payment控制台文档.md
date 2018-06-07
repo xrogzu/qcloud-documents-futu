@@ -7,7 +7,7 @@
 
 #### 1. 进入渠道管理页
 
-登录 [控制台](https://console.cloud.tencent.com/tac)，单击【我的米大师】>【渠道管理】，进入渠道管理界面。
+登录 [控制台](http://console.tce.fsphere.cn/tac)，单击【我的米大师】>【渠道管理】，进入渠道管理界面。
 ![](http://tacimg-1253960454.cosgz.myqcloud.com/guides/payment/console_payment_1_.png?raw=true)
 
 #### 2. 填写渠道信息
@@ -26,7 +26,7 @@
 
 ##### 商户号
 
-商户号需要在根据您开通的支付渠道在 [微信商户平台](https://pay.weixin.qq.com/index.php/core/home/login) 或者 [QQ 钱包商户平台](https://qpay.qq.com) 上申请，申请的方式请参见 [这里](https://cloud.tencent.com/document/product/666/14599) 。
+商户号需要在根据您开通的支付渠道在 [微信商户平台](https://pay.weixin.qq.com/index.php/core/home/login) 或者 [QQ 钱包商户平台](https://qpay.qq.com) 上申请，申请的方式请参见 [这里](http://tce.fsphere.cn/document/product/666/14599) 。
 
 ##### 商户号密钥
 
@@ -34,7 +34,7 @@
 
 ##### AppID
 
-在开通支付前，您需要根据开通的渠道在 [微信开放平台](https://open.weixin.qq.com) 或者 [腾讯开放平台](http://open.qq.com/) 上注册，并创建一个应用，创建好应用后请将其 AppId 拷贝过来，同样可以参见 [这里](https://cloud.tencent.com/document/product/666/14599)。
+在开通支付前，您需要根据开通的渠道在 [微信开放平台](https://open.weixin.qq.com) 或者 [腾讯开放平台](http://open.qq.com/) 上注册，并创建一个应用，创建好应用后请将其 AppId 拷贝过来，同样可以参见 [这里](http://tce.fsphere.cn/document/product/666/14599)。
 
 **AppKey**
 

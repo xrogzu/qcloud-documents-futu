@@ -65,7 +65,7 @@ https://vod2.qcloud.com/v2/index.php?Action=UploadPartEx
 |---------|---------|---------|
 | code | Integer | 小于0：失败；0：成功 |
 | message | String | 返回信息说明 |
-| codeDesc | String | 后台记录的错误信息，腾讯云后台定位用 |
+| codeDesc | String | 后台记录的错误信息，云平台后台定位用 |
 | canRetry | Integer | 当code小于0时，说明上传过程遇到错误；此时如果该值为1表示该错误可以通过重试来解决，否则表示该错误无法通过重试解决，必须进行排查 |
 
 ### 错误码说明

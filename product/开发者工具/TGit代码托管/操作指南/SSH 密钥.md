@@ -3,7 +3,7 @@ SSH 密钥允许您在您的电脑和 GitLab 之间建立一个安全连接。
 ### 生成 SSH 公钥
 您可以按照如下命令生成 SSH Keys：
 ```
-ssh-keygen -t rsa -C "您的账号ID@git.cloud.tencent.com"
+ssh-keygen -t rsa -C "您的账号ID@git.tce.fsphere.c"
 ```
 然后按三次回车即可生成 SSH Key，并且会生成两个文件。其中 id_rsa.pub 文件中的内容便是公钥。
 ![](https://mc.qcloudimg.com/static/img/173699ee233a1116418c44a6044989f9/2017-08-28_114043.png)

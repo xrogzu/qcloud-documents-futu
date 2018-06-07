@@ -1,16 +1,16 @@
-自行部署适用于想将腾讯云 Wafer SDK 和 Demo 部署在自己的服务器上以获得更高的灵活性和操纵权限的用户。部署过程需要从零开始搭建线上环境，需要有一定的 Linux、PHP 基础。如果您符合以上需求和条件，可以开始按本文自行部署。
+自行部署适用于想将云平台 Wafer SDK 和 Demo 部署在自己的服务器上以获得更高的灵活性和操纵权限的用户。部署过程需要从零开始搭建线上环境，需要有一定的 Linux、PHP 基础。如果您符合以上需求和条件，可以开始按本文自行部署。
 
 本文基于以下环境：
 
-- [腾讯云 CVM（云服务器）](https://cloud.tencent.com/product/cvm)：CentOS 7.3 64位
+- [云平台 CVM（云服务器）](http://tce.fsphere.cn/product/cvm)：CentOS 7.3 64位
 
   **如果系统不是 CentOS，以下操作只是包管理工具不同，例如 Ubuntu 则是 `apt-get` 等。**
 
-- [腾讯云 CDB（云数据库）](https://cloud.tencent.com/product/cdb)：MySQL 5.7
+- [云平台 CDB（云数据库）](http://tce.fsphere.cn/product/cdb)：MySQL 5.7
 
   **Wafer SDK 的数据库仅支持 5.7 及以上版本的 MySQL。为了生产环境的稳定，采用云数据库而非自行搭建。**
 
-  **云服务器和云数据库必须在同一个腾讯云账号下，否则内网 IP 无法连通。**
+  **云服务器和云数据库必须在同一个云平台账号下，否则内网 IP 无法连通。**
 
 ## 安装 Nginx
 
@@ -72,7 +72,7 @@ service sshd status
 
 ## 配置 Nginx 和 HTTPS
 
-完成以上准备工作，就要开始配置 Nginx 和 HTTPS 了，首先需要申请一个 SSL 证书，可以到腾讯云[申请免费的 SSL 证书](https://console.cloud.tencent.com/ssl?apply=1)，申请成功之后下载证书，并把压缩包中 Nginx 目录下的证书文件通过 SFTP 上传到服务器的 `/data/release/nginx` 目录，如果没有这个目录则新建：
+完成以上准备工作，就要开始配置 Nginx 和 HTTPS 了，首先需要申请一个 SSL 证书，可以到云平台[申请免费的 SSL 证书](http://console.tce.fsphere.cn/ssl?apply=1)，申请成功之后下载证书，并把压缩包中 Nginx 目录下的证书文件通过 SFTP 上传到服务器的 `/data/release/nginx` 目录，如果没有这个目录则新建：
 
 <img width="409" alt="ssl" src="https://mc.qcloudimg.com/static/img/fa4cba0bc508457040ff0ccf5052ba21/WX20171128-121407%402x.png">
 
@@ -156,7 +156,7 @@ $config = [
     // 微信小程序 AppSecret
     'appSecret' => '',
 
-    // 使用腾讯云代理登录
+    // 使用云平台代理登录
     'useQcloudLogin' => true,
 
     /**
@@ -180,7 +180,7 @@ $config = [
          * 广州二区：cn-south-2
          * 成都：cn-southwest
          * 新加坡：sg
-         * @see https://cloud.tencent.com/document/product/436/6224
+         * @see http://tce.fsphere.cn/document/product/436/6224
          */
         'region' => 'cn-sorth',
         // Bucket 名称
@@ -197,10 +197,10 @@ $config = [
     'serverHost' => 'wx.wafersolution.com',
     'tunnelServerUrl' => 'http://tunnel.ws.qcloud.la',
     'tunnelSignatureKey' => '27fb7d1c161b7ca52d73cce0f1d833f9f5b5ec89',
-  	// 腾讯云相关配置可以查看云 API 秘钥控制台：https://console.cloud.tencent.com/capi
+  	// 云平台相关配置可以查看云 API 秘钥控制台：http://console.tce.fsphere.cn/capi
     'qcloudAppId' => 1200000000,// 必须是数字
-    'qcloudSecretId' => '你的腾讯云 SecretId',
-    'qcloudSecretKey' => '你的腾讯云 SecretKey',
+    'qcloudSecretId' => '你的云平台 SecretId',
+    'qcloudSecretKey' => '你的云平台 SecretKey',
     'networkTimeout' => 30000
 ];
 ```
@@ -209,7 +209,7 @@ $config = [
 
 <img width="378" alt="server" src="https://user-images.githubusercontent.com/3380894/29507314-1bc9cc52-8682-11e7-8820-c8bb9bead907.png">
 
-接着对数据库进行初始化，进入[云数据库](https://console.cloud.tencent.com/cdb)控制台，点击要使用的云数据库进去，再点击右上角【登录数据库】按钮。在弹出的页面中输入数据库账号密码进入数据库管理控制台，点击菜单栏的【返回 PMA】，在界面中点击左侧栏中的【新建】，输入数据库名为 `cAuth`，排序规则为 `utf8mb4_unicode_ci`，点击【创建】创建数据库：
+接着对数据库进行初始化，进入[云数据库](http://console.tce.fsphere.cn/cdb)控制台，点击要使用的云数据库进去，再点击右上角【登录数据库】按钮。在弹出的页面中输入数据库账号密码进入数据库管理控制台，点击菜单栏的【返回 PMA】，在界面中点击左侧栏中的【新建】，输入数据库名为 `cAuth`，排序规则为 `utf8mb4_unicode_ci`，点击【创建】创建数据库：
 
 <img width="1192" alt="pma" src="https://user-images.githubusercontent.com/3380894/29507971-27c68e8e-8685-11e7-91f3-bf384fc6b545.png">
 

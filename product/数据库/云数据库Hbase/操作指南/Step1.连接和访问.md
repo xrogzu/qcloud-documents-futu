@@ -1,7 +1,7 @@
 ##  获取连接IP
 
 1)	获取实例ID和IP信息	
-进入腾讯云Hbase管理中心，可以查看实例ID，并获取连接Hbase的一个或多个IP和端口：
+进入云平台Hbase管理中心，可以查看实例ID，并获取连接Hbase的一个或多个IP和端口：
 ![](https://mccdn.qcloud.com/static/img/14a8f475ffafe4c4cefdd84fe1737517/shili.png)
 
 ##  通过SHELL访问
@@ -10,7 +10,7 @@
 <configuration>
 	<property>
         <name>hbase.zookeeper.quorum</name>
-        <value>(腾讯云提供的连接地址和端口，管理控制台可查)</value>
+        <value>(云平台提供的连接地址和端口，管理控制台可查)</value>
 	</property>
 	<property>
         <name> chbase.tencent.enable </name>

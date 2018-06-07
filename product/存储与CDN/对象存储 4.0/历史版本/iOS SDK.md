@@ -1,7 +1,7 @@
 ## 温馨提示
 请注意这是历史版本（V4，基于 JSON API 封装的 SDK），**已经不再推荐使用**。
 
-对于新接入SDK的用户，我们推荐使用最新的V5版本[基于 XML API 封装的 SDK](https://cloud.tencent.com/document/product/436/11280)。如果因为种种原因确实仍然需要需要使用基于 JSON API 封装的 SDK ,那么推荐使用我们基于历史版本重构后的[基于 JSON API 封装的 SDK](https://github.com/tencentyun/qcloud-sdk-ios/tree/master/QCloudNewCOSV4) 。
+对于新接入SDK的用户，我们推荐使用最新的V5版本[基于 XML API 封装的 SDK](http://tce.fsphere.cn/document/product/436/11280)。如果因为种种原因确实仍然需要需要使用基于 JSON API 封装的 SDK ,那么推荐使用我们基于历史版本重构后的[基于 JSON API 封装的 SDK](https://github.com/tencentyun/qcloud-sdk-ios/tree/master/QCloudNewCOSV4) 。
 
 ## 开发准备
 
@@ -91,7 +91,7 @@ COSClient *client= [[COSClient alloc] initWithAppId:appId withRegion:@“sh”];
 
 ## 快速入门
 
-这里演示的上传和下载的基本流程，更多细节可以参考demo；在进行这一步之前必须在腾讯云控制台上申请COS业务的appid；
+这里演示的上传和下载的基本流程，更多细节可以参考demo；在进行这一步之前必须在云平台控制台上申请COS业务的appid；
 
 ### STEP - 1 初始化COSClient
 

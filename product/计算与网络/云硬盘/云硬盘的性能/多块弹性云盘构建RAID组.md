@@ -11,7 +11,7 @@ RAID（独立磁盘冗余阵列，Redundant Array of Independent Disks）可以�
 </tbody>
 </table>
 
-下面介绍如何使用4块腾讯云弹性云盘来构建RAID0阵列。Linux内核提供了md模块在底层管理RAID设备，我们可以使用mdadm工具来调用md模块。
+下面介绍如何使用4块云平台弹性云盘来构建RAID0阵列。Linux内核提供了md模块在底层管理RAID设备，我们可以使用mdadm工具来调用md模块。
 
 ![](//mccdn.qcloud.com/static/img/9f42e96976ee6f3655090a4208f461c5/image.png)
 >注：请及时对将要到期的弹性云盘进行续费操作，以避免由于弹性云盘到期导致被系统强制隔离对RAID阵列产生影响。

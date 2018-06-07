@@ -1,25 +1,25 @@
 使用 MQTT 收发消息，服务端需要对客户端的身份进行权限校验，因此客户端请求中都需要带上签名以便比对身份。
-腾讯云 IoT MQ 服务端会对每个客户端的访问请求进行身份验证，即客户端的每个请求中都需包含签名信息（Signature），以验证用户身份。
+云平台 IoT MQ 服务端会对每个客户端的访问请求进行身份验证，即客户端的每个请求中都需包含签名信息（Signature），以验证用户身份。
 
 ## 1. MQTT SDK 访问服务器
 MQTT 客户端连接 IoT MQ 服务器时，须发送 CONNECT 报文，且在 Connect 报文中需上传 username 和 password。其中 username 是 SecretId，password 是将 Appid、Instanceid 等作为待签名字符串，用 SecretKey 作为秘钥计算得到的签名。
 
 ## 2. 申请安全凭证
-在第一次使用客户端之前，用户需要在【腾讯云控制台】> 【[API 密钥管理](https://console.cloud.tencent.com/cam/capi) 】上申请安全凭证。安全凭证包括 SecretId 和 SecretKey，其中：
+在第一次使用客户端之前，用户需要在【云平台控制台】> 【[API 密钥管理](http://console.tce.fsphere.cn/cam/capi) 】上申请安全凭证。安全凭证包括 SecretId 和 SecretKey，其中：
 
 - **SecretId：**用于标识 API 调用者身份；
 - **SecretKey：**用于加密签名字符串和服务器端验证签名字符串的密钥。
 
 >**注意：**
-> SecretKey 是构建腾讯云 MQTT 请求的重要凭证，使用腾讯云 MQTT 请求 可以操作您名下的消息队列 IoT MQ 资源，为了您的财产和服务安全，请妥善保存并定期更换密钥，当您更换密钥后，请及时删除旧密钥。
+> SecretKey 是构建云平台 MQTT 请求的重要凭证，使用云平台 MQTT 请求 可以操作您名下的消息队列 IoT MQ 资源，为了您的财产和服务安全，请妥善保存并定期更换密钥，当您更换密钥后，请及时删除旧密钥。
 
 
 ### 2.1 申请安全凭证步骤：
 
-1. 登录 [腾讯云控制台](https://console.cloud.tencent.com/)。
+1. 登录 [云平台控制台](http://console.tce.fsphere.cn/)。
 2. 单击【云产品】，选择【管理工具】栏下的【云 API 密钥】，进入云 API 密钥管理页面。
 ![](https://mc.qcloudimg.com/static/img/a771465c47830d54730f8f431d586991/image.png)
-3. 在 [ API 密钥管理](https://console.cloud.tencent.com/capi) 页面，单击【新建密钥】即可以创建一对 SecretId/SecretKey。
+3. 在 [ API 密钥管理](http://console.tce.fsphere.cn/capi) 页面，单击【新建密钥】即可以创建一对 SecretId/SecretKey。
 >**注意：**
 > - 开发商帐号最多可以拥有两对 SecretId / SecretKey。
 > - 被开发商添加为子用户的 QQ 帐号，在不同开发商控制台，可以申请不同的安全凭证。
@@ -28,7 +28,7 @@ MQTT 客户端连接 IoT MQ 服务器时，须发送 CONNECT 报文，且在 Con
 ##  3. 生成签名串
 有了安全凭证 SecretId 和 SecretKey 后，就可以生成签名串了。您可以选择在控制台上用工具生成签名，也可以使用签名算法自主计算签名。
 ### 3.1 使用控制台生成签名
-为了方便用户对比验证自己的签名计算是否正确，IoT MQ 控制台提供了[客户端签名计算工具](https://console.cloud.tencent.com/iotmq/tool)供参考对比。
+为了方便用户对比验证自己的签名计算是否正确，IoT MQ 控制台提供了[客户端签名计算工具](http://console.tce.fsphere.cn/iotmq/tool)供参考对比。
 输入使用账号的 SecretId, SecretKey，选择需要需访问的实例，即可得到客户端连接该实例需使用的用户名和密码。
 ![](https://mc.qcloudimg.com/static/img/244089eb3a17badc54ac1ba11d3bc2ee/image.png)
 

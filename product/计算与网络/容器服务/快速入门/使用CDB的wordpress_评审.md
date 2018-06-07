@@ -1,15 +1,15 @@
 在 [单实例版 WordPress](/doc/product/457/7205) 示例中我们介绍了如何快速创建 WordPress 服务。 单实例版 WordPress 的数据是写到同一个容器运行的 MySQL 数据库中，虽然这样的配置可以快速启动，但它也存在一个问题：如果容器因某种原因停止，数据库和存储类的文件将会丢失。
 
-本文档旨在介绍如何设置 MySQL 数据库，它将在实例/容器重新启动后继续存在。通过使用 [云数据库CDB](https://cloud.tencent.com/product/cdb-overview) 可以实现永久存储。
+本文档旨在介绍如何设置 MySQL 数据库，它将在实例/容器重新启动后继续存在。通过使用 [云数据库CDB](http://tce.fsphere.cn/product/cdb-overview) 可以实现永久存储。
 
 >**注意：**
 > 在创建使用 CDB 的 WordPress 服务之前，您必须拥有:
-1. 一个帐户。有关如何创建帐户，请在 [注册页面](https://cloud.tencent.com/register) 填写相关信息注册帐户。
-2. 一个创建好的集群。有关如何创建集群的详细信息，参见 [新建集群](https://cloud.tencent.com/document/product/457/9091) 。
+1. 一个帐户。有关如何创建帐户，请在 [注册页面](http://tce.fsphere.cn/register) 填写相关信息注册帐户。
+2. 一个创建好的集群。有关如何创建集群的详细信息，参见 [新建集群](http://tce.fsphere.cn/document/product/457/9091) 。
 
 ## 创建 WordPress 服务
 ### 第一步：创建云数据库 CDB
-1) 登录 [私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=1) 。
+1) 登录 [私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=1) 。
 2) 单击私有网络列表页的 ID/名称（如：vpc-xxxxx）。
 ![](https://mc.qcloudimg.com/static/img/33830d9c88d9cb332b1ce148588cdbf5/image.png)
 3) 在私有网络详情页，选择数据库目录下的 **MySQL**，单击右侧【添加】。
@@ -31,7 +31,7 @@
 ![](https://mc.qcloudimg.com/static/img/c285fb82e354ba127cd0cce01804a197/image.png)
 
 ### 第二步：创建使用 CDB 的 WordPress 服务
-1) 登录 [容器服务控制台](https://console.cloud.tencent.com/ccs) 。
+1) 登录 [容器服务控制台](http://console.tce.fsphere.cn/ccs) 。
 2) 单击左侧导航栏中的【服务】，单击服务列表页的【+ 新建】。
 ![](https://mc.qcloudimg.com/static/img/11f7f75d7b051a815da8bfe1e744a8e8/image.png)
 3) 设置服务的基本信息。
@@ -52,7 +52,7 @@ WORDPRESS_DB_HOST = 云数据库 MySQL 的地址
 WORDPRESS_DB_PASSWORD = 初始化时填写的密码
 ![](https://mc.qcloudimg.com/static/img/6508b3858d0bba46510a81279aad2e15/image.png)
 6) 设置端口映射。将容器端口和服务端口都设置为 80 。
->**注意**：服务所在集群的安全组需要放通节点网络及容器网络，同时需要放通30000-32768端口，否则可能会出现容器服务无法使用问题。详情参见[容器服务安全组设置](https://cloud.tencent.com/document/product/457/9084)
+>**注意**：服务所在集群的安全组需要放通节点网络及容器网络，同时需要放通30000-32768端口，否则可能会出现容器服务无法使用问题。详情参见[容器服务安全组设置](http://tce.fsphere.cn/document/product/457/9084)
 
 ![](https://mc.qcloudimg.com/static/img/a86f50da339892896871ab9408514433/image.png)
 
@@ -69,4 +69,4 @@ WORDPRESS_DB_PASSWORD = 初始化时填写的密码
 2) 进入 WordPress 服务器的默认欢迎页。
 ![Alt text](https://mc.qcloudimg.com/static/img/c0132b35996db099c02af7f2cf747137/Image+023.png)
 
-若容器创建失败，可查看[事件常见问题](https://cloud.tencent.com/document/product/457/8187)。
+若容器创建失败，可查看[事件常见问题](http://tce.fsphere.cn/document/product/457/8187)。

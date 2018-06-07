@@ -21,7 +21,7 @@ https://cbs.api.qcloud.com/v2/index.php?
 ```
 
 ### 请求参数
-以下请求参数列表为该接口请求参数，其它公共请求参数参见 [公共请求参数](https://cloud.tencent.com/document/product/240/8320)。
+以下请求参数列表为该接口请求参数，其它公共请求参数参见 [公共请求参数](http://tce.fsphere.cn/document/product/240/8320)。
 
 |参数名称|		描述 |类型	| 必选|
 |------|-------|-------|------|
@@ -53,7 +53,7 @@ https://cbs.api.qcloud.com/v2/index.php?
 
 
 ## 错误码
-以下错误码为该接口的业务逻辑错误码，更多公共错误码详见[云硬盘错误码](https://cloud.tencent.com/document/product/362/4207)
+以下错误码为该接口的业务逻辑错误码，更多公共错误码详见[云硬盘错误码](http://tce.fsphere.cn/document/product/362/4207)
 
 |错误代码	|英文描述	|错误描述|
 |-----|-------|--------|

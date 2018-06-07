@@ -9,9 +9,9 @@
 
 -  SDK 支持 iOS 8.0 及以上版本的系统；
 -  手机必须要有网络（GPRS、3G 或 Wifi 网络等）；
--  从 [COS v4 控制台](https://console.cloud.tencent.com/cos4/secret) 获取 APPID、SecretId、SecretKey。
+-  从 [COS v4 控制台](http://console.tce.fsphere.cn/cos4/secret) 获取 APPID、SecretId、SecretKey。
 
-> 关于文章中出现的 SecretID、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](https://cloud.tencent.com/document/product/436/7751)
+> 关于文章中出现的 SecretID、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](http://tce.fsphere.cn/document/product/436/7751)
 
 ### SDK 配置
 #### SDK 导入
@@ -37,7 +37,7 @@ pod 'QCloudCOSXML'
 
 在 Build Settings 中设置 Other Linker Flags，加入参数 -ObjC。
 ![参数配置](http://ericcheung-1253653367.cosgz.myqcloud.com/WechatIMG24.jpeg)
-腾讯云对象存储 XML iOS 的 SDK 使用的是 HTTP 协议。为了在 iOS 系统上可以运行，您需要开启允许通过 HTTP 传输。
+云平台对象存储 XML iOS 的 SDK 使用的是 HTTP 协议。为了在 iOS 系统上可以运行，您需要开启允许通过 HTTP 传输。
 您可以通过以下两种方式开启允许通过 HTTP 传输：
 -  **手动设置方式：**在工程 info.plist 文件中添加 App Transport Security Settings 类型，然后在 App Transport Security Settings 下添加 Allow Arbitrary Loads 类型 Boolean，值设为YES。
 - **代码设置方式：**您可以在集成 SDK 的 APP 的 info.plist 中需要添加如下代码：
@@ -92,7 +92,7 @@ QCloudCOSXML/QCloudCOSXML.h
 
 #### 初始化示例
 
-下面用到的 APPID， SecretId， SecretKey 等可以从 [COS v4 控制台](https://console.cloud.tencent.com/cos4/secret) 中获取。
+下面用到的 APPID， SecretId， SecretKey 等可以从 [COS v4 控制台](http://console.tce.fsphere.cn/cos4/secret) 中获取。
 
 ```objective-c
 //AppDelegate.m
@@ -115,7 +115,7 @@ QCloudCOSXML/QCloudCOSXML.h
 ## 快速入门
 
 这里演示的上传和下载的基本流程，更多细节可以参考 [XML iOS  SDK Demo](https://github.com/tencentyun/qcloud-sdk-ios-samples)。具体每一个接口如何使用请参照 Demo 中提供的单元测试文件。
->**注意：**在进行这一步之前必须在 [腾讯云控制台](https://console.cloud.tencent.com/cos4/secret) 上申请 COS 业务的 APPID。
+>**注意：**在进行这一步之前必须在 [云平台控制台](http://console.tce.fsphere.cn/cos4/secret) 上申请 COS 业务的 APPID。
 
 ### STEP - 1 初始化
 
@@ -226,7 +226,7 @@ SDK 中的请求需要用到签名，以确认访问的用户的身份，也保�
 
 虽然在本地提供了永久的 SecretId 和 SecretKey 来生成签名的接口，但请注意，将永久的 SecretId 和SecretKey 存储在本地是非常危险的行为，容易造成泄露引起不必要的损失。因此基于安全性的考虑，建议您在服务器端实现签名的过程。        
 
-推荐您在自己的签名服务器内接入腾讯云的 CAM（Cloud Access Manager， 访问管理）来实现整个签名流程。     
+推荐您在自己的签名服务器内接入云平台的 CAM（Cloud Access Manager， 访问管理）来实现整个签名流程。     
 
 ![接入CAM签名部署图](http://ericcheung-1253653367.cosgz.myqcloud.com/Logical%20View.png)        
 签名服务器接入 CAM 系统后，当客户端向签名服务器端请求签名时，签名服务器端会向 CAM 系统请求临时证书，然后返回给客户端。CAM 系统会根据您的永久 SecretId 和 SecretKey 来生成临时的 Secret ID, Secret Key 和临时Token 来生成签名，可以最大限度地提高安全性。

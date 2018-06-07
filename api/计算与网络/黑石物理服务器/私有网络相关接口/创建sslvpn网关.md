@@ -21,7 +21,7 @@ GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=CreateBmSslVpnGw
 
 | 参数名称 | 必选  | 类型 | 描述 |
 |---------|---------|---------|---------|
-| unVpcId | 是 | string | 要创建网关所在的私有网络ID。 例如：vpc-kd7d06of，可通过<a href="https://cloud.tencent.com/document/api/386/6646" title="DescribeBmVpcEx">DescribeBmVpcEx</a>接口查询。|
+| unVpcId | 是 | string | 要创建网关所在的私有网络ID。 例如：vpc-kd7d06of，可通过<a href="http://tce.fsphere.cn/document/api/386/6646" title="DescribeBmVpcEx">DescribeBmVpcEx</a>接口查询。|
 | vpnGwName | 是 | string | 网关名称，英文字母或数字组成 |
 | publicPort | 否 | int | 网关的公网端口 (0-65535)， 默认443。 |
 | clientIPPool | 否 | string | vpn客户端所在的网段CIDR，用户填写时必须要确保此网段与用户客户端机器所在现有网段不冲突, 默认为169.254.0.0/16。|
@@ -59,15 +59,15 @@ GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=CreateBmSslVpnGw
 |---------|---------|---------|
 | code | int | 错误码。0：成功, 其他值：失败|
 | message | string | 错误信息|
-| data | array | 返回操作的任务ID，创建结果可调用<a href="https://cloud.tencent.com/document/api/386/9356" title="查询NAT网关操作状态">查询NAT网关操作状态</a>查询 |
+| data | array | 返回操作的任务ID，创建结果可调用<a href="http://tce.fsphere.cn/document/api/386/9356" title="查询NAT网关操作状态">查询NAT网关操作状态</a>查询 |
 
 ## 错误码
-以下错误码表仅列出了该接口的业务逻辑错误码，更多公共错误码详见<a href="https://cloud.tencent.com/doc/api/245/4924" title="VPC错误码">VPC错误码</a>。
+以下错误码表仅列出了该接口的业务逻辑错误码，更多公共错误码详见<a href="http://tce.fsphere.cn/doc/api/245/4924" title="VPC错误码">VPC错误码</a>。
  
 | 错误代码 | 英文提示 | 错误描述 |
 |---------|---------|---------|
 | 10001 | BmVpc.InvalidParameterValue | 参数设置错误，具体错误信息可查看返回的message信息 |
-| -3047 | InvalidBmVpc.NotFound | 无效的VPC。VPC资源不存在，请再次核实您输入的资源信息是否正确，可通过<a href="https://cloud.tencent.com/document/api/386/6646" title="DescribeBmVpcEx">DescribeBmVpcEx</a>接口查询VPC。 |
+| -3047 | InvalidBmVpc.NotFound | 无效的VPC。VPC资源不存在，请再次核实您输入的资源信息是否正确，可通过<a href="http://tce.fsphere.cn/document/api/386/6646" title="DescribeBmVpcEx">DescribeBmVpcEx</a>接口查询VPC。 |
 | -3261 | BmVpc.SslVpnPerVpcLimit | 私有网络下sslvpn网关数超过最大限制，每VPC只限一个。 |
 
 

@@ -17,7 +17,7 @@
 并在您的 Podfile 文件中添加 应用云 的私有源
 
 ~~~
-source "https://git.cloud.tencent.com/qcloud_u/cocopoads-repo"
+source "https://git.tce.fsphere.cn/qcloud_u/cocopoads-repo"
 source "https://github.com/CocoaPods/Specs"
 ~~~
 
@@ -52,7 +52,7 @@ import TACSocialQQ
 
 ###### 先行配置--引入配置文件
 
-我们使用腾讯云 iOS SDK 统一配置机制。只要您加入 TACSocialQQ 的配置文件，我们会自动化初始化相关的配置和参数。
+我们使用云平台 iOS SDK 统一配置机制。只要您加入 TACSocialQQ 的配置文件，我们会自动化初始化相关的配置和参数。
 
 > 所有的配置文件（plist）文件都以 `tac_services_configurations`开始，以扩展名plist结束。 我们会加载所有符合正则表达式 `tac_services_configurations*.plist` 的文件，并解析合并。解析顺序为ASCII排序，也就是说ASCII排序较后的配置文件的参数将会优先生效。
 

@@ -274,7 +274,7 @@ mLivePusher.stopCameraPreview(true);
 
 | 参数   | 类型           | 说明                                       |
 | ---- | ------------ | ---------------------------------------- |
-| url  | const String | 一个合法的推流地址，支持 rtmp 协议（URL 以 “rtmp://” 打头 ，腾讯云推流 URL 的获取方法见 [DOC]( https://cloud.tencent.com/document/product/454/7915 "腾讯云-推拉流地址Doc") ） |
+| url  | const String | 一个合法的推流地址，支持 rtmp 协议（URL 以 “rtmp://” 打头 ，云平台推流 URL 的获取方法见 [DOC]( http://tce.fsphere.cn/document/product/454/7915 "云平台-推拉流地址Doc") ） |
 
 - **示例代码** : 
 
@@ -843,7 +843,7 @@ mLivePusher.setConfig(mLivePushConfig);    // 重新设置 config
 
 接口详情：void enableNearestIP(boolean enable)
 
-开启就近选路。我们 SDK 不绑定腾讯云，如果要推流到非腾讯云地址或者海外推流，请在推流前设置 TXLivePushConfig 中的 enableNearestIP 设置为 false。但如果您要推流的地址为腾讯云地址，可以不用设置。
+开启就近选路。我们 SDK 不绑定云平台，如果要推流到非云平台地址或者海外推流，请在推流前设置 TXLivePushConfig 中的 enableNearestIP 设置为 false。但如果您要推流的地址为云平台地址，可以不用设置。
 
 - **参数说明**
 
@@ -953,7 +953,7 @@ mLivePusher.setConfig(mLivePushConfig);    // 重新设置 config
 
 接口详情：void setEyeScaleLevel(int level)
 
-设置大眼效果。[商用企业版](https://cloud.tencent.com/document/product/454/7873#Android) 调用该接口才能生效。
+设置大眼效果。[商用企业版](http://tce.fsphere.cn/document/product/454/7873#Android) 调用该接口才能生效。
 
 - **参数说明**
 
@@ -975,7 +975,7 @@ mLivePusher.setConfig(mLivePushConfig);    // 重新设置 config
 
 接口详情：void setFaceSlimLevel(int level)
 
-设置瘦脸效果。[商用企业版](https://cloud.tencent.com/document/product/454/7873#Android) 调用该接口才能生效。
+设置瘦脸效果。[商用企业版](http://tce.fsphere.cn/document/product/454/7873#Android) 调用该接口才能生效。
 
 - **参数说明**
 
@@ -1296,7 +1296,7 @@ mLivePlayer.setPlayListener(new ITXLivePlayListener() {
 
 | 参数   | 类型     | 说明                                       |
 | ---- | ------ | ---------------------------------------- |
-| url  | String | 一个合法的拉流地址，视频播放 URL（URL 以 “rtmp://” 打头 ，腾讯云拉流 URL 的获取方法见 [DOC]( https://cloud.tencent.com/document/product/454/7915 "腾讯云-推拉流地址Doc") ），我们建议使用 FLV 格式 |
+| url  | String | 一个合法的拉流地址，视频播放 URL（URL 以 “rtmp://” 打头 ，云平台拉流 URL 的获取方法见 [DOC]( http://tce.fsphere.cn/document/product/454/7915 "云平台-推拉流地址Doc") ），我们建议使用 FLV 格式 |
 | type | int    | 播放类型，参考 TXLivePlayer 中定义的播放类型枚举值         |
 
 - **示例代码** : 
@@ -1448,7 +1448,7 @@ mLivePlayer.setRenderRotation(TXLiveConstants.RENDER_ROTATION_PORTRAIT);
 
 接口详情：int startRecord(int recordType)
 
-启动截流录制。截流录制是直播播放场景下的一种扩展功能：观众在观看直播时，可以通过点击录制按钮把一段直播的内容录制下来，并通过视频分发平台（比如腾讯云的点播系统）发布出去，这样就可以在微信朋友圈等社交平台上以 UGC 消息的形式进行传播。
+启动截流录制。截流录制是直播播放场景下的一种扩展功能：观众在观看直播时，可以通过点击录制按钮把一段直播的内容录制下来，并通过视频分发平台（比如云平台的点播系统）发布出去，这样就可以在微信朋友圈等社交平台上以 UGC 消息的形式进行传播。
 
 注意：该接口正在Android 4.4，API 18以上接口使用，并且开始播放后才能调用。
 

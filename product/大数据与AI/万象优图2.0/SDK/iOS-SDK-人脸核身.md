@@ -7,7 +7,7 @@
 ### 开发准备
 -  iOS 8.0+ ；
 -  手机必须要有网络（ GPRS 、3G 或 Wifi 网络等）；
--  开发者使用人脸识别功能前，需要先进行 [腾讯云账号注册](https://cloud.tencent.com/register)（详细指引请参考 [注册腾讯云](https://cloud.tencent.com/document/product/378/9603)），并 [创建存储桶](https://cloud.tencent.com/document/product/460/10637)，从而获得 APPID 、SecretId 和 SecretKey 等（获取 APPID 可参考 [域名管理](https://cloud.tencent.com/document/product/460/6937)）；
+-  开发者使用人脸识别功能前，需要先进行 [云平台账号注册](http://tce.fsphere.cn/register)（详细指引请参考 [注册云平台](http://tce.fsphere.cn/document/product/378/9603)），并 [创建存储桶](http://tce.fsphere.cn/document/product/460/10637)，从而获得 APPID 、SecretId 和 SecretKey 等（获取 APPID 可参考 [域名管理](http://tce.fsphere.cn/document/product/460/6937)）；
 ### SDK 配置
 #### SDK 导入
 
@@ -49,7 +49,7 @@
 ```objective-c
 CIClient *client= [[CIClient alloc] initWithAppId:appId]```
 ## 快速入门
-这里演示的对比用户人脸身份照片的基本流程，更多细节可以参考 demo；在进行这一步之前必须在腾讯云控制台上申请万象业务的 APPID；
+这里演示的对比用户人脸身份照片的基本流程，更多细节可以参考 demo；在进行这一步之前必须在云平台控制台上申请万象业务的 APPID；
 
 ### STEP - 1 初始化 CIClient
 #### 示例

@@ -1,11 +1,11 @@
 本文档为万象优图V2版本和V2加强版本的iOS SDK文档，V1版本的iOS SDK文档参见 万象优图[iOS SDK文档-V1](/doc/product/275/Android SDK_V1)。
 注意：各版本的SDK接口不能混用，具体版本说明请参照[版本说明](/doc/product/275/版本说明)。
 ## 1. 开发准备
-腾讯云•万象优图的最新iOS SDK的下载：[iOS SDK](/doc/product/275/SDK下载#2.-ios-sdk)。
+云平台•万象优图的最新iOS SDK的下载：[iOS SDK](/doc/product/275/SDK下载#2.-ios-sdk)。
 ### 1.1 前期准备
 1. iOS 5.0+；
 2. 手机必须要有网络（GPRS、3G或Wifi网络等）；
-3. 在腾讯云图片空间页面上添加图片空间bucket，获取项目ID（APPID）。
+3. 在云平台图片空间页面上添加图片空间bucket，获取项目ID（APPID）。
 ### 1.2 导入SDK
 1. 下载iOS SDK
 iOS SDK下载地址为：[iOS SDK](/doc/product/275/SDK下载#2.-ios-sdk)。

@@ -18,7 +18,7 @@
 并在您的 Podfile 文件中添加 应用云 的私有源
 
 ~~~
-source "https://git.cloud.tencent.com/qcloud_u/cocopoads-repo"
+source "https://git.tce.fsphere.cn/qcloud_u/cocopoads-repo"
 source "https://github.com/CocoaPods/Specs"
 ~~~
 

@@ -2,7 +2,7 @@
 
 ### 1.1 推送原理
 
-如想要接收APNs离线消息通知，需要在腾讯云管理平台提交Push证书，在客户端每次登录时，获取并通过API接口上报Token。详细推送原理可参阅：[Apple Push Notification Service](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW1)。
+如想要接收APNs离线消息通知，需要在云平台管理平台提交Push证书，在客户端每次登录时，获取并通过API接口上报Token。详细推送原理可参阅：[Apple Push Notification Service](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW1)。
 
 APNs推送功能只用于通知用户，如果APP在前台，以 onNewMessage 回调获取新消息为准，didReceiveRemoteNotification 获取到的消息由于不可控，可以忽略。
 
@@ -26,7 +26,7 @@ APNs 证书申请流程可参考文档：[Apple推送证书申请](/doc/product/
 
 ### 1.4 客户端实现APNs推送
 
-客户端要实现接收APNs推送，需要实现4个部分：***向苹果后台请求DeviceToken***、***登录SDK后上传Token到腾讯云***、***APP进入后台时上报切后台事件***、***APP进入前台时上报切前台事件***。
+客户端要实现接收APNs推送，需要实现4个部分：***向苹果后台请求DeviceToken***、***登录SDK后上传Token到云平台***、***APP进入后台时上报切后台事件***、***APP进入前台时上报切前台事件***。
 
 向苹果后台请求DeviceToken请参考如下代码：
 
@@ -46,7 +46,7 @@ APNs 证书申请流程可参考文档：[Apple推送证书申请](/doc/product/
 }
 
 /**
- *  在AppDelegate的回调中会返回DeviceToken，需要在登录后上报给腾讯云后台
+ *  在AppDelegate的回调中会返回DeviceToken，需要在登录后上报给云平台后台
 /**
 -(void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
 {
@@ -55,7 +55,7 @@ APNs 证书申请流程可参考文档：[Apple推送证书申请](/doc/product/
 
 ```
 
-上传Token到腾讯云请参考如下代码，填写参数时***busiId需要和控制台分配的证书ID保持一致***：
+上传Token到云平台请参考如下代码，填写参数时***busiId需要和控制台分配的证书ID保持一致***：
 
 ```
 
@@ -180,7 +180,7 @@ APNs 推送内容部分为消息体中各个Elem内容组合：
 
 ## 3. 多APP支持
 
-对于需要多APP互通的场景，可在多个APP中写同一个sdkappid，可实现消息互通，由于多个APP推送证书不同，所以需要在控制台上提交多个证书，每个证书在IM通讯云上生成一个编号，可参考 [1.4 客户端流程](https://cloud.tencent.com/document/product/269/1577#1.4-.E5.AE.A2.E6.88.B7.E7.AB.AF.E5.AE.9E.E7.8E.B0apns.E6.8E.A8.E9.80.81) 设置证书，并提供当前证书的编号。
+对于需要多APP互通的场景，可在多个APP中写同一个sdkappid，可实现消息互通，由于多个APP推送证书不同，所以需要在控制台上提交多个证书，每个证书在IM通讯云上生成一个编号，可参考 [1.4 客户端流程](http://tce.fsphere.cn/document/product/269/1577#1.4-.E5.AE.A2.E6.88.B7.E7.AB.AF.E5.AE.9E.E7.8E.B0apns.E6.8E.A8.E9.80.81) 设置证书，并提供当前证书的编号。
 
 
 ## 4. 推送声音

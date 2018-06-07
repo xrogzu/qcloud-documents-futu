@@ -1,13 +1,13 @@
 在 [单实例版 WordPress](/doc/product/457/7205) 示例中我们介绍了如何快速创建 WordPress 服务。 单实例版 WordPress 的数据是写到同一个容器运行的 MySQL 数据库中，虽然这样的配置可以快速启动，但它也存在一个问题：如果容器因某种原因停止，数据库和存储类的文件将会丢失。
 
-本文档旨在介绍如何设置 MySQL 数据库，它将在实例/容器重新启动后继续存在。通过使用 [云数据库CDB](https://cloud.tencent.com/product/cdb-overview) 可以实现永久存储。
+本文档旨在介绍如何设置 MySQL 数据库，它将在实例/容器重新启动后继续存在。通过使用 [云数据库CDB](http://tce.fsphere.cn/product/cdb-overview) 可以实现永久存储。
 
 ## 前提条件
 如果之前未创建集群，您需要先创建集群。有关如何创建集群的详细信息，参见 [集群的基本操作](/doc/product/457/9091) 。
 
 ## 操作步骤
 ### 第一步：创建云数据库 CDB
-1. 登录 [私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=1) 。
+1. 登录 [私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=1) 。
 2. 单击私有网络列表页的 ID/名称（如：vpc-xxxxx）。
 ![](https://mc.qcloudimg.com/static/img/33830d9c88d9cb332b1ce148588cdbf5/image.png)
 3. 在私有网络详情页，选择数据库目录下的 **MySQL**，单击右侧【添加】。
@@ -28,7 +28,7 @@
 ![](https://mc.qcloudimg.com/static/img/c285fb82e354ba127cd0cce01804a197/image.png)
 
 ### 第二步：创建 WordPress 服务
-1. 登录 [容器服务控制台](https://console.cloud.tencent.com/ccs) 。
+1. 登录 [容器服务控制台](http://console.tce.fsphere.cn/ccs) 。
 2. 单击左侧导航栏中的 **服务**，单击服务列表页的 【新建】。
 ![](https://mc.qcloudimg.com/static/img/11f7f75d7b051a815da8bfe1e744a8e8/image.png)
 3.  设置服务的基本信息。

@@ -6,7 +6,7 @@
 
 ## 创建 API 服务和 API 规则
 
-1. 登录[腾讯云控制台](https://console.cloud.tencent.com/apigateway)，从云产品中选择【互联网中间件】-【API 网关】。
+1. 登录[云平台控制台](http://console.tce.fsphere.cn/apigateway)，从云产品中选择【互联网中间件】-【API 网关】。
 
 2. 单击【服务】选项卡，并切换地域为【广州】。
 

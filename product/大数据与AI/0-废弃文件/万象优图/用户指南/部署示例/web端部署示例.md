@@ -1,4 +1,4 @@
-本文档介绍web端如何请求服务端，通过js调用腾讯云万象优图REST API进行图片的上传、下载、查询、复制和删除。其中签名需要向开发者服务器请求，开发者服务器鉴权服务部署参考鉴权服务部署示例。
+本文档介绍web端如何请求服务端，通过js调用云平台万象优图REST API进行图片的上传、下载、查询、复制和删除。其中签名需要向开发者服务器请求，开发者服务器鉴权服务部署参考鉴权服务部署示例。
 
 1 web前端部署与代码示例
 将web前端部署在与服务端同域下，web前端代码可以参考以下示例，示例页面参见web示例页面。
@@ -7,13 +7,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<title>腾讯云万象优图 - 示例程序</title>
+<title>云平台万象优图 - 示例程序</title>
 <script type="text/javascript" src="../jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="../jquery.form.min.js"></script>
 </head>
 
 <div>
-	<h2>腾讯云万象优图 - 示例程序</h2>
+	<h2>云平台万象优图 - 示例程序</h2>
     <form id="uploadForm">
     	<input type="file" name="FileContent"></input>
     	<input id="subbtn" type="submit">

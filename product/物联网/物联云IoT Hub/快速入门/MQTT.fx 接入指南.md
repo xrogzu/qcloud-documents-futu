@@ -1,4 +1,4 @@
-MQTT.fx 是目前主流的 MQTT 桌面客户端，它支持 Windows, Mac, Linux，可以快速验证是否可以与 IoT Cloud 进行连接并发布或订阅消息，下面将通过图文并茂的形式演示 MQTT.fx 如何与腾讯云 IoT Cloud 交互。
+MQTT.fx 是目前主流的 MQTT 桌面客户端，它支持 Windows, Mac, Linux，可以快速验证是否可以与 IoT Cloud 进行连接并发布或订阅消息，下面将通过图文并茂的形式演示 MQTT.fx 如何与云平台 IoT Cloud 交互。
 
 ### 连接 IoT Cloud
 1. 打开 [MQTT.fx 下载页面](http://mqttfx.jensd.de/index.php/download)，找到适合的版本下载并安装 MQTT.fx 客户端，本文以 MQTT.fx 1.6.0 for Mac 版本为例。
@@ -66,11 +66,11 @@ MQTT.fx 是目前主流的 MQTT 桌面客户端，它支持 Windows, Mac, Linux�
 </tr>
 <tr>
 	<td>Client Certificate File</td>
-	<td>客户端证书，即设备证书，在非对称加密产品中创建设备时下载，详情请查看 <a href="https://cloud.tencent.com/document/product/634/14442">设备接入准备</a></td>
+	<td>客户端证书，即设备证书，在非对称加密产品中创建设备时下载，详情请查看 <a href="http://tce.fsphere.cn/document/product/634/14442">设备接入准备</a></td>
 </tr>
 <tr>
 	<td>Client Key File</td>
-	<td>客户端密钥文件，即设备密钥，在非对称加密产品中创建设备时下载，详情请查看  <a href="https://cloud.tencent.com/document/product/634/14442">设备接入准备</a></td>
+	<td>客户端密钥文件，即设备密钥，在非对称加密产品中创建设备时下载，详情请查看  <a href="http://tce.fsphere.cn/document/product/634/14442">设备接入准备</a></td>
 </tr>
 <tr>
 	<td>PEM Formatted</td>
@@ -81,9 +81,9 @@ MQTT.fx 是目前主流的 MQTT 桌面客户端，它支持 Windows, Mac, Linux�
 ![](https://main.qcloudimg.com/raw/f3b340fecae5426b1d26d51e729b0aae.png)
 
 ### 发布消息
-选择客户端 Publish Tab，输入主题名称、Qos 等级，点击【Publish】按钮进行发布。发布结果可通过 [云日志](https://cloud.tencent.com/document/product/634/14445) 查询。
+选择客户端 Publish Tab，输入主题名称、Qos 等级，点击【Publish】按钮进行发布。发布结果可通过 [云日志](http://tce.fsphere.cn/document/product/634/14445) 查询。
 ![](https://main.qcloudimg.com/raw/d73633d60416697590ed779a214dedf0.png)
 
 ### 订阅主题
-选择客户端 Subscribe Tab，输入主题名称、Qos 等级，点击【Subscribe】按钮进行主题订阅，订阅结果可通过 [云日志](https://cloud.tencent.com/document/product/634/14445) 查询。
+选择客户端 Subscribe Tab，输入主题名称、Qos 等级，点击【Subscribe】按钮进行主题订阅，订阅结果可通过 [云日志](http://tce.fsphere.cn/document/product/634/14445) 查询。
 ![](https://main.qcloudimg.com/raw/e156e41828a3e34b147cc861dc26bbf3.png)

@@ -152,7 +152,7 @@ pusher.stopPreview()
 启动推流 (在 startPush 之前需要先 检测查摄像头，否则推流可能失败),
 
 - **参数说明**
-  一个合法的推流地址，支持 rtmp 协议（URL 以 “rtmp://” 打头 ，腾讯云推流 URL 的获取方法见 [DOC]( https://cloud.tencent.com/document/product/454/7915)  
+  一个合法的推流地址，支持 rtmp 协议（URL 以 “rtmp://” 打头 ，云平台推流 URL 的获取方法见 [DOC]( http://tce.fsphere.cn/document/product/454/7915)  
 
 | 参数   | 类型     | 说明   |
 | ---- | ------ | ---- |

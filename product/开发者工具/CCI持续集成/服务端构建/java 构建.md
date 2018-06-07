@@ -3,7 +3,7 @@
 1. 进入 CCI 持续集成界面后，单击左侧菜单栏中的【服务端构建】。单击【新建】按钮，新建服务端构建工程。
 ![](https://mc.qcloudimg.com/static/img/a85d6fc850c325f35853ec8f82e53feb/image.png)
 2. 进入新建工程后时，依次填写工程名称（必填）和工程描述（选填）。
-3. 依次选择代码仓库和分支，代码仓库和分支的创建请参考 [Tgit 代码托管文档](https://cloud.tencent.com/document/product/612)。
+3. 依次选择代码仓库和分支，代码仓库和分支的创建请参考 [Tgit 代码托管文档](http://tce.fsphere.cn/document/product/612)。
 4. **编程语言** 中单击【 java 】选项，根据用户需求选择 `ant`  或 `maven` 构建类型，构建环境会根据构建类型自动定位。
     - 当选择 `ant` 时，编译参数 `Targets` 用来指定 ant targets 参数的执行列表，可以指定多个，用空格分隔，没有填写的话，执行编译脚本里 default 指定的默认值。`Build File` 用来指定 build.xml 文件的相对路径，默认值为 build.xml 。
    - 当选择 `maven` 时，编译参数 `Goals and options` 用来指定 Maven 执行的 goals 和选项，比如 "clean install"，“package” 或 "deploy" 。编译参数 `Root POM` 用来指定pom.xml文件的相对路径，默认值为 pom.xml 。

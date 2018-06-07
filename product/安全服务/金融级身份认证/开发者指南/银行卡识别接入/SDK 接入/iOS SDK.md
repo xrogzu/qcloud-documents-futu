@@ -157,4 +157,4 @@ typedef NS_ENUM(NSInteger, WBOCRSDKType) {
 | 200101 | 用户取消操作    | 用户主动退出操作                         |
 | 200102 | 识别超时      | 用户在银行卡识别过程中超过设定的阈值（20S）无法识别，提示超时 |
 
-[上一步：SDK 启动](https://cloud.tencent.com/document/product/655/13858)
+[上一步：SDK 启动](http://tce.fsphere.cn/document/product/655/13858)

@@ -90,7 +90,7 @@ allprojects {
 ```
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    // 导入腾讯云直播SDK jar
+    // 导入云平台直播SDK jar
     compile fileTree(dir: 'src/main/jniLibs', includes: ['*.jar'])
 }
 ```
@@ -104,8 +104,8 @@ dependencies {
 
 | jar文件                           | 说明                      |
 | ---------------------------- | ----------------------- |
-| cos-xml-android-sdk-1.2.jar	|  腾讯云对象存储服务（COS）的文件上传包， 此组件用于短视频上传(TXUGCPublish)功能 |
-| qcloud-core-1.2.jar			|  腾讯云对象存储服务（COS）的文件上传包， 此组件用于短视频上传(TXUGCPublish)功能 |
+| cos-xml-android-sdk-1.2.jar	|  云平台对象存储服务（COS）的文件上传包， 此组件用于短视频上传(TXUGCPublish)功能 |
+| qcloud-core-1.2.jar			|  云平台对象存储服务（COS）的文件上传包， 此组件用于短视频上传(TXUGCPublish)功能 |
 | okhttp-3.2.0				| 一款优秀的开源 http 组件  	|
 | okio-1.6.0				| 一款优秀的开源网络 I/O 组件 	|
 | xstream-1.4.7.jar				| 一款优秀的开源序列化组件		|

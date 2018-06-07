@@ -2,9 +2,9 @@
 智能图像的 Java SDK 下载地址：[Java-SDK-V2.0](https://github.com/tencentyun/image-java-sdk-v2.0)。
 
 ## 使用前准备​		
-  1. 前往注册： [腾讯云账号注册](https://cloud.tencent.com/register) （详细指引见 [注册腾讯云](https://cloud.tencent.com/document/product/378/9603)）；
-  2. 取得存储桶名称 **BucketName**： 请前往 [创建存储桶](https://cloud.tencent.com/document/product/460/10637) ；
-  3. 取得 **APPID**、**SecretId**、**SecretKey**：请前往 [云API密钥](https://console.cloud.tencent.com/cam/capi) ，点击“新建密钥”。
+  1. 前往注册： [云平台账号注册](http://tce.fsphere.cn/register) （详细指引见 [注册云平台](http://tce.fsphere.cn/document/product/378/9603)）；
+  2. 取得存储桶名称 **BucketName**： 请前往 [创建存储桶](http://tce.fsphere.cn/document/product/460/10637) ；
+  3. 取得 **APPID**、**SecretId**、**SecretKey**：请前往 [云API密钥](http://console.tce.fsphere.cn/cam/capi) ，点击“新建密钥”。
 
 ## 快速体验
 1. 修改文件 src/main/java/com/qcloud/image/demo/Demo.java 的 main() 方法，填入上述申请到的 **APPID**、**SecretId**、**SecretKey**、**BucketName**；

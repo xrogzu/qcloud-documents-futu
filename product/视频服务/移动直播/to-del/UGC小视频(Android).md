@@ -9,9 +9,9 @@ UGC小视频录制与发布的整体流程分为如下三步：
 
 * 第一步：使用 TXUGCRecord 接口录制一段小视频，录制结束后会生成一个小视频文件（MP4）回调给客户；
 
-* 第二步：您的 APP 向您的业务服务器申请上传签名。上传签名是 APP 将 MP4 文件上传到腾讯云视频分发平台的 “许可证”，为了确保安全性，这些上传签名都是需要服务器签发并且做到单次有效。
+* 第二步：您的 APP 向您的业务服务器申请上传签名。上传签名是 APP 将 MP4 文件上传到云平台视频分发平台的 “许可证”，为了确保安全性，这些上传签名都是需要服务器签发并且做到单次有效。
 
-* 第三步：使用 TXUGCPublish 接口发布视频，发布成功后 SDK 会将观看地址的 URL 回调给您，腾讯云视频分发平台会确保视频观看的就近调度、秒开播放、动态加速 以及海外接入等需要大成本投入才能实现的能力。
+* 第三步：使用 TXUGCPublish 接口发布视频，发布成功后 SDK 会将观看地址的 URL 回调给您，云平台视频分发平台会确保视频观看的就近调度、秒开播放、动态加速 以及海外接入等需要大成本投入才能实现的能力。
 
 ## 特别注意
 
@@ -114,24 +114,24 @@ void onRecordComplete(TXRecordResult result);
 ```     
 
 ### 4. 文件预览
-使用 [播放SDK](https://cloud.tencent.com/document/product/454/7886) 即可预览刚才生成的 MP4 文件，需要在调用 startPlay 时指定播放类型为 [PLAY_TYPE_LOCAL_VIDEO](https://cloud.tencent.com/document/product/454/7886#step-3.3A-.E5.90.AF.E5.8A.A8.E6.92.AD.E6.94.BE.E5.99.A86) 。
+使用 [播放SDK](http://tce.fsphere.cn/document/product/454/7886) 即可预览刚才生成的 MP4 文件，需要在调用 startPlay 时指定播放类型为 [PLAY_TYPE_LOCAL_VIDEO](http://tce.fsphere.cn/document/product/454/7886#step-3.3A-.E5.90.AF.E5.8A.A8.E6.92.AD.E6.94.BE.E5.99.A86) 。
 
 ### 5. 获取签名
-要把刚才生成的 MP4 发布到腾讯云视频分发 CDN 上，就需要 **SecretID** 和 **Signature**，它的作用类似用户名和密码一样来确保您的云存储服务安全，避免您的流量和存储空间被其它攻击者盗用。
+要把刚才生成的 MP4 发布到云平台视频分发 CDN 上，就需要 **SecretID** 和 **Signature**，它的作用类似用户名和密码一样来确保您的云存储服务安全，避免您的流量和存储空间被其它攻击者盗用。
 
 - **SecretID （密钥ID）**
-你可以在 [云 API 密钥](https://console.cloud.tencent.com/capi) 管理里获取或者创建一个 SecretID，如下图红框标注部分：
+你可以在 [云 API 密钥](http://console.tce.fsphere.cn/capi) 管理里获取或者创建一个 SecretID，如下图红框标注部分：
 ![](http://mc.qcloudimg.com/static/img/23f95aaa97adf3eeae3bf90470fe5122/image.png)
 
 - **Signature（上传签名）**
-上传签名就是基于从腾讯云获取的 SecretID 和 SecretKey ，用一套标准的签名算法，算出的一段一次性有效的字符串。
+上传签名就是基于从云平台获取的 SecretID 和 SecretKey ，用一套标准的签名算法，算出的一段一次性有效的字符串。
 
  为了确保安全，需要您将计算签名的程序放在您的后台服务器上，而不是把计算函数写在 APP 里，因为破解 APP 并获取签名用的 SecretKey 是比较容易的事情，而要攻破您的服务器则并非是一般能力的攻击者能做得到的。
 
- 签名计算方法参考：[如何生成签名？](https://cloud.tencent.com/document/product/266/7835) 生成发布签名时，<font color='red'>FileName、FileSha 以及 uid 字段都可以留空不填写。</font>
+ 签名计算方法参考：[如何生成签名？](http://tce.fsphere.cn/document/product/266/7835) 生成发布签名时，<font color='red'>FileName、FileSha 以及 uid 字段都可以留空不填写。</font>
 
 ### 6. 文件发布
-TXUGCPublish（位于 TXUGCPublish.java）负责将 MP4 文件发布到腾讯云视频分发平台上，以确保视频观看的就近调度、秒开播放、动态加速 以及海外接入等需求。
+TXUGCPublish（位于 TXUGCPublish.java）负责将 MP4 文件发布到云平台视频分发平台上，以确保视频观看的就近调度、秒开播放、动态加速 以及海外接入等需求。
 
 ```java
 mVideoPublish.setListener(this);      //设置发布回调
@@ -152,7 +152,7 @@ mVideoPublish.publishVideo(param);
 void onPublishProgress(long uploadBytes, long totalBytes);
 ```
 
-- onPublishComplete 用于反馈发布结果，TXPublishResult 的字段 errCode 和 descMsg 分别表示错误码和错误描述信息，videoURL表示短视频的点播地址，coverURL表示视频封面的云存储地址，videoId表示视频文件云存储Id，您可以通过这个Id调用点播 [服务端API接口](https://cloud.tencent.com/document/product/266/1965)。
+- onPublishComplete 用于反馈发布结果，TXPublishResult 的字段 errCode 和 descMsg 分别表示错误码和错误描述信息，videoURL表示短视频的点播地址，coverURL表示视频封面的云存储地址，videoId表示视频文件云存储Id，您可以通过这个Id调用点播 [服务端API接口](http://tce.fsphere.cn/document/product/266/1965)。
 ```java 
 void onPublishComplete(TXPublishResult result);
 ```

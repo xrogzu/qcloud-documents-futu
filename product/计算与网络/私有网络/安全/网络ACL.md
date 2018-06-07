@@ -1,5 +1,5 @@
 ﻿## 基本概念
-网络访问控制列表（Access Control List，ACL）是一个子网级别无状态的可选安全层，用于控制进出子网的数据流，可以精确到协议和端口粒度。如下图所示，其规则与[安全组](https://cloud.tencent.com/doc/product/213/500)相似。但由于网络 ACL 无状态的特性，即使设置入站规则允许某些访问，如果没有设置相应的出站规则会导致无法响应访问。
+网络访问控制列表（Access Control List，ACL）是一个子网级别无状态的可选安全层，用于控制进出子网的数据流，可以精确到协议和端口粒度。如下图所示，其规则与[安全组](http://tce.fsphere.cn/doc/product/213/500)相似。但由于网络 ACL 无状态的特性，即使设置入站规则允许某些访问，如果没有设置相应的出站规则会导致无法响应访问。
 ![](https://mccdn.qcloud.com/static/img/04de33187d40d6891f7e5c8da120fdc7/image.png)
 
 ## 使用场景
@@ -61,21 +61,21 @@ ACL 规则是网络 ACL 的组成部分。当您在网络 ACL 中添加或删除
 ## 操作指南
 
 ### 创建网络 ACL
-1) 登录[云平台控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入[私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)，左侧选择【安全】-【网络 ACL】选项卡。
+1) 登录[云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入[私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)，左侧选择【安全】-【网络 ACL】选项卡。
 2) 点击【新建】按钮，在新建网络 ACL 弹出框中输入名称、选择所属的私有网络，点击确定完成。
 
 ###  查看网络 ACL 列表
-1)	登录[云平台控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入[私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)，左侧选择【安全】-【网络 ACL】选项卡。
+1)	登录[云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入[私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)，左侧选择【安全】-【网络 ACL】选项卡。
 2)	在顶部选择地域及私有网络，即可查看属于此私有网络的网络 ACL 列表。
 
 ### 增加网络 ACL 规则
-1) 登录[云平台控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入[私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)，左侧选择【安全】-【网络 ACL】选项卡。
+1) 登录[云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入[私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)，左侧选择【安全】-【网络 ACL】选项卡。
 2) 在列表中点击要修改的网络 ACL 的 ID，进入网络 ACL 详情页。
 3) 点击【入站规则】或【出站规则】选项卡，在规则列表旁点击【编辑】按钮，在编辑状态下点击【新增一行】按钮。
 4) 新增的规则会默认加入规则列表的 ***首行***，选择协议类型并输入端口、源 IP/目的 IP和策略，点击【保存】按钮。新增的规则即会显示在 ACL 规则列表中。
 
 ### 删除网络 ACL 规则
-1) 登录[云平台控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入[私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)，左侧选择【安全】-【网络 ACL】选项卡。
+1) 登录[云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入[私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)，左侧选择【安全】-【网络 ACL】选项卡。
 2) 在列表中点击要修改的网络 ACL 的 ID，进入网络 ACL 详情页。
 3) 点击【入站规则】或【出站规则】选项卡，在规则列表旁点击【编辑】按钮，在编辑状态下点击 ACL 规则后方的【删除】按钮。
 4) 此时本条 ACL 规则置灰。若本次删除属于误操作，则可通过点击【恢复删除】按钮将其恢复。
@@ -83,31 +83,31 @@ ACL 规则是网络 ACL 的组成部分。当您在网络 ACL 中添加或删除
 >注：ACL规则的删除必须保存后才会生效。
 
 ### 子网关联网络 ACL
-1) 登录[云平台控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入[私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)，左侧选择【安全】-【网络ACL】选项卡。
+1) 登录[云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入[私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)，左侧选择【安全】-【网络ACL】选项卡。
 2) 点击需要关联的网络 ACL 的 ID，进入网络 ACL 详情页。
 3) 点击【基本信息】选项卡，在关联子网部分点击【新增关联】按钮。
 4) 在关联子网弹出框中，选择需要关联的本私有网络下的子网，点击【确定】按钮，即可成功关联网络 ACL 与子网。
 
 ### 子网解关联网络 ACL
-1) 登录[云平台控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入[私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)，左侧选择【安全】-【网络 ACL】选项卡。
+1) 登录[云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入[私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)，左侧选择【安全】-【网络 ACL】选项卡。
 2) 点击需要解关联的网络 ACL 的 ID，进入网络 ACL 详情页。
 3) 点击【基本信息】选项卡，在关联子网列表中需要解关联的子网项后点击【解绑】按钮；或勾选所有需要解绑的子网，点击【批量解绑】按钮，即可解绑该子网与网络 ACL。
 
 ###  删除网络 ACL
-1) 登录[云平台控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入[私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)，左侧选择【安全】-【网络ACL】选项卡。
+1) 登录[云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入[私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)，左侧选择【安全】-【网络ACL】选项卡。
 2) 点击需要删除的网络 ACL 的【删除】按钮，在确认删除弹出框中点击【确定】，即可删除本网络 ACL 及本网络 ACL 的所有规则。
 3)	若【删除】按钮置灰，则表示本网络 ACL 正与子网相关联，您需要先解除这些关联后才能进行删除操作。
  
 ## API 概览
-您可以使用 API 操作来设置和管理网络 ACL 相关接口，有关 VPC API的更多功能可以查看 [VPC 所有 API 概览](https://cloud.tencent.com/doc/api/245/909)。
+您可以使用 API 操作来设置和管理网络 ACL 相关接口，有关 VPC API的更多功能可以查看 [VPC 所有 API 概览](http://tce.fsphere.cn/doc/api/245/909)。
 
 | 接口功能 | Action ID | 功能描述 |
 |---------|---------|---------|
-| 创建VPC网络ACL | [CreateNetworkAcl](http://cloud.tencent.com/doc/api/245/%E5%88%9B%E5%BB%BAVPC%E7%BD%91%E7%BB%9CACL) | 创建安全防火墙。 |
-| 删除网络ACL | [DeleteNetworkAcl](http://cloud.tencent.com/doc/api/245/%E5%88%A0%E9%99%A4%E7%BD%91%E7%BB%9CACL) | 删除指定安全防火墙。 |
-| 修改网络ACL名称 | [ModifyNetworkAcl](http://cloud.tencent.com/doc/api/245/%E4%BF%AE%E6%94%B9%E7%BD%91%E7%BB%9CACL%E5%90%8D%E7%A7%B0) | 修改安全防火墙名称。 |
-| 查询网络ACL列表 | [DescribeNetworkAcl](http://cloud.tencent.com/doc/api/245/%E6%9F%A5%E8%AF%A2%E7%BD%91%E7%BB%9CACL%E5%88%97%E8%A1%A8) | 查询vpc安全防火墙列表。 |
-| 设置网络ACL规则 | [ModifyNetworkAclEntry](http://cloud.tencent.com/doc/api/245/%E8%AE%BE%E7%BD%AE%E7%BD%91%E7%BB%9CACL%E8%A7%84%E5%88%99) | 设置安全防火墙网络规则。 |
-| 网络ACL绑定子网 | [CreateSubnetAclRule](http://cloud.tencent.com/doc/api/245/%E7%BD%91%E7%BB%9CACL%E7%BB%91%E5%AE%9A%E5%AD%90%E7%BD%91) | 安全防火墙绑定子网。 |
-| 网络ACL解绑子网 | [DeteleSubnetAclRule](http://cloud.tencent.com/doc/api/245/%E7%BD%91%E7%BB%9CACL%E8%A7%A3%E7%BB%91%E5%AD%90%E7%BD%91) | 安全防火墙和子网解绑。 |
+| 创建VPC网络ACL | [CreateNetworkAcl](http://tce.fsphere.cn/doc/api/245/%E5%88%9B%E5%BB%BAVPC%E7%BD%91%E7%BB%9CACL) | 创建安全防火墙。 |
+| 删除网络ACL | [DeleteNetworkAcl](http://tce.fsphere.cn/doc/api/245/%E5%88%A0%E9%99%A4%E7%BD%91%E7%BB%9CACL) | 删除指定安全防火墙。 |
+| 修改网络ACL名称 | [ModifyNetworkAcl](http://tce.fsphere.cn/doc/api/245/%E4%BF%AE%E6%94%B9%E7%BD%91%E7%BB%9CACL%E5%90%8D%E7%A7%B0) | 修改安全防火墙名称。 |
+| 查询网络ACL列表 | [DescribeNetworkAcl](http://tce.fsphere.cn/doc/api/245/%E6%9F%A5%E8%AF%A2%E7%BD%91%E7%BB%9CACL%E5%88%97%E8%A1%A8) | 查询vpc安全防火墙列表。 |
+| 设置网络ACL规则 | [ModifyNetworkAclEntry](http://tce.fsphere.cn/doc/api/245/%E8%AE%BE%E7%BD%AE%E7%BD%91%E7%BB%9CACL%E8%A7%84%E5%88%99) | 设置安全防火墙网络规则。 |
+| 网络ACL绑定子网 | [CreateSubnetAclRule](http://tce.fsphere.cn/doc/api/245/%E7%BD%91%E7%BB%9CACL%E7%BB%91%E5%AE%9A%E5%AD%90%E7%BD%91) | 安全防火墙绑定子网。 |
+| 网络ACL解绑子网 | [DeteleSubnetAclRule](http://tce.fsphere.cn/doc/api/245/%E7%BD%91%E7%BB%9CACL%E8%A7%A3%E7%BB%91%E5%AD%90%E7%BD%91) | 安全防火墙和子网解绑。 |
 

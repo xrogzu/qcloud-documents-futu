@@ -2,7 +2,7 @@
 该指引是从[小微硬件开放平台](https://xiaowei.qcloud.com/hardware.html)申请到pid后到设备能正常进行语音识别请求的接入指引。
 
 #### 方案简介
-为了提供更好的智能化设备体验，我们打造了集成腾讯云小微AI能力的语音方案。该方案的能力大致分为以下几个部分：
+为了提供更好的智能化设备体验，我们打造了集成云平台小微AI能力的语音方案。该方案的能力大致分为以下几个部分：
 *   **唤醒模块**
 *   **静音检测**
 *   **语音识别**
@@ -35,15 +35,15 @@
 *   参考文档和demo实现功能并进行测试。
 *   提供体验设备，完成产品体验。
 
-## 接入腾讯云小微硬件开放平台
+## 接入云平台小微硬件开放平台
 
 ### 简介概述
 
-腾讯云小微硬件开放平台是一个能将语音交互能力输出给第三方硬件厂商的平台，无论是音箱、电视、玩具、OTT盒子、投影仪还是汽车，只需要一个SDK即可完成接入，为设备赋予人工智能语音能力。
+云平台小微硬件开放平台是一个能将语音交互能力输出给第三方硬件厂商的平台，无论是音箱、电视、玩具、OTT盒子、投影仪还是汽车，只需要一个SDK即可完成接入，为设备赋予人工智能语音能力。
 
 硬件开放平台接入目前支持Android和linux两大平台接入。
 
-腾讯云小微硬件开放平台将语音唤醒、语音识别、语义分析、信令收发以及众多的内置资源及服务，如音乐、天气、导航等核心能力提供给智能音箱、智能电视、智能玩具、OTT盒子等传统硬件领域的合作伙伴，实现用户与设备、设备与服务之间的语音联动能力。
+云平台小微硬件开放平台将语音唤醒、语音识别、语义分析、信令收发以及众多的内置资源及服务，如音乐、天气、导航等核心能力提供给智能音箱、智能电视、智能玩具、OTT盒子等传统硬件领域的合作伙伴，实现用户与设备、设备与服务之间的语音联动能力。
 
 我们致力于帮助传统硬件快速转型为具有语音控制能力的智能硬件，帮助合作伙伴降低云端、APP端等研发成本，提升用户粘性并通过开放腾讯的丰富资源以及服务来给予硬件更多想象空间。
 
@@ -62,13 +62,13 @@
 
 1：用户可通过语音唤醒音箱（或其他硬件设备，此处以音箱为例），并说出具体的指令；
 
-在这里指令的内容指的是腾讯云小微skill的能力（具体skill的能力和配置可见skill部分wiki，在这里不多作赘述），包含内置skill和第三方skill两大块，提供丰富的资源和服务能力，下图是重点能力的概览。
+在这里指令的内容指的是云平台小微skill的能力（具体skill的能力和配置可见skill部分wiki，在这里不多作赘述），包含内置skill和第三方skill两大块，提供丰富的资源和服务能力，下图是重点能力的概览。
 
-[![腾讯云小微skill能力](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/腾讯云小微skill能力.png)](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/腾讯云小微skill能力.png)
+[![云平台小微skill能力](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/云平台小微skill能力.png)](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/云平台小微skill能力.png)
 
 2：音箱将语音内容传送到云端；
 
-基于腾讯云为设备提供快速、安全、稳定的云端环境，让硬件设备开发者更加聚焦在硬件设计与功能创新本身。
+基于云平台为设备提供快速、安全、稳定的云端环境，让硬件设备开发者更加聚焦在硬件设计与功能创新本身。
 
 3：云端对用户的语音进行识别与分析；
 
@@ -80,7 +80,7 @@
 
 ### 硬件开放平台申请接入流程
 
-开发者申请接入腾讯云小微硬件开放平台需要在[官网](https://xiaowei.qcloud.com/hardware.html)递交申请资料，进入腾讯云小微官网--硬件开放开放--点击【申请内测】：
+开发者申请接入云平台小微硬件开放平台需要在[官网](https://xiaowei.qcloud.com/hardware.html)递交申请资料，进入云平台小微官网--硬件开放开放--点击【申请内测】：
 
 [![image](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/申请内测.jpg)](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/申请内测.jpg)
 
@@ -94,7 +94,7 @@
 
 [![image](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/资料填写.jpg)](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/资料填写.jpg)
 
-以上信息确认填写无误之后，选择提交，会获得您的申请接入单号，腾讯云小微团队会尽快通过邮件反馈审核结果给开发者注册的邮箱地址，开发者也可以在申请页面查看审核进度及反馈。
+以上信息确认填写无误之后，选择提交，会获得您的申请接入单号，云平台小微团队会尽快通过邮件反馈审核结果给开发者注册的邮箱地址，开发者也可以在申请页面查看审核进度及反馈。
 
 [![image](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/申请记录.png)](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/申请记录.png)
 
@@ -146,7 +146,7 @@
 
 ### 为设备配置skill
 
-每一个接入腾讯云小微的硬件都有使用我们强大资源和服务的权限，此处需要使用同一个账号在我们腾讯云小微skill平台进行创建，创建完成之后就会显示在这里，开发者可以自行选择该硬件需要使用的skill。
+每一个接入云平台小微的硬件都有使用我们强大资源和服务的权限，此处需要使用同一个账号在我们云平台小微skill平台进行创建，创建完成之后就会显示在这里，开发者可以自行选择该硬件需要使用的skill。
 
 [![image](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-skill.png)](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-skill.png)
 
@@ -160,7 +160,7 @@ OTA能力配置中分为【正式环境】和【测试环境】两个部分，�
 
 ### 样机审核
 
-当产品所有功能均开发完毕后需要将样机寄送至腾讯云小微团队进行测试审核，只有审核通过之后产品才可以正式认证上线。
+当产品所有功能均开发完毕后需要将样机寄送至云平台小微团队进行测试审核，只有审核通过之后产品才可以正式认证上线。
 
 ## 实现指引
 下面说明中的部分名词 可以参考[基本名词解释](https://xiaowei.qcloud.com/wiki/#NoviceGuide_glossary)。
@@ -231,7 +231,7 @@ TXAIAudioSDK.getInstance().init(this);
 
 #### 监听绑定者列表变化
 
-SDK运行后，需要使用腾讯云小微App对其进行绑定，才可以正常使用所有内置Skill，所以在登录后，应该对绑定者进行判断，如果没有绑定者，应该显示绑定二维码提示用户进行绑定。（参照LoginActivity进行二维码显示）
+SDK运行后，需要使用云平台小微App对其进行绑定，才可以正常使用所有内置Skill，所以在登录后，应该对绑定者进行判断，如果没有绑定者，应该显示绑定二维码提示用户进行绑定。（参照LoginActivity进行二维码显示）
 
 ```
 TXDeviceBaseManager.setOnBinderEventListener(new TXDeviceBaseManager.OnBinderEventListener() {

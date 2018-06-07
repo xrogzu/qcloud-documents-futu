@@ -1,4 +1,4 @@
-欢迎使用腾讯云游戏多媒体引擎 SDK 。为方便 Unreal Engine 开发者调试和接入腾讯云游戏多媒体引擎产品 API，这里向您介绍适用于 Unreal Engine 开发的接入技术文档。
+欢迎使用云平台游戏多媒体引擎 SDK 。为方便 Unreal Engine 开发者调试和接入云平台游戏多媒体引擎产品 API，这里向您介绍适用于 Unreal Engine 开发的接入技术文档。
 
 ## SDK初始化
 
@@ -83,14 +83,14 @@ void AUEDemoLevelScriptActor::OnEvent(ITMG_MAIN_EVENT_TYPE eventType, const char
 
 ## 实时语音接入
 ### 初始化工作
-获取相关信息，由腾讯云控制台申请，详情见 [游戏多媒体引擎接入指引](/document/product/607/10782)。
+获取相关信息，由云平台控制台申请，详情见 [游戏多媒体引擎接入指引](/document/product/607/10782)。
 在 EnterRoom 函数调用之前要先获取 ITMGContext ，ITMGContext 以单例的形式提供，所有调用都从 ITMGContext 开始，由 ITMGDelegate 回调回传给应用，必须首先设置。
 #### 示例代码
 ```
  ITMGContextGetInstance()->TMGDelegate(this);
 ```
 
-调用 SetAppInfo 函数及 SetAppVersion 函数进行相关信息的设置此函数需要来自腾讯云控制台的 SdkAppId 号码及 accountType 号码作为参数，再加上 Id，这个 Id 是唯一标识一个用户，规则由 App 开发者自行制定，App 内不重复即可。
+调用 SetAppInfo 函数及 SetAppVersion 函数进行相关信息的设置此函数需要来自云平台控制台的 SdkAppId 号码及 accountType 号码作为参数，再加上 Id，这个 Id 是唯一标识一个用户，规则由 App 开发者自行制定，App 内不重复即可。
 #### 函数原型
 ```
 ITMGContext virtual void SetAppInfo(const char* sdkAppId,const char* accountType, const char* openId)
@@ -98,8 +98,8 @@ ITMGContext virtual void SetAppInfo(const char* sdkAppId,const char* accountType
 
 |参数     | 类型         |描述|
 | ------------- |-------------|-------------
-| sdkAppId    	|char  	|来自腾讯云控制台的 SdkAppId 号码					|
-| accountType    	|char  	|来自腾讯云控制台的 accountType 号码				|
+| sdkAppId    	|char  	|来自云平台控制台的 SdkAppId 号码					|
+| accountType    	|char  	|来自云平台控制台的 accountType 号码				|
 | openID    		|char  	|OpenID 为 Int32 类型，必须大于 10000，用于标识用户 	|
 #### 示例代码
 ```
@@ -208,11 +208,11 @@ QAVSDK_API int QAVSDK_CALL QAVSDK_AuthBuffer_GenAuthBuffer(unsigned int appId, u
 
 |参数     | 类型         |描述|
 | ------------- |-------------|-------------
-| appId    		|int   		|来自腾讯云控制台的 SdkAppId 号码		|
+| appId    		|int   		|来自云平台控制台的 SdkAppId 号码		|
 | authId    		|int  		|要加入的房间名							|
 | account  		|char    		|用户标识								|
-| accountType    	|int   		|来自腾讯云控制台的 accountType 号码	|
-| key    			|char	    	|来自腾讯云控制台的密钥					|
+| accountType    	|int   		|来自云平台控制台的 accountType 号码	|
+| key    			|char	    	|来自云平台控制台的密钥					|
 | expTime    		|int   		|加入房间的超时时间						|
 | privilegeMap   	|int    		|权限									|
 | retAuthBuff   	|char    		|返回的 authbuff							|
@@ -1068,9 +1068,9 @@ QAVSDK_API int QAVSDK_CALL QAVSDK_SIG_GenSig(unsigned int appId,const char* uin,
 
 |参数     | 类型         |描述|
 | ------------- |-------------|-------------
-| appId  		|int   		|来自腾讯云控制台的 SdkAppId 号码				|
+| appId  		|int   		|来自云平台控制台的 SdkAppId 号码				|
 | uin    		|char		|唯一标识一个用户，规则由 App 开发者自行制定		|
-| privateKey	|char 		|来自腾讯云控制台的鉴权							|
+| privateKey	|char 		|来自云平台控制台的鉴权							|
 | retSigBuff 	|char   		|返回的 sig										|
 | buffLenght	|int   		|返回的 sig 长度									|
 

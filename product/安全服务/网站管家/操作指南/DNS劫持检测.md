@@ -3,7 +3,7 @@ DNS 劫持检测功能可用于检测域名是否被劫持，并且能实时监�
 
 ## 配置示例
 ### 保护网站主页不被篡改
-1. 登录 [网站管家控制台](https://console.cloud.tencent.com/guanjia
+1. 登录 [网站管家控制台](http://console.tce.fsphere.cn/guanjia
 )，单击【网站安全检测】>【DNS劫持检测】进入 DNS 劫持检测基础设置页面。
 ![DNS](https://mc.qcloudimg.com/static/img/bfdea24d12433439b3de57cb88b44728/dns_01.png)
 2. 单击【添加域名】，弹出域名信息填写窗口。 
@@ -13,4 +13,4 @@ DNS 劫持检测功能可用于检测域名是否被劫持，并且能实时监�
 3. DNS 劫持检测配置成功，基础配置页面显示域名相关记录。
 ![DNS](https://mc.qcloudimg.com/static/img/2f808769ab3909dc929eda47a1044115/dns_03.png)
 
-<a href="https://cloud.tencent.com/document/product/627/11709">下一步：CC 防护设置</a>
+<a href="http://tce.fsphere.cn/document/product/627/11709">下一步：CC 防护设置</a>

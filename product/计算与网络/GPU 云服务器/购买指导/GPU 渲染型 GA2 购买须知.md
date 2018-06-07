@@ -1,15 +1,15 @@
 ## GPU 渲染型 GA2  购买须知
 购买之前需注意：
-1. 在购买腾讯云 GPU 云服务器前，请确保已经 [了解腾讯云 GPU 云服务器](/doc/product/560/8015l)，且已 [了解配置与价格](/doc/product/560/8025)，并根据实际需求购买，一旦购买成功，不能退款。
+1. 在购买云平台 GPU 云服务器前，请确保已经 [了解云平台 GPU 云服务器](/doc/product/560/8015l)，且已 [了解配置与价格](/doc/product/560/8025)，并根据实际需求购买，一旦购买成功，不能退款。
 2. 暂时提供   **北京二区** 的 GPU 渲染型 GA2 实例购买。后续将会支持更多地域，敬请期待。
 
 ##  GPU 渲染型 GA2 实例购买步骤
 
 用户依据以下操作可以快速购买一台  GPU 渲染型 GA2 实例
->GPU 渲染型 GA2 现处于内测阶段，如需申请，请点击[这里](https://cloud.tencent.com/act/apply/ga2)
+>GPU 渲染型 GA2 现处于内测阶段，如需申请，请点击[这里](http://tce.fsphere.cn/act/apply/ga2)
 
 ### 1. 登录购买页面
-[点击进入购买页面>>](https://buy.cloud.tencent.com/cvm?regionId=8&zoneId=800002&generation=v2&deviceType=ga&tabIndex=1)
+[点击进入购买页面>>](https://buy.tce.fsphere.cn/cvm?regionId=8&zoneId=800002&generation=v2&deviceType=ga&tabIndex=1)
 
 ### 2. 选择地域与机型
 在这个步骤需要选择：
@@ -22,14 +22,14 @@
 ### 3. 选择镜像
 GPU 渲染型 GA2 支持四种镜像类型：公共镜像、自定义镜像、共享镜像、服务市场。 [了解镜像 >>](/doc/product/213/4940)
 
-GA2 搭载 AMD S7150 GPU， 主机内需要安装对应的驱动程序才能正常使用GPU。该驱动程序由 AMD 官方提供给腾讯云，并针对虚拟化环境进行了特殊的优化。用户在使用云主机的时候，有两种方法可以安装。
+GA2 搭载 AMD S7150 GPU， 主机内需要安装对应的驱动程序才能正常使用GPU。该驱动程序由 AMD 官方提供给云平台，并针对虚拟化环境进行了特殊的优化。用户在使用云主机的时候，有两种方法可以安装。
 
 - 选择服务市场镜像 **AMD GPU Windows 基础环境V1.0**。
 设置完成后单击【下一步：选择存储于网络】。
 ![](https://mc.qcloudimg.com/static/img/9c653b7a37c8dcb8f0a95d7e548f8739/image.png)
 - 您也可以根据您的偏好选择镜像，使用公有镜像创建实例，目前仅支持Windows 2008 R2 企业版 SP1 64位。
 ![](https://mc.qcloudimg.com/static/img/5c8133796dda48a522c5fa76a5adcd57/image.png)
-注意：选择公有镜像创建实例，需要安装 GPU 驱动程序，请从 http://mirrors.tencentyun.com/install/windows/s7150_guest_driver.7z 下载驱动。（腾讯云内网链接，需要在服务器内访问）然后执行Setup.exe 进行安装即可。安装完成后，到设备管理器内查看，如下显示表明安装成功
+注意：选择公有镜像创建实例，需要安装 GPU 驱动程序，请从 http://mirrors.tencentyun.com/install/windows/s7150_guest_driver.7z 下载驱动。（云平台内网链接，需要在服务器内访问）然后执行Setup.exe 进行安装即可。安装完成后，到设备管理器内查看，如下显示表明安装成功
 ![](https://mc.qcloudimg.com/static/img/831923fe6942f4cb03640cffdb5883fd/image.png)
 ### 4. 选择存储与网络
 在这个步骤需要选择：
@@ -54,7 +54,7 @@ GA2 搭载 AMD S7150 GPU， 主机内需要安装对应的驱动程序才能正�
 
 设置完成后单击【立即购买】。
 ### 6. 查收服务器
-核实信息后完成支付，即可进入 [控制台](https://console.cloud.tencent.com/cvm) 的邮箱中查收云服务器。
+核实信息后完成支付，即可进入 [控制台](http://console.tce.fsphere.cn/cvm) 的邮箱中查收云服务器。
 GA2 实例购买完成后，将会收到站内信，内容包括实例名称、公网 IP 地址、内网 IP 地址、登录名、初始登录密码等信息。可以使用这些信息登录和管理实例，也请尽快更改登录密码保障主机安全性。
 
 

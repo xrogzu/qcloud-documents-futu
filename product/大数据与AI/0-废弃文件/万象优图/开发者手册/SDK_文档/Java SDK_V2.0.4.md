@@ -250,7 +250,7 @@ PicCloud pc = new PicCloud(APP_ID, SECRET_ID, SECRET_KEY);
 int ret = pc.Delete(fileid);
 ```
 3.6	图片下载
-图片下载可以直接使用下载url直接下载，开发者可自行下载，具体可参考[图片下载](/doc/product/275/RESTful API#7-.E5.9B.BE.E7.89.87.E4.B8.8B.E8.BD.BD)。腾讯云·万象优图在Java-SDK中也提供了下载功能，具体见下：
+图片下载可以直接使用下载url直接下载，开发者可自行下载，具体可参考[图片下载](/doc/product/275/RESTful API#7-.E5.9B.BE.E7.89.87.E4.B8.8B.E8.BD.BD)。云平台·万象优图在Java-SDK中也提供了下载功能，具体见下：
 1．	接口说明
 用于图片的下载，调用者可以通过此接口下载已经上传的图片到本地。
 下载分为2种：开启防盗链和不开启防盗链。

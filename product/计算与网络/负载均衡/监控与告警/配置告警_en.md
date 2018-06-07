@@ -1,12 +1,12 @@
 You can create alarms to send alarm messages to specified users once the alarms are triggered when the cloud load balancers' running statuses meet specific conditions. The created alarm determines whether an alarm-related notification needs to be triggered according to the comparison results between a monitored metric and a specific threshold at intervals.
 
-You can take precautionary or remedial measures in a timely manner when an alarm is set off by status changes of cloud products. Therefore, creating a reasonable alarm can help you improve robustness and reliability of your application. For more information on alarms, please see [Alarm Configurations](https://cloud.tencent.com/document/product/248/1073).
+You can take precautionary or remedial measures in a timely manner when an alarm is set off by status changes of cloud products. Therefore, creating a reasonable alarm can help you improve robustness and reliability of your application. For more information on alarms, please see [Alarm Configurations](http://tce.fsphere.cn/document/product/248/1073).
 
 ## Creating an Alarm Policy
 
 The specific procedure is as follows:
 
-1. Log in to [Tencent Cloud Console](https://console.cloud.tencent.com/), click "Cloud Monitoring" -> "My Alarms" tab, and then click "Alarm Policy" menu.
+1. Log in to [Tencent Cloud Console](http://console.tce.fsphere.cn/), click "Cloud Monitoring" -> "My Alarms" tab, and then click "Alarm Policy" menu.
 
 2. Click "Add Alarm Policy" button on the alarm policy list page.
 
@@ -16,12 +16,12 @@ For example, if the metric is `number of inbound packets`, the comparison relati
 
 
 ## Associate with an Object
-1. Log in to [Tencent Cloud Console](https://console.cloud.tencent.com/), click "Cloud Monitoring" -> "My Alarms" tab, and then click "Alarm Policy" menu.
+1. Log in to [Tencent Cloud Console](http://console.tce.fsphere.cn/), click "Cloud Monitoring" -> "My Alarms" tab, and then click "Alarm Policy" menu.
 
 2. On the alarm policy list page, click the newly created alarm policy to enter the detail page, and click "Add Association" button and select the product you want to monitor (here select cloud load balancer in the list for cloud load balancer monitoring), then click "Apply" button.
 
 ## Set Alarm Receivers
-1. Log in to [Tencent Cloud Console](https://console.cloud.tencent.com/), click "Cloud Monitoring" -> "My Alarms" tab, and then click "Alarm Policy" menu.
+1. Log in to [Tencent Cloud Console](http://console.tce.fsphere.cn/), click "Cloud Monitoring" -> "My Alarms" tab, and then click "Alarm Policy" menu.
 
 2. Click the created alarm policy to enter the detail page, then click "Manage alarm receiving group" button, and check the user groups that need to be notified.
 

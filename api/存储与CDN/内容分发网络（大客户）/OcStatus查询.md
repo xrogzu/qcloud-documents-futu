@@ -1,5 +1,5 @@
 ## 接口描述
-**GetCdnEdgeStatus** 用于查询腾讯云CDN边缘节点 IP、省份、运营商、状态等信息。
+**GetCdnEdgeStatus** 用于查询云平台CDN边缘节点 IP、省份、运营商、状态等信息。
 
 请求域名：<font style="color:red">cdn.api.qcloud.com</font>
 
@@ -10,10 +10,10 @@
 + 指定域名查询，获取该域名调度所至的加速平台，对应边缘节点列表；
 + 每一个域名资源平台有所差异，因此拉取到的边缘节点不完全一致。
 
-[查看调用示例](https://cloud.tencent.com/document/product/228/1734)
+[查看调用示例](http://tce.fsphere.cn/document/product/228/1734)
 
 ## 入参说明
-以下请求参数列表仅列出了接口请求参数，正式调用时需要加上公共请求参数，见[公共请求参数](https://cloud.tencent.com/doc/api/231/4473)页面。其中，此接口的Action字段为 GetCdnEdgeStatus。
+以下请求参数列表仅列出了接口请求参数，正式调用时需要加上公共请求参数，见[公共请求参数](http://tce.fsphere.cn/doc/api/231/4473)页面。其中，此接口的Action字段为 GetCdnEdgeStatus。
 
 | 参数名称 | 是否必选 | 类型     | 描述      |
 | ---- | ---- | ------ | ------- |
@@ -22,7 +22,7 @@
 ## 出参说明
 | 参数名称     | 类型     | 描述                                       |
 | -------- | ------ | ---------------------------------------- |
-| code     | Int    | 公共错误码，0表示成功，其他值表示失败。详见错误码页面的[公共错误码](https://cloud.tencent.com/doc/api/231/5078#1.-.E5.85.AC.E5.85.B1.E9.94.99.E8.AF.AF.E7.A0.81)。 |
+| code     | Int    | 公共错误码，0表示成功，其他值表示失败。详见错误码页面的[公共错误码](http://tce.fsphere.cn/doc/api/231/5078#1.-.E5.85.AC.E5.85.B1.E9.94.99.E8.AF.AF.E7.A0.81)。 |
 | message  | String | 模块错误信息描述，与接口相关。                          |
 | codeDesc | String | 英文错误信息，或业务侧错误码。                          |
 | data     | Object | 返回结果数据，ip列表                              |

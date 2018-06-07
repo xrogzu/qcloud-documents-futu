@@ -1,9 +1,9 @@
 COS FTP Server 工具支持通过 FTP 协议直接操作 COS 中的对象和目录，包括上传文件、下载文件、删除文件以及创建文件夹等。FTP Server 工具使用 Python 实现，使安装更加简单。
 ## 使用环境
 ### 系统环境
-操作系统：Linux，推荐使用腾讯云 CentOS 7 系列 CVM，暂不支持 Windows 系统。
+操作系统：Linux，推荐使用云平台 CentOS 7 系列 CVM，暂不支持 Windows 系统。
 
-Python 解释器版本：Python 2.7，可参考 [Python 安装与配置](https://cloud.tencent.com/document/product/436/10866) 进行安装与配置。
+Python 解释器版本：Python 2.7，可参考 [Python 安装与配置](http://tce.fsphere.cn/document/product/436/10866) 进行安装与配置。
 
 依赖库：
 - requests
@@ -56,11 +56,11 @@ Bucket 作为整个 FTP Server 的根目录，Bucket 下面可以建立若干个
 [COS_ACCOUNT]
 cos_secretid = XXXXXX
 cos_secretkey = XXXXXX
-# SecretId 和 SecretKey 可以在以下地址获取：https://console.cloud.tencent.com/cam/capi
+# SecretId 和 SecretKey 可以在以下地址获取：http://console.tce.fsphere.cn/cam/capi
 cos_bucket = BucketName-appid
 # 要操作的bucket，bucket的格式为：bucektname-appid组成。示例：cos_bucket = mybucket-125888888888。
 cos_region = ap-xxx
-# Bucket 所在的地域，目前支持的地域请参照【可用地域-适用于 XML API 部分】：https://cloud.tencent.com/document/product/436/6224
+# Bucket 所在的地域，目前支持的地域请参照【可用地域-适用于 XML API 部分】：http://tce.fsphere.cn/document/product/436/6224
 cos_user_home_dir = /home/cos_ftp/data
 # FTP Server 的工作目录。
 [FTP_ACCOUNT]
@@ -116,4 +116,4 @@ FTP Server 默认支持 200 GB 以内的单文件上传，但是不建议用户�
 #### 如果上传的文件超过最大限制，会怎么样？
 当实际上传的单文件大小超过了配置文件中的限制，系统会返回一个 IOError 的异常，并且在日志中标注错误信息。
 
-#### 其他问题，请 [提交工单](https://console.cloud.tencent.com/workorder/category)，并在工单上附上完整的`cos_v5.log`日志，便于我们进一步排查和解决问题。
+#### 其他问题，请 [提交工单](http://console.tce.fsphere.cn/workorder/category)，并在工单上附上完整的`cos_v5.log`日志，便于我们进一步排查和解决问题。

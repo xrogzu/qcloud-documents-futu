@@ -1,12 +1,12 @@
 本文档为万象优图V2版本和V2加强版本的Android SDK文档，V1版本的Android SDK文档参见 [Android SDK_V1](/doc/product/275/Android SDK_V1)。
 注意：各版本的SDK接口不能混用，具体版本说明请参照[版本说明](/doc/product/275/版本说明)。
 ## 1. 开发准备
-腾讯云•万象优图的最新Android SDK的下载：[Android SDK](/doc/product/275/SDK下载#1.-android-sdk)。
+云平台•万象优图的最新Android SDK的下载：[Android SDK](/doc/product/275/SDK下载#1.-android-sdk)。
 ### 1.1 前期准备
 1. SDK支持Android 2.2及以上版本的手机系统；
 2. 手机必须要有网络（GPRS、3G或Wifi网络等）；
 3. 手机可以没有存储空间，但会使部分功能无法正常工作；
-4. 在[腾讯云图片空间](http://console.cloud.tencent.com/image/bucket)页面上添加空间，获取项目ID（APPID）。
+4. 在[云平台图片空间](http://console.tce.fsphere.cn/image/bucket)页面上添加空间，获取项目ID（APPID）。
 ### 1.2 导入SDK
 #### 1.2.1 下载Android SDK
 Android SDK的下载地址为：[Android SDK](/doc/product/275/SDK下载#1.-android-sdk)。
@@ -53,7 +53,7 @@ SDK需要网络访问相关的一些权限，需要在manifest中进行权限声
   /**
   * 构造方法
   * @param context
-  * @param appid   腾讯云注册的APPID
+  * @param appid   云平台注册的APPID
   * @param fileType 业务类型
   * @param persistenceId  持久化ID，每个UploadManager需设置一个唯一的ID用于持久
   *                           化保存未完成任务列表，以便应用退出重进后能继续进行上传；传
@@ -298,7 +298,7 @@ FileDeleteTask filetask = new FileDeleteTask(fileId, FileType.Photo, BUCKET,
 /**
   * 构造方法
   * @param context        Android Context
-  * @param appid  	  腾讯云注册的APPID
+  * @param appid  	  云平台注册的APPID
   * @param persistenceId  每个Download实例需要分配一个唯一的id，该ID用于区分临时缓存目录
   */
   public Downloader(Context context, String appid, String persistenceId);

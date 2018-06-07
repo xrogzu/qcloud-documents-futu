@@ -1,6 +1,6 @@
 ## 1 环境及依赖
 
-环境: 在腾讯云CVM上安装对应的Java JDK [[下载地址](http://www.oracle.com/technetwork/java/javase/downloads/index.html?spm=5176.775974146.2.4.9Oqs71)]
+环境: 在云平台CVM上安装对应的Java JDK [[下载地址](http://www.oracle.com/technetwork/java/javase/downloads/index.html?spm=5176.775974146.2.4.9Oqs71)]
 
 依赖: 本例使用Memcached-Java-Client.2.5.1版本 [[下载地址]](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/memcached-java-2.5.1.zip)，（暂不支持SpyMemcached客户端）
 
@@ -10,7 +10,7 @@
 
 编写源码并导出为Jar包.
 
-将导出的Jar包上传到腾讯云CVM服务器上并运行java -jar ***.jar. (注意: 只有在CVM服务器上才能访问内网的NoSQL服务器)
+将导出的Jar包上传到云平台CVM服务器上并运行java -jar ***.jar. (注意: 只有在CVM服务器上才能访问内网的NoSQL服务器)
 
 代码示例MemcachedDemo.java
 

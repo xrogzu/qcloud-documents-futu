@@ -12,4 +12,4 @@ MTA SDK 支持采集 iOS 用户的 IDFA（identifier for advertising）信息，
 3. Attribute an action taken within this app to a previously served advertisement 用于跟踪和统计广告安装后带来的用户行为，需要勾选。
 4. Limit Ad Tracking setting in iOS 此项属于确认项，需要勾选。
 
-如果您仍因为采集 IDFA 被 Appstore 审核拒绝，建议您集成任意一家广告或选用 MTA 普通版，如需同时统计 App 内的 h5 页面数据，请根据 [hybird app ios 使用说明](https://cloud.tencent.com/document/product/549/12900)进行集成。
+如果您仍因为采集 IDFA 被 Appstore 审核拒绝，建议您集成任意一家广告或选用 MTA 普通版，如需同时统计 App 内的 h5 页面数据，请根据 [hybird app ios 使用说明](http://tce.fsphere.cn/document/product/549/12900)进行集成。

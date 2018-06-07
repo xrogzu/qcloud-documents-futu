@@ -78,11 +78,11 @@ v1: digest: sha256:38b194feeee09abf8ee45e7abca82b9fe494b18b953c771ce8ebefa387107
 ## 第二步：通过该镜像创建 Hello World 服务
 >**注意：**
 > 在创建使用 Hello World 服务之前，您必须拥有:
-1. 一个帐户。有关如何创建帐户，请在 [注册页面](https://cloud.tencent.com/register) 填写相关信息注册帐户。
-2. 一个创建好的集群。有关如何创建集群的详细信息，参见 [新建集群](https://cloud.tencent.com/document/product/457/9091) 。
+1. 一个帐户。有关如何创建帐户，请在 [注册页面](http://tce.fsphere.cn/register) 填写相关信息注册帐户。
+2. 一个创建好的集群。有关如何创建集群的详细信息，参见 [新建集群](http://tce.fsphere.cn/document/product/457/9091) 。
 
 ### 操作步骤
-1) 登录 [容器服务控制台](https://console.cloud.tencent.com/ccs) 。
+1) 登录 [容器服务控制台](http://console.tce.fsphere.cn/ccs) 。
 2) 单击左侧导航栏中的【服务】，单击服务列表页的【+ 新建】。
 ![](https://mc.qcloudimg.com/static/img/11f7f75d7b051a815da8bfe1e744a8e8/image.png)
 3) 设置服务的基本信息。
@@ -97,7 +97,7 @@ v1: digest: sha256:38b194feeee09abf8ee45e7abca82b9fe494b18b953c771ce8ebefa387107
 在 **我的镜像** 下，在搜索框中输入 helloworld，单击搜索。在搜索结果中选择 helloworld，单击 【确定】。
 ![](https://mc.qcloudimg.com/static/img/3f4e4dada565b815788720fb6436a6c6/image.png)
 5) 设置端口映射。将容器端口和服务端口都设置为 80 。
->**注意**：服务所在集群的安全组需要放通节点网络及容器网络，同时需要放通30000-32768端口，否则可能会出现容器服务无法使用问题。详情参见[容器服务安全组设置](https://cloud.tencent.com/document/product/457/9084)
+>**注意**：服务所在集群的安全组需要放通节点网络及容器网络，同时需要放通30000-32768端口，否则可能会出现容器服务无法使用问题。详情参见[容器服务安全组设置](http://tce.fsphere.cn/document/product/457/9084)
 
 ![](https://mc.qcloudimg.com/static/img/a86f50da339892896871ab9408514433/image.png)
 
@@ -114,4 +114,4 @@ v1: digest: sha256:38b194feeee09abf8ee45e7abca82b9fe494b18b953c771ce8ebefa387107
 2) 进入 Hello World 服务器的默认欢迎页。
 ![](https://mc.qcloudimg.com/static/img/ef9e2067f34004f49f7fe1360f20c3a5/image.png)
 
-若容器创建失败，可查看[事件常见问题](https://cloud.tencent.com/document/product/457/8187)。
+若容器创建失败，可查看[事件常见问题](http://tce.fsphere.cn/document/product/457/8187)。

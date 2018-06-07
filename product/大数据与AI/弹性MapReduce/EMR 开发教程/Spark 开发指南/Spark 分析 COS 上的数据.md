@@ -1,4 +1,4 @@
-Spark 要分析 COS 上的数据前提是您购买的 EMR 集群在创建的时候已经勾选支持 COS，如果没有勾选而想使用 COS 请联系腾讯云客服。本教程演示的是 wordcount，请提前准备好数据, 并确保 core-site.xml 在您的应用的 classpath 下。
+Spark 要分析 COS 上的数据前提是您购买的 EMR 集群在创建的时候已经勾选支持 COS，如果没有勾选而想使用 COS 请联系云平台客服。本教程演示的是 wordcount，请提前准备好数据, 并确保 core-site.xml 在您的应用的 classpath 下。
 
 - 工程代码添加 maven 依赖
 

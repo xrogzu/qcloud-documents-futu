@@ -20,7 +20,7 @@ dimensions.0.value 取值参照表
 
 | 取值类型  | 取值示例                                     | 描述                                       |
 | ----- | ---------------------------------------- | ---------------------------------------- |
-| 实例ID  | cmgo-6ielucen                            | 实例ID一个MongoDB实例的唯一标识；可以在[MongoDB控制台](https://console.cloud.tencent.com/mongodb)查询到；或者调用MognoDB的API也可以获取 |
+| 实例ID  | cmgo-6ielucen                            | 实例ID一个MongoDB实例的唯一标识；可以在[MongoDB控制台](http://console.tce.fsphere.cn/mongodb)查询到；或者调用MognoDB的API也可以获取 |
 | 副本集ID | cmgo-6ielucen_0cmgo-6ielucen_2           | 在实例ID后面拼接 “_索引号”可以得到副本集ID；“索引号”从0开始，最大值为副本集个数-1；副本集实例只有一个副本集，所以固定拼接“_0”即可；分片实例有多个片，每一片都是副本集，举例：第3个片的副本集ID就是拼接“_2” |
 | 节点ID  | cmgo-6ielucen_0-node-primarycmgo-6ielucen_1-node-slave0cmgo-6ielucen_3-node-slave2 | 在副本集ID后面拼接“-node-primary”得到该副本集的主节点ID；拼接“-node-slave从节点索引号”可得到对应的从节点的ID，“从节点索引号”从0开始，最大值为从节点个数-1 |
 

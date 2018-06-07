@@ -1,16 +1,16 @@
 ## 1.快速获得地址
-如果您是想要生成一组URL用于测试，那您只需要打开[直播控制台>>直播码接入>>推流生成器](https://console.cloud.tencent.com/live/livecodemanage)，点击**生成推流地址**按钮，即可生成一个推流URL和三种不同播放协议的播放URL。
+如果您是想要生成一组URL用于测试，那您只需要打开[直播控制台>>直播码接入>>推流生成器](http://console.tce.fsphere.cn/live/livecodemanage)，点击**生成推流地址**按钮，即可生成一个推流URL和三种不同播放协议的播放URL。
 
 ![](https://mc.qcloudimg.com/static/img/98b9b659be67a9ac32384b606ace943f/image.png)
 
 
-使用 [RTMP SDK DEMO](https://cloud.tencent.com/document/product/454/6555) 可以快速测试推流URL和播放URL的有效性。
+使用 [RTMP SDK DEMO](http://tce.fsphere.cn/document/product/454/6555) 可以快速测试推流URL和播放URL的有效性。
 
 
 ## 2.后台自动拼装
 
 ### 2.1推流URL 
-实际产品中，您不可能为每一个主播手工创建推流和播放URL，而是要由您的服务器自行拼装，只要符合腾讯云标准规范的URL 就可以用来推流，如下是一条标准的推流URL，它由三个部分组成：
+实际产品中，您不可能为每一个主播手工创建推流和播放URL，而是要由您的服务器自行拼装，只要符合云平台标准规范的URL 就可以用来推流，如下是一条标准的推流URL，它由三个部分组成：
  ![url](https://mc.qcloudimg.com/static/img/6b4fd09ab2c7d6f1503070f8c994f4e0/image.png)
 
 - **直播码**
@@ -23,7 +23,7 @@
 防盗链签名，防止攻击者伪造您的后台生成推流URL，计算方法参考[防盗链的计算](#.E9.98.B2.E7.9B.97.E9.93.BE.E7.9A.84.E8.AE.A1.E7.AE.97.EF.BC.9F)。
 
 - **示例代码**
-[直播控制台>>直播码接入>>推流生成器](https://console.cloud.tencent.com/live/livecodemanage)页面下半部分有示例代码（PHP和Java两个版本）演示如何生成防盗链地址。
+[直播控制台>>直播码接入>>推流生成器](http://console.tce.fsphere.cn/live/livecodemanage)页面下半部分有示例代码（PHP和Java两个版本）演示如何生成防盗链地址。
 
 ### 2.2播放URL
 播放URL的拼接跟推流URL一样简单，只是需要把子域名从 **livepush** 改成 **liveplay**：
@@ -39,9 +39,9 @@
 
 ### 3.2计算过程
 - **step1 ： 交换秘钥**
-首先，您需要在官网的控制台，协商一个**加密密钥**，这个加密密钥用于在您的服务器上生成防盗链签名，由于腾讯云跟您持有同样的密钥，所以您生成的防盗链签名，腾讯云是可以进行解密确认的。
+首先，您需要在官网的控制台，协商一个**加密密钥**，这个加密密钥用于在您的服务器上生成防盗链签名，由于云平台跟您持有同样的密钥，所以您生成的防盗链签名，云平台是可以进行解密确认的。
 
- 加密秘钥分为**推流防盗链KEY**和**播放防盗链KEY**，前者用于生成推流防盗链URL，后者用于生成播放防盗链URL。目前在[直播管理控制台](https://console.cloud.tencent.com/live)上可以自助配置推流防盗链KEY，如下图：
+ 加密秘钥分为**推流防盗链KEY**和**播放防盗链KEY**，前者用于生成推流防盗链URL，后者用于生成播放防盗链URL。目前在[直播管理控制台](http://console.tce.fsphere.cn/live)上可以自助配置推流防盗链KEY，如下图：
 ![](https://mc.qcloudimg.com/static/img/6be1d875f1120a16d3692c60bb4485a9/image.png)
  >  **默认不开播放防盗链**
  >   
@@ -58,7 +58,7 @@
 txSecret的生成方法是 = **MD5(KEY+ stream_id + txTime)**，这里的 **KEY** 就是您在 step1 中配置的加密KEY，stream_id在本例中为 8888_test001，txTime为刚才计算的 579C1B69，**MD5** 即标准的MD5单向不可逆哈希算法。
 
 - **step4 - 合成防盗链地址**
-  现在我们有了推流（或者播放）URL，有了用来告知腾讯云该URL过期时间的txTime，有了只有腾讯云才能解密并且验证的txSecret，就可以拼合成一个防盗链的安全URL了。
+  现在我们有了推流（或者播放）URL，有了用来告知云平台该URL过期时间的txTime，有了只有云平台才能解密并且验证的txSecret，就可以拼合成一个防盗链的安全URL了。
 	
 ### 3.3示例代码
-[直播控制台>>直播码接入>>推流生成器](https://console.cloud.tencent.com/live/livecodemanage)页面下半部分有示例代码（PHP和Java两个版本）演示如何生成防盗链地址。
+[直播控制台>>直播码接入>>推流生成器](http://console.tce.fsphere.cn/live/livecodemanage)页面下半部分有示例代码（PHP和Java两个版本）演示如何生成防盗链地址。

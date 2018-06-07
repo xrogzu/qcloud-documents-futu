@@ -3,7 +3,7 @@
 ## 一、创建和配置 CVM 实例
 要访问文件系统，您需要将文件系统挂载在基于 Linux 或者 Windows 的云平台云服务器实例上。在此步骤中，您将创建和配置一个基于 Linux 的云平台 CVM 实例。如果您想要使用基于 Windows 的云服务器，请参考文档 [使用 CFS 创建网络文件系统（Windows）](/doc/product/582/11524)。如果已经创建 CVM 实例，请跳转至步骤二 [创建文件系统及挂载点](#1)。
 
-登录云平台，选择【云产品】>【计算与网络】>【云服务器】，进入 [云服务器购买页面](https://buy.cloud.tencent.com/buy/cvm)。
+登录云平台，选择【云产品】>【计算与网络】>【云服务器】，进入 [云服务器购买页面](https://buy.tce.fsphere.cn/buy/cvm)。
 ### 1. 选择地域与机型
 ![](https://mc.qcloudimg.com/static/img/3ed8bab8cce3dde578a6e3fb14267ea5/image.png)
 
@@ -47,7 +47,7 @@
 <span id="1"></span>
 ## 二、创建文件系统及挂载点
 
-1. 进入云平台 [控制台](https://console.cloud.tencent.com/)，单击【云产品】>【存储】>【文件存储】，即可进入 CFS 控制台。
+1. 进入云平台 [控制台](http://console.tce.fsphere.cn/)，单击【云产品】>【存储】>【文件存储】，即可进入 CFS 控制台。
 ![](https://mc.qcloudimg.com/static/img/4fee6ea61cfba11927f6891527237610/image.png)
 
 2. 在云平台 CFS 控制台，单击【新建】，弹出创建文件系统弹窗。在创建文件系统弹窗中填写相关信息，确认无误后，单击【确定】即可创建文件系统。
@@ -194,9 +194,9 @@ umount /local/test
 
 ## 五、终止资源
 
-1. 终止云平台实例。进入云平台云服务器 [控制台](https://console.cloud.tencent.com/cvm/index)，选中需要终止的实例，单击【更多】>【云主机状态】，可以选中【销毁】以终止 CVM 实例。
+1. 终止云平台实例。进入云平台云服务器 [控制台](http://console.tce.fsphere.cn/cvm/index)，选中需要终止的实例，单击【更多】>【云主机状态】，可以选中【销毁】以终止 CVM 实例。
 ![](https://mc.qcloudimg.com/static/img/76c588284e3b525702d748b5cd7b8b00/image.png)
-2. 终止文件系统。进入云平台文件存储 [控制台](https://console.cloud.tencent.com/cfs)，选中需要终止的文件系统，单击【删除】并【确认】，即可删除文件系统。
+2. 终止文件系统。进入云平台文件存储 [控制台](http://console.tce.fsphere.cn/cfs)，选中需要终止的文件系统，单击【删除】并【确认】，即可删除文件系统。
 ![](https://mc.qcloudimg.com/static/img/28cade4807a283ffdcb1fc2a39a7ad88/image.png)
 
 

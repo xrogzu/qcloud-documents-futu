@@ -1,6 +1,6 @@
 ## 唇语人脸核身SaaS服务 IOS-SDK 安装说明
 
-腾讯云万象优图人脸核身服务，指通过人脸智能识别技术与OCR技术相结合，在线验证用户自拍视频或照片与身份证照片的匹配关系，秒级确认用户的身份是否真实有效。基于唇语活体检测的人脸核身SaaS产品提供集成了UI的一站式服务，开发者可以轻松集成SDK即可使用人脸核身服务。腾讯云提供IOS与Android的SDK，本文将介绍IOS的SDK的集成方式。
+云平台万象优图人脸核身服务，指通过人脸智能识别技术与OCR技术相结合，在线验证用户自拍视频或照片与身份证照片的匹配关系，秒级确认用户的身份是否真实有效。基于唇语活体检测的人脸核身SaaS产品提供集成了UI的一站式服务，开发者可以轻松集成SDK即可使用人脸核身服务。云平台提供IOS与Android的SDK，本文将介绍IOS的SDK的集成方式。
 
 人脸核身SAAS服务通过Framework的方式向您提供服务。在使用本服务之前您需要集成必要的几个framework。
 
@@ -83,7 +83,7 @@ QCloudFaceInUIServiceConfiguration是人脸核身UI版本的服务配置信息�
 
 ```
 /**
- 人脸核身UI服务的配置信息。改类继承自QCloudServiceConfiguration，除了腾讯云服务需要常用配置之外。还需要配置人脸核身需要一些特殊信息：
+ 人脸核身UI服务的配置信息。改类继承自QCloudServiceConfiguration，除了云平台服务需要常用配置之外。还需要配置人脸核身需要一些特殊信息：
  * bucket
  * serviceType
  * delegate
@@ -128,7 +128,7 @@ QCloudFaceInUIServiceConfiguration是人脸核身UI版本的服务配置信息�
 @interface QCloudServiceConfiguration : NSObject <NSCopying>
 ​
 /**
- 签名信息的回调接口，该委托必须实现。签名是腾讯云进行服务时进行用户身份校验的关键手段，同时也保障了用户访问的安全性。该委托中通过函数回调来提供签名信息。
+ 签名信息的回调接口，该委托必须实现。签名是云平台进行服务时进行用户身份校验的关键手段，同时也保障了用户访问的安全性。该委托中通过函数回调来提供签名信息。
  */
 @property (nonatomic, strong) id<QCloudSignatureProvider> signatureProvider;
 ​

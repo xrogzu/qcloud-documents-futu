@@ -2,12 +2,12 @@
 状态改变触发告警后，您可以及时进行相应的预防或补救措施。因此，合理地创建告警能帮助您提高应用程序的健壮性和可靠性。有关告警的更多信息，请参考云监控的 [告警配置][1] 文章。
 当用户需要针对某个产品的某个状态发送告警时，需要先创建告警策略。告警策略包括名称、类型和告警触发条件三个必要组成部分。每个告警策略是一系列告警触发条件的集合，告警触发条件是“或”关系，即一个条件满足，就会发送告警。告警将发送至告警策略关联的所有人，用户接收到告警后可以及时查看并采取相应措施。
 >**注意：**
-请确认您已经设置默认告警接收人，否则腾讯云 CDB 的默认告警策略将无法通知到您。
+请确认您已经设置默认告警接收人，否则云平台 CDB 的默认告警策略将无法通知到您。
 
 您可以根据以下指引进行告警策略的创建：
 
 ## 创建告警策略
-1. 单击导航栏中【云产品】 > 【基础产品】 > 【监控与管理】 > 【云监控】，进入【云监控】产品介绍后，单击【免费使用】。进入云监控 [管理控制台](https://console.cloud.tencent.com/monitor/overview)。
+1. 单击导航栏中【云产品】 > 【基础产品】 > 【监控与管理】 > 【云监控】，进入【云监控】产品介绍后，单击【免费使用】。进入云监控 [管理控制台](http://console.tce.fsphere.cn/monitor/overview)。
 ![](https://mc.qcloudimg.com/static/img/886cd2f9011883ee3d541928c6619f9b/image.png)
 ![](https://mc.qcloudimg.com/static/img/286402320d17a7a66f8d6b81542a6b40/image.png)
 2. 单击【我的告警】 > 【告警策略】，在告警策略列表页上单击【新增告警策略】按钮。
@@ -22,7 +22,7 @@
 
 ## 关联对象
 创建完告警策略后，您可以为其关联一些告警对象，对象达到告警触发条件时会发送告警。您可以通过以下配置关联告警对象。
-1. 登录到云监控 [管理控制台](https://console.cloud.tencent.com/monitor/overview) 后单击【我的告警】 > 【告警策略】。在告警策略列表页中，单击刚刚创建的告警策略。
+1. 登录到云监控 [管理控制台](http://console.tce.fsphere.cn/monitor/overview) 后单击【我的告警】 > 【告警策略】。在告警策略列表页中，单击刚刚创建的告警策略。
 ![](https:https://mc.qcloudimg.com/static/img/6f881d6e32e9ab3df483bd1821d7fb64/image.png)
 2. 在 **管理告警策略** 页面中，单击【新增关联】。
 ![](https://mc.qcloudimg.com/static/img/a34ebce6478c8b40d3194161fd85a830/image.png)
@@ -31,14 +31,14 @@
 
 ## 设置接收告警的对象
 告警接收对象决定了什么人能够接收到告警信息。您可以通过以下配置告警接收对象。
-1. 登录到云监控 [管理控制台](https://console.cloud.tencent.com/monitor/overview) 后单击【我的告警】 > 【告警策略】。在告警策略列表页中，单击刚刚创建的告警策略。
+1. 登录到云监控 [管理控制台](http://console.tce.fsphere.cn/monitor/overview) 后单击【我的告警】 > 【告警策略】。在告警策略列表页中，单击刚刚创建的告警策略。
 ![](https:https://mc.qcloudimg.com/static/img/6f881d6e32e9ab3df483bd1821d7fb64/image.png)
 1. 在 **管理告警策略** 页面中，在详情页中单击【管理告警接收组】
 ![](https://mc.qcloudimg.com/static/img/a8c1dd33a761c4758d5bd203242b7f04/image.png)
 2. 选择需要通知的用户组，单击【保存】，即可完成告警接收对象的设置。
 ![](https://mc.qcloudimg.com/static/img/e33bb450c694a5672050ab70d0ad8b0a/image.png)
 
-[1]:	https://cloud.tencent.com/doc/product/248/1073
-[2]:	https://console.cloud.tencent.com/
-[3]:	https://console.cloud.tencent.com/
-[4]:	https://console.cloud.tencent.com/
+[1]:	http://tce.fsphere.cn/doc/product/248/1073
+[2]:	http://console.tce.fsphere.cn/
+[3]:	http://console.tce.fsphere.cn/
+[4]:	http://console.tce.fsphere.cn/

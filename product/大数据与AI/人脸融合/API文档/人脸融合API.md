@@ -6,14 +6,14 @@
 
 | 概念     | 解释               |
 | ------ | ---------------- |
-| appid  | 项目 ID, 接入项目的唯一标识，可在 [账号信息](https://console.cloud.tencent.com/developer) 或 [云 API 密钥](https://console.cloud.tencent.com/cam/capi) 中查看 |
+| appid  | 项目 ID, 接入项目的唯一标识，可在 [账号信息](http://console.tce.fsphere.cn/developer) 或 [云 API 密钥](http://console.tce.fsphere.cn/cam/capi) 中查看 |
 
 ## 调用 URL
 支持 http 和 https 两种协议：
 
-http://aiconsole.cloud.tencent.com/fuseapi/face
+http://aiconsole.tce.fsphere.cn/fuseapi/face
 
-https://aiconsole.cloud.tencent.com/fuseapi/face
+https://aiconsole.tce.fsphere.cn/fuseapi/face
 
 
 ## 请求包 header
@@ -21,7 +21,7 @@ https://aiconsole.cloud.tencent.com/fuseapi/face
 
 | 参数名            | 值                                        | 描述                                       |
 | -------------- | ---------------------------------------- | ---------------------------------------- |
-| Host           | aiconsole.cloud.tencent.com               | 服务器域名                                |
+| Host           | aiconsole.tce.fsphere.c               | 服务器域名                                |
 | Content-Length | 包体总长度                                    | 整个请求包体内容的总长度，单位：字节（Byte）                 |
 | Content-Type   | application/json   | 参数类型                                 |
 | Authorization  | 鉴权签名                                     | 用于 [**鉴权**](/document/product/641/12409) 的签名 |
@@ -36,8 +36,8 @@ https://aiconsole.cloud.tencent.com/fuseapi/face
 
 | 参数名    | 是否必须 | 类型     | 说明    |
 | ------ | ---- | ------ | ------- |
-| appid  | 必须   | string | 项目 ID，可在 [账号信息](https://console.cloud.tencent.com/developer) 查看   |
-| uin    | 必须   | string | 账号 ID，可在 [账号信息](https://console.cloud.tencent.com/developer) 查看|
+| appid  | 必须   | string | 项目 ID，可在 [账号信息](http://console.tce.fsphere.cn/developer) 查看   |
+| uin    | 必须   | string | 账号 ID，可在 [账号信息](http://console.tce.fsphere.cn/developer) 查看|
 | project_id    | 必须   | string | 活动 ID |
 | model_id    | 必须   | string | 素材 ID |
 | img_data    | 必须   | string | 图片 base64 数据 |

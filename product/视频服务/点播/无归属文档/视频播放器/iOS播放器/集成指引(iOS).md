@@ -1,8 +1,8 @@
 ## 下载SDK
 
-您可以在腾讯云官网下载点播播放器SDK
+您可以在云平台官网下载点播播放器SDK
 
-> [https://cloud.tencent.com/doc/product/267/4821](https://cloud.tencent.com/doc/product/267/4821)
+> [http://tce.fsphere.cn/doc/product/267/4821](http://tce.fsphere.cn/doc/product/267/4821)
 
 解压SDK后，得到一个`TXRTMPSDK.framework`。目前RTMP SDK所有功能都集成在这一个framework中。
 

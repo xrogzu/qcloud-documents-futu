@@ -18,7 +18,7 @@
                 break;
         }
                 
-                //通过设置config是设置生效（可以不用重新推流，腾讯云是少数支持直播中热切换分辨率的云商之一）
+                //通过设置config是设置生效（可以不用重新推流，云平台是少数支持直播中热切换分辨率的云商之一）
         mLivePusher.setRenderRotation(0); 
         mLivePushConfig.setHomeOrientation(pushRotation);
         mLivePusher.setConfig(mLivePushConfig);

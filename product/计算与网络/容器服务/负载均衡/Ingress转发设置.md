@@ -27,7 +27,7 @@ Ingress类型目前支持应用型LB, 应用型LB后端容器节点需打开对�
 在Ingress页面创建Ingress(已有Ingress可跳过该步骤)
 ![Alt text][create]
 
-将自有域名解析到该负载均衡器的VIP，详细见[域名解析帮助文档](https://cloud.tencent.com/document/product/302/3446)。
+将自有域名解析到该负载均衡器的VIP，详细见[域名解析帮助文档](http://tce.fsphere.cn/document/product/302/3446)。
 本示例www.qcloudccs.com解析到示例负载均衡。
 
 设置Ingress转发规则:

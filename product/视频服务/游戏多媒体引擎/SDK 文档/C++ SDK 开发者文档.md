@@ -1,4 +1,4 @@
-欢迎使用腾讯云游戏多媒体引擎 SDK。为方便 C++ 开发者调试和接入腾讯云游戏多媒体引擎产品 API，这里向您介绍适用于 C++ 开发的接入技术文档。
+欢迎使用云平台游戏多媒体引擎 SDK。为方便 C++ 开发者调试和接入云平台游戏多媒体引擎产品 API，这里向您介绍适用于 C++ 开发的接入技术文档。
 
 ## SDK初始化
 ### 获取单例
@@ -70,18 +70,18 @@ m_pTmgContext->TMGDelegate(p);
 
 ## 实时语音接入
 ### 设置相关信息
-获取相关信息，由腾讯云控制台申请，详情见 [游戏多媒体引擎接入指引](/document/product/607/10782)。
+获取相关信息，由云平台控制台申请，详情见 [游戏多媒体引擎接入指引](/document/product/607/10782)。
 >在 EnterRoom 函数调用之前要先调用 SetAppInfo 函数及 SetAppVersion 函数进行相关信息的设置
 
-此函数需要来自腾讯云控制台的 SdkAppId 号码及 accountType 号码作为参数，再加上 Id，这个 Id 是唯一标识一个用户，规则由 App 开发者自行制定，App 内不重复即可（Id 需参考鉴权使用文档）。
+此函数需要来自云平台控制台的 SdkAppId 号码及 accountType 号码作为参数，再加上 Id，这个 Id 是唯一标识一个用户，规则由 App 开发者自行制定，App 内不重复即可（Id 需参考鉴权使用文档）。
 #### 函数原型
 ```
 ITMGContext virtual void SetAppInfo(const char* sdkAppId,const char* accountType, const char* openId)
 ```
 |参数     | 类型         |描述|
 | ------------- |-------------|-------------
-| sdkAppId    	|char  	|来自腾讯云控制台的 SdkAppId 号码		|
-| accountType    |char  	|来自腾讯云控制台的 accountType 号码	|
+| sdkAppId    	|char  	|来自云平台控制台的 SdkAppId 号码		|
+| accountType    |char  	|来自云平台控制台的 accountType 号码	|
 | openID    		|char  	|OpenID 为 Int32 类型，必须大于 10000 	|
 #### 示例代码
 ```

@@ -1,5 +1,5 @@
 ## 基础篇
-腾讯云点播和直播共用一套播放器SDK，接口复用（即TXLivePlayer），二者在使用方式上有诸多类似之处。
+云平台点播和直播共用一套播放器SDK，接口复用（即TXLivePlayer），二者在使用方式上有诸多类似之处。
 
 ### step 1 : 创建Player对象
 ```objectivec

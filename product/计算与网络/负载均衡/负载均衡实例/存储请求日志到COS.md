@@ -7,7 +7,7 @@
 
 选取相应的COS中bucket，则请求日志会自动在bucket下创建lb-id为名称的文件夹进行存储。选取完成后，点击bucket地址可以直接跳转到日志下载页面。
 
-如您没有创建对象存储的bucket，请在[新建bucket](https://console.cloud.tencent.com/cos4/bucket)后选取相应的存储位置。
+如您没有创建对象存储的bucket，请在[新建bucket](http://console.tce.fsphere.cn/cos4/bucket)后选取相应的存储位置。
 
 ### 产品限制和费用计算
 - 当前日志聚合粒度为1小时
@@ -16,7 +16,7 @@
 
 - 日志数据的传输会有一定的延迟。
 
-- 当前负载均衡日志服务`免费`，COS存储的免费额度按照[文档](https://cloud.tencent.com/document/product/436/6240)中所示，提供50G免费存储空间。如您的日志量级较大，请及时清理数据。
+- 当前负载均衡日志服务`免费`，COS存储的免费额度按照[文档](http://tce.fsphere.cn/document/product/436/6240)中所示，提供50G免费存储空间。如您的日志量级较大，请及时清理数据。
 
 ### 日志格式及变量说明
 #### 日志格式

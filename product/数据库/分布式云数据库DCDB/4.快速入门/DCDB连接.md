@@ -1,7 +1,7 @@
 以下为连接DCDB的相关操作流程。
 ## 准备工作
 ### 新建用户权限
-1. 在 [DCDB 控制台](https://console.cloud.tencent.com/dcdb) 中，单击需要操作的实例最右方的【管理】，进入实例详情页面。
+1. 在 [DCDB 控制台](http://console.tce.fsphere.cn/dcdb) 中，单击需要操作的实例最右方的【管理】，进入实例详情页面。
 ![](https://mc.qcloudimg.com/static/img/d2eafea1a7b03224961c0906180e6b22/image.png)
 2. 在实例详情页面单击【账号管理】，进入帐号管理页面后单击【创建帐号】。
 ![](https://mc.qcloudimg.com/static/img/4e60badccaa63bf1632dbe1ed948793f/r2.png)
@@ -71,8 +71,8 @@
 > 注意：因为 DCDB 在分表和插入数据时需要标记 shardkey，所以无法用 JDBC 调用这些操作。
 
 ### LINUX 命令行连接
-以腾讯云服务器中 CentOS 7.2 64 位系统的 CVM 为例，关于腾讯云服务器的购买详情，可以参考[云服务器选购](https://buy.cloud.tencent.com/cvm)。
+以云平台服务器中 CentOS 7.2 64 位系统的 CVM 为例，关于云平台服务器的购买详情，可以参考[云服务器选购](https://buy.tce.fsphere.cn/cvm)。
 
-1. 登录 LINUX 后，输入命令 `yum install mysql` ,利用 CentOS 自带的包管理软件 Yum 在腾讯云的镜像源中下载安装 MySQL 客户端。
+1. 登录 LINUX 后，输入命令 `yum install mysql` ,利用 CentOS 自带的包管理软件 Yum 在云平台的镜像源中下载安装 MySQL 客户端。
 ![](//mc.qcloudimg.com/static/img/7f6a1f7a953cc38809fa069182481a22/image.png)
 2. 命令行显示 complete 后，MySQL 客户端安装完成。我们输入命令 `mysql -h外网地址 -P端口 -u用户名 -p密码` 连接 DCDB。下一步即可进行分表操作。下图中以`show databases;`为例。![](//mc.qcloudimg.com/static/img/b3fba8f8ace315e5eba05fdd252bd4c0/image.png)

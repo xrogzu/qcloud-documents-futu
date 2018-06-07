@@ -1,4 +1,4 @@
-## BGP高防IP快速接入（转发目标为非腾讯云）
+## BGP高防IP快速接入（转发目标为非云平台）
 
 登录“大禹网络安全”控制台，在“BGP高防IP”控制页中找到您已经开通的高防IP实例，点击实例ID，进入配置页面
 ![](https://mc.qcloudimg.com/static/img/fd9063bdf1f69cb2f4c5bd73d1764787/image.png)

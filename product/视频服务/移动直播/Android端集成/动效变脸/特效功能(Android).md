@@ -2,7 +2,7 @@
 
 ## 功能说明
 
-大眼、瘦脸、动效贴纸、绿幕等特效功能，是基于优图实验室的人脸识别技术和天天P图的美妆技术为基础开发的特权功能，腾讯云小直播团队通过跟优图和P图团队合作，将这些特效深度整合到 RTMP SDK 的图像处理流程中，以实现更好的视频特效。
+大眼、瘦脸、动效贴纸、绿幕等特效功能，是基于优图实验室的人脸识别技术和天天P图的美妆技术为基础开发的特权功能，云平台小直播团队通过跟优图和P图团队合作，将这些特效深度整合到 RTMP SDK 的图像处理流程中，以实现更好的视频特效。
 
 ## 接入流程
 
@@ -12,7 +12,7 @@
 
 2. 下载[示例表格](https://mc.qcloudimg.com/static/archive/766c9092424d0440a31c56c81f34a629/archive.xlsx)，按照表格填好信息后，邮件发送到 jerryqian@tencent.com 并抄送给您联系的商务同学（重要）。
 
-3. 敦促商务同学回复邮件确认，未经腾讯云商务同学确认的邮件，我们可能会视为骚扰邮件不予处理。
+3. 敦促商务同学回复邮件确认，未经云平台商务同学确认的邮件，我们可能会视为骚扰邮件不予处理。
 
 4. 确认后，我们会第一时间替您向优图实验室申请试用 Licence，并同压缩包解压密码一起发给您。
 
@@ -23,11 +23,11 @@
 
 ## 版本下载
 
-可以到 [RTMP SDK 开发包](https://cloud.tencent.com/document/product/454/7873) 页面下方下载商用版本 SDK 压缩包，压缩包有加密（解压密码 & licence文件 可以跟我们的商务同学获取）, 成功解压后得到一个`LiteAVSDK_Enterprise_3.9.2749.aar`和`LiteAVSDK_Enterprise_3.9.2749.zip`，分别对应两种集成方式。
+可以到 [RTMP SDK 开发包](http://tce.fsphere.cn/document/product/454/7873) 页面下方下载商用版本 SDK 压缩包，压缩包有加密（解压密码 & licence文件 可以跟我们的商务同学获取）, 成功解压后得到一个`LiteAVSDK_Enterprise_3.9.2749.aar`和`LiteAVSDK_Enterprise_3.9.2749.zip`，分别对应两种集成方式。
 
 ## 工程设置
 
-参考 [工程配置](https://cloud.tencent.com/document/product/454/7877) 
+参考 [工程配置](http://tce.fsphere.cn/document/product/454/7877) 
 
 ### 添加SDK
 

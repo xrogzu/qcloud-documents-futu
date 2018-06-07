@@ -60,7 +60,7 @@ $ pod init
 并在您的 Podfile 文件中添加移动开发平台（MobileLine）的私有源：
 
 ~~~
-source "https://git.cloud.tencent.com/qcloud_u/cocopoads-repo"
+source "https://git.tce.fsphere.cn/qcloud_u/cocopoads-repo"
 source "https://github.com/CocoaPods/Specs"
 ~~~
 
@@ -235,12 +235,12 @@ MobileLine Android SDK 不会自动帮您启动服务，需要您自己手动启
 
 |功能|服务名称|入门指南|
 |:---|:---|:---|
-|腾讯移动分析（MTA）|analytics|[Analytics 快速入门](https://cloud.tencent.com/document/product/666/14315)|
-|腾讯移动推送（信鸽）|messaging|[Messaging 快速入门](https://cloud.tencent.com/document/product/666/14350)|
-|腾讯崩溃服务（bugly）|crash|[Crash 快速入门](https://cloud.tencent.com/document/product/666/14311)|
-|腾讯计费（米大师）|payment|[Payment 快速入门](https://cloud.tencent.com/document/product/666/14614)|
-|移动存储（Storage）|storage|[Storage 快速入门](https://cloud.tencent.com/document/product/666/14351)|
-|授权（Authorization）|authorization|[Authorization 快速入门](https://cloud.tencent.com/document/product/666/14333)|
+|腾讯移动分析（MTA）|analytics|[Analytics 快速入门](http://tce.fsphere.cn/document/product/666/14315)|
+|腾讯移动推送（信鸽）|messaging|[Messaging 快速入门](http://tce.fsphere.cn/document/product/666/14350)|
+|腾讯崩溃服务（bugly）|crash|[Crash 快速入门](http://tce.fsphere.cn/document/product/666/14311)|
+|腾讯计费（米大师）|payment|[Payment 快速入门](http://tce.fsphere.cn/document/product/666/14614)|
+|移动存储（Storage）|storage|[Storage 快速入门](http://tce.fsphere.cn/document/product/666/14351)|
+|授权（Authorization）|authorization|[Authorization 快速入门](http://tce.fsphere.cn/document/product/666/14333)|
 
 
 ## 后续步骤
@@ -251,9 +251,9 @@ MobileLine Android SDK 不会自动帮您启动服务，需要您自己手动启
 
 ### 向您的应用添加 MobileLine 功能：
 
-- 借助 [Analytics](https://cloud.tencent.com/document/product/666/14822) 深入分析用户行为。
-- 借助 [messaging](https://cloud.tencent.com/document/product/666/14826) 向用户发送通知。
-- 借助 [crash](https://cloud.tencent.com/document/product/666/14824) 确定应用崩溃的时间和原因。
-- 借助 [storage](https://cloud.tencent.com/document/product/666/14828) 存储和访问用户生成的内容（如照片或视频）。
-- 借助 [authorization](https://cloud.tencent.com/document/product/666/14830) 来进行用户身份验证。
-- 借助 [payment](https://cloud.tencent.com/document/product/666/14832) 获取微信和手 Q 支付能力
+- 借助 [Analytics](http://tce.fsphere.cn/document/product/666/14822) 深入分析用户行为。
+- 借助 [messaging](http://tce.fsphere.cn/document/product/666/14826) 向用户发送通知。
+- 借助 [crash](http://tce.fsphere.cn/document/product/666/14824) 确定应用崩溃的时间和原因。
+- 借助 [storage](http://tce.fsphere.cn/document/product/666/14828) 存储和访问用户生成的内容（如照片或视频）。
+- 借助 [authorization](http://tce.fsphere.cn/document/product/666/14830) 来进行用户身份验证。
+- 借助 [payment](http://tce.fsphere.cn/document/product/666/14832) 获取微信和手 Q 支付能力

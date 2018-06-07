@@ -2,7 +2,7 @@
 
 ## 双人视频
 
-下载[Windows SDK+Demo](https://cloud.tencent.com/document/product/454/7873#Windows) ，打开CustomServiceDemo.exe程序，首页包含3种模式，**[标准直播](https://cloud.tencent.com/document/product/454/13627)**、**双人视频**和**多人视频**。
+下载[Windows SDK+Demo](http://tce.fsphere.cn/document/product/454/7873#Windows) ，打开CustomServiceDemo.exe程序，首页包含3种模式，**[标准直播](http://tce.fsphere.cn/document/product/454/13627)**、**双人视频**和**多人视频**。
 
 双人视频通话的功能，双人视频用于体验双人实时视频通话功能，金融和保险等行业的客服进行一对一的视频沟通，这是比较常见的场景。
 
@@ -51,7 +51,7 @@
 
 ![时序图](http://mc.qcloudimg.com/static/img/ea4e53c29ae574288aa71ff4e7b0a757/image.png)
 
-**step1：**A创建房间room-A，向业务服务器请求推流和拉流地址，获取 push-url-A 和低延时的 play-url-A，服务器分配 URL 的方法参考 [DOC](https://cloud.tencent.com/document/product/454/7915)
+**step1：**A创建房间room-A，向业务服务器请求推流和拉流地址，获取 push-url-A 和低延时的 play-url-A，服务器分配 URL 的方法参考 [DOC](http://tce.fsphere.cn/document/product/454/7915)
 
 **step2：**A创建TXPusher实例，推流的URL使用push-url-A ，通过setCallback接口监听推流事件
 
@@ -97,7 +97,7 @@
 
 ##### step5：多人参与
 
-目前腾讯云多人视频通话的功能，支持最多4个人同时进行，但实际场景下，不限定为4个，业务方根据自身需要设定支持参与通话的人数上限。再找两台手机，重复step3和step4的步骤，参与到同一房间中，此时可以体验多人视频通话的功能。
+目前云平台多人视频通话的功能，支持最多4个人同时进行，但实际场景下，不限定为4个，业务方根据自身需要设定支持参与通话的人数上限。再找两台手机，重复step3和step4的步骤，参与到同一房间中，此时可以体验多人视频通话的功能。
 
 
 
@@ -127,6 +127,6 @@ RTCRoom 的 Client 部分（即 RTCRoom.cs 的 C# 文件） 提供了一组 API 
 - **列表管理**
   RTCRoom 的 Server 部分是一组用于**房间列表管理**和**成员列表管理**的简单代码实现。以视频会议为例，一个公司同时可能会有多个进行中的视频会议，那么每一个会议都是一个房间，每一个房间里又有多个与会者。所以对于房间的管理和对于房间中成员的管理就是 Server 部分的工作。
 - **事件通知**
-  Server 还有一个重要职责，就是当房间解散以及成员进出时，通过 IM 消息通道通知房间里的各个成员。由于腾讯云已经有非常成熟的 IM 通讯解决方案，所以我们能够直接复用。
+  Server 还有一个重要职责，就是当房间解散以及成员进出时，通过 IM 消息通道通知房间里的各个成员。由于云平台已经有非常成熟的 IM 通讯解决方案，所以我们能够直接复用。
 - **心跳机制**
   考虑到商用解决方案应当尽量避免端口限制，因此我们并没有采用时下比较流行的 websocket 技术，而是基于简单的 http 协议实现后台接口，因为我们多实现了一个简单的心跳机制，以避免某个终端在崩溃或者异常退出时能够被 Server 感知到。

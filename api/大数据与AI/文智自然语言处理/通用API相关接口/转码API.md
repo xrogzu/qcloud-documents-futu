@@ -67,7 +67,7 @@
 </th><th width="150"> <b>参数值示例</b>
 </th></tr>
 <tr>
-<td rowspan="4">腾讯云公共参数 </td><td> Action </td><td> 方法名 </td><td> 是 </td><td> ContentTranscode
+<td rowspan="4">云平台公共参数 </td><td> Action </td><td> 方法名 </td><td> 是 </td><td> ContentTranscode
 </td></tr>
 <tr>
 <td> SecretId </td><td> SecretId </td><td> 是 </td><td> AKIDz8krbsJ5yKBZQpn74WFkmLPx3gnPhESA
@@ -103,7 +103,7 @@
     }</pre>
 </div>
 
-  根据上述参数列表进行签名，得出的数字签名为：HgIYOPcx5lN6gz8JsCFBNAWp2oQ（示例），详细的数字签名的生成方法请参照：《腾讯云接口鉴权》。
+  根据上述参数列表进行签名，得出的数字签名为：HgIYOPcx5lN6gz8JsCFBNAWp2oQ（示例），详细的数字签名的生成方法请参照：《云平台接口鉴权》。
 <b>注意：</b>
   1）在生成签名的过程中，需要将加密字符串中包含的“_”改写成“.”，从而加密产生签名；
   2）鉴权时，需要将参数列表按key进行排序：字典序，同时大写在前。

@@ -42,4 +42,4 @@
 请提交工单联系我们。
 
 ## 9 连接诊断
-详见： [云缓存Memcached连接诊断](https://cloud.tencent.com/doc/product/241/3247)
+详见： [云缓存Memcached连接诊断](http://tce.fsphere.cn/doc/product/241/3247)

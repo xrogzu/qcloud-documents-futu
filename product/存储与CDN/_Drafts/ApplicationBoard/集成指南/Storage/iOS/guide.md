@@ -15,7 +15,7 @@
 并在您的 Podfile 文件中添加 应用云 的私有源
 
 ~~~
-source "https://git.cloud.tencent.com/qcloud_u/cocopoads-repo"
+source "https://git.tce.fsphere.cn/qcloud_u/cocopoads-repo"
 source "https://github.com/CocoaPods/Specs"
 ~~~
 
@@ -76,7 +76,7 @@ import TACStorage
 
 ##### （6） 配置 TACStorage 的使用权限
 
-TACStorage 后台为腾讯云COS服务，在使用COS服务的时候需要对请求进行权限校验，来确保对应的请求是否有权限访问对应的资源。因而您需要在您的代码中实现 `QCloudCredentailFenceQueueDelegate` 协议来提供相关的权限信息。
+TACStorage 后台为云平台COS服务，在使用COS服务的时候需要对请求进行权限校验，来确保对应的请求是否有权限访问对应的资源。因而您需要在您的代码中实现 `QCloudCredentailFenceQueueDelegate` 协议来提供相关的权限信息。
 
 ~~~
 @interface TACStorageDemoViewController () <QCloudCredentailFenceQueueDelegate>
@@ -96,7 +96,7 @@ TACStorage 后台为腾讯云COS服务，在使用COS服务的时候需要对请
     continueBlock(creator, nil);
 #else
 
-    //您需要配置自己的服务器，来获取CAM临时密钥。并通过临时密钥来创建权限Creator。具体可以参考：[快速搭建移动应用传输服务](https://cloud.tencent.com/document/product/436/9068)
+    //您需要配置自己的服务器，来获取CAM临时密钥。并通过临时密钥来创建权限Creator。具体可以参考：[快速搭建移动应用传输服务](http://tce.fsphere.cn/document/product/436/9068)
     void(^NetworkCall)(id response, NSError* error) = ^(id response, NSError* error) {
         if (error) {
             continueBlock(nil, error);

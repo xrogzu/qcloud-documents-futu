@@ -23,7 +23,7 @@ SDK工具包目录结构说明:
 ```
 /**
  开始加载H5
- @param url，业务服务器通过腾讯云拉取的验证码URL
+ @param url，业务服务器通过云平台拉取的验证码URL
  @param frame, webView控件大小
  @return 返回H5的webView控件
  @note 该函数用于开始加载，并且返回H5的webView控件，用于显示
@@ -31,7 +31,7 @@ SDK工具包目录结构说明:
  */
 - (UIView*)startLoad:(NSString*)url webFrame:(CGRect)frame;
 ```
-<mark>主要函数，通过腾讯云返回的验证码URL创建一个用于显示的webView控件；<mark>
+<mark>主要函数，通过云平台返回的验证码URL创建一个用于显示的webView控件；<mark>
 
 ```
 /**

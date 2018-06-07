@@ -81,7 +81,7 @@ qcloud.request({
 
 ## 信道服务
 
-[信道服务](https://github.com/tencentyun/wafer-solution/wiki/%E4%BF%A1%E9%81%93%E6%9C%8D%E5%8A%A1)小程序支持利用腾讯云的信道资源使用 WebSocket 服务。
+[信道服务](https://github.com/tencentyun/wafer-solution/wiki/%E4%BF%A1%E9%81%93%E6%9C%8D%E5%8A%A1)小程序支持利用云平台的信道资源使用 WebSocket 服务。
 
 ```js
 // 创建信道，需要给定后台服务地址

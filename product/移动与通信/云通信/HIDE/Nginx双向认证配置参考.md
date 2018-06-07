@@ -5,13 +5,13 @@
 ### 1.1 第三方开发者已有权威第三方签发的证书
 
 	开发者准备权威第三方为www.example.com签发的证书www.example.com.crt和派发的私钥www.example.com.key；注意必须是权威的第三方机构（如天威、globalsign等）签发的证书；
-	腾讯云给开发者后台提供用于验证请求方（腾讯）证书的CA证书TencentQQAuthCA.crt。
+	云平台给开发者后台提供用于验证请求方（腾讯）证书的CA证书TencentQQAuthCA.crt。
 	
-### 1.2 第三方开发者向腾讯云申请为域名签发证书
+### 1.2 第三方开发者向云平台申请为域名签发证书
 
-	第三方开发者向腾讯云提供开发者后台域名，例如www.example.com；
-	腾讯云给开发者后台域名www.example.com签发证书和私钥，www.example.com.crt和www.example.com.key；
-	同时腾讯云给开发者后台提供用于验证请求方（腾讯）证书的CA证书TencentQQAuthCA.crt。
+	第三方开发者向云平台提供开发者后台域名，例如www.example.com；
+	云平台给开发者后台域名www.example.com签发证书和私钥，www.example.com.crt和www.example.com.key；
+	同时云平台给开发者后台提供用于验证请求方（腾讯）证书的CA证书TencentQQAuthCA.crt。
 	
 ### 1.3 Nginx配置参考
 

@@ -1,8 +1,8 @@
 ## step1. 修改Podfile文件
 
-修改 pod 所需的 Podfile 文件，增加腾讯云 LiteAV SDK 的pod路径，如下有两种设置方案：
+修改 pod 所需的 Podfile 文件，增加云平台 LiteAV SDK 的pod路径，如下有两种设置方案：
 
-- **方案一：** 使用腾讯云提供的pod路径，该方案下载的是最新版本的SDK, 下载速度较快
+- **方案一：** 使用云平台提供的pod路径，该方案下载的是最新版本的SDK, 下载速度较快
 
 ```
 platform :ios, '8.0'

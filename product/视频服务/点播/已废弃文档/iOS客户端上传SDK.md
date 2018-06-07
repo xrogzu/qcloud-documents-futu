@@ -1,6 +1,6 @@
 ## 简介
 
-iOS 平台的客户端上传 SDK，可向腾讯云点播系统上传视频和封面文件。
+iOS 平台的客户端上传 SDK，可向云平台点播系统上传视频和封面文件。
 
 ## 集成方式
 ### 下载 SDK
@@ -28,7 +28,7 @@ iOS 平台的客户端上传 SDK，可向腾讯云点播系统上传视频和封
 
 | 参数名称 | 必填 | 类型 | 含义 |
 | --- | --- | --- | --- |
-| secretId | 是 | String | [云 API 密钥](https://console.cloud.tencent.com/capi)的 Secret ID |
+| secretId | 是 | String | [云 API 密钥](http://console.tce.fsphere.cn/capi)的 Secret ID |
 | signature | 是 | String | 从 APP 服务器获取的[上传签名](/document/product/266/9221) |
 | forceHttps | 是 | Bool | 是否只允许使用 HTTPS 协议 |
 

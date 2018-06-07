@@ -6,7 +6,7 @@
 ```
 <property>
 <name>hbase.zookeeper.quorum</name>
-<value>(腾讯云提供的连接地址和端口，管理控制台可查)</value>
+<value>(云平台提供的连接地址和端口，管理控制台可查)</value>
 </property>
 <property>
 <name> chbase.tencent.enable </name>

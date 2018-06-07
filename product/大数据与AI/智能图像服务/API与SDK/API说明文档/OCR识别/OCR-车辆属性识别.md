@@ -18,7 +18,7 @@ http://recognition.image.myqcloud.com/car/classify
 ### 头部信息
 | 参数名            | 值                              | 描述                                       |
 | -------------- | ------------------------------ | ---------------------------------------- |
-| Host           | recognition.image.myqcloud.com | 腾讯云文字识别服务器域名                           |
+| Host           | recognition.image.myqcloud.com | 云平台文字识别服务器域名                           |
 | Content-Length | 包体总长度                          | 整个请求包体内容的总长度，单位：字节（Byte）          |
 | Content-Type   | multipart/form-data               | 上传本地图片                                 |
 | Authorization  | 鉴权签名                           | 多次有效签名，用于鉴权， 具体生成方式详见 [鉴权签名方法](/document/product/641/12409) |
@@ -31,7 +31,7 @@ http://recognition.image.myqcloud.com/car/classify
 ### 请求参数
 | 参数名称   | 是否必选 | 类型     | 说明           |
 | ------ | ---- | ------ | ------------ |
-| app_id | 必须   | String | 腾讯云申请的 AppId |
+| app_id | 必须   | String | 云平台申请的 AppId |
 | image  | 可选   | Binary | base64 图片数据   |
 
 ### 示例：使用图片文件

@@ -3,11 +3,11 @@
 如果您想要通过 Windows 云服务器使用 SQL Server Management Studio（SSMS） 连接到 SQL Server 云数据库，请参考入门教程 [创建并连接 SQL Server 云数据库（Windows 云服务器端）](/document/product/238/11626)。
 
 > **注意：**
-> 在创建 SQL Server 云数据库实例之前，您必须拥有一个腾讯云帐户。如果您没有腾讯云帐户，请在 [注册页面](https://cloud.tencent.com/register) 填写相关信息注册腾讯云帐户。
+> 在创建 SQL Server 云数据库实例之前，您必须拥有一个云平台帐户。如果您没有云平台帐户，请在 [注册页面](http://tce.fsphere.cn/register) 填写相关信息注册云平台帐户。
 
 ## 一、创建 SQL Server 云数据库实例
-在此步骤中，您会使用腾讯云控制台创建数据库实例。
-1. 登录 [云数据库控制台](https://console.cloud.tencent.com/cdb)。
+在此步骤中，您会使用云平台控制台创建数据库实例。
+1. 登录 [云数据库控制台](http://console.tce.fsphere.cn/cdb)。
 ![](https://mc.qcloudimg.com/static/img/7f454c8f988ec22c4045b33c47571024/image.png)
 2. 在右侧导航栏选择需要创建的云数据库类型，这里选择【SQL Server】。单击【+新建】，进入云数据库 SQL Server 购买界面。
 ![](https://mc.qcloudimg.com/static/img/798911fbe873e0a59de7d749b365c0ca/image.png)
@@ -19,7 +19,7 @@
  - 实例规格和所需的硬盘。
  - 购买数量和购买时长。
 ![](https://mc.qcloudimg.com/static/img/1630495ca9ca9001b4cdef32e1b85364/image.png)
-4. 进入 [云数据库控制台](https://console.cloud.tencent.com/cdb)，选择【SQL Server】，查看刚才创建的云数据库实例。当运行状态显示 **运行中**，表示云数据库 SQL Server 创建成功。
+4. 进入 [云数据库控制台](http://console.tce.fsphere.cn/cdb)，选择【SQL Server】，查看刚才创建的云数据库实例。当运行状态显示 **运行中**，表示云数据库 SQL Server 创建成功。
 ![](https://mc.qcloudimg.com/static/img/eedd98d6992bdb6e06d25d8380365e89/image.png)
 5. 在 SQL Server 云数据库管理界面，单击【管理】，进入 SQL Server 云数据库实例详情页。
 ![](https://mc.qcloudimg.com/static/img/aeb4d8c1b053c4ea9dbb6f5a9a48fc4d/image.png)
@@ -32,7 +32,7 @@
 考虑到数据的安全，目前 CDB for SQL Server 尚未开放实例的外网 IP，但有需求的用户可以利用 SSH2 的端口映射在外网连接实例，并对其进行配置和管理。本教程以 SecureCRT 为例进行说明。
 1. 在 SQL Server 云数据库实例详情页，单击【实例详情】，查看 SQL Server 云数据库实例的内网 IP 及端口号。**该内网 IP 及端口号会在配置端口映射时使用。**
 ![](https://mc.qcloudimg.com/static/img/6dcf51fc839f1ea7c47c26609b711ede/image.png)
-2. 准备一台  **具有外网 IP** 的 Linux 云服务器。如果您还没有腾讯云 Linux 云服务器，请参考 [快速入门 Linux 云服务器](/doc/product/213/2936)。
+2. 准备一台  **具有外网 IP** 的 Linux 云服务器。如果您还没有云平台 Linux 云服务器，请参考 [快速入门 Linux 云服务器](/doc/product/213/2936)。
 3. 在本地使用 SSH 工具（如 SecureCRT 或 Putty 等）登录 Linux 云服务器。登录方法请参考 [登录 Linux 实例](/doc/product/213/5436)。
 4. 在 SecureCRT 菜单栏单击【Options】>【Session Options】，进入会话属性设置。
 ![](https://mc.qcloudimg.com/static/img/6f48c98d69986fd497535ec8760a0a49/image.png)
@@ -53,7 +53,7 @@
 ```
 select @@VERSION
 ```
-运行查询。SQL Server Management Studio 会返回 SQL Server 版的腾讯云云数据库实例。
+运行查询。SQL Server Management Studio 会返回 SQL Server 版的云平台云数据库实例。
 ![](https://mc.qcloudimg.com/static/img/fbf64c03c7addda9c80fdd3dac7bbebb/image.png)
 
 ## 三、删除 SQL Server 云数据库实例

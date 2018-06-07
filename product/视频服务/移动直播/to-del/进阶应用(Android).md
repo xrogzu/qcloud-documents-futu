@@ -1,5 +1,5 @@
 ## 1. 推流原理
-腾讯云 RTMP SDK 内部状态机原理如下图所示：
+云平台 RTMP SDK 内部状态机原理如下图所示：
 - **Step1 - 调用的起点：**TXLivePush 对象的 startPush 被调用后，推流的流程便会开始启动。
 
 - **step2 - 连接服务器：**推流的第一步是尝试连接推流服务器，如果失败会抛出 NET_DISCONNECT 错误而不会继续执行后续流程。
@@ -55,11 +55,11 @@ RTMP SDK 在设计之初就尽量避免过于封闭，让您觉得 SDK 完全是
 >但是，如果系统的整体CPU使用率超过 80%，那么视频的采集和编码都有可能会有影响；如果CPU使用率达到 100%，那么主播端本身就已经卡的一塌糊涂了，观众端要有流畅的观看体验显然是不可能的。
 
 **4. SERVER_IP 的 ping 值**
->如果主播到 SERVER_IP 给出的 ip 地址的 ping 值很高（比如超过 500ms），那么推流质量一定无法保障。**就近接入**是我们腾讯云应该做好的事情，如您发现有这样的案例，请反馈给我们，我们的运维团队会持续调整和优化之。
+>如果主播到 SERVER_IP 给出的 ip 地址的 ping 值很高（比如超过 500ms），那么推流质量一定无法保障。**就近接入**是我们云平台应该做好的事情，如您发现有这样的案例，请反馈给我们，我们的运维团队会持续调整和优化之。
 
 ### 2.2 SDK推流质量专区
 
-您在 2.1 中所看到的图表是源于我们实验测试用的内部数据分析系统，如果您有同样的分析需求，可以在[直播控制台](https://console.cloud.tencent.com/live)的质量监控系统里看到类似的图表，这里的图表的格式更加简明，对其理解不需要太多专业的音视频基础知识。
+您在 2.1 中所看到的图表是源于我们实验测试用的内部数据分析系统，如果您有同样的分析需求，可以在[直播控制台](http://console.tce.fsphere.cn/live)的质量监控系统里看到类似的图表，这里的图表的格式更加简明，对其理解不需要太多专业的音视频基础知识。
 ![](https:https://mc.qcloudimg.com/static/img/4bf231da79ec8e45bdc4c16c927da47f/image.png)
 
 ## 3. 参数校调
@@ -81,7 +81,7 @@ RTMP SDK 在设计之初就尽量避免过于封闭，让您觉得 SDK 完全是
 | setHomeOrientation| 设置视频图像旋转角度，比如是否要横屏推流  |   home在右边（0）home在下面（1）home在左面（2）home在上面（3）   |
 | setBeautyFilter| 美颜级别：支持1~9 共9个级别，级别越高，效果越明显。0表示关闭  |   关闭   |
 | setFrontCamera | 默认是前置还是后置摄像头 | 前置 |
-| setWatermark | 水印图片（UIImage对象） | 腾讯云Logo（demo）  |    
+| setWatermark | 水印图片（UIImage对象） | 云平台Logo（demo）  |    
 | setTouchFocus| 是否开启手动对焦| 开启 |
 | setPauseImg | 设置后台推流时垫片用的图片 | Demo中打包的一张资源图片 | 
 
@@ -248,8 +248,8 @@ mTextureView.setSurfaceTextureListener(new TextureView.SurfaceTextureListener() 
 });
 ```
 
-如果您在调整画面尺寸遇到问题，可以参考下完整的示例代码 - [调整画面尺寸](https://cloud.tencent.com/document/product/454/9723)
-如果您在使用 OpenGL ES 对视频数据进行二次处理没有思路，可以参考下示例代码 - [OpenGL ES 处理数据](https://cloud.tencent.com/document/product/454/9724)
+如果您在调整画面尺寸遇到问题，可以参考下完整的示例代码 - [调整画面尺寸](http://tce.fsphere.cn/document/product/454/9723)
+如果您在使用 OpenGL ES 对视频数据进行二次处理没有思路，可以参考下示例代码 - [OpenGL ES 处理数据](http://tce.fsphere.cn/document/product/454/9724)
 
 ## 7.获取解码后的视频数据
 如果您想通过获取 SDK 解码之后的 YUV 类型的视频数据，您可以按如下步骤实现。

@@ -75,7 +75,7 @@ public class MR {
 		Configuration conf=job.getConfiguration();
 		// 填写zookeeper地址，多个地址用英文逗号隔开
 		conf.set("hbase.zookeeper.quorum", "10.66.133.178:2181");
-		//必填：填写腾讯云Hbase实例ID
+		//必填：填写云平台Hbase实例ID
 	    conf.set("yarn.chbase.tencent.instanceid", "chb-lpvsvdlr");
 		job.setJobName("testjob");
 		

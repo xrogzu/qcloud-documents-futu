@@ -1,6 +1,6 @@
 ##  替换客户端jar包
 
-连接腾讯云Hbase服务，需要使用我们提供的jar包来替换社区版本的部分jar包，并设置相应的参数
+连接云平台Hbase服务，需要使用我们提供的jar包来替换社区版本的部分jar包，并设置相应的参数
 
 1).如您使用maven管理jar包，可参考如下pom设置来拉取和替换jar包：
 	
@@ -171,7 +171,7 @@
 			<artifactId>avro</artifactId>
 			<version>1.7.4</version>
 		</dependency>
-		<!-- 导入腾讯云提供的jar包，注意修改jar包路径 -->
+		<!-- 导入云平台提供的jar包，注意修改jar包路径 -->
 		<dependency>
 			<groupId>org.apache.hadoop</groupId>
 			<artifactId>hadoop-annotations</artifactId>

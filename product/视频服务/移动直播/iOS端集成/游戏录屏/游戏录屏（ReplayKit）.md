@@ -4,7 +4,7 @@
 录屏功能是iOS 10新推出的特性，苹果在 iOS 9 的 ReplayKit 保存录屏视频的基础上，增加了视频流实时直播功能，官方介绍见 [Go Live with ReplayKit](http://devstreaming.apple.com/videos/wwdc/2016/601nsio90cd7ylwimk9/601/601_go_live_with_replaykit.pdf)。
 iOS 11新增的ReplayKit2，进一步提升了Replaykit的易用性，可以对整个手机实现屏幕录制，而非某些特定App。
 
-扩展程序有单独的进程。iOS系统为了保证系统流畅，给扩展程序的资源相对较少，扩展程序内存占用过大也会被Kill掉。腾讯云RTMP SDK在原有直播的高质量、低延迟的基础上，进一步降低系统消耗，保证了扩展程序稳定。
+扩展程序有单独的进程。iOS系统为了保证系统流畅，给扩展程序的资源相对较少，扩展程序内存占用过大也会被Kill掉。云平台RTMP SDK在原有直播的高质量、低延迟的基础上，进一步降低系统消耗，保证了扩展程序稳定。
 
 > iOS 11和iOS 10的扩展程序编写并无区别，本文将介绍iOS 11上使用SDK的方法，代码同样适用于iOS 10
 
@@ -51,9 +51,9 @@ iOS 10的Replay Kit支持两种直播方式
 
 ### 导入RTMP SDK
 
-直播扩展需要导入TXLiteAVSDK.framework。扩展导入framework的方式和主App导入方式相同，SDK的系统依赖库也没有区别。具体可参考腾讯云官网《工程配置(iOS)》
+直播扩展需要导入TXLiteAVSDK.framework。扩展导入framework的方式和主App导入方式相同，SDK的系统依赖库也没有区别。具体可参考云平台官网《工程配置(iOS)》
 
-> https://cloud.tencent.com/doc/api/258/5320
+> http://tce.fsphere.cn/doc/api/258/5320
 
 
 ## 对接流程
@@ -120,9 +120,9 @@ s_txLivePublisher是我们用于推流的对象。实例化s_txLivePublisher的�
 }
 ```
 
-s_txLivePublisher的config不能使用默认的配置，需要设置自定义采集视频和音频。关于自定义采集的设置的原理和工作方式，参见腾讯云文档《RTMP推流－进阶应用》
+s_txLivePublisher的config不能使用默认的配置，需要设置自定义采集视频和音频。关于自定义采集的设置的原理和工作方式，参见云平台文档《RTMP推流－进阶应用》
 
-> https://cloud.tencent.com/doc/api/258/6458
+> http://tce.fsphere.cn/doc/api/258/6458
 
 视频启用autoSampleBufferSize，开启此选项后，您不需要关心推流的分辨率，SDK会自动根据输入的分辨率设置编码器；如果您关闭此选项，那么代表您需要自定义分辨率
 
@@ -211,7 +211,7 @@ SDK事件监听需要设置`TXLivePush`的delegate属性，该delegate遵循`TXL
 
 | 事件ID                  | 数值   | 含义说明                 |
 | --------------------- | ---- | -------------------- |
-| PUSH_EVT_CONNECT_SUCC | 1001 | 已经成功连接到腾讯云推流服务器      |
+| PUSH_EVT_CONNECT_SUCC | 1001 | 已经成功连接到云平台推流服务器      |
 | PUSH_EVT_PUSH_BEGIN   | 1002 | 与服务器握手完毕,一切正常，准备开始推流 |
 
 常规事件通常无须处理。

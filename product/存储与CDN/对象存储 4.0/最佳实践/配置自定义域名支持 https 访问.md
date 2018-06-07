@@ -34,7 +34,7 @@ server {
         
 }
 ```
-其中`server.crt;`、`server.key`是您的自有（自定义）域名的 HTTPS 证书。若您的域名还没有 HTTPS 证书 ，可以在 [腾讯云 SSL 证书](https://cloud.tencent.com/product/ssl) 页面申请。
+其中`server.crt;`、`server.key`是您的自有（自定义）域名的 HTTPS 证书。若您的域名还没有 HTTPS 证书 ，可以在 [云平台 SSL 证书](http://tce.fsphere.cn/product/ssl) 页面申请。
 若暂时没有证书，可以删除以下配置信息，但访问时会出现告警，点击继续即可访问：
 ```
     ssl on;
@@ -43,7 +43,7 @@ server {
 ```
 
 ### 三、解析域名到服务器
-在您域名的 DNS 解析服务商处解析您的域名。若您使用的是腾讯云云解析，请前往 [云解析控制台](https://console.qcloud.com/cns/domains)，将域名`test.cos.com`解析到步骤二中的服务器的 IP 上，指引参考 [域名解析](/doc/product/302/3446)。
+在您域名的 DNS 解析服务商处解析您的域名。若您使用的是云平台云解析，请前往 [云解析控制台](https://console.qcloud.com/cns/domains)，将域名`test.cos.com`解析到步骤二中的服务器的 IP 上，指引参考 [域名解析](/doc/product/302/3446)。
 ### 进阶配置
 #### 通过浏览器直接打开网页
 在配置好自定义域名支持 HTTPS 访问后，就可以通过您的域名下载存储桶（Bucket）中的对象（Object）了。若根据业务需要，想直接在浏览器中访问网页、图片等，可通过静态网站功能实现。操作指引参考 [静态网站设置](/doc/product/436/6249)。

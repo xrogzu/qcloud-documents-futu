@@ -1,5 +1,5 @@
 ## 接口描述
-**QueryCdnIp** 查询指定 IP 是否属于腾讯云 CDN 节点，及其服务状态。
+**QueryCdnIp** 查询指定 IP 是否属于云平台 CDN 节点，及其服务状态。
 
 请求域名：<font style="color:red">cdn.api.qcloud.com</font>
 
@@ -8,10 +8,10 @@
 + 调用频次限制为 3000次/分钟
 
 
-[查看调用示例](https://cloud.tencent.com/document/product/228/1734)
+[查看调用示例](http://tce.fsphere.cn/document/product/228/1734)
 
 ## 入参说明
-以下请求参数列表仅列出了接口请求参数，正式调用时需要加上公共请求参数，见[公共请求参数](https://cloud.tencent.com/doc/api/231/4473)页面。其中，此接口的 Action 字段为 QueryCdnIp。
+以下请求参数列表仅列出了接口请求参数，正式调用时需要加上公共请求参数，见[公共请求参数](http://tce.fsphere.cn/doc/api/231/4473)页面。其中，此接口的 Action 字段为 QueryCdnIp。
 
 | 参数名称 | 是否必选 | 类型     | 描述                |
 | ---- | ---- | ------ | ----------------- |
@@ -20,9 +20,9 @@
 ## 出参说明
 | 参数名称     | 类型     | 描述                                       |
 | -------- | ------ | ---------------------------------------- |
-| code     | Int    | 公共错误码，0表示成功，其他值表示失败。<br/>详见错误码页面[公共错误码](https://cloud.tencent.com/doc/api/231/5078#1.-.E5.85.AC.E5.85.B1.E9.94.99.E8.AF.AF.E7.A0.81) |
+| code     | Int    | 公共错误码，0表示成功，其他值表示失败。<br/>详见错误码页面[公共错误码](http://tce.fsphere.cn/doc/api/231/5078#1.-.E5.85.AC.E5.85.B1.E9.94.99.E8.AF.AF.E7.A0.81) |
 | message  | String | 模块错误信息描述，与接口相关。                          |
-| codeDesc | String | 英文错误信息，或业务侧错误码。<br/>详见错误码页面[业务错误码](https://cloud.tencent.com/document/product/228/5078#2.-.E6.A8.A1.E5.9D.97.E9.94.99.E8.AF.AF.E7.A0.81) |
+| codeDesc | String | 英文错误信息，或业务侧错误码。<br/>详见错误码页面[业务错误码](http://tce.fsphere.cn/document/product/228/5078#2.-.E6.A8.A1.E5.9D.97.E9.94.99.E8.AF.AF.E7.A0.81) |
 | data     | Object | 返回结果数据                                   |
 
 #### 详细说明
@@ -39,7 +39,7 @@
 | 参数名称      | 类型     | 描述                                       |
 | --------- | ------ | ---------------------------------------- |
 | ip        | String | 查询的 IP                                   |
-| platform  | String | 是否属于 CDN 节点<br/>"yes"：属于腾讯云 CDN<br/>"no"：不属于腾讯云 CDN |
+| platform  | String | 是否属于 CDN 节点<br/>"yes"：属于云平台 CDN<br/>"no"：不属于云平台 CDN |
 | prov_name | String | 节点所在省份                                   |
 | isp_name  | String | 节点运营商                                    |
 | status    | String | 节点运行状态<br/>"on"：表示节点正常服务中<br/>"off"：表示节点未在服务中 |

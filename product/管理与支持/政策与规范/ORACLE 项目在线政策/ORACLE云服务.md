@@ -1,5 +1,5 @@
 Tencent Cloud Computing (Beijing) Limited Liability Company (“Tencent”)
-腾讯云计算（北京）有限责任公司（“腾讯”或“乙方”）
+云平台计算（北京）有限责任公司（“腾讯”或“乙方”）
 
 20th Floor, Yin Ke Building, No. 38 Haidian street, Haidian District, Beijing 100080, China
 中国北京市海淀区海淀大街38号银科大厦20层

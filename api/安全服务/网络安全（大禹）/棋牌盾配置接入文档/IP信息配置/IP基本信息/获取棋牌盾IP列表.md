@@ -4,7 +4,7 @@
 接口名：ShieldGetServicePacks
 
 ### 2.输入参数
-以下请求参数列表仅列出了接口请求参数，正式调用时需要加上公共请求参数，详见[公共参数说明](https://cloud.tencent.com/document/product/295/7279)页面。其中，此接口的Action字段为ShieldGetServicePacks。
+以下请求参数列表仅列出了接口请求参数，正式调用时需要加上公共请求参数，详见[公共参数说明](http://tce.fsphere.cn/document/product/295/7279)页面。其中，此接口的Action字段为ShieldGetServicePacks。
 
 | 参数名称 | 是否必须 | 类型 | 描述 |
 |---------|---------|---------|---------|
@@ -28,7 +28,7 @@
 |bandwidth|<font color=red>5000Mbps </font color=red>| Integer | 棋牌盾IP的防护带宽，单位是Mbps |
 |status|<font color=red>idle<br>attacking<br>blocking<br>creating </font color=red>| String | 棋牌盾IP的状态：<br>idle:正常工作中<br>attacking:正在被攻击<br>blocking:被封堵<br>creating:正常创建中 |
 |expire|<font color=red>2016-03-02<br>01:23:45 </font color=red>| Time | 棋牌盾IP的到期时间，格式是YYYY-MM-DD XX:XX:XX，如2016-11-10 11:00:00|
-|transTarget|<font color=red>nqcloud </font color=red>| String | 棋牌盾IP的转发目标（源站位置）<br>qcloud:腾讯云内<br>nqcloud:腾讯云外<br>目前固定 nqcloud|
+|transTarget|<font color=red>nqcloud </font color=red>| String | 棋牌盾IP的转发目标（源站位置）<br>qcloud:云平台内<br>nqcloud:云平台外<br>目前固定 nqcloud|
 |transRules|<font color=red>12</font color=red>| Integer | 该棋牌盾IP配置的转发规则数 |
 |grpName|<font color=red>分组1 </font color=red>|String|棋牌盾IP所属分组的名称，如果没有分组则这个字段是空字符串 |
 |ipAmount|<font color=red>1 </font color=red>| Integer | 可忽略 |

@@ -54,7 +54,7 @@ NAT 网关主要有以下几点关键特性：
 - 用户无法直接使用网络 ACL 控制进出 NAT 网关的流量，但可以使用网络 ACL 控制进出 NAT 网关所关联子网的流量。
 - 用户无法通过 VPC 对等连接、VPN 连接或专线接入将流量路由到 NAT 网关，这些连接另一端的资源不能使用 NAT 网关。例如，VPC 1 的发往 Internet 的流量都可以通过 NAT 网关实现，现在 VPC 1 和 VPC 2 建立了对等连接，VPC 2 里所有资源可以访问 VPC 1 中的所有资源，但 VPC 2 中的所有资源不可以经过 NAT 网关访问 Internet。
 - NAT 网关支持 TCP、UDP 和 ICMP 协议，而 GRE 隧道和 IPSec 使用的 ESP、AH 则无法使用 NAT 网关，这是由于 NAT 网关本身的特性决定的，与服务提供商无关。幸运的是互联网大部分应用都是 TCP 应用，TCP 和 UDP 应用合起来占互联网应用类型的99%。
-- NAT 网关资源支持限制如下表所示，您还可以查看 [VPC 其它产品的使用约束](https://cloud.tencent.com/doc/product/215/537)。
+- NAT 网关资源支持限制如下表所示，您还可以查看 [VPC 其它产品的使用约束](http://tce.fsphere.cn/doc/product/215/537)。
 
 | 资源| 限制 | 
 |---------|---------|
@@ -70,7 +70,7 @@ NAT 网关主要有以下几点关键特性：
 ### 快速入门
 您需要完成以下两个步骤，您可以通过 NAT 网关访问 Internet：
 #### 第一步：创建NAT网关
-1. 登录 [云平台控制台](https://console.cloud.tencent.com/)，选择【私有网络】选项卡，选择【NAT 网关】。
+1. 登录 [云平台控制台](http://console.tce.fsphere.cn/)，选择【私有网络】选项卡，选择【NAT 网关】。
 2. 点击左上角【新建】按钮，在弹出框中依次输入或确定以下参数：
  - 网关名称
  - 网关类型（网关类型创建后可更改）
@@ -81,15 +81,15 @@ NAT 网关主要有以下几点关键特性：
 
 
 #### 第二步：配置相关子网所关联的路由表
-1. 登录 [云平台控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入 [私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)。选择【路由表】。
+1. 登录 [云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)。选择【路由表】。
 2. 在路由表列表中，点击需要访问 Internet 的子网所关联的路由表 ID 进入路由表详情页，在路由策略中点击【编辑】按钮。
 3. 点击新增一行，填入目的端，下一跳类型选择【NAT 网关】，并选择已创建的 NAT 网关 ID。
 4. 点击【确定】按钮。完成以上配置后，关联此路由表的子网内的云主机访问 Intenet 的流量将指向 NAT 网关。
 
 
 ### 新建端口转发规则
-端口转发表是 NAT 网关上的一张配置表，用于配置 NAT 网关上的 DNAT 功能，可将 VPC 内的云主机的[内网 IP，协议，端口]映射成[外网 IP，协议，端口]，使得云主机上的服务可被外网访问。（内测中，如有需求，请提供 [工单申请](https://console.cloud.tencent.com/workorder/category/create?level1_id=6&level2_id=168&level1_name=%E8%AE%A1%E7%AE%97%E4%B8%8E%E7%BD%91%E7%BB%9C&level2_name=%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%20VPC)）
-1. 登录 [云平台控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入 [私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)。选择【NAT 网关】。
+端口转发表是 NAT 网关上的一张配置表，用于配置 NAT 网关上的 DNAT 功能，可将 VPC 内的云主机的[内网 IP，协议，端口]映射成[外网 IP，协议，端口]，使得云主机上的服务可被外网访问。（内测中，如有需求，请提供 [工单申请](http://console.tce.fsphere.cn/workorder/category/create?level1_id=6&level2_id=168&level1_name=%E8%AE%A1%E7%AE%97%E4%B8%8E%E7%BD%91%E7%BB%9C&level2_name=%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%20VPC)）
+1. 登录 [云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)。选择【NAT 网关】。
 2. 在 NAT 网关列表页中点击需要修改的 NAT 网关 ID 进入详情页，选择【端口转发】
 3. 点击【新建】，选择协议、外部IP端口、及内部 IP 端口。
 
@@ -100,7 +100,7 @@ NAT 网关主要有以下几点关键特性：
 
 ### 查询端口转发规则
 
-1. 登录 [云平台控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入 [私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)。选择【NAT 网关】。
+1. 登录 [云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)。选择【NAT 网关】。
 2. 在 NAT 网关列表页中点击需要查询的 NAT 网关 ID 进入详情页，选择【端口转发】
 3. 在搜索框内，选择协议\IP\端口 ，填写相关属性值后，即可查询相关端口转发规则。
 
@@ -108,48 +108,48 @@ NAT 网关主要有以下几点关键特性：
 
 ### 修改 NAT 网关配置
 NAT 网关创建后，可以对其属性进行修改。
-1. 登录 [云平台控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入 [私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)。选择【NAT 网关】。
+1. 登录 [云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)。选择【NAT 网关】。
 2. 在 NAT 网关列表页中点击需要修改的 NAT 网关 ID 进入详情页，在详情页您可以完成以下属性的修改：
  - 修改 NAT 网关的自定义名称
  - 更改 NAT 网关的规格，规格更改后实时设定，实时生效（变更规格不会中断原网络连接）
 
 ### 管理 NAT 网关的弹性 IP
-1. 	登录 [云平台控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入 [私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)，选择【NAT 网关】。
+1. 	登录 [云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)，选择【NAT 网关】。
 2. 在 NAT 网关列表中点击 ID 进入 NAT 网关详情页。
 3. 在关联弹性 IP 表中，你可以选择【新增】弹性 IP或者【解绑】弹性 IP。
 
 ### 查看 NAT 网关监控信息
-1.	登录 [云平台控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入 [私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)，选择【NAT 网关】。
+1.	登录 [云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)，选择【NAT 网关】。
 2. 在 NAT 网关列表页，点击需要查看的 NAT 网关条目中的监控按钮，即可查看该 NAT 网关的监控信息。
 （或）在 NAT 网关列表页，点击需要查看的 NAT 网关 ID 进入详情页，点击监控选项卡查看该 NAT 网关的监控信息。
 
 ### 设置告警
-1.	登录 [云平台控制台](https://console.cloud.tencent.com/)点击顶部导航条【云产品】-【监控与管理】-[【云监控】](https://console.cloud.tencent.com/monitor/overview)，选择左导航栏内的【我的告警】-[【告警策略】](https://console.cloud.tencent.com/monitor/policylist)，点击：新增告警策略。
+1.	登录 [云平台控制台](http://console.tce.fsphere.cn/)点击顶部导航条【云产品】-【监控与管理】-[【云监控】](http://console.tce.fsphere.cn/monitor/overview)，选择左导航栏内的【我的告警】-[【告警策略】](http://console.tce.fsphere.cn/monitor/policylist)，点击：新增告警策略。
 2.	填写告警策略名称，在策略类型中选择【NAT 网关】，然后添加告警触发条件。
 3.	**关联告警对象**：选择告警接收组，保存后即可在告警策略列表中查看已设置的告警策略。
-4.	**查看告警信息**：告警条件被触发后，您将接受到短信/邮件/站内信等通知，同时可以在左导航【我的告警】-【告警列表】中查看。有关告警的更多信息，请参考  [创建告警](https://cloud.tencent.com/doc/product/248/1073)。
+4.	**查看告警信息**：告警条件被触发后，您将接受到短信/邮件/站内信等通知，同时可以在左导航【我的告警】-【告警列表】中查看。有关告警的更多信息，请参考  [创建告警](http://tce.fsphere.cn/doc/product/248/1073)。
 
 ### 删除 NAT 网关
 用户可以在不需要 NAT 网关时随时将其删除，删除时会将含有此 NAT 网关的路由表的相关路由策略一并删除，Internet 转发请求将立即中断，请提前做好网络中断准备。
-1.	登录 [云平台控制台](https://console.cloud.tencent.com/)点击导航条【私有网络】，进入 [私有网络控制台](https://console.cloud.tencent.com/vpc/vpc?rid=8)，选择【NAT 网关】。
+1.	登录 [云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)，选择【NAT 网关】。
 2. 选中需要删除的 NAT 网关，点击【删除】按钮并确认即可完成删除。
 
 
 ### 绑定高防包
-1. 登录 [云平台控制台](https://console.cloud.tencent.com/)点击导航条【安全】>【大禹网络安全】，选择左导航栏的[【BGP高防包】](https://console.cloud.tencent.com/dayu/bgp/list/sp/gz)。
+1. 登录 [云平台控制台](http://console.tce.fsphere.cn/)点击导航条【安全】>【大禹网络安全】，选择左导航栏的[【BGP高防包】](http://console.tce.fsphere.cn/dayu/bgp/list/sp/gz)。
 2. 选择您已有的高防包实例，单击更换设备操作，选择需要防护的 NAT 网关上的 EIP。
 3. 单击【确认】，即为该 NAT 网关关联了高防包功能。
 
 ## API 概览
-您可以使用 API 操作来设置和管理您的 NAT 网关，有关更多 VPC 内其他资源的内容，可以查看 [VPC 所有 API 概览](https://cloud.tencent.com/doc/api/245/909)。
+您可以使用 API 操作来设置和管理您的 NAT 网关，有关更多 VPC 内其他资源的内容，可以查看 [VPC 所有 API 概览](http://tce.fsphere.cn/doc/api/245/909)。
 
 | 接口功能 | Action ID |  功能描述 |
 |---------|---------|---------|
-| 创建NAT网关 | [CreateNatGateway](https://cloud.tencent.com/doc/api/245/4094) |  创建 NAT 网关。 |
-| 查询NAT网关创建状态 | [QueryNatGatewayProductionStatus](https://cloud.tencent.com/doc/api/245/4089) |  查询 NAT 网关创建状态。 |
-| 删除NAT网关 | [DeleteNatGateway](https://cloud.tencent.com/doc/api/245/4087) | 删除 NAT 网关。 |
-| 修改NAT网关 | [ModifyNatGateway](https://cloud.tencent.com/doc/api/245/4086) | 修改 NAT 网关。 |
-| 查询NAT网关 | [DescribeNatGateway](https://cloud.tencent.com/doc/api/245/4088) | 查询 NAT 网关。 |
-| NAT网关绑定EIP | [EipBindNatGateway](https://cloud.tencent.com/doc/api/245/4093) | NAT 网关绑定 EIP。 |
-| NAT网关解绑EIP | [EipUnBindNatGateway](https://cloud.tencent.com/doc/api/245/4092) | NAT 网关解绑 EIP。 |
-| 升级NAT网关规格 | [UpgradeNatGateway](https://cloud.tencent.com/doc/api/245/4090) | 升级 NAT 网关规格。 |
+| 创建NAT网关 | [CreateNatGateway](http://tce.fsphere.cn/doc/api/245/4094) |  创建 NAT 网关。 |
+| 查询NAT网关创建状态 | [QueryNatGatewayProductionStatus](http://tce.fsphere.cn/doc/api/245/4089) |  查询 NAT 网关创建状态。 |
+| 删除NAT网关 | [DeleteNatGateway](http://tce.fsphere.cn/doc/api/245/4087) | 删除 NAT 网关。 |
+| 修改NAT网关 | [ModifyNatGateway](http://tce.fsphere.cn/doc/api/245/4086) | 修改 NAT 网关。 |
+| 查询NAT网关 | [DescribeNatGateway](http://tce.fsphere.cn/doc/api/245/4088) | 查询 NAT 网关。 |
+| NAT网关绑定EIP | [EipBindNatGateway](http://tce.fsphere.cn/doc/api/245/4093) | NAT 网关绑定 EIP。 |
+| NAT网关解绑EIP | [EipUnBindNatGateway](http://tce.fsphere.cn/doc/api/245/4092) | NAT 网关解绑 EIP。 |
+| 升级NAT网关规格 | [UpgradeNatGateway](http://tce.fsphere.cn/doc/api/245/4090) | 升级 NAT 网关规格。 |

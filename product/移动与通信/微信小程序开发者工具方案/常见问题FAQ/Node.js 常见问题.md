@@ -1,18 +1,18 @@
-如果您要开通腾讯云微信小程序开发者工具解决方案，可以阅读[《开通指引》](/document/product/619/11447)；
+如果您要开通云平台微信小程序开发者工具解决方案，可以阅读[《开通指引》](/document/product/619/11447)；
 
 您还可以查看[《开发环境和生产环境》](/document/product/619/11446)了解开发环境和生产环境的区别；
 
-如果本文还不能解决您的问题，您可以到腾讯云[问答](https://cloud.tencent.com/developer/ask)提问，我们将尽快跟进解答。
+如果本文还不能解决您的问题，您可以到云平台[问答](http://tce.fsphere.cn/developer/ask)提问，我们将尽快跟进解答。
 
 ## 如何部署代码到开发环境
 
-通过已经绑定腾讯云账号的微信号扫码登录微信开发者工具，接着创建一个小程序项目：
+通过已经绑定云平台账号的微信号扫码登录微信开发者工具，接着创建一个小程序项目：
 
 ![上传代码](https://mc.qcloudimg.com/static/img/4fd45bb5c74eed92b031fbebf8600bd2/1.png)
 
 项目目录可以选择 `wafer2-startup` 提供的 Demo 代码，也可以自行开发。
 
-创建好项目之后会打开微信开发者工具页面，点击右上角腾讯云，选择“上传测试代码”，即可将本地的服务端代码部署到腾讯云免费分配的开发环境中。
+创建好项目之后会打开微信开发者工具页面，点击右上角云平台，选择“上传测试代码”，即可将本地的服务端代码部署到云平台免费分配的开发环境中。
 
 >  **注意：**
 >
@@ -20,11 +20,11 @@
 
 ## 如何重启服务器
 
-在微信开发者工具页面点击右上角“腾讯云”，在下拉菜单中选中“重启服务”，即可重启开发环境中的 Node.js 进程。
+在微信开发者工具页面点击右上角“云平台”，在下拉菜单中选中“重启服务”，即可重启开发环境中的 Node.js 进程。
 
 ## 如何恢复初始化环境
 
-在微信开发者工具页面点击右上角“腾讯云”，在下拉菜单中选中“恢复开发环境”，即可将代码环境恢复到分配开发环境时的状态。
+在微信开发者工具页面点击右上角“云平台”，在下拉菜单中选中“恢复开发环境”，即可将代码环境恢复到分配开发环境时的状态。
 
 > **注意：**
 >
@@ -32,7 +32,7 @@
 
 ## 如何远程调试后台代码
 
-腾讯云微信小程序解决方案 2.0 是基于 Node.js 开发的，提供远程调试功能，在微信开发者工具页面点击右上角“腾讯云”，在下拉菜单中选中“启动单步调试”，系统会自动重启远程服务，并使用 [inspect-brk 模式](https://nodejs.org/en/docs/inspector/)启动 Node.js App，接着开发者工具会打开调试窗口。
+云平台微信小程序解决方案 2.0 是基于 Node.js 开发的，提供远程调试功能，在微信开发者工具页面点击右上角“云平台”，在下拉菜单中选中“启动单步调试”，系统会自动重启远程服务，并使用 [inspect-brk 模式](https://nodejs.org/en/docs/inspector/)启动 Node.js App，接着开发者工具会打开调试窗口。
 
 ![Debug窗口](https://mc.qcloudimg.com/static/img/abd646218599ff3c0056ce99ee6fdbd7/1.png)
 
@@ -44,15 +44,15 @@
 
 ## 如何查看后台日志
 
-进入[腾讯云小程序控制台](https://console.cloud.tencent.com/lav2)，点击“日志下载”即可下载 Node.js 输出的日志。
+进入[云平台小程序控制台](http://console.tce.fsphere.cn/lav2)，点击“日志下载”即可下载 Node.js 输出的日志。
 
 ## 如何修改数据库密码
 
-进入[腾讯云小程序控制台](https://console.cloud.tencent.com/lav2)，点击“重置密码”，输入原密码（默认密码为小程序的 AppID）和新密码，点击确定即可修改 MySQL 数据库密码。
+进入[云平台小程序控制台](http://console.tce.fsphere.cn/lav2)，点击“重置密码”，输入原密码（默认密码为小程序的 AppID）和新密码，点击确定即可修改 MySQL 数据库密码。
 
 ## 如何新建和修改数据库的库表
 
-进入[腾讯云小程序控制台](https://console.cloud.tencent.com/lav2)，点击“phpMyAdmin”按钮打开 phpMyAdmin 登录界面，输入用户名（默认为 `root`）和密码（默认密码为小程序的 AppID）点击登录即可登录进图形化数据库操作界面。
+进入[云平台小程序控制台](http://console.tce.fsphere.cn/lav2)，点击“phpMyAdmin”按钮打开 phpMyAdmin 登录界面，输入用户名（默认为 `root`）和密码（默认密码为小程序的 AppID）点击登录即可登录进图形化数据库操作界面。
 
 ![phpMyAdmin](https://mc.qcloudimg.com/static/img/0b17ef0178c71463d65b3f883a3f1f2b/3.png)
 
@@ -60,23 +60,23 @@
 
 > **注意：**
 >
-> 如果您使用了腾讯云一站式微信小程序解决方案的 SDK，请不要删除 `cAuth` 数据库，该数据库存储登录相关的信息。
+> 如果您使用了云平台一站式微信小程序解决方案的 SDK，请不要删除 `cAuth` 数据库，该数据库存储登录相关的信息。
 
 ## 如何上传图片
 
-腾讯云一站式微信小程序解决方案 SDK 还提供了一个直接上传图片到 COS 上的接口，具体配置项在 `server/config.js` 的 `cos` 中，不过无需配置，直接点击 Demo 中的上传图片，SDK 会自动创建 Bucket （若 Bucket 不存在）并将图片上传到 Bucket 中，并返回访问地址。
+云平台一站式微信小程序解决方案 SDK 还提供了一个直接上传图片到 COS 上的接口，具体配置项在 `server/config.js` 的 `cos` 中，不过无需配置，直接点击 Demo 中的上传图片，SDK 会自动创建 Bucket （若 Bucket 不存在）并将图片上传到 Bucket 中，并返回访问地址。
 
 ## 如何部署 Demo 到自己的服务器
 
 ###### *这步适合对运维有相关基础的开发者操作
 
-除了使用腾讯云分配的开发环境和生产环境，您还可以部署 Demo 到自己的服务器上，只需要修改 `server/config.js` 的配置，并修改相应的 `client/config.js` 中 `host` 到您的服务器上即可。
+除了使用云平台分配的开发环境和生产环境，您还可以部署 Demo 到自己的服务器上，只需要修改 `server/config.js` 的配置，并修改相应的 `client/config.js` 中 `host` 到您的服务器上即可。
 
 `server/config.js` 具体配置可以参考 [服务端SDK 文档](/document/product/619/11448)。
 
 ## 如何快速新建路由
 
-服务端 Demo 采用 Koa.js 框架编写，腾讯云基于 Koa 对上层进行一个简单的封装，方便您快速的添加新建路由。
+服务端 Demo 采用 Koa.js 框架编写，云平台基于 Koa 对上层进行一个简单的封装，方便您快速的添加新建路由。
 
 只需要在 `controllers` 目录下新建一个文件，例如为 `demo.js`，写入如下代码：
 
@@ -92,7 +92,7 @@ module.exports = function (ctx, next) {
 router.get('/demo', controllers.demo)
 ```
 
-接着点击右上角的“腾讯云”按钮，选择“上传代码”，勾选“node_modules之外的代码”，点击确定即可上传代码，接着再次点击右上角的“腾讯云”按钮，选择“部署开发环境”，等到提示开发环境部署成功了之后，打开浏览器，访问 `https://腾讯云分配的域名/weapp/demo`，即可看到刚刚编写的返回，是一个 JSON 字符串：
+接着点击右上角的“云平台”按钮，选择“上传代码”，勾选“node_modules之外的代码”，点击确定即可上传代码，接着再次点击右上角的“云平台”按钮，选择“部署开发环境”，等到提示开发环境部署成功了之后，打开浏览器，访问 `https://云平台分配的域名/weapp/demo`，即可看到刚刚编写的返回，是一个 JSON 字符串：
 
 ```json
 {"code":0,"data":{"msg":"Hello World"}}
@@ -104,7 +104,7 @@ router.get('/demo', controllers.demo)
 
 ![修改配置](https://mc.qcloudimg.com/static/img/d6ac75415137fcc01166227b5c8c000f/4.png)
 
-点击开发者工具右上角的“腾讯云”按钮，点击“上传代码”，代码上传完成之后点击“部署开发环境”，部署开发环境完成之后登录微信公众平台，依次进入“设置”-“开发设置”-“消息推送”，点击启用，按如下指引填写并点击【提交】即可。：
+点击开发者工具右上角的“云平台”按钮，点击“上传代码”，代码上传完成之后点击“部署开发环境”，部署开发环境完成之后登录微信公众平台，依次进入“设置”-“开发设置”-“消息推送”，点击启用，按如下指引填写并点击【提交】即可。：
 
 ![配置消息推送](https://mc.qcloudimg.com/static/img/445e323417d279c8e40ad50e96f89bcc/5.png)
 
@@ -136,7 +136,7 @@ mysql('db_name').select('*').where({ id: 1 }) // => { id:1, name: 'leo', age: 20
    }
    ```
 
-3. 点击开发者工具右上角“腾讯云” - “上传代码”，上传完成再点击“部署开发环境”。
+3. 点击开发者工具右上角“云平台” - “上传代码”，上传完成再点击“部署开发环境”。
 
 4. 点击测试 CGI 按钮，即可看到结果。
 
@@ -158,10 +158,10 @@ const CONF = {
     serverHost: 'localhost',
     tunnelServerUrl: '',
     tunnelSignatureKey: '27fb7d1c161b7ca52d73cce0f1d833f9f5b5ec89',
-  	// 腾讯云相关配置可以查看云 API 秘钥控制台：https://console.cloud.tencent.com/capi
-    qcloudAppId: '您的腾讯云 AppID',
-    qcloudSecretId: '您的腾讯云 SecretId',
-    qcloudSecretKey: '您的腾讯云 SecretKey',
+  	// 云平台相关配置可以查看云 API 秘钥控制台：http://console.tce.fsphere.cn/capi
+    qcloudAppId: '您的云平台 AppID',
+    qcloudSecretId: '您的云平台 SecretId',
+    qcloudSecretKey: '您的云平台 SecretKey',
     wxMessageToken: 'weixinmsgtoken',
     networkTimeout: 30000
 }
@@ -212,7 +212,7 @@ npm run dev
 
 ## Error: 未找到 project.config.json 中的 svr 字段。错误：10080
 
-如果您想使用腾讯云微信小程序一站式解决方案，并使用微信开发者工具一键部署，微信开发者工具打开的目录必须包含 `project.config.json` 文件，文件必须是个 JSON 字符串并包含 `client` 和 `svr` 两个 `key`。实例文件如下：
+如果您想使用云平台微信小程序一站式解决方案，并使用微信开发者工具一键部署，微信开发者工具打开的目录必须包含 `project.config.json` 文件，文件必须是个 JSON 字符串并包含 `client` 和 `svr` 两个 `key`。实例文件如下：
 
 ```json
 {
@@ -221,7 +221,7 @@ npm run dev
 }
 ```
 
-文件中的 `client` 表示小程序端代码，`svr` 表示服务器端代码。点击腾讯云相关操作（如上传测试代码）的时候，只会把 `svr` 指向的目录下的代码上传到开发（或生产）环境。
+文件中的 `client` 表示小程序端代码，`svr` 表示服务器端代码。点击云平台相关操作（如上传测试代码）的时候，只会把 `svr` 指向的目录下的代码上传到开发（或生产）环境。
 
 ## (-1) 服务内部错误，请稍后重试或联系客服人员解决。
 
@@ -229,7 +229,7 @@ npm run dev
 
 1. 检查是否将 client/config.js 里的 host 修改为分配的开发环境域名
 2. 重新点击“编译”小程序，点击登录重试
-3. 点击“腾讯云”-“重启服务”，重启成功之后点击登录重试
+3. 点击“云平台”-“重启服务”，重启成功之后点击登录重试
 4. 如果您有一定的开发能力，可以启动单步调试，在 controller/login.js 里打一下断点，看看具体原因。
 
 ## 上传测试代码出错
@@ -240,7 +240,7 @@ npm run dev
 {"code":-1,"reason":"module.js:487\n throw err;\n ^\n\nError: Cannot find module'wafer-node-sdk'\n at Function.Module._resolveFilename (module.js:485:15)\n at Function.Module._load (module.js:437:25)\n at Module."}
 ```
 
-是因为代码里的依赖没有安装，请点击开发者工具右上角“腾讯云”里的“安装依赖”，依赖安装完成之后，点击“重启服务”即可正常启动 Node.js 程序。
+是因为代码里的依赖没有安装，请点击开发者工具右上角“云平台”里的“安装依赖”，依赖安装完成之后，点击“重启服务”即可正常启动 Node.js 程序。
 
 建议上传测试代码的时候，点击勾选”部署后自动安装依赖“
 

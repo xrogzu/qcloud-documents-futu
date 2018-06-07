@@ -1,6 +1,6 @@
 # JavaScript SDK快速入门
 
-腾讯云 COS JS SDK（[XML API](https://www.qcloud.com/document/product/436/7751)）
+云平台 COS JS SDK（[XML API](https://www.qcloud.com/document/product/436/7751)）
 
 [releases and changelog](https://github.com/tencentyun/cos-js-sdk-v5/releases)
 
@@ -19,7 +19,7 @@
 
 由于签名计算放在前端会暴露 SecretId 和 SecretKey，我们把签名计算过程放在后端实现，前段通过 ajax 向后端获取签名结果，正式部署时请再后端加一层自己网站本身的权限检验。
 
-这里提供 [PHP 和 NodeJS 的签名例子](https://github.com/tencentyun/cos-js-sdk-v5/blob/master/server/)，其他语言，请参照对应的 [XML SDK](https://cloud.tencent.com/document/product/436/6474)
+这里提供 [PHP 和 NodeJS 的签名例子](https://github.com/tencentyun/cos-js-sdk-v5/blob/master/server/)，其他语言，请参照对应的 [XML SDK](http://tce.fsphere.cn/document/product/436/6474)
 
 ### 三、上传例子
 
@@ -78,4 +78,4 @@ npm i cos-js-sdk-v5 --save
 ## 其他文档和例子
 
 [更多例子](demo/demo.js)
-[完整文档](https://cloud.tencent.com/document/product/436/11459)
+[完整文档](http://tce.fsphere.cn/document/product/436/11459)

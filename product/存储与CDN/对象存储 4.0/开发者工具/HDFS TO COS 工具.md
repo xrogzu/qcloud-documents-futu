@@ -1,12 +1,12 @@
 ## 功能说明
-HDFS TO COS 工具用于将 HDFS 上的数据拷贝到腾讯云对象存储（COS）上。
+HDFS TO COS 工具用于将 HDFS 上的数据拷贝到云平台对象存储（COS）上。
 ## 使用环境
 ### 系统环境
 Linux 或 Windows 系统
 ### 软件依赖
 JDK 1.7 或1.8 
 #### 安装与配置
-具体环境安装与配置请参考 [Java 安装与配置](https://cloud.tencent.com/document/product/436/10865)。
+具体环境安装与配置请参考 [Java 安装与配置](http://tce.fsphere.cn/document/product/436/10865)。
 ## 配置及使用方法
 ### 配置方法
 1. 安装 Hadoop-2.7.2 及以上版本，具体安装步骤请参考 [Hadoop 安装与测试](/doc/product/436/10867)。

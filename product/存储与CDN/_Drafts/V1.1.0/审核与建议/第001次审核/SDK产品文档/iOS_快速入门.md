@@ -122,7 +122,7 @@ QCloudCOSXML/QCloudCOSXML.h*，
 
 ## 快速入门
 
-这里演示的上传和下载的基本流程，更多细节可以参考demo；在进行这一步之前必须在腾讯云控制台上申请COS业务的appid；
+这里演示的上传和下载的基本流程，更多细节可以参考demo；在进行这一步之前必须在云平台控制台上申请COS业务的appid；
 
 > <font size=4 color=red>  把Demo的地址附上来，可以引导用户去demo里面查看</font>
 > by stongdong
@@ -238,7 +238,7 @@ SDK中的请求需要用到签名，以确访问的用户的身份，也保障�
 ```
 虽然我们提供在本地提供了永久的Secret ID 和Secret Key来生成签名的接口，但请注意，将永久的Secret ID 和Secret Key存储在本地是非常危险的行为，容易造成泄露引起不必要的损失。因此基于安全性的考虑，我们建议您在服务器端实现签名的过程。    
 
-我们推荐您在自己的签名服务器内接入腾讯云的CAM（Cloud Access Manager， 访问管理）来实现整个签名流程。    
+我们推荐您在自己的签名服务器内接入云平台的CAM（Cloud Access Manager， 访问管理）来实现整个签名流程。    
 
 ![接入CAM签名部署图](http://ericcheung-1253653367.cosgz.myqcloud.com/Logical%20View.png)        
 

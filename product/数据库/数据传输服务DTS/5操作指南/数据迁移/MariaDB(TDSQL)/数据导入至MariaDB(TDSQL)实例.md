@@ -1,6 +1,6 @@
-您可以通过腾讯云数据库迁移工具将业务数据迁移到 CDB for MariaDB（TDSQL）中，迁移工具可以把同地域下不同类型的源数据库的数据迁移到 MariaDB（TDSQL）中，目前支持的源库类型有：<br>
-1. 源数据库来自在腾讯云基础网络中云服务自建的 MySQL 实例（即将支持 [VPC 网络](http://cloud.tencent.com/doc/product/215/%E4%BA%A7%E5%93%81%E6%A6%82%E8%BF%B0)）；<br>
-2. 源数据库在腾讯云的 CDB for MySQL 实例；<br>
+您可以通过云平台数据库迁移工具将业务数据迁移到 CDB for MariaDB（TDSQL）中，迁移工具可以把同地域下不同类型的源数据库的数据迁移到 MariaDB（TDSQL）中，目前支持的源库类型有：<br>
+1. 源数据库来自在云平台基础网络中云服务自建的 MySQL 实例（即将支持 [VPC 网络](http://tce.fsphere.cn/doc/product/215/%E4%BA%A7%E5%93%81%E6%A6%82%E8%BF%B0)）；<br>
+2. 源数据库在云平台的 CDB for MySQL 实例；<br>
 3. 源数据库在另外一个 CDB for MariaDB（TDSQL）实例；
 
 **迁移步骤如下：**
@@ -39,5 +39,5 @@
 注意：再次启动可能导致校验失败或任务失败，您可能需要手动清空目标库内的数据，才能再次启动迁移任务。
 
 ## 通过第三方工具迁入
-如果您的源库不在腾讯云上或者在 VPC 网络环境内，那么您可以通过第三方工具来先把源库的数据导出，然后上传到腾讯云服务器上，再把数据导入到 MariaDB（TDSQL）。
+如果您的源库不在云平台上或者在 VPC 网络环境内，那么您可以通过第三方工具来先把源库的数据导出，然后上传到云平台服务器上，再把数据导入到 MariaDB（TDSQL）。
 常见的导入导出工具有：mysqldump、mydumper、MySQL GUI Tools 等。

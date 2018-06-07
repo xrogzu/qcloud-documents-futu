@@ -1,7 +1,7 @@
 ## 简介
 本接口用于根据用户上传的图像，识别出行驶证或驾驶证的各字段信息。
 
-开发者使用功能之前，需要先注册腾讯云账号，添加密钥，并在万象优图创建bucket。
+开发者使用功能之前，需要先注册云平台账号，添加密钥，并在万象优图创建bucket。
 
 ## 计费说明
 通用 OCR 目前正处于免费公测阶段，会在12月1日开始计费，第一次扣费为2018年1月3~5日。
@@ -27,7 +27,7 @@
 | Host           | service.image.myqcloud.com               | 万象优图服务器域名                                |
 | Content-Length | 包体总长度                                    | 整个请求包体内容的总长度，单位：字节（Byte）                 |
 | Content-Type   | application/json  或者  multipart/form-data | 根据不同接口选择                                 |
-| Authorization  | 鉴权签名                                     | 用于[**鉴权**](https://cloud.tencent.com/doc/product/275/3805)的签名 |
+| Authorization  | 鉴权签名                                     | 用于[**鉴权**](http://tce.fsphere.cn/doc/product/275/3805)的签名 |
 
 ><font color="#0000cc">**注意：** </font>
 > (1) 每个请求的包体大小限制为 6MB。

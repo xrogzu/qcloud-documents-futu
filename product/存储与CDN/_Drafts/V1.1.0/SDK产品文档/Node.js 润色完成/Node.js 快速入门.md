@@ -14,14 +14,14 @@ npm i cos-nodejs-sdk-v5 --save
 
 1. 使用 SDK 需要您的运行环境包含 nodejs 以及 npm，nodejs 版本建议 7.0 版本以上。
 2. 安装好 npm 之后记得在 sdk 的解压目录 npm install 一次（安装依赖包）；
-3.  到 [控制台密钥管理](https://console.cloud.tencent.com/capi) 获取您的项目 SecretId 和 SecretKey。
+3.  到 [控制台密钥管理](http://console.tce.fsphere.cn/capi) 获取您的项目 SecretId 和 SecretKey。
 
-> 关于文章中出现的 SecretId、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](https://cloud.tencent.com/document/product/436/7751)
+> 关于文章中出现的 SecretId、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](http://tce.fsphere.cn/document/product/436/7751)
 
 ## 快速入门	
 
-1. 到 [COS 对象存储控制台](https://console.cloud.tencent.com/cos4) 创建存储桶，得到 Bucket（存储桶名称） 和 Region（地域名称）。
-2. 到 [控制台密钥管理](https://console.cloud.tencent.com/capi) 获取您的项目 SecretId 和 SecretKey。
+1. 到 [COS 对象存储控制台](http://console.tce.fsphere.cn/cos4) 创建存储桶，得到 Bucket（存储桶名称） 和 Region（地域名称）。
+2. 到 [控制台密钥管理](http://console.tce.fsphere.cn/capi) 获取您的项目 SecretId 和 SecretKey。
 3. 参照以下代码，修改 SecretId、SecretKey、Bucket、Region，测试上传文件。
 
 ```javascript
@@ -46,5 +46,5 @@ cos.sliceUploadFile({
 
 ## 相关文档 
 更多例子请参阅 [XML Node.js SDK](https://github.com/tencentyun/cos-nodejs-sdk-v5) 。
-完整接口文档请参阅 [Node.js SDK 接口文档](https://cloud.tencent.com/document/product/436/8629)。
+完整接口文档请参阅 [Node.js SDK 接口文档](http://tce.fsphere.cn/document/product/436/8629)。
 

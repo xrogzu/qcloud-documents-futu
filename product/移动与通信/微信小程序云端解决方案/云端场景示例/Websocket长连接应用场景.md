@@ -2,7 +2,7 @@
 
 [微信小程序](http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1474632113_xQVCl&token=&lang=zh_CN)提供了一套在微信上运行小程序的解决方案，有比较完整的框架、组件以及 API，在这个平台上面的想象空间很大。
 
-腾讯云拿到了小程序内测资格，研究了一番之后，发现微信支持 WebSocket 还是很值得玩味的。这个特性意味着我们可以做一些实时同步或者协作的小程序。
+云平台拿到了小程序内测资格，研究了一番之后，发现微信支持 WebSocket 还是很值得玩味的。这个特性意味着我们可以做一些实时同步或者协作的小程序。
 
 这篇文章分享一个简单的剪刀石头布的小游戏的制作，希望能对想要在小程序中使用 WebSocket 的开发者有帮助。
 
@@ -24,8 +24,8 @@
 
 在微信小程序中，所有的网路请求受到严格限制，不满足条件的域名和协议无法请求，具体包括：
 
-* 只允许和在 MP 中配置好的域名进行通信，如果还没有域名，需要[注册一个](https://cloud.tencent.com/product/dm.html?utm_source=jiaocheng&utm_medium=domain2&utm_ca)。
-* 网络请求必须走 HTTPS 协议，所以你还需要为你的域名[申请一个证书](https://console.cloud.tencent.com/ssl?utm_source=jiaocheng&utm_medium=ssl2&utm_campaign=qcloud)。
+* 只允许和在 MP 中配置好的域名进行通信，如果还没有域名，需要[注册一个](http://tce.fsphere.cn/product/dm.html?utm_source=jiaocheng&utm_medium=domain2&utm_ca)。
+* 网络请求必须走 HTTPS 协议，所以你还需要为你的域名[申请一个证书](http://console.tce.fsphere.cn/ssl?utm_source=jiaocheng&utm_medium=ssl2&utm_campaign=qcloud)。
 
 域名注册好之后，可以登录[微信公众平台](https://mp.weixin.qq.com)配置通信域名了。
 
@@ -33,9 +33,9 @@
 
 ### 2. 云主机和镜像部署
 
-剪刀石头布的服务器运行代码和配置已经打包成腾讯云 CVM 镜像，大家可以[直接使用](https://buy.cloud.tencent.com/cvm?marketImgId=371&utm_source=jiaocheng&utm_medium=cvm2&utm_campaign=qcloud)。
+剪刀石头布的服务器运行代码和配置已经打包成云平台 CVM 镜像，大家可以[直接使用](https://buy.tce.fsphere.cn/cvm?marketImgId=371&utm_source=jiaocheng&utm_medium=cvm2&utm_campaign=qcloud)。
 
-> 腾讯云用户可以[免费领取礼包](https://cloud.tencent.com/act/event/yingyonghao.html#section-voucher)，体验腾讯云小程序解决方案。
+> 云平台用户可以[免费领取礼包](http://tce.fsphere.cn/act/event/yingyonghao.html#section-voucher)，体验云平台小程序解决方案。
 
 ![选择服务市场镜像](http://easyimage-10028115.file.myqcloud.com/internal/p5vbnlfw.yik.jpg)
 
@@ -59,7 +59,7 @@ nginx
 
 我们还需要添加域名记录解析到我们的云服务器上，这样才可以使用域名进行 HTTPS 服务。
 
-在腾讯云注册的域名，可以直接使用[云解析控制台](https://console.cloud.tencent.com/cns/domains?utm_source=jiaocheng&utm_medium=cns&utm_campaign=qcloud)来添加主机记录，直接选择上面购买的 CVM。
+在云平台注册的域名，可以直接使用[云解析控制台](http://console.tce.fsphere.cn/cns/domains?utm_source=jiaocheng&utm_medium=cns&utm_campaign=qcloud)来添加主机记录，直接选择上面购买的 CVM。
 
 ![添加域名解析](http://easyimage-10028115.file.myqcloud.com/internal/uw25hdj2.k1u.jpg)
 
@@ -145,7 +145,7 @@ socket.on('hi', packet => console.log('server say hi: ' + packet.message));
 socket.emit('hello', { from: 'techird' });
 ```
 
-如果想要使用微信原生的 API，那么在服务器端也可以直接使用 [ws](https://github.com/websockets/ws) 来实现 W3C 标准的接口。不过 SocketIO 支持多进程的特性，对于后续做横向扩张是很有帮助的。腾讯云在后面也会有计划推出支持大规模业务需求的 WebSocket 连接服务，减小业务的部署成本。
+如果想要使用微信原生的 API，那么在服务器端也可以直接使用 [ws](https://github.com/websockets/ws) 来实现 W3C 标准的接口。不过 SocketIO 支持多进程的特性，对于后续做横向扩张是很有帮助的。云平台在后面也会有计划推出支持大规模业务需求的 WebSocket 连接服务，减小业务的部署成本。
 
 ## 通信协议设计
 

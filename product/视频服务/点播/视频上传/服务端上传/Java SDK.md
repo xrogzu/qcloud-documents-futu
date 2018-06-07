@@ -1,4 +1,4 @@
-对于在服务端上传视频的场景，腾讯云点播提供了 Java SDK 来实现。上传的流程可以参见 [服务端上传指引](/document/product/266/9759)。
+对于在服务端上传视频的场景，云平台点播提供了 Java SDK 来实现。上传的流程可以参见 [服务端上传指引](/document/product/266/9759)。
 
 ## 集成方式
 
@@ -22,8 +22,8 @@
 | ------------ | ------------ | 
 | vod_api-1.1.0.jar | 点播SDK |
 | jackson-annotations-2.8.0.jar,jackson-core-2.8.5.jar,jackson-databind-2.8.5.jar       | 开源的JSON相关库 |
-| cos_api-5.1.9.jar            | 腾讯云对象存储服务（COS）SDK                          |
-| qcloud-java-sdk-2.0.1.jar             | 腾讯云API SDK                        |
+| cos_api-5.1.9.jar            | 云平台对象存储服务（COS）SDK                          |
+| qcloud-java-sdk-2.0.1.jar             | 云平台API SDK                        |
 | commons-codec-1.10.jar,commons-logging-1.2.jar,log4j-1.2.17.jar,slf4j-api-1.7.21.jar,slf4j-log4j12-1.7.21.jar           | 开源日志相关库    |
 | httpclient-4.5.3.jar,httpcore-4.4.6.jar,httpmime-4.5.2.jar | 开源的http处理库                            |
 | joda-time-2.9.6.jar | 开源时间处理库                            |

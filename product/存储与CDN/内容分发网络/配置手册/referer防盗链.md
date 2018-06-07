@@ -2,7 +2,7 @@
 
 ## 配置指引
 
-登录 [CDN 控制台](https://console.cloud.tencent.com/cdn)，选择左侧菜单栏的【域名管理】，单击您所要编辑的域名右侧的【管理】。
+登录 [CDN 控制台](http://console.tce.fsphere.cn/cdn)，选择左侧菜单栏的【域名管理】，单击您所要编辑的域名右侧的【管理】。
 ![](https://mc.qcloudimg.com/static/img/1f2cb594cd614b62b589cb20a20ed362/basic-config-1.png)
 单击【访问控制】，您可以看到 **防盗链配置** 模块：
 ![](https://mc.qcloudimg.com/static/img/7322fafaaf8a7d48422be43d8dc01f63/refer-config-1.png)

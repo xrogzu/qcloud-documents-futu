@@ -1,4 +1,4 @@
-本文介绍如何基于Android SDK接入腾讯云物联网套件，实现基于 MQTT 协议的上下行请求。其中 IotSDK 是腾讯云 iotsuite 的 设备端SDK ，IotSample 是使用 IotSDK 的 demo。
+本文介绍如何基于Android SDK接入云平台物联网套件，实现基于 MQTT 协议的上下行请求。其中 IotSDK 是云平台 iotsuite 的 设备端SDK ，IotSample 是使用 IotSDK 的 demo。
 
 ##  引入SDK
 
@@ -15,7 +15,7 @@
 ##  编译运行Demo
 在github下载Android版SDK后，使用Android Studio 打开工程`tencent-cloud-iotsuite-android`
 ###  配置参数
-在腾讯云IoT Suite控制台创建产品与设备，选择鉴权模式**（注意，选择不同模式则需要在device_config.h中配置不同的设备参数）**，获取到对应的`MQTT Server Host、Product ID、Product key、DeviceName、DeviceSecret`参数，用于填写配置文件
+在云平台IoT Suite控制台创建产品与设备，选择鉴权模式**（注意，选择不同模式则需要在device_config.h中配置不同的设备参数）**，获取到对应的`MQTT Server Host、Product ID、Product key、DeviceName、DeviceSecret`参数，用于填写配置文件
 - 选择鉴权模式
   ![](https://main.qcloudimg.com/raw/c6fcf2a3df74e70893962399cb0e2216.png)
 - 直连模式下product相关参数*(MQTT Server Host、Product ID、Product key)*
@@ -52,7 +52,7 @@
 
 ##  SDK说明
 
-腾讯云iotsuite Android SDK提供mqtt connect、disconnec、subscribe、unsubscribe、publish 能力，另外提供失败重连的参数配置，相应的调用示例可以参见Demo中的Connection.java。
+云平台iotsuite Android SDK提供mqtt connect、disconnec、subscribe、unsubscribe、publish 能力，另外提供失败重连的参数配置，相应的调用示例可以参见Demo中的Connection.java。
 
 ###  mqtt部分
 

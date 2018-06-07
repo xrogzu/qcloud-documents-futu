@@ -5,7 +5,7 @@
 更多示例可以参考Demo：[Android SDK Demo](https://mc.qcloudimg.com/static/archive/6e5c11cd423409f50804410e47b04e9a/FaceIdDemo+.zip)。
 
 ### 开发准备
-- 开发者使用人脸识别功能前，需要先进行 [腾讯云账号注册](https://cloud.tencent.com/register)（详细指引请参考 [注册腾讯云](https://cloud.tencent.com/document/product/378/9603)），并 [创建存储桶](https://cloud.tencent.com/document/product/460/10637)，从而获得 APPID 、SecretId 和 SecretKey 等（获取 APPID 可参考 [域名管理](https://cloud.tencent.com/document/product/460/6937)）；
+- 开发者使用人脸识别功能前，需要先进行 [云平台账号注册](http://tce.fsphere.cn/register)（详细指引请参考 [注册云平台](http://tce.fsphere.cn/document/product/378/9603)），并 [创建存储桶](http://tce.fsphere.cn/document/product/460/10637)，从而获得 APPID 、SecretId 和 SecretKey 等（获取 APPID 可参考 [域名管理](http://tce.fsphere.cn/document/product/460/6937)）；
 - 手机必须要有网络（GPRS、3G 或 Wifi 等）；
 - 支持Android 4.0及其以上版本；
 
@@ -221,7 +221,7 @@ String sign = credentialProvider.getMultipleSign(bucket, duration); // 生成签
 | 参数名称    | 类型      | 是否必填 | 参数描述        |
 | ------- | ------- | ---- | ----------- |
 | context | Context | 是    | 上下文         |
-| appid   | String  | 是    | 腾讯云注册的 APPID |
+| appid   | String  | 是    | 云平台注册的 APPID |
 初始化示例：
 ```
 FaceIdClient faceIdClient = new FaceIdClient(context, appid);

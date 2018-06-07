@@ -1,9 +1,9 @@
-Python 环境是腾讯云命令行工具运行时的必要环境。因此，请用户在使用命令行工具前确认是否本地计算机上已经安装了 Python 环境及 Pip 工具。
+Python 环境是云平台命令行工具运行时的必要环境。因此，请用户在使用命令行工具前确认是否本地计算机上已经安装了 Python 环境及 Pip 工具。
 
 ## Windows环境下安装 Python 和 Pip
 登录 [Python 官方网站](https://www.python.org/downloads/)，下载 Python 2.7.x 版本，依照安装向导进行安装。
 
-注意：在安装 Python 时，请开启 pip，否则将无法进行腾讯云命令行工具的安装。
+注意：在安装 Python 时，请开启 pip，否则将无法进行云平台命令行工具的安装。
 
 ## Linux/Unix/MacOS环境下安装 Python 和 Pip
 ### 方法一：系统安装

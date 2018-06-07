@@ -1,8 +1,8 @@
 ## 功能介绍
 
-本文档是介绍腾讯云视频点播服务的网页播放器（Web SDK）的使用说明，它可以帮助腾讯云客户直接使用经过验证的视频播放能力，通过灵活的接口、快速同自有 Web 应用集成，以实现桌面应用播放功能，同时本 SDK 还提供在 WEB 端上传视频的能力。
+本文档是介绍云平台视频点播服务的网页播放器（Web SDK）的使用说明，它可以帮助云平台客户直接使用经过验证的视频播放能力，通过灵活的接口、快速同自有 Web 应用集成，以实现桌面应用播放功能，同时本 SDK 还提供在 WEB 端上传视频的能力。
 
-该 SDK 所播放的文件受限于全局防盗链功能定义，详细内容请查看官网 FAQ 安全功能相关说明，该文档面向考虑使用腾讯云视频点播播放器 Web SDK 进行开发并具备 Javascript 语言基础的开发人员。
+该 SDK 所播放的文件受限于全局防盗链功能定义，详细内容请查看官网 FAQ 安全功能相关说明，该文档面向考虑使用云平台视频点播播放器 Web SDK 进行开发并具备 Javascript 语言基础的开发人员。
 
 ## 能力支持
 
@@ -27,7 +27,7 @@ SDK 上传视频格式支持：
 | MPEG 格式 | MPG，MPEG，MPE，VOB，DAT                     |
 | 其他格式    |  MOV，3GP，MP4，MP4V，M4V，MKV，AVI，FLV，F4V |
 
-**点播平台的转码服务：**由于 MP4 和 HLS（m3u8）是目前在 PC 浏览器和手机浏览器上支持程度相对较好的格式，所以腾讯云的视频点播平台最终会把上传的视频发布为 MP4 和 HLS（m3u8） 格式。
+**点播平台的转码服务：**由于 MP4 和 HLS（m3u8）是目前在 PC 浏览器和手机浏览器上支持程度相对较好的格式，所以云平台的视频点播平台最终会把上传的视频发布为 MP4 和 HLS（m3u8） 格式。
 
 ### 平台兼容
 为手机浏览器和 PC 浏览器写两套代码是非常吃力的事情，但如果您使用本款播放器，同一段代码可以自动实现 PC 浏览器和手机浏览器的自适应切换，播放器内部会自动区分平台使用最优的播放方案。例如：PC 平台优先使用 Flash 播放器以适应多种视频格式的情况，而手机浏览器上会使用 HTML5 技术实现视频播放。
@@ -35,10 +35,10 @@ SDK 上传视频格式支持：
 ## 准备工作
 
 ### step 1：开通服务
-在 [腾讯云官网](https://cloud.tencent.com/) 注册腾讯云帐号，然后开通**点播**服务。
+在 [云平台官网](http://tce.fsphere.cn/) 注册云平台帐号，然后开通**点播**服务。
 
 ### step 2：上传文件
-点播服务开通之后，进入 [点播视频管理](http://console.cloud.tencent.com/video/videolist) 就可以上传新的视频文件，因为我们本篇文档主要介绍播放器的使用，所以这样做是为了让您先有个自己的在线视频地址，如果您没有开通点播服务，这个页面是进不去的。
+点播服务开通之后，进入 [点播视频管理](http://console.tce.fsphere.cn/video/videolist) 就可以上传新的视频文件，因为我们本篇文档主要介绍播放器的使用，所以这样做是为了让您先有个自己的在线视频地址，如果您没有开通点播服务，这个页面是进不去的。
 
 ### step 3：获取 ID
 上传完视频之后，您就可以视频管理页面查到文件的 ID ，这个是播放器播放视频的最基本信息，与此同时，本款播放器有质量统计功能，在使用之前需要先确认 APPID，您的 APPID 也可以在视频管理页面查看到。下图中的两个 ID，左边一个是视频文件的 ID，另一个是您的 APPID。
@@ -246,7 +246,7 @@ qcVideo.Player(id, option, listener);
 | WMode                                                  | String  | window | Window 模式不支持其他页面元素覆盖在 Flash 播放器上面，如需要可以修改为 opaque 或其他 flash wmode 的参数值。<br>** 备注：该选项只对 PC 平台 Flash 播放器生效**                                                                  |
 | stretch_patch                                         | Boolean | false  | 设置为 true 时，支持将开始、暂停、结束时的图片贴片铺满播放器。                                                                                                                                    |
 | definition<span id="definition"></span> | Number  | 无     | 可以指定播放视频的清晰度，首先需要视频拥有改清晰度 可选值有： 10、20、30、40、210、220、230、240，具体对应哪种视频可以参考 [third_video](#third_video) 的参数说明。                                                                             |
-| videos                                                 | Array   | 无     | 开启防盗链后，可以通过设置 videos 的可访问的视频地址，支持播放器播放；清晰度类型通过 url 与后台查出的 url 前缀匹配得到，详情请查看 [防盗链功能使用指南](https://cloud.tencent.com/doc/product/266/2875)<br> 例如：[`http://xxx.myqcloud.com/xxxyy\_f220.m3u8?**sign**=xxx`，<br>...<br>]                                                                                                                                                                                               |
+| videos                                                 | Array   | 无     | 开启防盗链后，可以通过设置 videos 的可访问的视频地址，支持播放器播放；清晰度类型通过 url 与后台查出的 url 前缀匹配得到，详情请查看 [防盗链功能使用指南](http://tce.fsphere.cn/doc/product/266/2875)<br> 例如：[`http://xxx.myqcloud.com/xxxyy\_f220.m3u8?**sign**=xxx`，<br>...<br>]                                                                                                                                                                                               |
 | third_video <span id="third_video"></span>                  | Object  | 无     | 该选项只用于视频文件播放地址的情形<br>参数例子：{<br>‘duration’: 20 , //视频时长（单位秒），可选参数，没有传的情况下在视频加载 MetaData 后自动更新视频时长。<br>**注意：如果是播放 mp4，这个时长数据是必须的**<br>‘urls’ : { //(**至少包含一个地址，注意对应视频格式**)  <br>　　　10 : “mp4 手机视频地址”, <br>　　　20 :“mp4 标清视频地址”,<br>　　　30 : “mp4 高清视频地址”, <br>　　　40 : “mp4 超清视频地址”, <br>　　　210 : “hls 手机视频地址”, <br>　　　220 : “hls 标清视频地址”, <br>　　　230 :“hls 高清视频地址”, <br>　　　240 : “hls 超清视频地址” <br>　　}<br>}<br>**备注：如果在 Chrome 等 PC 浏览器中模拟移动设备，需要有 mp4 视频地址才可以播放**|
 
 **listener**：Object，可选参数，播放状态变化回调函数列表。
@@ -283,13 +283,13 @@ qcVideo.Player(id, option, listener);
 | 方法                                                          | 说明                                                                                                                 |
 |---------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | resize(width,height)                                          | 参数：width :int；height :int                                            <br>功能：设置当前播放器宽度高度                                         <br>返回：无                                                                                                              |
-| play(second)                                                  | 参数：second：int 单位秒                                                  <br>功能：开始播放，可以设置开始播放指定时间点 <br>返回：int [返回码](https://cloud.tencent.com/document/product/267/13506)<br>备注：在传视频地址播放的情况下，second 只能传 空值 或者 0                                                               |
-| pause()                                                       | 功能：暂停当前播放的视频 <br>返回：int [返回码](https://cloud.tencent.com/document/product/267/13506)                                                                                     |
-| resume()                                                      | 功能：恢复播放视频<br>返回：int [返回码](https://cloud.tencent.com/document/product/267/13506)                                                                                     |
-| setClarity(clarity)                                           | 参数：clarity：int 清晰度 取值范围 （1：”手机”，2：”标清”，3：”高清”，4：”超清”）<br>功能：更换视频清晰度 <br>返回：int [返回码](https://cloud.tencent.com/document/product/267/13506)                            <br>注意：clarity 指定的清晰度，请确保当前视频具备该清晰度，否则将按播放器默认规则选择一个清晰度播放                       |
-| changeVideo(opt)                                              | 参数： opt Object，包含将要播放的视频的基本信息和构造函数第二个参数基本一致，具体参考 [构造函数说明](#constructor)<br>功能：动态更换视频  <br>返回：int [返回码](https://cloud.tencent.com/document/product/267/13506) |
-| addBarrage(barrage) <span id="barrage"></span>| 参数：barrage：Array 弹幕信息   <br> \[{   <br>"type":"content", //消息类型，content:普通文本（**必选**）  <br>"content":"hello world", //文本消息 （**必选**）  <br>"time":"1.101",//单位秒 ，表示距离当前调用添加字幕的时间多久后，开始显示该条字幕（**必选**）   <br>"style": "C64B03;35",// 分号分割，第一项颜色值，第二项字体大小（可选） <br>"postion":"center" //固定位置 <br>center: 居中，bottom: 底部， up: 顶上 (可选) }, ... \]  <br>功能：添加弹幕     <br>返回：int [返回码](https://cloud.tencent.com/document/product/267/13506) <br> 备注：**弹幕仅在前端实现，后台功能请自行开发，该功能只在 PC Flash 播放器中生效**                                                                                |
-| closeBarrage()                                                | 功能：关闭弹幕，关闭后重新调用 addBarrage 可开启弹幕。 <br>返回：int [返回码](https://cloud.tencent.com/document/product/267/13506)  <br> 备注：**弹幕仅在前端实现，后台功能请自行开发，该功能只在 PC Flash 播放器中生效**                                        |
+| play(second)                                                  | 参数：second：int 单位秒                                                  <br>功能：开始播放，可以设置开始播放指定时间点 <br>返回：int [返回码](http://tce.fsphere.cn/document/product/267/13506)<br>备注：在传视频地址播放的情况下，second 只能传 空值 或者 0                                                               |
+| pause()                                                       | 功能：暂停当前播放的视频 <br>返回：int [返回码](http://tce.fsphere.cn/document/product/267/13506)                                                                                     |
+| resume()                                                      | 功能：恢复播放视频<br>返回：int [返回码](http://tce.fsphere.cn/document/product/267/13506)                                                                                     |
+| setClarity(clarity)                                           | 参数：clarity：int 清晰度 取值范围 （1：”手机”，2：”标清”，3：”高清”，4：”超清”）<br>功能：更换视频清晰度 <br>返回：int [返回码](http://tce.fsphere.cn/document/product/267/13506)                            <br>注意：clarity 指定的清晰度，请确保当前视频具备该清晰度，否则将按播放器默认规则选择一个清晰度播放                       |
+| changeVideo(opt)                                              | 参数： opt Object，包含将要播放的视频的基本信息和构造函数第二个参数基本一致，具体参考 [构造函数说明](#constructor)<br>功能：动态更换视频  <br>返回：int [返回码](http://tce.fsphere.cn/document/product/267/13506) |
+| addBarrage(barrage) <span id="barrage"></span>| 参数：barrage：Array 弹幕信息   <br> \[{   <br>"type":"content", //消息类型，content:普通文本（**必选**）  <br>"content":"hello world", //文本消息 （**必选**）  <br>"time":"1.101",//单位秒 ，表示距离当前调用添加字幕的时间多久后，开始显示该条字幕（**必选**）   <br>"style": "C64B03;35",// 分号分割，第一项颜色值，第二项字体大小（可选） <br>"postion":"center" //固定位置 <br>center: 居中，bottom: 底部， up: 顶上 (可选) }, ... \]  <br>功能：添加弹幕     <br>返回：int [返回码](http://tce.fsphere.cn/document/product/267/13506) <br> 备注：**弹幕仅在前端实现，后台功能请自行开发，该功能只在 PC Flash 播放器中生效**                                                                                |
+| closeBarrage()                                                | 功能：关闭弹幕，关闭后重新调用 addBarrage 可开启弹幕。 <br>返回：int [返回码](http://tce.fsphere.cn/document/product/267/13506)  <br> 备注：**弹幕仅在前端实现，后台功能请自行开发，该功能只在 PC Flash 播放器中生效**                                        |
 这些设置方法的统一返回码是：
   
 | 错误码<span id="errorcode"></span> | 含义 |
@@ -303,6 +303,6 @@ qcVideo.Player(id, option, listener);
 
 ## 视频文件上传功能
 
-用户可以使用点播 Web SDK 上传视频，以帮助腾讯云视频用户通过 Web 上传视频文件，该 SDK 当前支持 HTML5 上传（不支持 HTML5 的浏览器暂不支持上传）。
+用户可以使用点播 Web SDK 上传视频，以帮助云平台视频用户通过 Web 上传视频文件，该 SDK 当前支持 HTML5 上传（不支持 HTML5 的浏览器暂不支持上传）。
 
 具体操作方法请查看 [云点播 Web 上传 SDK](http://video.qcloud.com/sdk/upload.html)。

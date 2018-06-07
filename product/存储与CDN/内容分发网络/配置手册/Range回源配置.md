@@ -5,7 +5,7 @@
 > 开启 range 回源配置后，资源在节点上分片缓存，但所有分片的缓存过期时间保持一致，按照用户指定的缓存过期规则。
 
 ## 配置指引
-登录 [CDN 控制台](https://console.cloud.tencent.com/cdn)，选择左侧菜单栏的【域名管理】，单击您所要编辑的域名右侧的【管理】。
+登录 [CDN 控制台](http://console.tce.fsphere.cn/cdn)，选择左侧菜单栏的【域名管理】，单击您所要编辑的域名右侧的【管理】。
 ![](https://mc.qcloudimg.com/static/img/1f2cb594cd614b62b589cb20a20ed362/basic-config-1.png)
 单击【回源配置】，您可以看到 **Range 回源配置** 模块：
 ![](https://mc.qcloudimg.com/static/img/9fd4571901f76f36f1759aea499027be/range-config-1.png)

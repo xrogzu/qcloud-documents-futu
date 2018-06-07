@@ -55,13 +55,13 @@
 ### 2.login
 
 - 接口定义：- (void)login:(NSString*)serverDomain loginInfo:(LoginInfo *)loginInfo withCompletion:(ILoginCompletionHandler)completion
-- 接口说明：登录到 RoomService 后台，通过参数 serverDomain 可以指定是使用腾讯云的 RoomService 还是使用自建的 RoomService。
+- 接口说明：登录到 RoomService 后台，通过参数 serverDomain 可以指定是使用云平台的 RoomService 还是使用自建的 RoomService。
 - 参数说明：
 
 | 参数       | 类型                  | 说明       |
 | -------- | ------------------- | -------- |
-| serverDomain | NSString | RoomService 的服务器地址，这部分可以参考 [DOC](https://cloud.tencent.com/document/product/454/14606#ClientFLOW)。 |
-| loginInfo | LoginInfo | 登录参数，这部分可以参考 [DOC](https://cloud.tencent.com/document/product/454/14606#ClientFLOW)。 |
+| serverDomain | NSString | RoomService 的服务器地址，这部分可以参考 [DOC](http://tce.fsphere.cn/document/product/454/14606#ClientFLOW)。 |
+| loginInfo | LoginInfo | 登录参数，这部分可以参考 [DOC](http://tce.fsphere.cn/document/product/454/14606#ClientFLOW)。 |
 | completion | ILoginCompletionHandler | 登录成功与否的回调 |
 
 - 示例代码：

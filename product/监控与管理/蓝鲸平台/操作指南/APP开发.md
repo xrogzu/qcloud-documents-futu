@@ -1,6 +1,6 @@
 在开发者中心（http://o.qcloud.com/developer-center） 创建应用后，从SVN中checkout代码到本地就可以开始本地开发；本地调试成功后就可以将应用部署到蓝鲸平台中。
 
-蓝鲸平台提供了一套基于Django框架的APP开发样例，样例中提供了QQ统一登录、腾讯云API接口、 任务调度等功能，用户在APP开发样例上进行二次开发，可以大幅度提高开发效率。创建应用时自动将最新版的开发样例代码初始化到APP的SVN中。
+蓝鲸平台提供了一套基于Django框架的APP开发样例，样例中提供了QQ统一登录、云平台API接口、 任务调度等功能，用户在APP开发样例上进行二次开发，可以大幅度提高开发效率。创建应用时自动将最新版的开发样例代码初始化到APP的SVN中。
 
 APP开发样例 访问地址：http://o.qcloud.com/console?app=app_template
 

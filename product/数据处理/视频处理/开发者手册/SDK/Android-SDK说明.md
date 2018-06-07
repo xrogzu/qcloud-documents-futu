@@ -1,5 +1,5 @@
 ## 1 注册APP
-在腾讯云页面上注册APP信息，获取APPID。
+在云平台页面上注册APP信息，获取APPID。
 ## 2 工程配置
 ### 2.1 导入SDK
 将SDK包中的libs目录合并到本地工程的libs目录，然后配置工程导入所有jar包。
@@ -46,7 +46,7 @@ public enum FileType {
 /**
  * 构造方法
  * @param context
- * @param appid   腾讯云注册的APPID
+ * @param appid   云平台注册的APPID
  * @param fileType 业务类型
  * @param persistenceId  持久化ID，每个UploadManager需设置一个唯一的ID用于持久
  *                       化保存未完成任务列表，以便应用退出重进后能继续进行上传；传
@@ -316,13 +316,13 @@ videoUploadMgr.sendCommand(task)
 ```
 
 ### 3.7 日志上报
-SDK会将上传过程中的日志保存到本地文件中，以便当用户上传过程中遇到问题时可以直接通过日志文件进行详细定位分析，SDK提供了日志上报接口，可以将指定日期的日志上报到腾讯云后台。
+SDK会将上传过程中的日志保存到本地文件中，以便当用户上传过程中遇到问题时可以直接通过日志文件进行详细定位分析，SDK提供了日志上报接口，可以将指定日期的日志上报到云平台后台。
 -  原型
 
 ```
 /**
  * 上报formDate到toDate对应的日志
- * @param appid     腾讯云注册的APPID
+ * @param appid     云平台注册的APPID
  * @param fromDate  开始上报时间（时间单位:天）
  * @param toDate    结束上报时间（时间单位:天）
  * @return 成功返回True，失败返回False
@@ -346,7 +346,7 @@ videoUploadMgr.uploadLog(APPID, beginDate, endDate);
 /**
  * 构造方法
  * @param context        Android Context
- * @param appid         腾讯云注册的APPID
+ * @param appid         云平台注册的APPID
  * @param persistenceId 每个Download实例需要分配一个唯一的id，该ID用于区分临时缓存
  *                          目录
  */
@@ -535,13 +535,13 @@ mDownloader.cleanCache();
 ```
 
 ### 4.7 日志上报
-SDK会将下载过程中的日志保存到本地文件中，以便当用户上传过程中遇到问题时可以直接通过日志文件进行详细定位分析，SDK提供了日志上报接口，可以将指定日期的日志上报到腾讯云后台。
+SDK会将下载过程中的日志保存到本地文件中，以便当用户上传过程中遇到问题时可以直接通过日志文件进行详细定位分析，SDK提供了日志上报接口，可以将指定日期的日志上报到云平台后台。
 -  原型
 
 ```
 /**
  * 上报formDate到toDate对应的日志
- * @param appid     腾讯云注册的APPID
+ * @param appid     云平台注册的APPID
  * @param fromDate  开始上报时间（时间单位:天）
  * @param toDate    结束上报时间（时间单位:天）
  * @return 成功返回True，失败返回False
@@ -560,7 +560,7 @@ Downloader.uploadLog(APPID, beginDate, endDate);
 
 ## 5 文件SDK
 ### 5.1 初始化
-见[3.1初始化](https://cloud.tencent.com/doc/product/314/Android-SDK%E8%AF%B4%E6%98%8E#3.1-.E5.88.9D.E5.A7.8B.E5.8C.96)章节
+见[3.1初始化](http://tce.fsphere.cn/doc/product/314/Android-SDK%E8%AF%B4%E6%98%8E#3.1-.E5.88.9D.E5.A7.8B.E5.8C.96)章节
 -   示例
 
 ```
@@ -948,7 +948,7 @@ videoUploadMgr.upload(task);  // 开始上传
 ```
 
 ### 5.7 暂停、恢复、取消上传
-见[3.3暂停、恢复、取消上传](http://cloud.tencent.com/doc/product/314/Android-SDK%E8%AF%B4%E6%98%8E#3.3-暂停、恢复、取消上传)章节
+见[3.3暂停、恢复、取消上传](http://tce.fsphere.cn/doc/product/314/Android-SDK%E8%AF%B4%E6%98%8E#3.3-暂停、恢复、取消上传)章节
 ### 5.8 对象查询
 查询Bucket、目录、文件等对像的详细信息，步骤如下:
 1. 通过path和ObjectType创建ObjectStatTask对象

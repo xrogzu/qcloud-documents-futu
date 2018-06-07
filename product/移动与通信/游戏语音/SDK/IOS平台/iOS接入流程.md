@@ -8,8 +8,8 @@ GVoice 游戏语音目前提供了实时语音（Real-Time）、语音消息（M
 GVoice 客户端 SDK 接口主要分成三个部分：基本 API、实时语音 API 以及语音消息 API。
 
 ### 系统配置和基本使用
-[iOS SDK 下载](https://cloud.tencent.com/document/product/556/10041)  
-[iOS Demo 下载](https://cloud.tencent.com/document/product/556/10042)
+[iOS SDK 下载](http://tce.fsphere.cn/document/product/556/10041)  
+[iOS Demo 下载](http://tce.fsphere.cn/document/product/556/10042)
 
 下载iOS SDK包后，解压得到`.a`文件、`.h`文件以及`bundle`文件。按如下流程即可接入：
 1. 导入库文件和 Bundle 文件到 Xcode 工程中。

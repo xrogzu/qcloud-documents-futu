@@ -5,7 +5,7 @@
 <img style="border:0; max-width:100%; height:auto; box-sizing:content-box; box-shadow: 0px 0px 0px #ccc; margin: 0px 0px 0px 0px;" src="https://main.qcloudimg.com/raw/aacdf8cdfa825f64f34af9c3c3e4154e.jpg" />
 
 
-腾讯云基于 [**LiveRoom**](https://cloud.tencent.com/document/product/454/14606) 组件实现“直播 + 连麦”功能，它分成 Client 和 Server 两个部分（都是开源的），对接攻略请参考 [DOC](https://cloud.tencent.com/document/product/454/14606)，本文档主要是详细列出了 Client 端的 API 列表：
+云平台基于 [**LiveRoom**](http://tce.fsphere.cn/document/product/454/14606) 组件实现“直播 + 连麦”功能，它分成 Client 和 Server 两个部分（都是开源的），对接攻略请参考 [DOC](http://tce.fsphere.cn/document/product/454/14606)，本文档主要是详细列出了 Client 端的 API 列表：
 
 ## LiveRoom
 
@@ -104,13 +104,13 @@ mLiveRoom.setLiveRoomListener(new ILiveRoomListener() {
 ### 2.login
 
 - 接口定义：void login(String serverDomain, final LoginInfo loginInfo, final LoginCallback callback) 
-- 接口说明：登录到 RoomService 后台，通过参数 serverDomain 可以指定是使用腾讯云的 RoomService 还是使用自建的 RoomService。
+- 接口说明：登录到 RoomService 后台，通过参数 serverDomain 可以指定是使用云平台的 RoomService 还是使用自建的 RoomService。
 - 参数说明：
 
 | 参数       | 类型                  | 说明       |
 | -------- | ------------------- | -------- |
-| serverDomain | String | RoomService 的服务器地址，这部分可以参考 [DOC](https://cloud.tencent.com/document/product/454/14606#ClientFLOW)。 |
-| loginInfo | LoginInfo | 登录参数，这部分可以参考 [DOC](https://cloud.tencent.com/document/product/454/14606#ClientFLOW)。 |
+| serverDomain | String | RoomService 的服务器地址，这部分可以参考 [DOC](http://tce.fsphere.cn/document/product/454/14606#ClientFLOW)。 |
+| loginInfo | LoginInfo | 登录参数，这部分可以参考 [DOC](http://tce.fsphere.cn/document/product/454/14606#ClientFLOW)。 |
 | callback | LoginCallback | 登录成功与否的回调 |
 
 - 示例代码：

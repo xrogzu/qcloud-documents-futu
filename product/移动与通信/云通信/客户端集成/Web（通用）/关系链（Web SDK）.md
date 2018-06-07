@@ -12,7 +12,7 @@
 applyAddFriend: function(options, cbOk, cbErr) {},
 ```
 
-具体参数请参考SDK包中的《腾讯云IM开放-WebSDK-关系链管理-REST协议文档》 
+具体参数请参考SDK包中的《云平台IM开放-WebSDK-关系链管理-REST协议文档》 
 
 **示例： **
 
@@ -75,7 +75,7 @@ var applyAddFriend = function () {
 getPendency: function(options, cbOk, cbErr) {},
 ```
 
-具体参数请参考SDK包中的《腾讯云IM开放-WebSDK-关系链管理-REST协议文档》 
+具体参数请参考SDK包中的《云平台IM开放-WebSDK-关系链管理-REST协议文档》 
 
 **示例：** 
 
@@ -137,7 +137,7 @@ var getPendency = function () {
 responseFriend: function(options, cbOk, cbErr) {},
 ```
 
-具体参数请参考SDK包中的《腾讯云IM开放-WebSDK-关系链管理-REST协议文档》 
+具体参数请参考SDK包中的《云平台IM开放-WebSDK-关系链管理-REST协议文档》 
 
 **示例：** 
 
@@ -191,7 +191,7 @@ var responseFriend = function () {
 deletePendency: function(options, cbOk, cbErr) {},
 ```
 
-具体参数请参考SDK包中的《腾讯云IM开放-WebSDK-关系链管理-REST协议文档》 
+具体参数请参考SDK包中的《云平台IM开放-WebSDK-关系链管理-REST协议文档》 
 
 **示例：** 
 
@@ -234,7 +234,7 @@ var deletePendency = function (del_account) {
 getAllFriend: function(options, cbOk, cbErr) {},
 ```
 
-具体参数请参考SDK包中的《腾讯云IM开放-WebSDK-关系链管理-REST协议文档》 
+具体参数请参考SDK包中的《云平台IM开放-WebSDK-关系链管理-REST协议文档》 
 
 **示例：** 
 
@@ -315,7 +315,7 @@ var getAllFriend = function (cbOK, cbErr) {
 deleteFriend: function(options, cbOk, cbErr) {},
 ```
 
-具体参数请参考SDK包中的《腾讯云IM开放-WebSDK-关系链管理-REST协议文档》 
+具体参数请参考SDK包中的《云平台IM开放-WebSDK-关系链管理-REST协议文档》 
 
 **示例：** 
 
@@ -372,7 +372,7 @@ var deleteFriend = function () {
 addBlackList: function(options, cbOk, cbErr) {},
 ```
 
-具体参数请参考SDK包中的《腾讯云IM开放-WebSDK-关系链管理-REST协议文档》 
+具体参数请参考SDK包中的《云平台IM开放-WebSDK-关系链管理-REST协议文档》 
 
 **示例：** 
 
@@ -424,7 +424,7 @@ var addBlackList = function (add_account) {
 getBlackList: function(options, cbOk, cbErr) {},
 ```
 
-具体参数请参考SDK包中的《腾讯云IM开放-WebSDK-关系链管理-REST协议文档》
+具体参数请参考SDK包中的《云平台IM开放-WebSDK-关系链管理-REST协议文档》
 
 **示例：**
 
@@ -476,7 +476,7 @@ var getBlackList = function (cbOK, cbErr) {
 deleteBlackList: function(options, cbOk, cbErr) {},
 ```
 
-具体参数请参考SDK包中的《腾讯云IM开放-WebSDK-关系链管理-REST协议文档》
+具体参数请参考SDK包中的《云平台IM开放-WebSDK-关系链管理-REST协议文档》
 
 **示例：**
 

@@ -1,6 +1,6 @@
 ## OBS功能说明
 
-请先下载腾讯云改造的 [OBS Studio ](http://dldir1.qq.com/hudongzhibo/xiaozhibo/obs_distribute_question.zip) ，定制版 OBS 主要用于冲顶答题模式，具体技术文档可以参考 [直播答题（冲顶模式）](https://cloud.tencent.com/document/product/454/13863) 中的方案一。
+请先下载云平台改造的 [OBS Studio ](http://dldir1.qq.com/hudongzhibo/xiaozhibo/obs_distribute_question.zip) ，定制版 OBS 主要用于冲顶答题模式，具体技术文档可以参考 [直播答题（冲顶模式）](http://tce.fsphere.cn/document/product/454/13863) 中的方案一。
 
 **demo演示效果**
 ![](https://mc.qcloudimg.com/static/img/c33ead292783bd4061ef069665b78a38/capture.gif)
@@ -74,7 +74,7 @@ server=http://jww.qcloud.com/dabaa
   }
   ```
 - **如何公布答案？**
-  由于腾讯云本身的 PAAS 定位，我们不会具体实现答题系统，这一部分需要由您的业务后台实现，那么这就产生了一个问题，我们的定制版 OBS 如何才能向观众下发每一道题的回答结果呢？
+  由于云平台本身的 PAAS 定位，我们不会具体实现答题系统，这一部分需要由您的业务后台实现，那么这就产生了一个问题，我们的定制版 OBS 如何才能向观众下发每一道题的回答结果呢？
   这就需要您的服务器提供一个 http 接口，然后按照约定的 json 格式跟 OBS 进行题目、答案以及人数的通讯。从而实现题目和答案的分发。
   在实战场景中，当导播员需要向观众端派发答题结果时，只需要先选择指定的题目，并点击 **“答题信息”** 按钮，定制版 OBS 会向您的服务器发送如下 HTTP GET 请求（“/subject/statics/1“部分将由OBS进行拼接，1 代表题目 id）
 
@@ -155,7 +155,7 @@ server=http://jww.qcloud.com/dabaa
 
 ## APP端如何接收题目？
 
-可以参考我们的接入文档（[iOS平台](https://cloud.tencent.com/document/product/454/7880#Message) | [Android平台](https://cloud.tencent.com/document/product/454/7886#Message)）
+可以参考我们的接入文档（[iOS平台](http://tce.fsphere.cn/document/product/454/7880#Message) | [Android平台](http://tce.fsphere.cn/document/product/454/7886#Message)）
 
 ## 题目放在音视频流里靠谱吗？
 

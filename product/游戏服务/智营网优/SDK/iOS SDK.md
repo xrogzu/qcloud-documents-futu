@@ -1,7 +1,7 @@
 ## 1 iOS 接入
 
 ### 1.1 SDK 获取
-登录腾讯云控制台, 下载地址：[iOS SDK](https://console.cloud.tencent.com/ino/sdk).
+登录云平台控制台, 下载地址：[iOS SDK](http://console.tce.fsphere.cn/ino/sdk).
 
 ### 1.2 SDK 配置
 #### 1.2.1 安装包结构
@@ -65,12 +65,12 @@
 
 |参数 | 含义 | 
 |---------|---------|
-| appid | 惟一标识该应用,即腾讯云控制台加速服务的游戏ID | 
+| appid | 惟一标识该应用,即云平台控制台加速服务的游戏ID | 
 | isDebug | 控制 log 的输出方便联调 | 
 | zoneid | 玩家大区 ID | 
 | isReleaseEnv | 云控正式环境，默认直接填 YES 即可 | 
 | isBatteryNotify | 电量统计信息，默认直接填 NO 即可 | 
-| tCloudKey | 腾讯云申请的 key 值 | 
+| tCloudKey | 云平台申请的 key 值 | 
 
 ####  3.1.2 设置用户信息
 ```

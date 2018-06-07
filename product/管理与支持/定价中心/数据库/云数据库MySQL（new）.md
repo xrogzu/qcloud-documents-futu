@@ -1,13 +1,13 @@
 ## 云数据库 MySQL 定价
 
-您可以点击 [云数据库 MySQL价格计算器](https://buy.cloud.tencent.com/calculator/cdb) 来查看产品价格，估算资源成本，加入购买预算清单，更可实现一键购买。
+您可以点击 [云数据库 MySQL价格计算器](https://buy.tce.fsphere.cn/calculator/cdb) 来查看产品价格，估算资源成本，加入购买预算清单，更可实现一键购买。
 
 >**注意：**
 >为保证您获取价格准确性，请登录后查看。
 
 ## 购买流程
 
-1. 登录腾讯云 [管理控制台][1]，将鼠标移至导航条中的【云产品】>【基础产品】>【数据库】单击【关系型数据库】，进入 [云数据库控制台][2]，单击【新建】按钮，进入云数据库 MySQL 购买界面。
+1. 登录云平台 [管理控制台][1]，将鼠标移至导航条中的【云产品】>【基础产品】>【数据库】单击【关系型数据库】，进入 [云数据库控制台][2]，单击【新建】按钮，进入云数据库 MySQL 购买界面。
 ![][image-1]
 ![][image-2]
 2. 选择配置属性：
@@ -43,16 +43,16 @@ CDB for MySQL 数据库支持控制台续费和续费管理中心续费两种方
 ![实例详情页续费][image-6]
 
 ### 续费管理中心续费
- 在 [续费管理页面][10] 提供实例的【批量资源续费】、【设置自动续费】、【设置统一到期日】、【取消不续费】等功能 ，详见 [续费管理](https://cloud.tencent.com/document/product/555/7454)。
+ 在 [续费管理页面][10] 提供实例的【批量资源续费】、【设置自动续费】、【设置统一到期日】、【取消不续费】等功能 ，详见 [续费管理](http://tce.fsphere.cn/document/product/555/7454)。
 
 ## 到期提醒
 
 ### 包年包月
 1. 到期预警
-包年包月的资源会在到期前七天开始，隔天向您推送到期预警，预警消息将通过邮件及短信的方式通知到腾讯云账户的创建者以及所有协作者。
+包年包月的资源会在到期前七天开始，隔天向您推送到期预警，预警消息将通过邮件及短信的方式通知到云平台账户的创建者以及所有协作者。
 
 2. 欠费预警
-包年包月的资源到期当天及每隔天向您推送欠费隔离预警，预警消息将通过邮件及短信的方式通知到腾讯云账户的创建者以及所有协作者。
+包年包月的资源到期当天及每隔天向您推送欠费隔离预警，预警消息将通过邮件及短信的方式通知到云平台账户的创建者以及所有协作者。
 
 3. 回收机制
     - 云服务资源到期前七天，系统会开始给用户发送续费提醒通知。 
@@ -65,17 +65,17 @@ CDB for MySQL 数据库支持控制台续费和续费管理中心续费两种方
  
 ![](https://mccdn.qcloud.com/img567f91951599d.png)
 1. 余额预警
-系统每天会根据您名下按量付费资源过去 24 小时的消费情况以及账户余额情况，预估余额可支撑的时间。若可支撑时间小于 5 天，我们将会向您推送余额预警。预警消息将通过邮件及短信的方式通知到腾讯云账户的创建者以及所有协作者。
+系统每天会根据您名下按量付费资源过去 24 小时的消费情况以及账户余额情况，预估余额可支撑的时间。若可支撑时间小于 5 天，我们将会向您推送余额预警。预警消息将通过邮件及短信的方式通知到云平台账户的创建者以及所有协作者。
 
 2. 欠费预警
-按量计费资源每个整点进行扣费。在您的账户被扣为负值时（上图中点 1），我们将通过邮件及短信的方式通知到腾讯云账户的创建者以及所有协作者。
+按量计费资源每个整点进行扣费。在您的账户被扣为负值时（上图中点 1），我们将通过邮件及短信的方式通知到云平台账户的创建者以及所有协作者。
 
 3. 欠费处理
 	- 从余额扣为负值时刻起，**2** 小时内云主机可继续使用且继续扣费。
 	- 2 小时后（上图中点 2）云数据库实例将自动关机且停止扣费。
 	- 自动关机后 24 小时内，若您的账户余额未充值到大于 0，不可对其开机；若充值到余额大于 0，计费将继续，可对其开机。
 	- 自动关机后，余额小于 0 达到 24 小时（上图中点 3），按量计费主机将回收，所有数据将会被清理，且不可找回。
-	- 主机回收时，我们将通过邮件及短信的方式通知到腾讯云账户的创建者以及所有协作者。
+	- 主机回收时，我们将通过邮件及短信的方式通知到云平台账户的创建者以及所有协作者。
 
 > **注意：**
 按量计费资源不再使用时**请及时销毁**，以免继续扣费。
@@ -89,15 +89,15 @@ CDB for MySQL 数据库支持控制台续费和续费管理中心续费两种方
 [image-5]:	https://mc.qcloudimg.com/static/img/1f4c68979c718e4a75734ca91f37c4ac/step5.png
 [image-6]:	https://mc.qcloudimg.com/static/img/a4403f63257ebe96b62867f22417d356/step6.png
 
-[1]:	https://console.cloud.tencent.com/
-[2]:	https://console.cloud.tencent.com/cdb
-[3]:	https://cloud.tencent.com/document/product/378/3629
-[4]:	https://cloud.tencent.com/document/product/236/8458
-[5]:    https://cloud.tencent.com/document/product/213/5227
-[6]:    https://cloud.tencent.com/document/product/236/7913
-[7]:	https://cloud.tencent.com/document/product/555/9618
-[8]:	https://cloud.tencent.com/document/product/555/9617
-[9]:    https://cloud.tencent.com/document/product/555/7437
-[10]:   https://console.cloud.tencent.com/account/renewal
-[11]:   https://cloud.tencent.com/document/product/236/5158
-[12]:   https://buy.cloud.tencent.com/calculator/cdb
+[1]:	http://console.tce.fsphere.cn/
+[2]:	http://console.tce.fsphere.cn/cdb
+[3]:	http://tce.fsphere.cn/document/product/378/3629
+[4]:	http://tce.fsphere.cn/document/product/236/8458
+[5]:    http://tce.fsphere.cn/document/product/213/5227
+[6]:    http://tce.fsphere.cn/document/product/236/7913
+[7]:	http://tce.fsphere.cn/document/product/555/9618
+[8]:	http://tce.fsphere.cn/document/product/555/9617
+[9]:    http://tce.fsphere.cn/document/product/555/7437
+[10]:   http://console.tce.fsphere.cn/account/renewal
+[11]:   http://tce.fsphere.cn/document/product/236/5158
+[12]:   https://buy.tce.fsphere.cn/calculator/cdb

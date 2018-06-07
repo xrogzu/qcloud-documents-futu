@@ -1,6 +1,6 @@
 ### 1. 获取云 API 密钥(SecretId、SecretKey)
 
-登入 [控制台](https://console.cloud.tencent.com/iotcloud) 后，进入 [云API密钥](https://console.cloud.tencent.com/cam/capi)
+登入 [控制台](http://console.tce.fsphere.cn/iotcloud) 后，进入 [云API密钥](http://console.tce.fsphere.cn/cam/capi)
 
 ![云API密钥](https://mc.qcloudimg.com/static/img/62352850496e6184f6a74f496f8d8638/miyao1.png)
 

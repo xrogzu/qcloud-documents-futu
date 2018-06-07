@@ -1,11 +1,11 @@
 连接到 MySQL 数据库的方式有两种：
-- 内网访问：使用在同一个可用区的 CVM 来访问自动分配给数据库的内网地址。这种方式使用内网高速网络，延迟低。（注意：此台 CVM 需要与数据库同一地域下的基础网络中，或者同一个 VPC 中，关于 VPC 的更多信息请查看<a href="https://cloud.tencent.com/document/product/215/535" target="_blank"> VPC 概述</a>。）
-- 外网访问：借助外网账号，通过腾讯云控制台中的登录入口，登录到 phpMyAdmin 界面对数据库进行操作。
+- 内网访问：使用在同一个可用区的 CVM 来访问自动分配给数据库的内网地址。这种方式使用内网高速网络，延迟低。（注意：此台 CVM 需要与数据库同一地域下的基础网络中，或者同一个 VPC 中，关于 VPC 的更多信息请查看<a href="http://tce.fsphere.cn/document/product/215/535" target="_blank"> VPC 概述</a>。）
+- 外网访问：借助外网账号，通过云平台控制台中的登录入口，登录到 phpMyAdmin 界面对数据库进行操作。
 
 <font color="red">**安全提示：**</font>外网访问需要开启数据库实例的外网地址，从而使您的数据库服务暴露在公网上，此操作可能导致数据库被入侵或攻击。建议您使用内网访问的方式来登录数据库。
 ## 内网访问
 1. 登录到与此数据库实例属于同一个可用区的网络可达的 CVM 主机。
-关于登录 CVM 主机请查看 <a href="https://cloud.tencent.com/document/product/213/2783" target="_blank"> Windows CVM 入门</a> 或 <a href="https://cloud.tencent.com/document/product/213/2973" target="_blank">Linux CVM 入门 </a>。网络可达是指此 CVM 主机与 MySQL 数据库实例都处于基础网络之中，或者处于同一个 VPC 中。
+关于登录 CVM 主机请查看 <a href="http://tce.fsphere.cn/document/product/213/2783" target="_blank"> Windows CVM 入门</a> 或 <a href="http://tce.fsphere.cn/document/product/213/2973" target="_blank">Linux CVM 入门 </a>。网络可达是指此 CVM 主机与 MySQL 数据库实例都处于基础网络之中，或者处于同一个 VPC 中。
 2. 请根据 CVM 的操作系统选择推荐的连接方式。
  - **从 Windows 系统登录**
       1. 下载一个标准的 SQL 客户端。此步骤中我们推荐您下载 MySQL Workbench，这是 Windows 系统下较常见的 SQL 客户端。在 CVM 中打开 https://dev.mysql.com/downloads/workbench/ ，根据您的系统来下载适配版本的安装程序。
@@ -24,7 +24,7 @@
 	![](https://mc.qcloudimg.com/static/img/abd8efce579343d25f534143c19c132e/image.png)	
 
  - **从 Linux 系统登录**
-     1. 以 CentOS 7.2 64 位系统的 CVM 为例，利用 CentOS 自带的包管理软件 Yum 去腾讯云的镜像源下载安装 MySQL 客户端。
+     1. 以 CentOS 7.2 64 位系统的 CVM 为例，利用 CentOS 自带的包管理软件 Yum 去云平台的镜像源下载安装 MySQL 客户端。
 	相关命令为：
 ```
 	yum install mysql
@@ -46,7 +46,7 @@ mysql -h hostname -u username -p
 <font color="red">**安全提示：**</font>外网访问需要开启数据库实例的外网地址，从而使您的数据库服务暴露在公网上，此操作可能导致数据库被入侵或攻击。
 请根据外网中主机的操作系统选择对应的登录方式。
 - **从 Windows 系统登录**
-  1. 在 [腾讯云控制台](https://console.cloud.tencent.com/) 中，依次单击【云产品】>【关系型数据库】>【MySQL】>【实例列表】，选择状态为运行中的目标实例，点击【登录】。
+  1. 在 [云平台控制台](http://console.tce.fsphere.cn/) 中，依次单击【云产品】>【关系型数据库】>【MySQL】>【实例列表】，选择状态为运行中的目标实例，点击【登录】。
 ![](https://mc.qcloudimg.com/static/img/248ca91c3b13e3f249c752f43019ed1a/image.png)
   2. 在数据管理控制台的登录界面，帐号输入 root，密码为之前在初始化选项中配置的 root 账户的密码，点击【登录】来登录。
 ![](https://mc.qcloudimg.com/static/img/b5538d93dc27d99af6fed9f0e5c9b798/image.png)
@@ -56,7 +56,7 @@ mysql -h hostname -u username -p
 ![](https://mc.qcloudimg.com/static/img/c8f60117f5aec772663d3c7890c96b1e/image.png)
 
 - **从 Linux 系统登录**
- 1. 在腾讯云控制台中，选择【云产品】>【关系型数据库】>【MySQL-实例列表】，点击目标实例的 ID 进入实例详情页。
+ 1. 在云平台控制台中，选择【云产品】>【关系型数据库】>【MySQL-实例列表】，点击目标实例的 ID 进入实例详情页。
 ![](https://mc.qcloudimg.com/static/img/018350e48f1d535d105c3c6340d36b2d/image.png)
  2. 在实例详情页点击外网地址后的【开启】，点击【确定】。
 ![](https://mc.qcloudimg.com/static/img/730e65a8b10f429a80ea15456b9a7193/image.png)

@@ -13,7 +13,7 @@ XCode 说明
 
 CocoaPods 说明
 
-MobileLine移动开发平台的 服务使用 CocoaPods 安装和管理依赖项。请打开终端窗口，然后导航至应用的 Xcode 项目位置。具体配置可以参考[TAC使用入门](https://cloud.tencent.com/document/product/666/14306?!preview&lang=cn)
+MobileLine移动开发平台的 服务使用 CocoaPods 安装和管理依赖项。请打开终端窗口，然后导航至应用的 Xcode 项目位置。具体配置可以参考[TAC使用入门](http://tce.fsphere.cn/document/product/666/14306?!preview&lang=cn)
 
 
 1. 如果您没有 Podfile，请创建一个：
@@ -25,7 +25,7 @@ MobileLine移动开发平台的 服务使用 CocoaPods 安装和管理依赖项�
 2. 打开 Podfile 并添加
 	
 	~~~
-	source "https://git.cloud.tencent.com/qcloud_u/cocopoads-repo"
+	source "https://git.tce.fsphere.cn/qcloud_u/cocopoads-repo"
 	source "https://github.com/CocoaPods/Specs"
 	pod 'TACCore'
 	~~~

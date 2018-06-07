@@ -11,7 +11,7 @@
 10. 执行`lsmode | grep toa` 检查 toa 模块是否加载，没有加载的话，可通过 `modprobe toa`命令 开启。
 
 ## 方法二：rpm 包安装方式
-可以联系腾讯云来提供，也可以自己制作 rpm 包。自己制作 rpm 包步骤如下：
+可以联系云平台来提供，也可以自己制作 rpm 包。自己制作 rpm 包步骤如下：
 1. 安装 kernel-2.6.32-220.23.1.el6.src.rpm：
 `rpm -hiv kernel-2.6.32-220.23.1.el6.src.rpm`
 

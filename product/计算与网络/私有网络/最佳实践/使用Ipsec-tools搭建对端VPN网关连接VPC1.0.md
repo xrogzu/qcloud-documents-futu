@@ -1,11 +1,11 @@
-腾讯云私有网络 VPC 可以通过加密的 VPN 通道连接客户 IDC，只需在 VPC 及用户 IDC 中设置 VPN 网关及对端网关即可。客户如果暂时不打算使用 Cisco、Juniper 或 H3C 等厂家的硬件 VPN 设备，也可以使用开源软件在服务器上搭建对端网关。本文以在 CentOS 上安装 ipsec-tools 为例，介绍如何通过开源软件连接腾讯云 VPC，建立混合云场景。
+云平台私有网络 VPC 可以通过加密的 VPN 通道连接客户 IDC，只需在 VPC 及用户 IDC 中设置 VPN 网关及对端网关即可。客户如果暂时不打算使用 Cisco、Juniper 或 H3C 等厂家的硬件 VPN 设备，也可以使用开源软件在服务器上搭建对端网关。本文以在 CentOS 上安装 ipsec-tools 为例，介绍如何通过开源软件连接云平台 VPC，建立混合云场景。
 
 ## 1. 环境说明
 ![](https://mccdn.qcloud.com/img56c6836ccfc95.png)
 
-如上图所示，左边是您在腾讯云上建立的私有网络。为了将 VPC 与右边的客户 IDC 互通，可以利用公网在两者之间建立加密 Ipsec VPN 通道，保障传输数据的安全可靠。
+如上图所示，左边是您在云平台上建立的私有网络。为了将 VPC 与右边的客户 IDC 互通，可以利用公网在两者之间建立加密 Ipsec VPN 通道，保障传输数据的安全可靠。
 
-首先您需要在腾讯云上建立您的私有网络，并根据您的需求规划子网、购买 VPN 网关，并设置好到需要互通的 IDC 网络的 VPC 路由（注意路由设置中【下一跳】请选择您购买的 VPN 网关）。具体操作步骤请见 <a href="http://cloud.tencent.com/doc/product/215/%E5%88%9B%E5%BB%BA%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%E5%8F%8A%E5%AD%90%E7%BD%91" target="_blank">创建私有网络及子网</a>[创建私有网络及子网](http://cloud.tencent.com/doc/product/215/%E5%88%9B%E5%BB%BA%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%E5%8F%8A%E5%AD%90%E7%BD%91)、<a href="" target="_blank"></a>[向私有网络中添加云服务](http://cloud.tencent.com/doc/product/215/%E5%90%91%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%E4%B8%AD%E6%B7%BB%E5%8A%A0%E4%BA%91%E6%9C%8D%E5%8A%A1)、<a href="" target="_blank"></a>[关联子网路由](http://cloud.tencent.com/doc/product/215/%E5%85%B3%E8%81%94%E5%AD%90%E7%BD%91%E8%B7%AF%E7%94%B1)、<a href="" target="_blank"></a>[修改默认路由表](http://cloud.tencent.com/doc/product/215/%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E8%B7%AF%E7%94%B1%E8%A1%A8) 和 <a href="" target="_blank"></a>[创建VPN网关](http://cloud.tencent.com/doc/product/215/%E5%88%9B%E5%BB%BAVPN%E7%BD%91%E5%85%B3)，将上图左边部分创建设置完成。
+首先您需要在云平台上建立您的私有网络，并根据您的需求规划子网、购买 VPN 网关，并设置好到需要互通的 IDC 网络的 VPC 路由（注意路由设置中【下一跳】请选择您购买的 VPN 网关）。具体操作步骤请见 <a href="http://tce.fsphere.cn/doc/product/215/%E5%88%9B%E5%BB%BA%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%E5%8F%8A%E5%AD%90%E7%BD%91" target="_blank">创建私有网络及子网</a>[创建私有网络及子网](http://tce.fsphere.cn/doc/product/215/%E5%88%9B%E5%BB%BA%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%E5%8F%8A%E5%AD%90%E7%BD%91)、<a href="" target="_blank"></a>[向私有网络中添加云服务](http://tce.fsphere.cn/doc/product/215/%E5%90%91%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%E4%B8%AD%E6%B7%BB%E5%8A%A0%E4%BA%91%E6%9C%8D%E5%8A%A1)、<a href="" target="_blank"></a>[关联子网路由](http://tce.fsphere.cn/doc/product/215/%E5%85%B3%E8%81%94%E5%AD%90%E7%BD%91%E8%B7%AF%E7%94%B1)、<a href="" target="_blank"></a>[修改默认路由表](http://tce.fsphere.cn/doc/product/215/%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E8%B7%AF%E7%94%B1%E8%A1%A8) 和 <a href="" target="_blank"></a>[创建VPN网关](http://tce.fsphere.cn/doc/product/215/%E5%88%9B%E5%BB%BAVPN%E7%BD%91%E5%85%B3)，将上图左边部分创建设置完成。
 
 
 若您暂时不打算使用任何硬件厂家 VPN 设备，您也可按照本文档下面部分的操作方式，在位于 IDC 机房的一端使用 Ipsec-tools 开源工具搭建 VPN 网关。
@@ -117,7 +117,7 @@ setkey -D
 若经过设置后 VPC 与 IDC 无法进行加密通信，请按照以下步骤检查：
 
 1) 检测 VPC 网关 IP 是否可达
- `ping` 您在腾讯云上购买的 VPN 网关公网 IP 地址是否可达。
+ `ping` 您在云平台上购买的 VPN 网关公网 IP 地址是否可达。
 
 2) 是否缺少路由
 通过以下命令检查是否有到 VPC 网段的路由或默认路由。

@@ -68,7 +68,7 @@
 	```
 	lrwxrwxrwx. 1 root root 9 Apr 16 19:31 ip-[网关IP]:iqn.2003-07.com.qcloud:csg-022ef55-tapedrive-01 -> ../../sda
 	```
-	启动程序设置完毕后，我们强烈建议您按[在 Linux 客户端上使用卷-优化配置](https://cloud.tencent.com/document/product/581/12272#.E4.BC.98.E5.8C.96.E9.85.8D.E7.BD.AE)中推荐的设置进行 iSCSI 配置调优。
+	启动程序设置完毕后，我们强烈建议您按[在 Linux 客户端上使用卷-优化配置](http://tce.fsphere.cn/document/product/581/12272#.E4.BC.98.E5.8C.96.E9.85.8D.E7.BD.AE)中推荐的设置进行 iSCSI 配置调优。
 	
 ## 配置 NetBackup
 ### 发现磁带网关驱动
@@ -173,6 +173,6 @@
 
 应用程序是无法从已归档磁带中取出数据。为了读取归档数据，您需要磁带数据取回。
 
-1. 要将已归档磁带取回到磁带网关。您可以在 CSG 控制台，选中 "磁带列表", 找到相应的已归档磁带，点击【取回】，详细操作步骤请参考[磁带取回](https://cloud.tencent.com/document/product/581/12507#.E7.A3.81.E5.B8.A6.E5.8F.96.E5.9B.9E)。 
+1. 要将已归档磁带取回到磁带网关。您可以在 CSG 控制台，选中 "磁带列表", 找到相应的已归档磁带，点击【取回】，详细操作步骤请参考[磁带取回](http://tce.fsphere.cn/document/product/581/12507#.E7.A3.81.E5.B8.A6.E5.8F.96.E5.9B.9E)。 
 2. 等待磁带取回后， 您可使用随 Symantec NetBackup 应用程序一起安装的“备份、存档和还原”软件。此过程与从物理磁带还原数据相同。
 

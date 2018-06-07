@@ -8,8 +8,8 @@
 只适用于 COS V4 版本，不支持地域：重庆（ap-chongqing），首尔（ap-seoul），孟买（ap-mumbai）。
 
 ## 准备工作
-1. 进入 [腾讯云官网](https://cloud.tencent.com/)，注册腾讯云账户，指引参考 [注册腾讯云](/doc/product/378/9603)。
-- 登录 [对象存储控制台](https://console.cloud.tencent.com/cos4)，开通对象存储服务，创建存储桶，指引参考 [创建存储桶](/doc/product/436/6232)
+1. 进入 [云平台官网](http://tce.fsphere.cn/)，注册云平台账户，指引参考 [注册云平台](/doc/product/378/9603)。
+- 登录 [对象存储控制台](http://console.tce.fsphere.cn/cos4)，开通对象存储服务，创建存储桶，指引参考 [创建存储桶](/doc/product/436/6232)
 - 通过 [GitHub 地址](https://github.com/tencentyun/wecos) 下载 WeCOS 工具。
 - 在 [Node.js 官网](https://nodejs.org/)下载环境并安装。
 
@@ -36,7 +36,7 @@ npm install -g wecos
 | 配置项    | 类型           | 说明                                       |
 | ------ | ------------ | ---------------------------------------- |
 | appDir | **[String]** | 默认 `./app`，小程序项目目录                       |
-| cos    | **[Object]** | 必填， COS 上对应存储桶的配置信息，部分信息可在 [控制台](https://console.cloud.tencent.com/cos4/secret) 查看 |
+| cos    | **[Object]** | 必填， COS 上对应存储桶的配置信息，部分信息可在 [控制台](http://console.tce.fsphere.cn/cos4/secret) 查看 |
 ## 使用
 在配置文件同级目录下执行以下使用命令：
 ```
@@ -82,7 +82,7 @@ wecos
 ```
 #### 开启图片压缩
 图片上传到 COS 之后虽然大大减轻了程序包的大小，但如果图片自身体积过大导致访问延迟，也会影响到用户体验。
-WeCOS 在图片上云的基础功能上还额外提供了基于 [腾讯云万象优图](https://cloud.tencent.com/product/ci) 的图片压缩功能。您在 [万象优图控制台](https://console.cloud.tencent.com/ci) 创建与 COS 同名的存储桶后，进入存储桶，在样式页面开启图片压缩功能后，资源将被压缩后上传。
+WeCOS 在图片上云的基础功能上还额外提供了基于 [云平台万象优图](http://tce.fsphere.cn/product/ci) 的图片压缩功能。您在 [万象优图控制台](http://console.tce.fsphere.cn/ci) 创建与 COS 同名的存储桶后，进入存储桶，在样式页面开启图片压缩功能后，资源将被压缩后上传。
 ```
   "compress": true
 ```

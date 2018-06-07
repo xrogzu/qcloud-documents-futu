@@ -14,7 +14,7 @@
 
 ### 旁路直播(即旁观者模式)
 
-支持旁路直播，结合腾讯云直播服务可实现HLS、RTMP的直播下发。
+支持旁路直播，结合云平台直播服务可实现HLS、RTMP的直播下发。
 
 ### PC桌面分享
 
@@ -26,7 +26,7 @@
 
 ### 云端录制
 
-支持云端录制，结合腾讯云点播服务及其完善的API可实现存储、转码、分发等功能。
+支持云端录制，结合云平台点播服务及其完善的API可实现存储、转码、分发等功能。
 
 
 ## 基本功能
@@ -645,14 +645,14 @@
 		<tr>
 			<td rowspan="8" style="text-align:center">其他</td>
 			<td colspan="2" style="text-align: center; width: 123px;">录制</td>
-			<td style="text-align: center; width: 382px;">支持云端录制，结合腾讯云点播服务及其完善的API可实现存储、转码、分发等功能。</td>
+			<td style="text-align: center; width: 382px;">支持云端录制，结合云平台点播服务及其完善的API可实现存储、转码、分发等功能。</td>
 			<td style="text-align: center; width: 25px;">&radic;</td>
 			<td style="text-align: center; width: 25px;">&radic;</td>
 			<td style="text-align: center; width: 206px;">&radic;</td>
 		</tr>
 		<tr>
 			<td colspan="2" style="text-align: center; width: 123px;">旁路直播</td>
-			<td style="text-align: center; width: 382px;">支持旁路直播，结合腾讯云直播服务可实现HLS、RTMP的直播下发。</td>
+			<td style="text-align: center; width: 382px;">支持旁路直播，结合云平台直播服务可实现HLS、RTMP的直播下发。</td>
 			<td style="text-align: center; width: 25px;">&radic;</td>
 			<td style="text-align: center; width: 25px;">&radic;</td>
 			<td style="text-align: center; width: 206px;">&radic;</td>
@@ -1318,14 +1318,14 @@
 		<tr>
 			<td rowspan="8" style="text-align: center; width: 18px;">其他</td>
 			<td colspan="2" style="text-align: center; width: 116px;">录制</td>
-			<td style="text-align: center; width: 307px;">支持云端录制，结合腾讯云点播服务及其完善的API可实现存储、转码、分发等功能。</td>
+			<td style="text-align: center; width: 307px;">支持云端录制，结合云平台点播服务及其完善的API可实现存储、转码、分发等功能。</td>
 			<td style="text-align: center; width: 42px;">&radic;</td>
 			<td style="text-align: center; width: 49px;">&radic;</td>
 			<td style="text-align: center; width: 58px;">&radic;</td>
 		</tr>
 		<tr>
 			<td colspan="2" style="text-align: center; width: 116px;">旁路直播</td>
-			<td style="text-align: center; width: 307px;">支持旁路直播，结合腾讯云直播服务可实现HLS、RTMP的直播下发。</td>
+			<td style="text-align: center; width: 307px;">支持旁路直播，结合云平台直播服务可实现HLS、RTMP的直播下发。</td>
 			<td style="text-align: center; width: 42px;">&radic;</td>
 			<td style="text-align: center; width: 49px;">&radic;</td>
 			<td style="text-align: center; width: 58px;">&radic;</td>

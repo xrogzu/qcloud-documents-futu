@@ -3,9 +3,9 @@
 >**注意：**
 >不同解析套餐对应的 DNS 地址不同，请根据提示来修改。
 
-### 腾讯云注册域名修改 DNS
-如果域名在腾讯云注册，或者已转入腾讯云，可以通过以下步骤修改 DNS 服务器：
-1. 登录 [腾讯云控制台](https://console.cloud.tencent.com/)，选择【云产品】>【域名与网站】>【域名管理】。
+### 云平台注册域名修改 DNS
+如果域名在云平台注册，或者已转入云平台，可以通过以下步骤修改 DNS 服务器：
+1. 登录 [云平台控制台](http://console.tce.fsphere.cn/)，选择【云产品】>【域名与网站】>【域名管理】。
 ![1](https://mc.qcloudimg.com/static/img/c2f4a6cb3572143b1fbaffb23bc58510/image.png)
 2. 选择相应域名，单击【管理】。
 ![2](https://mc.qcloudimg.com/static/img/1dbc9f9c19eb5543fcde41577e817ff0/image.png)
@@ -18,7 +18,7 @@
 下面以阿里云（万网）、GoDaddy 为例说明修改方法。
 
 ### 阿里云（万网）注册商域名修改 DNS
-1. 选择需要在腾讯云进行解析的域名，进入域名管理页的【DNS 修改/创建】，单击【修改域名 DNS】；
+1. 选择需要在云平台进行解析的域名，进入域名管理页的【DNS 修改/创建】，单击【修改域名 DNS】；
 ![](https://mccdn.qcloud.com/static/img/2ade9bc496f296f14186df348835ed8e/image.png)
 2. 分别填写 f1g1ns1.dnspod.net，f1g1ns2.dnspod.net，保存后最长等待 72 小时可以全球生效。
 ![](https://mccdn.qcloud.com/static/img/bca1fc5a448568567c3498b3d2c0da4d/image.png)

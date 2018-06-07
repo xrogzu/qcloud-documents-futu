@@ -1,19 +1,19 @@
-**注意** ：本文1、2、3部分内容，仅适用于COS V3及以下版本，使用COS V4及以上版本的用户，请参见[COS  API产品手册](https://cloud.tencent.com/document/product/436/7751) 
+**注意** ：本文1、2、3部分内容，仅适用于COS V3及以下版本，使用COS V4及以上版本的用户，请参见[COS  API产品手册](http://tce.fsphere.cn/document/product/436/7751) 
 
 ## 1	基本概念
 
 | 概念            | 解释                                       |
 | ------------- | ---------------------------------------- |
 | appid         | 接入视频处理时，生成为唯一id， 用于唯一标识接入业务， 获取地址: 密钥配置  |
-| Authorization | 签名，具体生成参见[鉴权签名方法](https://cloud.tencent.com/document/product/314/2290)。 |
-| bucket_name   | bucket名称，bucket创建参见[创建Bucket](https://console.cloud.tencent.com/media/bucket) |
+| Authorization | 签名，具体生成参见[鉴权签名方法](http://tce.fsphere.cn/document/product/314/2290)。 |
+| bucket_name   | bucket名称，bucket创建参见[创建Bucket](http://console.tce.fsphere.cn/media/bucket) |
 
 ## 2	鉴权
-腾讯云•视频处理通过签名来验证请求的合法性。开发者通过将签名授权给客户端，使其具备上传下载及管理指定资源的能力。
+云平台•视频处理通过签名来验证请求的合法性。开发者通过将签名授权给客户端，使其具备上传下载及管理指定资源的能力。
 
 签名分为单次签名和多次签名，区别为: 如果针对资源进行写操作(资源删除)，那么这个签名必须是单次有效的。重复使用该签名则会返回签名失败。如果是上传或下载资源，签名必须是多次有效的，有效时长最多为三个月。
 
-开发者可以通过[服务器SDK文档](https://cloud.tencent.com/document/product/314/3499#3.-.E6.9C.8D.E5.8A.A1.E5.99.A8sdk)生成签名，也可以参考我们的签名函数自行生成签名，具体生成方式详见[鉴权签名方法](https://cloud.tencent.com/document/product/314/2290)。
+开发者可以通过[服务器SDK文档](http://tce.fsphere.cn/document/product/314/3499#3.-.E6.9C.8D.E5.8A.A1.E5.99.A8sdk)生成签名，也可以参考我们的签名函数自行生成签名，具体生成方式详见[鉴权签名方法](http://tce.fsphere.cn/document/product/314/2290)。
 
 ## 3	目录操作
 
@@ -29,7 +29,7 @@
 | ------------- | ---- | ------ | ---------------------------------------- |
 | Host          | 是    | String | 视频处理服务器域名，固定为web.video.myqcloud.com      |
 | Content-Type  | 是    | String | application/json                         |
-| Authorization | 是    | String | 多次有效签名，用于鉴权， 具体生成方式详见[鉴权签名方法](https://cloud.tencent.com/document/product/314/2290) |
+| Authorization | 是    | String | 多次有效签名，用于鉴权， 具体生成方式详见[鉴权签名方法](http://tce.fsphere.cn/document/product/314/2290) |
 
 请求包体 (json)：
 
@@ -93,7 +93,7 @@
 | -------------- | ---- | ------ | ---------------------------------------- |
 | Content-Length | 是    | Int    | 整个multipart/form-data内容的总长度，单位：字节（Byte）  |
 | Content-Type   | 是    | String | 固定为multipart/form-data                   |
-| Authorization  | 是    | String | 多次有效签名，用于鉴权， 具体生成方式详见[鉴权签名方法](https://cloud.tencent.com/document/product/314/2290) |
+| Authorization  | 是    | String | 多次有效签名，用于鉴权， 具体生成方式详见[鉴权签名方法](http://tce.fsphere.cn/document/product/314/2290) |
 
 请求包体信息 (multipart/form-data)：
 
@@ -169,7 +169,7 @@
 | -------------- | ---- | ------ | ---------------------------------------- |
 | Content-Length | 是    | Int    | 整个multipart/form-data内容的总长度，单位：字节（Byte）  |
 | Content-Type   | 是    | String | 固定为multipart/form-data                   |
-| Authorization  | 是    | String | 多次有效签名，用于鉴权， 具体生成方式详见[鉴权签名方法](https://cloud.tencent.com/document/product/314/2290) |
+| Authorization  | 是    | String | 多次有效签名，用于鉴权， 具体生成方式详见[鉴权签名方法](http://tce.fsphere.cn/document/product/314/2290) |
 
 请求包体信息 (multipart/form-data)：
 
@@ -264,7 +264,7 @@
 | -------------- | ---- | ------ | ---------------------------------------- |
 | Content-Length | 是    | Int    | 整个multipart/form-data内容的总长度，单位：字节（Byte）  |
 | Content-Type   | 是    | String | 固定为multipart/form-data                   |
-| Authorization  | 是    | String | 多次有效签名，用于鉴权， 具体生成方式详见[鉴权签名方法](https://cloud.tencent.com/document/product/314/2290) |
+| Authorization  | 是    | String | 多次有效签名，用于鉴权， 具体生成方式详见[鉴权签名方法](http://tce.fsphere.cn/document/product/314/2290) |
 
 请求包体信息 (multipart/form-data):
 
@@ -355,7 +355,7 @@ Request Param(query string)：
 | pattern       | 否    | String | eListBoth， eListDirOnly， eListFileOnly (默认eListBoth) |
 | order         | 否    | Int    | 默认正序(=0)， 填1为反序，                         |
 | context       | 否    | String | 透传字段，查看第一页，则传空字符串。若需要翻页，需要将前一页返回值中的context透传到参数中。order用于指定翻页顺序。若order填0，则从当前页正序/往下翻页；若order填1，则从当前页倒序/往上翻页。 |
-| Authorization | 是    | String | 多次有效签名，用于鉴权， 具体生成方式详见[鉴权签名方法](https://cloud.tencent.com/document/product/314/2290) |
+| Authorization | 是    | String | 多次有效签名，用于鉴权， 具体生成方式详见[鉴权签名方法](http://tce.fsphere.cn/document/product/314/2290) |
 
 Response (json):
 <table style="display:table;width:80%;">
@@ -533,7 +533,7 @@ Request Body (json)：
 | video_cover   | 否    | String | 视频封面的URL                                 |
 | video_title   | 否    | String | 视频才有，目录没有此属性                             |
 | video_desc    | 否    | String | 视频才有，目录没有此属性                             |
-| Authorization | 是    | String | 单次有效签名，用于鉴权， 具体生成方式详见[鉴权签名方法](https://cloud.tencent.com/document/product/314/2290) |
+| Authorization | 是    | String | 单次有效签名，用于鉴权， 具体生成方式详见[鉴权签名方法](http://tce.fsphere.cn/document/product/314/2290) |
 
 Response (json)：
 
@@ -551,7 +551,7 @@ Request Body (query string)：
 | 参数名称          | 必选   | 类型     | 描述                                       |
 | ------------- | ---- | ------ | ---------------------------------------- |
 | op            | 是    | String | 操作类型。固定填”stat”                           |
-| Authorization | 是    | String | 多次有效签名，用于鉴权， 具体生成方式详见[鉴权签名方法](https://cloud.tencent.com/document/product/314/2290) |
+| Authorization | 是    | String | 多次有效签名，用于鉴权， 具体生成方式详见[鉴权签名方法](http://tce.fsphere.cn/document/product/314/2290) |
 
 Response (json)：
 <table style="display:table;width:80%;">
@@ -681,7 +681,7 @@ Request Body (json)：
 | 参数名称          | 必选   | 类型     | 描述                                       |
 | ------------- | ---- | ------ | ---------------------------------------- |
 | op            | 是    | String | 操作类型。固定填”delete”                         |
-| Authorization | 是    | String | 单次有效签名，用于鉴权， 具体生成方式详见[鉴权签名方法](https://cloud.tencent.com/document/product/314/2290) |
+| Authorization | 是    | String | 单次有效签名，用于鉴权， 具体生成方式详见[鉴权签名方法](http://tce.fsphere.cn/document/product/314/2290) |
 
 Response (json)：
 
@@ -703,7 +703,7 @@ Response (json)：
 高清：http://bucketname-10000379.video.myqcloud.com/q.mp4.f30.mp4
 ```
 
-若开启了token防盗链（如何开启，详见[token防盗链](https://cloud.tencent.com/document/product/314/3496)）。
+若开启了token防盗链（如何开启，详见[token防盗链](http://tce.fsphere.cn/document/product/314/3496)）。
 视频下载只能是私密下载，即必须access_url +?sign=[签名]。转码后的视频防盗链规则一样。
 示例：
 
@@ -717,17 +717,17 @@ E0MzMxNDU2MDAmdD0xNDI4NTcwMDMxJnI9MjkzODI3MTE2JnU9JmY9
 
 ## 描述
 
-- 本文档用于腾讯云CDN转码服务结果查询和回调
+- 本文档用于云平台CDN转码服务结果查询和回调
 
-- 请求域名：cdn.api.cloud.tencent.com
+- 请求域名：cdn.api.tce.fsphere.c
 
 - 请求方式：POST 或者GET
 
-- 签名方法：https://cloud.tencent.com/document/product/228/1725
+- 签名方法：http://tce.fsphere.cn/document/product/228/1725
 
 - SDK： https://github.com/QCloudCDN/CDN_API_SDK/tree/master/Qcloud_CDN_API
 
-- secretKey和secretId：https://console.cloud.tencent.com/capi
+- secretKey和secretId：http://console.tce.fsphere.cn/capi
 
 
 ## 4.1	视频转码结果查询接口(GetCtsInfo)
@@ -840,7 +840,7 @@ E0MzMxNDU2MDAmdD0xNDI4NTcwMDMxJnI9MjkzODI3MTE2JnU9JmY9
 ### 请求示例
 
 ```shell
-https://cdn.api.cloud.tencent.com/v2/index.php?Action=GetCtsInfo&SecretId=AKIDxUCsd01oB7BxxxxxxFihD8hlRhftKmXr&Nonce=44207&Timestamp=1480384094&Region=gz&vid=000628c22a4cfa9daac321c31d496393&Signature=njTouxSxxxxxxPjeGKr0ZG%2Fi%2FE%3D
+https://cdn.api.tce.fsphere.cn/v2/index.php?Action=GetCtsInfo&SecretId=AKIDxUCsd01oB7BxxxxxxFihD8hlRhftKmXr&Nonce=44207&Timestamp=1480384094&Region=gz&vid=000628c22a4cfa9daac321c31d496393&Signature=njTouxSxxxxxxPjeGKr0ZG%2Fi%2FE%3D
 ```
 
 ### 回包示例
@@ -1348,7 +1348,7 @@ https://cdn.api.cloud.tencent.com/v2/index.php?Action=GetCtsInfo&SecretId=AKIDxU
 ###  请求示例
 
 ```shell
-https://cdn.api.cloud.tencent.com/v2/index.php?Action=GetCtsaudioInfo&SecretId=AKIDxUCsd01oB7BxxxxxxFihD8hlRhftKmXr&Nonce=44207&Timestamp=1480384094&Region=gz&vid=000628c22a4cfa9daac321c31d496393&Signature=njTouxSxxxxxxPjeGKr0ZG%2Fi%2FE%3D
+https://cdn.api.tce.fsphere.cn/v2/index.php?Action=GetCtsaudioInfo&SecretId=AKIDxUCsd01oB7BxxxxxxFihD8hlRhftKmXr&Nonce=44207&Timestamp=1480384094&Region=gz&vid=000628c22a4cfa9daac321c31d496393&Signature=njTouxSxxxxxxPjeGKr0ZG%2Fi%2FE%3D
 ```
 
 ###  回包示例
@@ -1595,7 +1595,7 @@ https://cdn.api.cloud.tencent.com/v2/index.php?Action=GetCtsaudioInfo&SecretId=A
 ### 请求示例
 
 ```
-https://cdn.api.cloud.tencent.com/v2/index.php?Action=AddCtsAudioTask&SecretId=1&Nonce=47825&Timestamp=1503372336&Region=sh&Uin=2418826573&AppId=1253125191&url=http%3A%2F%2Fonlinemusic-1253125191.cosgz.myqcloud.com%2F20170717%2FMaid.mp3&bucketName=onlinemusic&bucketRegion=gz&Signature=LXe8bGz%2BSULUuCo1XF8PjzxT1fI%3D
+https://cdn.api.tce.fsphere.cn/v2/index.php?Action=AddCtsAudioTask&SecretId=1&Nonce=47825&Timestamp=1503372336&Region=sh&Uin=2418826573&AppId=1253125191&url=http%3A%2F%2Fonlinemusic-1253125191.cosgz.myqcloud.com%2F20170717%2FMaid.mp3&bucketName=onlinemusic&bucketRegion=gz&Signature=LXe8bGz%2BSULUuCo1XF8PjzxT1fI%3D
 ```
 
 ### 回包示例
@@ -1671,7 +1671,7 @@ vid= md5(x-cos-request-id) + strtotime(Date)
 #### 备注说明：
 
 - cos中的bucket不区分v4、v5版本，即cos v4版本创建的bucket，也可使用v5版本API进行上传；同理，cos v5版本创建的bucket，也可使用v4版本API进行上传。
-- 更多cos API详细信息，请参见[cos API产品手册](https://cloud.tencent.com/document/product/436/7751) 
+- 更多cos API详细信息，请参见[cos API产品手册](http://tce.fsphere.cn/document/product/436/7751) 
 
 
 

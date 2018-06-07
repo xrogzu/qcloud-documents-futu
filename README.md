@@ -1,6 +1,6 @@
-# 腾讯云对外发布文档规范
+# 云平台对外发布文档规范
 
-本文档,旨在规范腾讯云所有对外文档（包括但不限于产品文档、API文档、SDK文档、白皮书文档等）的基本格式及风格。腾讯云文档书写语法为Markdown，关于Markdown的更多信息，可参考http://wowubuntu.com/markdown/
+本文档,旨在规范云平台所有对外文档（包括但不限于产品文档、API文档、SDK文档、白皮书文档等）的基本格式及风格。云平台文档书写语法为Markdown，关于Markdown的更多信息，可参考http://wowubuntu.com/markdown/
 
 注：本标准参考[AWS文档惯例](http://docs.aws.amazon.com/zh_cn/general/latest/gr/docconventions.html) 及 [DaoCloud写作规范和格式规范](http://docs.daocloud.io/write-docs/format)
 
@@ -24,7 +24,7 @@
 流程
 </td>
 <td>
-参考《腾讯云文档发布流程》
+参考《云平台文档发布流程》
 </td>
 </tr>
 <tr>
@@ -49,7 +49,7 @@
 
 ##1. 字体、颜色规范
 
-腾讯云对外在线文档均由磐石统一编辑发布，采用 Markdown 编写方式。当前 CSS 渲染出的默认字体字号如下：
+云平台对外在线文档均由磐石统一编辑发布，采用 Markdown 编写方式。当前 CSS 渲染出的默认字体字号如下：
 
 > 注意：除代码块内文字可更改颜色（请使用html标准颜色如red\blue等），其余规范均不可更改。
 
@@ -79,7 +79,7 @@
 </tbody>
 </table>
 
-腾讯云对外离线文档统一为PDF格式，请使用Markdown编辑器编写，有形如以上的规范。
+云平台对外离线文档统一为PDF格式，请使用Markdown编辑器编写，有形如以上的规范。
 
 ## 2. 标题/列表规范
 文档标题有形如下的格式规范，目录从一级开始，最多可到第三级。（三级以上的标题不符合常规阅读需求，请拆分或使用标题内的列表进行相应处理）
@@ -193,14 +193,14 @@
 4. 避免口语，使用规范的书面语。例子：避免使用“么”、“喔”、“挂掉”等口语词汇。
 5. 尽量避免中英文混杂。
 6. 请一定注意“的”、“地”、“得”的用法。
-7. 第一人称：推荐使用“腾讯云”、“我们”，不推荐使用“小编”、“笔者”。
+7. 第一人称：推荐使用“云平台”、“我们”，不推荐使用“小编”、“笔者”。
 8. 避免多介词的复合长句。注意句子成分要齐全。
 
 
 > 例如：
 改前：对于apt-get下载源，不需要添加软件源，可以直接安装软件包。为了加速软件安装，目前系统已经在内网预先配置了Ubuntu的mirror，这个mirror是官网x86_64的完全镜像，与官网源一致。
 
-> 改后：对于apt-get下载源，不需添加软件源则可直接安装软件包。为了加速软件安装，腾讯云已在内网预先配置了Ubuntu的x86_64完全镜像，与官方源一致。
+> 改后：对于apt-get下载源，不需添加软件源则可直接安装软件包。为了加速软件安装，云平台已在内网预先配置了Ubuntu的x86_64完全镜像，与官方源一致。
 
 
 ### 中文、英文、数字混排时空格的使用
@@ -219,7 +219,7 @@
 <table>
 <tbody>
 <tr><td>正确使用</td><td>错误使用</td></tr>
-<tr><td>腾讯云数据中心高速互联网</td><td>腾讯骨干网</td></tr><tr><td>App / 应用</td><td>APP、软件、程序</td></tr><tr><td>Android</td><td>android、安卓</td></tr><tr><td>iOS</td><td>ios、IOS</td></tr><tr><td>iPhone</td><td>IPHONE、iphone</td></tr>
+<tr><td>云平台数据中心高速互联网</td><td>腾讯骨干网</td></tr><tr><td>App / 应用</td><td>APP、软件、程序</td></tr><tr><td>Android</td><td>android、安卓</td></tr><tr><td>iOS</td><td>ios、IOS</td></tr><tr><td>iPhone</td><td>IPHONE、iphone</td></tr>
 <tr><td>App Store</td><td>AppStore、app store</td></tr>
 <tr><td>Wi-Fi</td><td>wifi、Wifi、WiFi</td></tr>
 <tr><td>email</td><td>E-mail、Email</td></tr>

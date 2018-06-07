@@ -1,6 +1,6 @@
 ## 概述
 
-目前，腾讯云点播为客户端提供了Android，iOS 和 Web 三种客户端 SDK。
+目前，云平台点播为客户端提供了Android，iOS 和 Web 三种客户端 SDK。
 
 ## Android SDK
 

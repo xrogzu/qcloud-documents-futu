@@ -79,13 +79,13 @@ mRTCRoom.setRTCRoomListener(new IRTCRoomListener() {
 ### 2.login
 
 - 接口定义：void login(String serverDomain, final LoginInfo loginInfo, final LoginCallback callback) 
-- 接口说明：登录到 RoomService 后台，通过参数 serverDomain 可以指定是使用腾讯云的 RoomService 还是使用自建的 RoomService。
+- 接口说明：登录到 RoomService 后台，通过参数 serverDomain 可以指定是使用云平台的 RoomService 还是使用自建的 RoomService。
 - 参数说明：
 
 | 参数       | 类型                  | 说明       |
 | -------- | ------------------- | -------- |
-| serverDomain | String | RoomService 的服务器地址，这部分可以参考 [DOC](https://cloud.tencent.com/document/product/454/14606#ClientFLOW)。 |
-| loginInfo | LoginInfo | 登录参数，这部分可以参考 [DOC](https://cloud.tencent.com/document/product/454/14606#ClientFLOW)。 |
+| serverDomain | String | RoomService 的服务器地址，这部分可以参考 [DOC](http://tce.fsphere.cn/document/product/454/14606#ClientFLOW)。 |
+| loginInfo | LoginInfo | 登录参数，这部分可以参考 [DOC](http://tce.fsphere.cn/document/product/454/14606#ClientFLOW)。 |
 | callback | LoginCallback | 登录成功与否的回调 |
 
 - 示例代码：

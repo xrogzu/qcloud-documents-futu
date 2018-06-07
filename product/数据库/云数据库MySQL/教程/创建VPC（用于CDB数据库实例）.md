@@ -1,10 +1,10 @@
-腾讯云提供托管腾讯云 CDB 数据库的平台：腾讯云 VPC。利用腾讯云 VPC ，您可以在 VPC 中启动腾讯云资源，如腾讯云 CDB 数据库实例。VPC 产品详细说明请参照 [私有网络](https://cloud.tencent.com/document/product/215/535)。  
-一种常见的方案是运行在同一 VPC 的腾讯云 CDB 数据库实例和 Web 服务器共享数据。在本教程中，针对此方案创建 VPC，并将云数据库添加进 VPC 以配合使用。
+云平台提供托管云平台 CDB 数据库的平台：云平台 VPC。利用云平台 VPC ，您可以在 VPC 中启动云平台资源，如云平台 CDB 数据库实例。VPC 产品详细说明请参照 [私有网络](http://tce.fsphere.cn/document/product/215/535)。  
+一种常见的方案是运行在同一 VPC 的云平台 CDB 数据库实例和 Web 服务器共享数据。在本教程中，针对此方案创建 VPC，并将云数据库添加进 VPC 以配合使用。
 
 ### 步骤一：创建私有网络、初始化子网和路由表
 私有网络至少包含一个子网，只有在子网中才可以添加云服务资源。
 
-1. 登录 [腾讯云控制台][1]，单击导航条【云产品】 > 【基础产品】 > 【云计算与网络】 > 【私有网络】，或者单击腾讯云 [私有网络介绍页中][2] 的【立即使用】按钮，进入 [私有网络控制台][3]。
+1. 登录 [云平台控制台][1]，单击导航条【云产品】 > 【基础产品】 > 【云计算与网络】 > 【私有网络】，或者单击云平台 [私有网络介绍页中][2] 的【立即使用】按钮，进入 [私有网络控制台][3]。
 ![](https://mc.qcloudimg.com/static/img/060a49d154e15395a8ddf7c1ba17e340/step1.png)
 2. 选择列表上方下拉框中的地域，单击【新建】创建私有网络，例如，选择地域：华南地区（广州）。
 ![](https://mc.qcloudimg.com/static/img/951ddd2a8dc45b4dce6fef6d03074f3d/step3.png)
@@ -34,7 +34,7 @@
 ### 步骤四：添加云数据库
 新购的云数据库支持在私有网络中使用，需要注意的是，网络一旦选定将不可更改。
 
-1. 登录腾讯云 [管理控制台][1]，将鼠标移至导航条中的【云产品】>【基础产品】>【数据库】单击【关系型数据库】，进入 [云数据库控制台][11]，单击【新建】按钮，进入云数据库 MySQL 购买界面。
+1. 登录云平台 [管理控制台][1]，将鼠标移至导航条中的【云产品】>【基础产品】>【数据库】单击【关系型数据库】，进入 [云数据库控制台][11]，单击【新建】按钮，进入云数据库 MySQL 购买界面。
 ![](https://mc.qcloudimg.com/static/img/c5a7e2e50a04631d861d899c1e71598b/step1.png)
 ![](https://mc.qcloudimg.com/static/img/c8d25b4002230535f28dbc59ae58318b/step2.png)
 2. 在云数据库选购页【网络】选项，单击私有网络，选择之前创建的私有网络以及相应子网，将新购的云数据库添加进私有网络。
@@ -42,18 +42,18 @@
 
 ### 步骤五：添加云服务器
 新购的云服务器支持在私有网络中使用，需要注意的是，**网络一旦选定将不可更改。**
-进入云服务器 [产品介绍页](https://cloud.tencent.com/product/cvm)，单击【立即选购】后，在产品购买页的【网络类型】选择【私有网络】，选择与之前数据库相同的 VPC，将新购的云服务器添加到与云数据库相同的 VPC 内。
+进入云服务器 [产品介绍页](http://tce.fsphere.cn/product/cvm)，单击【立即选购】后，在产品购买页的【网络类型】选择【私有网络】，选择与之前数据库相同的 VPC，将新购的云服务器添加到与云数据库相同的 VPC 内。
 ![](https://mc.qcloudimg.com/static/img/ede1b30456b4fe9f46e6f0ea954f8c22/step11.png)
 
 
-[1]:	https://console.cloud.tencent.com/
-[2]:	https://cloud.tencent.com/product/vpc.html
-[3]:	https://console.cloud.tencent.com/vpc/
-[4]:	https://console.cloud.tencent.com/
-[5]:	https://cloud.tencent.com/product/vpc.html
-[6]:	https://console.cloud.tencent.com/vpc/
-[7]:	https://console.cloud.tencent.com/
-[8]:	https://cloud.tencent.com/product/vpc.html
-[9]:	https://console.cloud.tencent.com/vpc/
-[10]:	https://console.cloud.tencent.com/
-[11]:	https://console.cloud.tencent.com/cdb/ 
+[1]:	http://console.tce.fsphere.cn/
+[2]:	http://tce.fsphere.cn/product/vpc.html
+[3]:	http://console.tce.fsphere.cn/vpc/
+[4]:	http://console.tce.fsphere.cn/
+[5]:	http://tce.fsphere.cn/product/vpc.html
+[6]:	http://console.tce.fsphere.cn/vpc/
+[7]:	http://console.tce.fsphere.cn/
+[8]:	http://tce.fsphere.cn/product/vpc.html
+[9]:	http://console.tce.fsphere.cn/vpc/
+[10]:	http://console.tce.fsphere.cn/
+[11]:	http://console.tce.fsphere.cn/cdb/ 

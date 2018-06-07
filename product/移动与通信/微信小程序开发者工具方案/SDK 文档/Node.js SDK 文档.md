@@ -1,6 +1,6 @@
 ## 介绍
 
-Wafer 服务端 SDK 是腾讯云为微信小程序开发者提供的快速开发库，SDK 封装了以下功能供小程序开发者快速调用：
+Wafer 服务端 SDK 是云平台为微信小程序开发者提供的快速开发库，SDK 封装了以下功能供小程序开发者快速调用：
 
 - 用户登录与验证
 - 信道服务
@@ -8,7 +8,7 @@ Wafer 服务端 SDK 是腾讯云为微信小程序开发者提供的快速开发
 - 数据库
 - 客服消息
 
-开发者只需要根据文档对 SDK 进行初始化配置，就可以获得以上能力。你还可以直接到[腾讯云小程序控制台](https://console.cloud.tencent.com/la)购买小程序解决方案，可以得到运行本示例所需的资源和服务，其中包括已部署好的相关程序、示例代码及自动下发的 SDK 配置文件。
+开发者只需要根据文档对 SDK 进行初始化配置，就可以获得以上能力。你还可以直接到[云平台小程序控制台](http://console.tce.fsphere.cn/la)购买小程序解决方案，可以得到运行本示例所需的资源和服务，其中包括已部署好的相关程序、示例代码及自动下发的 SDK 配置文件。
 
 ## 安装
 
@@ -25,15 +25,15 @@ npm install wafer-node-sdk --save
 
 - `appId` - 可选。微信小程序的 App id
 - `appSecret` - 可选。微信小程序的 App secret
-- `useQcloudLogin` - 必填。是否使用腾讯云代理登录小程序。会话登录需要使用小程序的 App id 和 App secret 来解密用户信息，腾讯云提供使用腾讯云 App id 和 App secret 代理请求微信进行解密。如果该项为 `false`，则需填写微信小程序 App id 和 App secret。默认为 `true`
+- `useQcloudLogin` - 必填。是否使用云平台代理登录小程序。会话登录需要使用小程序的 App id 和 App secret 来解密用户信息，云平台提供使用云平台 App id 和 App secret 代理请求微信进行解密。如果该项为 `false`，则需填写微信小程序 App id 和 App secret。默认为 `true`
 - `mysql` - 选填。MySQL 配置。不填则使用小程序解决方案分配机器中默认的 MySQL，若使用自行部署的 MySQL 数据库，则需提供一个类型为 `object`  的配置，具体配置项如下：
   - `host` - 必填。MySQL 主机名
   - `user` - 必填。MySQL 用户名
   - `db` - 必填。MySQL 数据库名
-  - `pass` - 必填。MySQL 密码，若使用了腾讯云微信小程序解决方案，开发环境下，MySQL 的初始密码为您的微信小程序 appid
+  - `pass` - 必填。MySQL 密码，若使用了云平台微信小程序解决方案，开发环境下，MySQL 的初始密码为您的微信小程序 appid
   - `port` - 选填。MySQL 端口（默认：3306）
   - `char` - 选填。MySQL 编码
-- `cos` - 必填。腾讯云对象存储配置信息，用于上传模块使用。
+- `cos` - 必填。云平台对象存储配置信息，用于上传模块使用。
   - `region` - 必填。COS 的地域
   - `fileBucket` - 必填。COS 的 bucket 名
   - `uploadFolder` - 必填。COS 上传文件夹名
@@ -42,13 +42,13 @@ npm install wafer-node-sdk --save
 - `serverHost` - 必填。当前服务器的 hostname
 - `tunnelServerUrl` - 必填。信道服务器地址
 - `tunnelSignatureKey` - 必填。信道服务签名密钥
-- `qcloudAppId` - 必填。腾讯云 AppId
-- `qcloudSecretId` - 必填。腾讯云 SecretId
-- `qcloudSecretKey` - 必填。腾讯云 SecretKey
+- `qcloudAppId` - 必填。云平台 AppId
+- `qcloudSecretId` - 必填。云平台 SecretId
+- `qcloudSecretKey` - 必填。云平台 SecretKey
 - `wxMessageToken` - 必填。微信客服消息通知 token
 - `wxLoginExpires` - 可选。微信登录态有效期，默认 7200 秒（单位：秒）
 
-**如果购买了腾讯云小程序解决方案，配置项中 `serverHost`, `tunnelServerUrl`, `tunnelSignatureKey`, `qcloudAppId`, `qcloudSecretId`, `qcloudSecretKey`, `wxMessageToken` 由腾讯云自动下发到您的服务器上。**
+**如果购买了云平台小程序解决方案，配置项中 `serverHost`, `tunnelServerUrl`, `tunnelSignatureKey`, `qcloudAppId`, `qcloudSecretId`, `qcloudSecretKey`, `wxMessageToken` 由云平台自动下发到您的服务器上。**
 
 自动下发的 SDK 配置文件地址： `/data/release/sdk.config`
 

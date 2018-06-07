@@ -1,6 +1,6 @@
 ##  GPU 计算型 GN8 购买须知
 购买之前需注意：
-1. 在购买腾讯云 GPU 云服务器前，请确保已经 [了解腾讯云 GPU 云服务器](/doc/product/560/8015l)，且已 [了解配置与价格](/doc/product/560/8025)，并根据实际需求购买，一旦购买成功，不能退款。
+1. 在购买云平台 GPU 云服务器前，请确保已经 [了解云平台 GPU 云服务器](/doc/product/560/8015l)，且已 [了解配置与价格](/doc/product/560/8025)，并根据实际需求购买，一旦购买成功，不能退款。
 2. 暂时提供  **广州三区**、 **北京二区** 和 **成都一区** 的 GPU 计算型 GN8 实例购买。后续将会支持更多地域。
 
 
@@ -8,7 +8,7 @@
 ##  GPU 计算型 GN8 实例购买步骤
 用户依据以下操作可以快速购买一台 GPU 计算型 GN8 实例
 ### 1. 登录购买页面
-[点击进入购买页面>>](https://buy.cloud.tencent.com/cvm?regionId=8&zoneId=800002&generation=v2&deviceType=gpu&tabIndex=1)
+[点击进入购买页面>>](https://buy.tce.fsphere.cn/cvm?regionId=8&zoneId=800002&generation=v2&deviceType=gpu&tabIndex=1)
 ### 2. 选择地域与机型
 在这个步骤需要选择：
 1. 计费模式：包年包月计费或者按量计费。
@@ -19,14 +19,14 @@
 ![](https://mc.qcloudimg.com/static/img/db914ea989c976c7cb053b11cc96f4fe/GN8_select.png)
 ### 3. 选择镜像
 GPU 云服务器支持四种镜像类型：公共镜像、自定义镜像、共享镜像、服务市场。 [了解镜像 >>](/doc/product/213/4940)
-对于刚开始使用腾讯云的用户，可选择【公共镜像】，并根据需要挑选版本。GPU 云服务器提供 CentOS、Ubuntu、Windows Server 三种公共镜像，可根据不同需要挑选公共镜像的版本。
+对于刚开始使用云平台的用户，可选择【公共镜像】，并根据需要挑选版本。GPU 云服务器提供 CentOS、Ubuntu、Windows Server 三种公共镜像，可根据不同需要挑选公共镜像的版本。
 
 ![](https://mc.qcloudimg.com/static/img/7701f037e9f301130f13974691168849/GN8_image.png)
 
 **注意：**
 **GPU 云服务器必须具备相应的 GPU 驱动才能正常运行。**
 
-- 如果您选择公有镜像安装，GPU 实例创建成功后，需要安装 GPU 驱动才可正常使用，相关驱动安装可参照 [安装 NVIDIA 驱动指引](https://cloud.tencent.com/document/product/560/8048)
+- 如果您选择公有镜像安装，GPU 实例创建成功后，需要安装 GPU 驱动才可正常使用，相关驱动安装可参照 [安装 NVIDIA 驱动指引](http://tce.fsphere.cn/document/product/560/8048)
 
 
  设置完成后单击【下一步：选择存储于网络】。
@@ -54,7 +54,7 @@ GPU 云服务器支持四种镜像类型：公共镜像、自定义镜像、共�
 
 设置完成后单击【立即购买】。
 ### 6. 查收服务器
-核实信息后完成支付，即可进入 [控制台](https://console.cloud.tencent.com/cvm) 的邮箱中查收云服务器。
+核实信息后完成支付，即可进入 [控制台](http://console.tce.fsphere.cn/cvm) 的邮箱中查收云服务器。
 GPU 云服务器购买完成后，将会收到站内信，内容包括实例名称、公网 IP 地址、内网 IP 地址、登录名、初始登录密码等信息。可以使用这些信息登录和管理实例，也请尽快更改登录密码保障主机安全性。
 ![](https://mc.qcloudimg.com/static/img/2003b614e24ea973f9c03a9c084380ce/image.png)
 

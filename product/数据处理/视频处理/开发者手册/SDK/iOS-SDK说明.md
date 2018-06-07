@@ -2,7 +2,7 @@
 ### 1.1	前期准备
 1. iOS 5.0+；
 2. 手机必须要有网络（GPRS、3G、Wifi网络等）；
-3. 在腾讯云微视频页面上添加空间（bucket），获取项目ID（APPID）。
+3. 在云平台微视频页面上添加空间（bucket），获取项目ID（APPID）。
 
 ### 1.2	导入SDK
 微视频 iOS SDK其中包括上传SDK和下载SDK，上传SDK压缩包QCloudUploadSDK.zip,下载SDK压缩包QCloudDownloadSDK.zip.

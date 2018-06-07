@@ -5,16 +5,16 @@
 ![](https://mc.qcloudimg.com/static/img/ca7f200c31a9323c032e9e000831ea63/image.jpg)
 
 ## 特别说明
-- **<font color='red'>不绑定腾讯云</font>**
-> SDK 不绑定腾讯云，如果要推流到非腾讯云地址，请在推流前设置 TXLivePushConfig 中的 enableNearestIP 设置为 false。但如果您要推流的地址为腾讯云地址，请务必在推流前将其设置为 true，否则推流质量可能会因为运营商 DNS 不准确而受到影响。
+- **<font color='red'>不绑定云平台</font>**
+> SDK 不绑定云平台，如果要推流到非云平台地址，请在推流前设置 TXLivePushConfig 中的 enableNearestIP 设置为 false。但如果您要推流的地址为云平台地址，请务必在推流前将其设置为 true，否则推流质量可能会因为运营商 DNS 不准确而受到影响。
 
 ## 准备工作
 
 - **获取开发包**
-[下载](https://cloud.tencent.com/document/product/454/7873) SDK 开发包，并按照[工程配置](https://cloud.tencent.com/document/product/454/7877)指引将 SDK 嵌入您的 APP 开发工程。
+[下载](http://tce.fsphere.cn/document/product/454/7873) SDK 开发包，并按照[工程配置](http://tce.fsphere.cn/document/product/454/7877)指引将 SDK 嵌入您的 APP 开发工程。
 
 - **获取测试 URL**
-[开通](https://console.cloud.tencent.com/live)直播服务后，可以使用 [直播控制台>>直播码接入>>推流生成器](https://console.cloud.tencent.com/live/livecodemanage) 生成推流地址，详细信息可以参考 [获得推流播放 URL](https://cloud.tencent.com/document/product/454/7915)。
+[开通](http://console.tce.fsphere.cn/live)直播服务后，可以使用 [直播控制台>>直播码接入>>推流生成器](http://console.tce.fsphere.cn/live/livecodemanage) 生成推流地址，详细信息可以参考 [获得推流播放 URL](http://tce.fsphere.cn/document/product/454/7915)。
 
 ## 代码对接
 本篇攻略主要是面向**摄像头直播**的解决方案，该方案主要用于美女秀场直播、个人直播以及活动直播等场景。
@@ -236,7 +236,7 @@ Android 手机目前对硬件加速的支持已较前两年有明显的进步，
 ### step 9: 本地录制
 使用 startRecord 接口可以启动本地录制，录制格式为 MP4，通过 videoFilePath 可以指定 MP4 文件的存放路径。
 - 录制过程中请勿动态切换分辨率和软硬编，可能导致生成的视频异常。
-- 如果是云端录制，只需要在推流 URL 后面拼接 &record=mp4 即可，详情请参考 [云端录制](https://cloud.tencent.com/document/product/454/7917)。
+- 如果是云端录制，只需要在推流 URL 后面拼接 &record=mp4 即可，详情请参考 [云端录制](http://tce.fsphere.cn/document/product/454/7917)。
 - 通过 setVideoRecordListener 接口，可以设置 TXRecordCommon.ITXVideoRecordListener 监听器给 TXLivePusher ，从而获取录制相关的事件通知。
 
 ```java
@@ -347,7 +347,7 @@ mLivePusher.setRenderRotation(90);
 
 
 - **Activity自动旋转**
-Android 系统的 Activity 本身支持跟随手机的重力感应进行旋转（设置 android:configChanges），[CODE](https://cloud.tencent.com/document/product/454/9876)演示了如何做到下面这种重力感应效果：
+Android 系统的 Activity 本身支持跟随手机的重力感应进行旋转（设置 android:configChanges），[CODE](http://tce.fsphere.cn/document/product/454/9876)演示了如何做到下面这种重力感应效果：
 ![](https://mc.qcloudimg.com/static/img/7255ffae57f3e9b7d929a5cb11f85c79/image.png)
 
 
@@ -356,7 +356,7 @@ SDK 1.6.1 开始支持背景混音，支持主播带耳机和不带耳机两种�
 
 | 接口 | 说明 |
 |---------|---------|
-| playBGM | 通过 path 传入一首歌曲，[小直播 Demo](https://cloud.tencent.com/doc/api/258/6164)中我们是从iOS的本地媒体库中获取音乐文件 |
+| playBGM | 通过 path 传入一首歌曲，[小直播 Demo](http://tce.fsphere.cn/doc/api/258/6164)中我们是从iOS的本地媒体库中获取音乐文件 |
 | stopBGM|停止播放背景音乐|
 | pauseBGM|暂停播放背景音乐|
 | resumeBGM|继续播放背景音乐|
@@ -386,7 +386,7 @@ public void stopRtmpPublish() {
 mTXLivePusher.sendMessage(questionInfo.getBytes("UTF-8"));
 ```
 
-> 播放端使用 TXLivePlayer 的 onPlayEvent （PLAY_EVT_GET_MESSAGE） 可以用来接收消息。具体参考[播放文档](https://cloud.tencent.com/document/product/454/7886#Message)
+> 播放端使用 TXLivePlayer 的 onPlayEvent （PLAY_EVT_GET_MESSAGE） 可以用来接收消息。具体参考[播放文档](http://tce.fsphere.cn/document/product/454/7886#Message)
 
 
 ## 事件处理
@@ -398,7 +398,7 @@ SDK 通过 TXLive<font color='red'>Push</font>Listener 代理来监听推流相�
 
 | 事件 ID                 |    数值  |  含义说明                    |   
 | :-------------------  |:-------- |  :------------------------ | 
-|PUSH_EVT_CONNECT_SUCC            |  1001| 已经成功连接到腾讯云推流服务器|
+|PUSH_EVT_CONNECT_SUCC            |  1001| 已经成功连接到云平台推流服务器|
 |PUSH_EVT_PUSH_BEGIN              |  1002| 与服务器握手完毕,一切正常，准备开始推流|
 |PUSH_EVT_OPEN_CAMERA_SUCC    | 1003    | 推流器已成功打开摄像头（Android 部分手机这个过程需要1-2秒）| 
 |PUSH_EVT_CHANGE_RESOLUTION | 1005 | 推流动态调整分辨率 |

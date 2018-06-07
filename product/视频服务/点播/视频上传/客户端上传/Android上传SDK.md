@@ -1,8 +1,8 @@
-对于在 Android 平台上传视频的场景，腾讯云点播提供了 Android 上传 DEMO 来实现。上传的流程可以参见 [客户端上传指引](/document/product/266/9219)。
+对于在 Android 平台上传视频的场景，云平台点播提供了 Android 上传 DEMO 来实现。上传的流程可以参见 [客户端上传指引](/document/product/266/9219)。
 
 ## 源代码下载
 
-您可以在腾讯云官网更新 [Android 上传 demo + 源代码](http://ugcupload-1252463788.file.myqcloud.com/LiteAVSDK_UGC_Upload_Android.zip)。
+您可以在云平台官网更新 [Android 上传 demo + 源代码](http://ugcupload-1252463788.file.myqcloud.com/LiteAVSDK_UGC_Upload_Android.zip)。
 下载完的 zip 包解压后可以看到 Demo 目录，上传相关源代码在Demo/app/src/main/java/com/tencent/ugcupload/demo/videoupload 目录下。
 
 ##  集成上传库和源代码
@@ -14,8 +14,8 @@
 
 | jar 文件                       | 说明                                       |
 | --------------------------- | ---------------------------------------- |
-| cos-xml-android-sdk-1.2.jar | 腾讯云对象存储服务（COS）的文件上传包， 此组件用于视频上传（TXUGCPublish）功能 |
-| qcloud-core-1.2.jar         | 腾讯云对象存储服务（COS）的文件上传包， 此组件用于视频上传（TXUGCPublish）功能 |
+| cos-xml-android-sdk-1.2.jar | 云平台对象存储服务（COS）的文件上传包， 此组件用于视频上传（TXUGCPublish）功能 |
+| qcloud-core-1.2.jar         | 云平台对象存储服务（COS）的文件上传包， 此组件用于视频上传（TXUGCPublish）功能 |
 | okhttp-3.8.1.jar            | 开源 http 组件                          |
 | okio-1.13.0.jar             | 开源网络 I/O 组件                         |
 | xstream-1.4.7.jar           | 开源序列化组件                             |

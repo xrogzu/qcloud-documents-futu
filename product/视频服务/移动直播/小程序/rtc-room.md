@@ -114,11 +114,11 @@ Page({
 
 ### step1: 开通相关云服务
 
-小程序音视频依赖腾讯云提供的直播（[LVB](https://console.cloud.tencent.com/live)）和云通讯（[IM](https://console.cloud.tencent.com/avc)）两项基础服务，您可以点击链接免费开通，其中云通讯服务开通即可使用，直播服务由于涉黄涉政风险较大，需要腾讯云人工审核开通。
+小程序音视频依赖云平台提供的直播（[LVB](http://console.tce.fsphere.cn/live)）和云通讯（[IM](http://console.tce.fsphere.cn/avc)）两项基础服务，您可以点击链接免费开通，其中云通讯服务开通即可使用，直播服务由于涉黄涉政风险较大，需要云平台人工审核开通。
 
 ### step2: 下载自定义组件源码
 
-**&lt;rtc-room&gt;** 并非微信小程序原生提供的标签，而是一个自定义组件，所以您需要额外的代码来支持这个标签。点击 [小程序源码](https://cloud.tencent.com/document/product/454/7873#XiaoChengXu) 下载源码包，您可以在 `wxlite` 文件夹下获取到所需文件。
+**&lt;rtc-room&gt;** 并非微信小程序原生提供的标签，而是一个自定义组件，所以您需要额外的代码来支持这个标签。点击 [小程序源码](http://tce.fsphere.cn/document/product/454/7873#XiaoChengXu) 下载源码包，您可以在 `wxlite` 文件夹下获取到所需文件。
 
 ### step3: 登录房间服务（必需）
 
@@ -137,7 +137,7 @@ rtcroom.login({
 });
 ```
 
-参考 [DOC](https://cloud.tencent.com/document/product/454/14617#Server) 可以了解上面的这些参数应该怎么填写。
+参考 [DOC](http://tce.fsphere.cn/document/product/454/14617#Server) 可以了解上面的这些参数应该怎么填写。
 
 ### step4: 获取房间列表（可选）
 如果您不想自己实现房间列表，而是使用房间服务自带的房间列表，您可以通过调用 `/utils/rtcroom.js` 的 `getRoomList` 函数获取到列表信息。
@@ -305,20 +305,20 @@ rtcroom.start();
 @import "../templates/mytemplate/mytemplate.wxss";
 ```
 ## 其它平台
-**&lt;rtc-room&gt;** 也有 Windows、iOS、Android 等平台下的对等实现，您可以参考下表中的资料。同时， 阅读 [设计文档](https://cloud.tencent.com/document/product/454/14617)，您可以了解该解决方案的内部设计原理。
+**&lt;rtc-room&gt;** 也有 Windows、iOS、Android 等平台下的对等实现，您可以参考下表中的资料。同时， 阅读 [设计文档](http://tce.fsphere.cn/document/product/454/14617)，您可以了解该解决方案的内部设计原理。
 
 | 所属平台 | SDK下载 | 文档指引 |
 |:-------:|:-------:|:-------:|
-| Windows(C++) | [DOWNLOAD](https://cloud.tencent.com/document/product/454/7873#Windows) | [API](https://cloud.tencent.com/document/product/454/13672) |
-| Windows(C#) | [DOWNLOAD](https://cloud.tencent.com/document/product/454/7873#Windows) | [API](https://cloud.tencent.com/document/product/454/13641) |
-| IE浏览器 | [DOWNLOAD](https://cloud.tencent.com/document/product/454/7873#Windows) | [API](https://cloud.tencent.com/document/product/454/13651) |
-| iOS | [DOWNLOAD](https://cloud.tencent.com/document/product/454/7873#iOS) | [API](https://cloud.tencent.com/document/product/454/15156) |
-| Android | [DOWNLOAD](https://cloud.tencent.com/document/product/454/7873#Android) | [API](https://cloud.tencent.com/document/product/454/15026) |
+| Windows(C++) | [DOWNLOAD](http://tce.fsphere.cn/document/product/454/7873#Windows) | [API](http://tce.fsphere.cn/document/product/454/13672) |
+| Windows(C#) | [DOWNLOAD](http://tce.fsphere.cn/document/product/454/7873#Windows) | [API](http://tce.fsphere.cn/document/product/454/13641) |
+| IE浏览器 | [DOWNLOAD](http://tce.fsphere.cn/document/product/454/7873#Windows) | [API](http://tce.fsphere.cn/document/product/454/13651) |
+| iOS | [DOWNLOAD](http://tce.fsphere.cn/document/product/454/7873#iOS) | [API](http://tce.fsphere.cn/document/product/454/15156) |
+| Android | [DOWNLOAD](http://tce.fsphere.cn/document/product/454/7873#Android) | [API](http://tce.fsphere.cn/document/product/454/15026) |
 
 ## 录制指引
-- step1： [开通](https://console.cloud.tencent.com/video) 腾讯云点播服务。
+- step1： [开通](http://console.tce.fsphere.cn/video) 云平台点播服务。
 
-- step2：进入[直播控制台](https://console.cloud.tencent.com/live)（小程序音视频流媒体是基于直播服务构建的），在【接入管理>>接入配置>>直播录制】中，开启录制功能。（注意：这里说的录制费用是按并发收费的，不是每一路都收费）
+- step2：进入[直播控制台](http://console.tce.fsphere.cn/live)（小程序音视频流媒体是基于直播服务构建的），在【接入管理>>接入配置>>直播录制】中，开启录制功能。（注意：这里说的录制费用是按并发收费的，不是每一路都收费）
 ![](https://main.qcloudimg.com/raw/6dfeba07c25151be7025dab0245398ff.jpg)
 
-- step3：在点播的[视频管理](https://console.cloud.tencent.com/video/videolist)界面中，您可以看到这些录制的文件，您也可以通过点播服务的 REST API 获取到这些文件。
+- step3：在点播的[视频管理](http://console.tce.fsphere.cn/video/videolist)界面中，您可以看到这些录制的文件，您也可以通过点播服务的 REST API 获取到这些文件。

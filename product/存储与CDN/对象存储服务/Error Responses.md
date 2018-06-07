@@ -29,7 +29,7 @@ Content-Type：application / xml
 |错误代码 | 描述 |	HTTP状态码 |SOAP故障代码前缀|
 |---------|---------|---------|---------|
 | AccessDenied | 拒绝访问 | 403禁止 |客户 |
-| AccountProblem | 您的腾讯云帐户有一个问题，阻止操作成功完成。请使用[联系我们]()。 | 403禁止 |客户|
+| AccountProblem | 您的云平台帐户有一个问题，阻止操作成功完成。请使用[联系我们]()。 | 403禁止 |客户|
 | AmbiguousGrantByEmailAddress | 您提供的电子邮件地址与多个帐户相关联。 | 400错误请求 |客户|
 | BadDigest | 您指定的 Content-MD5 与我们收到的不一致。 | 400错误请求 |客户 |
 | BucketAlreadyExists | 请求的桶名称不可用。桶命名空间由系统的所有用户共享。请选择其他名称，然后重试。| 409冲突 |客户 |
@@ -44,7 +44,7 @@ Content-Type：application / xml
 |IncorrectNumberOfFilesInPostRequest	|POST每个请求只需要一个文件上传。|	400错误请求	|客户
 |InlineDataTooLarge	|内联数据超出允许的最大大小。|	400错误请求	|客户|
 |InternalError	|我们遇到内部错误。请再试一次。|	500内部服务器错误	|服务器|
-|InvalidAccessKeyId	|我们的记录中不存在您提供的腾讯云访问密钥 ID。|	403禁止	|客户|
+|InvalidAccessKeyId	|我们的记录中不存在您提供的云平台访问密钥 ID。|	403禁止	|客户|
 |InvalidAddressingHeader|	您必须指定匿名角色。|	N / A	|客户|
 |InvalidArgument|	无效的论点	|400错误请求	|客户|
 |InvalidBucketName|	指定的桶无效。|400错误请求	|客户|
@@ -58,14 +58,14 @@ Content-Type：application / xml
 |InvalidPayer	|对该对象的所有访问都已禁用。|403禁止|客户|
 |InvalidPolicyDocument|	表格的内容不符合政策文件中规定的条件。|	400错误请求|客户|
 |InvalidRange	|请求的范围不能满足。|416请求范围不满	|客户|
-|InvalidRequest	|请使用腾讯云 4-HMAC-SHA256。|400错误请求|N / A|
+|InvalidRequest	|请使用云平台 4-HMAC-SHA256。|400错误请求|N / A|
 |InvalidRequest	|对于具有非 DNS 兼容名称的存储区，不支持 COS 传输加速。|	400错误请求|N / A|
 |InvalidRequest	|在其名称中带有句点（。）的桶不支持 COS 传输加速。|400错误请求|N / A|
 |InvalidRequest|	COS Transfer Acceleration 端点仅支持虚拟样式请求。|400错误请求|N / A|
 |InvalidRequest	| COS 传输加速未在此存储区中配置。|400错误请	|N / A|
 |InvalidRequest	|此桶上的COS Transfer Accelerate 被禁用。|	400错误请求	|N / A|
-|InvalidRequest	|此桶不支持 COS 传输加速。联系腾讯云支持以获取更多信息。|400错误请求|	N / A|
-|InvalidRequest	| COS 传输加速无法在此存储桶上启用。联系腾讯云支持以获取更多信息。|400错误请求|	N / A|
+|InvalidRequest	|此桶不支持 COS 传输加速。联系云平台支持以获取更多信息。|400错误请求|	N / A|
+|InvalidRequest	| COS 传输加速无法在此存储桶上启用。联系云平台支持以获取更多信息。|400错误请求|	N / A|
 |InvalidSecurity	|所提供的安全凭证无效。|403禁止|客户|
 |InvalidStorageClass	|您指定的存储类无效。|400错误请求|客户|
 |InvalidTargetBucketForLogging|用于记录的目标桶不存在，不属于您，或者没有适当的日志传送组授权。|400错误请求	|客户|
@@ -89,7 +89,7 @@ Content-Type：application / xml
 |NoSuchUpload	|指定的多部分上传不存在。上传 ID 可能无效，或者多部分上传可能已被中止或已完成。|	错误404|客户|
 |NoSuchVersion|	表示请求中指定的版本 ID 与现有版本不匹配。|错误404	|客户|
 |NotImplemented|	您提供的标题意味着未实现的功能。|	501未实施	|服务器|
-|NotSignedUp	|您的帐户未注册腾讯云账号。您必须先注册才能使用 COS 。您可以选择[注册与登录](https://cloud.tencent.com/)	|403禁止|	客户|
+|NotSignedUp	|您的帐户未注册云平台账号。您必须先注册才能使用 COS 。您可以选择[注册与登录](http://tce.fsphere.cn/)	|403禁止|	客户|
 |NoSuchBucketPolicy	|指定的桶没有桶策略。|错误404|	客户|
 |OperationAborted|	当前正在对该资源进行冲突的条件操作。再试一次。|	409冲突	|客户|
 |PermanentRedirect|	您尝试访问的存储桶必须使用指定的端点进行寻址。将所有将来的请求发送到此端点。|	301永久移动	|客户|
@@ -100,7 +100,7 @@ Content-Type：application / xml
 |RequestTimeout	|与服务器的套接字连接在超时时间段内未被读取或写入。|	400错误请求	|客户|
 |RequestTimeTooSkewed	|请求时间与服务器时间之间的差异太大。|403禁止|	客户|
 |RequestTorrentOfBucketError	|不允许请求桶的种子文件。|400错误请求|	客户|
-|SignatureDoesNotMatch|	我们计算的请求签名与您提供的签名不符。检查您的腾讯云密钥访问密钥和签名方法。有关详细信息，请参阅[ REST 身份验证]()|403禁止	|客户|
+|SignatureDoesNotMatch|	我们计算的请求签名与您提供的签名不符。检查您的云平台密钥访问密钥和签名方法。有关详细信息，请参阅[ REST 身份验证]()|403禁止	|客户|
 |ServiceUnavailable	|降低您的请求率。|503服务不可用	|服务器|
 |SlowDown|	降低您的请求率。|	503减速|服务器|
 |TemporaryRedirect	|当 DNS 更新时，您被重定向到存储桶。|307暂时移动|	客户|

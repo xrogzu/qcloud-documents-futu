@@ -1,7 +1,7 @@
-对于在 iOS 平台上传视频的场景，腾讯云点播提供了 iOS 上传 DEMO 来实现。上传的流程可以参见[客户端上传指引](/document/product/266/9219)。
+对于在 iOS 平台上传视频的场景，云平台点播提供了 iOS 上传 DEMO 来实现。上传的流程可以参见[客户端上传指引](/document/product/266/9219)。
 
 ## 源代码下载
-您可以在腾讯云官网更新 [ iOS 上传 demo + 源代码](http://ugcupload-1252463788.file.myqcloud.com/LiteAVSDK_UGC_Upload_iOS.zip)。
+您可以在云平台官网更新 [ iOS 上传 demo + 源代码](http://ugcupload-1252463788.file.myqcloud.com/LiteAVSDK_UGC_Upload_iOS.zip)。
 下载完的 zip 包解压后可以看到 TXUGCUploadDemo 目录，发布相关源代码在 TXUGCUploadDemo/upload 目录下。
 
 ## 集成上传库和源代码

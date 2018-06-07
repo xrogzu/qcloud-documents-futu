@@ -30,13 +30,13 @@ Welcome to Tencent Cloud! Your use of Tencent Cloud is subject to these Terms of
 
 For the purposes of these Terms, any reference to "Tencent Cloud" in these Terms refers to Tencent Cloud services provided by or on behalf of us or our affiliate companies from time to time, including the following: 
 
-(a)all Tencent Cloud services made available to you within http://intl.cloud.tencent.com or any Tencent Cloud mobile applications; and
+(a)all Tencent Cloud services made available to you within http://intl.tce.fsphere.c or any Tencent Cloud mobile applications; and
 
 (b)all Tencent Cloud-related APIs made available by us.
 
 **1.4 These Terms apply only to your use of Tencent Cloud's non-China located servers**
 
-For the avoidance of doubt, these Terms apply only if you use Tencent Cloud anywhere in the world, via a Tencent Cloud server located outside of the People's Republic of China.   If you choose to use Tencent Cloud via a Tencent Cloud server located inside the People's Republic of China, your use of Tencent Cloud will be governed by the terms set out at [[腾讯云服务协议]](https://cloud.tencent.com/document/product/301/1967?lang=en). Further details about how you select a server for your use of Tencent Cloud is set out under the "Data Location Selection" section of the Privacy and Data Processing Policy.
+For the avoidance of doubt, these Terms apply only if you use Tencent Cloud anywhere in the world, via a Tencent Cloud server located outside of the People's Republic of China.   If you choose to use Tencent Cloud via a Tencent Cloud server located inside the People's Republic of China, your use of Tencent Cloud will be governed by the terms set out at [[云平台服务协议]](http://tce.fsphere.cn/document/product/301/1967?lang=en). Further details about how you select a server for your use of Tencent Cloud is set out under the "Data Location Selection" section of the Privacy and Data Processing Policy.
 
 **1.5 Contacting us**
 
@@ -52,7 +52,7 @@ If you have:
 
 (i)phone at +86 4009 100 100; or 
 
-(ii)online at https://console.cloud.tencent.com/workorder.
+(ii)online at http://console.tce.fsphere.cn/workorder.
   
 ## 2. ADDITIONAL TERMS AND POLICIES
 

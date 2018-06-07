@@ -14,7 +14,7 @@ FPGA 云服务器（FPGA Cloud Computing）是基于 FPGA（Field Programmable G
 | FX2.14xlarge120 | 2 | 4 * 8 | 28 | 120 | 搭载 SSD 云盘 | 万兆网络|
 | FX2.28xlarge240 | 4 | 8 * 8 | 56 | 240 | 搭载 SSD 云盘 | 万兆网络| 
 > **注意：**
-> 内测阶段，腾讯云提供的公共开发镜像为 CentOS 7.2 64位 + FPGA 驱动 + 硬件编程工具。
+> 内测阶段，云平台提供的公共开发镜像为 CentOS 7.2 64位 + FPGA 驱动 + 硬件编程工具。
 
 ## 实例功能
 ### 硬件加速

@@ -14,7 +14,7 @@ AVSDK实现了音视频通信的核心能力。AVSDK的文件可以分成三大�
 
 ### 1、头文件
 - 文件位置：%root%\libs\include
-*%root%表示腾讯云官网提供的SDK包的根目录*
+*%root%表示云平台官网提供的SDK包的根目录*
 - 文件清单：
 1.av_audio_ctrl.h
 2.av_common.h

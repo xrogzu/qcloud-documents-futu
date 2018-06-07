@@ -1,6 +1,6 @@
 ## 1 SDK 信息
 
-您可以在腾讯云官网更新 [小直播 SDK](https://cloud.tencent.com/document/product/454/7873)，目前小直播 SDK 有如下几下版本：
+您可以在云平台官网更新 [小直播 SDK](http://tce.fsphere.cn/document/product/454/7873)，目前小直播 SDK 有如下几下版本：
 
 | 版本类型   | 功能                           |
 | ------ | ---------------------------- |
@@ -50,7 +50,7 @@ SDK 支持 在 Android 4.0.3（API 15）及以上系统上运行，但只有 ( A
 ```
 dependencies {
       compile fileTree(dir: 'libs', include: ['*.jar'])
-      // 导入腾讯云直播 SDK aar
+      // 导入云平台直播 SDK aar
       compile(name: 'LiteAVSDK_Professional_3.0.1185', ext: 'aar')
   }
 ```
@@ -112,7 +112,7 @@ allprojects {
 ```
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    // 导入腾讯云直播 SDK jar
+    // 导入云平台直播 SDK jar
     compile fileTree(dir: 'src/main/jniLibs', includes: ['*.jar'])
 }
 ```

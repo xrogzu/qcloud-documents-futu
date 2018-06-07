@@ -68,7 +68,7 @@ $ sudo pip install --upgrade qcloudcli
 ```
 
 ## 卸载命令行工具
-如果您不再需要使用腾讯云命令行工具，可通过以下命令卸载腾讯云命令行工具：
+如果您不再需要使用云平台命令行工具，可通过以下命令卸载云平台命令行工具：
 
 ```
 $ sudo pip uninstall qcloudcli

@@ -3,7 +3,7 @@
 1. 进入 CCI 持续集成界面后，单击左侧菜单栏中的 【服务端构建】。单击 【新建】 按钮，新建服务端构建工程。
 ![](https://mc.qcloudimg.com/static/img/da6a3b45337946e40f0fe17512d11570/image.png)
 2. 进入新建工程后时，依次填写工程名称和工程描述（选填）。
-3. 选择代码仓库（必填）和分支（必填），代码仓库和分支的创建请参考 [Tgit 代码托管文档](https://cloud.tencent.com/document/product/612)。
+3. 选择代码仓库（必填）和分支（必填），代码仓库和分支的创建请参考 [Tgit 代码托管文档](http://tce.fsphere.cn/document/product/612)。
 4. **编程语言** 中单击 【 c++ 】选项，在 **构建类型** 中，根据用户实际需求选择 `make`  或 `cmake` 构建类型,构建环境会根据构建类型自动定位。
    - 当您选择 `make` 时，编译参数 `makefile` 用来指定 Makefile 文件的名称，默认值为 makefile 。编译参数 `target and options` 用来指定 make 编译的 target 和选项。编译参数 `path` 用来指定 makefile 文件的相对路径。
   - 当您选择 `camke` 时，编译参数 `path` 用来指定 `CMakeLists.txt` 文件的相对路径，由用户根据具体情况输入。编译参数 `cmake options` 是 cmake 命令的选项，如输入 `-G "Unix Makefiles"` 表示用 GCC 编译生成 makefile 工程文件 。编译参数 `make target and options` 用来指定 make 编译的 target 和选项，由用户根据具体情况输入。

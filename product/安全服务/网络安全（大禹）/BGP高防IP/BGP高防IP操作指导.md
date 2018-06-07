@@ -1,8 +1,8 @@
-## BGP高防IP快速接入（业务部署在非腾讯云）
+## BGP高防IP快速接入（业务部署在非云平台）
 
 **第一步** 登录控制台高防IP配置页面
 
-登录“[大禹网络安全](https://console.cloud.tencent.com/dayu/bgpip)”控制台，在“BGP高防IP”控制页中找到您已经开通的业务部署在非腾讯云的高防IP实例，点击实例ID，进入配置页面
+登录“[大禹网络安全](http://console.tce.fsphere.cn/dayu/bgpip)”控制台，在“BGP高防IP”控制页中找到您已经开通的业务部署在非云平台的高防IP实例，点击实例ID，进入配置页面
 ![](https://mc.qcloudimg.com/static/img/6085ef927caa91a65c6b1ba4db92fd0d/image.png)
 ![](https://mc.qcloudimg.com/static/img/d696aa7a51b0ba6da9cfd89c256430dd/image.png)
 
@@ -26,16 +26,16 @@
 **2.1**选择HTTP协议时，源站端口为80，填写源站IP
 注意：请用回车分隔多个IP，最多可输入本IP转发目标区域内20个公网IP
 ![](https://mc.qcloudimg.com/static/img/d14b767f823892dca93b3d5157efbc0d/image.png)
-**2.2**选择HTTPS协议时，源站端口为443，您可以选择自有证书，也可以选择腾讯云托管证书，并填写源站IP
+**2.2**选择HTTPS协议时，源站端口为443，您可以选择自有证书，也可以选择云平台托管证书，并填写源站IP
 注意：请用回车分隔多个IP，最多可输入本IP转发目标区域内20个公网IP
 ![](https://mc.qcloudimg.com/static/img/327a57c3e180514bc5e9e8d5f965915c/image.png)
 ![](https://mc.qcloudimg.com/static/img/2a3f64de5c5270b82d8f17bc04a885ec/image.png)
 **第四步** 将业务切换到高防IP即可。
 
-## BGP高防IP快速接入（业务部署在腾讯云）
+## BGP高防IP快速接入（业务部署在云平台）
 **第一步** 登录控制台高防IP配置页面
 
-登录“[大禹网络安全](https://console.cloud.tencent.com/dayu/bgpip)”控制台，在“BGP高防IP”控制页中找到您已经开通的业务部署在腾讯云的高防IP实例，点击实例ID，进入配置页面
+登录“[大禹网络安全](http://console.tce.fsphere.cn/dayu/bgpip)”控制台，在“BGP高防IP”控制页中找到您已经开通的业务部署在云平台的高防IP实例，点击实例ID，进入配置页面
 ![](https://mc.qcloudimg.com/static/img/deea9548b99e7fe4a8858bd0b448588f/image.png)
 
 **第二步** 创建监听器

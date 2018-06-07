@@ -3,8 +3,8 @@
 智能图像的 php SDK 下载地址：[php-SDK-V2.0](https://github.com/tencentyun/image-php-sdk-v2.0)。
 ## 快速入门
 
-### 在腾讯云申请业务的授权
-授权包括： APPID 、SecretId 、 SecretKey 及存储桶名（可参考 [域名管理](https://cloud.tencent.com/document/product/460/6937) ）。
+### 在云平台申请业务的授权
+授权包括： APPID 、SecretId 、 SecretKey 及存储桶名（可参考 [域名管理](http://tce.fsphere.cn/document/product/460/6937) ）。
 
 ### 创建对应操作类的对象
 如果要使用图片，需要创建图片操作类对象：

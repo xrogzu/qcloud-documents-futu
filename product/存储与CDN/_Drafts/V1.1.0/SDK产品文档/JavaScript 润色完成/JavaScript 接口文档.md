@@ -1,4 +1,4 @@
-> 关于文章中出现的 SecretId、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](https://cloud.tencent.com/document/product/436/7751)
+> 关于文章中出现的 SecretId、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](http://tce.fsphere.cn/document/product/436/7751)
 
 ## 鉴权操作
 
@@ -74,7 +74,7 @@ cos.headBucket(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 
 #### 回调函数说明
 
@@ -129,7 +129,7 @@ cos.getBucket(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 |   Prefix   |   前缀匹配，用来规定返回的文件前缀地址  |   String  | 否|
 |   Delimiter   |   定界符为一个符号，如果有 Prefix，则将 Prefix 到 delimiter 之间的相同路径归为一类，定义为 Common Prefix，然后列出所有 Common Prefix。如果没有 Prefix，则从路径起点开始  |  String  | 否|
 |   Marker   |  默认以 UTF-8 二进制顺序列出条目，所有列出条目从 marker 开始  |  String  |  否|
@@ -200,7 +200,7 @@ cos.deleteBucket(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 
 #### 回调函数说明
 
@@ -249,7 +249,7 @@ cos.getBucketAcl(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 
 #### 回调函数说明
 
@@ -310,7 +310,7 @@ cos.putBucketAcl(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
   |   ACL |    定义 Object 的 ACL 属性。有效值：private，public-read-write，public-read；默认值：private|  String| 否|
   |   GrantRead | 赋予被授权者读的权限。格式：id=" ",id=" "；<br>当需要给子账户授权时，id="qcs::cam::uin/&lt;OwnerUin>:uin/&lt;SubUin>"，<br>当需要给根账户授权时，id="qcs::cam::uin/&lt;OwnerUin>:uin/&lt;OwnerUin>"，<br>例如：'id="qcs::cam::uin/123:uin/123", id="qcs::cam::uin/123:uin/456"'|   String|   否|
   |   GrantWrite |     赋予被授权者写的权限。格式：id=" ",id=" "；<br>当需要给子账户授权时，id="qcs::cam::uin/&lt;OwnerUin>:uin/&lt;SubUin>"，<br>当需要给根账户授权时，id="qcs::cam::uin/&lt;OwnerUin>:uin/&lt;OwnerUin>"，<br>例如：'id="qcs::cam::uin/123:uin/123", id="qcs::cam::uin/123:uin/456"'|  String|否|
@@ -362,7 +362,7 @@ cos.getBucketCors(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 
 #### 回调函数说明
 
@@ -442,7 +442,7 @@ cos.putBucketCors(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 |   CORSRules |  说明跨域资源共享配置的所有信息列表|   Array| 否|
 |   ID |    配置规则的 ID，可选填|  String| 否|
 |   AllowedMethods |   允许的 HTTP 操作，枚举值：GET，PUT，HEAD，POST，DELETE|  Array|  是|
@@ -502,7 +502,7 @@ cos.deleteBucketCors(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 
 #### 回调函数说明
 
@@ -551,7 +551,7 @@ cos.getBucketLocation(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 
 #### 回调函数说明
 
@@ -564,7 +564,7 @@ function(err, data) { ... }
 |--------|---------|--------|
 |err   |    请求发生错误时返回的对象，包括网络错误和业务错误。如果请求成功，则为空  |  Object  |   
 |data   |    请求成功时返回的对象，如果请求发生错误，则为空  |  Object  | 
-|LocationConstraint |Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|
+|LocationConstraint |Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|
 |   headers   |    请求返回的头部信息  |  Object|  
 |   statusCode   | 请求返回的 HTTP 状态码，如 200，403，404 等  |   Number| 
 
@@ -603,7 +603,7 @@ cos.headObject(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 | Key |文件名称|String| 是|
 | IfModifiedSince| 当 Object 在指定时间后被修改，则返回对应 Object 的 meta 信息，否则返回 304|String|否|
 
@@ -669,7 +669,7 @@ cos.getObject(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 | Key |文件名称|String| 是|
   |   ResponseContentType |     设置响应头部中的 Content-Type 参数|  String|否|
   |   ResponseContentLanguage |    设置返回头部中的 Content-Language 参数|  String| 否|
@@ -755,7 +755,7 @@ cos.putObject(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 | Key |文件名称|String| 是|
 |   CacheControl |   RFC 2616 中定义的缓存策略，将作为 Object 元数据保存|   String| 是|
 |   ContentDisposition |    RFC 2616 中定义的文件名称，将作为 Object 元数据保存|  String| 否|
@@ -827,7 +827,7 @@ cos.deleteObject(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 | Key |文件名称|String| 是|
 
 
@@ -883,7 +883,7 @@ cos.optionsObject(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 | Key |文件名称|String| 是|
 | Origin | 模拟跨域访问的请求来源域名|String|是|
 | AccessControlRequestMethod |模拟跨域访问的请求 HTTP 方法|String| 是|
@@ -943,7 +943,7 @@ cos.getObjectAcl(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 | Key |文件名称|String| 是|
 
 
@@ -1008,7 +1008,7 @@ cos.putObjectAcl(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 | Key |文件名称|String| 是|
 |   ACL |   定义 Object 的 ACL 属性。有效值：private，public-read-write，public-read；默认值：private|  String|  否|
 |   GrantRead |     赋予被授权者读的权限。格式：id=" ",id=" "；<br>当需要给子账户授权时，id="qcs::cam::uin/&lt;OwnerUin>:uin/&lt;SubUin>"，<br>当需要给根账户授权时，id="qcs::cam::uin/&lt;OwnerUin>:uin/&lt;OwnerUin>"，<br>例如：'id="qcs::cam::uin/123:uin/123", id="qcs::cam::uin/123:uin/456"'|  String|否|
@@ -1071,7 +1071,7 @@ cos.deleteMultipleObject(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 | Key |要删除的文件名称|String| 是|
 |Quiet |  布尔值，这个值决定了是否启动 Quiet 模式。值为 true 启动 Quiet 模式，值为 false 则启动 Verbose 模式，默认值为 false|Boolean| 否|
 | Objects |要删除的文件列表|Array| 是|
@@ -1149,7 +1149,7 @@ cos.putObjectCopy(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 | Key |文件名称|String| 是|
 |   CopySource |  源文件 URL 路径，可以通过 versionid 子资源指定历史版本|   String|  是|
 |   ACL |    定义 Object 的 ACL 属性。有效值：private，public-read-write，public-read；默认值：private|String|  否| 
@@ -1233,7 +1233,7 @@ cos.multipartInit(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 | Key |文件名称|String| 是|
  |   CacheControl |  RFC 2616 中定义的缓存策略，将作为 Object 元数据保存|  String|   否|
  |   ContentDisposition |   RFC 2616 中定义的文件名称，将作为 Object 元数据保存|  String|  否|
@@ -1307,7 +1307,7 @@ cos.multipartUpload(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 | Key |文件名称|String| 是|
 |   ContentLength |     RFC 2616 中定义的 HTTP 请求内容长度（字节）|String|是|
 |   PartNumber |   分块的编号| String| 是|
@@ -1379,7 +1379,7 @@ cos.multipartComplete(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 | Key |文件名称|String| 是|
 | UploadId |上传任务编号|String| 是|
 | Parts |用来说明本次分块上传中块的信息列表|Array| 是|
@@ -1443,7 +1443,7 @@ cos.multipartListPart(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 | Key |文件名称|String| 是|
 | UploadId| 标识本次分块上传的 ID。使用 Initiate Multipart Upload 接口初始化分片上传时会得到一个 uploadId，该 ID 不但唯一标识这一分块数据，也标识了这分块数据在整个文件内的相对位置。|String|是|
 | EncodingType | 规定返回值的编码方式|String|否|
@@ -1522,7 +1522,7 @@ cos.multipartAbort(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 | Key |文件名称|String| 是|
 | UploadId |标识本次分块上传的 ID。使用 Initiate Multipart Upload 接口初始化分片上传时会得到一个 uploadId，该 ID 不但唯一标识这一分块数据，也标识了这分块数据在整个文件内的相对位置|String| 是|
 
@@ -1580,7 +1580,7 @@ cos.multipartList(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
 |   Delimiter |   定界符为一个符号，对 Object 名字包含指定前缀且第一次出现 delimiter 字符之间的 Object 作为一组元素：common prefix。如果没有 prefix，则从路径起点开始|  String|   否|
   |   EncodingType |    规定返回值的编码格式，合法值：url|  String|  否|
   |   Prefix |   限定返回的 Object key 必须以 Prefix 作为前缀。注意使用 prefix 查询时，返回的 key 中仍会包含 Prefix|  String|   否|
@@ -1675,7 +1675,7 @@ cos.sliceUploadFile(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](https://cloud.tencent.com/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
  |   Key |   Object 名称|   String| 是|
   |   Body |  上传文件的内容，可以为  File 对象  或者  Blob 对象  |  File \ Blob| 是|
   |   SliceSize |    分块大小|  String| 否|

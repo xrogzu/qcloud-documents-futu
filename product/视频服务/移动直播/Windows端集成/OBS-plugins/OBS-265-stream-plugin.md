@@ -25,7 +25,7 @@
 #### 3.1 OBS 设置 - 流：
 OBS设置-流-流类型选择 **Tencent Stream(H.265) Service**，填写推流地址
 
- [开通](https://console.cloud.tencent.com/live)直播服务后，可以使用 [直播控制台>>直播码接入>>推流生成器](https://console.cloud.tencent.com/live/livecodemanage) 生成推流地址，详细信息可以参考 [获得推流播放URL](https://cloud.tencent.com/document/product/454/7915)。
+ [开通](http://console.tce.fsphere.cn/live)直播服务后，可以使用 [直播控制台>>直播码接入>>推流生成器](http://console.tce.fsphere.cn/live/livecodemanage) 生成推流地址，详细信息可以参考 [获得推流播放URL](http://tce.fsphere.cn/document/product/454/7915)。
 ![](https://main.qcloudimg.com/raw/81b7aaa96e7beb2744550360d3c1e1dd.png)
 
 

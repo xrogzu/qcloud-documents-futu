@@ -1,5 +1,5 @@
 ## 1. 开发准备
-腾讯云•万象优图的最新iOS SDK的下载：[iOS SDK](/doc/product/275/SDK下载#2.-ios-sdk)。
+云平台•万象优图的最新iOS SDK的下载：[iOS SDK](/doc/product/275/SDK下载#2.-ios-sdk)。
 ### 1.1 前期准备
 1. iOS 5.0+；
 2. 手机必须要有网络（GPRS、3G或Wifi网络等）；

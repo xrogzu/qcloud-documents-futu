@@ -1,4 +1,4 @@
-cos_migration 迁移工具可以将您在阿里云存储上的文件同步到腾讯云对象存储（COS）上。
+cos_migration 迁移工具可以将您在阿里云存储上的文件同步到云平台对象存储（COS）上。
 
 ## 功能说明
 
@@ -8,7 +8,7 @@ cos_migration 迁移工具可以将您在阿里云存储上的文件同步到腾
 - 支持并行数据下载/上传
 - 支持自动同步增量数据
 
-客户只需配置阿里云的存储信息以及腾讯云（COS）的账号信息，运行工具，即可自动迁移。迁移后，文件的名称、路径和数据源保持一致。
+客户只需配置阿里云的存储信息以及云平台（COS）的账号信息，运行工具，即可自动迁移。迁移后，文件的名称、路径和数据源保持一致。
 
 迁移效果示例：
 
@@ -70,7 +70,7 @@ tar xvf cos_migration_tools.tar
 
 配置文件 config.ini 位于工具 cos_migration_tools 目录的 conf 目录下，修改 config.ini 中的参数即可完成工具配置。
 
-配置参数分为两方面内容：数据源信息设置 和 腾讯云 COS 信息设置。
+配置参数分为两方面内容：数据源信息设置 和 云平台 COS 信息设置。
 
 ##### 阿里云存储信息设置
 
@@ -84,9 +84,9 @@ SrcStorageIsPrivateBucket=0 设置为1则表示的空间是私有空间，否则
 SrcStoragePrefix= 设置的迁移文件目录，如果有多个目录要迁移，可以用多台机器，分别迁移不同的目录的文件
 ```
 
-##### 腾讯云 COS 信息设置
+##### 云平台 COS 信息设置
 
-登录[腾讯云对象存储](https://console.cloud.tencent.com/cos)，默认项目会分配 APP ID、secretID、secretKey 如下图，如果新建项目，则会分配一套新的 APP ID、secretID、secretKey，每个项目下的 APP ID、secretID、secretKey 均不相同。
+登录[云平台对象存储](http://console.tce.fsphere.cn/cos)，默认项目会分配 APP ID、secretID、secretKey 如下图，如果新建项目，则会分配一套新的 APP ID、secretID、secretKey，每个项目下的 APP ID、secretID、secretKey 均不相同。
 
 ![image_1aog2g81ghgqmk210p4146c8tr9.png-23.6kB][1]
 

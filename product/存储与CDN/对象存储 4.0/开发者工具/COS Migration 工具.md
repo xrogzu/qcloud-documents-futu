@@ -33,7 +33,7 @@ COS Migration是一个集成了有关COS数据迁移功能的一体化工具。�
  - Linux 或 Windows 环境
 
 ### 软件依赖
-- JDK1.7或以上, 有关JDK的安装与配置请参考[JAVA安装与配置](https://cloud.tencent.com/document/product/436/10865)
+- JDK1.7或以上, 有关JDK的安装与配置请参考[JAVA安装与配置](http://tce.fsphere.cn/document/product/436/10865)
 
 
 ## 使用方法
@@ -340,5 +340,5 @@ COS迁移工具是有状态的，已经迁移成功的会记录在db目录下，
 6. 其他问题
 
 
-    请重新运行迁移工具，若仍然失败的，请将配置信息(秘钥信息请隐藏)与log目录打包后[提交工单](https://console.cloud.tencent.com/workorder/category)。
+    请重新运行迁移工具，若仍然失败的，请将配置信息(秘钥信息请隐藏)与log目录打包后[提交工单](http://console.tce.fsphere.cn/workorder/category)。
   

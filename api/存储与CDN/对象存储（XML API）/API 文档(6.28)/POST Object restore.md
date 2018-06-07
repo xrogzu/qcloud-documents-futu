@@ -53,7 +53,7 @@ Content-MD5: MD5
 Restore configuration in the request body
 ```
 
-> Authorization: Auth String (详细参见 [请求签名](https://cloud.tencent.com/document/product/436/7778) 章节)
+> Authorization: Auth String (详细参见 [请求签名](http://tce.fsphere.cn/document/product/436/7778) 章节)
 
 ### 请求行
 
@@ -66,7 +66,7 @@ POST /ObjectName?restore HTTP 1.1
 ### 请求头
 
 **公共头部**
-该请求操作的实现使用公共请求头，了解公共请求头详细请参见 [公共请求头部](https://cloud.tencent.com/document/product/436/7728) 章节。
+该请求操作的实现使用公共请求头，了解公共请求头详细请参见 [公共请求头部](http://tce.fsphere.cn/document/product/436/7728) 章节。
 
 **非公共头部**
 该请求操作的实现需要用帯 Content-MD5 的请求头来验证消息的完整性，具体内容如下：
@@ -114,7 +114,7 @@ x-cos-request-id: NTk4NTcwMDNfMjQ4OGY3MGFfNDI0Y181
 
 #### 公共响应头
 
-该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](https://cloud.tencent.com/document/product/436/7729) 章节。
+该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](http://tce.fsphere.cn/document/product/436/7729) 章节。
 
 #### 特有响应头
 

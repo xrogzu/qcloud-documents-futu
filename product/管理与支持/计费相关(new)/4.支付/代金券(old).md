@@ -1,5 +1,5 @@
 ## 1. 什么是代金券
-代金券是可抵扣费用的优惠券，登录腾讯云官网，在 费用中心 - [代金券管理](https://console.cloud.tencent.com/account/voucher) 页面中可查看用户账户下的代金券情况。
+代金券是可抵扣费用的优惠券，登录云平台官网，在 费用中心 - [代金券管理](http://console.tce.fsphere.cn/account/voucher) 页面中可查看用户账户下的代金券情况。
 ![](https://mc.qcloudimg.com/static/img/1521a0c1596a18cbf450f8c1b380f372/image.png)
 
 ## 2. 如何使用代金券
@@ -50,14 +50,14 @@
 ## 6. 代金券兑换帮助
 
 **需要兑换的代金券类型有：
-（1）通过微信卡券领取的腾讯云代金券
+（1）通过微信卡券领取的云平台代金券
 （2）通过其他方式领取的纸质代金券
 备注：另外，已在代金券页面列表里的券无需再进行兑换，可在订单支付时使用。**
 
 
 **兑换流程**
 
-（1）登录腾讯云官网，在费用中心-[代金券管理](https://console.cloud.tencent.com/account/voucher)页面中点击“兑换代金券”。
+（1）登录云平台官网，在费用中心-[代金券管理](http://console.tce.fsphere.cn/account/voucher)页面中点击“兑换代金券”。
 ![](https://mc.qcloudimg.com/static/img/eeca08b8ba05d430af5773592729149f/image.png)
 
 （2）弹出兑换代金券窗口

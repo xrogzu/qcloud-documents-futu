@@ -1,24 +1,24 @@
 
-腾讯云提供了全套技术文档和源码来帮助您快速构建一个音视频小程序，但是再好的源码和文档也有学习成本，为了尽快的能调试起来，我们还提供了一个免费的一键部署服务：您只需轻点几下鼠标，就可以在自己的账号下获得一个音视频小程序，同时附送一台拥有独立域名的测试服务器，让您可以在 5 分钟内快速构建出自己的测试环境。
+云平台提供了全套技术文档和源码来帮助您快速构建一个音视频小程序，但是再好的源码和文档也有学习成本，为了尽快的能调试起来，我们还提供了一个免费的一键部署服务：您只需轻点几下鼠标，就可以在自己的账号下获得一个音视频小程序，同时附送一台拥有独立域名的测试服务器，让您可以在 5 分钟内快速构建出自己的测试环境。
 
-## 一、通过微信公众平台授权登录腾讯云
+## 一、通过微信公众平台授权登录云平台
 
 打开 [微信公众平台](https://mp.weixin.qq.com) 注册并登录小程序，按如下步骤操作：
 
 1. 单击左侧菜单栏中的【设置】。
 2. 单击右侧 Tab 栏中的【开发者工具】。
-3. 单击【腾讯云】，进入腾讯云工具页面，单击【开通】。
-4. 使用小程序绑定的微信扫码即可将小程序授权给腾讯云，开通之后会自动进去腾讯云微信小程序控制台，显示开发环境已开通，此时可以进行后续操作。
+3. 单击【云平台】，进入云平台工具页面，单击【开通】。
+4. 使用小程序绑定的微信扫码即可将小程序授权给云平台，开通之后会自动进去云平台微信小程序控制台，显示开发环境已开通，此时可以进行后续操作。
 
 > **注意：**
 >
-> 此时通过小程序开发者工具查看腾讯云状态并不会显示已开通，已开通状态会在第一次部署开发环境之后才会同步到微信开发者工具上。
+> 此时通过小程序开发者工具查看云平台状态并不会显示已开通，已开通状态会在第一次部署开发环境之后才会同步到微信开发者工具上。
 
 ![进入微信公众平台后台](https://mc.qcloudimg.com/static/img/a3ca2891b23cfce7d3678cd05a4e14fe/13.jpg)
 
-![开通腾讯云](https://mc.qcloudimg.com/static/img/53e34b52e098ee3a0a02ecc8fbb68a54/14.jpg)
+![开通云平台](https://mc.qcloudimg.com/static/img/53e34b52e098ee3a0a02ecc8fbb68a54/14.jpg)
 
-![腾讯云微信小程序控制台](https://mc.qcloudimg.com/static/img/032d0b2b99dfcfdf4234db911e93b60f/15.png)
+![云平台微信小程序控制台](https://mc.qcloudimg.com/static/img/032d0b2b99dfcfdf4234db911e93b60f/15.png)
 
 ## 二、开通小程序类目与推拉流标签【重要】
 出于政策和合规的考虑，微信暂时没有放开所有小程序对 &lt;live-pusher&gt; 和 &lt;live-player&gt; 标签的支持：
@@ -58,17 +58,17 @@
 
 注意：如果以上设置都正确，但小程序依然不能正常工作，可能是微信内部的缓存没更新，请删除小程序并重启微信后，再进行尝试。
 
-## 三、免费开通腾讯云服务
+## 三、免费开通云平台服务
 ### 开通直播服务
 
 #### 1. 申请开通视频直播服务
-进入 [直播管理控制台](https://console.cloud.tencent.com/live)，如果服务还没有开通，则会有如下提示:
+进入 [直播管理控制台](http://console.tce.fsphere.cn/live)，如果服务还没有开通，则会有如下提示:
 ![](https://mc.qcloudimg.com/static/img/c40ff3b85b3ad9c0cb03170948d93555/image.png)
-点击申请开通，之后会进入腾讯云人工审核阶段，审核通过后即可开通。
+点击申请开通，之后会进入云平台人工审核阶段，审核通过后即可开通。
 
 
 #### 2. 配置直播码
-直播服务开通后，进入【直播控制台】>【直播码接入】>【接入配置】(https://console.cloud.tencent.com/live/livecodemanage) 完成相关配置，即可开启直播码服务：
+直播服务开通后，进入【直播控制台】>【直播码接入】>【接入配置】(http://console.tce.fsphere.cn/live/livecodemanage) 完成相关配置，即可开启直播码服务：
 ![](https://mc.qcloudimg.com/static/img/32158e398ab9543b5ac3acf5f04aa86e/image.png)
 点击【确定接入】按钮即可。
 
@@ -78,10 +78,10 @@
 
 ### 开通云通信服务
 #### 1 申请开通云通讯服务
-进入[云通讯管理控制台](https://console.cloud.tencent.com/avc)，如果还没有服务，直接点击**直接开通云通讯**按钮即可。新认证的腾讯云账号，云通讯的应用列表是空的，如下图：
+进入[云通讯管理控制台](http://console.tce.fsphere.cn/avc)，如果还没有服务，直接点击**直接开通云通讯**按钮即可。新认证的云平台账号，云通讯的应用列表是空的，如下图：
 ![](https://mc.qcloudimg.com/static/img/c033ddba671a514c7b160e1c99a08b55/image.png)
 
-点击**创建应用接入**按钮创建一个新的应用接入，即您要接入腾讯云IM通讯服务的App的名字，我们的测试应用名称叫做“RTMPRoom演示”，如下图所示：
+点击**创建应用接入**按钮创建一个新的应用接入，即您要接入云平台IM通讯服务的App的名字，我们的测试应用名称叫做“RTMPRoom演示”，如下图所示：
 ![](https://mc.qcloudimg.com/static/img/96131ecccb09ef06e50aa0ac591b802d/yuntongxing1.png)
 
 点击确定按钮，之后就可以在应用列表中看到刚刚添加的项目了，如下图所示：
@@ -121,7 +121,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## 五、下载 Demo 
 
-访问 [SDK+Demo](https://cloud.tencent.com/document/product/454/7873#XiaoChengXu)，获取小程序 Demo 和后台源码。
+访问 [SDK+Demo](http://tce.fsphere.cn/document/product/454/7873#XiaoChengXu)，获取小程序 Demo 和后台源码。
 
 ## 六、上传和部署代码
 
@@ -139,7 +139,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
   ![serverconfig](https://mc.qcloudimg.com/static/img/cabf6c3cc9691e6b2be7550b82e7f196/xiaochengxuwxliteconfig.png)
 
-5. 点击界面右上角的【腾讯云】图标，在下拉的菜单栏中选择【上传测试代码】。
+5. 点击界面右上角的【云平台】图标，在下拉的菜单栏中选择【上传测试代码】。
 
   ![上传按钮](https://mc.qcloudimg.com/static/img/8480bbc02b097bac0d511c334b731e12/5.png)
 
@@ -149,7 +149,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
   ![上传成功](https://mc.qcloudimg.com/static/img/a78431b42d0edf0bddae0b85ef00d40f/7.png)
 
-7. 上传代码完成之后，点击右上角的【详情】按钮，接着选择【腾讯云状态】即可看到腾讯云自动分配给你的开发环境域名，完整复制（包括 `https://`）开发环境 request 域名，然后在编辑器中打开 `wxlite/config.js` 文件，将复制的域名填入 `url` 中并保存，保存之后编辑器会自动编译小程序，左边的模拟器窗口即可实时显示出客户端的 Demo：
+7. 上传代码完成之后，点击右上角的【详情】按钮，接着选择【云平台状态】即可看到云平台自动分配给你的开发环境域名，完整复制（包括 `https://`）开发环境 request 域名，然后在编辑器中打开 `wxlite/config.js` 文件，将复制的域名填入 `url` 中并保存，保存之后编辑器会自动编译小程序，左边的模拟器窗口即可实时显示出客户端的 Demo：
 
   ![查看开发域名](https://mc.qcloudimg.com/static/img/2d24e840b1fa5b36b4d767e5311ca7cc/wxliteconfigserver2.png)
 
@@ -174,7 +174,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ##### 2. 运行小程序进入多人音视频看不到画面?
   - 请确认使用手机来运行，微信开发者工具内部的模拟器目前还不支持直接运行
   - 请确认小程序基础库版本 wx.getSystemInfo 可以查询到该信息，1.7.0 以上的基础库才支持音视频能力。
-  - 请确认小程序所属的类目，由于监管要求，并非所有类目的小程序都开发了音视频能力，已支持的类目请参考 [DOC](https://cloud.tencent.com/document/product/454/13037)。
+  - 请确认小程序所属的类目，由于监管要求，并非所有类目的小程序都开发了音视频能力，已支持的类目请参考 [DOC](http://tce.fsphere.cn/document/product/454/13037)。
   - 如有更多需求，或希望深度合作，可以提工单或客服电话（400-9100-100）联系我们。
   
 ##### 3. live-pusher、live-player标签使用及错误码参考

@@ -1,6 +1,6 @@
 ### 1. 简介
 
-腾讯云数字营销服务（pCTR，pCVR，流量优选，物料优选等）基于实时上报的item（物料）和action（行为），结合15亿+腾讯用户画像进行机器学习并实时返回服务结果。为简化开发者上报item和action两类数据，同时方便获取数字服务结果，腾讯云提供了相关协议标准。
+云平台数字营销服务（pCTR，pCVR，流量优选，物料优选等）基于实时上报的item（物料）和action（行为），结合15亿+腾讯用户画像进行机器学习并实时返回服务结果。为简化开发者上报item和action两类数据，同时方便获取数字服务结果，云平台提供了相关协议标准。
 
 ### 2 item上报
 
@@ -19,7 +19,7 @@ item上报JSON数据格式
 	"MD5":"40379db889f9124819228947faaeb1f7"，//md5(bid&request_id&TOKEN)
 	"request_id":"request_id", //request_id 为“毫秒级时间戳_随机数”
 	"data_type":1, //1：item，2：action
-	"bid":"BID" , //腾讯云为该业务分配的业务标识
+	"bid":"BID" , //云平台为该业务分配的业务标识
 	"item_id":"item_id", //物料标识
 	"publish":1, //1：上架（默认），0：下架
 	"describe":"最新款黑色苹果7", //物料描述  
@@ -59,7 +59,7 @@ item上报JSON数据格式
 | MD5  | string | Y | MD5(bid&request_id&TOKEN)  | 
 | request_id   | string | Y | 请求标识，格式：毫秒级时间戳_随机数，随机数建议三位以上  |
 | data_type  | integer | Y | 协议类型： 1 - item, 2 – action， 物料上报取1 | 
-| bid  | string | Y | 业务id，腾讯云分配的业务ID，可以在控制台查询  | 
+| bid  | string | Y | 业务id，云平台分配的业务ID，可以在控制台查询  | 
 | item_id  | string | Y | 物料id，物料唯一标识，数值和字符串都可以  | 
 | publish  | integer | N | 1 - 上架（默认）， 2 - 下架  | 
 | describe  | string | N | 商品的描述信息，推荐系统会对商品的描述信息，使用NLP技术，进行分词、提取关键词，作为item的特征使用  | 
@@ -108,7 +108,7 @@ action上报JSON数据格式
 	"MD5":"40379db889f9124819228947faaeb1f7"，//md5(bid&request_id&TOKEN)
 	"request_id":"request_id", //request_id 为“毫秒级时间戳_随机数”
 	"data_type":2, //1：item，2：action 
-	"bid":"BID" , //腾讯云为该业务分配的业务标识
+	"bid":"BID" , //云平台为该业务分配的业务标识
 	"uid_type":3, //0：QQ，1：微信号，3：设备号imei/idfa或其MD5值（默认），4：手机号
 	"uid":"userId", //QQ，微信号，imei/idfa或其MD5值，手机号
 	"item_id":"item_id1;item_id2;item_id3", //物料列表,多个物料用 ; 号隔开
@@ -139,7 +139,7 @@ action上报JSON数据格式
 | MD5  | string | Y | MD5(bid&request_id&TOKEN)  | 
 | request_id   | string | Y | 请求标识，格式：毫秒级时间戳_随机数，随机数建议三位以上  |
 | data_type  | integer | Y | 协议类型： 1 - item, 2 – action， 行为上报传2 | 
-| bid  | string | Y | 业务id，腾讯云分配的业务ID，可以在控制台查询  | 
+| bid  | string | Y | 业务id，云平台分配的业务ID，可以在控制台查询  | 
 | uid_type  | integer | N | 0 - qq, 1 - 微信号， 3 - imei/icfa或其他md5（默认），4 - 手机号  | 
 | uid  | string | Y | qq，微信号，imei/icfa，手机号，如果是imei号，则是15位数字字符串；如果是IFA号，则是8-4-4-4-12，32个字符串；如果是MD5（uid），则是32位的0-f的字符串，且需要是大写的IDFA进行的MD5 | 
 | item_id  | string | Y | 物料id，物料唯一标识，数值和字符串都可以  | 
@@ -177,7 +177,7 @@ pCTR 请求服务JSON数据格式
 	"MD5":"40379db889f9124819228947faaeb1f7"，//md5(bid&request_id&TOKEN)
 	"service_type":0, //服务类型。0：pCTR，1：流量优选，2：pCVR，3：个性化推荐（默认），4：物料优选
 	"request_id":"request_id", //request_id 为”毫秒级时间戳_随机数”
-	"bid":"BID", //腾讯云为该业务分配的业务标识
+	"bid":"BID", //云平台为该业务分配的业务标识
 	"uid_type":3, //0：QQ，1：微信号，3：设备号imei/idfa或其MD5值（默认），4：手机号
 	"uid":"userId", //QQ，微信号，imei/idfa或其MD5值，手机号
 	"scene_id":"1001", //广告展示场景。请求pCTR服务时scene_id与上报数据时保持一致。
@@ -235,7 +235,7 @@ pCTR 请求服务JSON数据格式
 | MD5  | string | Y | MD5(bid&request_id&TOKEN)  | 
 | request_id   | string | Y | 请求标识，格式：毫秒级时间戳_随机数，随机数建议三位以上  |
 | service_type  | integer | Y | 服务场景： 0 - pCtr 1 - 流量优选 2 - pCvr 3 - 智能推荐（默认） 4 物料优选 | 
-| bid  | string | Y | 业务id，腾讯云分配的业务ID，可以在控制台查询  | 
+| bid  | string | Y | 业务id，云平台分配的业务ID，可以在控制台查询  | 
 | uid_type  | integer | N | 0 - qq, 1 - 微信号， 3 - imei/icfa或其他md5（默认），4 - 手机号  | 
 | uid  | string | Y | qq，微信号，imei/icfa，手机号，如果是imei号，则是15位数字字符串；如果是IFA号，则是8-4-4-4-12，32个字符串；如果是MD5（uid），则是32位的0-f的字符串，且需要是大写的IDFA进行的MD5 | 
 | scene_id  | string | Y | 推荐场景ID，请求服务的场景Id，需要跟行为上报时的ID一致  | 
@@ -299,7 +299,7 @@ pCVR 请求服务JSON数据格式
 	"MD5":"40379db889f9124819228947faaeb1f7"， //md5(bid&request_id&TOKEN)
 	"service_type":2, //服务类型。0：pCTR，1：流量优选，2：pCVR，3：个性化推荐（默认），4：物料优选 
 	"request_id":"request_id", //request_id 为”毫秒级时间戳_随机数”
-	"bid":"BID", //腾讯云为该业务分配的业务标识
+	"bid":"BID", //云平台为该业务分配的业务标识
 	"uid_type":3, //0：QQ，1：微信号，3：设备号imei/idfa或其MD5值（默认），4：手机号
 	"uid":"userId", //QQ，微信号，imei/idfa或其MD5值，手机号
 	"scene_id":"1001", //广告展示场景。请求服务时scene_id与上报数据时保持一致。
@@ -357,7 +357,7 @@ pCVR 请求服务JSON数据格式
 | MD5  | string | Y | MD5(bid&request_id&TOKEN)  | 
 | request_id   | string | Y | 请求标识，格式：毫秒级时间戳_随机数，随机数建议三位以上  |
 | service_type  | integer | Y | 服务场景： 0 - pCtr 1 - 流量优选 2 - pCvr 3 - 智能推荐（默认） 4 物料优选 | 
-| bid  | string | Y | 业务id，腾讯云分配的业务ID，可以在控制台查询  | 
+| bid  | string | Y | 业务id，云平台分配的业务ID，可以在控制台查询  | 
 | uid_type  | integer | N | 0 - qq, 1 - 微信号， 3 - imei/icfa或其他md5（默认），4 - 手机号  | 
 | uid  | string | Y | qq，微信号，imei/icfa，手机号，如果是imei号，则是15位数字字符串；如果是IFA号，则是8-4-4-4-12，32个字符串；如果是MD5（uid），则是32位的0-f的字符串，且需要是大写的IDFA进行的MD5 | 
 | scene_id  | string | Y | 推荐场景ID，请求服务的场景Id，需要跟行为上报时的ID一致  | 
@@ -415,7 +415,7 @@ pCVR 请求服务返回JSON数据格式
 	"MD5":"40379db889f9124819228947faaeb1f7"， //md5(bid&request_id&TOKEN)
 	"service_type":4, //服务类型。0：pCTR，1：流量优选，2：pCVR，3：个性化推荐（默认），4：物料优选
 	"request_id":"request_id", //request_id 为”毫秒级时间戳_随机数”,
-	"bid":"BID", //腾讯云为该业务分配的业务标识
+	"bid":"BID", //云平台为该业务分配的业务标识
 	"uid_type":3, //0：QQ，1：微信号，3：设备号imei/idfa或其MD5值（默认），4：手机号
 	"uid":"userId", //QQ，微信号，imei/idfa或其MD5值，手机号
 	"scene_id":"1001", //广告展示场景。请求服务时scene_id与上报数据时保持一致
@@ -474,7 +474,7 @@ pCVR 请求服务返回JSON数据格式
 | MD5  | string | Y | MD5(bid&request_id&TOKEN)  | 
 | request_id   | string | Y | 请求标识，格式：毫秒级时间戳_随机数，随机数建议三位以上  |
 | service_type  | integer | Y | 服务场景： 0 - pCtr 1 - 流量优选 2 - pCvr 3 - 智能推荐（默认） 4 物料优选 | 
-| bid  | string | Y | 业务id，腾讯云分配的业务ID，可以在控制台查询  | 
+| bid  | string | Y | 业务id，云平台分配的业务ID，可以在控制台查询  | 
 | uid_type  | integer | N | 0 - qq, 1 - 微信号， 3 - imei/icfa或其他md5（默认），4 - 手机号  | 
 | uid  | string | Y | qq，微信号，imei/icfa，手机号，如果是imei号，则是15位数字字符串；如果是IFA号，则是8-4-4-4-12，32个字符串；如果是MD5（uid），则是32位的0-f的字符串，且需要是大写的IDFA进行的MD5 | 
 | scene_id  | string | Y | 推荐场景ID，请求服务的场景Id，需要跟行为上报时的ID一致  | 
@@ -531,7 +531,7 @@ pCVR 请求服务返回JSON数据格式
    "MD5":"40379db889f9124819228947faaeb1f7", //md5(bid&request_id&TOKEN)
    "service_type":1, //服务类型。0：pCTR，1：流量优选，2：pCVR，3：个性化推荐（默认），4：物料优选   
    "request_id":"request_id", //request_id 为”毫秒级时间戳_随机数”
-   "bid":"BID", //腾讯云为该业务分配的业务标识
+   "bid":"BID", //云平台为该业务分配的业务标识
    "scene_id":"1001", //广告展示场景。请求服务时scene_id与上报数据时保持一致。
    "media_id":"媒体ID" //媒体标识
 }
@@ -544,7 +544,7 @@ pCVR 请求服务返回JSON数据格式
 | MD5  | string | Y | MD5(bid&request_id&TOKEN)  | 
 | request_id   | string | Y | 请求标识，格式：毫秒级时间戳_随机数，随机数建议三位以上  |
 | service_type  | integer | Y | 服务场景： 0 - pCtr 1 - 流量优选 2 - pCvr 3 - 智能推荐（默认） 4 物料优选 | 
-| bid  | string | Y | 业务id，腾讯云分配的业务ID，可以在控制台查询  | 
+| bid  | string | Y | 业务id，云平台分配的业务ID，可以在控制台查询  | 
 | scene_id  | string | Y | 推荐场景ID，请求服务的场景Id，需要跟行为上报时的ID一致  | 
 | media.id  | string | N | 媒体标识  | 
 

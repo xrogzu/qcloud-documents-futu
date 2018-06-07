@@ -8,7 +8,7 @@
 
 -  iOS 8.0+；
 -  手机必须要有网络（GPRS、3G或Wifi网络等）；
--  开发者使用人脸识别功能前，需要先在腾讯云-万象优图控制台注册账号，并获得appid、SecretId和SecretKey等；
+-  开发者使用人脸识别功能前，需要先在云平台-万象优图控制台注册账号，并获得appid、SecretId和SecretKey等；
 
 
 ### SDK 配置
@@ -77,7 +77,7 @@ CIClient *client= [[CIClient alloc] initWithAppId:appId];
 
 ## 快速入门
 
-这里演示的对比用户人脸身份照片的基本流程，更多细节可以参考demo；在进行这一步之前必须在腾讯云控制台上申请万象业务的appid；
+这里演示的对比用户人脸身份照片的基本流程，更多细节可以参考demo；在进行这一步之前必须在云平台控制台上申请万象业务的appid；
 
 ### STEP - 1初始化CIClient
 

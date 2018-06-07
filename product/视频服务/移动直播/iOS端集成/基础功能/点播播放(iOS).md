@@ -11,7 +11,7 @@
 ![](https://mc.qcloudimg.com/static/img/4b42a00bb7ce2f58f362f35397734177/image.jpg)
 
 ## 特别说明
-视频云 SDK  <font color='red'>**不会对**</font> 播放地址的来源做限制，即您可以用它来播放腾讯云或非腾讯云的播放地址。但视频云 SDK 中的播放器只支持 FLV 、RTMP 和 HLS（m3u8）三种格式的直播地址，以及 MP4、 HLS（m3u8）和 FLV 三种格式的点播地址。
+视频云 SDK  <font color='red'>**不会对**</font> 播放地址的来源做限制，即您可以用它来播放云平台或非云平台的播放地址。但视频云 SDK 中的播放器只支持 FLV 、RTMP 和 HLS（m3u8）三种格式的直播地址，以及 MP4、 HLS（m3u8）和 FLV 三种格式的点播地址。
 
 ## 对接攻略
 
@@ -59,7 +59,7 @@ p.appId = 1252463788;
 p.fileId = @"4564972819220421305";
 [_txVodPlayer startPlayWithParams:p];
 ```
-在[点播视频管理](https://console.cloud.tencent.com/video/videolist) 找到对应的文件。点开后在右侧视频详情中，可以看到appId和fileId。
+在[点播视频管理](http://console.tce.fsphere.cn/video/videolist) 找到对应的文件。点开后在右侧视频详情中，可以看到appId和fileId。
 
 ![视频管理](https://mc.qcloudimg.com/static/img/fcad44c3392b229f3a53d5f8b2c52961/image.png)
 
@@ -190,12 +190,12 @@ _player_B.isAutoPlay = NO;
 autoPlay 还可以用来做贴片广告功能，由于设置了 autoPlay 为 NO 之后，播放器会立刻加载但又不会立刻播放，因此可以在此时展示贴片广告，等广告播放结束，在使用 resume 函数立即开始视频的播放。
 
 ### step 12: 加密播放 [UGC版本暂不支持]
-视频加密方案主要用于在线教育等需要对视频版权进行保护的场景。如果要对您的视频资源进行加密保护，就不仅仅需要在播放器上做改造，还需要对视频源本身进行加密转码，亦需要您的后台和终端研发工程师都参与其中。在 [视频加密解决方案](https://cloud.tencent.com/document/product/266/9638) 中您会了解到全部细节内容。
+视频加密方案主要用于在线教育等需要对视频版权进行保护的场景。如果要对您的视频资源进行加密保护，就不仅仅需要在播放器上做改造，还需要对视频源本身进行加密转码，亦需要您的后台和终端研发工程师都参与其中。在 [视频加密解决方案](http://tce.fsphere.cn/document/product/266/9638) 中您会了解到全部细节内容。
 
-目前 TXVodPlayer 也是支持加密播放的，您可以使用通过 [URL](https://cloud.tencent.com/document/product/266/9638#.E8.A7.86.E9.A2.91.E6.92.AD.E6.94.BE.E6.96.B9.E6.A1.881.EF.BC.9A.E9.80.9A.E8.BF.87querystring.E4.BC.A0.E9.80.92.E8.BA.AB.E4.BB.BD.E8.AE.A4.E8.AF.81.E4.BF.A1.E6.81.AF) 携带身份认证信息的方案，该种方案下 SDK 的调用方式跟普通情况没有什么区别。 您也可以使用 [Cookie](https://cloud.tencent.com/document/product/266/9638#.E8.A7.86.E9.A2.91.E6.92.AD.E6.94.BE.E6.96.B9.E6.A1.882.EF.BC.9A.E9.80.9A.E8.BF.87cookie.E4.BC.A0.E9.80.92.E8.BA.AB.E4.BB.BD.E8.AE.A4.E8.AF.81.E4.BF.A1.E6.81.AF) 携带身份认证信息的方案，该种方案下，需要您通过 TXVodPlayConfig 中的 headers 字段设置 cookie 信息于 http 请求头中。
+目前 TXVodPlayer 也是支持加密播放的，您可以使用通过 [URL](http://tce.fsphere.cn/document/product/266/9638#.E8.A7.86.E9.A2.91.E6.92.AD.E6.94.BE.E6.96.B9.E6.A1.881.EF.BC.9A.E9.80.9A.E8.BF.87querystring.E4.BC.A0.E9.80.92.E8.BA.AB.E4.BB.BD.E8.AE.A4.E8.AF.81.E4.BF.A1.E6.81.AF) 携带身份认证信息的方案，该种方案下 SDK 的调用方式跟普通情况没有什么区别。 您也可以使用 [Cookie](http://tce.fsphere.cn/document/product/266/9638#.E8.A7.86.E9.A2.91.E6.92.AD.E6.94.BE.E6.96.B9.E6.A1.882.EF.BC.9A.E9.80.9A.E8.BF.87cookie.E4.BC.A0.E9.80.92.E8.BA.AB.E4.BB.BD.E8.AE.A4.E8.AF.81.E4.BF.A1.E6.81.AF) 携带身份认证信息的方案，该种方案下，需要您通过 TXVodPlayConfig 中的 headers 字段设置 cookie 信息于 http 请求头中。
 
 ### step 13: HTTP-REF [UGC版本暂不支持]
-TXVodPlayConfig 中的 headers 可以用来设置 http 请求头，比如常用的防止 URL 被到处拷贝的 Referer 字段（腾讯云可以提供更加安全的签名防盗链方案），以及用于验证客户端身份信息的 Cookie 字段。
+TXVodPlayConfig 中的 headers 可以用来设置 http 请求头，比如常用的防止 URL 被到处拷贝的 Referer 字段（云平台可以提供更加安全的签名防盗链方案），以及用于验证客户端身份信息的 Cookie 字段。
 
 ### step 14: 硬件加速
 对于蓝光级别（1080p）的画质，简单采用软件解码的方式很难获得较为流畅的播放体验，所以如果您的场景是以游戏直播为主，一般都推荐开启硬件加速。
@@ -214,7 +214,7 @@ SDK支持hls的多码率格式，方便用户切换不同码率的播放流。�
 NSArray *bitrates = [_txVodPlayer supportedBitrates]; //获取多码率数组
 ```
 
-在播放过程中，可以随时通过`-[TXVodPlayer setBitrateIndex:]`切换码率。切换过程中，会重新拉取另一条流的数据，因此会有稍许卡顿。SDK针对腾讯云的多码率文件做过优化，可以做到切换无卡顿。
+在播放过程中，可以随时通过`-[TXVodPlayer setBitrateIndex:]`切换码率。切换过程中，会重新拉取另一条流的数据，因此会有稍许卡顿。SDK针对云平台的多码率文件做过优化，可以做到切换无卡顿。
 
 ## 进度展示
 

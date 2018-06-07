@@ -13,7 +13,7 @@ JDK1.7
 ## 生成客户端对象
 
 ``` 
-    //从腾讯云官网查询的云API密钥信息
+    //从云平台官网查询的云API密钥信息
     String secretId="";
     String secretKey="";
     String endpoint = "";       

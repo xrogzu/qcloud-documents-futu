@@ -82,7 +82,7 @@ COSClient *client= [[COSClient alloc] initWithAppId:appId withRegion:[Congfig in
 
 ## 快速入门
 
-这里演示的上传和下载的基本流程，更多细节可以参考demo；在进行这一步之前必须在腾讯云控制台上申请COS业务的appid；
+这里演示的上传和下载的基本流程，更多细节可以参考demo；在进行这一步之前必须在云平台控制台上申请COS业务的appid；
 
 ### STEP - 1 初始化COSClient
 

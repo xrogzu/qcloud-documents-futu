@@ -596,7 +596,7 @@ iconID|要显示在提醒中的图标的资源ID。
 
 ### 4.1 添加小米离线推送证书
 
-从腾讯云管理中心的 [云通信-应用列表](https://console.cloud.tencent.com/avc) 进入相应应用的`应用配置`页面，在基本配置中根据指引添加`Android推送证书`。如何获得相应的推送证书可以参考 [Android推送证书申请](/doc/product/269/5331) 。
+从云平台管理中心的 [云通信-应用列表](http://console.tce.fsphere.cn/avc) 进入相应应用的`应用配置`页面，在基本配置中根据指引添加`Android推送证书`。如何获得相应的推送证书可以参考 [Android推送证书申请](/doc/product/269/5331) 。
 
 添加证书成功后，可以得到一个证书ID，这里可以把这个ID记录下来，后边有用。
 
@@ -768,7 +768,7 @@ public class MyApplication extends Application {
 
 ### 4.5 上报证书ID及regId
 
-想要ImSDK通过小米推送进行离线消息推送，必须在**登录成功后**将前面步骤拿到的**证书ID**及**regId**上报到腾讯云服务器。这一步骤可以通过`TIMManager`中的`setOfflinePushToken`方法来实现。
+想要ImSDK通过小米推送进行离线消息推送，必须在**登录成功后**将前面步骤拿到的**证书ID**及**regId**上报到云平台服务器。这一步骤可以通过`TIMManager`中的`setOfflinePushToken`方法来实现。
 
 **目前仅支持小米、华为设备，其他厂商设备上传无效。**
 
@@ -800,7 +800,7 @@ public class TIMOfflinePushToken {
     public void setToken(String token)
 
     /**
-     * 设置业务ID，这里的业务ID是指将离线推送相关证书上传到腾讯云的时候分配的ID
+     * 设置业务ID，这里的业务ID是指将离线推送相关证书上传到云平台的时候分配的ID
      * @param bussid 业务ID
      */
     public void setBussid(long bussid)
@@ -839,7 +839,7 @@ TIMManager.getInstance().setOfflinePushToken(param);
 
 ### 5.1 添加华为离线推送证书
 
-从腾讯云管理中心的 [云通信-应用列表](https://console.cloud.tencent.com/avc) 进入相应应用的`应用配置`页面，在基本配置中根据指引添加`Android推送证书`。如何获得相应的推送证书可以参考 [Android推送证书申请](/doc/product/269/5331)。
+从云平台管理中心的 [云通信-应用列表](http://console.tce.fsphere.cn/avc) 进入相应应用的`应用配置`页面，在基本配置中根据指引添加`Android推送证书`。如何获得相应的推送证书可以参考 [Android推送证书申请](/doc/product/269/5331)。
 
 添加证书成功后，可以得到一个证书ID，这里可以把这个ID记录下来，后边有用。
 
@@ -998,7 +998,7 @@ public class MyApplication extends Application {
 
 ### 5.5 上报证书ID及设备token
 
-想要ImSDK通过华为推送进行离线消息推送，必须在**登录成功后**将前面步骤拿到的**证书ID**及**设备token**上报到腾讯云服务器。这一步骤可以通过`TIMManager`中的`setOfflinePushToken`方法来实现。
+想要ImSDK通过华为推送进行离线消息推送，必须在**登录成功后**将前面步骤拿到的**证书ID**及**设备token**上报到云平台服务器。这一步骤可以通过`TIMManager`中的`setOfflinePushToken`方法来实现。
 
 **目前仅支持小米、华为设备，其他厂商设备上传无效。**
 
@@ -1030,7 +1030,7 @@ public class TIMOfflinePushToken {
     public void setToken(String token)
 
     /**
-     * 设置业务ID，这里的业务ID是指将离线推送相关证书上传到腾讯云的时候分配的ID
+     * 设置业务ID，这里的业务ID是指将离线推送相关证书上传到云平台的时候分配的ID
      * @param bussid 业务ID
      */
     public void setBussid(long bussid)
@@ -1073,7 +1073,7 @@ TIMManager.getInstance().setOfflinePushToken(param);
 
 ### 6.1 添加魅族离线推送证书
 
-从腾讯云管理中心的 [云通信-应用列表](https://console.cloud.tencent.com/avc) 进入相应应用的`应用配置`页面，在基本配置中根据指引添加`Android推送证书`。如何获得相应的推送证书可以参考 [Android推送证书申请](/doc/product/269/5331)。
+从云平台管理中心的 [云通信-应用列表](http://console.tce.fsphere.cn/avc) 进入相应应用的`应用配置`页面，在基本配置中根据指引添加`Android推送证书`。如何获得相应的推送证书可以参考 [Android推送证书申请](/doc/product/269/5331)。
 
 添加证书成功后，可以得到一个证书ID，这里可以把这个ID记录下来，后边有用。
 
@@ -1153,7 +1153,7 @@ public class MyPushMsgReceiver extends MzPushMessageReceiver {
         Log.d(TAG, "pushId: " + registerStatus.getPushId() + "|Expiretime: " + registerStatus.getExpireTime() + "|str: " + registerStatus.toString());
 
 
-        //上报busiid和pushid到腾讯云，需要在登录成功后进行上报
+        //上报busiid和pushid到云平台，需要在登录成功后进行上报
         TIMOfflinePushToken token = new TIMOfflinePushToken();
         token.setBussid(busiid);
         token.setToken(registerStatus.getPushId());
@@ -1248,7 +1248,7 @@ if(MzSystemUtils.isBrandMeizu()){
 
 ### 6.6 上报证书ID及设备token
 
-如果注册魅族推送服务成功，则会通过之前自定义 `BroadcastReceiver` 的 `onRegisterStatus` 接口回调当前设备的 `PushId`等信息。这个时候就已经可以收到魅族推送控制台进行推送的消息了。不需要如果想要收到腾讯云推送的消息，还需要最后一步，就是上报证书ID和设备token（这里设备token就是回调中的 PushId）。
+如果注册魅族推送服务成功，则会通过之前自定义 `BroadcastReceiver` 的 `onRegisterStatus` 接口回调当前设备的 `PushId`等信息。这个时候就已经可以收到魅族推送控制台进行推送的消息了。不需要如果想要收到云平台推送的消息，还需要最后一步，就是上报证书ID和设备token（这里设备token就是回调中的 PushId）。
 
 **示例：**
 
@@ -1261,7 +1261,7 @@ public void onRegisterStatus(Context context, RegisterStatus registerStatus) {
     Log.d(TAG, "pushId: " + registerStatus.getPushId() + "|Expiretime: " + registerStatus.getExpireTime() + "|str: " + registerStatus.toString());
 
 
-    //上报busiid和pushid到腾讯云，需要在登录成功后进行上报
+    //上报busiid和pushid到云平台，需要在登录成功后进行上报
     TIMOfflinePushToken token = new TIMOfflinePushToken();
     token.setBussid(busiid);
     token.setToken(registerStatus.getPushId());

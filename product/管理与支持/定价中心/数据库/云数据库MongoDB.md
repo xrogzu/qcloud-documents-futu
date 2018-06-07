@@ -30,12 +30,12 @@
 
 ## 购买指导
 
-腾讯云数据库MongoDB可通过 [官网直接购买](https://buy.cloud.tencent.com/mongodb)
+云平台数据库MongoDB可通过 [官网直接购买](https://buy.tce.fsphere.cn/mongodb)
 ![购买页](https://mccdn.qcloud.com/static/img/49cff441939104908bd65a7ef287d798/buymongo.png)
 
 ### 地域选择帮助
 
-腾讯云数据库MongoDB目前仅提供2个可选地域：**华东区（上海） 、华南区（广州）**；
+云平台数据库MongoDB目前仅提供2个可选地域：**华东区（上海） 、华南区（广州）**；
 **说明：**
 1.处在同一地域的云服务产品之间通过内网互通
 2.处在不同地域的云服务产品之间内网不能互通
@@ -55,7 +55,7 @@
 
 ###  控制台续费
 
-腾讯云数据库 MongoDB 支持手动续费和自动续费两种方式。
+云平台数据库 MongoDB 支持手动续费和自动续费两种方式。
 
 * 续费(按照用户需求量自主续费)
  ![手动续费](https://mccdn.qcloud.com/static/img/1c2062061dd7dc094a2c6254cb8b2d14/2.png)

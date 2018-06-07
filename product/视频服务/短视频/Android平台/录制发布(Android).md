@@ -10,7 +10,7 @@
 
 * 第一步：使用 TXUGCRecord 接口录制一段小视频，录制结束后会生成一个小视频文件（MP4）回调给客户；
 
-* 第二步：您的 APP 向您的业务服务器申请上传签名。上传签名是 APP 将 MP4 文件上传到腾讯云视频分发平台的 “许可证”，为了确保安全性，这些上传签名都要求由您的业务 Server 进行签发，而不能由终端 App 生成。
+* 第二步：您的 APP 向您的业务服务器申请上传签名。上传签名是 APP 将 MP4 文件上传到云平台视频分发平台的 “许可证”，为了确保安全性，这些上传签名都要求由您的业务 Server 进行签发，而不能由终端 App 生成。
 
 * 第三步：使用 TXUGCPublish 接口发布视频，发布成功后 SDK 会将观看地址的 URL 回调给您。
 
@@ -28,7 +28,7 @@
 
 
 ## 接口介绍 
-腾讯云 UGC SDK 提供了相关接口用来实现短视频的录制与发布，其详细定义如下：
+云平台 UGC SDK 提供了相关接口用来实现短视频的录制与发布，其详细定义如下：
 
 | 接口文件                     | 功能                       |
 | ------------------------ | ------------------------ |
@@ -198,13 +198,13 @@ mTXUGCPartsManager.deleteAllParts();
 
 ### 5. 文件预览
 
-使用 [视频播放](https://cloud.tencent.com/document/product/584/9373) 即可预览刚才生成的 MP4 文件，需要在调用 startPlay 时指定播放类型为 [PLAY_TYPE_LOCAL_VIDEO](https://cloud.tencent.com/document/product/584/9373#step-3.3A-.E5.90.AF.E5.8A.A8.E6.92.AD.E6.94.BE.E5.99.A86) 。
+使用 [视频播放](http://tce.fsphere.cn/document/product/584/9373) 即可预览刚才生成的 MP4 文件，需要在调用 startPlay 时指定播放类型为 [PLAY_TYPE_LOCAL_VIDEO](http://tce.fsphere.cn/document/product/584/9373#step-3.3A-.E5.90.AF.E5.8A.A8.E6.92.AD.E6.94.BE.E5.99.A86) 。
 
 ### 6. 获取签名
-要把刚才生成的 MP4 文件发布到腾讯云上，App 需要拿到上传文件用的短期有效上传签名，这部分有独立的文档介绍，详情请参考 [Server端集成 - 签名派发](https://cloud.tencent.com/document/product/584/9371)。
+要把刚才生成的 MP4 文件发布到云平台上，App 需要拿到上传文件用的短期有效上传签名，这部分有独立的文档介绍，详情请参考 [Server端集成 - 签名派发](http://tce.fsphere.cn/document/product/584/9371)。
 
 ### 7. 文件发布
-TXUGCPublish（位于 TXUGCPublish.java）负责将 MP4 文件发布到腾讯云视频分发平台上，以确保视频观看的就近调度、秒开播放、动态加速 以及海外接入等需求。
+TXUGCPublish（位于 TXUGCPublish.java）负责将 MP4 文件发布到云平台视频分发平台上，以确保视频观看的就近调度、秒开播放、动态加速 以及海外接入等需求。
 
 ```java
 mVideoPublish = new TXUGCPublish(TCVideoPublisherActivity.this.getApplicationContext());
@@ -225,12 +225,12 @@ mVideoPublish.publishVideo(param);
 void onPublishProgress(long uploadBytes, long totalBytes);
 ```
 
-- onPublishComplete 用于反馈发布结果，TXPublishResult 的字段 errCode 和 descMsg 分别表示错误码和错误描述信息，videoURL表示短视频的点播地址，coverURL表示视频封面的云存储地址，videoId表示视频文件云存储Id，您可以通过这个Id调用点播 [服务端API接口](https://cloud.tencent.com/document/product/266/1965)。
+- onPublishComplete 用于反馈发布结果，TXPublishResult 的字段 errCode 和 descMsg 分别表示错误码和错误描述信息，videoURL表示短视频的点播地址，coverURL表示视频封面的云存储地址，videoId表示视频文件云存储Id，您可以通过这个Id调用点播 [服务端API接口](http://tce.fsphere.cn/document/product/266/1965)。
 ```java 
 void onPublishComplete(TXPublishResult result);
 ```
 
 ### 8.发布结果
-通过 [错误码表](https://cloud.tencent.com/document/product/584/10176) 来确认短视频发布的结果。
+通过 [错误码表](http://tce.fsphere.cn/document/product/584/10176) 来确认短视频发布的结果。
 
-如果没有错误信息返回，也没有回调。很有可能是集成出现问题，可以参考这里[集成问题](https://cloud.tencent.com/document/product/584/11631?!preview&lang=cn#8.2-.E7.9F.AD.E8.A7.86.E9.A2.91.E5.8F.91.E5.B8.83.E9.97.AE.E9.A2.98) 
+如果没有错误信息返回，也没有回调。很有可能是集成出现问题，可以参考这里[集成问题](http://tce.fsphere.cn/document/product/584/11631?!preview&lang=cn#8.2-.E7.9F.AD.E8.A7.86.E9.A2.91.E5.8F.91.E5.B8.83.E9.97.AE.E9.A2.98) 

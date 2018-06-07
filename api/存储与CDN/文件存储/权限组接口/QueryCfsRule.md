@@ -28,7 +28,7 @@
   &Uin=2779000000
   &AppId=12500000000
   &PGroupId=pgroup-atutdqup
-  &<<a href="https://www.cloud.tencent.com/doc/api/229/6976"> 公共请求参数 </a>>
+  &<<a href="https://www.tce.fsphere.cn/doc/api/229/6976"> 公共请求参数 </a>>
 </pre>
 ```
 

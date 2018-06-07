@@ -25,7 +25,7 @@ background: #efefef;
 <br> 接口名：NS.BGPIP.GetServicePacks 
 
 ### 2.输入参数
-以下请求参数列表仅列出了接口请求参数，正式调用时需要加上[公共请求参数](https://cloud.tencent.com/document/product/295/7279)，见公共参数说明页面。
+以下请求参数列表仅列出了接口请求参数，正式调用时需要加上[公共请求参数](http://tce.fsphere.cn/document/product/295/7279)，见公共参数说明页面。
 <br> 其中，此接口的 Action 字段为 NS.BGPIP.GetServicePacks。
 
 | 参数名称 | 是否必须 | 类型 | 描述 |
@@ -54,6 +54,6 @@ background: #efefef;
 | status|<font color=red>idle<br>attacking<br>blocking<br>creating<br>isolate</font color=red>| String |高防 IP 的状态：<br>idle: 正常工作中<br>attacking: 正在被攻击<br>blocking: 被封堵<br>creating: 正常创建中<br>isolate: 到期后被隔离|
 | expire|<font color=red>2016-03-02 01:23:45</font color=red>| Time | 高防 IP 的到期时间|
 | locked|<font color=red>yes/no</font color=red>|String | 是否被锁|
-| transTarget|<font color=red>qcloud<br>nqcloud</font color=red>|String | 高防 IP 的转发目标<br>qcloud:腾讯云内<br>nqcloud:腾讯云外|
+| transTarget|<font color=red>qcloud<br>nqcloud</font color=red>|String | 高防 IP 的转发目标<br>qcloud:云平台内<br>nqcloud:云平台外|
 | transRules|<font color=red>12</font color=red>|Integer| 该高防 IP 配置的转发规则数|
 

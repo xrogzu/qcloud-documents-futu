@@ -7,7 +7,7 @@
 ### URL 示例
 `https://yun.tim.qq.com/v5/tlssmssvr/sendisms?sdkappid=xxxxx&random=xxxx`
 
-**注**：sdkappid 请填写您在腾讯云上申请到的，random 请填成随机数。
+**注**：sdkappid 请填写您在云平台上申请到的，random 请填成随机数。
 
 ## 请求参数
 
@@ -21,7 +21,7 @@
         "4"
     ],
     "sig": "30db206bfd3fea7ef0db929998642c8ea54cc7042a779c5a0d9897358f6e9505",
-    "sign": "腾讯云",
+    "sign": "云平台",
     "tel": "+8613711112222",
     "time": 1457336869,
     "tpl_id": 19
@@ -31,7 +31,7 @@
 | 参数   | 必选 | 类型   | 描述                                                                  |
 |--------|------|--------|-----------------------------------------------------------------------|
 | ext    | 否   | string | 用户的 session 内容，腾讯 server 回包中会原样返回，可选字段，不需要就填空 |
-| extend | 否   | string | 短信码号扩展号，格式为纯数字串，其他格式无效。默认没有开通，开通请联系 [腾讯云短信技术支持](https://cloud.tencent.com/document/product/382/3773) |
+| extend | 否   | string | 短信码号扩展号，格式为纯数字串，其他格式无效。默认没有开通，开通请联系 [云平台短信技术支持](http://tce.fsphere.cn/document/product/382/3773) |
 | params | 是   | array  | 模板参数，若模板没有参数，请提供为空数组                              |
 | sig    | 是   | string | App 凭证，具体计算方式见下注                                           |
 | sign   | 否   | string | 短信签名，如果使用默认签名，该字段可缺省                              |
@@ -43,8 +43,8 @@
 **注**：
 
 1. `tpl_id` 字段需填写审核通过的模板 ID，
-假如模版 ID 对应的模板内容为： `您的{1}是{2}，请于{3}分钟内填写。如非本人操作，请忽略本短信。` ，则上面请求参数组合后下发的内容为： `【腾讯云】您的验证码是1234，请于4分钟内填写。如非本人操作，请忽略本短信。` 。
-如您有多个短信签名，请将需要的短信签名填入 `sign` 字段，例如您有 `腾讯科技` 和 `腾讯云` 两个签名，但想以 `腾讯云` 签名发送短信，则 `sign` 字段可赋值为： `腾讯云` 。
+假如模版 ID 对应的模板内容为： `您的{1}是{2}，请于{3}分钟内填写。如非本人操作，请忽略本短信。` ，则上面请求参数组合后下发的内容为： `【云平台】您的验证码是1234，请于4分钟内填写。如非本人操作，请忽略本短信。` 。
+如您有多个短信签名，请将需要的短信签名填入 `sign` 字段，例如您有 `腾讯科技` 和 `云平台` 两个签名，但想以 `云平台` 签名发送短信，则 `sign` 字段可赋值为： `云平台` 。
 2. `sig` 字段根据公式 `sha256（appkey=$appkey&random=$random&time=$time&tel=$tel）`生成
 伪代码如下：
 ```json
@@ -71,11 +71,11 @@ string sig = sha256(appkey=5f03a35d00ee52a21327ab048186a2c4&random=7226249334&ti
 
 | 参数       | 必选 | 类型   | 描述                                          |
 |------------|------|--------|-----------------------------------------------|
-| result | 是   | number | 错误码，0 表示成功（计费依据），非 0 表示失败, 参考 [错误码](https://cloud.tencent.com/document/product/382/3771)     |
+| result | 是   | number | 错误码，0 表示成功（计费依据），非 0 表示失败, 参考 [错误码](http://tce.fsphere.cn/document/product/382/3771)     |
 | errmsg     | 是   | string | 错误消息，result 非 0 时的具体错误信息           |
 | ext        | 否   | string | 用户的 session 内容，腾讯 server 回包中会原样返回 |
 | nationcode | 是   | string | 国家码                                        |
-| fee    | 否   | number | 短信计费的条数，["fee" 字段计费说明](https://cloud.tencent.com/document/product/382/9556#.E7.9F.AD.E4.BF.A1.E5.86.85.E5.AE.B9.E9.95.BF.E5.BA.A6.E8.AE.A1.E7.AE.97.E8.A7.84.E5.88.99)                                |
+| fee    | 否   | number | 短信计费的条数，["fee" 字段计费说明](http://tce.fsphere.cn/document/product/382/9556#.E7.9F.AD.E4.BF.A1.E5.86.85.E5.AE.B9.E9.95.BF.E5.BA.A6.E8.AE.A1.E7.AE.97.E8.A7.84.E5.88.99)                                |
 | sid        | 否   | string | 本次发送标识 id，标识一次短信下发记录          | 
                                                                                                                                        
 

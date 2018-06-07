@@ -9,9 +9,9 @@
 1. SDK 支持 Android 2.2 及以上版本的手机系统；
 2. 手机必须要有网络（GPRS、3G 或 WIFI 网络等）；
 3. 手机可以没有存储空间，但会使部分功能无法正常工作；
-4. 从 [COS v4 控制台](https://console.cloud.tencent.com/cos4/secret) 获取 APPID、SecretId、SecretKey。
+4. 从 [COS v4 控制台](http://console.tce.fsphere.cn/cos4/secret) 获取 APPID、SecretId、SecretKey。
 
-> 关于文章中出现的 SecretId、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](https://cloud.tencent.com/document/product/436/7751)
+> 关于文章中出现的 SecretId、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](http://tce.fsphere.cn/document/product/436/7751)
 
 ### SDK 配置
 
@@ -322,7 +322,7 @@ cosXmlService.getObjectAsync(getObjectRequest, new CosXmlResultListener() {
 
 ## 生成签名
 
-若需要了解签名具体的生成过程请参照 [请求签名](https://cloud.tencent.com/document/product/436/7778)。
+若需要了解签名具体的生成过程请参照 [请求签名](http://tce.fsphere.cn/document/product/436/7778)。
 在使用 SDK 时，SDK 中已提供了签名获取类，只需要继承 BasicLifecycleCredentialProvider 类，并重写 fetchNewCredentials() 方法，从而获取 SecretId，SecretKey， SecretKey Duration。
 
 #### 示例

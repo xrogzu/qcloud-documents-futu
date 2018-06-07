@@ -1,9 +1,9 @@
 ### DynamoDB集群介绍
-DynamoDB是一个支持文档和键值存储模型的基于表维度的且具有高可扩展性NoSQL数据库服务。腾讯云数据库团队在已有的NoSQL模块框架上，全新推出了一项高度兼容DynamoDB协议，且性能快速稳定，支持实例级别的备份和回档，自动容灾机制的数据库服务。如果您是DynamoDB开发爱好者，您无需改动太多的代码既可以通过DynamoDB协议来访问数据库。
+DynamoDB是一个支持文档和键值存储模型的基于表维度的且具有高可扩展性NoSQL数据库服务。云平台数据库团队在已有的NoSQL模块框架上，全新推出了一项高度兼容DynamoDB协议，且性能快速稳定，支持实例级别的备份和回档，自动容灾机制的数据库服务。如果您是DynamoDB开发爱好者，您无需改动太多的代码既可以通过DynamoDB协议来访问数据库。
 
 
 ### 创建DynamoDB集群
-进入MongoDB[购买页](https://buy.cloud.tencent.com/mongodb?clusterType=1)，点击"分片集群"，在协议类型上选择"DynamoDB协议"。
+进入MongoDB[购买页](https://buy.tce.fsphere.cn/mongodb?clusterType=1)，点击"分片集群"，在协议类型上选择"DynamoDB协议"。
 由于底层也是通过将数据分布在多台物理机上来达到存储容量平滑扩展的目的。所以您还需要按需选择分片的片数，片内节点数，以及节点规格。每个分片都是多节点的副本集，片内多节点自动容灾，保证服务高可用。
 [![](https://mc.qcloudimg.com/static/img/70d51b1da13f7334b54f14612b26c05c/create.png)](https://mc.qcloudimg.com/static/img/70d51b1da13f7334b54f14612b26c05c/create.png)
 

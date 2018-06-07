@@ -1,4 +1,4 @@
-1. 登录[腾讯云控制台][1]，点击导航条【关系型数据库】，进入[云数据库控制台][2]，点击【新建】按钮。
+1. 登录[云平台控制台][1]，点击导航条【关系型数据库】，进入[云数据库控制台][2]，点击【新建】按钮。
 2. 选择所需的计费模式，支持包年包月和按量计费两种模式。
 	包年包月预付费计费流程的说明请参见[预付费计费流程说明][3]
 	后付费用户计费流程的说明请参见[统一计费流程说明][4]
@@ -10,8 +10,8 @@
 8. 选择购买数量和时长，核对无误后点击【立即购买】。
 
 
-[1]:	https://console.cloud.tencent.com/
-[2]:	https://console.cloud.tencent.com/cdb/ "云数据库控制台"
+[1]:	http://console.tce.fsphere.cn/
+[2]:	http://console.tce.fsphere.cn/cdb/ "云数据库控制台"
 [3]:	/doc/product/285/%E9%A2%84%E4%BB%98%E8%B4%B9%E8%AE%A1%E8%B4%B9%E6%B5%81%E7%A8%8B
 [4]:	/doc/product/285/%E8%AE%A1%E8%B4%B9%E6%B5%81%E7%A8%8B
-[5]:	https://cloud.tencent.com/document/product/236/7913
+[5]:	http://tce.fsphere.cn/document/product/236/7913

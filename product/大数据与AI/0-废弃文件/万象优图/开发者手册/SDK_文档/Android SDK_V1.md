@@ -1,5 +1,5 @@
 ## 1. 开发准备
-腾讯云•万象优图的最新Android SDK的下载：Android-SDK-V1。
+云平台•万象优图的最新Android SDK的下载：Android-SDK-V1。
 ### 1.1 前期准备
 1. SDK支持Android 2.2及以上版本的手机系统；
 2. 手机必须要有网络（GPRS、3G或Wifi网络等）；
@@ -41,7 +41,7 @@ SDK需要网络访问相关的一些权限，需要在manifest中进行权限声
 ```
  /**
    * APP注册，在使用其他接口之前必须先调用此方法进行用户信息初始化
-   * @param appid  腾讯云注册的APPID
+   * @param appid  云平台注册的APPID
    * @param userid 业务分配的用户ID，可选
    * @param sign   业务签名
    * @return       成功返回True，失败返回False
@@ -238,7 +238,7 @@ FileStatTask filetask = new FileStatTask(url, new FileStatTask.IListener() {
 ```
 /**
   * APP注册，在使用其他接口之前必须先调用此方法进行用户信息初始化，如果没有调用该方法注册appid，将无法正常进行下载
-  * @param appid  腾讯云注册的APPID
+  * @param appid  云平台注册的APPID
   * @param userid 业务分配的用户ID，可选
   * @return       成功返回True，失败返回False
   */

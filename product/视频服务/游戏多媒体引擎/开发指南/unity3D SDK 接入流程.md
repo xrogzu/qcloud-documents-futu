@@ -8,14 +8,14 @@ public class MainScene : MonoBehaviour{
 	void onClickStartContextBtn()
 	{
 		IQAVVoiceEngine engine = IQAVVoiceEngine.GetEngine ();
-		//AppID 和 AccountType 在腾讯云上申请
+		//AppID 和 AccountType 在云平台上申请
 		//OpenID 由 APP 自行生成，保证每个用户 OpenID 不同就行，目前必须是数字
 		engine.SetAppInfo("AppID","AccountType","OpenID");
 		
 		engine.Init(delegate(int result, string error_info){
 			if(result == QAVContext.AV_OK){
 				int roomID = 0;       //RoomID 由 APP 自行分配，进入同一个 RoomID 中的用户可以互相说话
-				string role = "user"; //角色由 APP 开发者在腾讯云中的 Spear 引擎配置页面中自行预设
+				string role = "user"; //角色由 APP 开发者在云平台中的 Spear 引擎配置页面中自行预设
 				engine.JoinRoom(roomID, role);
 			}
 		});
@@ -33,8 +33,8 @@ public class MainScene : MonoBehaviour{
 
 | 参数 | 类型 | 意义 |
 |---------|---------|---------|
-| appID | string | 开通业务页面中的游戏ID，在腾讯云上申请 |
-| accountType | string | 在腾讯云上申请 |
+| appID | string | 开通业务页面中的游戏ID，在云平台上申请 |
+| accountType | string | 在云平台上申请 |
 | openID | string | 玩家唯一标识，比如从手Q或者微信获得到的OpenID |
 | 返回值 | int | 成功时返回QAVError.AV_OK |
 
@@ -52,7 +52,7 @@ public class MainScene : MonoBehaviour{
 | 参数 | 类型 | 意义 |
 |---------|---------|---------|
 | roomID | int | 加入房间ID，由APP自行分配的，进入同一个ID可以自由说话 |
-| role | string | 角色由APP开发者在腾讯云中的spear引擎配置页面中预设的 |
+| role | string | 角色由APP开发者在云平台中的spear引擎配置页面中预设的 |
 
 #### 3.3 语音消息API：消息语音功能调用；
 
@@ -110,8 +110,8 @@ public class MainScene : MonoBehaviour{
 
 | 参数 | 类型 | 意义 |
 |---------|---------|---------|
-| appID | string | 开通业务页面中的游戏ID，在腾讯云上申请 |
-| accountType | string | 在腾讯云上申请 |
+| appID | string | 开通业务页面中的游戏ID，在云平台上申请 |
+| accountType | string | 在云平台上申请 |
 | openID | string | 玩家唯一标识，比如从手Q或者微信获得到的OpenID |
 | 返回值 | int | 成功时返回QAVError.AV_OK |
 
@@ -129,7 +129,7 @@ public class MainScene : MonoBehaviour{
 | 参数 | 类型 | 意义 |
 |---------|---------|---------|
 | roomID | int | 加入房间ID，由APP自行分配的，进入同一个ID可以自由说话 |
-| role | string | 角色由APP开发者在腾讯云中的spear引擎配置页面中预设的 |
+| role | string | 角色由APP开发者在云平台中的spear引擎配置页面中预设的 |
 
 **接口说明：**注册音频回调，用于叠加音频回调，用于伴奏场景
 **函数原型：**`int RegistAudioDataCallback(int srcType, 

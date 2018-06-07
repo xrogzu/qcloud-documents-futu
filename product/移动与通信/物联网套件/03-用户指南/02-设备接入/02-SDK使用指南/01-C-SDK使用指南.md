@@ -6,7 +6,7 @@
 
 1.安装 cmake 工具 http://www.cmake.org/download/
 
-2.在腾讯云 IoT Suite 控制台创建产品与设备，选择鉴权模式**（注意，选择不同模式则需要在device_config.h中配置不同的设备参数）**，获取到对应的`MQTT Server Host、Product ID、Product key、DeviceName、DeviceSecret`参数，用于填写配置文件
+2.在云平台 IoT Suite 控制台创建产品与设备，选择鉴权模式**（注意，选择不同模式则需要在device_config.h中配置不同的设备参数）**，获取到对应的`MQTT Server Host、Product ID、Product key、DeviceName、DeviceSecret`参数，用于填写配置文件
 
 - 选择鉴权模式
 

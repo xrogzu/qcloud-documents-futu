@@ -1,4 +1,4 @@
-推荐使用便捷高效的FTP工具登录，也可以使用 Windows 的 [本地文件浏览器登录](https://cloud.tencent.com/document/product/615/11178)。
+推荐使用便捷高效的FTP工具登录，也可以使用 Windows 的 [本地文件浏览器登录](http://tce.fsphere.cn/document/product/615/11178)。
 
 ### 1. 获取FTP信息
 进入主机的管理页面，获取 FTP 地址、用户名和密码。

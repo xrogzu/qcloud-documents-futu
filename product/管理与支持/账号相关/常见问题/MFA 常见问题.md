@@ -1,8 +1,8 @@
 ### 什么是 MFA 设备？
-MFA (Multi-FactorAuthentication)即多因子认证，是一种简单有效的安全认证方法，它能够实现在用户名和密码之外再增加一层保护。MFA 设备（又叫动态口令卡或 token 卡）是提供这种安全认证方法的设备。目前腾讯云提供两种MFA设备： 硬件 MFA 设备 和 虚拟 MFA 设备 。
+MFA (Multi-FactorAuthentication)即多因子认证，是一种简单有效的安全认证方法，它能够实现在用户名和密码之外再增加一层保护。MFA 设备（又叫动态口令卡或 token 卡）是提供这种安全认证方法的设备。目前云平台提供两种MFA设备： 硬件 MFA 设备 和 虚拟 MFA 设备 。
 
 ### 如何绑定虚拟 MFA 设备？
-1. 登录腾讯云控制台，进入安全设置，在 MFA 设备那一栏上，单击【绑定】。
+1. 登录云平台控制台，进入安全设置，在 MFA 设备那一栏上，单击【绑定】。
 ![](https://mc.qcloudimg.com/static/img/63c17fdf2fc1913927ad669c86dcafcd/image.png)
 2. 在弹出来的页面中，单击【发送验证码】，收到验证码后，将6位数字验证码输入框内。
 ![](https://mc.qcloudimg.com/static/img/48f47db0b56e5e114569f069813a3a26/image.png)
@@ -14,7 +14,7 @@ MFA (Multi-FactorAuthentication)即多因子认证，是一种简单有效的安
 ![](https://mc.qcloudimg.com/static/img/2848c64ff4752ae458ab3eb579ebf945/image.png)
 
 ### 如何绑定 MFA 设备？
-目前腾讯云提供的硬件 MFA设备为“腾讯云安全令牌”，也叫动态口令卡或 token 卡，首批 token 卡采用内测的形式发放给客户，照片如图所示（不同版本可能在外观上有差异）
+目前云平台提供的硬件 MFA设备为“云平台安全令牌”，也叫动态口令卡或 token 卡，首批 token 卡采用内测的形式发放给客户，照片如图所示（不同版本可能在外观上有差异）
 ![](https://mc.qcloudimg.com/static/img/a12ed49934d347fdd059e0d74784f32b/image.png)
 主要有以下几个步骤：
 1. 进入用户中心>账户信息>安全设置，单击【绑定】按钮。
@@ -30,9 +30,9 @@ MFA (Multi-FactorAuthentication)即多因子认证，是一种简单有效的安
 ![](https://mc.qcloudimg.com/static/img/ba1e533f52a4cee0dbcae8f623c07347/image.png)
 
 ### 什么是登录保护？
-目前腾讯云提供两种登录保护，普通用户采用 QQ 安全中心口令验证方式，内测版用户采用 MFA 口令验证方式（Multi-FactorAuthentication多因子认证）；
+目前云平台提供两种登录保护，普通用户采用 QQ 安全中心口令验证方式，内测版用户采用 MFA 口令验证方式（Multi-FactorAuthentication多因子认证）；
 
-开启登录保护后，在登录腾讯云官方网站时需要验证身份。这样即使他人盗取您的密码，也无法登录您的帐号，能够最大限度地保证您的帐号安全。
+开启登录保护后，在登录云平台官方网站时需要验证身份。这样即使他人盗取您的密码，也无法登录您的帐号，能够最大限度地保证您的帐号安全。
 - 普通用户采用 QQ 安全中心口令验证，输入 QQ 安全中心工具栏顶部的 6 位动态安全码即可完成身份验证。
 - 内测用户采用 MFA 口令验证，输入对应帐号的 MFA 设备上的 6 位动态安全码即可完成身份验证。
 

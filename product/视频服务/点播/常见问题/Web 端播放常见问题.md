@@ -17,7 +17,7 @@
 
 #### CDN无视频
 **问题表现：**访问视频地址返回 404。
-**解决方案：**通过腾讯云技术人员定位并修复 CDN 资源。
+**解决方案：**通过云平台技术人员定位并修复 CDN 资源。
 
 #### CDN鉴权失败
 **问题表现：**访问视频地址返回403，无法加载视频。
@@ -36,13 +36,13 @@
 > * 这里要区分 SWF 文件的域名和嵌入 SWF 文件的页面域名，crossdomain.xml 中配置的是 SWF 文件的域名。
 
 在 PC 端的现代浏览器使用 HTML5 播放 hls、flv 时，视频服务器需要配置跨域资源共享 [CORS](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS)。
-正常情况下腾讯云服务会自动配置这两项跨域策略，如遇到异常情况请联系客服。
+正常情况下云平台服务会自动配置这两项跨域策略，如遇到异常情况请联系客服。
 
 **解决方案：**视频存储服务器需要部署 corssdomain.xml 文件并配置正确的访问策略，以及开启 CORS 支持。
 
 ### 视频未转码
-**问题表现：**播放器提示视频未转码，在腾讯云控制台上传视频后，未进行转码或者转码未完成。
-**解决方案：**对视频进行转码操作，具体操作参考 [《视频转码》](https://cloud.tencent.com/document/product/266/14054#.E8.A7.86.E9.A2.91.E8.BD.AC.E7.A0.81)文档，确保视频编码格式为 H264，视频封装格式为 MP4 或者 HLS。
+**问题表现：**播放器提示视频未转码，在云平台控制台上传视频后，未进行转码或者转码未完成。
+**解决方案：**对视频进行转码操作，具体操作参考 [《视频转码》](http://tce.fsphere.cn/document/product/266/14054#.E8.A7.86.E9.A2.91.E8.BD.AC.E7.A0.81)文档，确保视频编码格式为 H264，视频封装格式为 MP4 或者 HLS。
 
 ### 异常视频
 **问题表现：**转码后的视频出现花屏，黑屏，卡顿，无法播放等现象，可能是原始视频有问题或者视频转码失败。
@@ -84,7 +84,7 @@ HLS加密视频的播放流程有别于常规视频，通常需要确保获取 K
 ### 视频激活播放后强制全屏
 **问题表现：**在点击视频激活播放后，直接全屏播放，通常出现在 Android iOS 的微信、手机 QQ、QQ 浏览器等浏览器中。
 
-**解决方案：**如需实现页面内（非全屏）播放，需要在 video 标签中加入 playinline 和 webkit-playinline 属性，腾讯云播放器默认会在`<Vdieo>`标签中加上 playinline 和 webkit-playinline 属性。iOS10+ 识别 playinline 属性，版本小于 10 的系统识别 webkit-playinline 属性。经测试，在 iOS Safari 中可以实现页面内（内联）播放。Android 端识别 webkit-playinline，但是由于 Android 的开放性，出现了许多定制浏览器，这些属性不一定生效，比如，在 TBS 内核的浏览器（包括不限于 Android：微信、手机 QQ，QQ 浏览器）中，可能需要使用同层播放器属性（ [接入文档](https://x5.tencent.com/tbs/guide/video.html) 、[使用说明](https://x5.tencent.com/tbs/guide/web/x5-video.html)），避免系统强制全屏视频。
+**解决方案：**如需实现页面内（非全屏）播放，需要在 video 标签中加入 playinline 和 webkit-playinline 属性，云平台播放器默认会在`<Vdieo>`标签中加上 playinline 和 webkit-playinline 属性。iOS10+ 识别 playinline 属性，版本小于 10 的系统识别 webkit-playinline 属性。经测试，在 iOS Safari 中可以实现页面内（内联）播放。Android 端识别 webkit-playinline，但是由于 Android 的开放性，出现了许多定制浏览器，这些属性不一定生效，比如，在 TBS 内核的浏览器（包括不限于 Android：微信、手机 QQ，QQ 浏览器）中，可能需要使用同层播放器属性（ [接入文档](https://x5.tencent.com/tbs/guide/video.html) 、[使用说明](https://x5.tencent.com/tbs/guide/web/x5-video.html)），避免系统强制全屏视频。
 
 如果已配置以上提到的属性仍会强制全屏，则通用解决方案无效，需要浏览器方厂商提供解决方案。
 
@@ -93,7 +93,7 @@ HLS加密视频的播放流程有别于常规视频，通常需要确保获取 K
 **解决方案：**需要浏览器提供方法解除视频置顶，暂无通用解决方案。
 
 ### 播放器出现多余的图标
-**问题表现：**视频初始化时，视频区域出现非腾讯云播放器自带的图片。
+**问题表现：**视频初始化时，视频区域出现非云平台播放器自带的图片。
 **解决方案：**可以尝试隐藏 video 标签，当监听到视频开始播放的事件时，再将 video 标签显示。
 
 ### 播放器出现广告、下载、推荐视频等内容
@@ -118,14 +118,14 @@ HLS加密视频的播放流程有别于常规视频，通常需要确保获取 K
 - **屏幕全屏** 是指在屏幕范围内全屏，全屏后只有视频画面内容，看不到浏览器的地址栏等界面，这种全屏需要浏览器提供接口支持。支持屏幕全屏的接口有两种，一种称为 Fullscreen API，通过 Fullscreen API 进入屏幕全屏后的特点是，进入全屏后仍然可以看到由 HTML CSS 组成的播放器界面。另一种接口为 webkitEnterFullScreen，该接口只能作用于 `<video>` 标签，通常用于移动端不支持 Fullscreen API 的情况，通过该接口全屏后播放器界面为系统自带的界面。
 - **网页全屏** 是指在网页显示区域范围内全屏，全屏后仍可以看到浏览器的地址栏等界面，通常情况下网页全屏是为了应对浏览器不支持系统全屏而实现类似全屏的一种方式，所以又称为伪全屏。该全屏方式由 CSS 实现。
 
-腾讯云点播 WEB 播放器采用屏幕全屏为主，网页全屏为辅的全屏方案。全屏模式的优先级为 Fullscreen API > webkitEnterFullScreen > 网页全屏。
+云平台点播 WEB 播放器采用屏幕全屏为主，网页全屏为辅的全屏方案。全屏模式的优先级为 Fullscreen API > webkitEnterFullScreen > 网页全屏。
 
 目前已知的全屏情况：
 x5 内核（包括 Android 端的微信、手机 QQ、QQ 浏览器）：不支持 Fullscreen API，支持 webkitEnterFullScreen，全屏后进入 x5 内核的屏幕全屏模式。
-Android Chrome：支持 Fullscreen API，全屏后进入带有腾讯云播放器 UI 的屏幕全屏模式。
+Android Chrome：支持 Fullscreen API，全屏后进入带有云平台播放器 UI 的屏幕全屏模式。
 iOS （包括微信、手机 QQ、Safari）：不支持 Fullscreen API，支持 webkitEnterFullScreen，全屏后进入 iOS 系统 UI 的屏幕全屏模式。
 IE8、9、10：不支持 Fullscreen API，不支持 webkitEnterFullScreen，全屏为网页全屏模式。
-其他桌面端现代浏览器：通常支持 Fullscreen API，全屏后进入带有腾讯云播放器 UI 的屏幕全屏模式。
+其他桌面端现代浏览器：通常支持 Fullscreen API，全屏后进入带有云平台播放器 UI 的屏幕全屏模式。
 
 ### 默认全屏播放
 与问题“视频激活播放后强制全屏”相同，参考其解决方案。
@@ -143,16 +143,16 @@ IE8、9、10：不支持 Fullscreen API，不支持 webkitEnterFullScreen，全�
 
 ### 在 IE8、9、10 浏览器中无法全屏
 **问题表现：**IE8、9、10 浏览器使用播放器无法全屏，只能铺满页面区域。或者使用 iframe 嵌入播放页面，iframe 加上 allowfullscreen 属性也不能全屏。 
-**解决方案：**在不支持 Full Screen API 的老旧浏览器中，腾讯云点播播放器使用 CSS 实现网页全屏，配合浏览器全屏可以实现屏幕全屏效果（浏览器全屏快捷键通常为“F11”），这里需要页面的 CSS 不能限制播放器的页面内全屏样式，比如不能设置播放器的父容器 overflow: hidden。
+**解决方案：**在不支持 Full Screen API 的老旧浏览器中，云平台点播播放器使用 CSS 实现网页全屏，配合浏览器全屏可以实现屏幕全屏效果（浏览器全屏快捷键通常为“F11”），这里需要页面的 CSS 不能限制播放器的页面内全屏样式，比如不能设置播放器的父容器 overflow: hidden。
 如果在 iframe 中，播放器无法修改 iframe 外部的 CSS 样式，需要外部页面提供脚本以及样式支持，通常情况下外部页面需要跨域支持，才能实现网页全屏，因此不建议使用 iframe 的方式使用播放器。
 
 >**备注：**
 > * IE8、9、10 浏览器不支持  Full Screen API ，因此不能通过 Full Screen API 进行屏幕全屏。
-> * 由于 Flash 逐步被浏览器限制运行，腾讯云点播 Web 播放器采用了 HTML5 标准进行开发，并减少对于 Flash 的使用，在部分老旧的浏览器上，全屏功能使用受限制。旧版播放器采用 Flash 开发，使用 Flash 的全屏。
+> * 由于 Flash 逐步被浏览器限制运行，云平台点播 Web 播放器采用了 HTML5 标准进行开发，并减少对于 Flash 的使用，在部分老旧的浏览器上，全屏功能使用受限制。旧版播放器采用 Flash 开发，使用 Flash 的全屏。
 
 ## 拖拽、时移播放失败
 **问题表现：**拖拽到某个时间点无法播放，或者跳到片头。
-**解决方案：**避免使用原始视频进行播放，请使用腾讯云转码后的视频进行播放。避免使用 Flash 进行播放，换成 HTML5 播放模式。视频时长过短，关键帧通常只有 1 个，不支持拖拽播放。
+**解决方案：**避免使用原始视频进行播放，请使用云平台转码后的视频进行播放。避免使用 Flash 进行播放，换成 HTML5 播放模式。视频时长过短，关键帧通常只有 1 个，不支持拖拽播放。
 
 ## 自动播放相关问题
 

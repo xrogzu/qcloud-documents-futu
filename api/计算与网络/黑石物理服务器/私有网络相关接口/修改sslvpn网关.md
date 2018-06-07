@@ -22,7 +22,7 @@ GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=ModifyBmSslVpnGw
 
 | 参数名称 | 必选  | 类型 | 描述 |
 |---------|---------|---------|---------|
-| unVpcId | 是 | string | 要创建网关所在的私有网络ID。 例如：vpc-kd7d06of，可通过<a href="https://cloud.tencent.com/document/api/386/6646" title="DescribeBmVpcEx">DescribeBmVpcEx</a>接口查询。|
+| unVpcId | 是 | string | 要创建网关所在的私有网络ID。 例如：vpc-kd7d06of，可通过<a href="http://tce.fsphere.cn/document/api/386/6646" title="DescribeBmVpcEx">DescribeBmVpcEx</a>接口查询。|
 | vpnGwId | 是 | string | 网关唯一ID |
 | vpnGwName | 是 | string | 网关名称，英文字母或数字组成 |
 | txPeakLimit | 是 | int | 网关最大出带宽，最大100Mbps。|
@@ -74,7 +74,7 @@ GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=ModifyBmSslVpnGw
 
 
 ## 错误码
-以下错误码表仅列出了该接口的业务逻辑错误码，更多公共错误码详见<a href="https://cloud.tencent.com/doc/api/245/4924" title="VPC错误码">VPC错误码</a>。
+以下错误码表仅列出了该接口的业务逻辑错误码，更多公共错误码详见<a href="http://tce.fsphere.cn/doc/api/245/4924" title="VPC错误码">VPC错误码</a>。
  
 | 错误代码 | 英文提示 | 错误描述 |
 |---------|---------|---------|

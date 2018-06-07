@@ -15,13 +15,13 @@
 |  UpgradeRedis | |
 | |
 | [ 
-| [查询 CRS 实例及实例列表](http://cloud.tencent.com/doc/api/260/1384) | DescribeRedis |  按条件查询实例详情列表 | 
+| [查询 CRS 实例及实例列表](http://tce.fsphere.cn/doc/api/260/1384) | DescribeRedis |  按条件查询实例详情列表 | 
 | [修改CRS实例密码](/document/product/239/8405) | ModfiyRedisPassword | 修改实例密码|
 | [重置CRS实例密码](/document/product/239/1390) | ResetRedisPassword | 重置实例密码|
-| [修改Redis实例项目](http://cloud.tencent.com/doc/api/260/1385) | ModifyRedisProject |  修改实例所属项目 |
-| [修改CRS实例名称](https://cloud.tencent.com/document/api/239/8431) | ModifyRedisName |  修改CRS实例名称 | 
-| [清空CRS实例](http://cloud.tencent.com/doc/api/260/1386) | ClearRedis |  清空实例数据 | 
-| [CRS查询任务结果](http://cloud.tencent.com/doc/api/260/1387) | DescribeTaskInfo | 查询任务执行结果 |
+| [修改Redis实例项目](http://tce.fsphere.cn/doc/api/260/1385) | ModifyRedisProject |  修改实例所属项目 |
+| [修改CRS实例名称](http://tce.fsphere.cn/document/api/239/8431) | ModifyRedisName |  修改CRS实例名称 | 
+| [清空CRS实例](http://tce.fsphere.cn/doc/api/260/1386) | ClearRedis |  清空实例数据 | 
+| [CRS查询任务结果](http://tce.fsphere.cn/doc/api/260/1387) | DescribeTaskInfo | 查询任务执行结果 |
 | [手动备份 CRS 实例](/document/product/239/8402) | ManualBackupInstance | 手动备份 CRS 实例 |
 | [查询 CRS 实例备份列表](/document/product/239/8403) | GetRedisBackupList | 查询 CRS 实例备份列表 |  
 | [恢复 CRS 实例](/document/product/239/8401) | RestoreInstance | 恢复 CRS 实例 |

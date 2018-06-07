@@ -106,4 +106,4 @@ Delete Object 接口可以删除指定bucket下面的指定文件，该接口需
 | NoSuchBucket |bucket不存在| 404 Not Found|
 
 
-获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](https://cloud.tencent.com/document/product/436/7730)
+获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](http://tce.fsphere.cn/document/product/436/7730)

@@ -1,5 +1,5 @@
 ## 初始化
-> 关于文章中出现的 SecretID、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](https://cloud.tencent.com/document/product/436/7751)
+> 关于文章中出现的 SecretID、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](http://tce.fsphere.cn/document/product/436/7751)
 
 在使用 SDK 的功能之前，需要导入一些必要的头文件和进行一些初始化工作。
 引入上传 SDK 的头文件 *QCloudCore/QCloudCore.h,     
@@ -54,7 +54,7 @@
 ## 快速入门
 
 这里演示的上传和下载的基本流程，更多细节可以参考 [XML iOS  SDK Demo](https://github.com/tencentyun/qcloud-sdk-ios-samples)。具体每一个接口如何使用请参照 Demo 中提供的单元测试文件。
->**注意：**在进行这一步之前必须在 [腾讯云控制台](https://console.cloud.tencent.com/cos4/secret) 上申请 COS 业务的 APPID。
+>**注意：**在进行这一步之前必须在 [云平台控制台](http://console.tce.fsphere.cn/cos4/secret) 上申请 COS 业务的 APPID。
 >
 
 ### STEP - 1 初始化

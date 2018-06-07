@@ -69,7 +69,7 @@ COSClientConfig config = new COSClientConfig();
 | 参数名称          | 类型              | 是否必填 | 参数描述                                     |
 | :------------ | :-------------- | :--- | :--------------------------------------- |
 | context       | Context         | 是    | 上下文                                      |
-| appid         | String          | 是    | 腾讯云注册的APPID                              |
+| appid         | String          | 是    | 云平台注册的APPID                              |
 | config        | COSClientConfig | 否    | 配置设置                                     |
 | persistenceId | String          | 否    | 持久化 ID，每个 COSClient 需设置一个唯一的 ID 用于持久化保存未完成任务 列表，以便应用退出重进后能够继续进行上传；传入为 Null，则不会进行持久化保存 |
 
@@ -82,7 +82,7 @@ COSClientConfig config = new COSClientConfig();
 config.setEndPoint(COSEndPoint.COS_GZ);
 
 Context context = getApplicationContext()；
-String appid =  "腾讯云注册的appid";
+String appid =  "云平台注册的appid";
 String peristenceId = "持久化Id";
 
 //创建COSlient对象，实现对象存储的操作
@@ -94,7 +94,7 @@ COSClient cos = new COSClient(context,appid,config,peristenceId);
 ### 初始化 COSClient
 
 ```java
-String appid =  "腾讯云注册的appid";
+String appid =  "云平台注册的appid";
 Context context = getApplicationContext()；
 String peristenceId = "持久化Id";
 
@@ -193,7 +193,7 @@ GetObjectResult getObjectResult = cos.getObject(getObjectRequest);
 
 **签名获取：**
 
-SDK 中用到的 SIGN，推荐使用 服务器端SDK，并由移动端向业务服务器请求。SIGN 的具体生成和使用请参照 [访问权限](https://cloud.tencent.com/document/product/436/6054)。
+SDK 中用到的 SIGN，推荐使用 服务器端SDK，并由移动端向业务服务器请求。SIGN 的具体生成和使用请参照 [访问权限](http://tce.fsphere.cn/document/product/436/6054)。
 
 
 ## 目录操作 
@@ -211,7 +211,7 @@ SDK 中用到的 SIGN，推荐使用 服务器端SDK，并由移动端向业务�
 
 | 参数名称     | 类型               | 是否必填 | 参数描述            |
 | :------- | :--------------- | :--- | :-------------- |
-| appid    | String           | 是    | 腾讯云APP ID       |
+| appid    | String           | 是    | 云平台APP ID       |
 | bucket   | String           | 是    | 目录所属bucket 名称   |
 | cosPath  | String           | 是    | 需要创建目录的路径       |
 | biz_attr | String           | 否    | 目录绑定的属性信息，由用户维护 |
@@ -265,7 +265,7 @@ CreateDirResult result = cos.createDir(createDirRequest);
 
 | 参数名称     | 类型               | 是否必填 | 参数描述                                     |
 | :------- | :--------------- | :--- | :--------------------------------------- |
-| appid    | String           | 是    | 腾讯云APP ID                                |
+| appid    | String           | 是    | 云平台APP ID                                |
 | bucket   | String           | 是    | 目录所属bucket 名称                            |
 | cosPath  | String           | 是    | 远程相对路径                                   |
 | num      | int              | 否    | 返回的数目，默认为1000，最大1000                     |
@@ -348,7 +348,7 @@ ListDirResult result=cos.listDir(listDirRequest);
 
 | 参数名称     | 类型               | 是否必填 | 参数描述          |
 | :------- | :--------------- | :--- | :------------ |
-| appid    | String           | 是    | 腾讯云APP ID     |
+| appid    | String           | 是    | 云平台APP ID     |
 | bucket   | String           | 是    | 目录所属bucket 名称 |
 | cosPath  | String           | 是    | 远程相对路径        |
 | sign     | String           | 是    | 签名信息，此处使用单次签名 |
@@ -402,7 +402,7 @@ UpdateObjectResult result = cos.updateObject(updateObjectRequest);
 #### 参数说明
 | 参数名称     | 类型               | 是否必填 | 参数描述          |
 | :------- | :--------------- | :--- | :------------ |
-| appid    | String           | 是    | 腾讯云APP ID     |
+| appid    | String           | 是    | 云平台APP ID     |
 | bucket   | String           | 是    | 目录所属bucket 名称 |
 | cosPath  | String           | 是    | 远程相对路径        |
 | sign     | String           | 是    | 签名信息，此处使用多次签名 |
@@ -461,7 +461,7 @@ GetObjectMetadataRequest result = cos.getObjectMetadata(getObjectMetadataRequest
 
 | 参数名称     | 类型               | 是否必填 | 参数描述          |
 | :------- | :--------------- | :--- | :------------ |
-| appid    | String           | 是    | 腾讯云APP ID     |
+| appid    | String           | 是    | 云平台APP ID     |
 | bucket   | String           | 是    | 目录所属bucket 名称 |
 | cosPath  | String           | 是    | 远程相对路径        |
 | sign     | String           | 是    | 签名信息，此处使用单次签名 |
@@ -516,7 +516,7 @@ RemoveEmptyDirResult result = cos.removeEmptyDir(removeEmptyDirRequest);
 
 | 参数名称       | 类型                  | 是否必填 | 参数描述                                   |
 | :--------- | :------------------ | :--- | :------------------------------------- |
-| appid      | String              | 是    | 腾讯云APP ID                              |
+| appid      | String              | 是    | 云平台APP ID                              |
 | bucket     | String              | 是    | 目录所属bucket 名称                          |
 | cosPath    | String              | 是    | 远程相对路径                                 |
 | srcPath    | String              | 是    | 本地绝对路径                                 |
@@ -595,7 +595,7 @@ PutObjectResult result = cos.putObject(putObjectRequest);
 
 | 参数名称           | 类型                 | 是否必填 | 参数描述                                     |
 | :------------- | :----------------- | :--- | :--------------------------------------- |
-| appid          | String             | 是    | 腾讯云APP ID                                |
+| appid          | String             | 是    | 云平台APP ID                                |
 | bucket         | String             | 是    | 目录所属bucket 名称                            |
 | cosPath        | String             | 是    | 远程相对路径                                   |
 | sign           | String             | 是    | 签名信息，此处使用单次签名                            |
@@ -653,7 +653,7 @@ UpdateObjectResult result= cos.updateObject(updateObjectRequest);
 
 | 参数名称     | 类型               | 是否必填 | 参数描述          |
 | :------- | :--------------- | :--- | :------------ |
-| appid    | String           | 是    | 腾讯云APP ID     |
+| appid    | String           | 是    | 云平台APP ID     |
 | bucket   | String           | 是    | 目录所属bucket 名称 |
 | cosPath  | String           | 是    | 远程相对路径        |
 | sign     | String           | 是    | 签名信息，此处使用多次签名 |
@@ -717,7 +717,7 @@ GetObjectMetadataRequest result=cos.getObjectMetadata(getObjectMetadataRequest);
 
 | 参数名称     | 类型               | 是否必填 | 参数描述          |
 | :------- | :--------------- | :--- | :------------ |
-| appid    | String           | 是    | 腾讯云APP ID     |
+| appid    | String           | 是    | 云平台APP ID     |
 | bucket   | String           | 是    | 目录所属bucket 名称 |
 | cosPath  | String           | 是    | 远程相对路径        |
 | sign     | String           | 是    | 签名信息，此处单次签名   |

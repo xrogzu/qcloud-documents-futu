@@ -1,4 +1,4 @@
-本文档只描述了基本的 Spark 任务提交以及 Spark 计算任务如何访问腾讯云对象存储上的数据，详细资料可以参考 [Spark 官方文档](http://spark.apache.org/docs/2.0.2/) 。
+本文档只描述了基本的 Spark 任务提交以及 Spark 计算任务如何访问云平台对象存储上的数据，详细资料可以参考 [Spark 官方文档](http://spark.apache.org/docs/2.0.2/) 。
 ## 命令行模式提交 Spark 任务
 ### 事前说明
 * 在做相关操作前需要登录到 EMR 集群中的 Master 节点机器；

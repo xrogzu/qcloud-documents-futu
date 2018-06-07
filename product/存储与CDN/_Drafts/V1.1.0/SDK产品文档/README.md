@@ -33,6 +33,6 @@
 检查文档中是否有关于secretid、secretkey、bucket如何获取的说明，如果没有，则在合适的位置添加如下内容：
 
 
-> 关于SecretID、SecretKey、Bucket等名称的含义和获取方式请参考:[COS 术语信息](https://cloud.tencent.com/document/product/436/7751)
+> 关于SecretID、SecretKey、Bucket等名称的含义和获取方式请参考:[COS 术语信息](http://tce.fsphere.cn/document/product/436/7751)
 
 

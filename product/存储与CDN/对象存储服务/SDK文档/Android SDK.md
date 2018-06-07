@@ -76,7 +76,7 @@ public UploadManager(Context context, String appId, FileType fileType,
 | 参数名称          | 类型       | 是否必填 | 说明                                       |
 | :------------ | :------- | :--- | :--------------------------------------- |
 | context       | Context  | 是    |                                          |
-| appId         | String   | 是    | 腾讯云APP ID                                |
+| appId         | String   | 是    | 云平台APP ID                                |
 | fileType      | FileType | 是    | 业务类型，COS服务指明为：FileType.File              |
 | persistenceId | String   | 否    | 持久化 ID，每个 UploadManager 需设置一个唯一的 ID 用于持久化保存未完成任务 列表，以便应用退出重进后能够继续进行上传；传入为 Null，则不会进行持久化保存 |
 
@@ -483,7 +483,7 @@ public UploadManager(Context context, String appId, FileType fileType,
 | 参数名称          | 类型       | 是否必填 | 说明                                       |
 | :------------ | :------- | :--- | :--------------------------------------- |
 | context       | Context  | 是    |                                          |
-| appId         | String   | 是    | 腾讯云APP ID                                |
+| appId         | String   | 是    | 云平台APP ID                                |
 | fileType      | FileType | 是    | 业务类型，COS服务指明为：FileType.File              |
 | persistenceId | String   | 否    | 持久化 ID，每个 UploadManager 需设置一个唯一的 ID 用于持久化保存未完成任务						 列表，以便应用退出重进后能够继续进行上传；传入为 Null，则不会进行持久化						 保存 |
 
@@ -776,7 +776,7 @@ public Downloader(Context context, String appid, String persistenceId);
 | 参数名称          | 类型      | 是否必填 | 说明           |
 | :------------ | :------ | :--- | :----------- |
 | context       | Context | 是    |              |
-| appid         | String  | 是    | 腾讯云注册的APP ID |
+| appid         | String  | 是    | 云平台注册的APP ID |
 | persistenceId | String  | 否    | 资源的持久化ID     |
 
 #### 示例

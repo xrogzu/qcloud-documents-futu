@@ -1,7 +1,7 @@
 ## 前言
-本文档是介绍腾讯云视频点播服务的 Web 播放器，它可以帮助腾讯云客户通过灵活的接口，快速与自有 Web 应用集成，实现视频播放功能，本文档适合有一定 Javascript 语言基础的开发人员阅读。
+本文档是介绍云平台视频点播服务的 Web 播放器，它可以帮助云平台客户通过灵活的接口，快速与自有 Web 应用集成，实现视频播放功能，本文档适合有一定 Javascript 语言基础的开发人员阅读。
 ## 能力介绍
-腾讯云视频点播 WEB 播放器是通过 HTML5  `<video>`  标签以及 Flash 实现视频播放。在浏览器不劫持视频播放的情况下，实现了视频播放效果的多平台统一体验，并结合腾讯云点播视频服务，提供防盗链、HLS 加密播放等功能。
+云平台视频点播 WEB 播放器是通过 HTML5  `<video>`  标签以及 Flash 实现视频播放。在浏览器不劫持视频播放的情况下，实现了视频播放效果的多平台统一体验，并结合云平台点播视频服务，提供防盗链、HLS 加密播放等功能。
 
 ### 视频格式支持
 
@@ -15,12 +15,12 @@
 **移动端**只要实现 HTML5 `<video>` 标准的浏览器都支持，比如 Android Chrome，iOS Safari，微信，手机 QQ，手机 QQ 浏览器等
 使用本播放器，同一段代码可以自动实现 PC 浏览器和手机浏览器的自适应切换，播放器内部会自动区分平台使用最优的播放方案。例如：在 IE11/10/9/8 浏览器中会使用 Flash 播放器以实现其不支持 HTML5 播放 HLS 的能力，在 Chrome 等现代浏览器中优先使用 HTML5 技术实现视频播放，而手机浏览器上会使用 HTML5 技术实现视频播放。
 ### 点播平台的转码服务
-由于 MP4 和 HLS（m3u8）是目前在 PC 浏览器和手机浏览器上支持程度最广泛的格式，所以腾讯云的视频点播平台最终会把上传的视频发布为 MP4 和 HLS（m3u8） 格式。
+由于 MP4 和 HLS（m3u8）是目前在 PC 浏览器和手机浏览器上支持程度最广泛的格式，所以云平台的视频点播平台最终会把上传的视频发布为 MP4 和 HLS（m3u8） 格式。
 ## 准备工作
 ### step 1：开通服务
-在 [腾讯云官网](https://cloud.tencent.com/) 注册腾讯云帐号，然后开通**点播**服务。
+在 [云平台官网](http://tce.fsphere.cn/) 注册云平台帐号，然后开通**点播**服务。
 ### step 2：上传文件
-点播服务开通之后，进入 [点播视频管理](https://console.cloud.tencent.com/video/videolist) 就可以上传新的视频文件，如果您没有开通点播服务，则无法操作这一步骤。
+点播服务开通之后，进入 [点播视频管理](http://console.tce.fsphere.cn/video/videolist) 就可以上传新的视频文件，如果您没有开通点播服务，则无法操作这一步骤。
 ### step 3：获取 fileID 与 appID
 上传完视频并转码之后，您就可以在视频管理页面查到文件的 fileID ，这个是播放器播放视频的最基本信息，同时您的 appID 也可以在视频管理页面查看到。下图中的两个 ID，左边一个是视频文件的 fileID，另一个是您的 appID。
 ![](https://mc.qcloudimg.com/static/img/fcad44c3392b229f3a53d5f8b2c52961/image.png)
@@ -60,7 +60,7 @@ var player = TCPlayer('player-container-id', { // player-container-id 为播放�
   });
 ```
 >**注意事项：**
->* 需要播放的视频需经过腾讯云转码，原始视频无法保证在浏览器中正常播放。
+>* 需要播放的视频需经过云平台转码，原始视频无法保证在浏览器中正常播放。
 
 ### 完整的示例页面：
 [示例代码链接](https://imgcache.qq.com/open/qcloud/video/tcplayer/examples/vod/tcplayer-vod-base.html)
@@ -87,7 +87,7 @@ var player = TCPlayer('player-container-id', { // player-container-id 为播放�
 2、 视频转码后，将会生成多种清晰度的文件，在【控制台】>【视频管理】视频列表中单击视频将会看到如下图
 ![](https://mc.qcloudimg.com/static/img/3a60f37c5c6d429bffb7e96023c948e9/image.png)
 
-经过以上两个步骤，该视频已具备多种清晰度，使用 fileID appID 在腾讯云点播播放器中播放即可。
+经过以上两个步骤，该视频已具备多种清晰度，使用 fileID appID 在云平台点播播放器中播放即可。
 清晰度选择效果如下图：
 ![](https://mc.qcloudimg.com/static/img/d35731fae08327c66602ee3b7be77c2c/image.png)
 
@@ -121,7 +121,7 @@ var player = TCPlayer('player-container-id', { // player-container-id 为播放�
 * 在“控制台-Web 播放器管理”选定某个播放器配置进行设置默认画质
 ![](https://mc.qcloudimg.com/static/img/3bcad59bcbb2ae35c2ce02bba1f8cefd/image.png)
 
-* 在“控制台-视频管理”将视频与某个播放器配置进行关联，在使用腾讯云播放器播放该视频时，将会使用关联的播放器配置。
+* 在“控制台-视频管理”将视频与某个播放器配置进行关联，在使用云平台播放器播放该视频时，将会使用关联的播放器配置。
 ![](https://mc.qcloudimg.com/static/img/82dc40ee75db110ab2d77749ec059d80/image.png)
 
 >**注意事项：**
@@ -153,13 +153,13 @@ var player = TCPlayer('player-container-id', {
 [续播](https://imgcache.qq.com/open/qcloud/video/tcplayer/examples/vod/tcplayer-vod-continue-play.html)
 
 >**注意事项：**
-> -  必须通过 fileID appID 播放经过腾讯云转码后的视频，才能使用该功能。
+> -  必须通过 fileID appID 播放经过云平台转码后的视频，才能使用该功能。
 > - 该功能通过通过 localStorage 存储播放时间点，浏览器需支持该特性。
 > - 在浏览器劫持视频播放的情况下，该功能无法使用。
 > - 该功能不是多端多浏览器互通的，比如在 PC 浏览器上没看完，不能在移动端浏览器上续播或者在 PC 上另一个浏览器续播，需额外的接口，可以自行开发。
 
 ### 设置播放器 logo
-腾讯云点播播放器支持配置播放器 logo，可以在【控制台】>【Web 播放器管理】选定某个播放器配置，单击外观栏目进行设置 logo 信息。
+云平台点播播放器支持配置播放器 logo，可以在【控制台】>【Web 播放器管理】选定某个播放器配置，单击外观栏目进行设置 logo 信息。
 设置 logo 信息后，使用该播放器配置播放视频时，将会在指定位置显示 logo。
 
 示例：
@@ -170,7 +170,7 @@ var player = TCPlayer('player-container-id', {
 > - 在浏览器劫持视频播放的情况下，设置的 logo 将无法显示。
 
 ### 图片贴片功能
-腾讯云点播播放器支持配置片头、片中暂停、片尾显示图片贴片,并且可以添加超链接。可以在【控制台】>【Web 播放器管理】选定某个播放器配置，单击贴片栏目进行设置贴片信息。
+云平台点播播放器支持配置片头、片中暂停、片尾显示图片贴片,并且可以添加超链接。可以在【控制台】>【Web 播放器管理】选定某个播放器配置，单击贴片栏目进行设置贴片信息。
 默认的贴片显示样式为水平垂直居中显示，如果图片的尺寸大于播放器显示区域，将按播放器的宽度等比缩放图片，水平居中显示图片，图片超出播放器区域部分将无法显示。
 可以通过 CSS 自定义贴片的显示样式。
 ```
@@ -188,7 +188,7 @@ var player = TCPlayer('player-container-id', {
 > * 在浏览器劫持视频播放的情况下，设置的贴片将无法显示。
 
 ### Referer 防盗链
-开启流程请看 [Referer 防盗链说明文档](https://cloud.tencent.com/document/product/266/14046)
+开启流程请看 [Referer 防盗链说明文档](http://tce.fsphere.cn/document/product/266/14046)
 
 播放器初始化需增加参数如下：
 ```
@@ -196,7 +196,7 @@ var player = TCPlayer('player-container-id', {
      fileID: '', // 请传入需要播放的视频filID 必须
      appID: '', // 请传入点播账号的appID 必须
      flash:{
-         swf: '//[腾讯云隔离域名]/vod-player/[appID]/[fileID]/tcplayer/player.swf' //swf 文件地址 必须
+         swf: '//[云平台隔离域名]/vod-player/[appID]/[fileID]/tcplayer/player.swf' //swf 文件地址 必须
      }
    });
 ```
@@ -205,12 +205,12 @@ var player = TCPlayer('player-container-id', {
 >**注意事项：**
 > * 播放器在 Flash 模式下发起视频请求的 Referer 在 IE、Firefox 浏览器中会带上 swf url，与 Chrome 浏览器会带上页面的 url 的情况不同。
 > * 您也可以将 player.swf 文件下载后，存放到您的 CDN 服务器中，swf 参数传入指向您的 CDN 服务器路径。
-> * 腾讯云提供的隔离域名是每个用户独有的域名，一个 appID 对应一个域名，通常格式为 [appID].vod2.myqcloud.com。
+> * 云平台提供的隔离域名是每个用户独有的域名，一个 appID 对应一个域名，通常格式为 [appID].vod2.myqcloud.com。
 > * 需要将播放器 swf url 的域名添加到白名单内，开启了Referer防盗链的视频才能在 Flash 模式下播放。
 > * 播放器的 Flash swf 文件默认存放在 imgcache.qq.com 域名下。
 
 ### Key 防盗链
-开启流程请看 [Key 防盗链说明文档](https://cloud.tencent.com/document/product/266/14047)
+开启流程请看 [Key 防盗链说明文档](http://tce.fsphere.cn/document/product/266/14047)
 
 播放器初始化需增加参数如下：
 ```
@@ -222,14 +222,14 @@ var player = TCPlayer('player-container-id', {
      sign:''
    });
 ```
-参数 t、us、sign的具体含义请查看 [Key 防盗链说明文档](https://cloud.tencent.com/document/product/266/14047)
+参数 t、us、sign的具体含义请查看 [Key 防盗链说明文档](http://tce.fsphere.cn/document/product/266/14047)
 
 >**注意事项：**
-> * sign 的计算方法为：sign = md5(KEY+appId+fileId+t+us)，与 [Key 防盗链说明文档](https://cloud.tencent.com/document/product/266/14047)中的计算方式不同，其余参数一致。
+> * sign 的计算方法为：sign = md5(KEY+appId+fileId+t+us)，与 [Key 防盗链说明文档](http://tce.fsphere.cn/document/product/266/14047)中的计算方式不同，其余参数一致。
 > * 如果同时开启了 Referer 防盗链，在 Referer 防盗链配置的示例代码基础上增加参数即可。
 
 ### 试看功能
-使用试看功能需要先开启 Key 防盗链，开启流程请看 [Key 防盗链说明文档](https://cloud.tencent.com/document/product/266/14047)
+使用试看功能需要先开启 Key 防盗链，开启流程请看 [Key 防盗链说明文档](http://tce.fsphere.cn/document/product/266/14047)
 
 播放器初始化需增加参数如下：
 ```
@@ -242,14 +242,14 @@ var player = TCPlayer('player-container-id', {
      exper:''
    });
 ```
-参数 t、us、sign、exper 的具体含义请查看 [Key 防盗链说明文档](https://cloud.tencent.com/document/product/266/14047)
+参数 t、us、sign、exper 的具体含义请查看 [Key 防盗链说明文档](http://tce.fsphere.cn/document/product/266/14047)
 
 >**注意事项：**
-> * 带试看的 sign 计算方法为：sign = md5(KEY+appId+fileId+t+exper+us)，与 [Key 防盗链说明文档](https://cloud.tencent.com/document/product/266/14047)中的计算方式不同，其余参数一致。
+> * 带试看的 sign 计算方法为：sign = md5(KEY+appId+fileId+t+exper+us)，与 [Key 防盗链说明文档](http://tce.fsphere.cn/document/product/266/14047)中的计算方式不同，其余参数一致。
 > * 播放器播放的视频时长是 exper 参数指定的长度，与已往在播放端控制播放时长的试看功能不同，播放器不会获取完整的视频。
 
 ### HLS 加密播放
-开启流程请看[视频加密文档](https://cloud.tencent.com/document/product/266/9638)
+开启流程请看[视频加密文档](http://tce.fsphere.cn/document/product/266/9638)
 
 >**注意事项：**
 > * 如果播放页面或者Flash swf url 与解密秘钥服务器域名不一致，Key 服务器需要部署 corssdomain.xml 和 CORS（"跨域资源共享" Cross-origin resource sharing），允许 Flash 和 JavaScript 跨域获取解密秘钥。

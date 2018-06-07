@@ -3,7 +3,7 @@
 ![](https://mc.qcloudimg.com/static/img/d2ae9a1a8a8b19d8aaab4e815b6704e5/image.png)  
 2. 核对购买信息无误后，单击【确认购买】进行下单，但不要立即对订单进行支付。  
 ![](https://mc.qcloudimg.com/static/img/6906a22232a902505f93637e2ca29de2/image.png)  
-3. 登录 [控制台](https://console.cloud.tencent.com/deal)，单击【我的订单】。  
+3. 登录 [控制台](http://console.tce.fsphere.cn/deal)，单击【我的订单】。  
 ![](https://mc.qcloudimg.com/static/img/1720966af06932e8c7077d09e1916ae2/image.png)  
 4. 单击相关订单所在行的【详情】进入订单详情页。  
 ![](https://mc.qcloudimg.com/static/img/929b63adc516412ea1b9800a65d2aa59/image.png)  
@@ -11,7 +11,7 @@
 ![](https://mc.qcloudimg.com/static/img/d8259afdf4c5aa2c00dd20af2fcb4cbe/image.png)  
 
 ## 二、商品服务商调价
-1. 商品服务商登录 [服务商管理控制台](https://console.cloud.tencent.com/serviceprovider/updateprice)。    
+1. 商品服务商登录 [服务商管理控制台](http://console.tce.fsphere.cn/serviceprovider/updateprice)。    
 2. 单击“订单管理” > “订单改价”，输入客户提供的订单号后进行价格调整。  
 ![](https://mc.qcloudimg.com/static/img/76f4d04e1a2c957a022f9f60c078ef3f/image.png)
 ![](https://mc.qcloudimg.com/static/img/93d63d0c57631810cba1fdc106bf9e9c/image.png)

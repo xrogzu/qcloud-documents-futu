@@ -43,7 +43,7 @@ CommonLibrary中包含了一般App开发中常用的功能，较简单的界面�
 <img src="//mccdn.qcloud.com/static/img/0657b5d778a896cf7ec79a074cd0c2ec/image.jpg" />
 
 ## 7. TIMAdapter设计说明
-TIMAdapter是腾讯云IMSDK Demo中对IMSDK的一层再封装，其覆盖基本的联系人以及聊天功能，为方便用户进行复用以及扩展各自App的业务逻辑，此处只说明设计思路，用户也可以参照此处的做法，进行自定义扩展。
+TIMAdapter是云平台IMSDK Demo中对IMSDK的一层再封装，其覆盖基本的联系人以及聊天功能，为方便用户进行复用以及扩展各自App的业务逻辑，此处只说明设计思路，用户也可以参照此处的做法，进行自定义扩展。
 实际开发过程中，用户App的逻辑与Demo逻辑可能不一致，建议用户通过继承重写某些类与自身逻辑不一致的方法，以及来增加新方法来扩展自身逻辑，这样Demo更新的时候，如果TIMAdapter有更新，再用工具对比TIMAdapter的即可。
 复用TIMAdapter的好处在于：
 - 可扩展：可以横向进行扩展，不影响现有功能；

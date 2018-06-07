@@ -4,9 +4,9 @@
 
 ![img](https://main.qcloudimg.com/raw/4032376146a41d3597d9a28350b542b5.jpg)
 
-腾讯云基于 [**LiveRoom**](https://cloud.tencent.com/document/product/454/14606) 组件实现“直播 + 连麦”功能，它分成 Client 和 Server 两个部分（都是开源的），对接攻略请参考 [DOC](https://cloud.tencent.com/document/product/454/14606)，本文档主要是详细列出了 Client 端的 API 列表：
+云平台基于 [**LiveRoom**](http://tce.fsphere.cn/document/product/454/14606) 组件实现“直播 + 连麦”功能，它分成 Client 和 Server 两个部分（都是开源的），对接攻略请参考 [DOC](http://tce.fsphere.cn/document/product/454/14606)，本文档主要是详细列出了 Client 端的 API 列表：
 
-> 在腾讯云官网 [下载](https://cloud.tencent.com/document/product/454/7873#Windows) SDK 开发包，在SDK\Rooms\LiveRoom中，包括LiveRoom相关的头文件和源码文件。
+> 在云平台官网 [下载](http://tce.fsphere.cn/document/product/454/7873#Windows) SDK 开发包，在SDK\Rooms\LiveRoom中，包括LiveRoom相关的头文件和源码文件。
 
 ## LiveRoom
 
@@ -131,8 +131,8 @@
 
 | 参数         | 类型                | 描述                                                         |
 | ------------ | ------------------- | ------------------------------------------------------------ |
-| serverDomain | const std::string & | RoomService的URL地址，安全起见，建议访问https加密链接， 参考 [DOC](https://cloud.tencent.com/document/product/454/14606#ClientFLOW) |
-| authData     | const LRAuthData &  | RoomService提供的登录信息，包括IM相关的配置字段，在login成功后，获取到token字段，参考 [DOC](https://cloud.tencent.com/document/product/454/14606#ClientFLOW) |
+| serverDomain | const std::string & | RoomService的URL地址，安全起见，建议访问https加密链接， 参考 [DOC](http://tce.fsphere.cn/document/product/454/14606#ClientFLOW) |
+| authData     | const LRAuthData &  | RoomService提供的登录信息，包括IM相关的配置字段，在login成功后，获取到token字段，参考 [DOC](http://tce.fsphere.cn/document/product/454/14606#ClientFLOW) |
 | callback     | ILoginLiveCallback* | ILoginLiveCallback 类型的代理指针，回调login的结果           |
 
 - 示例：

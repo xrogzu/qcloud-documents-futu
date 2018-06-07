@@ -1,14 +1,14 @@
 LAMP 指 Linux+Apache+Mysql/MariaDB+Perl/PHP/Python，是一组常用来搭建动态网站或者服务器的开源软件。个程序都是独立的，但是因为常被一起使用，相互间的兼容性越来越高，共同组成了一个强大的 Web 应用程序平台。
-本教程将指导您完成以下过程：启动一个腾讯云数据库 CDB 实例，通过腾讯云 CVM 配置一个 LAMP 应用程序，以连接腾讯云数据库 CDB 实例的高可用性环境。
-运行腾讯云数据库实例会将数据库与环境的生命周期分离，这让您可以从多个服务器连接到同一个数据库，并且简化数据库的运维，让您无需再关心数据库的安装、部署、版本更新及故障处理等问题。
+本教程将指导您完成以下过程：启动一个云平台数据库 CDB 实例，通过云平台 CVM 配置一个 LAMP 应用程序，以连接云平台数据库 CDB 实例的高可用性环境。
+运行云平台数据库实例会将数据库与环境的生命周期分离，这让您可以从多个服务器连接到同一个数据库，并且简化数据库的运维，让您无需再关心数据库的安装、部署、版本更新及故障处理等问题。
 >**注意：**
-本教程中使用到的云数据库实例和云服务器实例处于同一地域下，如果您的云数据库实例和云服务器实例不处于同一地域下，请参考 [外网访问](https://cloud.tencent.com/document/product/236/3130#.E5.A4.96.E7.BD.91.E8.AE.BF.E9.97.AE)。
+本教程中使用到的云数据库实例和云服务器实例处于同一地域下，如果您的云数据库实例和云服务器实例不处于同一地域下，请参考 [外网访问](http://tce.fsphere.cn/document/product/236/3130#.E5.A4.96.E7.BD.91.E8.AE.BF.E9.97.AE)。
 
 ### 初始化云数据库实例
-云数据库的购买和初始化请参考 [购买与续费](https://cloud.tencent.com/document/product/236/5160) 和 [初始化 MySQL 数据库](https://cloud.tencent.com/document/product/236/3128)。
+云数据库的购买和初始化请参考 [购买与续费](http://tce.fsphere.cn/document/product/236/5160) 和 [初始化 MySQL 数据库](http://tce.fsphere.cn/document/product/236/3128)。
 
 ### 登录到云服务器实例
-云服务器的购买和访问请参考 [快速入门 Linux 云服务器](https://cloud.tencent.com/document/product/213/2936)，本教程中使用的是 CentOS 系统。
+云服务器的购买和访问请参考 [快速入门 Linux 云服务器](http://tce.fsphere.cn/document/product/213/2936)，本教程中使用的是 CentOS 系统。
 
 ### 安装 MySQL 客户端
 1. 在云服务器实例中使用 `yum` 安装 MySQL 客户端：
@@ -16,7 +16,7 @@ LAMP 指 Linux+Apache+Mysql/MariaDB+Perl/PHP/Python，是一组常用来搭建�
 yum install mysql -y
 ```
 ![](https://mc.qcloudimg.com/static/img/8b952d6d7d767413a6558e82df092d44/image.png)
-2. 安装完成后，连接到腾讯云数据库实例：
+2. 安装完成后，连接到云平台数据库实例：
 ```
 mysql -h hostname -u username -p
 ```
@@ -39,7 +39,7 @@ service httpd start
 ```
 3. 测试 Apache ：
 >**注意：**
-此步骤需要您的云主机在安全组中配置来源为 **all**，端口协议为 **TCP:80** 的入站规则。关于安全组的配置方法请参考 [安全组](https://cloud.tencent.com/document/product/213/5221)。
+此步骤需要您的云主机在安全组中配置来源为 **all**，端口协议为 **TCP:80** 的入站规则。关于安全组的配置方法请参考 [安全组](http://tce.fsphere.cn/document/product/213/5221)。
 
 在您本地的浏览器中输入`http://115.xxx.xxx.xxx/`（其中 `115.xxx.xxx.xxx`为您的云服务器公网 IP 地址），出现下列画面表示 Apache 启动成功。
 ![](https://mc.qcloudimg.com/static/img/3cde70e76a386b81f96ea9919280269d/image.png)

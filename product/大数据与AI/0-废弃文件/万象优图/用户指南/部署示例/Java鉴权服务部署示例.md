@@ -1,7 +1,7 @@
-本文档介绍了腾讯云万象优图服务端java的部署和集成，搭建一个java+tomcat为基础，对web端或者移动端提供http签名接口服务的例子程序。
+本文档介绍了云平台万象优图服务端java的部署和集成，搭建一个java+tomcat为基础，对web端或者移动端提供http签名接口服务的例子程序。
 注意：本文档只是简单的示例，展示了服务端为终端提供签名的基本示例，开发者务必根据自身业务开发相应的鉴权服务逻辑，并集成到自身服务器中。
 ## 1 环境准备
-下面以在腾讯云云服务器CentOS 6.2 64位上安装nginx为例，简单介绍如何将腾讯云万象优图集成，对web端或者移动端提供http签名接口服务所需要的基础环境搭建。开发者可以根据自己业务的需要，构建http或者非http服务，为自身业务的web端、移动端提供签名。
+下面以在云平台云服务器CentOS 6.2 64位上安装nginx为例，简单介绍如何将云平台万象优图集成，对web端或者移动端提供http签名接口服务所需要的基础环境搭建。开发者可以根据自己业务的需要，构建http或者非http服务，为自身业务的web端、移动端提供签名。
 ### 1.1 安装nginx
 ```
 yum install nginx –y
@@ -129,4 +129,4 @@ fileid：是图片资源的唯一标识；当opType为upload时，如果开发�
  http://203.195.194.28/java/getsign.jsp?type=del&fileid=sample123
  http://203.195.194.28/java/getsign.jsp?type=stat&fileid=sample123
 ```
-2 通过web端js或者移动端程序请求以上http接口获取签名，上传图片。Web端js示例请参考[web端部署与SDK集成](http://cloud.tencent.com/doc/product/275/web%E7%AB%AF%E9%83%A8%E7%BD%B2%E7%A4%BA%E4%BE%8B)；移动端程序示例请分别参考[移动端部署与SDK集成-Android](http://cloud.tencent.com/doc/product/275/Android%E9%83%A8%E7%BD%B2%E7%A4%BA%E4%BE%8B)和[移动端部署与SDK集成-iOS](http://cloud.tencent.com/doc/product/275/iOS%E9%83%A8%E7%BD%B2%E7%A4%BA%E4%BE%8B)。
+2 通过web端js或者移动端程序请求以上http接口获取签名，上传图片。Web端js示例请参考[web端部署与SDK集成](http://tce.fsphere.cn/doc/product/275/web%E7%AB%AF%E9%83%A8%E7%BD%B2%E7%A4%BA%E4%BE%8B)；移动端程序示例请分别参考[移动端部署与SDK集成-Android](http://tce.fsphere.cn/doc/product/275/Android%E9%83%A8%E7%BD%B2%E7%A4%BA%E4%BE%8B)和[移动端部署与SDK集成-iOS](http://tce.fsphere.cn/doc/product/275/iOS%E9%83%A8%E7%BD%B2%E7%A4%BA%E4%BE%8B)。

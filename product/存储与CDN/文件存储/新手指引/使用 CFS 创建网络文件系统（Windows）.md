@@ -35,14 +35,14 @@
 - 登录信息设置：您可设置密码，也可自动生成。设置的密码可在创建后修改，自动生成的密码将会以站内信方式发送。
 - 选择安全组（**确保登录端口 3389 开放**，更多信息见 [安全组](/doc/product/213/5221)） 。
 
-单击【立即购买】按钮，完成支付后即可进入 [控制台](https://console.cloud.tencent.com/cvm) 查收您的云服务器。
+单击【立即购买】按钮，完成支付后即可进入 [控制台](http://console.tce.fsphere.cn/cvm) 查收您的云服务器。
 云服务器创建好后将会收到站内信，内容包括实例名称、公网 IP 地址、内网 IP 地址、登录名、初始登录密码等信息。您可以使用这些信息登录和管理实例。
  
 
 <span id="1"></span>
 ## 二、创建文件系统及挂载点
 
-1. 进入专有云 [控制台](https://console.cloud.tencent.com/)，单击【云产品】>【存储】>【文件存储】，即可进入 CFS 控制台。
+1. 进入专有云 [控制台](http://console.tce.fsphere.cn/)，单击【云产品】>【存储】>【文件存储】，即可进入 CFS 控制台。
 ![](https://mc.qcloudimg.com/static/img/4fee6ea61cfba11927f6891527237610/image.png)
 
 2. 在专有云 CFS 控制台，单击【新建】，弹出创建文件系统弹窗。在创建文件系统弹窗中填写相关信息，确认无误后，单击【确定】即可创建文件系统。
@@ -186,9 +186,9 @@ umount X：
 
 
 ## 五、终止资源
-1. 终止专有云实例。进入专有云服务器 [控制台](https://console.cloud.tencent.com/cvm/index)，选中需要终止的实例，单击【更多】>【云主机状态】，可以选中【销毁】以终止 CVM 实例。
+1. 终止专有云实例。进入专有云服务器 [控制台](http://console.tce.fsphere.cn/cvm/index)，选中需要终止的实例，单击【更多】>【云主机状态】，可以选中【销毁】以终止 CVM 实例。
 ![](https://mc.qcloudimg.com/static/img/76c588284e3b525702d748b5cd7b8b00/image.png)
-2. 终止文件系统。进入专有云文件存储 [控制台](https://console.cloud.tencent.com/cfs)，选中需要终止的文件系统，单击【删除】并【确认】，即可删除文件系统。
+2. 终止文件系统。进入专有云文件存储 [控制台](http://console.tce.fsphere.cn/cfs)，选中需要终止的文件系统，单击【删除】并【确认】，即可删除文件系统。
 ![](https://mc.qcloudimg.com/static/img/28cade4807a283ffdcb1fc2a39a7ad88/image.png)
 
 

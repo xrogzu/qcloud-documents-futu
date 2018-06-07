@@ -1,5 +1,5 @@
-本文档主要介绍使用腾讯云 MongoDB 创建和查询 NoSQL 表。
-以下步骤进行前，需要您在腾讯云 CVM 通过 shell 连接上 MongoDB，具体详情请参考 [Shell连接示例](https://cloud.tencent.com/document/product/240/3978)。
+本文档主要介绍使用云平台 MongoDB 创建和查询 NoSQL 表。
+以下步骤进行前，需要您在云平台 CVM 通过 shell 连接上 MongoDB，具体详情请参考 [Shell连接示例](http://tce.fsphere.cn/document/product/240/3978)。
 ### 创建 NoSQL 表
 1. 首先，输入命令`show dbs`检查可用数据库的列表。
 ![](https://mc.qcloudimg.com/static/img/54bbefc9c59f22fd8ac11f4140d05f4f/showdbs.png)

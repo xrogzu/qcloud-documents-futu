@@ -53,9 +53,9 @@ void Tp2SdkInitEx (int gameId, string appKey);
 
 | 参数 | 是否必须 | 说明 |
 |---------|---------|---------|
-| gameId | 是 | 由腾讯云官网分配的 game_id  |
-| appKey | 是 | 由腾讯云官网分配 game_key，与 game_id 对应  |
-gameId 和 appKey 在腾讯云官网（xxxxxxxxxxxx）注册完新游戏后自动生成
+| gameId | 是 | 由云平台官网分配的 game_id  |
+| appKey | 是 | 由云平台官网分配 game_key，与 game_id 对应  |
+gameId 和 appKey 在云平台官网（xxxxxxxxxxxx）注册完新游戏后自动生成
 ** 返回值 **：0 表示调用成功
 
 #### 3.2 设置用户信息

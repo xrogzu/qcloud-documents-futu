@@ -59,9 +59,9 @@
 ![应用guestbook示例-015.png][13]
 
 
-  [1]: https://cloud.tencent.com/document/product/457/11951
-  [2]: https://cloud.tencent.com/document/product/457/11951
-  [3]: https://console.cloud.tencent.com/ccs/application
+  [1]: http://tce.fsphere.cn/document/product/457/11951
+  [2]: http://tce.fsphere.cn/document/product/457/11951
+  [3]: http://console.tce.fsphere.cn/ccs/application
   [4]: https://mc.qcloudimg.com/static/img/f94effc7b5ec3cdcd9821c27ea6b2871/image.png
   [5]: https://mc.qcloudimg.com/static/img/4e6d2c9483b595a773ef7bc9fe70d57b/image.png
   [6]: https://mc.qcloudimg.com/static/img/8e4e1a1d62d87803bb220cdb33fbeb07/image.png

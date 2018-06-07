@@ -8,7 +8,7 @@
 前往 [WordPress中文官网](https://cn.wordpress.org/) 下载最新版本的 WordPress 安装包。
 
 ### 3.	上传安装包
-通过 FTP 工具上传网站程序，具体可以参考 [FTP 工具使用说明](https://cloud.tencent.com/document/product/615/11181)。
+通过 FTP 工具上传网站程序，具体可以参考 [FTP 工具使用说明](http://tce.fsphere.cn/document/product/615/11181)。
 
 ### 4. 获取数据信息
 进入主机的管理页面，获取数据库信息。

@@ -1,5 +1,5 @@
 ### 1.注意事项
-1.**前置条件**：确保 Access Token 已经正常获取，获取规则见[登录鉴权流程](https://cloud.tencent.com/document/product/295/10117)。
+1.**前置条件**：确保 Access Token 已经正常获取，获取规则见[登录鉴权流程](http://tce.fsphere.cn/document/product/295/10117)。
 2.主要用于合作方**前端包含 APP 和 H5 等**生成签名鉴权参数之一，启动 H5 或 SDK 人脸验证。
 3.api ticket 为 NONCE 类型，有效期为 120S，且一次性有效, 即每次启动 SDK 刷脸都要重新请求 NONCE ticket。
 
@@ -12,7 +12,7 @@ ticket 用于对请求数据签名或加密。
 | 参数 | 说明 |类型 |长度 | 是否必填 |
 |---------|---------|---------|---------|---------|
 | app_id | 腾讯服务分配的 app_id | 字符串 |腾讯服务分配 |必填，腾讯服务分配的 app_id |
-| access_token | 根据[《整体登录鉴权流程》](https://cloud.tencent.com/document/product/295/10117?=cn)获取 access token | 字符串 |腾讯服务分配 |根据[《整体登录鉴权流程》](https://cloud.tencent.com/document/product/295/10117?=cn)获取 access token |
+| access_token | 根据[《整体登录鉴权流程》](http://tce.fsphere.cn/document/product/295/10117?=cn)获取 access token | 字符串 |腾讯服务分配 |根据[《整体登录鉴权流程》](http://tce.fsphere.cn/document/product/295/10117?=cn)获取 access token |
 |type | ticket 类型 | 字符串 |20 |必填，默认值：**NONCE (必须大写)** |
 | version | 版本号 | 字符串 |20 |必填，默认值：1.0.0|
 | user_id | 当前使用用户的唯一标识。<br>**注意合作伙伴必须保证 user_id 的全局唯一。** | 字符串 |30 |必填|

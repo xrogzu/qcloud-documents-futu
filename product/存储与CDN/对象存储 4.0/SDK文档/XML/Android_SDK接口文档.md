@@ -1,6 +1,6 @@
 ## 初始化
 进行操作之前需要实例化 CosXmlService 和 CosXmlServiceConfig。
-> 关于文章中出现的 SecretId、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](https://cloud.tencent.com/document/product/436/7751)。
+> 关于文章中出现的 SecretId、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](http://tce.fsphere.cn/document/product/436/7751)。
 
 ### 实例化 CosXmlServiceConfig
 调用 CosXmlServiceConfig.Builder().build() 实例化 CosXmlServiceConfig 对象。
@@ -77,7 +77,7 @@ CosXmlService cosXmlService = new CosXmlService(context,cosXmlServiceConfig, loc
 
 ## 生成签名
 
-签名具体的生成和使用请参照 [请求签名](https://cloud.tencent.com/document/product/436/7778) 文章。SDK 中已提供了签名获取类，用户只需要继承 BasicLifecycleCredentialProvider 类，并重写 fetchNewCredentials() 方法。
+签名具体的生成和使用请参照 [请求签名](http://tce.fsphere.cn/document/product/436/7778) 文章。SDK 中已提供了签名获取类，用户只需要继承 BasicLifecycleCredentialProvider 类，并重写 fetchNewCredentials() 方法。
 
 #### 示例
 ```java
@@ -241,7 +241,7 @@ serviceException)  {
 
 | 成员变量名称 |  变量说明    |类型     |
 | ---- | --------------  | ----------- |
-| initMultipartUpload   |[请求成功的返回结果](https://cloud.tencent.com/document/product/436/7746)| InitMultipartUpload          |
+| initMultipartUpload   |[请求成功的返回结果](http://tce.fsphere.cn/document/product/436/7746)| InitMultipartUpload          |
 | httpCode  |[200, 300)之间请求成功， 否则请求失败| Int             |
 
 #### 示例
@@ -414,7 +414,7 @@ serviceException)  {
 
 | 成员变量名称 |  变量说明    |类型     |
 | ---- | -------------- | ----------- |
-| completeMultipartUpload   |  [请求成功的返回结果](https://cloud.tencent.com/document/product/436/7742)|CompleteMultipartResult          |
+| completeMultipartUpload   |  [请求成功的返回结果](http://tce.fsphere.cn/document/product/436/7742)|CompleteMultipartResult          |
 | accessUrl   |  请求成功时，返回访问文件的地址|String          |
 
 #### 示例
@@ -493,7 +493,7 @@ serviceException)  {
 
 | 成员变量名称 | 变量说明    |类型     | 
 | ---- | --------------  | ----------- |
-| listParts  | [请求成功返回的结果](https://cloud.tencent.com/document/product/436/7747)     | ListParts             |
+| listParts  | [请求成功返回的结果](http://tce.fsphere.cn/document/product/436/7747)     | ListParts             |
 | httpCode  |[200, 300)之间请求成功， 否则请求失败| Int             |
 
 #### 示例
@@ -1336,7 +1336,7 @@ serviceException)  {
 
 | 成员变量名称 |  变量说明    |类型     |
 | ---- | -------------- | ----------- |
-| accessControlPolicy  |  [被授权者信息与权限信息](https://cloud.tencent.com/document/product/436/7733)|AccessControlPolicy             |
+| accessControlPolicy  |  [被授权者信息与权限信息](http://tce.fsphere.cn/document/product/436/7733)|AccessControlPolicy             |
 | httpCode  |[200, 300)之间请求成功， 否则请求失败| Int             |
 
 
@@ -1427,7 +1427,7 @@ corsRule.exposeHeader： 设置浏览器可以接收到的来自服务器端的�
 CORSRule corsRule = new CORSRule();
 
 corsRule.id = "123";
-corsRule.allowedOrigin = "https://cloud.tencent.com";
+corsRule.allowedOrigin = "http://tce.fsphere.cn";
 corsRule.maxAgeSeconds = "5000";
 
 List<String> methods = new LinkedList<>();
@@ -1510,7 +1510,7 @@ serviceException)  {
 
 | 成员变量名称 | 类型     | 变量说明    |
 | ---- | --------------  | ----------- |
-| cORSConfiguration  |  [跨域资源共享配置的所有信息](https://cloud.tencent.com/document/product/436/8274)|CORSConfiguration             |
+| cORSConfiguration  |  [跨域资源共享配置的所有信息](http://tce.fsphere.cn/document/product/436/8274)|CORSConfiguration             |
 | httpCode  |[200, 300)之间请求成功， 否则请求失败| Int             |
 
 

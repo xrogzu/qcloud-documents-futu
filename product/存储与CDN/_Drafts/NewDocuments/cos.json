@@ -3,7 +3,7 @@
 	"info": {
 		"description": "对象存储服务（Cloud Object Storage）是面向企业和个人开发者提供的高可用，高稳定，强安全的云端存储服务。您可以将任意数量和形式的非结构化数据放入COS，并在其中实现数据的管理和处理。COS支持标准的Restful API接口，您可以快速上手使用，按实际使用量计费，无最低使用限制。",
 		"version": "1.0.0",
-		"title": "腾讯云对象存储COS API文档",
+		"title": "云平台对象存储COS API文档",
 		"termsOfService": "http://qcloud.com/product/cos"
 	},
 	"tags": [
@@ -12,7 +12,7 @@
 			"description": "Object操作",
 			"externalDocs": {
 				"description": "了解更多关于对象存储object",
-				"url": "https://cloud.tencent.com/document/product/436"
+				"url": "http://tce.fsphere.cn/document/product/436"
 			}
 		},
 		{
@@ -20,7 +20,7 @@
 			"description": "Bucket操作",
 			"externalDocs": {
 				"description": "了解更多关于对象存储Bucket",
-				"url": "https://cloud.tencent.com/document/product/436"
+				"url": "http://tce.fsphere.cn/document/product/436"
 			}
 		}
 	],

@@ -56,7 +56,7 @@ SDK 需要网络访问相关的一些权限，需要在 AndroidManifest.xml 中�
 
 **签名获取：**
 
-SDK 中用到的 SIGN，推荐使用 服务器端SDK，并由移动端向业务服务器请求。SIGN 的具体生成和使用请参照 [访问权限](https://cloud.tencent.com/doc/product/227/1897#2.1-.E8.8E.B7.E5.8F.96.E7.AD.BE.E5.90.8D.E6.89.80.E9.9C.80.E4.BF.A1.E6.81.AF) 。
+SDK 中用到的 SIGN，推荐使用 服务器端SDK，并由移动端向业务服务器请求。SIGN 的具体生成和使用请参照 [访问权限](http://tce.fsphere.cn/doc/product/227/1897#2.1-.E8.8E.B7.E5.8F.96.E7.AD.BE.E5.90.8D.E6.89.80.E9.9C.80.E4.BF.A1.E6.81.AF) 。
 
 ## 目录操作
 
@@ -76,7 +76,7 @@ public UploadManager(Context context, String appId, FileType fileType,
 | 参数名称          | 类型       | 是否必填 | 说明                                       |
 | :------------ | :------- | :--- | :--------------------------------------- |
 | context       | Context  | 是    |                                          |
-| appId         | String   | 是    | 腾讯云APP ID                                |
+| appId         | String   | 是    | 云平台APP ID                                |
 | fileType      | FileType | 是    | 业务类型，COS服务指明为：FileType.File              |
 | persistenceId | String   | 否    | 持久化 ID，每个 UploadManager 需设置一个唯一的 ID 用于持久化保存未完成任务 列表，以便应用退出重进后能够继续进行上传；传入为 Null，则不会进行持久化保存 |
 
@@ -483,7 +483,7 @@ public UploadManager(Context context, String appId, FileType fileType,
 | 参数名称          | 类型       | 是否必填 | 说明                                       |
 | :------------ | :------- | :--- | :--------------------------------------- |
 | context       | Context  | 是    |                                          |
-| appId         | String   | 是    | 腾讯云APP ID                                |
+| appId         | String   | 是    | 云平台APP ID                                |
 | fileType      | FileType | 是    | 业务类型，COS服务指明为：FileType.File              |
 | persistenceId | String   | 否    | 持久化 ID，每个 UploadManager 需设置一个唯一的 ID 用于持久化保存未完成任务						 列表，以便应用退出重进后能够继续进行上传；传入为 Null，则不会进行持久化						 保存 |
 
@@ -776,7 +776,7 @@ public Downloader(Context context, String appid, String persistenceId);
 | 参数名称          | 类型      | 是否必填 | 说明           |
 | :------------ | :------ | :--- | :----------- |
 | context       | Context | 是    |              |
-| appid         | String  | 是    | 腾讯云注册的APP ID |
+| appid         | String  | 是    | 云平台注册的APP ID |
 | persistenceId | String  | 否    | 资源的持久化ID     |
 
 #### 示例

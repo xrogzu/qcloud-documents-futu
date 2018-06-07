@@ -24,7 +24,7 @@
 | Host           | service.image.myqcloud.com               | 万象优图服务器域名                                |
 | Content-Length | 包体总长度                                    | 整个请求包体内容的总长度，单位：字节（Byte）                 |
 | Content-Type   | application/json  或者  multipart/form-data | 根据不同接口选择                                 |
-| Authorization  | 鉴权签名                                     | 用于[**鉴权**](https://cloud.tencent.com/doc/product/275/3805)的签名 |
+| Authorization  | 鉴权签名                                     | 用于[**鉴权**](http://tce.fsphere.cn/doc/product/275/3805)的签名 |
 
 ## 使用图片 URL
 ### 请求参数
@@ -257,7 +257,7 @@ Content-Type: image/jpeg
 | -1505 | url格式不对                             |
 | -1506 | 图片下载超时                              |
 | -1507 | 无法访问url对应的图片服务器                     |
-| -5062 | url对应的图片已被标注为不良图片，无法访问（专指存储于腾讯云的图片） |
+| -5062 | url对应的图片已被标注为不良图片，无法访问（专指存储于云平台的图片） |
 | -5103 | OCR识别失败                             |
 
 更多其他 API 错误码请看[**错误码说明**](/document/product/460/8523) 。

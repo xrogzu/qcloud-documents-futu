@@ -33,7 +33,7 @@ FEATURE_ASYMC_ENCRYPTION_ENABLED = y
 | FEATURE_ASYMC_ENCRYPTION_ENABLED | 是否启用非对称加密连接                                                                    |
 
 ## 运行
-请参考 [快速开始](https://cloud.tencent.com/document/product/634/11912)
+请参考 [快速开始](http://tce.fsphere.cn/document/product/634/11912)
 
 ## C-SDK 提供的功能 API 说明
 以下是 V2.0.0 版本 C-SDK 提供的功能和对应 API，用于客户编写业务逻辑，更加详细的说明请查看 src/sdk-impl/qcloud_iot_export.h 及 src/sdk-impl/exports/*.h 中的注释

@@ -5,7 +5,7 @@
 ### 1.导入文件
 类库位置：
 - 1.%root%\samples\sample2\public\QAVSDKDemo\AVWrapper\AVFrameDispatcher.h和AVFrameDispatcher.m
-此处及以下的%root%都表示腾讯云官网提供的SDK包的根目录
+此处及以下的%root%都表示云平台官网提供的SDK包的根目录
 - 2.%root%\samples\sample2\public\QAVSDKDemo\OpenGL_Restruct文件夹
 将其集成进入自己的工程中，集成后如图所示
 ![](https://mccdn.qcloud.com/static/img/52c94ef63daf4dabb92f941db2e6100b/image.png)

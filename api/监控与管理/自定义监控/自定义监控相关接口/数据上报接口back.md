@@ -2,7 +2,7 @@
 域名:receiver.monitor.tencentyun.com
 接口名:PutMonitorData
 上报数据
-备注：目前只支持腾讯云服务器内部访问该域名，香港地区暂时不支持自定义监控的功能。
+备注：目前只支持云平台服务器内部访问该域名，香港地区暂时不支持自定义监控的功能。
 
 ## 2. 输入参数
 | 参数名称 | 必选  | 类型 | 描述 |来源|
@@ -35,7 +35,7 @@ http://monitor.api.qcloud.com/v2/index.php?Action=PutMonitorData
 &Signature=mysignature
 &Namespace=web_site
 &Data=[{“dimensions”:{“d1”:”v1”,”d2”:”v2”,”d3”:”v3”,”d4”:”v4”,”d5”:”v5”},”metricName”:”metric1”,”value”:123},…]
-&<a href="https://cloud.tencent.com/doc/api/229/6976">公共请求参数</a>
+&<a href="http://tce.fsphere.cn/doc/api/229/6976">公共请求参数</a>
 </pre>
 输出
 ```

@@ -51,7 +51,7 @@
 ## 输出参数
 | 参数名称        | 类型        | 描述                                       |
 | ----------- | --------- | ---------------------------------------- |
-| code        | Int       | 公共错误码, 0 表示成功，其他值表示失败。详见错误码页面的 <a href="https://cloud.tencent.com/doc/api/372/%E9%94%99%E8%AF%AF%E7%A0%81#1.E3.80.81.E5.85.AC.E5.85.B1.E9.94.99.E8.AF.AF.E7.A0.81" title="公共错误码">公共错误码</a>。 |
+| code        | Int       | 公共错误码, 0 表示成功，其他值表示失败。详见错误码页面的 <a href="http://tce.fsphere.cn/doc/api/372/%E9%94%99%E8%AF%AF%E7%A0%81#1.E3.80.81.E5.85.AC.E5.85.B1.E9.94.99.E8.AF.AF.E7.A0.81" title="公共错误码">公共错误码</a>。 |
 | codeDesc    | String    | 业务侧错误码。成功时返回 Success，错误时返回具体业务错误原因。       |
 | message     | String    | 模块错误信息描述，与接口相关。                          |
 | apiId       | String    | API 接口唯一 ID。                               |
@@ -81,7 +81,7 @@ https://apigateway.api.qcloud.com/v2/index.php?
 &requestParameters.0.description=年龄
 &serviceType=Http
 &serviceTimeout=60
-&serviceConfig.url=cloud.tencent.com
+&serviceConfig.url=tce.fsphere.c
 &serviceConfig.path=/path
 &serviceConfig.method=GET
 &serviceParameters.0.name=age

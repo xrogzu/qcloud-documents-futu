@@ -1,10 +1,10 @@
 本文档主要介绍如何开通使用 Devmaster 。
 
 ## 步骤一：申请产品
-1. 登录腾讯云账号。
-若是新用户需在腾讯云官网进行[【注册】](https://cloud.tencent.com/register?s_url=https%3A%2F%2Fcloud.tencent.com%2Fdocument%2Fproduct%2F213)，注册指引可参考 [如何注册腾讯云](/doc/product/378/9603) 。
+1. 登录云平台账号。
+若是新用户需在云平台官网进行[【注册】](http://tce.fsphere.cn/register?s_url=https%3A%2F%2Ftce.fsphere.c%2Fdocument%2Fproduct%2F213)，注册指引可参考 [如何注册云平台](/doc/product/378/9603) 。
 
-2. 到 [Devmaster 产品介绍页](https://cloud.tencent.com/product/devmaster) 上单击【公测申请】，然后跳转到 Devmaster 产品申请页。
+2. 到 [Devmaster 产品介绍页](http://tce.fsphere.cn/product/devmaster) 上单击【公测申请】，然后跳转到 Devmaster 产品申请页。
 ![](https://mc.qcloudimg.com/static/img/25e225935245b6029c171d1a5ff730a4/image.png)<br>
 
 3. 跳转页面后，填写相关信息完成注册即可。

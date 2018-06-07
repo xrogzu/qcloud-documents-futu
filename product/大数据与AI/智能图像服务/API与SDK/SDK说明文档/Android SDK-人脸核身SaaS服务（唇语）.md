@@ -1,6 +1,6 @@
 ## 唇语人脸核身 SaaS 服务 Android-SDK 说明文档
 
-腾讯云万象优图人脸核身服务，指通过人脸智能识别技术与OCR技术相结合，在线验证用户自拍视频或照片与身份证照片的匹配关系，秒级确认用户的身份是否真实有效。基于唇语活体检测的人脸核身SaaS服务提供集成了UI的一站式服务，开发者可以轻松集成SDK即可使用人脸核身服务。腾讯云提供IOS与Android的SDK，本文将介绍Android的SDK的集成方式。
+云平台万象优图人脸核身服务，指通过人脸智能识别技术与OCR技术相结合，在线验证用户自拍视频或照片与身份证照片的匹配关系，秒级确认用户的身份是否真实有效。基于唇语活体检测的人脸核身SaaS服务提供集成了UI的一站式服务，开发者可以轻松集成SDK即可使用人脸核身服务。云平台提供IOS与Android的SDK，本文将介绍Android的SDK的集成方式。
 
 ### 1、开发准备
 
@@ -8,17 +8,17 @@
 
 #### 获取账号
 
-- 开发者使用人脸识别功能前，需要先在腾讯云-万象优图控制台注册账号，并获得appid、SecretId和SecretKey等；
+- 开发者使用人脸识别功能前，需要先在云平台-万象优图控制台注册账号，并获得appid、SecretId和SecretKey等；
 - 支持Android 4.0及其以上版本；
 
 #### SDK配置
 
 ##### 导入下列相关库：
-**腾讯云相关**
+**云平台相关**
 
-- facein：腾讯云人脸核身SAAS组件
-- faceid：腾讯云人脸核身PAAS SDK
-- qimage：腾讯云图片云PAAS SDK
+- facein：云平台人脸核身SAAS组件
+- faceid：云平台人脸核身PAAS SDK
+- qimage：云平台图片云PAAS SDK
 
 **其他常用类库**
 
@@ -40,7 +40,7 @@ compile 'org.slf4j:slf4j-android:1.6.1-RC1'
 ```
 **本地构建方式**
 
-下载腾讯云facein、faceid、qimage三个库，以及常用的okhttp3、okio以及slf4j三个库，然后将这6个库文件放在lib目录下，并添加到gradle的构建路径中即可。
+下载云平台facein、faceid、qimage三个库，以及常用的okhttp3、okio以及slf4j三个库，然后将这6个库文件放在lib目录下，并添加到gradle的构建路径中即可。
 
 
 SDK需要的危险权限包括：

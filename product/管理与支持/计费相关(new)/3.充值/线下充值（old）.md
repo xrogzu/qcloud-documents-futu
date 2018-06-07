@@ -6,11 +6,11 @@
 
 ### 进入充值页面进行充值
 
-登录腾讯云账号，点击【立即充值】，进入[充值](https://console.cloud.tencent.com/account/recharge)页面。
+登录云平台账号，点击【立即充值】，进入[充值](http://console.tce.fsphere.cn/account/recharge)页面。
 
 ![](https://mc.qcloudimg.com/static/img/b2fd2d8e3e75569bcfb3b9e96c512600/%7B0D2F7EBB-FF3B-4F4B-815A-3A26FFA41A12%7D.png)
 
-在[充值](https://console.cloud.tencent.com/account/recharge)页面，填入充值金额（1-9999999范围内的整数），点击【立即支付】按钮。
+在[充值](http://console.tce.fsphere.cn/account/recharge)页面，填入充值金额（1-9999999范围内的整数），点击【立即支付】按钮。
 
 ![](https://mc.qcloudimg.com/static/img/75fd27de8bde245469929461b898a5e1/%7B50253966-67D6-47A7-A396-F1B74F94B43D%7D.png)
 
@@ -24,7 +24,7 @@
 
 ### 国际信用卡充值
 
-您现在可以使用国际信用卡为腾讯云账户充值/支付，腾讯云目前支持维萨（VISA）、万事达（MasterCard）的充值/支付。<font color="red">您的信用卡需要在中国大陆以外的地区发行方可使用</font>
+您现在可以使用国际信用卡为云平台账户充值/支付，云平台目前支持维萨（VISA）、万事达（MasterCard）的充值/支付。<font color="red">您的信用卡需要在中国大陆以外的地区发行方可使用</font>
 
 ![](https://mc.qcloudimg.com/static/img/5ab9bff971863d43c7e310b2e3f8cf55/image.png)
 
@@ -49,6 +49,6 @@
 
 ### 充值码充值
 
-在线下活动中，我们可能为客户发放充值码，用于体验腾讯云的业务。获得了充值码，您可以在充值时，输入充值码，将对应资金充入账户。
+在线下活动中，我们可能为客户发放充值码，用于体验云平台的业务。获得了充值码，您可以在充值时，输入充值码，将对应资金充入账户。
 
 ![](https://mc.qcloudimg.com/static/img/bcf76a65e610c6a2bc135052bf4b0b8c/%7BB9C70DF7-23E3-4505-8E93-019553443BF8%7D.png)

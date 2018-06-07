@@ -25,7 +25,7 @@ background: #efefef;
 <br> 接口名：NS.BGPIP.ServicePack.GetInfo
 
 ### 2.输入参数
-以下请求参数列表仅列出了接口请求参数，正式调用时需要加上[公共请求参数](https://cloud.tencent.com/document/product/295/7279)，见公共参数说明页面。
+以下请求参数列表仅列出了接口请求参数，正式调用时需要加上[公共请求参数](http://tce.fsphere.cn/document/product/295/7279)，见公共参数说明页面。
 <br> 其中，此接口的 Action 字段为 NS.BGPIP.ServicePack.GetInfo。
 
 | 参数名称 | 是否必须 | 类型 | 描述 |
@@ -46,5 +46,5 @@ background: #efefef;
 |ccPeak|<font color=red> 10000Mbps</font color=red>| Integer | CC 防护最大值 |
 |ccThreshold|<font color=red> 100 Mbps</font color=red>| Integer | 当前 CC 防护峰值 |
 |elasticLimit|<font color=red> 10000Mbps</font color=red>| Integer | 弹性防护的阈值，超过该阈值后 IP 将被封堵 |
-|transTarget|<font color=red> qcloud<br>nqcloud</font color=red>| String | 高防 IP 的转发目标<br>qcloud：腾讯云内<br>nqcloud：腾讯云外 |
+|transTarget|<font color=red> qcloud<br>nqcloud</font color=red>| String | 高防 IP 的转发目标<br>qcloud：云平台内<br>nqcloud：云平台外 |
 |vpcId|<font color=red> 1234 </font color=red>| Integer | vpc 网络 ID |

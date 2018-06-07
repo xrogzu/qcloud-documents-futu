@@ -26,7 +26,7 @@ SDK 根据代码结构可以大致分成四部分：
 
 3、SDK 接口声明层
 
- - 这里包括了一系列 C 函数的原型声明, 用于编写业务逻辑，实现和腾讯云通信的 API。
+ - 这里包括了一系列 C 函数的原型声明, 用于编写业务逻辑，实现和云平台通信的 API。
  
  - 	sample 里面提供了 demo 代码，可以借此参考如何使用这些 API。
 
@@ -86,5 +86,5 @@ SDK 根据代码结构可以大致分成四部分：
 
 ### SDK 接口声明层+例程
 
-1、接口说明：[SDK 接口文档](https://cloud.tencent.com/document/product/634/11929)
-2、例程介绍：[快速开始](https://cloud.tencent.com/document/product/634/11912)
+1、接口说明：[SDK 接口文档](http://tce.fsphere.cn/document/product/634/11929)
+2、例程介绍：[快速开始](http://tce.fsphere.cn/document/product/634/11912)

@@ -1,14 +1,14 @@
 服务商提供的 API 服务可以是算法或者数据的集成，开发者选购 API 服务后，可以通过服务的调用地址来获取相关的服务（算法或数据）。  
-为保证腾讯云用户正常使用 API 服务，服务商需要在腾讯云网关上部署相关 API 服务。具体请参考 [配置 API 网关接入 API 市场](/document/product/306/13034)。   
+为保证云平台用户正常使用 API 服务，服务商需要在云平台网关上部署相关 API 服务。具体请参考 [配置 API 网关接入 API 市场](/document/product/306/13034)。   
 
 ### 上架流程    
 1. 服务商发布 API 服务至发布环境；
 2. 服务商上架 API 服务商品，并申请审核；
-3. 腾讯云审核商品信息。
+3. 云平台审核商品信息。
  
 ### 上架操作  
 1. 发布 API 服务，请参考 [配置 API 网关接入 API 市场](/document/product/306/13034)。  
-2. 登录 [云市场->服务商管理](https://console.cloud.tencent.com/serviceprovider/goods/api) 后台。  
+2. 登录 [云市场->服务商管理](http://console.tce.fsphere.cn/serviceprovider/goods/api) 后台。  
 3. 进入商品管理 > API 服务，单击【+新建】按钮。    
 ![](https://mc.qcloudimg.com/static/img/c3f3bce8487fc2dd0d3b7d3168ac517f/image.png)  
 4. 填写 API 服务商品信息。

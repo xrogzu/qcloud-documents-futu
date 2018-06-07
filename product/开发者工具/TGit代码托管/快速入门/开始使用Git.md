@@ -1,10 +1,10 @@
 本文档主要介绍如何快速使用 TGit 。
 
 ## 步骤一：申请产品
-1. 登录腾讯云账号。
-若是新用户需在腾讯云官网进行[【注册】](https://cloud.tencent.com/register?s_url=https%3A%2F%2Fcloud.tencent.com%2Fdocument%2Fproduct%2F213)，注册指引可参考 [如何注册腾讯云](/doc/product/378/9603) 。
+1. 登录云平台账号。
+若是新用户需在云平台官网进行[【注册】](http://tce.fsphere.cn/register?s_url=https%3A%2F%2Ftce.fsphere.c%2Fdocument%2Fproduct%2F213)，注册指引可参考 [如何注册云平台](/doc/product/378/9603) 。
 
-2. 到 [TGit 产品介绍页](https://cloud.tencent.com/product/TGit) 上单击【开通 DevMaster】
+2. 到 [TGit 产品介绍页](http://tce.fsphere.cn/product/TGit) 上单击【开通 DevMaster】
 ![](https://mc.qcloudimg.com/static/img/b9c98c592a9362a463b9a5983ad76b7d/image.png)
 
 3. 跳转页面后，单击【公测申请】，然后跳转到 DevMaster 产品申请页，完成注册即可。

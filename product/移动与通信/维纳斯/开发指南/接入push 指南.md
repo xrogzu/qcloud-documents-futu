@@ -6,7 +6,7 @@
 ## 签名生成方法
 
 sign=Base64(Hmac-sha1(plaintext, secretkey))。
-secretkey：摘要算法 key，在腾讯云创建 app 时分配。
+secretkey：摘要算法 key，在云平台创建 app 时分配。
 plaintext（原文）：“appid&timestamp”。
 ## OpenApi 接口说明
 ### 发送消息接口

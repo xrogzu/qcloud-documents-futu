@@ -1,6 +1,6 @@
-LogListener是腾讯云日志服务提供的日志采集Agent，您可以安装LogListener实时采集日志文件。
+LogListener是云平台日志服务提供的日志采集Agent，您可以安装LogListener实时采集日志文件。
 
-**此文档为较低版本 LogListener 的使用指南，若还未安装过 LogListener 我们建议您安装最新版本的LogListener。[获取最新版本 LogListener](https://cloud.tencent.com/document/product/614/11257)** 
+**此文档为较低版本 LogListener 的使用指南，若还未安装过 LogListener 我们建议您安装最新版本的LogListener。[获取最新版本 LogListener](http://tce.fsphere.cn/document/product/614/11257)** 
 
 ## LogListener的系统支持
 

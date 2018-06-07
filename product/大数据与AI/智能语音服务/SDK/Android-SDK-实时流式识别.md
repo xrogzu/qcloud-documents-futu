@@ -3,7 +3,7 @@
 智能语音服务实时流式识别 Android SDK 及 Demo 下载地址：[Android SDK](https://mc.qcloudimg.com/static/archive/6600e4e3ed5d41a5b9bfd649a4f7a3aa/aai-android-sdk-v2.x.zip)
 
 ### 开发前
-1. 开发者使用实时流式识别功能前，需要先在腾讯云- [控制台](https://console.cloud.tencent.com/) 注册账号，并获得 APPID、SecretId 和 SecretKey 等；
+1. 开发者使用实时流式识别功能前，需要先在云平台- [控制台](http://console.tce.fsphere.cn/) 注册账号，并获得 APPID、SecretId 和 SecretKey 等；
 2. 手机必须要有网络（GPRS、3G 或 WiFi 等）；
 3. 支持 Android 4.0 及其以上版本；
 
@@ -13,12 +13,12 @@
 - libWXVoice.so：腾讯语音检测 so 库
 
 ##### 引入 jar 包
-- aai-2.1.2.jar：腾讯云智能语音 SDK
+- aai-2.1.2.jar：云平台智能语音 SDK
 - okhttp-3.2.0.jar
 - okio-1.6.0.jar
 - slf4j-android-1.6.1-RC1.jar
 
-腾讯云智能语音服务 SDK 支持本地构建或者远程构建两种方式：
+云平台智能语音服务 SDK 支持本地构建或者远程构建两种方式：
 #### 本地构建
 可以直接下载 Android SDK 及 Demo，然后集成对应的 so 文件和 jar 包（均在 sdk-source 目录下），最后将 okhttp3、okio 和 slf4j 三个库也集成到 app 中。
 #### 远程构建

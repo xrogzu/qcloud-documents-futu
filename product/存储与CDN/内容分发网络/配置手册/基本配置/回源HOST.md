@@ -2,13 +2,13 @@
 >
 > 源站与回源 HOST：源站配置的 IP/域名能够指引 CDN 节点回源时找到对应的源站服务器，服务器上可能存在若干 WEB 站点，回源 HOST 指明了资源所在的站点。
 >
-> 根据有关部门规定，源站为腾讯云CVM的加速域名，回源 HOST 配置的域名需要在腾讯云备案。
+> 根据有关部门规定，源站为云平台CVM的加速域名，回源 HOST 配置的域名需要在云平台备案。
 
 ## 配置指引
 
 ### 查看配置
 
-登录 [CDN 控制台](https://console.cloud.tencent.com/cdn)，选择左侧菜单栏的【域名管理】，单击您所要编辑的域名右侧的【管理】：
+登录 [CDN 控制台](http://console.tce.fsphere.cn/cdn)，选择左侧菜单栏的【域名管理】，单击您所要编辑的域名右侧的【管理】：
 ![](https://mc.qcloudimg.com/static/img/1f2cb594cd614b62b589cb20a20ed362/basic-config-1.png)
 单击【基本配置】，在最下方可以看到回源 HOST配置：
 ![](https://mc.qcloudimg.com/static/img/8da29875fe47392f6e67839e02f36d65/origin-config-3.png)

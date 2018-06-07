@@ -1,4 +1,4 @@
-数据传输服务 DTS 支持数据迁移功能，提供自建 MySQL 数据库到云数据库 CDB 的连续数据复制，用户可在不停服的情况下对数据进行在线热迁移，支持具有公网 IP/Port 或专线接入腾讯云的本地 IDC 或腾讯云云服务器 CVM 上 MySQL 数据库迁移。**MySQL5.7 暂不支持数据传输服务，可通过下载冷备文件自行导入。**
+数据传输服务 DTS 支持数据迁移功能，提供自建 MySQL 数据库到云数据库 CDB 的连续数据复制，用户可在不停服的情况下对数据进行在线热迁移，支持具有公网 IP/Port 或专线接入云平台的本地 IDC 或云平台云服务器 CVM 上 MySQL 数据库迁移。**MySQL5.7 暂不支持数据传输服务，可通过下载冷备文件自行导入。**
 
 
 ## 准备
@@ -14,11 +14,11 @@
 ### 支持迁移的数据库
 - 支持基础网络、VPC 网络的 CVM 自建 MySQL 数据库迁移至 CDB 实例。
 - 支持具有公网 IP/Port 的 MySQL 数据库迁移至 CDB 实例。
-- 支持 VPN 接入、专线接入腾讯云的 MySQL 数据库迁移至 CDB 实例。
+- 支持 VPN 接入、专线接入云平台的 MySQL 数据库迁移至 CDB 实例。
 
 ### 预先检查以下几项
 1. 检查目标 CDB 实例是否有同名库表，避免冲突；
-2. 检查数据库版本，可支持 MySQL 5.1/5.5/5.6 版本迁移上云；由于目前腾讯云 CDB 已不再支持 MySQL 5.1 版本，因此我们推荐您在迁移前完成 MySQL 5.1 升级到 MySQL 5.5，然后再迁移至 CDB for MySQL 5.5。当然您也可以选择使用 DTS 数据迁移工具直接从本地 MySQL 5.1 迁移至腾讯云 CDB for MySQL 5.5。
+2. 检查数据库版本，可支持 MySQL 5.1/5.5/5.6 版本迁移上云；由于目前云平台 CDB 已不再支持 MySQL 5.1 版本，因此我们推荐您在迁移前完成 MySQL 5.1 升级到 MySQL 5.5，然后再迁移至 CDB for MySQL 5.5。当然您也可以选择使用 DTS 数据迁移工具直接从本地 MySQL 5.1 迁移至云平台 CDB for MySQL 5.5。
 3. 检查目标 CDB 实例容量必须大于源实例；
 4. 在源 MySQL 数据库上创建迁移账号（若有已授权可用于数据迁移的账号，也可不创建）；
 		
@@ -84,7 +84,7 @@
 ![](https://mc.qcloudimg.com/static/img/6d45bf22f31923704b6055f3f94f1781/image.png)
 
 ##### 源库信息
-* 源库类型：目前支持有公网 IP 的 MySQL，云主机上的自建 MySQL，专线接入腾讯云的 MySQL，VPN 接入的 MySQL 四种源库类型
+* 源库类型：目前支持有公网 IP 的 MySQL，云主机上的自建 MySQL，专线接入云平台的 MySQL，VPN 接入的 MySQL 四种源库类型
 ###### 有公网 IP 的 MySQL：能够通过公网 IP 访问的 MySQL 数据库。
 所需信息：
 * MySQL 主机地址
@@ -106,8 +106,8 @@
 			
 ![](https://mc.qcloudimg.com/static/img/1f7d1837b9c18ae22835460215c48daf/image.png)
 	
-###### 专线接入的 MySQL：本地 IDC 自建 MySQL 使用 [专线接入 DC][1] 服务与腾讯云相连接后，可使用 DTS 数据迁移至腾讯云。所需信息：
-* 专线网关：接入腾讯云的数据库服务器所使用的专线网关。[了解专线网关][2]
+###### 专线接入的 MySQL：本地 IDC 自建 MySQL 使用 [专线接入 DC][1] 服务与云平台相连接后，可使用 DTS 数据迁移至云平台。所需信息：
+* 专线网关：接入云平台的数据库服务器所使用的专线网关。[了解专线网关][2]
 * 私有网络：专线网关所属的私有网络
 * MySQL 主机地址：IDC 内的 MySQL 主机地址，DTS 数据迁移将通过专线网关映射 IP 后访问
 * MySQL 端口
@@ -116,7 +116,7 @@
 	
 ![](https://mc.qcloudimg.com/static/img/4d6317bb20e5551f9a5ff58218ae9c18/image.png)
 		
-###### VPN 接入的 MySQL：本地 IDC 自建 MySQL 通过 [腾讯云VPN连接服务][3] 或云主机上自建 VPN 服务接入与腾讯云相连接后，可使用 DTS 数据迁移至腾讯云。
+###### VPN 接入的 MySQL：本地 IDC 自建 MySQL 通过 [云平台VPN连接服务][3] 或云主机上自建 VPN 服务接入与云平台相连接后，可使用 DTS 数据迁移至云平台。
 所需信息：
 * 所属地域：目前仅支持同地域内的 VPN 服务。
 * VPN 类型：[云VPN服务][3] 或云主机上自建 VPN。
@@ -191,11 +191,11 @@
 
 
 
-[1]:	https://cloud.tencent.com/product/dc
-[2]:	https://cloud.tencent.com/document/product/216/549
-[3]:	https://cloud.tencent.com/product/vpn
-[3]:	https://cloud.tencent.com/product/vpn
-[4]:	https://cloud.tencent.com/document/product/215/4956
+[1]:	http://tce.fsphere.cn/product/dc
+[2]:	http://tce.fsphere.cn/document/product/216/549
+[3]:	http://tce.fsphere.cn/product/vpn
+[3]:	http://tce.fsphere.cn/product/vpn
+[4]:	http://tce.fsphere.cn/document/product/215/4956
 
 [img-creat0]: //mc.qcloudimg.com/static/img/d782322e94fc253a41f95e642f794b32/create0.png
 [img-creat1]: //mc.qcloudimg.com/static/img/123cd23d3449cd5497502d8572f4b0a0/creat1.png

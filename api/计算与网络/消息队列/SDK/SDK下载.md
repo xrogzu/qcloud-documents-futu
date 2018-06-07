@@ -1,6 +1,6 @@
 ## SDK下载
 
-腾讯云消息队列目前支持 java、python、php 及 C++ SDK，后续会支持更多语言。也欢迎广大开发者根据 API 说明开发更多语言的 SDK 版本。
+云平台消息队列目前支持 java、python、php 及 C++ SDK，后续会支持更多语言。也欢迎广大开发者根据 API 说明开发更多语言的 SDK 版本。
 
 github地址如下：
 
@@ -31,7 +31,7 @@ github地址如下：
 
 ## SDK使用注意事项
 
-使用SDK前至少要获取[secret id](https://console.cloud.tencent.com/capi)， [secret key](https://console.cloud.tencent.com/capi)，endpoint（即请求发到哪个地域，走内网还是外网）。
+使用SDK前至少要获取[secret id](http://console.tce.fsphere.cn/capi)， [secret key](http://console.tce.fsphere.cn/capi)，endpoint（即请求发到哪个地域，走内网还是外网）。
 
 endpoint 说明：
 队列模式：
@@ -44,7 +44,7 @@ endpoint 说明：
 
 公网endpoint：<font style="color:red">http(s)://cmq-topic-region.api.qcloud.com</font>
  
-- 如果业务进程也部署在腾讯云的 CVM 子机上，强烈建议使用同地域的内网 endpoint。例如在腾讯云北京地域的 CVM 子机则建议您使用 `http://cmq-queue-bj.api.tencentyun.com`。
+- 如果业务进程也部署在云平台的 CVM 子机上，强烈建议使用同地域的内网 endpoint。例如在云平台北京地域的 CVM 子机则建议您使用 `http://cmq-queue-bj.api.tencentyun.com`。
 原因是：1）同地域内网时延更低；2）目前消息队列对于公网下行流量是要收取流量费用的，用内网可以节省这部分的费用。
 - region 需用具体地域替换：gz（广州），sh（上海），bj（北京）。公共参数中的 region 值要与域名的 region 值保持一致，如果出现不一致的情况，以域名的 region 值为准，将请求发往域名 region 所指定的地域。
 - 外网域名请求既支持 http，也支持 https。内网请求仅支持 http。

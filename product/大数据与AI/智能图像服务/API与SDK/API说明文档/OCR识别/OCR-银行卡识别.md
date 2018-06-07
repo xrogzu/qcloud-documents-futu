@@ -3,7 +3,7 @@
 ### 服务简介
 本接口用于根据用户上传的银行卡图像，返回识别出的银行卡字段信息。
 
-开发者使用功能之前，需要先注册腾讯云账号，添加密钥。
+开发者使用功能之前，需要先注册云平台账号，添加密钥。
 
 ### 计费说明
 本接口按实际使用量计费，具体定价请查看 [计费说明](/document/product/641/12399)。
@@ -31,7 +31,7 @@
 
 | 参数    | 必选 | 类型     | 说明                                   |
 | ----- | ---- | ------ | ------------------------------------ |
-| appid | 是   | string |接入项目的唯一标识，可在 [账号信息](https://console.cloud.tencent.com/developer) 或 [云 API 密钥](https://console.cloud.tencent.com/cam/capi) 中查看                           |
+| appid | 是   | string |接入项目的唯一标识，可在 [账号信息](http://console.tce.fsphere.cn/developer) 或 [云 API 密钥](http://console.tce.fsphere.cn/cam/capi) 中查看                           |
 | image | 否   | binary | 图片内容                                 |
 | url   | 否   | string | image和url只提供一个即可；如果都提供，只使用url |
 

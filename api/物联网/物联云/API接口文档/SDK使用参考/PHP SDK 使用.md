@@ -5,8 +5,8 @@
 |  Region    | String   | 区域参数，用来标识希望操作哪个区域的实例            |  是  |
 |  Timestamp | UInt     | 当前UNIX时间戳                                 |  是  |
 |  Nonce     | UInt     | 随机正整数，与 Timestamp 联合起来, 用于防止重放攻击 |  是  |
-|  SecretId  | String   | 由腾讯云平台上申请的标识身份的 SecretId            |  是 |
-|  SecretKey | String   | 由腾讯云平台上申请的标识身份的 SecretKey           |  是 |
+|  SecretId  | String   | 由云平台上申请的标识身份的 SecretId            |  是 |
+|  SecretKey | String   | 由云平台上申请的标识身份的 SecretKey           |  是 |
 
 为简便接口使用，参数 Region、SecretId 和 SecretKey 三个公共参数通过以下接口单独设置：
 
@@ -14,7 +14,7 @@
 - 参数 SecretId、SecretKey 通过类 TXIoTCloudClient 中 setSecurityCredential() 接口进行设置。
 
 ### 获取云 API 密钥(SecretId、SecretKey)
-- 登入 [控制台](https://console.cloud.tencent.com/iotcloud) 后，进入 [云API密钥](https://console.cloud.tencent.com/cam/capi)
+- 登入 [控制台](http://console.tce.fsphere.cn/iotcloud) 后，进入 [云API密钥](http://console.tce.fsphere.cn/cam/capi)
 
 ![云API密钥](https://mc.qcloudimg.com/static/img/62352850496e6184f6a74f496f8d8638/miyao1.png)
 
@@ -40,7 +40,7 @@ use TXIoTCloud\Services\TXIoTCloudClient;
 include 'TXIoTCloud.phar';
 use TXIoTCloud\Services\TXIoTCloudClient;
 
-// secretId、secretKey 为在腾讯云平台上创建的云 API 密钥 
+// secretId、secretKey 为在云平台上创建的云 API 密钥 
 $secretId = "your_secretId";
 $secretKey = "your_secretKey";
 

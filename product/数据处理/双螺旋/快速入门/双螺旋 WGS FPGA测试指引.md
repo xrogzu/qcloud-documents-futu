@@ -2,9 +2,9 @@
 **说明**：本次测试提供的Pipeline为人类全基因组二代分析流程，暂不支持其他物种的分析。
 整个测试过程分为数据准备、分析计算、结果查看三个步骤。
 ## 一、数据准备 ##
-用户在测试前，需提前把测试中使用的源数据文件上传至腾讯云双螺旋。文件上传指引如下：
+用户在测试前，需提前把测试中使用的源数据文件上传至云平台双螺旋。文件上传指引如下：
 ### 1.1 开通双螺旋权限 ###
-双螺旋产品当前为受控开放，点此进入[产品控制台](https://console.cloud.tencent.com/helix)。如您登录后可看见控制台操作界面，说明您的账号已经开通权限，请略过本步骤。如您暂无权限，请在控制台出现的内测申请页面（3秒自动跳转）上提交开通申请。
+双螺旋产品当前为受控开放，点此进入[产品控制台](http://console.tce.fsphere.cn/helix)。如您登录后可看见控制台操作界面，说明您的账号已经开通权限，请略过本步骤。如您暂无权限，请在控制台出现的内测申请页面（3秒自动跳转）上提交开通申请。
 
 ![双螺旋控制台操作页面](https://mc.qcloudimg.com/static/img/5d6fe42b955323dbda84b521e07a95ef/image.png)
 
@@ -20,7 +20,7 @@
 
 图3.新建项目页面
 
-项目新建成功后，系统会自动分配一个COS（腾讯云对象存储）Bucket给该项目，用于存放该项目的数据。用户可在“项目管理”菜单中查看项目关联的COS Bucket名称。
+项目新建成功后，系统会自动分配一个COS（云平台对象存储）Bucket给该项目，用于存放该项目的数据。用户可在“项目管理”菜单中查看项目关联的COS Bucket名称。
 
 ![COS Bucket](https://mc.qcloudimg.com/static/img/261f27ccb63523a651a0943be2771797/COS+Bucket.png)
 
@@ -38,13 +38,13 @@
 
 **COSCMD 工具**
 
-有一定Python操作基础的用户，建议使用COSCMD工具。点击下载[COSCMD工具](https://github.com/tencentyun/coscmd)，工具的使用指引点此了解[COSCMD工具使用说明](https://cloud.tencent.com/document/product/436/10976)
+有一定Python操作基础的用户，建议使用COSCMD工具。点击下载[COSCMD工具](https://github.com/tencentyun/coscmd)，工具的使用指引点此了解[COSCMD工具使用说明](http://tce.fsphere.cn/document/product/436/10976)
 。其中重点配置信息说明如下：
 ![](https://mc.qcloudimg.com/static/img/cb4a6d9006514cbc54e71fe6db395064/image.png)
 图6.COSCMD工具配置信息
 
-1. **secret_id**和**secret_key**，指用户的云API密钥，可从云API密钥控制台“API密钥”菜单中获取。若还没有云API密钥，用户可在控制台上新建。点此进入[云API密钥控制台](https://console.cloud.tencent.com/capi "API密钥")
-2. **APPID**,指用户在腾讯云的标识，可通过 [腾讯云控制台](https://console.cloud.tencent.com/) 【账号信息】查看 APPID。
+1. **secret_id**和**secret_key**，指用户的云API密钥，可从云API密钥控制台“API密钥”菜单中获取。若还没有云API密钥，用户可在控制台上新建。点此进入[云API密钥控制台](http://console.tce.fsphere.cn/capi "API密钥")
+2. **APPID**,指用户在云平台的标识，可通过 [云平台控制台](http://console.tce.fsphere.cn/) 【账号信息】查看 APPID。
 3. **Bucket**，指COS Bucket名称，此处使用系统分配的项目关联Bucket，获取方式见上文图4
 4. **Region**，指文件所属地域，此处固定为 ap-guangzhou
 
@@ -52,14 +52,14 @@
 
 **COS本地同步工具**
 
-其他用户建议通过腾讯云COS本地同步工具上传。点此下载[本地同步工具](https://github.com/tencentyun/cos_sync_tools_v5 "COS同步工具")
-，本地同步工具的使用指引点此了解[工具使用说明](https://cloud.tencent.com/document/product/436/7133 "本地同步工具使用说明")。其中重点配置信息说明如下：
+其他用户建议通过云平台COS本地同步工具上传。点此下载[本地同步工具](https://github.com/tencentyun/cos_sync_tools_v5 "COS同步工具")
+，本地同步工具的使用指引点此了解[工具使用说明](http://tce.fsphere.cn/document/product/436/7133 "本地同步工具使用说明")。其中重点配置信息说明如下：
 
 ![同步工具配置信息](https://mc.qcloudimg.com/static/img/fcafb9aa397b49c39b720430d27f2350/image.png)
 
 图6.同步工具配置信息
 
-1. **secret_id**和**secret_key**，指用户的云API密钥，可从云API密钥控制台“API密钥”菜单中获取。若还没有云API密钥，用户可在控制台上新建。点此进入[云API密钥控制台](https://console.cloud.tencent.com/capi "API密钥")
+1. **secret_id**和**secret_key**，指用户的云API密钥，可从云API密钥控制台“API密钥”菜单中获取。若还没有云API密钥，用户可在控制台上新建。点此进入[云API密钥控制台](http://console.tce.fsphere.cn/capi "API密钥")
 2. **Bucket**，指COS Bucket名称，此处使用系统分配的项目关联Bucket，获取方式见上文图4
 3. **Region**，指文件所属地域，此处固定为 ap-guangzhou
 
@@ -97,7 +97,7 @@
 
 1. ReadGroup参数：1.tID，指的是Read Group的分组ID，一般设置为测序的lane ID; 2.tPL，指的是所用的测序平台，只允许为ILLUMINA，SLX，SOLEXA，SOLID，454，LS454，COMPLETE，PACBIO，IONTORRENT，CAPILLARY，HELICOS或UNKNOWN；3.tSM，指的是样本ID；
 2. stand_call_conf参数：只能为0-100的浮点数，默认为30.0；
-3. 需勾选授权腾讯云双螺旋平台从您的存储桶中读取待计算文件和写入计算结果的权限，平台才可以读取需要分析的文件进行计算，并将结果返回给客户。
+3. 需勾选授权云平台双螺旋平台从您的存储桶中读取待计算文件和写入计算结果的权限，平台才可以读取需要分析的文件进行计算，并将结果返回给客户。
 
 ## 三、结果查看 ##
 平台完成分析计算后，会将结果VCF文件回传到项目关联的COS Bucket中，存放目录为用户在创建作业时设置的“输出目录”。用户可在“数据管理”下“私有文件”子菜单中，查看到平台返回的测试结果文件，用户可将结果文件下载至本地进一步的分析。

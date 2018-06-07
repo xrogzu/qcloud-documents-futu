@@ -2,7 +2,7 @@
 
 ## 配置指引
 
-登录 [CDN 控制台](https://console.cloud.tencent.com/cdn)，选择左侧菜单栏的【域名管理】，单击您所要编辑的域名右侧的【管理】。
+登录 [CDN 控制台](http://console.tce.fsphere.cn/cdn)，选择左侧菜单栏的【域名管理】，单击您所要编辑的域名右侧的【管理】。
 ![](https://mc.qcloudimg.com/static/img/1f2cb594cd614b62b589cb20a20ed362/basic-config-1.png)
 单击【访问控制】，您可以看到 **IP 黑白名单配置** 模块：
 ![](https://mc.qcloudimg.com/static/img/e996fbd8be4168c3a8cb6bf1f4f0d403/ip-config-1.png)

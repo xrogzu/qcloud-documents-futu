@@ -15,7 +15,7 @@ public AAIClient(Context context, int appid, int projectId, String secreteId, Ab
 参数名称|类型|是否必填|参数描述
 --|--|--|--
 context|Context|是|上下文
-APPID|int|是|腾讯云注册的APPID
+APPID|int|是|云平台注册的APPID
 projectId|int|否|用户的projectId
 secreteId|String|是|用户的SecreteId
 credentialProvider|AbsCredentialProvider|是|鉴权类

@@ -1,4 +1,4 @@
-存储引擎是指表的类型。数据库的存储引擎决定了表在计算机中的存储方式。虽然 MySQL 数据库支持功能不同的多种存储引擎，但并非所有引擎都为恢复和数据耐久性而进行了优化。时间点还原和快照还原等腾讯云 MySQL 数据库功能需要可恢复的存储引擎，并且只有 InnoDB 存储引擎支持这些功能。腾讯云 MySQL 数据库默认支持 InnoDB 存储引擎，并在 MySQL 5.6 以上的版本中，不再支持 MyISAM 存储引擎。了解更多关于 InnoDB 和 MyISAM 引擎的信息，请查看 [InnoDB 简介](https://dev.mysql.com/doc/refman/5.7/en/innodb-introduction.html) 和 [MyISAM 简介](https://dev.mysql.com/doc/refman/5.7/en/myisam-storage-engine.html)。
+存储引擎是指表的类型。数据库的存储引擎决定了表在计算机中的存储方式。虽然 MySQL 数据库支持功能不同的多种存储引擎，但并非所有引擎都为恢复和数据耐久性而进行了优化。时间点还原和快照还原等云平台 MySQL 数据库功能需要可恢复的存储引擎，并且只有 InnoDB 存储引擎支持这些功能。云平台 MySQL 数据库默认支持 InnoDB 存储引擎，并在 MySQL 5.6 以上的版本中，不再支持 MyISAM 存储引擎。了解更多关于 InnoDB 和 MyISAM 引擎的信息，请查看 [InnoDB 简介](https://dev.mysql.com/doc/refman/5.7/en/innodb-introduction.html) 和 [MyISAM 简介](https://dev.mysql.com/doc/refman/5.7/en/myisam-storage-engine.html)。
 
 云数据库 MySQL 不支持 MyISAM 引擎的主要原因有如下几个：
 - 在目前的 MySQL 版本中，CDB 对 InnoDB 做了很多内核优化，已经具有明显的性能优势。

@@ -1,102 +1,102 @@
 ## Put Replication
 
-### ¹¦ÄÜÃèÊö
+### ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-Put Bucket Replication ÇëÇóÓÃÓÚÏò¿ªÆô°æ±¾¹ÜÀíµÄ´æ´¢Í°Ìí¼Ó replication ÅäÖÃ¡£Èç¹û´æ´¢Í°ÒÑ¾­ÓµÓÐ replication ÅäÖÃ£¬ÄÇÃ´¸ÃÇëÇó»áÌæ»»ÏÖÓÐÅäÖÃ¡£
+Put Bucket Replication ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ±¾ï¿½ï¿½ï¿½ï¿½Ä´æ´¢Í°ï¿½ï¿½ï¿½ replication ï¿½ï¿½ï¿½Ã¡ï¿½ï¿½ï¿½ï¿½ï¿½æ´¢Í°ï¿½Ñ¾ï¿½Óµï¿½ï¿½ replication ï¿½ï¿½ï¿½Ã£ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ»»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¡ï¿½
 
-### Ï¸½Ú·ÖÎö
+### Ï¸ï¿½Ú·ï¿½ï¿½ï¿½
 
 
-1. Ê¹ÓÃ¸Ã½Ó¿Ú´æ´¢Í°±ØÐëÒÑ¾­¿ªÆô°æ±¾¹ÜÀí£¬°æ±¾¹ÜÀíÏêÏ¸Çë²Î¼û[Put Bucket Versioning](https://cloud.tencent.com/document/product/436/8591 "Put Bucket Versioning")
+1. Ê¹ï¿½Ã¸Ã½Ó¿Ú´æ´¢Í°ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½æ±¾ï¿½ï¿½ï¿½ï¿½ï¿½æ±¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Î¼ï¿½[Put Bucket Versioning](http://tce.fsphere.cn/document/product/436/8591 "Put Bucket Versioning")
 
 ### Response
 
 #### Special Errors
 
-|´íÎóÂë|ÃèÊö|HTTP×´Ì¬Âë|
+|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½|HTTP×´Ì¬ï¿½ï¿½|
 |:--|:--|:--|
-|MalformedXML|XML¸ñÊ½²»ºÏ·¨,Çë¸úrestful apiÎÄµµ×ÐÏ¸±È¶Ô |400 Bad Request|
-|MultiBucketNotSupport|¿çÇøÓò¸´ÖÆÖ»ÄÜÉèÒ»¸öÄ¿µÄbucket|400 Bad Request|
-|NotSupportedStorageClass|Ö¸¶¨µÄ´æ´¢ÀàÐÍ²»ºÏ·¨|400 Bad Request|
-|InvalidBucketState|bucket×´Ì¬Óë²Ù×÷ÇëÇó³åÍ»£¬±ÈÈç¶à°æ±¾¹ÜÀíÓë¿çÇøÓò¸´ÖÆµÄ³åÍ»|409 Conflict|
-|InvalidBucketName|BucketÃû³Æ²»ºÏ·¨|400 Bad Request|
+|MalformedXML|XMLï¿½ï¿½Ê½ï¿½ï¿½ï¿½Ï·ï¿½,ï¿½ï¿½ï¿½restful apiï¿½Äµï¿½ï¿½ï¿½Ï¸ï¿½È¶ï¿½ |400 Bad Request|
+|MultiBucketNotSupport|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ä¿ï¿½ï¿½bucket|400 Bad Request|
+|NotSupportedStorageClass|Ö¸ï¿½ï¿½ï¿½Ä´æ´¢ï¿½ï¿½ï¿½Í²ï¿½ï¿½Ï·ï¿½|400 Bad Request|
+|InvalidBucketState|bucket×´Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ±¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆµÄ³ï¿½Í»|409 Conflict|
+|InvalidBucketName|Bucketï¿½ï¿½ï¿½Æ²ï¿½ï¿½Ï·ï¿½|400 Bad Request|
 
-±¸×¢£º¾ßÌåµÄ´íÎóÔ­Òò¿É²Î¿¼·µ»ØµÄmessage½øÐÐÅÅ²é¡£
-»ñÈ¡¸ü¶à¹ØÓÚCOSµÄ´íÎóÂëµÄÐÅÏ¢£¬»òÕß²úÆ·ËùÓÐµÄ´íÎóÁÐ±í£¬Çë²é¿´[´íÎóÂë](https://cloud.tencent.com/document/product/436/7730)
+ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½ï¿½Ô­ï¿½ï¿½É²Î¿ï¿½ï¿½ï¿½ï¿½Øµï¿½messageï¿½ï¿½ï¿½ï¿½ï¿½Å²é¡£
+ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½COSï¿½Ä´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½ï¿½ß²ï¿½Æ·ï¿½ï¿½ï¿½ÐµÄ´ï¿½ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½é¿´[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½](http://tce.fsphere.cn/document/product/436/7730)
 
 ## Get Replication
 
-### ¹¦ÄÜÃèÊö
+### ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-Get Bucket Replication ½Ó¿ÚÇëÇóÊµÏÖ¶ÁÈ¡´æ´¢Í°ÖÐÓÃ»§¿çÇøÓò¸´ÖÆÅäÖÃÐÅÏ¢¡£
+Get Bucket Replication ï¿½Ó¿ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½Ö¶ï¿½È¡ï¿½æ´¢Í°ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½
 
-### Ï¸½Ú·ÖÎö
+### Ï¸ï¿½Ú·ï¿½ï¿½ï¿½
 
 ### Response
 
 #### Special Errors
 
-|´íÎóÂë|ÃèÊö|HTTP×´Ì¬Âë|
+|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½|HTTP×´Ì¬ï¿½ï¿½|
 |:--|:--|:--|
-|NoSuchBucket|µ±·ÃÎÊµÄBucket²»´æÔÚ|404 Not Found|
+|NoSuchBucket|ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½Bucketï¿½ï¿½ï¿½ï¿½ï¿½ï¿½|404 Not Found|
 
-±¸×¢£º¾ßÌåµÄ´íÎóÔ­Òò¿É²Î¿¼·µ»ØµÄmessage½øÐÐÅÅ²é¡£
-»ñÈ¡¸ü¶à¹ØÓÚCOSµÄ´íÎóÂëµÄÐÅÏ¢£¬»òÕß²úÆ·ËùÓÐµÄ´íÎóÁÐ±í£¬Çë²é¿´[´íÎóÂë](https://cloud.tencent.com/document/product/436/7730)
+ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½ï¿½Ô­ï¿½ï¿½É²Î¿ï¿½ï¿½ï¿½ï¿½Øµï¿½messageï¿½ï¿½ï¿½ï¿½ï¿½Å²é¡£
+ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½COSï¿½Ä´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½ï¿½ß²ï¿½Æ·ï¿½ï¿½ï¿½ÐµÄ´ï¿½ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½é¿´[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½](http://tce.fsphere.cn/document/product/436/7730)
 
 ## Put Bucket Lifecycle
 
-### ¹¦ÄÜÃèÊö
+### ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-COS Ö§³ÖÓÃ»§ÒÔÉúÃüÖÜÆÚÅäÖÃµÄ·½Ê½À´¹ÜÀí Bucket ÖÐ Object µÄÉúÃüÖÜÆÚ¡£ÉúÃüÖÜÆÚÅäÖÃ°üº¬Ò»¸ö»ò¶à¸ö½«Ó¦ÓÃÓÚÒ»×é¶ÔÏó¹æÔòµÄ¹æÔò¼¯ (ÆäÖÐÃ¿¸ö¹æÔòÎª COS ¶¨ÒåÒ»¸ö²Ù×÷)¡£
+COS Ö§ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÃµÄ·ï¿½Ê½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Bucket ï¿½ï¿½ Object ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã°ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¹ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª COS ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½
 
-### Ï¸½Ú·ÖÎö
-Put Bucket Lifecycle ÓÃÓÚÎª Bucket ´´½¨Ò»¸öÐÂµÄÉúÃüÖÜÆÚÅäÖÃ¡£Èç¹û¸Ã Bucket ÒÑÅäÖÃÉúÃüÖÜÆÚ£¬Ê¹ÓÃ¸Ã½Ó¿Ú´´½¨ÐÂµÄÅäÖÃµÄÍ¬Ê±Ôò»á¸²¸ÇÔ­ÓÐµÄÅäÖÃ¡£
+### Ï¸ï¿½Ú·ï¿½ï¿½ï¿½
+Put Bucket Lifecycle ï¿½ï¿½ï¿½ï¿½Îª Bucket ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Âµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Bucket ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú£ï¿½Ê¹ï¿½Ã¸Ã½Ó¿Ú´ï¿½ï¿½ï¿½ï¿½Âµï¿½ï¿½ï¿½ï¿½Ãµï¿½Í¬Ê±ï¿½ï¿½á¸²ï¿½ï¿½Ô­ï¿½Ðµï¿½ï¿½ï¿½ï¿½Ã¡ï¿½
 
 ### Response
 
 #### Special Errors
 
-|´íÎóÂë|ÃèÊö|HTTP×´Ì¬Âë|
+|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½|HTTP×´Ì¬ï¿½ï¿½|
 |:--|:--|:--|
-|NoSuchBucket|µ±·ÃÎÊµÄBucket²»´æÔÚ|404 Not Found|
-|MalformedXML|XML¸ñÊ½²»ºÏ·¨,Çë¸úrestful apiÎÄµµ×ÐÏ¸±È¶Ô |400 Bad Request|
-|InvalidRequest|ÇëÇó²»ºÏ·¨£¬Èç¹û´íÎóÃèÊöÖÐÏÔÊ¾"Conflict lifecycle rule"£¬ÄÇÃ´±íÊ¾xmlÊý¾ÝÖÐµÄ¶àÌõruleÓÐÏà»¥³åÍ»µÄ²¿·Ö¡£|400 Bad Reques|
-|InvalidArgument|ÇëÇó²ÎÊý²»ºÏ·¨, Èç¹û´íÎóÃèÊöÖÐÏÔÊ¾"Rule ID must be unique. Found same ID for more than one rule", ÄÇÃ´±íÊ¾ÓÐ¶à¸öRuleµÄid×Ö¶ÎÏàÍ¬¡£|400 Bad Reques|
+|NoSuchBucket|ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½Bucketï¿½ï¿½ï¿½ï¿½ï¿½ï¿½|404 Not Found|
+|MalformedXML|XMLï¿½ï¿½Ê½ï¿½ï¿½ï¿½Ï·ï¿½,ï¿½ï¿½ï¿½restful apiï¿½Äµï¿½ï¿½ï¿½Ï¸ï¿½È¶ï¿½ |400 Bad Request|
+|InvalidRequest|ï¿½ï¿½ï¿½ó²»ºÏ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾"Conflict lifecycle rule"ï¿½ï¿½ï¿½ï¿½Ã´ï¿½ï¿½Ê¾xmlï¿½ï¿½ï¿½ï¿½ï¿½ÐµÄ¶ï¿½ï¿½ï¿½ruleï¿½ï¿½ï¿½à»¥ï¿½ï¿½Í»ï¿½Ä²ï¿½ï¿½Ö¡ï¿½|400 Bad Reques|
+|InvalidArgument|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾"Rule ID must be unique. Found same ID for more than one rule", ï¿½ï¿½Ã´ï¿½ï¿½Ê¾ï¿½Ð¶ï¿½ï¿½Ruleï¿½ï¿½idï¿½Ö¶ï¿½ï¿½ï¿½Í¬ï¿½ï¿½|400 Bad Reques|
 
 
-±¸×¢£º¾ßÌåµÄ´íÎóÔ­Òò¿É²Î¿¼·µ»ØµÄmessage½øÐÐÅÅ²é¡£
-»ñÈ¡¸ü¶à¹ØÓÚCOSµÄ´íÎóÂëµÄÐÅÏ¢£¬»òÕß²úÆ·ËùÓÐµÄ´íÎóÁÐ±í£¬Çë²é¿´[´íÎóÂë](https://cloud.tencent.com/document/product/436/7730)
+ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½ï¿½Ô­ï¿½ï¿½É²Î¿ï¿½ï¿½ï¿½ï¿½Øµï¿½messageï¿½ï¿½ï¿½ï¿½ï¿½Å²é¡£
+ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½COSï¿½Ä´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½ï¿½ß²ï¿½Æ·ï¿½ï¿½ï¿½ÐµÄ´ï¿½ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½é¿´[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½](http://tce.fsphere.cn/document/product/436/7730)
 
 ## Get Bucket Lifecycle
 
-### ¹¦ÄÜÃèÊö
+### ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-Get Bucket Lifecycle ÓÃÀ´²éÑ¯ Bucket µÄÉúÃüÖÜÆÚÅäÖÃ¡£
+Get Bucket Lifecycle ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¯ Bucket ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¡ï¿½
 
-### Ï¸½Ú·ÖÎö
+### Ï¸ï¿½Ú·ï¿½ï¿½ï¿½
 
 ### Response
 
 #### Special Errors
 
-|´íÎóÂë|ÃèÊö|HTTP×´Ì¬Âë|
+|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½|HTTP×´Ì¬ï¿½ï¿½|
 |:--|:--|:--|
-|NoSuchBucket|µ±·ÃÎÊµÄBucket²»´æÔÚ|404 Not Found|
-|NoSuchLifecycleConfiguration|ÉúÃüÖÜÆÚÅäÖÃ²»´æÔÚ¡£|404 Not Found|
+|NoSuchBucket|ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½Bucketï¿½ï¿½ï¿½ï¿½ï¿½ï¿½|404 Not Found|
+|NoSuchLifecycleConfiguration|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã²ï¿½ï¿½ï¿½ï¿½Ú¡ï¿½|404 Not Found|
 
 ## Post Object
 
-### ¹¦ÄÜÃèÊö
+### ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-Post ObjectÊ¹ÓÃHTML±íµ¥ÉÏ´«ÎÄ¼þµ½Ö¸¶¨bucket¡£
+Post ObjectÊ¹ï¿½ï¿½HTMLï¿½ï¿½ï¿½Ï´ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½bucketï¿½ï¿½
 
-### Ï¸½Ú·ÖÎö
+### Ï¸ï¿½Ú·ï¿½ï¿½ï¿½
 
 ### Response
 
 #### Special Errors
 
-|´íÎóÂë|ÃèÊö|HTTP×´Ì¬Âë|
+|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½|HTTP×´Ì¬ï¿½ï¿½|
 |:--|:--|:--|
-|MalformedPOSTRequest|¸ÃPOSTÇëÇóµÄBodyÄÚÈÝ²»ºÏ·¨|400 Bad Request|
-|InvalidArgument|ÇëÇó²ÎÊý²»ºÏ·¨|404 Not Found|
+|MalformedPOSTRequest|ï¿½ï¿½POSTï¿½ï¿½ï¿½ï¿½ï¿½Bodyï¿½ï¿½ï¿½Ý²ï¿½ï¿½Ï·ï¿½|400 Bad Request|
+|InvalidArgument|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·ï¿½|404 Not Found|

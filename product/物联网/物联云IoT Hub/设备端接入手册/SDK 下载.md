@@ -44,7 +44,7 @@
 - 开发环境：Linux, GNU Make
 - 内容：
   1、MQTT 协议支持：支持设备快捷轻便的链接 IoT Hub 云端服务器，可查看 [MQTT协议详解](https://github.com/mcxiaoke/mqtt)
-  2、设备影子功能支持：具体可查看[设备影子详情](https://cloud.tencent.com/document/product/634/11918)
+  2、设备影子功能支持：具体可查看[设备影子详情](http://tce.fsphere.cn/document/product/634/11918)
   3、提供对称和非对称两种加密方式支持
 
 ## Android SDK
@@ -62,6 +62,6 @@
 - 发布日期：2018/1/17
 - 内容：
   1、MQTT 协议支持：支持设备快捷轻便的链接 IoT Hub 云端服务器，可查看 [MQTT协议详解](https://github.com/mcxiaoke/mqtt)
-  2、设备影子功能支持：具体可查看 [设备影子详情](https://cloud.tencent.com/document/product/634/11918)
+  2、设备影子功能支持：具体可查看 [设备影子详情](http://tce.fsphere.cn/document/product/634/11918)
   3、MQTT 和设备影子均提供跨进程调用 API
   4、提供非对称加密方式支持

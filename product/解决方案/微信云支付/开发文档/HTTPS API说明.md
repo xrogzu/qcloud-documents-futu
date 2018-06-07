@@ -3832,8 +3832,8 @@ post(request, "https://pay.qcloud.com/cpay/upload_client_conf_info", &response);
 | `out_channel_id` | 否 | String |云支付分配给渠道商的ID |
 | `out_card_id` | 否 | String |会员卡ID |
 | `sub_mch_pay_info` | 否 | String |商户下单时存在订单中的特定信息 |
-| `mch_uin` | 否 | String | 服务商的腾讯云账号ID |
-| `mch_sub_uin` | 否 | String | 子服务商的腾讯云账号ID |
+| `mch_uin` | 否 | String | 服务商的云平台账号ID |
+| `mch_sub_uin` | 否 | String | 子服务商的云平台账号ID |
 | `using_stream_sub_mch` | 否 | bool | 是否使用银行商户 |
 | `upstream_order_mch_ext` | 否 | UpstreamOrderMchExt | 银行渠道相关信息|
 | `wxpay_order_mch_ext` | 否 | WxpayOrderMchExt| 微信支付服务商扩展信息 |

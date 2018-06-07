@@ -1,4 +1,4 @@
-LogListener 是腾讯云日志服务提供的日志采集 Agent，您可以安装 LogListener 实时采集日志文件。
+LogListener 是云平台日志服务提供的日志采集 Agent，您可以安装 LogListener 实时采集日志文件。
 
 ## LogListener 系统支持
 
@@ -25,7 +25,7 @@ cd loglistener/tools;
 ./install.sh $(SecretId) $(SecretKey) $(region)
 ```
 
-注：这里的 SecretId 与 SecretKey为您[云api秘钥](https://console.cloud.tencent.com/cam/capi)中的 SecretId 与 SecretKey。我们建议您使用协作者秘钥，使用前请注意授权协作者对日志服务有读写权限。region 为您所使用的**日志服务区域而非您的机器所处的区域**。服务区域编码如下：
+注：这里的 SecretId 与 SecretKey为您[云api秘钥](http://console.tce.fsphere.cn/cam/capi)中的 SecretId 与 SecretKey。我们建议您使用协作者秘钥，使用前请注意授权协作者对日志服务有读写权限。region 为您所使用的**日志服务区域而非您的机器所处的区域**。服务区域编码如下：
 
 ```
 shanghai - 上海
@@ -87,7 +87,7 @@ cd loglistener/tools;
 2. 备份较低版本 LogListener
 3. 下载并安装最新版本 LogListener 
 
->后续我们将支持2.0.0以上版本的LogListener自动更新，敬请期待。[低于2.0.0版本LogListener使用指南](https://cloud.tencent.com/document/product/614/13550)
+>后续我们将支持2.0.0以上版本的LogListener自动更新，敬请期待。[低于2.0.0版本LogListener使用指南](http://tce.fsphere.cn/document/product/614/13550)
 
 ## LogListener 工作原理
 

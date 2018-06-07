@@ -2,12 +2,12 @@
 
 ![](https://mc.qcloudimg.com/static/img/f47bf4ef0fcb96bdccf6f302b274afce/image.png)
 
-腾讯云PC直播是在PC（**windows/mac**）上借助安装的推流软件 **OBS（推荐）**或者 **XSplit**，向腾讯**视频云**的**推流地址**，推送经过压缩编码**现场活动**、**教学**、**投影**或者**游戏**等画面。同时观众可以通过和推流地址相对应的播放地址收看**实时画面**。
+云平台PC直播是在PC（**windows/mac**）上借助安装的推流软件 **OBS（推荐）**或者 **XSplit**，向腾讯**视频云**的**推流地址**，推送经过压缩编码**现场活动**、**教学**、**投影**或者**游戏**等画面。同时观众可以通过和推流地址相对应的播放地址收看**实时画面**。
 
 
 ## PC直播流程
 PC直播流程非常简单，主要步骤：
-- 从腾讯云直播控制台获取一个**推流地址**和3个播放地址，解决**往哪推流**的问题。
+- 从云平台直播控制台获取一个**推流地址**和3个播放地址，解决**往哪推流**的问题。
 - 采用第三方的推流软件，设置推流音视频源以及编码参数，解决推什么**内容**的问题。
 - 观众就可以使用我们提供的RTMP DEMO通过设置播放地址即可进行观看。解决内容**触达到观众**那里的问题。
 
@@ -15,12 +15,12 @@ PC直播流程非常简单，主要步骤：
 
 
 ## 1. 直播前准备
-- 在腾讯云开通云直播服务
-如果您尚未开通，点击这里[申请开通](https://console.cloud.tencent.com/live)云直播服务。
+- 在云平台开通云直播服务
+如果您尚未开通，点击这里[申请开通](http://console.tce.fsphere.cn/live)云直播服务。
 ![](https://mc.qcloudimg.com/static/img/f45715687e787ee9a8e18154d1e13b92/image.png)
 
 ### 1.2 生成推流地址
-如何您尚未准备好**推流地址**，点击这里[接入管理 >> 直播码接入 >>推流生成器](https://console.cloud.tencent.com/live)生成一个**推流地址**和三个播放地址。
+如何您尚未准备好**推流地址**，点击这里[接入管理 >> 直播码接入 >>推流生成器](http://console.tce.fsphere.cn/live)生成一个**推流地址**和三个播放地址。
 
 其中，域名为 **livepush.myqcloud.com** 的即为推流地址：
 ![](https://mc.qcloudimg.com/static/img/98b9b659be67a9ac32384b606ace943f/image.png)
@@ -115,7 +115,7 @@ XSplit是收费的，如果银子不够的话，推荐用OBS（**Free**）。XSp
 
 
 ### 3.2 RTMP DEMO 播放验证
-[下载](https://cloud.tencent.com/document/product/454/6555) RTMP DEMO，将播放地址用在线二维码[生成器](http://cli.im/)生成二维码后，即可扫码播放。
+[下载](http://tce.fsphere.cn/document/product/454/6555) RTMP DEMO，将播放地址用在线二维码[生成器](http://cli.im/)生成二维码后，即可扫码播放。
 
 ### 3.3 VLC 播放验证
 [VLC下载地址](http://www.videolan.org/vlc/)，安装按照默认设置即可。打开后点击**媒体菜单**，选择**打开网络串流**，填写播放地址，点击**播放**。

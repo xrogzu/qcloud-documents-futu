@@ -22,7 +22,7 @@
 
 # 数据订阅 SDK 示例代码简介
 ---
-使用腾讯云 Binlog 订阅示例代码如下：
+使用云平台 Binlog 订阅示例代码如下：
 ```
 public class Main {
 	
@@ -74,7 +74,7 @@ public class Main {
  3. 最后启动客户端，开始流程
 在监听器`ClusterListener`中，可以根据用户自身的需求，对收到的数据进行操作，还可以对收到 Binlog 数据根据类型进行过滤，比如过滤掉所有`drop`语句等。
  
- 示例代码中，用户需要提供五个参数。其中，`secretId`和`secretKey`是跟用户腾讯云帐号关联的密钥值，可以在腾讯云管理中心-->云产品-->云API密钥-->API 密钥中查看，SDK 用这两个两个参数来对用户操作进行鉴权；另外三个参数`serviceIp` `servicePort` `channelId`都是与用户 Binlog 订阅相关的，在腾讯云 CDB for MySQL 相应页面配置好订阅内容后，会展示在控制台上，具体操作步骤请参考控制台操作指引。
+ 示例代码中，用户需要提供五个参数。其中，`secretId`和`secretKey`是跟用户云平台帐号关联的密钥值，可以在云平台管理中心-->云产品-->云API密钥-->API 密钥中查看，SDK 用这两个两个参数来对用户操作进行鉴权；另外三个参数`serviceIp` `servicePort` `channelId`都是与用户 Binlog 订阅相关的，在云平台 CDB for MySQL 相应页面配置好订阅内容后，会展示在控制台上，具体操作步骤请参考控制台操作指引。
  
  注意：数据订阅 SDK 已经接入了 CAM 权限控制，根账号默认有所有的权限，可以直接用根账号的云 API 密钥访问；子账号默认没有任何权限，需要根账号给子账号赋予`name/dts:AuthenticateSubscribeSDK`操作的权限，或者赋予 DTS 所有操作的权限`QcloudDTSFullAccess`。
 
@@ -99,7 +99,7 @@ public void setSecretId(String secretId)
 
 | 参数名 | 类型 | 参数含义 |
 |:-------------:|:-------------|:-------------|
-| secretId | String | 安全凭证 secretId，可以在腾讯云管理中心-->云产品-->云 API 密钥-->API 密钥中查看 |
+| secretId | String | 安全凭证 secretId，可以在云平台管理中心-->云产品-->云 API 密钥-->API 密钥中查看 |
 
 ##### 返回结果
 无
@@ -114,7 +114,7 @@ public void setSecretKey(String secretKey)
 ##### 输入参数
 | 参数名 | 类型 | 参数含义 |
 |:-------------:|:-------------|:-------------|
-| secretKey| String | 安全凭证 secretKey，可以在腾讯云管理中心-->云产品-->云 API 密钥-->API 密钥中查看 |
+| secretKey| String | 安全凭证 secretKey，可以在云平台管理中心-->云产品-->云 API 密钥-->API 密钥中查看 |
 
 ##### 返回结果
 无
