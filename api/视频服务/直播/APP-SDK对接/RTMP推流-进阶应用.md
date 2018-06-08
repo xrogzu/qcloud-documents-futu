@@ -11,12 +11,12 @@
 
 - **step4 - 推流主循环：**直播推流是一个持续的过程，受 SDK 内部一个主循环引擎的驱动，只有在用 stopPush 主动停止或者遭遇不可恢复的错误时才会跳出主循环。
 
-![SDK内部原理](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tencent_cloud_rtmp_sdk_pusher_status_14.jpg)
+![SDK内部原理](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tencent_cloud_rtmp_sdk_pusher_status_14.jpg)
 
 ## 2. 了解 SDK 推流质量
 RTMP SDK 在设计之初就尽量避免过于封闭，让您觉得 SDK 完全是个黑盒是我们所不希望看到的情况，所以我们提供了一种**状态反馈机制**：每1-2秒就会将内部各种状态参数反馈出来。
 
-![](https://mc.qcloudimg.com/static/img/48fd46af4e17b0299fd00a0e661a16f0/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/48fd46af4e17b0299fd00a0e661a16f0/image.png)
 
 您要做的就是提供一个 **TXLivePushListener** 监听器给 TXLivePush 对象，RTMP SDK 会通过 onNetStatus 回调将所有内部状态全部通知出去。
   
@@ -48,7 +48,7 @@ RTMP SDK 在设计之初就尽量避免过于封闭，让您觉得 SDK 完全是
 >如果 CACHE_SIZE 大小持续超过个位数，或者 DROP_CNT 有增加，都说明主播的网络质量不 OK，推流质量难保证。
 >
 >下图所示就是一个典型的<font color='blue'>上行带宽不足导致观众端反馈持续卡顿</font>的经典案例：
->![](https://mc.qcloudimg.com/static/img/319d6197da603ca15ffc6e2afd778e48/image.png)
+>![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/319d6197da603ca15ffc6e2afd778e48/image.png)
 
 **3. CPU_USAGE 的大小** 
 >普通场景下，RTMP SDK 在各个平台的推流 CPU 使用率均会要求保持在 50% 一下，尤其是在开启硬件编码的情况下。比如在小米3这款机型上，开启硬件加速后，720p超清画质推流也不过30%的CPU使用率。
@@ -63,7 +63,7 @@ RTMP SDK 在设计之初就尽量避免过于封闭，让您觉得 SDK 完全是
 ### 2.2 SDK推流质量专区
 
 您在 2.1 中所看到的图表是源于我们实验测试用的内部数据分析系统，如果您有同样的分析需求，可以在[直播控制台](http://console.tce.fsphere.cn/live)的质量监控系统里看到类似的图表，这里的图表的格式更加简明，对其理解不需要太多专业的音视频基础知识。
-![](https://mc.qcloudimg.com/static/img/4bf231da79ec8e45bdc4c16c927da47f/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4bf231da79ec8e45bdc4c16c927da47f/image.png)
 
 ## 3. 校调推流参数
 如果您希望定制视频编码参数，音频编码参数等等，您可以通过设置Config对象实现您的自定义需求，目前我们支持的setting接口如下：

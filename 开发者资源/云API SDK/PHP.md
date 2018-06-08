@@ -14,7 +14,7 @@
 [从 Github 访问 >>](https://github.com/QcloudApi/qcloudapi-sdk-php)
 
 2.直接下载
-[点击下载 PHP SDK >>](https://mc.qcloudimg.com/static/archive/cd1857b4d9a9aeb0179e72a59f235c41/qcloudapi-sdk-php-master.zip)
+[点击下载 PHP SDK >>](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/cd1857b4d9a9aeb0179e72a59f235c41/qcloudapi-sdk-php-master.zip)
 
 3.composer
 在composer.json的require结构体中加入一行："tencentyun-api/qcloudapi-sdk-php": "dev-master"

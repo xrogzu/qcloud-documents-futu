@@ -4,9 +4,9 @@
 
 ### AAAA记录的添加方式
 
-![](https://mccdn.qcloud.com/static/img/8e432533340ec0b090eaeaecdee73e2e/4A-1.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/8e432533340ec0b090eaeaecdee73e2e/4A-1.png)
 
-![](https://mccdn.qcloud.com/static/img/fdba290c73675f5b526eecab58cbd352/4A-2.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/fdba290c73675f5b526eecab58cbd352/4A-2.png)
 
 1. 主机记录处填子域名（比如需要www.123.com ，只需要在主机记录处填写www即可；如果只是想添加123.com的解析，主机记录直接留空，系统会自动填一个“@”到输入框内）。
 

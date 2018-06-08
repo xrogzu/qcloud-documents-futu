@@ -12,17 +12,17 @@
 1. 登录云平台云监控控制台 [Dashbaord](http://console.tce.fsphere.cn/monitor/dashboard) 页面。
 2. 单击【+】图标，即新建监控面板按钮。
 3. 自定义监控面板名称，单击【确定】后完成创建面板。
-   ![3](http://mc.qcloudimg.com/static/img/389f555ee1ffb844fb00f8c61822c38b/image.png)
+   ![3](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/389f555ee1ffb844fb00f8c61822c38b/image.png)
 
 ### 重命名&删除面板
 
 用户可通过面板中的菜单栏，对面板进行重命名和删除操作。单击面板右侧的【...】图标即可进行操作。
-![](http://mc.qcloudimg.com/static/img/affd539eaf50e0d41a4a4e3dc42573bc/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/affd539eaf50e0d41a4a4e3dc42573bc/image.png)
 
 ### 调整面板排序
 
 点击面板标签并拖动到目的位置，即可调整面板排序。
-![](http://mc.qcloudimg.com/static/img/87c038ba833c3e612dc5a3ab6d3664aa/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/87c038ba833c3e612dc5a3ab6d3664aa/image.png)
 
 ## 监控视图配置
 
@@ -42,15 +42,15 @@ Dashboard目前提供了折线图、面积图、柱状图三种监控视图供�
 - 明细视图：在一个图里展示多台资源同个指标的多条曲线。
 - 聚合视图：在一个图里展示多台资源同个指标汇聚数据的曲线，支持同时展示两个同单位指标的汇聚数据。
 
-![](http://mc.qcloudimg.com/static/img/67c54615dc83ed2bb92b1e4684ed9d44/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/67c54615dc83ed2bb92b1e4684ed9d44/image.png)
 
 #### 创建流程
 
 1. 点击dashbaord中的【添加监控图表】。
-   ![](http://mc.qcloudimg.com/static/img/846763f78af542e795b211cac8d63e61/image.png)
+   ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/846763f78af542e795b211cac8d63e61/image.png)
 
 2. 在弹窗中进行图表配置操作。
-   ![](http://mc.qcloudimg.com/static/img/fc99d01f2c0671e40d66b127e8eaf318/image.png)
+   ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/fc99d01f2c0671e40d66b127e8eaf318/image.png)
 
 3. 完成后单击【确定】按钮，即完成视图创建。
    - 若面板中无视图，新建视图将默认由左上至右下的次序依次建立在面板中。

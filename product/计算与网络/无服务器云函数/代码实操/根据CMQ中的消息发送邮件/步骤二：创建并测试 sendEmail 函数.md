@@ -92,7 +92,7 @@ def main_handler(event, context):
 其中 `msgBody` 字段内， `fromAddr`，`toAddr`内的字段，可以根据您自身邮箱地址进行修改，建议可以修改为相同地址，自身邮箱向自身邮箱内发送邮件，以便测试邮件发送的正确性。我们在这里使用了 `3473058547@qq.com` 这个邮箱来进行测试。
 
 3) 点击【运行】按钮，观察运行结果。如果在结果中发现返回值和日志中均显示 "send email success"，则此程序运行正常。
-![](https://mc.qcloudimg.com/static/img/2f660ce173162212ac1fc1bf4aaf1b09/function+test.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2f660ce173162212ac1fc1bf4aaf1b09/function+test.png)
 
 4) 前往个人配置的接收邮箱，查收是否收取到邮件。打开邮件，查看邮件内容是否为配置的内容。
-![](https://mc.qcloudimg.com/static/img/a6f6b9c368e208f795e0700f597363c6/email+confirm.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/a6f6b9c368e208f795e0700f597363c6/email+confirm.png)

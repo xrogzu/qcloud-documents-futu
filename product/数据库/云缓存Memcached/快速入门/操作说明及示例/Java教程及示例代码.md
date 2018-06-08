@@ -2,7 +2,7 @@
 
 环境: 在云平台CVM上安装对应的Java JDK [[下载地址](http://www.oracle.com/technetwork/java/javase/downloads/index.html?spm=5176.775974146.2.4.9Oqs71)]
 
-依赖: 本例使用Memcached-Java-Client.2.5.1版本 [[下载地址]](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/memcached-java-2.5.1.zip)，（暂不支持SpyMemcached客户端）
+依赖: 本例使用Memcached-Java-Client.2.5.1版本 [[下载地址]](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/memcached-java-2.5.1.zip)，（暂不支持SpyMemcached客户端）
 
 ## 2 使用步骤
 
@@ -18,7 +18,7 @@
 /**
  * qcloud cmem java-memcached2.5.1-client demo
  * 使用方法:
- * 1. memcached2.5.1源码地址: http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/memcached-java-2.5.1.zip
+ * 1. memcached2.5.1源码地址: http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/memcached-java-2.5.1.zip
  * 2. 下载源码并引入到项目中
  * 3. 参照demo代码实现相应功能
  */

@@ -4,7 +4,7 @@ RTMP 推流质量对于观看体验非常关键，因为如果主播的推流质
 
 在众多的推流质量问题中，主播的上行网络不给力引发的问题又是最主要的，上行带宽不足会导致音视频数据在主播端堆积并丢弃，从而使观众端看到的视频画面出现卡顿甚至长时间卡死。
 
-![](https://mc.qcloudimg.com/static/img/3c10b3a268b4807a184b767b1cc4363c/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/3c10b3a268b4807a184b767b1cc4363c/image.png)
 
 所以，优化主播上行卡顿问题能够有效地提升推流质量，进而提升观看端的质量，尤其在国内运营商普遍限制上行带宽的情况下。
 
@@ -13,7 +13,7 @@ RTMP 推流质量对于观看体验非常关键，因为如果主播的推流质
 ## 快速对接
 使用 TXLivePusher 的 setVideoQuality 接口的 参数即可开启 Qos 流控，开启 Qos 流控以后 SDK 会根据主播上行网络的好坏决定视频的清晰度。
 
-![](https://mc.qcloudimg.com/static/img/c52dc506047402db04ac285fa7520e65/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/c52dc506047402db04ac285fa7520e65/image.png)
 
 - **quality**
 SDK 提供了六种基础档位，根据我们服务大多数客户的经验进行积累和配置。其中 STANDARD、HIGH、SUPER 适用于直播模式，MAIN_PUBLISHER 和 SUB_PUBLISHER 适用于连麦直播中的大小画面，VIDEOCHAT 用于实时音视频。
@@ -24,7 +24,7 @@ SDK 提供了六种基础档位，根据我们服务大多数客户的经验进�
 - **adjustResolution**
 是否允许动态分辨率，开启后 SDK 会根据当前的视频码率选择相匹配的分辨率，这样能获得更好的清晰度。相应的代价就是，动态分辨率的直播流所录制下来的文件，在很多播放器上会有兼容性问题。
 
-![](https://mc.qcloudimg.com/static/img/07deb1e7e01daba3227175a0fcec1fa5/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/07deb1e7e01daba3227175a0fcec1fa5/image.png)
 
 ## 精细校调
 如果您觉得 setVideoQuality 里的默认参数无法满足您的需求，您可以通过 TXLivePushConfig 进行定制：

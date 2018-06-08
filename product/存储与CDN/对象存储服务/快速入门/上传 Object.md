@@ -2,19 +2,19 @@
 
 进入 COS 管理控制台，点击想要上传文件的目标 Bucket 名称，进入 Bucket 的资源管理页面：
 
-![](https://mccdn.qcloud.com/static/img/4278478bceb5320a669de7bdb128f105/image.jpg)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/4278478bceb5320a669de7bdb128f105/image.jpg)
 
 点击页面上的 **上传** ，出现文件上传对话框：
 
-![](https://mccdn.qcloud.com/static/img/ddcb406303fe11dac3747c08073ed48d/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/ddcb406303fe11dac3747c08073ed48d/image.png)
 
 点击 **选择文件...** ，选择本地文件进行上传，部分浏览器支持多文件上传：
 
-![](https://mccdn.qcloud.com/static/img/e2b6bf8766fb73af24aa856c0e22eb12/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/e2b6bf8766fb73af24aa856c0e22eb12/image.png)
 
 点击 **上传完成** ，即可在文件列表中看到上传的文件信息：
 
-![](https://mccdn.qcloud.com/static/img/c89069fd52b91046463171fa59426b7f/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/c89069fd52b91046463171fa59426b7f/image.png)
 
 也可点击 **创建文件夹** ，将文件上传至自定义文件夹中。
 

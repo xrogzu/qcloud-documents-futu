@@ -18,7 +18,7 @@ MQTT 客户端连接 IoT MQ 服务器时，须发送 CONNECT 报文，且在 Con
 
 1. 登录 [云平台控制台](http://console.tce.fsphere.cn/)。
 2. 单击【云产品】，选择【管理工具】栏下的【云 API 密钥】，进入云 API 密钥管理页面。
-![](https://mc.qcloudimg.com/static/img/a771465c47830d54730f8f431d586991/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/a771465c47830d54730f8f431d586991/image.png)
 3. 在 [ API 密钥管理](http://console.tce.fsphere.cn/capi) 页面，单击【新建密钥】即可以创建一对 SecretId/SecretKey。
 >**注意：**
 > - 开发商帐号最多可以拥有两对 SecretId / SecretKey。
@@ -30,7 +30,7 @@ MQTT 客户端连接 IoT MQ 服务器时，须发送 CONNECT 报文，且在 Con
 ### 3.1 使用控制台生成签名
 为了方便用户对比验证自己的签名计算是否正确，IoT MQ 控制台提供了[客户端签名计算工具](http://console.tce.fsphere.cn/iotmq/tool)供参考对比。
 输入使用账号的 SecretId, SecretKey，选择需要需访问的实例，即可得到客户端连接该实例需使用的用户名和密码。
-![](https://mc.qcloudimg.com/static/img/244089eb3a17badc54ac1ba11d3bc2ee/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/244089eb3a17badc54ac1ba11d3bc2ee/image.png)
 
 > 注：
 > 此工具仅仅使用浏览器前端 JavaScript 完成计算，并不会传输 SecretKey 到 IoT MQ 后端，因此不用担心 SecretKey 泄漏的风险。

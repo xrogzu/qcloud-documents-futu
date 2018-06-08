@@ -2,21 +2,21 @@
 
 登录小微 Skill [控制台](https://xiaowei.qcloud.com/developer/skill-list)，单击右上角【新建技能】。
 
-![](https://mc.qcloudimg.com/static/img/93e4a3087be6cc3111d03bc8a3460730/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/93e4a3087be6cc3111d03bc8a3460730/image.png)
 
 ## 输入基本信息
 
  1. 输入【名称】，在【QSkill 类型】处勾选【自定义类型】，完成后单击右下角【提交】。
 
-![](https://mc.qcloudimg.com/static/img/c3af40c4f106eb179eb4c363ced3a0c2/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/c3af40c4f106eb179eb4c363ced3a0c2/image.png)
 
  2. 选择【基本配置】，填写完必要信息后单击右下角【开始配置】。
 
-![](https://mc.qcloudimg.com/static/img/364a31032144d487fc620ca112d4d219/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/364a31032144d487fc620ca112d4d219/image.png)
 
  3. 授权模式选择【授权码访问模式】，填写完必要信息后点击【保存】
 
-![](https://mc.qcloudimg.com/static/img/67323870ffd1a86866c9fe7585d3454d/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/67323870ffd1a86866c9fe7585d3454d/image.png)
 
 ## 配置语言模型
 
@@ -27,11 +27,11 @@
 
 一个 Skill 里可以包含多个意图，一个意图可以包含多个关键字，这些关键字称为槽位，这部分会在后续的槽位章节说明。例如在音乐这个 Skill 里，可以包含点播、询问歌名、收藏歌曲、分享歌曲这 4 个意图。而在天气 Skill 里可以包含普通询问、下雨查询、空气质量查询这 3 个意图。意图的数量完全有 Skill 的开发者定义。
 
-![](https://mc.qcloudimg.com/static/img/69ea35693e05f662d318eab0bf6c9cef/image.jpg)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/69ea35693e05f662d318eab0bf6c9cef/image.jpg)
 
 在音乐 Skill 里，用户说 “我要听周杰伦的歌” 就会被匹配到点播意图中。“这是什么歌”则会被匹配到询问歌曲名称这个意图。这意图和用户说的话中间的对应关系由各个意图里填写的句式定义，这部分会在后续的句式章节说明。
 
-![](https://mc.qcloudimg.com/static/img/0b4a5ac3783150b7b583ddf248f9c223/image.jpg)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/0b4a5ac3783150b7b583ddf248f9c223/image.jpg)
 
 #### 自定义意图
 除了小微 Skill 开放平台预置的意图之外，其他意图需要 Skill 开发者根据自己的业务来定义，这些由开发者定义的意图成为自定义意图。
@@ -166,10 +166,10 @@
 
  选择【测试训练】，在【是否开启测试训练】勾选。
 
- ![](https://mc.qcloudimg.com/static/img/3d0a0daa425291b8b43681eee60784d4/image.png)
+ ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/3d0a0daa425291b8b43681eee60784d4/image.png)
 
 ## 发布 Skill
 
  选择【发布】，填写发布内容信息，完成后选择【保存配置】可以保存本次填写的信息，【提交审核】可以将本次填写的信息提交给我们审核，资料审核通过后便可以发布。
 
-![](https://mc.qcloudimg.com/static/img/2f9e2fb3a62f07d099f267ef4ed6688c/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2f9e2fb3a62f07d099f267ef4ed6688c/image.png)

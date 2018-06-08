@@ -3,7 +3,7 @@
 
 ## 2 实时语音API调用流程
  
-![](https://mc.qcloudimg.com/static/img/d7eb0df95ebdff5e8f9d44a8a01bd74f/jj2.png)  
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d7eb0df95ebdff5e8f9d44a8a01bd74f/jj2.png)  
 **流程说明**   
 1.调用`SetMode()`方法设置使用实时语音模式。  
 2.根据业务需求使用小队语音或国战语音，分别调用`JoinTeamRoom()`或`JoinNationalRoom()`。  

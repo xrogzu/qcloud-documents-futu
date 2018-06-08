@@ -16,14 +16,14 @@ SDK中用到的SIGN，推荐使用[服务器端SDK](/doc/product/275/SDK文档#3
 ## 2. 导入项目
 图片云iOS SDK其中包括上传SDK和下载SDK，上传SDK压缩包QCloudUploadSDK.zip，下载SDK压缩包QCloudDownloadSDK.zip。上传和下载SDK压缩包中分别包含了一个.a静态库和一个包含头文件的文件夹Headers，解压后的内容如下：
 上传SDK：
-![](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-1.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-1.jpg)
 下载SDK：
-![](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-2.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-2.jpg)
 将解压后的QCloudUPloadSDK和QCloudDownloadSDK拖入工程目录，Xcode会自将其加入链接库列表中。
 注：如果只需要上传或下载功能，则只拖入对应的SDK即可。
-![](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-3.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-3.jpg)
 在build Settings中设置Other Linker Flags，加入参数-ObjC
-![](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-4.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-4.jpg)
 在build Phases -> Link Binary With Libraries中加入以下几个依赖库
 1)	SystemConfiguration.framework
 2)	CoreTelephony.framework
@@ -31,7 +31,7 @@ SDK中用到的SIGN，推荐使用[服务器端SDK](/doc/product/275/SDK文档#3
 4)	libxml2.dylib
 5)	libz.dylib
 6)	libstdc++.6.dylib
-![](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-5.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-5.jpg)
 注：如果只需要上传或下载功能，则只需要引入对应的动态库：
 上传SDK依赖的系统动态库有：
 1)	SystemConfiguration.framework

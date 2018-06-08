@@ -5,5 +5,5 @@
 2. 记录类型为 CNAME。
 3. 线路类型（默认为必填项，否则会导致部分用户无法解析；在下图中，默认的作用为：除了联通用户之外的所有用户，都会指向 1.com）。
 4. 记录值为 CNAME 指向的域名，只可以填写域名。
-![3](https://mc.qcloudimg.com/static/img/30a2b97454e0efa21a4ad03be1020043/image.png)
-![4](https://mc.qcloudimg.com/static/img/a6138bdfbe3ff7401f67140a7853a401/image.png)
+![3](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/30a2b97454e0efa21a4ad03be1020043/image.png)
+![4](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/a6138bdfbe3ff7401f67140a7853a401/image.png)

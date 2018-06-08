@@ -38,11 +38,11 @@
 
 ### 性能曲线
 
-![](https://mccdn.qcloud.com/img568e2caf9efd1.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img568e2caf9efd1.png)
 
 ### 可用性曲线
 
-![](https://mccdn.qcloud.com/img568e2cb5b8eb8.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img568e2cb5b8eb8.png)
 
 
 ### 图表分析

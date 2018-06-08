@@ -23,7 +23,7 @@
 点播服务开通之后，进入 [点播视频管理](http://console.tce.fsphere.cn/video/videolist) 就可以上传新的视频文件，如果您没有开通点播服务，则无法操作这一步骤。
 ### step 3：获取 fileID 与 appID
 上传完视频并转码之后，您就可以在视频管理页面查到文件的 fileID ，这个是播放器播放视频的最基本信息，同时您的 appID 也可以在视频管理页面查看到。下图中的两个 ID，左边一个是视频文件的 fileID，另一个是您的 appID。
-![](https://mc.qcloudimg.com/static/img/fcad44c3392b229f3a53d5f8b2c52961/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/fcad44c3392b229f3a53d5f8b2c52961/image.png)
 ## 初始化 Web 播放器
 在准备工作完成后，通过以下 3 个步骤，您就可以在您的网页上添加一个视频播放器。
 ### step 1：在页面中引入文件
@@ -63,7 +63,7 @@ var player = TCPlayer('player-container-id', { // player-container-id 为播放�
 >* 需要播放的视频需经过云平台转码，原始视频无法保证在浏览器中正常播放。
 
 ### 完整的示例页面：
-[示例代码链接](https://imgcache.qq.com/open/qcloud/video/tcplayer/examples/vod/tcplayer-vod-base.html)
+[示例代码链接](http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/tcplayer/examples/vod/tcplayer-vod-base.html)
 ## 功能使用说明
 下面将对播放器的部分功能进行详细说明，包括最佳实践与注意事项。
 ### 播放器尺寸设置
@@ -76,26 +76,26 @@ var player = TCPlayer('player-container-id', { // player-container-id 为播放�
 熟练运用 CSS 可以实现铺满全屏、容器自适应等效果。
 
 示例：
-[CSS 设置尺寸](https://imgcache.qq.com/open/qcloud/video/tcplayer/examples/vod/tcplayer-vod-size.html)
-[铺满网页可视区域](https://imgcache.qq.com/open/qcloud/video/tcplayer/examples/vod/tcplayer-vod-size-full-viewport.html)
-[等比率自适应](https://imgcache.qq.com/open/qcloud/video/tcplayer/examples/vod/tcplayer-vod-size-adaptive.html)
+[CSS 设置尺寸](http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/tcplayer/examples/vod/tcplayer-vod-size.html)
+[铺满网页可视区域](http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/tcplayer/examples/vod/tcplayer-vod-size-full-viewport.html)
+[等比率自适应](http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/tcplayer/examples/vod/tcplayer-vod-size-adaptive.html)
 
 ### 播放多种清晰度
 1、 首先需要在控制台设置转码多种清晰度，如下图
-![](https://mc.qcloudimg.com/static/img/b2c4b5d61ae28cb4558e15bcbcb3bd87/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b2c4b5d61ae28cb4558e15bcbcb3bd87/image.png)
 
 2、 视频转码后，将会生成多种清晰度的文件，在【控制台】>【视频管理】视频列表中单击视频将会看到如下图
-![](https://mc.qcloudimg.com/static/img/3a60f37c5c6d429bffb7e96023c948e9/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/3a60f37c5c6d429bffb7e96023c948e9/image.png)
 
 经过以上两个步骤，该视频已具备多种清晰度，使用 fileID appID 在云平台点播播放器中播放即可。
 清晰度选择效果如下图：
-![](https://mc.qcloudimg.com/static/img/d35731fae08327c66602ee3b7be77c2c/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d35731fae08327c66602ee3b7be77c2c/image.png)
 
 >**注意事项：**
 > * 在浏览器劫持视频播放的情况下，该功能无法使用。通常在移动浏览器中，浏览器会劫持视频播放，用浏览器自带的播放器替代。
 
 示例：
-[多种清晰度](https://imgcache.qq.com/open/qcloud/video/tcplayer/examples/vod/tcplayer-vod-base.html)
+[多种清晰度](http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/tcplayer/examples/vod/tcplayer-vod-base.html)
 ### 指定播放清晰度
 这里分为两种情况：指定播放某个清晰度和让播放器默认播放某个清晰度
 
@@ -114,15 +114,15 @@ var player = TCPlayer('player-container-id', { // player-container-id 为播放�
 | 240   | HLS 超清 |
 
 在下面的示例中，将指定播放 MP4 手机清晰度视频：
-[指定播放清晰度](http://imgcache.qq.com/open/qcloud/video/tcplayer/examples/vod/tcplayer-vod-definition.html)
+[指定播放清晰度](http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/tcplayer/examples/vod/tcplayer-vod-definition.html)
 
 #### 让播放器默认播放某个清晰度
 
 * 在“控制台-Web 播放器管理”选定某个播放器配置进行设置默认画质
-![](https://mc.qcloudimg.com/static/img/3bcad59bcbb2ae35c2ce02bba1f8cefd/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/3bcad59bcbb2ae35c2ce02bba1f8cefd/image.png)
 
 * 在“控制台-视频管理”将视频与某个播放器配置进行关联，在使用云平台播放器播放该视频时，将会使用关联的播放器配置。
-![](https://mc.qcloudimg.com/static/img/82dc40ee75db110ab2d77749ec059d80/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/82dc40ee75db110ab2d77749ec059d80/image.png)
 
 >**注意事项：**
 > * 如果默认清晰度的视频不存在，则获取该视频的清晰度列表中第一个文件进行播放。比如播放器配置默认播放超高清，但是视频只有标清和高清，这时会播放标清视频。
@@ -147,10 +147,10 @@ var player = TCPlayer('player-container-id', {
   });
 ```
 开启成功后将会看到的效果如下图：
-![](https://mc.qcloudimg.com/static/img/e155be329a6fec959e1ad6b361add390/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/e155be329a6fec959e1ad6b361add390/image.png)
 
 示例：
-[续播](https://imgcache.qq.com/open/qcloud/video/tcplayer/examples/vod/tcplayer-vod-continue-play.html)
+[续播](http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/tcplayer/examples/vod/tcplayer-vod-continue-play.html)
 
 >**注意事项：**
 > -  必须通过 fileID appID 播放经过云平台转码后的视频，才能使用该功能。
@@ -163,7 +163,7 @@ var player = TCPlayer('player-container-id', {
 设置 logo 信息后，使用该播放器配置播放视频时，将会在指定位置显示 logo。
 
 示例：
-[显示 Logo](https://imgcache.qq.com/open/qcloud/video/tcplayer/examples/vod/tcplayer-vod-logo.html)
+[显示 Logo](http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/tcplayer/examples/vod/tcplayer-vod-logo.html)
 
 >**注意事项：**
 > - 控制台播放器配置在设置后，大概需要10分钟使所有 CDN 节点生效该配置。
@@ -180,7 +180,7 @@ var player = TCPlayer('player-container-id', {
 ```
 
 示例：
-[图片贴片](https://imgcache.qq.com/open/qcloud/video/tcplayer/examples/vod/tcplayer-vod-image-patch.html)
+[图片贴片](http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/tcplayer/examples/vod/tcplayer-vod-image-patch.html)
 
 >**注意事项：**
 > * 贴片建议使用体积不超过50KB且尺寸不超过播放器显示区域的图片，避免因图片过大影响视频初始化速度。

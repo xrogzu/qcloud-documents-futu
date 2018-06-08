@@ -225,34 +225,34 @@ Id  Name         From Connector   To Connector    Enabled
 ### 1. link
 #### 创建 link
 【Data Browsers】 > 【Sqoop Transfer】 > 【Manager links】
-![](https://mc.qcloudimg.com/static/img/6588cdd6245e108ff93e1df00812bbbe/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6588cdd6245e108ff93e1df00812bbbe/image.png)
 在这里可以看到已经创建好的 link，新建 link 的话，单击【New link】。
-![](https://mc.qcloudimg.com/static/img/d5d00304ff277a8d3fb7e818de347d8c/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d5d00304ff277a8d3fb7e818de347d8c/image.png)
 #### 创建 MySQL link
 这里我们创建一个 MySQL 的 link 。
-![](https://mc.qcloudimg.com/static/img/9fa643e7ba18c00760898d99931d37f0/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/9fa643e7ba18c00760898d99931d37f0/image.png)
 保存后，可以看到创建的 mysql-link。
-![](https://mc.qcloudimg.com/static/img/cdc5de8c64a6aa106030bdfc88c05374/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/cdc5de8c64a6aa106030bdfc88c05374/image.png)
 单击 【mysql-link】，可以看到 link 的详细信息，并可以修改。
-![](https://mc.qcloudimg.com/static/img/703816355a90c7db83d73ba53d3075a1/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/703816355a90c7db83d73ba53d3075a1/image.png)
 #### 创建 HDFS link
 创建一个 HDFS link，请注意，HDFS URI内容需要填对应 HDFS 集群的 fs.defaultFS 名称。
-![](https://mc.qcloudimg.com/static/img/9eb85396a15da82c815da90b4597840f/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/9eb85396a15da82c815da90b4597840f/image.png)
 保存后，检查一下是否正确。
-![](https://mc.qcloudimg.com/static/img/d2a282409b5ecd668c5bd0fafa4a83e2/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d2a282409b5ecd668c5bd0fafa4a83e2/image.png)
 ### 2. job
 #### 创建 job
 【Data Browsers】 > 【Sqoop Transfer】 > 【New job】 选择创建好的 link。From link 表示源数据。To link 表示目标数据。我们这里是将数据从 MySQL 导入到 HDFS。
-![](https://mc.qcloudimg.com/static/img/2e002a74e6a0b012bd69a97ff2d9ec4e/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2e002a74e6a0b012bd69a97ff2d9ec4e/image.png)
 “Next”后，填写 from link 的 源数据相关信息，我们这里是 MySQL 数据、需要填导出的数据库名、表名、导出的 SQL 语句、分区的字段值、map 个数、reduce 个数等信息。
-![](https://mc.qcloudimg.com/static/img/61346dafb51d3da8fd702593c2f5c1be/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/61346dafb51d3da8fd702593c2f5c1be/image.png)
 “Next” 后，填写 to link 的目的数据相关信息，我们这里是导出到 HDFS，需要填写导出的文件格式、文件压缩方式、导出到 HDFS 上的文件路径等信息。
-![](https://mc.qcloudimg.com/static/img/eab360c624968210af3145c3ad845072/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/eab360c624968210af3145c3ad845072/image.png)
 #### 执行 job
 选择创建 job，单击 “run” 执行。
-![](https://mc.qcloudimg.com/static/img/bed6bc1ccbe45fb76cf9664425c23717/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/bed6bc1ccbe45fb76cf9664425c23717/image.png)
 job 提交后，可以看到 job 的执行相关信息。
-![](https://mc.qcloudimg.com/static/img/6eaaeb6e6f65deaadafd525f62862dec/image.png)
-![](https://mc.qcloudimg.com/static/img/bc1e8f987f5dec6acd3e989cfffd8bdd/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6eaaeb6e6f65deaadafd525f62862dec/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/bc1e8f987f5dec6acd3e989cfffd8bdd/image.png)
 在 HDFS 的导出目录中，可以看到导出的数据文件。
-![](https://mc.qcloudimg.com/static/img/07be510f0733e91fa3b95c4f00486663/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/07be510f0733e91fa3b95c4f00486663/image.png)

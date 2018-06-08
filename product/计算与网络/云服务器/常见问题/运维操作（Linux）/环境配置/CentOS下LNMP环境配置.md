@@ -25,7 +25,7 @@ Saving to: `index.html'
 
 3. 浏览器中测试 Nginx 服务是否正常运行。访问 CentOS 云服务器公网 IP。
 若服务正常，显示结果如下。
-![](https://mc.qcloudimg.com/static/img/fce31b900d308c4a5d57b1d316574a58/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/fce31b900d308c4a5d57b1d316574a58/image.png)
 
 ## 安装配置 MySQL
 1. 安装 MySQL。输入以下命令：
@@ -78,7 +78,7 @@ yum install  php-tidy php-common php-devel php-fpm php-mysql
 3. 修改 Nginx 配置。
 输入命令查找 Nginx 配置文件：`nginx -t`
 使用`vi`命令修改该配置文件：
-![](https://mccdn.qcloud.com/static/img/43addfa0593b6daa1fb19f957dad1425/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/43addfa0593b6daa1fb19f957dad1425/image.png)
 在配置文件中找到以下片段，修改红色部分：
 
 <div class="code">

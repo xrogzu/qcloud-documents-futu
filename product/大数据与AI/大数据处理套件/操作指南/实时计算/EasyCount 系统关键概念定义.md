@@ -10,9 +10,9 @@ EasyCount SQL 窗口有三种类型，聚合窗口、滑动窗口和累加窗口
 1）普通聚合：和传统聚合函数一致，对每个聚合窗口进行一次聚合计算。
 2）累加聚合：在累加窗口内的每个聚合窗口进行一次聚合计算，不过计算的数据是针对从累加窗口起始直到当前聚合窗口的聚合值。如下图所
 示：
-![累加窗口聚合](https://mc.qcloudimg.com/static/img/5b4ec6524ed5bbbe359846539c543d4b/image.png)
+![累加窗口聚合](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/5b4ec6524ed5bbbe359846539c543d4b/image.png)
 3）滑动窗口聚合：在每个聚合窗口结束的时候计算，从当前聚合窗口向前推到滑动窗口大小内的数据进行聚合计算。如下图所示：
-![滑动窗口聚合](https://mc.qcloudimg.com/static/img/6542dd76b821b3b17fbf6c77161cbeaa/image.png)
+![滑动窗口聚合](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6542dd76b821b3b17fbf6c77161cbeaa/image.png)
 累加聚合和滑动窗口聚合的具体实现是比较耗费资源的，因此一般累加窗口和滑动窗口不要比聚合窗口大太多。但是在某些场景下，统计任务又无法实现，因此提供了一个新的全局累加功能（ACCUGLOBAL）。这个功能是一个累加聚合功能，区别是启动这个功能以后，所有的聚合函数都是被设置为累加功能，并且同一条子查询中的滑动窗口聚合的功能被关闭。
 ## 表达式
 表达式是符号和运算符的一种组合。EasyCount 解析引擎处理表达式以获取单个值。简单表达式可以是常量、变量或者函数，可以用运算符将两个或者多个简单表达式联合起来构成更复杂的表达式。

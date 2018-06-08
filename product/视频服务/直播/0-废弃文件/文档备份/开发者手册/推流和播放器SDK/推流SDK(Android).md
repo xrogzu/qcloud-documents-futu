@@ -5,11 +5,11 @@
 
 如果您是一位刚刚接触视频直播的合作伙伴，您只需要几行代码就可以完成对接流程，而如果您是一位资深的移动端软件开发工程师，SDK所提供的丰富的设置接口，亦可让您能够定制出最符合需求的表现。
 
-![rtmp sdk push](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tx_cloud_push_sdk_struct.jpg)
+![rtmp sdk push](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tx_cloud_push_sdk_struct.jpg)
 
 SDK开发包附带的推流器DEMO界面如下：
 
-![demo](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/pusher_demo_introduction_2.jpg)
+![demo](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/pusher_demo_introduction_2.jpg)
 
 -----------------------------------------------------------------------------------------------------------------
 
@@ -88,7 +88,7 @@ mLivePusher.startCameraPreview(mGLRootView);
 ### 1. SDK内部原理
 首先，您需要了解一下视频云RTMP SDK的内部原理，在推流模式下，SDK内部的状态机制如下：
 
-![SDK内部原理](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tencent_cloud_rtmp_sdk_pusher_status_14.jpg)
+![SDK内部原理](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tencent_cloud_rtmp_sdk_pusher_status_14.jpg)
 
 简单描述就是在您**调用startPusher**之后，RTMP SDK就会**尝试连接网络**，并且**启动摄像头和麦克风的音视频采集**，如果一切顺利，就会进入**推流主循环**，之后如果一切正常，SDK内部会按照每秒一次的频率通知**当前的内部状态**（net status），如果中途出现什么问题，则会以 **event**、 **warning** 或者 **error** 的形式通知出来。
 

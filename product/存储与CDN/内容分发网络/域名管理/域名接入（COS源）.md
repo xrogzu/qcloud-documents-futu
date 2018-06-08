@@ -2,10 +2,10 @@
 
 ## 第一步：添加域名
 登录 [CDN 控制台](http://console.tce.fsphere.cn/cdn)，单击左侧【域名管理】菜单，选择【添加域名】。
-![](https://mc.qcloudimg.com/static/img/b1c4623293ce5e4600bd905d5a795622/addhost.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b1c4623293ce5e4600bd905d5a795622/addhost.png)
 
 进入添加域名页面，您可以在此完成域名的相关配置。
-![](https://mc.qcloudimg.com/static/img/4a91aee865755eb8a6b3e2fdfd672f88/adddomain.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4a91aee865755eb8a6b3e2fdfd672f88/adddomain.png)
 
 1.在 **域名** 位置填入需要加速的域名，支持域名批量接入，通过单击【添加】按钮最多可添加10个域名。域名需要满足以下条件：
 + 域名已经在工信部进行过备案
@@ -24,10 +24,10 @@
 	1. **源站类型** 为对象存储（COS），您可通过下拉菜单或输入关键字选择 Bucket 的域名。
 	2. 若对应项目下无存储桶，您需要登录 [COS 控制台](http://console.tce.fsphere.cn/cos) 创建存储桶（如何创建？请查阅 [创建存储桶](http://tce.fsphere.cn/document/product/436/6245#.E5.88.9B.E5.BB.BA.E5.AD.98.E5.82.A8.E6.A1.B6)）。
 	3. 选择了存储桶作为源站后，您可以在 [COS 控制台](http://console.tce.fsphere.cn/cos) 对源站内容进行管理。
-![](https://mc.qcloudimg.com/static/img/29c2831770c54390c8173fdcd8a00eee/addhostcos.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/29c2831770c54390c8173fdcd8a00eee/addhostcos.png)
 
 4.选择加速服务业务类型及基础配置。
-![](https://mc.qcloudimg.com/static/img/1cb32d26230380e8b22cc4f6663042ad/speedset.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/1cb32d26230380e8b22cc4f6663042ad/speedset.png)
 **业务类型** 选择，决定了域名调度的资源平台，不同资源平台加速配置存在一定差异，请选择与您业务相匹配的业务类型：
 -  静态加速：适用于电商类、网站类、游戏图片类静态资源加速场景。
 -  下载加速：适用于游戏安装包、音视频原文件下载、手机固件分发等场景。
@@ -39,7 +39,7 @@
 **缓存过期配置**：缓存过期配置是指 CDN 加速节点在缓存您的业务内容时遵循的一套过期规则。详情请查看 [缓存过期配置](http://tce.fsphere.cn/doc/product/228/6290)。
 
 5.单击【提交】完成添加域名操作。
-![](https://mc.qcloudimg.com/static/img/c3ff6aae83f3b19b242f859df32ab7bd/addok.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/c3ff6aae83f3b19b242f859df32ab7bd/addok.png)
 
 ## 第二步：配置 CNAME
 添加成功的域名，在域名管理页面，可以查看到 CDN 为您的域名分配的加速 CNAME，您需要前往接入域名的 DNS 服务商（如 Dnspod）处，为此域名添加一条 CNAME 记录，待 **此 DNS 配置生效后**，即可进行加速服务。具体配置方法请查阅 [CNAME 配置](http://tce.fsphere.cn/doc/product/228/3121)。

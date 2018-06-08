@@ -52,10 +52,10 @@
 问：在同一台子机上挂载了几块相同大小、相同类型的云硬盘，在操作系统中如何区分它们？
 
 对于Linux操作系统，您可以通过执行`ls -l /dev/disk/by-id `命令查看到弹性云盘与设备名之间的对应关系：
-![](https://mccdn.qcloud.com/static/img/56e625dd23adfb78829d34a7e86e9291/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/56e625dd23adfb78829d34a7e86e9291/image.png)
 
 对于Windows操作系统，您可以通过执行`wmic diskdrive get caption,deviceid,serialnumber`或者`wmic path win32_physicalmedia get SerialNumber,Tag`命令查看：
-![](https://mccdn.qcloud.com/static/img/205b1060c7bc7446becddee81971c506/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/205b1060c7bc7446becddee81971c506/image.png)
 
 问：云硬盘使用上有什么注意事项？
 

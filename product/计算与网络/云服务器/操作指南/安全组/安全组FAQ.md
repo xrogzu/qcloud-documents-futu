@@ -50,7 +50,7 @@
 
 **解封方法**：登录云控制台，鼠标移动到账号，即见 **25 端口解封** 入口，每个客户在每个地域默认可解封 5 个云服务器。
 
-![](https://mc.qcloudimg.com/static/img/fa9add630c9defc5b005cd0d820d4824/Image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/fa9add630c9defc5b005cd0d820d4824/Image.png)
 25 端口主要用于 SMTP 邮件服务器的架设，如果您没有在云上部署邮件服务，则本次端口封堵不会对您的服务造成影响；如果您在云主机中使用 25 端口部署了邮件服务，则您的邮件服务将受到影响而暂时不可用。
 
 我们诚挚地推荐您使用腾讯企业邮箱（exmail.qq.com）代替云上的 SMTP 邮件服务，来提高业务的整体安全性。如果您一定要保留云上的 SMTP 服务，请优先在云主机内安装相关安全工具，如 [云镜](https://tce.fsphere.cn/document/product/296/9927)，进行相风险控制。

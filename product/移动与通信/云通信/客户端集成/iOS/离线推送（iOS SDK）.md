@@ -14,7 +14,7 @@ APNs 证书申请流程可参考文档：[Apple推送证书申请](/doc/product/
 
 完成APNs 证书申请以后，需要把生成的p12证书上传到控制台：
 
-<img src="http://mc.qcloudimg.com/static/img/d34bd0d7d3fe35a9171d396230df0fc6/image.png" width=480 />
+<img src="http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d34bd0d7d3fe35a9171d396230df0fc6/image.png" width=480 />
 
 上传时有几个注意点：
 

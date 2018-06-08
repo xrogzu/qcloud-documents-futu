@@ -14,10 +14,10 @@
 >
 >如果没有“带宽”相关的信息，如下图，即为第一类账户。弹性公网IP的类型为裸IP，无任何公网网络属性，需要后端资源购买公网网络后，再通过公网IP或CLB外访。
 >
->![](https://mc.qcloudimg.com/static/img/a79b3329758594fd230594a9a52352b7/eip.png)
+>![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/a79b3329758594fd230594a9a52352b7/eip.png)
 >
 >如果能看到带宽上限的属性，如下图，即为第二类账户。上面可查询EIP的类型。
->![](https://mc.qcloudimg.com/static/img/bd91715ed89497bda313189331b2baaf/eip2.png)
+>![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/bd91715ed89497bda313189331b2baaf/eip2.png)
 
 ## 规则与限制
 使用规则：

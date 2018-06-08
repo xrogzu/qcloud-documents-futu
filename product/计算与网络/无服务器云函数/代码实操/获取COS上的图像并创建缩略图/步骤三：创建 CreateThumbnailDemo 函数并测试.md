@@ -59,9 +59,9 @@
 ```
 
 4) 点击【运行】按钮，观察运行结果。如果在结果中发现下载和上传均成功，则此程序运行正常：
-![](https://mc.qcloudimg.com/static/img/aec9243fd45a41e562b9c17d530740a0/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/aec9243fd45a41e562b9c17d530740a0/image.png)
 
 5) 前往[对象存储控制台](http://console.tce.fsphere.cn/cos4/index)，点击步骤一：准备 COS Bucket 中创建的`mybucketresized`，观察是否有名为`HappyFace.png`的缩略图产生。
-![](https://mc.qcloudimg.com/static/img/5c4224adcef4231f1469956107f000aa/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/5c4224adcef4231f1469956107f000aa/image.png)
 
 6) 下载该图片，对比观察它和原图片的大小。

@@ -18,7 +18,7 @@
 3. 机型和配置：机型选择【系列2】-【GPU 渲染型 GA2】
 
 设置完成后单击【下一步：选择镜像】。
-![](https://mc.qcloudimg.com/static/img/4b8bc6bd5b1b838acf064c157f66c361/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4b8bc6bd5b1b838acf064c157f66c361/image.png)
 ### 3. 选择镜像
 GPU 渲染型 GA2 支持四种镜像类型：公共镜像、自定义镜像、共享镜像、服务市场。 [了解镜像 >>](/doc/product/213/4940)
 
@@ -26,11 +26,11 @@ GA2 搭载 AMD S7150 GPU， 主机内需要安装对应的驱动程序才能正�
 
 - 选择服务市场镜像 **AMD GPU Windows 基础环境V1.0**。
 设置完成后单击【下一步：选择存储于网络】。
-![](https://mc.qcloudimg.com/static/img/9c653b7a37c8dcb8f0a95d7e548f8739/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/9c653b7a37c8dcb8f0a95d7e548f8739/image.png)
 - 您也可以根据您的偏好选择镜像，使用公有镜像创建实例，目前仅支持Windows 2008 R2 企业版 SP1 64位。
-![](https://mc.qcloudimg.com/static/img/5c8133796dda48a522c5fa76a5adcd57/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/5c8133796dda48a522c5fa76a5adcd57/image.png)
 注意：选择公有镜像创建实例，需要安装 GPU 驱动程序，请从 http://mirrors.tencentyun.com/install/windows/s7150_guest_driver.7z 下载驱动。（云平台内网链接，需要在服务器内访问）然后执行Setup.exe 进行安装即可。安装完成后，到设备管理器内查看，如下显示表明安装成功
-![](https://mc.qcloudimg.com/static/img/831923fe6942f4cb03640cffdb5883fd/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/831923fe6942f4cb03640cffdb5883fd/image.png)
 ### 4. 选择存储与网络
 在这个步骤需要选择：
 - 存储：根据您在步骤 3 选择的配置，您的 GPU 云服务器的系统盘和数据盘大小已确定。

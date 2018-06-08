@@ -5,9 +5,9 @@
 
 ### CNAME记录的添加方式
 
-![](https://mccdn.qcloud.com/static/img/c9a251b3b52d06f8a44d076e12f75b5b/CName-1.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/c9a251b3b52d06f8a44d076e12f75b5b/CName-1.png)
 
-![](https://mccdn.qcloud.com/static/img/e38225a498ababb41f8215119726a27a/CName-2.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/e38225a498ababb41f8215119726a27a/CName-2.png)
 
 1. 主机记录处填子域名（比如需要添加 www.123.com 的解析，只需要在主机记录处填写www即可；如果只是想添加123.com的解析，主机记录直接留空，系统会自动填一个“@”到输入框内，@的CNAME会影响到MX记录的正常解析，添加时慎重考虑）。
 

@@ -4,7 +4,7 @@
 系统恢复选项包含了若干工具，例如“启动修复”、“系统还原”、“ Windows 内存诊断”等，这些工具可以来修复问题、备份数据、执行系统还原等操作。
 
 当用户无法远程登录云服务器，且控制台登录云服务器后出现下图状态，则 Windows 云服务器已进入恢复模式。
-![](https://mc.qcloudimg.com/static/img/e278c336a415066dcb8fc58333395ac3/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/e278c336a415066dcb8fc58333395ac3/image.png)
 
 ## 进入恢复模式的原因
 进入恢复模式有以下常见原因：
@@ -29,11 +29,11 @@
  
  1. 从 [控制台](https://console.tce.fsphere.cn/cvm) 登录云服务器。
  2. 出现恢复模式界面，单击【Next】。
-	![](https://mc.qcloudimg.com/static/img/94a1cf0f55d2c449a9d026bbbad5e4cd/image.png)
+	![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/94a1cf0f55d2c449a9d026bbbad5e4cd/image.png)
  3. 出现系统恢复选项，单击【Next】，使用默认方案。
- ![](https://mc.qcloudimg.com/static/img/d178865f822d2146eb3bb58f1b851294/image.png)
+ ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d178865f822d2146eb3bb58f1b851294/image.png)
  4. 单击【Restart】，并快速按下键盘【F8】。
- ![](https://mc.qcloudimg.com/static/img/ab2fdd697015fcb7e53b287052086b65/image.png)
+ ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ab2fdd697015fcb7e53b287052086b65/image.png)
  5. 选择“ 正常启动 Windows ”
- ![](https://mc.qcloudimg.com/static/img/8079bcf59132ff587ec5caf46c84f27d/image.png)
+ ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/8079bcf59132ff587ec5caf46c84f27d/image.png)
  6. 如无法启动，请在控制台重新安装系统，详见 [使用控制台重装系统](/doc/product/213/4933#.E4.BD.BF.E7.94.A8.E6.8E.A7.E5.88.B6.E5.8F.B0.E9.87.8D.E8.A3.85.E7.B3.BB.E7.BB.9F3)。

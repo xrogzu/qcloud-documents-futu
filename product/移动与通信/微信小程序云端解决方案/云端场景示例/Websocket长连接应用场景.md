@@ -6,7 +6,7 @@
 
 这篇文章分享一个简单的剪刀石头布的小游戏的制作，希望能对想要在小程序中使用 WebSocket 的开发者有帮助。
 
-![剪刀石头布小游戏截图](https://mc.qcloudimg.com/static/img/1d4772272b20760b8063356069328be9/image.gif)
+![剪刀石头布小游戏截图](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/1d4772272b20760b8063356069328be9/image.gif)
 
 整个游戏非常简单，连接到服务器后自动匹配在线玩家（没有则分配一个机器人），然后两人进行剪刀石头布的对抗游戏。当对方进行拳头选择的时候，头像会旋转，这个过程使用 WebSocket 会变得简单快速。
 

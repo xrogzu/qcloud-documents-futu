@@ -8,7 +8,7 @@
 
 - **协议的支持**
 通常使用的直播协议如下，APP 端推荐使用 FLV 协议的直播地址(以“http”打头，以“.flv”结尾)：
-![](https://mc.qcloudimg.com/static/img/94c348ff7f854b481cdab7f5ba793921/image.jpg)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/94c348ff7f854b481cdab7f5ba793921/image.jpg)
 
 ## 特别说明
 - **是否有限制？**
@@ -84,7 +84,7 @@ mLivePlayer.setRenderMode(TXLiveConstants.RENDER_MODE_ADJUST_RESOLUTION);
 mLivePlayer.setRenderRotation(TXLiveConstants.RENDER_ROTATION_LANDSCAPE);
 ```
 
-![](https://mc.qcloudimg.com/static/img/ef948faaf1d62e8ae69e3fe94ab433dc/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ef948faaf1d62e8ae69e3fe94ab433dc/image.png)
 
 
 ### step 5: 暂停播放
@@ -152,7 +152,7 @@ stopPlay 的布尔型参数含义为—— “是否清除最后一帧画面”�
 ### step 8: 屏幕截图
 通过调用 **snapshot** 您可以截取当前直播画面为一帧屏幕，此功能只会截取当前直播流的视频画面，如果您需要截取当前的整个 UI 界面，请调用 iOS 的系统 API 来实现。
 
-![](https://mc.qcloudimg.com/static/img/f63830d29c16ce90d8bdc7440623b0be/image.jpg)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f63830d29c16ce90d8bdc7440623b0be/image.jpg)
 
 ```java
 mLivePlayer.snapshot(new ITXSnapshotListener() {
@@ -168,7 +168,7 @@ mLivePlayer.snapshot(new ITXSnapshotListener() {
 ### step 9: 截流录制
 截流录制是直播播放场景下的一种扩展功能：观众在观看直播时，可以通过点击录制按钮把一段直播的内容录制下来，并通过视频分发平台（比如云平台的点播系统）发布出去，这样就可以在微信朋友圈等社交平台上以 UGC 消息的形式进行传播。
 
-![](https://mc.qcloudimg.com/static/img/2963b8f0af228976c9c7f2b11a514744/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2963b8f0af228976c9c7f2b11a514744/image.png)
 
 ```java
 //指定一个 ITXVideoRecordListener 用于同步录制的进度和结果

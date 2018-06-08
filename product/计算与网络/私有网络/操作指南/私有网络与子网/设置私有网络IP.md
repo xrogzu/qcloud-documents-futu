@@ -13,7 +13,7 @@
 
 登录[云服务器CVM控制台](http://console.tce.fsphere.cn/)，点击导航条【私有网络】，选择需要配置IP的私有网络，在详情页【IP地址分配】进行资源的IP地址自定义分配。
 
- ![](https://mccdn.qcloud.com/img567fa3aadabb8.png)
+ ![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img567fa3aadabb8.png)
  
 ## 3. 公网IP与Internet访问
 

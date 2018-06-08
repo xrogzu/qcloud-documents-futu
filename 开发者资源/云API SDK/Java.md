@@ -12,7 +12,7 @@
 
 1. 获取源码
 [从 Github 访问 >>](https://github.com/QcloudApi/qcloudapi-sdk-java)
-[点击下载 Java SDK >>](https://mc.qcloudimg.com/static/archive/72dbc1a82ad8e18dead2e6dc07acd5d7/qcloudapi-sdk-java-master.zip)
+[点击下载 Java SDK >>](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/72dbc1a82ad8e18dead2e6dc07acd5d7/qcloudapi-sdk-java-master.zip)
 
 2. maven
 详情请点击查看[maven依赖项](https://mvnrepository.com/artifact/com.qcloud/qcloud-java-sdk)，以2.0.1版本的JAVA SDK为例，只需在pom.xml添加以下依赖项即可：

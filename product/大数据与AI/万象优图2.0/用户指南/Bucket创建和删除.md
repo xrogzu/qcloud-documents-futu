@@ -9,7 +9,7 @@
 1. 新建：新创建一个Bucket，由于万象优图的存储功能是基于对象存储服务（COS）的，新创建的Bucket也可以在COS控制台里查询到。
 2. 选择已有COS Bucket：通过此种方式，本质上是为一个COS上的Bucket开通图片处理服务。
 
-![创建Bucket](https://mc.qcloudimg.com/static/img/9b48fe8d2debeb9dd2651fb89524c417/image.png)
+![创建Bucket](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/9b48fe8d2debeb9dd2651fb89524c417/image.png)
 
 **请注意：**
 
@@ -27,7 +27,7 @@
 
   点击”创建“，即可在页面Bucket列表中看到创建的Bucket：
 
-  ![Bucket列表](https://mc.qcloudimg.com/static/img/c80bfdfb9ecda20eecd3ec4b28ea9317/image.jpg)
+  ![Bucket列表](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/c80bfdfb9ecda20eecd3ec4b28ea9317/image.jpg)
 
 
 ## 多园区及访问域名

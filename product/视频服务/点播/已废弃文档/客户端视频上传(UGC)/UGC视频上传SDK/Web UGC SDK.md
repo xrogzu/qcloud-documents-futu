@@ -1,6 +1,6 @@
 ## SDK集成
 1. 页面中引入js脚本
-https://qzonestyle.gtimg.cn/open/qcloud/js/vod/sdk/uploaderh5V3.js
+http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/open/qcloud/js/vod/sdk/uploaderh5V3.js
 
 2. 服务器端部署 [calculator_worker_sha1.js](http://video.qcloud.com/calculator_worker_sha1.js), 该文件用于计算待上传文件的sha1，一般情况把直接该js文件下载到上传服务同域名根目录下即可。之所以有同域的限制，是因为SDK使用了html5 worker异步计算SHA1，优化上传体验，而同域是html5 worker本身的限制。
 

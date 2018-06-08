@@ -65,7 +65,7 @@ http://v2test-10000812.image.myqcloud.com/tencentyunRestAPITest?imageMogr2/thumb
 
 ### 3.2 九宫格方位图
 
-![](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/apicankao-3.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/apicankao-3.jpg)
 
 ### 3.3 裁剪操作
 

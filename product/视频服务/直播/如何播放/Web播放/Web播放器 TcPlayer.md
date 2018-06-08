@@ -17,7 +17,7 @@ Web播放器的视频播放能力本身不是网页代码实现的，而是靠�
  最常见的用于网页直播的视频源地址是以m3u8结尾的地址，我们称其为HLS (HTTP Live Streaming)，这是苹果推出的标准。由于苹果的影响力，目前各手机浏览器产品对这种格式的兼容性最好，但它有个天然的问题，就是延迟比较大，一般是20-30秒左右的延迟，没有办法，在手机浏览器上我们并没有其它选择。
 
  在PC上情况会好很多，因为PC上的浏览器目前还没有抛弃flash控件，而flash控件不追求洁癖，支持的视频源格式挺多的，而且各浏览器上的flash控件都是Adobe它家自己开发，所以兼容性非常好。（悄悄滴告诉你，Chrome最近对flash的态度不太友好）
-![](https://mc.qcloudimg.com/static/img/ea4a95c7a0c8d88c7b6557277510efea/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ea4a95c7a0c8d88c7b6557277510efea/image.png)
 
 ## 对接攻略
 
@@ -45,7 +45,7 @@ Web播放器的视频播放能力本身不是网页代码实现的，而是靠�
 ```
 http://2157.liveplay.myqcloud.com/2157_358535a.m3u8      // m3u8播放地址
 ```
-![](https://mc.qcloudimg.com/static/img/7923a14be5525bd37719c18d54243403/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/7923a14be5525bd37719c18d54243403/image.png)
 
 我们现在要在手机浏览器上播放这个 URL 的视频，javascript代码可以这样写：
 ```javascript
@@ -121,14 +121,14 @@ style支持的样式有3种：
 #### 4.3 实现用例
 
 这里有一个线上的示例代码，里面使用了cover方式显示封面，在PC浏览器中右键“查看页面源码”即可查看页面的代码实现：
-[http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-cover.html](http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-cover.html)
+[http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-cover.html](http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-cover.html)
 
 <font color="red">备注：在某些移动端设置封面会无效，具体说明请查看常见问题</font>
 
 ### Step 5：多清晰度的支持
 #### 5.1 原理介绍
 我们知道优酷、土豆、腾讯上的视频有些是有多清晰度选择的，这个效果如何实现呢？
-![](https://mc.qcloudimg.com/static/img/5769d1bd31db2d9ed258d0bf62be3f0f/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/5769d1bd31db2d9ed258d0bf62be3f0f/image.png)
 
 这里要特别科普一下：<font color='red'>**播放器本身是没有能力去改变视频的清晰度的**</font>，在视频源产生的地方其实只有一种清晰度，我们称之为**原画**，而原画视频编码格式和封装格式有很多种，在 Web 端无法完全支持播放所有的视频格式，点播支持必须是以 H.264 为视频编码，以 mp4、flv 为封装格式的视频。
 
@@ -163,10 +163,10 @@ var player = new TcPlayer('id_test_video', {
 
 #### 5.3 实现用例
 这里有一个线上的示例代码，里面使用了多种分辨率的设置以及切换功能，在PC浏览器中右键“查看页面源码”即可查看页面的代码实现：
-[http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-clarity.html?autoplay=true](http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-clarity.html?autoplay=true)
+[http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-clarity.html?autoplay=true](http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-clarity.html?autoplay=true)
 
 正常情况将看到这样的效果：
-![](https://mc.qcloudimg.com/static/img/68c513d931214e86549dd9c0426efe04/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/68c513d931214e86549dd9c0426efe04/image.png)
 
 <font color="red">pc端现已支持多种清晰度播放并支持切换的功能，移动端尚未支持。</font>
 
@@ -189,7 +189,7 @@ var player = new TcPlayer('id_test_video', {
 
 #### 6.2 实现用例
 这里有一个线上的示例代码，该示例将播放失败，同时使用了自定义提示文案的功能，在PC浏览器中右键“查看页面源码”即可查看页面的代码实现：
-[http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer.html?m3u8=http://2527.vod.myqcloud.com/2527_b393eb1.f230.av.m3u8](http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer.html?m3u8=http://2527.vod.myqcloud.com/2527_b393eb1.f230.av.m3u8)
+[http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer.html?m3u8=http://2527.vod.myqcloud.com/2527_b393eb1.f230.av.m3u8](http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer.html?m3u8=http://2527.vod.myqcloud.com/2527_b393eb1.f230.av.m3u8)
 
 #### 6.3 错误码对照表
 | Code  | 提示语|说明                                       |
@@ -215,12 +215,12 @@ var player = new TcPlayer('id_test_video', {
 ## 源码参考
 这里有一个线上的示例代码，在PC浏览器中右键“查看页面源码”即可查看页面的代码实现：
 
-[http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer.html?autoplay=true](http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer.html?autoplay=true)
+[http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer.html?autoplay=true](http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer.html?autoplay=true)
 
 您可以用它来测试播放器的效果，在链接后面加上需要播放的视频地址，刷新后就会播放这个视频地址：
 
 ```
-http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer.html?autoplay=true&m3u8=http%3A%2F%2F1251132611.vod2.myqcloud.com%2F4126dd3evodtransgzp1251132611%2F8a592f8b9031868222950257296%2Ff0.f240.m3u8
+http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer.html?autoplay=true&m3u8=http%3A%2F%2F1251132611.vod2.myqcloud.com%2F4126dd3evodtransgzp1251132611%2F8a592f8b9031868222950257296%2Ff0.f240.m3u8
 ```
 
 ## 参数列表
@@ -246,7 +246,7 @@ http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer.html?autoplay=tr
 | live            | Boolean  | false    | <font color="red">必选</font>，设置视频是否为直播类型，将决定是否渲染时间轴等控件，以及区分点直播的处理逻辑  <br> 示例:  true  |
 | autoplay        | Boolean  | false    | 是否自动播放<br><font color="red">备注：该选项只对大部分PC平台生效</font>  <br> 示例:  true |
 | coverpic        | String / Object| 无 | 预览封面，可以传入一个图片地址或者一个包含图片地址 src 和显示样式 style 的对象。<br>style可选属性：<br>default 居中1:1显示 <br>stretch 拉伸铺满播放器区域，图片可能会变形 <br>cover 优先横向等比拉伸铺满播放器区域，图片某些部分可能无法显示在区域内    <br> 示例:  "http://www.test.com/myimage.jpg" <br>或者<br>{"style": "cover", "src": "http://www.test.com/myimage.jpg"} |
-| controls        | String   |"default" | default 显示默认控件，none 不显示控件，system 移动端显示系统控件 <font color="red">备注：如果需要在移动端使用系统全屏，就需要设置为system。默认全屏方案是使用 Fullscreen API + 伪全屏的方式</font> [例子](http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-consoles.html)  <br> 示例:  "system"  |
+| controls        | String   |"default" | default 显示默认控件，none 不显示控件，system 移动端显示系统控件 <font color="red">备注：如果需要在移动端使用系统全屏，就需要设置为system。默认全屏方案是使用 Fullscreen API + 伪全屏的方式</font> [例子](http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-consoles.html)  <br> 示例:  "system"  |
 | systemFullscreen| Boolean  |false     | 开启后，在不支持 Fullscreen API 的浏览器环境下，尝试使用浏览器提供的 webkitEnterFullScreen 方法进行全屏，如果支持，将进入系统全屏，控件为系统控件  <br> 示例:  true  |
 | flash           | Boolean  | true     | 是否优先使用 flash 播放视频，<br><font color="red">备注：该选项只对PC平台生效</font> [v2.2.0+]  <br> 示例:  true  |
 | flashUrl        | String   | 无       | 可以设置 flash swf url <br><font color="red">备注：该选项只对PC平台生效</font> [v2.2.1+]  |
@@ -311,7 +311,7 @@ var player = new TcPlayer('id_test_video', {
 ### ES Module
 TcPlayer 提供了 ES Module 版本，module name 为 TcPlayer 。 下载地址：
 ```
-http://imgcache.qq.com/open/qcloud/video/vcplayer/TcPlayer-module-2.2.1.js
+http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/TcPlayer-module-2.2.1.js
 ```
 ### 开启优先H5播放模式
 TcPlayer 是采用 H5 `<video>` 和 Flash 相结合的方式来进行视频播放的，在不同的播放环境中，播放器会选择默认最合适的播放方案。
@@ -361,15 +361,15 @@ netStatus
 
 在非自动播放的条件下，加载视频至待播放状态，移动端和PC Flash 触发的事件区别
 移动端：
-![移动端](https://mc.qcloudimg.com/static/img/ddf4e9ff5998dc84b1887fba0e94d446/image.png)
+![移动端](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ddf4e9ff5998dc84b1887fba0e94d446/image.png)
 PC Flash：
-![PC Flash](https://mc.qcloudimg.com/static/img/f49d8aa8ef678b63ac73e69f254c20bb/image.png)
+![PC Flash](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f49d8aa8ef678b63ac73e69f254c20bb/image.png)
 
 <font color="red">备注：以上是两种平台的差异，然而在移动端的各种设备和 APP 之间同样存在差异。</font><br>
 
 应用案例：
 
-通过事件监听，可以进行播放失败重连，[在线例子链接](http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-reconnect.html)
+通过事件监听，可以进行播放失败重连，[在线例子链接](http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-reconnect.html)
 
 ## 更新日志
 TcPlayer在不断的更新以及完善中，为了方便大家了解版本情况，下面列出的是TcPlayer发布的主版本介绍，而一些历史bug修复，小功能版本没有列出。
@@ -399,19 +399,19 @@ TcPlayer在不断的更新以及完善中，为了方便大家了解版本情况
 - **为什么在移动端 TcPlayer 全屏后无法使视频全屏，仍然会显示浏览器的界面？**
 
     首先要了解一些背景知识，TcPlayer 提供的全屏方案是 Fullscreen API + 伪全屏的方式，如果浏览器支持 Fullscreen API 那么进入全屏时，视频容器将会铺满屏幕，控制栏是 TcPlayer 提供的控制栏，如图所示
-    ![](https://mc.qcloudimg.com/static/img/df40b2b49390f8fc314fd040ba026156/image.png)
+    ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/df40b2b49390f8fc314fd040ba026156/image.png)
     （Android Chrome）
 
     如果浏览器不支持Fullscreen API 则会进入伪全屏模式，如图所示：
-    ![](https://mc.qcloudimg.com/static/img/d5746d9bef48b411c3bac576fe6925b1/image.png)![](https://mc.qcloudimg.com/static/img/1e20288d6f69a5cf7a886f95edd40ec3/image.png)
+    ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d5746d9bef48b411c3bac576fe6925b1/image.png)![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/1e20288d6f69a5cf7a886f95edd40ec3/image.png)
     （左：Android 微信，右：iOS 微信）
 
     这两种全屏模式显示的控制栏都是 TcPlayer 提供的控制栏，进入方式都是通过点击控制栏的全屏按钮，或者 TcPlayer 提供的全屏方法实现的。
     然而在移动端不一定可以显示 TcPlayer 提供的控制栏，大部分情况下移动端webview会劫持视频播放，并使用 webview 提供的控制栏，这样就无法显示 TcPlayer 的控制栏，也无法使用 TcPlayer 提供的全屏方案。如图所示：
-    ![](https://mc.qcloudimg.com/static/img/d027ca6fce35059e05428128b9823d70/image.png)![](https://mc.qcloudimg.com/static/img/b28d69f15a60321d1a6e2b3a93b53038/image.png)
+    ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d027ca6fce35059e05428128b9823d70/image.png)![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b28d69f15a60321d1a6e2b3a93b53038/image.png)
     （左：Android 微信，TBS劫持视频播放，右：iOS QQ浏览器劫持视频播放）
     进入全屏后：
-    ![](https://mc.qcloudimg.com/static/img/0ab29e27c7aa89587cec96d7530ab4f7/image.png)![](https://mc.qcloudimg.com/static/img/a260a96ed73d2a4d7d0260c4584a128a/image.png)
+    ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/0ab29e27c7aa89587cec96d7530ab4f7/image.png)![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/a260a96ed73d2a4d7d0260c4584a128a/image.png)
     （左：Android 微信，右：iOS QQ浏览器）
     可以看到控制栏与 TcPlayer 是不同的，而这种全屏方式是没有接口提供给 JS 调用的，所以 TcPlayer 无法实现这样的全屏方式。
     （我们通常会把视频区域铺满屏幕的全屏模式称为**系统全屏**，而视频区域铺满浏览器的页面可视区域称为**伪全屏**）

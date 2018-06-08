@@ -23,11 +23,11 @@
 1. 在本地 Windows 机器上，单击【开始菜单】-【Run】，输入 `mstsc` 命令，即可打开远程桌面连接对话框。
 
 2. 在输入框输入 Windows 服务器的公网 IP（登录 [云服务器控制台](https://console.tce.fsphere.cn) 可查看云服务器的公网 IP），如下图所示：
-![](https://mccdn.qcloud.com/img56b1a11a3c31f.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1a11a3c31f.png)
 
 3. 单击【连接】，在新打开的界面中输入前提条件中获取的管理员账号和对应的密码，如下图所示：
-![](https://mccdn.qcloud.com/static/img/878a0e8ef1a0bcc51ad5de2bcce4e353/image.png)
-![](https://mccdn.qcloud.com/static/img/e140d3151ac8747014313b33e6413568/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/878a0e8ef1a0bcc51ad5de2bcce4e353/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/e140d3151ac8747014313b33e6413568/image.png)
 
 4. 单击【确定】，即可登录到 Windows 实例。
 
@@ -43,8 +43,8 @@
 1. 安装 rdesktop
  	运行 `rdesktop` 命令检查系统是否已经安装，若未安装则请 [转到 github 下载最新安装包 >>](https://github.com/rdesktop/rdesktop/releases)
  	或 单击以下链接直接下载 v1.8.3版本：
- 	[rdesktop-1.8.3.tar.gz](https://mc.qcloudimg.com/static/archive/06483121ce067b537342687dd6a909d8/rdesktop-1.8.3.tar.gz)
- 	[rdesktop-1.8.3.zip](https://mc.qcloudimg.com/static/archive/24adfd7586f55bd96cd6714a6078a4df/rdesktop-1.8.3.zip)
+ 	[rdesktop-1.8.3.tar.gz](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/06483121ce067b537342687dd6a909d8/rdesktop-1.8.3.tar.gz)
+ 	[rdesktop-1.8.3.zip](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/24adfd7586f55bd96cd6714a6078a4df/rdesktop-1.8.3.zip)
 
  		并在相应目录下运行以下命令解压和安装
 	```

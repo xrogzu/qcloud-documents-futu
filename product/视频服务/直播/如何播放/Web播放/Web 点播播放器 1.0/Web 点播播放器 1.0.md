@@ -42,7 +42,7 @@ SDK 上传视频格式支持：
 
 ### step 3：获取 ID
 上传完视频之后，您就可以视频管理页面查到文件的 ID ，这个是播放器播放视频的最基本信息，与此同时，本款播放器有质量统计功能，在使用之前需要先确认 APPID，您的 APPID 也可以在视频管理页面查看到。下图中的两个 ID，左边一个是视频文件的 ID，另一个是您的 APPID。
-![](https://mc.qcloudimg.com/static/img/fcad44c3392b229f3a53d5f8b2c52961/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/fcad44c3392b229f3a53d5f8b2c52961/image.png)
 
 ### step 4：页面准备
 在需要播放视频的页面（包括 PC 或 H5）中引入初始化脚本：

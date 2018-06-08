@@ -1,7 +1,7 @@
 ## http代理简介
 ### 代理网络结构
 - 公司为了安全考虑，员工的电脑都处在局域网环境办公。为了给局域网的电脑访问外网的权限，公司会在局域网和外网之间加一个代理服务器（代理服务器本身可以访问外网），然后局域网的电脑可以通过这个代理服务器访问外网。网络结构如下图：
-![](https://mc.qcloudimg.com/static/img/33a637b9071ab4df9ba083a698725450/image.png)   
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/33a637b9071ab4df9ba083a698725450/image.png)   
 ### 安装代理软件WProxy（这里只是举例，也可安装其他代理软件）
 - 免用户名和密码代理模式
 √ 在代理服务器上安装WProxy软件，一款免费的代理软件，官网有详细的配置说明；
@@ -15,7 +15,7 @@
  - 账户的详细配置方式：http://www.imfirewall.com/support/WFilter_4_1/Doc/WFilter_Local_Account.htm 。   
 ## 收银终端访问外网
 √ 服务商在配置收银终端时，可以点击设置代理，然后填写代理URL（格式为:http://proxy_server_ip:proxy_server_port）， 用户名和密码（如没有则不用填写），然后点击保存即可。
-![](https://mc.qcloudimg.com/static/img/0445fbe86f69c8859d89d9848abc92c5/image.png) 
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/0445fbe86f69c8859d89d9848abc92c5/image.png) 
 ## 订单查询终端访问外网
  - 服务商在配置订单查询终端时，可以点击设置代理，然后填写代理URL，（格式为:http://proxy_server_ip:proxy_server_port）， 用户名和密码（如没有则不用填写），然后点击保存即可。
- ![](https://mc.qcloudimg.com/static/img/74848ab56b089654e3be7ddf6b61d0c3/image.png)   
+ ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/74848ab56b089654e3be7ddf6b61d0c3/image.png)   

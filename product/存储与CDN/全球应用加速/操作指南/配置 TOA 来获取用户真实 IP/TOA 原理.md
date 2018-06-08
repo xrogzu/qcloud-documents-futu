@@ -1,5 +1,5 @@
 加速通道转发数据包时，数据包同时会做 SNAT 和 DNAT，即数据包的源地址和目标地址均修改。如下图所示：
-![](https://mc.qcloudimg.com/static/img/3106fdbb4cf4ce0aa3107bd735974a68/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/3106fdbb4cf4ce0aa3107bd735974a68/image.png)
 
 为了将客户端 IP 传给服务器，加速通道将客户端的 IP 和 port 在转发时放入了自定义的 tcp option 字段。
 

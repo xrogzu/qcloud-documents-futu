@@ -415,7 +415,7 @@ https://youtu.api.qcloud.com/youtu/api/addface
 <td> Signature
 </td><td> 是
 </td><td> String
-</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
+</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
 </td></tr></tbody></table>
 
 **请求包体**
@@ -547,7 +547,7 @@ https://youtu.api.qcloud.com/youtu/api/delface
 <td> Signature
 </td><td> 是
 </td><td> String
-</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
+</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
 </td></tr></tbody></table>
 
 **请求包体**
@@ -628,7 +628,7 @@ https://youtu.api.qcloud.com/youtu/api/setinfo
 <td> Signature
 </td><td> 是
 </td><td> String
-</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
+</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
 </td></tr></tbody></table>
 
 **请求包体**
@@ -755,7 +755,7 @@ https://youtu.api.qcloud.com/youtu/api/getinfo
 <td> Signature
 </td><td> 是
 </td><td> String
-</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
+</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
 </td></tr></tbody></table>
 
 **请求包体**
@@ -894,7 +894,7 @@ https://youtu.api.qcloud.com/youtu/api/getgroupids
 <td> Signature
 </td><td> 是
 </td><td> String
-</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
+</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
 </td></tr></tbody></table>
 
 **请求包体**
@@ -993,7 +993,7 @@ https://youtu.api.qcloud.com/youtu/api/getpersonids
 <td> Signature
 </td><td> 是
 </td><td> String
-</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
+</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
 </td></tr></tbody></table>
 
 **请求包体**
@@ -1100,7 +1100,7 @@ https://youtu.api.qcloud.com/youtu/api/getfaceids
 <td> Signature
 </td><td> 是
 </td><td> String
-</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
+</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
 </td></tr></tbody></table>
 
 **请求包体**
@@ -1205,7 +1205,7 @@ https://youtu.api.qcloud.com/youtu/api/getfaceinfo
 <td> Signature
 </td><td> 是
 </td><td> String
-</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
+</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
 </td></tr></tbody></table>
 
 **请求包体**

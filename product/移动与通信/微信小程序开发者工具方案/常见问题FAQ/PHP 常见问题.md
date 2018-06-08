@@ -70,8 +70,8 @@ DB::insert('tableName', [
 
 ## 真机预览的时候提示网络出错
 
-<img src="https://mc.qcloudimg.com/static/img/049a1f8b5a477ebda6f088828f290e3c/8.png" width="240px" alt="真机预览的时候提示网络出错">
+<img src="http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/049a1f8b5a477ebda6f088828f290e3c/8.png" width="240px" alt="真机预览的时候提示网络出错">
 
 这种问题是因为开发域名不在安全域名列表里，可以点击界面右上角的三个小点，选择开启调试，就会绕过域名的验证
 
-<img src="https://mc.qcloudimg.com/static/img/b192942b7593bcc344dfe89bd7fa2d3e/9.jpg" width="240px" alt="真机预览打开调试">
+<img src="http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b192942b7593bcc344dfe89bd7fa2d3e/9.jpg" width="240px" alt="真机预览打开调试">

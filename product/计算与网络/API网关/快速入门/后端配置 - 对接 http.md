@@ -12,4 +12,4 @@
 6）设置映射前端的后端参数。
 
 7）单击【完成】。
-![后端配置](https://i.imgur.com/pQfgDqp.png)
+![后端配置](http://imgcache.tce.fsphere.cn/static/i.imgur.com/pQfgDqp.png)

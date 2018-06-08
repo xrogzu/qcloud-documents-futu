@@ -2,7 +2,7 @@
 **推流** 是指将音视频数据采集编码之后，推送到您指定的视频云平台上，这里涉及大量的音视频基础知识，而且需要长时间的打磨和优化才能达到符合预期的效果。
 
 腾讯视频云 SDK 主要帮您解决在智能手机上的推流问题，它的接口非常简单易用，只需要一个推流 URL 就能驱动：
-![](https://mc.qcloudimg.com/static/img/ca7f200c31a9323c032e9e000831ea63/image.jpg)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ca7f200c31a9323c032e9e000831ea63/image.jpg)
 
 ## 特别说明
 - **<font color='red'>不绑定云平台</font>**
@@ -74,7 +74,7 @@ mLivePusher.startPusher(rtmpUrl);
 
 使用 setVideoQuality 接口的可以设定推流的画面清晰度：
 
-![](https://main.qcloudimg.com/raw/6e66be90ff14bb8f0603c70668a27ec8.png)
+![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/6e66be90ff14bb8f0603c70668a27ec8.png)
 
 - **推荐参数设置**
 
@@ -104,7 +104,7 @@ mLivePusher.startPusher(rtmpUrl);
 | VIDEOCHAT | true | true | 200~800kbps| 190x320~360x640| 
 
 ### step 5: 美颜滤镜
-![](https://mc.qcloudimg.com/static/img/aac647073cf0641141900e775e929418/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/aac647073cf0641141900e775e929418/image.png)
 - **美颜**
 setBeautyFilter 接口可以设置美颜风格、磨皮程度、美白级别和红润级别，配合 540 * 960 分辨率（setVideoQuality - VIDEO_QUALITY_HIGH_DEFINITION），可以达到最佳的画质效果：
 ```java
@@ -261,7 +261,7 @@ public interface ITXVideoRecordListener {
 主播可能只是短暂接个紧急电话而已，但各云商的安全保护措施会让主播的直播被迫提前结束。
 
 我们可以采用如下方案规避：
-![](https://mc.qcloudimg.com/static/img/6325a9f7918602bd8db15228e6ffe189/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6325a9f7918602bd8db15228e6ffe189/image.png)
 
 - **10.1、设置 pauseImg**
 在开始推流前，使用 TXLivePushConfig 的 setPauseImg 接口设置一张等待图片，图片含义推荐为“主播暂时离开一下下，稍后回来”。
@@ -325,7 +325,7 @@ public void onResume() {
 
 ### step 12: 横屏推流
 有时候用户在直播的时候需要更广的视角，则拍摄的时候需要“横屏持握”，这个时候其实是期望观看端能看到横屏画面，就需要做横屏推流，下面两幅示意图分别描述了横竖屏持握进行横竖屏推流在观众端看到的效果：
-![](https://mc.qcloudimg.com/static/img/cae1940763d5fd372ad962ed0e066b91/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/cae1940763d5fd372ad962ed0e066b91/image.png)
 
 - **调整观众端表现**
 通过对 LivePushConfig 中的 **setHomeOrientation** 设置项进行配置，此接口提供了**手机旋转了 0，90，180，270 度** 四个参数供设置旋转角度。调整后的结果可以用播放器 Demo 查看以确认是否符合预期。
@@ -348,7 +348,7 @@ mLivePusher.setRenderRotation(90);
 
 - **Activity自动旋转**
 Android 系统的 Activity 本身支持跟随手机的重力感应进行旋转（设置 android:configChanges），[CODE](http://tce.fsphere.cn/document/product/454/9876)演示了如何做到下面这种重力感应效果：
-![](https://mc.qcloudimg.com/static/img/7255ffae57f3e9b7d929a5cb11f85c79/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/7255ffae57f3e9b7d929a5cb11f85c79/image.png)
 
 
 ### step 13: 背景混音

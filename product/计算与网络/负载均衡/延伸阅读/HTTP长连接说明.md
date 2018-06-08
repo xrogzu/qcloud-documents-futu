@@ -23,10 +23,10 @@ HTTP协议的长连接和短连接，实质上是TCP协议的长连接和短连�
 当网络通信时采用TCP协议时，在真正的读写操作之前，客户端与服务器端之间必须建立一个连接，当读写操作完成后，双方不再需要这个连接时可以释放这个连接。连接的建立依靠“三次握手”，而释放则需要“四次握手”，所以每个连接的建立都是需要资源消耗和时间消耗的。
 
 经典的三次握手建立连接示意图：
-![](https://mccdn.qcloud.com/static/img/da079414fde193f4d790c72a719eba78/image.jpg)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/da079414fde193f4d790c72a719eba78/image.jpg)
 
 经典的四次握手关闭连接示意图：
-![](https://mccdn.qcloud.com/static/img/4e7b6439145e3db6c0a2ff62eec24322/image.jpg)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/4e7b6439145e3db6c0a2ff62eec24322/image.jpg)
 
 ### TCP短连接
 模拟一下TCP短连接的情况：client向server发起连接请求，server接到请求，然后双方建立连接。client向server发送消息，server回应client，然后一次请求就完成了。这时候双方任意都可以发起close操作，不过一般都是client先发起close操作。上述可知，短连接一般只会在 client/server间传递一次请求操作。

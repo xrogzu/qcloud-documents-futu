@@ -23,7 +23,7 @@ APP开发样例 访问地址：http://o.qcloud.com/console?app=app_template
 1）config/settings_develop.py 文件中DATABASES 项中：填写本地数据库的相关信息
 2）本地使用Eclipse开发时，工程的启动端口默认为8000，如使用其他端口在config/settings_develop.py 文件中S_URL 项中：修改工程的启动端口
 
-![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/appkaifa-01.png)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/appkaifa-01.png)
 
 **1.3 host配置**
 
@@ -97,7 +97,7 @@ sys.setdefaultencoding('utf-8')
 
 错误原因： 工程名和内建app名重复，如下图所示
 
-![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/appkaifa-02.png)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/appkaifa-02.png)
 
 **解决方案**：修改工程名或内建app名称
 

@@ -19,7 +19,7 @@ number.txt 的内容如下
 
 将文件上传到前置准备里创建的 input 文件夹里
 
-![](https://mc.qcloudimg.com/static/img/02738c821f14ed132fef76c466c79d08/COS_5.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/02738c821f14ed132fef76c466c79d08/COS_5.png)
 
 ### 3. 查看和修改 Demo
 使用编辑器打开 3_StoreMapping.py 文件
@@ -91,7 +91,7 @@ $ python 3_StoreMapping.py
 
 ### 6. 查看结果
 Batch 会将输出数据从本地目录拷贝到远程存储目录，3_StoreMapping.py 的执行结果保存在了 result.txt 里，这个文件将自动同步到 COS 上
-![pic](https://mc.qcloudimg.com/static/img/aee7138e589378eea48851dd1649b711/COS_6.png)
+![pic](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/aee7138e589378eea48851dd1649b711/COS_6.png)
 ```
 45
 ```

@@ -88,7 +88,7 @@
 
 下载或更新最新版本的SDK（本次以php-sdk为例）
 - [从 github 获取最新版本SDK >> ](https://github.com/QcloudApi/qcloudapi-sdk-php)（推荐）
-- [点击此处下载 SDK >>](https://mc.qcloudimg.com/static/archive/cd1857b4d9a9aeb0179e72a59f235c41/qcloudapi-sdk-php-master.zip)
+- [点击此处下载 SDK >>](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/cd1857b4d9a9aeb0179e72a59f235c41/qcloudapi-sdk-php-master.zip)
 
 ### 3.2 修改demo.php文件，修改点如下
 

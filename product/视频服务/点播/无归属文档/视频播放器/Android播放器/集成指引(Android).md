@@ -23,17 +23,17 @@
 ## Android Studio环境配置
 
 ### 1.新建Android工程
-![](https://mccdn.qcloud.com/static/img/ac2efe1a787a8c23a9250214a84fce44/image.jpg)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/ac2efe1a787a8c23a9250214a84fce44/image.jpg)
 
 ### 2.拷贝文件
 如果您的工程之前没有指定过jni的加载路径，我们推荐您放在/src/main/jniLibs目录下，这是android studio默认的jni加载目录。**如果您已经指定过jni的加载路径（通过gradle的语法：sourceSets语法或者android.sources语法），请将上文提到的SDK相关文件拷入到该目录下。**
-![](https://mccdn.qcloud.com/static/img/a776560bd0c3c156c7271dedd58cb9ac/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/a776560bd0c3c156c7271dedd58cb9ac/image.png)
 
 ### 3.导入jar包
 在Android Studio工程中找到刚才新建的jniLibs目录，展开目录，可以看到txrtmpsdk.jar，点击右键选择“Add As Library...”
-![](https://mccdn.qcloud.com/static/img/86d98492636122ed9cae898b7bff1920/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/86d98492636122ed9cae898b7bff1920/image.png)
 导入之后，可以看到build.gradle中自动生成以下这一行脚本：
-![](https://mccdn.qcloud.com/static/img/c83f9882d434f7fd51d4ca942f159138/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/c83f9882d434f7fd51d4ca942f159138/image.png)
 
 ### 4.配置APP权限
 在AndroidManifest.xml中配置APP的权限，音视频类APP一般需要以下权限：

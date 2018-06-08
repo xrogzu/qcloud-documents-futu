@@ -1,19 +1,19 @@
-﻿## 简介
+## 简介
 NAT 网关是一种将私有网络中内网 IP 地址和公网 IP 地址进行转换的网关，是 VPC 内的一个公网流量的出入口。私有网络 NAT 网关的典型应用场景如下：
 - **大带宽、高可用公网访问。**针对用户需要超大带宽、公网 IP 使用量大、部署服务较多的公网访问应用场景， NAT 网关均可以满足需求。
 - **安全的公网访问。**云平台私有网络的 NAT 网关提供 IP 的安全转换。如果用户希望隐藏私有网络内主机的公网 IP 以避免暴露其网络部署，同时又希望与公网通信，那么使用 NAT 网关可以满足这类需求。
 
 ## 网络拓扑关系
 如下图所示，NAT 网关是一个处于 Internet 和 VPC 边界的网关，并接在 VPC 的路由器上。由这样的拓扑图可知，VPC 内云主机等资源通过 NAT 网关向外发送数据包时，数据会先经过路由器，按照路由策略进行路由选择。然后 NAT 网关通过绑定的弹性 IP 地址作为源 IP 地址，将流量发送到 Internet：
-![](https://mccdn.qcloud.com/static/img/4772b9bc1e78436104f89f943f06ac97/image.png)
+
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/4772b9bc1e78436104f89f943f06ac97/image.png)
 
 ## 主要功能
 - NAT 网关支持 SNAT 和 DNAT：
  - SNAT：源网络地址转换，支持多个 VPC 云主机通过同一公网 IP 主动访问互联网。
  - DNAT：目的地址转换，用于将 VPC 内的云主机的[内网IP，协议，端口]映射成[外网IP，协议，端口]，使得云主机上的服务可被外网访问。
  
-- NAT 网关支持高防服务：
-BGP 高防可为客户提供超大带宽的 DDoS 和 CC 防护，最高支持 310Gbps 防护。您可以将高防包绑定到需要防护的 NAT 网关上，实现安全防护。
+
 
 
 ## 配置类型
@@ -88,7 +88,7 @@ NAT 网关主要有以下几点关键特性：
 
 
 ### 新建端口转发规则
-端口转发表是 NAT 网关上的一张配置表，用于配置 NAT 网关上的 DNAT 功能，可将 VPC 内的云主机的[内网 IP，协议，端口]映射成[外网 IP，协议，端口]，使得云主机上的服务可被外网访问。（内测中，如有需求，请提供 [工单申请](http://console.tce.fsphere.cn/workorder/category/create?level1_id=6&level2_id=168&level1_name=%E8%AE%A1%E7%AE%97%E4%B8%8E%E7%BD%91%E7%BB%9C&level2_name=%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%20VPC)）
+端口转发表是 NAT 网关上的一张配置表，用于配置 NAT 网关上的 DNAT 功能，可将 VPC 内的云主机的[内网 IP，协议，端口]映射成[外网 IP，协议，端口]，使得云主机上的服务可被外网访问。
 1. 登录 [云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)。选择【NAT 网关】。
 2. 在 NAT 网关列表页中点击需要修改的 NAT 网关 ID 进入详情页，选择【端口转发】
 3. 点击【新建】，选择协议、外部IP端口、及内部 IP 端口。
@@ -96,7 +96,7 @@ NAT 网关主要有以下几点关键特性：
 >**注意：**
 内部 IP 仅支持该私有网络内的云主机内网 IP。
 
-![](https://mc.qcloudimg.com/static/img/cd29655ddb62caceeaf586cb52e48e35/1.png)
+
 
 ### 查询端口转发规则
 

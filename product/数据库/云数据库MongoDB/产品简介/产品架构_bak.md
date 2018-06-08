@@ -1,6 +1,6 @@
 ## 产品架构
 云平台MongoDB系统架构图如下
-![架构图](https://mccdn.qcloud.com/static/img/65628226168a3cf8d89643e8aadaeda9/jiagou.png)
+![架构图](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/65628226168a3cf8d89643e8aadaeda9/jiagou.png)
 
 
 #### 云平台MongoDB系统包括如下几大模块：

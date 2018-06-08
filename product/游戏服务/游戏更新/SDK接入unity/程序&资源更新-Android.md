@@ -186,12 +186,12 @@ Android平台请详细参考：[《Android平台操作指南》](http://tce.fsph
 #### 3.1.1 第一步：下载首包
 第一步：下载已经创建好的1.0.0.1版本的资源包到本地。如图，下载红箭头处url对应的ifs文件。
 
-![](https://mc.qcloudimg.com/static/img/3ac2b01b3830454d7881318f2973cc63/step1.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/3ac2b01b3830454d7881318f2973cc63/step1.png)
 
 #### 3.1.2 第二步：ifs重命名
 第二步：将下载的对应ifs文件重命名成first_source.png，存放到unity游戏工程的StreamingAssets目录。
 
-![](https://mc.qcloudimg.com/static/img/54e4984a435c7194d03ee01d8bfd4efc/step2.jpg)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/54e4984a435c7194d03ee01d8bfd4efc/step2.jpg)
 
 #### 3.1.3 第三步：开启首包解压
 第三步：游戏运行后游戏判断需要首包解压时，在上文程序更新流程中开启首包解压功能（也可以在下文资源更新流程），开启首包解压后，会先做首包解压，然后执行更新流程。

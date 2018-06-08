@@ -9,7 +9,7 @@
 代码层面需要关心的分配原则简单来说只有一句话：“有上行音视频数据权限的实例会分配DC、没有上行音视频数据权限的实例分配OC”。<br/>
 具体地，在调用SDK进入房间接口ILiveRoomManager.getInstance().createRoom()的时候，其参数ILiveRoomOption.authBits()用于设置该实例在房间内的权限，具体权限字段如下图所示：
 
-![用户权限位说明](https://mccdn.qcloud.com/img56cdd6a958dff.png)
+![用户权限位说明](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56cdd6a958dff.png)
 
 AVRoomMulti.auth_bits成员变量是权限位的明文形式。
 
@@ -26,10 +26,10 @@ DC/OC的切换依然是以权限变化为依据的，相对应的接口为ILiveR
 在此情况下，音视频后台会下发重定向指令，将终端实例重定向到OC。<br/>
 典型的场景是，老师叫一个学生回答问题，回答结束之后取消了该学生上行音视频的权限，学生此时会被重定向到OC（该重定向操作对App和用户是透明的，切换过程通常很快）
 
-![权限从有到无的变更导致切换示意图](https://mccdn.qcloud.com/img56cdd763b0628.png)
+![权限从有到无的变更导致切换示意图](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56cdd763b0628.png)
 
 - 用户位于DC，权限从无到有：不存在这种情况
 - 用户位于OC，权限从有到无：在此情况下SDK不会有任何动作
 - 用户位于OC，权限从无到有（将`AUTH_BITS_SEND_AUDIO` / `AUTH_BITS_SEND_VEDIO`/ `AUTH_BITS_SEND_SUB`其中一个置为非0），在此情况下，音视频后台会下发重定向指令，将终端实例重定向到DC。
 
-![权限从无到有的变更导致切换示意图](https://mccdn.qcloud.com/img56cdd789c7ee8.png)
+![权限从无到有的变更导致切换示意图](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56cdd789c7ee8.png)

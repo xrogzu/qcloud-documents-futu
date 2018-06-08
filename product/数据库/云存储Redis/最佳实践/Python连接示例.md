@@ -28,4 +28,4 @@ print r.get('name')
 ```
 
 **运行结果**：
-![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Pythpon-1.png)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Pythpon-1.png)

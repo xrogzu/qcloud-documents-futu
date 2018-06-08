@@ -3,7 +3,7 @@
 ### 开启日志功能
 在**负载均衡实例详情**页面，开启日志访问功能。
 
-![](https://mc.qcloudimg.com/static/img/17014eeb67628fa78ffe04e2d7a58d8d/log1.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/17014eeb67628fa78ffe04e2d7a58d8d/log1.png)
 
 选取相应的COS中bucket，则请求日志会自动在bucket下创建lb-id为名称的文件夹进行存储。选取完成后，点击bucket地址可以直接跳转到日志下载页面。
 

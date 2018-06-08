@@ -31,7 +31,7 @@
 ## 购买指导
 
 云平台数据库MongoDB可通过 [官网直接购买](https://buy.tce.fsphere.cn/mongodb)
-![购买页](https://mccdn.qcloud.com/static/img/49cff441939104908bd65a7ef287d798/buymongo.png)
+![购买页](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/49cff441939104908bd65a7ef287d798/buymongo.png)
 
 ### 地域选择帮助
 
@@ -58,7 +58,7 @@
 云平台数据库 MongoDB 支持手动续费和自动续费两种方式。
 
 * 续费(按照用户需求量自主续费)
- ![手动续费](https://mccdn.qcloud.com/static/img/1c2062061dd7dc094a2c6254cb8b2d14/2.png)
+ ![手动续费](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/1c2062061dd7dc094a2c6254cb8b2d14/2.png)
 	
 * 设置自动续费(设置后到期自动续费)
-![自动续费](https://mccdn.qcloud.com/static/img/6e2ec83a69d347682b37c5f8298a3c9f/3.png)
+![自动续费](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/6e2ec83a69d347682b37c5f8298a3c9f/3.png)

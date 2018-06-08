@@ -3,7 +3,7 @@
 
 如电商网站、视频网站、在线教育等，客户端的请求通过负载均衡到达应用服务器。当访问量快速变化时，弹性伸缩服务可根据请求量弹性扩缩应用服务器的数量。
 
-![Alt text](https://mc.qcloudimg.com/static/img/ba977d67b59a73d6a137323b61d17ec4/01+%282%29.png)
+![Alt text](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ba977d67b59a73d6a137323b61d17ec4/01+%282%29.png)
 
 ## 使用方法
 将以下集群均可纳入伸缩组中，为集群增加一层防护：

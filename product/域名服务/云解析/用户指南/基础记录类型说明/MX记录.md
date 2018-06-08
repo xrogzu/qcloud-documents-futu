@@ -5,11 +5,11 @@
 
 ### MX记录的添加方式
 
-![](https://mccdn.qcloud.com/static/img/a498e4a9209d03b91489e15f83758585/MX-1.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/a498e4a9209d03b91489e15f83758585/MX-1.png)
 
-![](https://mccdn.qcloud.com/static/img/93545943591cdad40248edf7db3ccfe7/MX-2.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/93545943591cdad40248edf7db3ccfe7/MX-2.png)
 
-![](https://mccdn.qcloud.com/static/img/ced0a3421c498044c16a2219e3967bbf/MX-3.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/ced0a3421c498044c16a2219e3967bbf/MX-3.png)
 
 1. 主机记录处填子域名（一般情况下是要做xxx@123.com的邮箱，所以主机记录一般是留空的；如果主机记录填mail，邮箱地址会变为xxx@mail.123.com）。
 

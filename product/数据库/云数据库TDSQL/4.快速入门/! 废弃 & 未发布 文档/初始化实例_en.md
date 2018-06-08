@@ -1,5 +1,5 @@
 Initialization is required for the purchased Cloud Database MariaDB (TDSQL) before you can use the instances, as shown below:
-![](https://mccdn.qcloud.com/static/img/7d6e94d91a4c132d70462029f1397ced/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/7d6e94d91a4c132d70462029f1397ced/image.png)
 
 The following parameters need to be initialized:
 

@@ -5,19 +5,19 @@ VPM 是一种根据用户及角色来提取数据的控制，这是一种出于�
 选择好管理系统，并创建好了用户信息，用户所在的组和角色信息后，就可以给需要控制权限的数据集部署 VPM。主要是通过添加行过滤和列过滤来控制权限。一旦部署好了 VPM，就可以放心的把数据集提供给制作报告和查看报告的用户，同时得到完全的数据安全的控制。
 ## 行控制
 单击编辑行过滤器按钮，打开行过滤器对话框。
-![](https://mc.qcloudimg.com/static/img/dc74dbcf4e88ca6ac81989bd9ad85581/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/dc74dbcf4e88ca6ac81989bd9ad85581/image.png)
 用户在行过滤器对话框中设定过滤条件，如下图所示。用户可在编辑器中对筛选出符合条件的数据进行编辑。
-![](https://mc.qcloudimg.com/static/img/ef9e8af771326cc1269515be9f2fa6b6/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ef9e8af771326cc1269515be9f2fa6b6/image.png)
 ## 列控制
 在数据集的元数据和细节数据区域，可以对数据集中列的可见和列过滤器进行设置，如下图所示：
-![](https://mc.qcloudimg.com/static/img/58453699dd41536b0932b3d50cd3d1c7/image.png)
-![](https://mc.qcloudimg.com/static/img/49d75abb9634a5f92955b8f1072211ad/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/58453699dd41536b0932b3d50cd3d1c7/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/49d75abb9634a5f92955b8f1072211ad/image.png)
 ### 可见性
 【可见性】数据集中的列默认为可见状态的，当单击某一列的 “可见” 按钮后，则这列的可见状态被修改为不可见状态，同时，“可见” 按钮上会显示一条向右的斜线，表示此列为不可见。
 ### 列过滤器
 【列过滤器】在管理系统 -> 认证授权 -> 安全管理下设置文件权限后，在数据集的元数据区域会显示列过滤器的操作项。列过滤器可以对用户、角色和组设置不可见的权限。
 当鼠标单击数据列与列过滤器的交叉处时，将会显示提示文字：编辑，单击编辑，则会弹出列过滤器对话框，如下图所示。
-![](https://mc.qcloudimg.com/static/img/58550461530890b7ea1d96361ea92a45/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/58550461530890b7ea1d96361ea92a45/image.png)
 【可选列表】列出了所有可以被设置权限的用户，角色和组。只有具备 admin\_role 和 groupAdmin_role 的用户才可以设置列权限。
 对于 admin_role 的用户, 可用列表会列出所有的用户，组和角色。
 对于 groupAdmin_role 的用户，只列出 groupAdmin\_role 下的所有用户和组。

@@ -260,7 +260,7 @@ hadoop fs -mkdir input
 hadoop fs -put input.txt /input
 hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.4.jar wordcount /input /output/
 ```
-![6762940-439379efda5b4ad6_副本](https://mc.qcloudimg.com/static/img/50a03d9e0504301d54d12631cc8da075/image.jpg)
+![6762940-439379efda5b4ad6_副本](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/50a03d9e0504301d54d12631cc8da075/image.jpg)
 出现如上图结果就说明 Hadoop 安装已经成功了。
 
 ### 查看输出目录
@@ -272,7 +272,7 @@ hadoop fs -ls /output
 ```
 hadoop fs -cat /output/part-r-00000
 ```
-![6762940-623e7b1c1b81cb4c_副本](https://mc.qcloudimg.com/static/img/6d777bc87c16b0fb10713bbecda1636d/image.jpg)
+![6762940-623e7b1c1b81cb4c_副本](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6d777bc87c16b0fb10713bbecda1636d/image.jpg)
 
 > <font color="#0000cc">**注意：** </font>
 > 单机模式与伪分布式模式的操作方法的详细过程可以参考官网：[Hadoop入门](https://hadoop.apache.org/docs/r1.0.4/cn/quickstart.html)。

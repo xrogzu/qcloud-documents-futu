@@ -1,16 +1,16 @@
 ## SDK集成
 
 ### 下载SDK
-下载[TVCClientSDK.framework](https://mc.qcloudimg.com/static/archive/968464cff8b4e4238a93cec6fe177c46/TVCClientSDK.framework_ios_1.0.2.zip)。
+下载[TVCClientSDK.framework](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/968464cff8b4e4238a93cec6fe177c46/TVCClientSDK.framework_ios_1.0.2.zip)。
 
 ### 引入依赖包
 
-![](http://mc.qcloudimg.com/static/img/397fddc2dffe71787a849e279e8864b1/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/397fddc2dffe71787a849e279e8864b1/image.png)
 
 ### 配置项目
 Build Settings -> Other Linker Flags
 
-![](http://mc.qcloudimg.com/static/img/1363842b36c56ecee4230c9e86fec473/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/1363842b36c56ecee4230c9e86fec473/image.png)
 
 **注意事项：**
 

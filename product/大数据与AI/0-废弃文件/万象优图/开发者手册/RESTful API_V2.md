@@ -307,7 +307,7 @@ domain, appid, userid, fileid, pattern等参数参见基本格式 [参数说明]
 
 
 九宫格图如下：
-![](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/apicankao-3.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/apicankao-3.jpg)
 
 示例:
 

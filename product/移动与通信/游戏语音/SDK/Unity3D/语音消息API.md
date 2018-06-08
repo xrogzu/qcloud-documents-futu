@@ -3,7 +3,7 @@
 
 ## 2 语音消息API调用流程
  
-![](https://mc.qcloudimg.com/static/img/f3de36c0e998cb98d4085ede1879e65d/j3.jpg)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f3de36c0e998cb98d4085ede1879e65d/j3.jpg)
 
 **流程说明**  
 1.调用`SetMode`方法设置使用语音消息模式。  

@@ -53,7 +53,7 @@
 
 ### 2. 接口说明
 
-有关用户与权限 CAM 的详细 API 接口介绍，可 [点击此处查阅 >>](https://mc.qcloudimg.com/static/pdf/0d1b37b99bb74fd6a796d6ca7fd0353c/docfile.pdf) 
+有关用户与权限 CAM 的详细 API 接口介绍，可 [点击此处查阅 >>](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/pdf/0d1b37b99bb74fd6a796d6ca7fd0353c/docfile.pdf) 
 
 ### 3. 调用示例
 

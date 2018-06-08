@@ -5,11 +5,11 @@
 
 如果您是一位刚刚接触视频直播的合作伙伴，您只需要几行代码就可以完成对接流程，而如果您是一位资深的移动端软件开发工程师，SDK所提供的丰富的设置接口，亦可让您能够定制出最符合需求的表现。
 
-![rtmp sdk push](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tx_cloud_push_sdk_struct.jpg)
+![rtmp sdk push](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tx_cloud_push_sdk_struct.jpg)
 
 SDK开发包附带的推流器DEMO界面如下：
 
-![demo](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/pusher_demo_introduction_2.jpg)
+![demo](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/pusher_demo_introduction_2.jpg)
 
 -----------------------------------------------------------------------------------------------------------------
 
@@ -84,7 +84,7 @@ NSString rtmpUrl = "rtmp://2157.livepush.myqcloud.com/live/xxxxxx";
 ### 1. SDK内部原理
 首先，您需要了解一下视频云RTMP SDK的内部原理，在推流模式下，SDK内部的状态机制如下：
 
-![SDK内部原理](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tencent_cloud_rtmp_sdk_pusher_status_14.jpg)
+![SDK内部原理](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tencent_cloud_rtmp_sdk_pusher_status_14.jpg)
 ### 2. 如果您关心状态
 如果您关心RTMP SDK的推流状态，您可以提供一个**Listener**给刚才提到的**Pusher**对象，之后SDK的所有信息都会通过这个Listener反馈给您的App.
 

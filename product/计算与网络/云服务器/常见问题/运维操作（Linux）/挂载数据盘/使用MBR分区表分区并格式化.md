@@ -17,7 +17,7 @@ fdisk -l
 >**注意：**
 >若使用`df -h`命令，无法看到未分区和格式化的数据盘。
 
-![](https://mc.qcloudimg.com/static/img/00d016bf87e88a463f94561c52847b0d/47.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/00d016bf87e88a463f94561c52847b0d/47.png)
 ### 步骤二：数据盘分区
 1. 执行以下命令对数据盘进行分区：
 ```
@@ -28,14 +28,14 @@ fdisk /dev/vdb
 >**注意：**
 >此处是以创建 1 个分区为例，开发者也可以根据自己的需求创建多个分区。
 
-![](https://mc.qcloudimg.com/static/img/fbb9742be87d5a9af0e62c4dd2e02a25/48.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/fbb9742be87d5a9af0e62c4dd2e02a25/48.png)
 ### 步骤三：查看新分区
 使用以下命令可查看新分区信息：
 ```
 fdisk -l
 ```
 如图，示例中新的分区 vdb1 已经创建完成。
-![](https://mc.qcloudimg.com/static/img/87614b99eac93c397bf42eaa76cd680e/49.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/87614b99eac93c397bf42eaa76cd680e/49.png)
 ### 步骤四：格式化新分区
 >**注意：**
 >在进行分区格式化时，开发者可以自行决定文件系统的格式，如 ext2、ext3 等。示例采用`ext3`格式。
@@ -44,7 +44,7 @@ fdisk -l
 ```
 mkfs.ext3 /dev/vdb1
 ``` 
-![](https://mc.qcloudimg.com/static/img/2344d2ac95607e83a09aacbb8785563f/50.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2344d2ac95607e83a09aacbb8785563f/50.png)
 ### 步骤五：挂载新分区
 1. 执行以下命令创建 mydata 目录：
 ```mkdir /mydata```
@@ -54,7 +54,7 @@ mkfs.ext3 /dev/vdb1
 ```df -h```
 
 出现如图信息则说明挂载成功，即可以查看到数据盘了。
-![](https://mc.qcloudimg.com/static/img/b35b6561171d2c6d4bdc29dff7bf55b3/51.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b35b6561171d2c6d4bdc29dff7bf55b3/51.png)
 
 ### 步骤六：添加分区信息
 如果希望云服务器在重启或开机时能自动挂载数据盘，必须将分区信息添加到`/etc/fstab`中。如果没有添加，则云服务器重启或开机后，都不能自动挂载数据盘。
@@ -72,7 +72,7 @@ cat /etc/fstab
 ```
 
 出现如图信息则说明添加分区信息成功。
-![](https://mc.qcloudimg.com/static/img/c805b6d32a586f0d5d9300780d7164cc/52.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/c805b6d32a586f0d5d9300780d7164cc/52.png)
 
 
 

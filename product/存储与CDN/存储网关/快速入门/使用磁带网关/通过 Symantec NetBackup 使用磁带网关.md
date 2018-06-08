@@ -59,7 +59,7 @@
 	sudo /sbin/iscsiadm --mode node --targetname iqn.2003-07.com.qcloud:csg-022ef55-tapedrive-01 --portal 10.10.192.11:3260,1 --login
 	```
 	 "介质转换器目标名称" 及 "驱动目标名称" 可以在磁带网关详情获取。
-	![](https://mc.qcloudimg.com/static/img/2b70d455091b26d10128faa2514c54ad/image.png) 
+	![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2b70d455091b26d10128faa2514c54ad/image.png) 
 5. 验证卷是否已附加到客户端机器 (启动程序)。使用以下命令。
 	```
 	ls -l /dev/disk/by-path
@@ -75,33 +75,33 @@
 
 1. 以管理员身份打开 NetBackup 管理控制台。
 2. 点击 "Configure Storage Devices" 以打开设备配置向导。
-	![](https://mc.qcloudimg.com/static/img/44b63cd016a09aa6118d2caebb3ce064/NBU01.png)
+	![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/44b63cd016a09aa6118d2caebb3ce064/NBU01.png)
 3. 点击【Next】。 
-   ![](https://mc.qcloudimg.com/static/img/029e0cfa3d9ea4eae0f0ad8dd1eda738/NBU02.png)
+   ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/029e0cfa3d9ea4eae0f0ad8dd1eda738/NBU02.png)
 4. 在 Device Hosts 列中，勾选您的计算机，然后点击 【Next】。NetBackup 程序将扫描您的计算机，并发现所有设备。
-	![](https://mc.qcloudimg.com/static/img/8b052a75fba490bffe3212861ef7416c/NBU03.png) 
+	![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/8b052a75fba490bffe3212861ef7416c/NBU03.png) 
 5. 扫描完成后，在 "Scanning Hosts" 页面上，点击 【Next】，在新的页面上，继续点击 【Next】。页面将列出找到的 10 个磁带驱动器以及您计算机上的介质转换器。
-	![](https://mc.qcloudimg.com/static/img/c46bec6b7598e137d0db40e83473d1ab/NBU05.png) 
+	![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/c46bec6b7598e137d0db40e83473d1ab/NBU05.png) 
 6. 在 "Backup Devices" 窗口中，点击 【Next】。 
 7. 在 "Drag and Drop Configuration" 窗口中，确认已经勾选网关提供的介质更换器，然后点击 【Next】。 
-	![](https://mc.qcloudimg.com/static/img/7cab243b2893c912526eaad17eecd6e5/NBU06.png)
+	![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/7cab243b2893c912526eaad17eecd6e5/NBU06.png)
 8. 在随后显示的对话框中，点击【Yes】以将配置保存到您的计算机上。NetBackup 程序将更新设备配置。 在二次确认的对话框中点击 【Continue】。
-   ![](https://mc.qcloudimg.com/static/img/4a7ccc2f31ca15a76efd7b573dd44594/NBU07.png)
+   ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4a7ccc2f31ca15a76efd7b573dd44594/NBU07.png)
 9. 更新完成后，点击【Next】以使这些设备对 NetBackup 程序可用。
-	![](https://mc.qcloudimg.com/static/img/5dfca347fc025606ab26c4ba5810159b/NBU09.png)
+	![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/5dfca347fc025606ab26c4ba5810159b/NBU09.png)
 10. 点击 【Finish】以完成设置。
 
 
 ### 验证您的设备
 1. 在 NetBackup 控制台中，展开 "Media and Device Management" 节点，然后展开 "Devices" 节点。选择 "Drives" 以显示所有磁带驱动器。 
-![](https://mc.qcloudimg.com/static/img/ed8f57139f9ea6a00ed2a93690b56cfb/NBU10.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ed8f57139f9ea6a00ed2a93690b56cfb/NBU10.png)
 2. 在 "Devices" 节点中，选择 "Robots" 以显示您的所有介质更换器。 
-![](https://mc.qcloudimg.com/static/img/0e2bf5e5248fa561be47ae63612736e9/NBU11.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/0e2bf5e5248fa561be47ae63612736e9/NBU11.png)
 3. 在 "All Robots" 窗格中，选中 TLD(0) (即您的机械手)，鼠标右键弹出菜单，然后选择 【Inventory Robot】。 
 4. 在 "Robot Inventory" (机械手清点) 窗口中，确认 Select robot (选择机械手) 项目中的 Device-Host (设备主机) 列表中选择了您的主机。 
 5. 确认从 "Robot" (机械手) 列表中选择了您的机械手。 
 6. 在 "Robot Inventory" 窗口中，依次选择 "Update volume configuration"、"Empty media access port prior to update"，然后点击 【Start】 按钮。 
-![](https://mc.qcloudimg.com/static/img/dfae26a009432ca616ae225dd91b354f/NBU23.png)  	 此过程随后将清点您在 NetBackup 企业介质管理 (EMM) 数据库中的介质更换器和虚拟磁带。NetBackup 将介质信息、设备配置和磁带状态存储在 EMM 中。 
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/dfae26a009432ca616ae225dd91b354f/NBU23.png)  	 此过程随后将清点您在 NetBackup 企业介质管理 (EMM) 数据库中的介质更换器和虚拟磁带。NetBackup 将介质信息、设备配置和磁带状态存储在 EMM 中。 
 
 7. 清点完成后，在 "Robot Inventory" 窗口中将出现磁带网关上已经创建的磁带，请点击 【Yes】。在此处选择 Yes 将更新配置，并将在导入/导出槽中找到的虚拟磁带移至虚拟磁带库。 
 8. 关闭 Robot Inventory (机械手清点) 窗口。 
@@ -119,7 +119,7 @@
 #### 将虚拟磁带添加到卷池
 1. 选中 "Media", 页面会列出之前发现的 Volumes。
 2. 鼠标右键点击需要加入卷池的 Volume，在弹出的窗口中点击【Change】，在弹出的窗口中更改 Volume Pool,然后点击【OK】。
-![](https://mc.qcloudimg.com/static/img/76b71d3fde55f22e11ce93bb49016fc6/NBU24.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/76b71d3fde55f22e11ce93bb49016fc6/NBU24.png)
 3. 此时可通过展开 "Volume Pools" 节点并刚刚创建的卷池，确认新建的 Volume 已经在您的卷池中。 
 
 
@@ -127,17 +127,17 @@
 备份策略中将会指定何时执行备份操作、备份什么数据以及备份数据存储至哪个卷池。
 
 1. 选中 "NetBackup Management", 点击 "Create a Policy" 以打开 Policy Configuration Wizard 窗口。 
-![](https://mc.qcloudimg.com/static/img/de6f7daf3c2e306c52fd6366db956239/NBU18.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/de6f7daf3c2e306c52fd6366db956239/NBU18.png)
 2. 选择 File systems, databases, applications，然后点击【Next】。 
 3. 输入策略的名称，"Select the policy type"列表中选择 "MS-Windows"，然后点击 【Next】。 
 4. 在 Client List 窗口中，点击【Add】，在 Name 列中输入您的计算机的主机名，然后点击 【Next】。本步骤将您定义的策略应用于本地主机 (客户端计算机)。 
 5. 在 "Backup Selection" 窗口中，点击【Add】，然后点击文件夹图标。 在 Browse 窗口中，浏览到要备份的文件夹或文件，点击【OK】，然后点击【Next】。 
-![](https://mc.qcloudimg.com/static/img/52351ea25943c88fd21b45b8b3f57d96/NBU19.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/52351ea25943c88fd21b45b8b3f57d96/NBU19.png)
 6. 在 "Backup Types" 窗口中，接受默认值，然后点击 【Next】。若您要自行开始备份，则选择 User Backup (用户备份)。 
-![](https://mc.qcloudimg.com/static/img/6ff080e3bb32de65cbba32932b8a4349/NBU20.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6ff080e3bb32de65cbba32932b8a4349/NBU20.png)
 7. 在 "Frequency and Retention"窗口中，选择要应用于备份的频率和保留策略。根据您的需要设置备份频率，然后点击 【Next】。 
 8. 在 "Start" 窗口中，选择 Off hours（仅在业余时间备份您的文件夹），然后点击【Next】。
-![](https://mc.qcloudimg.com/static/img/a436b3674b5e5beffa2799e51a525b4a/NBU21.png) 
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/a436b3674b5e5beffa2799e51a525b4a/NBU21.png) 
 9. 在 Policy Configuration 向导中，选择 Finish。 
 
 #### 执行手动备份
@@ -146,7 +146,7 @@
 1. 在 NetBackup 控制台的导航窗格上，展开 NetBackup Management 节点。 
 2. 展开 Policies (策略) 节点。 
 3. 右键菜单，然后点击 【Manual Backup】。
-![](https://mc.qcloudimg.com/static/img/f697db1611516a1014b34a4248e9fdf9/NBU22.png) 
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f697db1611516a1014b34a4248e9fdf9/NBU22.png) 
 4. 在 Manual Backup 窗口中，输入计划名称，再选择一个客户端，然后点击【OK】。 
 5. 在随后确认对话框中，选择 "差量备份" 或 "全量备份"，点击 【OK】并退出设置。 
 6. 在导航窗格上，选择 Activity Monitor 以在 Job ID 列中查看备份的状态。   
@@ -163,7 +163,7 @@
 
 1. 在 NetBackup 管理控制台中，展开 Media and Device Management (介质和设备管理) 节点，然后展开 Media (介质) 节点。 
 2. 在列出的磁带中，鼠标右键点击需要弹出的磁带，点击 【Eject Volume From Robot】。 
-![](https://mc.qcloudimg.com/static/img/c56830bab8e729835590388ec2e2d70e/NBU25.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/c56830bab8e729835590388ec2e2d70e/NBU25.png)
 3. 在 Eject Volumes 窗口中，再次确认 Media ID，然后点击【Eject】。 
 4. 在弹出对话框中，点击【Yes】。弹出过程完毕后，Eject Volumes 对话框中磁带的状态指示弹出已成功。 
 5. 点击【Close】，关闭 Eject Volumes 窗口。 

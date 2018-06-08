@@ -9,7 +9,7 @@
 
 |版本|说明|
 |--|--|
-|[auto_test_link_v1.0.0.tar.gz](https://mc.qcloudimg.com/static/archive/0d1f32efea8cdf4e2433105ef2c30fe8/auto_test_link_v1.0.0.tar.gz)|诊断客户端服务器环境以及客户端到云缓存Memcached服务之间的连接问题。|
+|[auto_test_link_v1.0.0.tar.gz](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/0d1f32efea8cdf4e2433105ef2c30fe8/auto_test_link_v1.0.0.tar.gz)|诊断客户端服务器环境以及客户端到云缓存Memcached服务之间的连接问题。|
 
 2) 将工具上传到云缓存Memcached客户端所在的服务器（仅限Linux服务器）。解压过程如下所示：
 ``` 

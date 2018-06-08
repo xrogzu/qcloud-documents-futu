@@ -7,7 +7,7 @@
 ## 购买指导
 
 CDB for MySQL可通过[官网直接购买](http://manage.qcloud.com/shoppingcart/shop.php?tab=cdb)
-![购买页](https://mccdn.qcloud.com/static/img/f36179b2d4c5f3a3b067f34dd2962fdd/1.png)
+![购买页](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/f36179b2d4c5f3a3b067f34dd2962fdd/1.png)
 
 ### 计费流程
 
@@ -19,13 +19,13 @@ CDB for MySQL可通过[官网直接购买](http://manage.qcloud.com/shoppingcart
 CDB for MySQL支持控制台续费和续费中心续费两种方式，并在续费管理和控制台均提供续费功能。
 
 * 批量续费
- ![批量续费](https://mccdn.qcloud.com/static/img/f2544fd18e7314b5c46d566066b18d58/2.png)
+ ![批量续费](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/f2544fd18e7314b5c46d566066b18d58/2.png)
 	
 * 自动续费
-![自动续费](https://mccdn.qcloud.com/static/img/89b0396d1e136062b7a143d061a4cf23/3.png)
+![自动续费](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/89b0396d1e136062b7a143d061a4cf23/3.png)
 	
 * 实例详情页续费
-![实例详情页续费](https://mccdn.qcloud.com/static/img/443653cd0dc55eba5385e05a58ad1819/4.png)
+![实例详情页续费](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/443653cd0dc55eba5385e05a58ad1819/4.png)
 
 ## 到期提醒
 
@@ -53,7 +53,7 @@ CDB for MySQL支持控制台续费和续费中心续费两种方式，并在续�
 
 ### 按量计费
  
- ![](https://mccdn.qcloud.com/img567f91951599d.png)
+ ![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img567f91951599d.png)
  
 - 余额预警
 

@@ -3,7 +3,7 @@ CPU 使用率过高排查的步骤大致为：定位消耗 CPU 的具体进程�
 下面将介绍 Linux 系统下如何定位出 CPU 使用率过高的进程。
 ## 定位工具介绍：top 命令
 **top**：Linux 系统下常用的监控工具，用于实时获取进程级别的 CPU 使用情况。下图是 top 命令的输出信息。
-![](https://mc.qcloudimg.com/static/img/8aab6354efba19443ffe88f3ace00794/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/8aab6354efba19443ffe88f3ace00794/image.png)
 上半部分显示 CPU 和内存资源的总体使用情况：
 第一行：系统当前时间，当前登陆用户个数以及系统负载。
 第二行：系统总进程数、运行中进程数、休眠、睡眠和僵尸进程数量。
@@ -32,7 +32,7 @@ CPU 使用率过高排查的步骤大致为：定位消耗 CPU 的具体进程�
 2. 输入 top 命令查看系统负载。
 
 3. 输入大写 P，进程按 CPU 使用率降序排列；通过排序，可以方便得获得占用 CPU 资源较多的进程，进行进一步的分析。
-![](https://mc.qcloudimg.com/static/img/8aab6354efba19443ffe88f3ace00794/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/8aab6354efba19443ffe88f3ace00794/image.png)
 
 4. 分析占用 CPU 高的进程。
  1. 如果为业务进程，建议分析业务程序是否有优化空间，进行优化或者提升实例的资源配置。
@@ -45,9 +45,9 @@ secu-tcs-agent：安全组件进程
 
 ### 使用 top 命令结束进程
 1. 键入小写 k，输入想要结束进程的 pid（默认为排序第一的进程），回车。
-![](https://mc.qcloudimg.com/static/img/020f93a8988e5354de47f34da6444849/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/020f93a8988e5354de47f34da6444849/image.png)
 2. 操作成功，界面会出现 Send pid 984 signal [15/sigterm] 的提示信息，回车确认即可。
-![](https://mc.qcloudimg.com/static/img/0613aa978f9bffe78617a6374cd6ead6/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/0613aa978f9bffe78617a6374cd6ead6/image.png)
 
 ### kswapd0 进程占用 CPU 较高的处理
 kswapd0 是 Linux 系统虚拟内存管理中负责换页的进程。Linux 系统通过分页机制管理内存的同时，将磁盘的一部分划出来作为虚拟内存。当系统内存不足时，kswapd0 会频繁的进行换页操作。换页操作非常消耗 CPU 资源，导致该进程持续占用高 CPU 资源。

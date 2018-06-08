@@ -16,7 +16,7 @@
 
 如下图：
 
-![](https://mc.qcloudimg.com/static/img/9cccdddfe99dbc065c97cad27448ed9f/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/9cccdddfe99dbc065c97cad27448ed9f/image.png)
 
 
 
@@ -38,7 +38,7 @@
 #### **2. 创建子网**
 
 1. 登录[云平台控制台](http://console.tce.fsphere.cn/)，点击导航条【私有网络】，点击左导航栏中的【子网】。选择下拉框中的地域和私有网络。
-![](https://mc.qcloudimg.com/static/img/02c52c44678a56597b4d7053f8f8c467/3.jpg)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/02c52c44678a56597b4d7053f8f8c467/3.jpg)
 
 2. 点击【新建】，填写子网络名称、CIDR、可用区和关联路由表。然后点击【创建】确认。
 
@@ -65,12 +65,12 @@
 2. 在路由表列表中，点击需要访问 Internet 的子网所关联的路由表 ID 进入路由表详情页，在路由策略中点击【编辑】按钮。
 
 3. 点击新增一行，填入目的端（比如这种场景下可以填“0.0.0.0/0”，下一跳类型选择【NAT网关】，并选择已创建的 NAT 网关 ID，然后点击确定。
-![](https://mc.qcloudimg.com/static/img/3cd89bc5f80c66fd88c27cfc4e08d785/1.jpg)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/3cd89bc5f80c66fd88c27cfc4e08d785/1.jpg)
 
 至此，您在这个子网中的机器，即使没有公网IP，也可以经过NAT网关主动外访了，对外而言还是固定的IP。
 
 如下图，即使我购买的是没有公网IP且带宽为0的主机，也可以主动外访：
-![](https://mc.qcloudimg.com/static/img/17ed153e06272885b56764781d9ab581/49.jpg)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/17ed153e06272885b56764781d9ab581/49.jpg)
 但伸缩组需要识别这个子网，并确保机器都在这个子网上创建。
 
 ### 第三步：设置伸缩组
@@ -83,6 +83,6 @@
 - 选择“网络”和“子网”，指向刚才设置好的VPC和子网**（重要）**。
 
 如下图：
-![](https://mc.qcloudimg.com/static/img/699ee5bde186a9d4686684346032eba5/16.jpg)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/699ee5bde186a9d4686684346032eba5/16.jpg)
 
 至此设置完成。

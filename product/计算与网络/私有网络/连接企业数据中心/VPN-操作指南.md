@@ -10,7 +10,7 @@ IPsec VPN 可以在控制台实现全自助配置，您需要完成以下几步�
 **示例：**
 通过 IPsec VPN 连接打通您在 广州 的私有网络 TomVPC 中子网 A `192.168.1.0/24` 与您的 IDC 中子网 `10.0.1.0/24`，而您 IDC 中 VPN 网关的公网 IP 是 `202.108.22.5`。
 <div style="text-align:center">
-![](https://mc.qcloudimg.com/static/img/0cfc46cf11e4d53164219b1c386509a1/1.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/0cfc46cf11e4d53164219b1c386509a1/1.png)
 
 </div>
 您需要完成以下几个步骤：

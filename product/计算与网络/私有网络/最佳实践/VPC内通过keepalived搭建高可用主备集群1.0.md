@@ -1,7 +1,7 @@
 本文将介绍如何在云平台VPC内通过keepalived搭建高可用主备集群。
 ## 基本原理
 通常高可用主备集群包含2台服务器，一台主服务器处于某种业务的激活状态（即Active状态），另一台备服务器处于该业务的备用状态（即Standby状态)，它们共享同一个VIP（virtual IP），同一时刻VIP只在一台主设备上生效，当主服务器出现问题，备用服务器接管VIP继续提供服务。高可用主备模式有着广泛的应用，例如：mysql 主备切换、Ngnix web接入。
-![](https://mc.qcloudimg.com/static/img/a5aa34fb87508284d9e7a07898085728/1.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/a5aa34fb87508284d9e7a07898085728/1.png)
 
 ## 与物理网络的区别
 在传统的物理网络中可以通过keepalived的VRRP协议协商主备状态，其原理是：主设备周期性发送免费ARP报文刷新上联交换机的MAC表或终端ARP表，触发VIP的迁移到主设备上。云平台VPC内支持部署keepalived来搭建主备高可用集群，与物理网络相比，主要有两个区别：
@@ -100,13 +100,13 @@ vrrp_sync_group G1 {
 vip.py：通过云API开发主备切换程序，通过调用内网IP迁移的云API来进行IP地址的切换，以python为例：
 1) 下载 Python SDK
 - [转到 github 查看 Python SDK >>](https://github.com/QcloudApi/qcloudapi-sdk-python)
-- [点击下载 Python SDK >>](https://mc.qcloudimg.com/static/archive/b61ee1ce734e7437530304152c20ee14/qcloudapi-sdk-python-master.zip)
+- [点击下载 Python SDK >>](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/b61ee1ce734e7437530304152c20ee14/qcloudapi-sdk-python-master.zip)
 
 请仔细阅读其中README.md，并将sdk下载到/etc/keepalived目录中，如：
 
 2) 云API密钥获取：
-![](https://mc.qcloudimg.com/static/img/ffd379c9e886d0ae3de4fba34539aac7/2.png)
-![](https://mc.qcloudimg.com/static/img/900df050c3d619566a482ff4e1bd5433/4.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ffd379c9e886d0ae3de4fba34539aac7/2.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/900df050c3d619566a482ff4e1bd5433/4.png)
 3) 基于sdk开发切换调用云API的程序vip.py，并将vip.py保存到/etc/keepalived目录，内网IP迁移云API：
 
 ```

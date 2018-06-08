@@ -21,7 +21,7 @@ A.config/settings_develop.py 文件中DATABASES 项中：填写本地数据库�
 
 B.本地使用Eclipse开发时，工程的启动端口默认为8000，如使用其他端口在config/settings_develop.py 文件中S_URL 项中：修改工程的启动端口
 
-![图1](https://mccdn.qcloud.com/img562079eb430d6.png)
+![图1](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img562079eb430d6.png)
 ##3.host配置
 在hosts中配置```127.0.0.1 app.o.qcloud.com```
 

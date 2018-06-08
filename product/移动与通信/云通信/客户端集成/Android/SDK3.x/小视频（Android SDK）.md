@@ -55,7 +55,7 @@ buildTypes {
 
 **小视频存储功能**需要在控制台开通点播服务，开通方法如下。
 
-![](https://mc.qcloudimg.com/static/img/7830ff8639567e4a9d60923349bf5a58/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/7830ff8639567e4a9d60923349bf5a58/image.png)
 
 ## 录制小视频
 ### 画面预览

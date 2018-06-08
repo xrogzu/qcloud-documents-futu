@@ -12,4 +12,4 @@
 
 - 配置过滤器（非必选）：采集配置过滤器允许您对采集的数据进行过滤清洗，当日志数据满足所指定的规则的时候，该条日志将被丢弃，不被采集至平台。日志的过滤将为您节省日志采集时候的无效数据产生的流量。过滤规则支持填写**正则表达式**。
 
-![](https://mc.qcloudimg.com/static/img/4ccce4e06d7e43a53379595ea4494afd/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4ccce4e06d7e43a53379595ea4494afd/image.png)

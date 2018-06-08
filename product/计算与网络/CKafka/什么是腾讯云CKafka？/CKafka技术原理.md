@@ -1,6 +1,6 @@
 ## 技术原理
 Cloud Kafka的架构图如下所示：
-![](https://mc.qcloudimg.com/static/img/c1094d009fa433ef2598e0deb51dde68/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/c1094d009fa433ef2598e0deb51dde68/image.png)
 一个典型的Cloud Kafka集群如上所示。其中的生产者Producer可能是网页活动产生的消息、或是服务日志等信息。生产者通过push模式将消息发布到Cloud Kafka的Broker集群，消费者通过pull模式从broker中消费消息。消费者Consumer被划分为若干个Consumer Group，此外，集群通过Zookeeper管理集群配置，进行leader选举，故障容错等。
 
 ### 高吞吐的实现

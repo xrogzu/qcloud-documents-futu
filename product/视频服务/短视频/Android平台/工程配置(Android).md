@@ -15,7 +15,7 @@ SDK 支持 在 Android 4.0.3（API 15）及以上系统上运行，但只有 ( A
 ## 3 集成攻略（aar）
 
 ### 3.1 新建工程
-![](https://mc.qcloudimg.com/static/img/ac2efe1a787a8c23a9250214a84fce44/image.jpg)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ac2efe1a787a8c23a9250214a84fce44/image.jpg)
 
 ### 3.2 拷贝文件
 

@@ -2,7 +2,7 @@
 
 **直播+连麦** 是在 **秀场直播** 和 **在线教育** 场景中经常使用的直播模式，它既能支持高并发和低成本的在线直播，又能通过连麦实现主播和观众之间的视频通话互动，具有极强的场景适用性。
 
-![img](https://main.qcloudimg.com/raw/4032376146a41d3597d9a28350b542b5.jpg)
+![img](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/4032376146a41d3597d9a28350b542b5.jpg)
 
 云平台基于 [**LiveRoom**](http://tce.fsphere.cn/document/product/454/14606) 组件实现“直播 + 连麦”功能，它分成 Client 和 Server 两个部分（都是开源的），对接攻略请参考 [DOC](http://tce.fsphere.cn/document/product/454/14606)，本文档主要是详细列出了 Client 端的 API 列表：
 

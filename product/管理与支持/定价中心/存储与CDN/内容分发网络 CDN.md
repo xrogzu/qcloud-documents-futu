@@ -91,11 +91,11 @@ CDN 流量计费采用月度阶梯累进结算，计费阶梯如表所示：
 
 计算方式如下：
 
-+ 若为1月1日，产生流量为3TB，如下图所示。图中灰色为实际计费阶梯，绿色为1月1日产生的流量，其中2TB落入 0TB-2TB的计费阶梯，1TB落入2TB-10TB的计费阶梯，因此1月1日这一天的实际费用为：2 \* 1000 \* 0.34 + 1 \* 1000 \* 0.32；![](https://mc.qcloudimg.com/static/img/bfdae242f6cca57421a65e46a96b0c67/image.png)
++ 若为1月1日，产生流量为3TB，如下图所示。图中灰色为实际计费阶梯，绿色为1月1日产生的流量，其中2TB落入 0TB-2TB的计费阶梯，1TB落入2TB-10TB的计费阶梯，因此1月1日这一天的实际费用为：2 \* 1000 \* 0.34 + 1 \* 1000 \* 0.32；![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/bfdae242f6cca57421a65e46a96b0c67/image.png)
 
-+ 若1月2日这一天也产生了3TB的流量，如下图所示。流量计费采用月度累计，因此1月2日产生的流量均落入 2TB-10TB的计费阶梯，因此1月2日这一天的实际费用为：3 \* 1000 \* 0.32；![](https://mc.qcloudimg.com/static/img/f62d1056c1c2cab249cec62ad6e74ddc/image.png)
++ 若1月2日这一天也产生了3TB的流量，如下图所示。流量计费采用月度累计，因此1月2日产生的流量均落入 2TB-10TB的计费阶梯，因此1月2日这一天的实际费用为：3 \* 1000 \* 0.32；![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f62d1056c1c2cab249cec62ad6e74ddc/image.png)
 
-+ 若1月3日这一天产生了7TB的流量，如下图所示。此时3号的7TB中，有5TB落入2TB-10TB的计费阶梯，2TB落入10TB-50TB的计费阶梯，因此1月3日这一天的实际费用为：5 \* 1000 \* 0.32 + 2 \* 1000 \* 0.3；![](https://mc.qcloudimg.com/static/img/954e2d483e31afd411f9a91ebd7f66c8/image.png)
++ 若1月3日这一天产生了7TB的流量，如下图所示。此时3号的7TB中，有5TB落入2TB-10TB的计费阶梯，2TB落入10TB-50TB的计费阶梯，因此1月3日这一天的实际费用为：5 \* 1000 \* 0.32 + 2 \* 1000 \* 0.3；![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/954e2d483e31afd411f9a91ebd7f66c8/image.png)
 
 以此类推，计算出当月每一天的费用，当2月1日开始计费时，一切从0开始重新阶梯累进。
 
@@ -144,10 +144,10 @@ CDN为您提供了两种计费模式：流量计费 和 带宽计费，您可以
 示例：
 
 - 假设用户昨日 00:00 - 24:00 的消耗流量为 200GB，曲线图如下所示，此时流量消耗可以理解为图中曲线所占面积：
-   ![](https://mc.qcloudimg.com/static/img/3ecfe86a031782ebeaf0b1f7595cc69f/image.png)
+   ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/3ecfe86a031782ebeaf0b1f7595cc69f/image.png)
 
 - 假设用户昨日 00:00 - 24:00 的带宽峰值为 40Mbps，一天为 86400 秒，此时一天的流量为 40 \* 1000 \* 86400，将单位折算为GB，为 432GB，此时可以理解为图中矩形所占面积：
-   ![](https://mc.qcloudimg.com/static/img/b80d043b6e7f461d62fd2d87abf67005/image.png)
+   ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b80d043b6e7f461d62fd2d87abf67005/image.png)
 
 - 此时带宽利用率为：200GB / 432GB * 100% = 46%。
 
@@ -160,14 +160,14 @@ CDN为您提供了两种计费模式：流量计费 和 带宽计费，您可以
 CDN 为<font color="red">后付费产品</font>，先使用后付费，无需提前付费购买，即可直接使用。
 
 登陆 [云平台CDN官方页面](http://tce.fsphere.cn/product/cdn.html)，点击 【立即使用】：
-![](https://mc.qcloudimg.com/static/img/37e78fb6baeade5c4d83e0554e909b24/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/37e78fb6baeade5c4d83e0554e909b24/image.png)
 
 CDN 为后付费产品，需要先经过实名认证：
-![](https://mc.qcloudimg.com/static/img/e207ea6d36bb48898844cdb8878f5620/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/e207ea6d36bb48898844cdb8878f5620/image.png)
 若您已经通过实名认证，则跳过此步骤。
 
 完成认证后，选择计费方式，即可开通 CDN 服务：
-![](https://mccdn.qcloud.com/static/img/f5d3235f86db2992ad6d01d1e3d07d04/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/f5d3235f86db2992ad6d01d1e3d07d04/image.png)
 
 若您选择使用流量计费，可以购买流量包进行抵扣，[点击购买](http://manage.qcloud.com/shoppingcart/shop.php?tab=cdn)。
 

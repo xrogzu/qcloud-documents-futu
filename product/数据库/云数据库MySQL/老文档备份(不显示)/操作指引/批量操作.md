@@ -3,19 +3,19 @@
 
 Step1.选中一个或多个需要续费的实例，点击“批量续费”操作
 
-![](https://mccdn.qcloud.com/img56825d68b83d4.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56825d68b83d4.png)
 
 Step2.选择需要续费的时长，确定后进入下一步
 
-![](https://mccdn.qcloud.com/img56825d6f7b8c5.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56825d6f7b8c5.png)
 
 Step3.确定订单信息后，点击“确认支付”。
 
-![](https://mccdn.qcloud.com/img56825d763f318.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56825d763f318.png)
 
 Step4.订单支付成功，可继续查看订单，或跳转到管理中心
 
-![](https://mccdn.qcloud.com/img56825d7c5d5ea.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56825d7c5d5ea.png)
 
 ## 2批量回档
 
@@ -35,22 +35,22 @@ Step4.订单支付成功，可继续查看订单，或跳转到管理中心
 
 Step1.选中一个或多个需要回档的实例，点击”批量回档”
 
-![](https://mccdn.qcloud.com/img56825d2d97ec4.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56825d2d97ec4.png)
 
 Step2.为每个实例指定需要回档的库表
 
-![](https://mccdn.qcloud.com/img56825d1ff334a.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56825d1ff334a.png)
 
 
 Step3.指定回档后名称和回档时间，点击”执行回档”。提交成功后会显示云数据库任务列表，可查看回档进度。
 
-![](https://mccdn.qcloud.com/img56825d17d8e14.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56825d17d8e14.png)
 
-![](https://mccdn.qcloud.com/img56825d12ea040.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56825d12ea040.png)
 
 Step4.找到回档实例，点击操作中的”管理”。进入实例页面后，点击“操作日志”，选择“回档日志”，可查看历史回档记录和当前回档进度。
 
-![](https://mccdn.qcloud.com/img56825d075c08a.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56825d075c08a.png)
 
 ## 3 批量SQL操作
 
@@ -89,22 +89,22 @@ shell> mysqldump [options] db_name [tbl_name ...]
 
 Step1. 选中一个或多个需要SQL操作的实例，点击“批量SQL操作”
 
-![](https://mccdn.qcloud.com/img56825e5e779b7.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56825e5e779b7.png)
 
 Step2. 选择需要操作的实例或数据库，点击进入下一步
 
-![](https://mccdn.qcloud.com/img56825e584c1cb.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56825e584c1cb.png)
 
 Step3. 选择SQL文件，若未找到需要的SQL文件，请点击“新增文件”上传。
 
-![](https://mccdn.qcloud.com/img56825e4c63c6a.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56825e4c63c6a.png)
 
 Step4. 确认需要操作的实例或数据库以及SQL文件，确定无误后输入用户名和密码进入下一步
 
-![](https://mccdn.qcloud.com/img56825e4227d88.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56825e4227d88.png)
 
 Step5. 操作提交后可查看任务信息，若需要查看任务执行进度。任务完成之前可“取消任务”。
 
-![](https://mccdn.qcloud.com/img56825e3723afa.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56825e3723afa.png)
 
 

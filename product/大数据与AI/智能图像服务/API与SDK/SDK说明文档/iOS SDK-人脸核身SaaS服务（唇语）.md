@@ -13,11 +13,11 @@
 
 这几个服务我们通过一个完整的zip包向您提供，解压后将对应的framework引入到您的工程当中即可：
 
-![](http://ww4.sinaimg.cn/large/006tNbRwgy1fflx22i5jjj31kw0notic.jpg)
+![](http://imgcache.tce.fsphere.cn/static/ww4.sinaimg.cn/large/006tNbRwgy1fflx22i5jjj31kw0notic.jpg)
 
 您还必须将我们的资源文件（QCloudBundle.bundle）引入到工程之中：
 
-![](http://ww2.sinaimg.cn/large/006tNbRwgy1fflx4jt3kmj31kw0t9tko.jpg)
+![](http://imgcache.tce.fsphere.cn/static/ww2.sinaimg.cn/large/006tNbRwgy1fflx4jt3kmj31kw0t9tko.jpg)
 
 同时您需要确保我们依赖的系统框架也被正确的引入：
 

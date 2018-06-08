@@ -2,7 +2,7 @@
 多层 Web 应用的隔离部署，用户希望既能保证 Web 接入层能访问 Internet，响应海量请求，同时，需要通过网络隔离保障数据库服务器的安全。
 
 那么，您可以在私有网络内创建不同子网，整个 Web 层放在一个子网，通过配置弹性 IP/网关云服务器/NAT 网关与 Internet 通信，配置负载均衡服务将访问流量自动分配自动分配到多个 Web 接入层云主机上；逻辑层单独放在一个子网，只能和 Web 层及数据层通信；数据层放在另外一个子网，只和逻辑层通信。
-![](https://mc.qcloudimg.com/static/img/b127c404a42371721b7cc4c08b8ce7e0/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b127c404a42371721b7cc4c08b8ce7e0/image.png)
 
 
 ## 解决方案

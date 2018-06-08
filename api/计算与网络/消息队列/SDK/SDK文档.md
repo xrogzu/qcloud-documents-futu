@@ -17,10 +17,10 @@
 ### CMQ Java SDK 下载与配置
 #### 云 API 密钥使用说明
 使用 Java SDK 时，首先需要用户的云 API 密钥，云 API 密钥是对用户身份的合法性验证。获取云 API 密钥的方法如下：登录[云平台控制台](http://console.tce.fsphere.cn/)，选择【云产品】-【云 API 密钥】选项
-![](https://mc.qcloudimg.com/static/img/b04d51df61bc4e9259dcee293981b644/5.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b04d51df61bc4e9259dcee293981b644/5.png)
 
 用户可在此新建新的云 API 密钥或使用现有密钥。点击密钥 ID 进入详情页获取使用的密钥 secretId 和对应的 secretKey。
-![](https://mc.qcloudimg.com/static/img/47b2cf18add4d32a867f115fffb6af48/2.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/47b2cf18add4d32a867f115fffb6af48/2.png)
 
 #### endpoint 说明
 endpoint 是使用 CMQ 服务的访问地址，同时 endpoint 中也包含了使用的协议，endpoint的格式如下：
@@ -43,13 +43,13 @@ region 需要使用具体地域进行替换，有如下三个地区：gz(广州)
 下载最新版[CMQ Java SDK](http://cmqsdk-10016717.cos.myqcloud.com/qc_cmq_java_sdk_V1.0.1.zip)，或选择下载[jar包](http://cmqsdk-10016717.cos.myqcloud.com/cmq.jar)。
 
 如果使用java源码，直接将源码包含在代码目录下：
-![](https://mc.qcloudimg.com/static/img/997a2dcd9ebddadae8d0fcc17ac185a2/3.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/997a2dcd9ebddadae8d0fcc17ac185a2/3.png)
 
 如果使用jar包，请在项目【property】对话框-【Java Build Path】-【Libraries】中加入cmq.jar包。
-![](https://mc.qcloudimg.com/static/img/48efa6b553e9023b8bb94d631892d6d2/4.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/48efa6b553e9023b8bb94d631892d6d2/4.png)
 
 添加jar包之后，目录如下：
-![](https://mc.qcloudimg.com/static/img/a025253000b587bc35eca6bc1904d81c/6.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/a025253000b587bc35eca6bc1904d81c/6.png)
 
 添加完毕后，就可以运行程序了。如果有错误返回，请参考官网[错误码说明](http://tce.fsphere.cn/doc/api/431/5903)排查问题。
 

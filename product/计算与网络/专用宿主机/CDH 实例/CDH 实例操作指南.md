@@ -1,7 +1,7 @@
 ## 1. 查看 CDH 实例
 
 > 1. 打开[专用宿主机 CDH 控制台](http://console.tce.fsphere.cn/cvm/cdh)。
-> 2. 点击右上角![control](http://mccdn.qcloud.com/img568c92305158d.png)按钮，可以自定义列表中宿主机的信息。
+> 2. 点击右上角![control](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img568c92305158d.png)按钮，可以自定义列表中宿主机的信息。
 > 3. 点击宿主机ID可查看宿主机详细信息。
 
 

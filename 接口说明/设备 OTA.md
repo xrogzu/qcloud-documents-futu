@@ -8,7 +8,7 @@ OTA 升级模块用于实现设备主动或者通过小微 App 控制设备进�
 
 ### 设备端主动查询
 
-[![设备端主动查询](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ota_1.png)](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ota_1.png)</div>
+[![设备端主动查询](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ota_1.png)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ota_1.png)</div>
 
 1.  开发者在硬件开放平台上传升级包并配置升级信息；
 
@@ -20,7 +20,7 @@ OTA 升级模块用于实现设备主动或者通过小微 App 控制设备进�
 
 ### 小微 App 推送更新
 
-[![小微 App 推送更新](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ota_2.png)](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ota_2.png)
+[![小微 App 推送更新](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ota_2.png)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ota_2.png)
 
 1.  开发者在硬件开放平台上传升级包并配置升级信息；
 
@@ -34,7 +34,7 @@ OTA 升级模块用于实现设备主动或者通过小微 App 控制设备进�
 
 ### 后台推送更新
 
-[![后台推送更新](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ota_3.png)](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ota_3.png)
+[![后台推送更新](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ota_3.png)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ota_3.png)
 
 1.  开发者在硬件开放平台上传升级包并配置升级信息；
 
@@ -46,7 +46,7 @@ OTA 升级模块用于实现设备主动或者通过小微 App 控制设备进�
 
 下图分别为小微 App 中的升级提示界面和升级操作界面：
 
-[![用户操作体验](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ota_4.png)](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ota_4.png)</div>
+[![用户操作体验](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ota_4.png)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ota_4.png)</div>
 
 ## 如何对接
 
@@ -126,4 +126,4 @@ public static int queryOtaUpdate();
 
 3. 接下来可以到小微 App 的设备详情页进行测试，见用户操作体验栏中的示例图。
 
-[![OTA配置](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ota_5.png)](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ota_5.png)
+[![OTA配置](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ota_5.png)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ota_5.png)

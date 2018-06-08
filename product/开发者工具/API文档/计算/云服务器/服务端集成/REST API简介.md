@@ -25,7 +25,7 @@ https://console.tim.qq.com/$ver/$servicename/$command?sdkappid=$sdkappid&identif
 | command  | 命令字，与servicename组合用来标识具体的业务功能。 |参见API详细描述。|
 | sdkappid  | APP在即时通信云中的Appid。 |在申请接入时获得。 |
 | identifier  | 用户名，调用REST API时一般为APP管理员帐号。 |用户名（必须为APP管理员帐号）。 |
-| usersig  | 用户名对应的签名。 |对于使用独立帐号体系的APP，参见[这里](http://avc.qcloud.com/wiki2.0/im/帐号登录集成/TLS后台API使用手册/TLS后台API使用手册.html#articleContent/h3%3acontains%7blinux%E4%B8%8B%E7%94%9F%E6%88%90sig%E5%92%8C%E6%A0%A1%E9%AA%8Csig%7d)，生成sig。对于使用托管帐号体系的APP，参见[这里](http://avc.qcloud.com/wiki2.0/im/HIDE/如何/如何：生成用户凭证/如何：生成用户凭证.html)，生成sig。|
+| usersig  | 用户名对应的签名。 |对于使用独立帐号体系的APP，参见[这里](http://imgcache.tce.fsphere.cn/static/avc.qcloud.com/wiki2.0/im/帐号登录集成/TLS后台API使用手册/TLS后台API使用手册.html#articleContent/h3%3acontains%7blinux%E4%B8%8B%E7%94%9F%E6%88%90sig%E5%92%8C%E6%A0%A1%E9%AA%8Csig%7d)，生成sig。对于使用托管帐号体系的APP，参见[这里](http://imgcache.tce.fsphere.cn/static/avc.qcloud.com/wiki2.0/im/HIDE/如何/如何：生成用户凭证/如何：生成用户凭证.html)，生成sig。|
 
 注意： 
 1.APP服务端在调用REST API时，identifier必须为APP管理员帐号；
@@ -63,11 +63,11 @@ REST API的应答包体也是JSON格式，其格式符合如下特征：
 您可以通过如下几种工具来REST API的调试： 
 ### REST API调试工具 
 https://avc.qcloud.com/im/APITester/APITester.html
-使用案例参见[这里](http://avc.qcloud.com/wiki2.0/im/新手指引/服务端集成指引/服务端集成指引.html#articleContent/h2%3acontains%7b%E5%AF%BC%E5%85%A5%E8%B4%A6%E5%8F%B7%E5%88%B0%E4%BA%91%E9%80%9A%E4%BF%A1%EF%BC%88%E4%BD%BF%E7%94%A8%E4%BA%91%E9%80%9A%E8%AE%AFREST%20API%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7%EF%BC%89%7d)。 
+使用案例参见[这里](http://imgcache.tce.fsphere.cn/static/avc.qcloud.com/wiki2.0/im/新手指引/服务端集成指引/服务端集成指引.html#articleContent/h2%3acontains%7b%E5%AF%BC%E5%85%A5%E8%B4%A6%E5%8F%B7%E5%88%B0%E4%BA%91%E9%80%9A%E4%BF%A1%EF%BC%88%E4%BD%BF%E7%94%A8%E4%BA%91%E9%80%9A%E8%AE%AFREST%20API%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7%EF%BC%89%7d)。 
 ### Postman 
-Postman是一款功能强大的网页调试与发送网页HTTP请求的Chrome插件。其使用案例参见[这里](http://avc.qcloud.com/wiki2.0/im/新手指引/服务端集成指引/服务端集成指引.html#articleContent/h2%3acontains%7b%E4%B8%BA%E5%AF%BC%E5%85%A5%E7%9A%84%E8%AE%BE%E7%BD%AE%E8%B4%A6%E5%8F%B7%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%B5%84%E6%96%99%EF%BC%88%E4%BD%BF%E7%94%A8Postman%EF%BC%89%7d)。
+Postman是一款功能强大的网页调试与发送网页HTTP请求的Chrome插件。其使用案例参见[这里](http://imgcache.tce.fsphere.cn/static/avc.qcloud.com/wiki2.0/im/新手指引/服务端集成指引/服务端集成指引.html#articleContent/h2%3acontains%7b%E4%B8%BA%E5%AF%BC%E5%85%A5%E7%9A%84%E8%AE%BE%E7%BD%AE%E8%B4%A6%E5%8F%B7%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%B5%84%E6%96%99%EF%BC%88%E4%BD%BF%E7%94%A8Postman%EF%BC%89%7d)。
 ### PHP Server SDK中的调试工具 
-PHP Server SDK中包含了一个REST API调试工具：TimRestApiGear.php。您可以通过该工具在服务器上发起简单REST API调用。使用案例参见[这里](http://avc.qcloud.com/wiki2.0/im/新手指引/服务端集成指引/服务端集成指引.html#articleContent/h2%3acontains%7b%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%BE%A4%E7%BB%84%EF%BC%8C%E5%8C%85%E5%90%AB%E5%88%9D%E5%A7%8B%E7%BE%A4%E6%88%90%E5%91%98%EF%BC%88%E4%BD%BF%E7%94%A8PHP%20Server%20SDK%E4%B8%AD%E7%9A%84%E5%B7%A5%E5%85%B7%EF%BC%89%7d)。
+PHP Server SDK中包含了一个REST API调试工具：TimRestApiGear.php。您可以通过该工具在服务器上发起简单REST API调用。使用案例参见[这里](http://imgcache.tce.fsphere.cn/static/avc.qcloud.com/wiki2.0/im/新手指引/服务端集成指引/服务端集成指引.html#articleContent/h2%3acontains%7b%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%BE%A4%E7%BB%84%EF%BC%8C%E5%8C%85%E5%90%AB%E5%88%9D%E5%A7%8B%E7%BE%A4%E6%88%90%E5%91%98%EF%BC%88%E4%BD%BF%E7%94%A8PHP%20Server%20SDK%E4%B8%AD%E7%9A%84%E5%B7%A5%E5%85%B7%EF%BC%89%7d)。
 ## Server SDK集成 
 ### PHP Server SDK 
 PHP Server SDK将一些常用的REST API封装成了函数，并以接口类的方式暴露给开发者。 

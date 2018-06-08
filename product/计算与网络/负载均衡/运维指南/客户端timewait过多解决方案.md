@@ -16,7 +16,7 @@
 
 tcp_tw_recycle/tcp_timestamps都开启的条件下，60s内同一源ip主机的socket connect请求中的timestamp必须是递增的。以2.6.32内核为例，具体实现如下：
 
-![](https://mc.qcloudimg.com/static/img/2199611fec3b323a7b8fd3bb38459913/Linux1.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2199611fec3b323a7b8fd3bb38459913/Linux1.png)
 
 > tmp_opt.saw_tstamp：该socket支持tcp_timestamp
 sysctl_tw_recycle：本机系统开启tcp_tw_recycle选项
@@ -33,7 +33,7 @@ ii.	24天内收过包（时间戳字段是32位，linux默认1ms更新一次时�
 备注：在移动端该问题更为明显，因为客户端都是在运营商NAT网关下面共享有限的公网ip，五元组还可能在2MSL内被复用，不同客户端传来的时间戳不能保证是递增的。
 以2.6.32内核为例，具体实现如下：
 
-![](https://mc.qcloudimg.com/static/img/6228a7dc25c670d4d2fbddc9ea400779/Linux2.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6228a7dc25c670d4d2fbddc9ea400779/Linux2.png)
 
 > rx_opt->ts_recent：上次的时间戳
 rx_opt->rcv_tsval：本次收到的时间戳

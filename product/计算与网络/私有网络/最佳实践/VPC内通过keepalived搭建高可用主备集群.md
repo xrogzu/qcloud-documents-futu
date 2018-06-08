@@ -12,7 +12,7 @@
 ## 基本原理
 通常高可用主备集群包含 2 台服务器，一台主服务器处于某种业务的激活状态（即 Active 状态），另一台备服务器处于该业务的备用状态（即 Standby 状态)，它们共享同一个 VIP（Virtual IP），同一时刻 VIP 只在一台主设备上生效，当主服务器出现问题，备用服务器接管 VIP 继续提供服务。高可用主备模式有着广泛的应用，例如：MySQL 主备切换、Ngnix Web 接入。
 <div style="text-align:center">
-![](https://mc.qcloudimg.com/static/img/a5aa34fb87508284d9e7a07898085728/1.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/a5aa34fb87508284d9e7a07898085728/1.png)
 
 </div>
 ## 与物理网络的区别
@@ -270,7 +270,7 @@ vip.py：通过云 API 开发主备切换程序，通过调用内网 IP 迁移�
 	- pip install qcloudapi-sdk-python
 - github 源码下载方式
 	- [转到 github 查看 Python SDK >>](https://github.com/QcloudApi/qcloudapi-sdk-python)
-	- [点击下载 Python SDK >>](https://mc.qcloudimg.com/static/archive/b61ee1ce734e7437530304152c20ee14/qcloudapi-sdk-python-master.zip)
+	- [点击下载 Python SDK >>](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/b61ee1ce734e7437530304152c20ee14/qcloudapi-sdk-python-master.zip)
 
 请仔细阅读其中`README.md`，并将 SDK 下载到`/etc/keepalived`目录中.
 2) 全内网环境的host修改
@@ -279,16 +279,16 @@ vip.py：通过云 API 开发主备切换程序，通过调用内网 IP 迁移�
 3) 云 API 密钥获取：
 
 <div style="text-align:center">
-![](https://mc.qcloudimg.com/static/img/ffd379c9e886d0ae3de4fba34539aac7/2.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ffd379c9e886d0ae3de4fba34539aac7/2.png)
 
 </div>
 <div style="text-align:center">
-![](https://mc.qcloudimg.com/static/img/900df050c3d619566a482ff4e1bd5433/4.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/900df050c3d619566a482ff4e1bd5433/4.png)
 
 </div>
 4) 基于 SDK 开发切换调用云 API 的程序 vip.py，并将 vip.py 保存到```/etc/keepalived```目录，用于调用内网 IP 迁移云 API：
 - 从控制台云主机详情页弹性网卡标签下找到主网卡 ID：
-![](https://mc.qcloudimg.com/static/img/fa9fc6b8995bef9734c8de9cb004543c/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/fa9fc6b8995bef9734c8de9cb004543c/image.png)
 - 修改代码参数（注意python对缩进的严格要求）后使用
 
 ```

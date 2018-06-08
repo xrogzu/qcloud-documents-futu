@@ -16,18 +16,18 @@
 
 点击**申请邮寄幕布**，按指示填写收件人姓名、详细地址、电话等信息后提交申请，等待收件。
 云平台会在每个工作日下午四点统一发件，周末申请的在周一进行发件。
-![](https://mc.qcloudimg.com/static/img/9e6fe252d1a0cf5cafcba2350c484e8a/7.jpg)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/9e6fe252d1a0cf5cafcba2350c484e8a/7.jpg)
 
 #### 2) 自助拍照
 
 请网站负责人站在幕布中间位置，露出清晰的五官以及幕布上的云平台字样，在光线充足的地方进行拍照。
 
-![](http://i.imgur.com/78SJUch.png)
+![](http://imgcache.tce.fsphere.cn/static/i.imgur.com/78SJUch.png)
 
 #### 3) 自助上传
 
 点击上传文件上传拍好的照片，格式需为 jpg ，大小不超过 2M。上传完成后点击提交，照片将交由云平台进行审核。
-![](https://mc.qcloudimg.com/static/img/0fc4addf067e116609413cbc59b4104a/8.jpg)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/0fc4addf067e116609413cbc59b4104a/8.jpg)
 
 
 ### 完成照片上传，等待审核

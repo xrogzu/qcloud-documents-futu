@@ -1,7 +1,7 @@
 ### 1. 安装配置
 
 Java格式类程序文件需要使用jarsigner进行数字签名。签名工具jarsigner是jdk中bin目录下的自带工具，如图
-![](https://mc.qcloudimg.com/static/img/4d030150665b129714a3c71b1f8c762b/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4d030150665b129714a3c71b1f8c762b/image.png)
 
 ### 2. 证书格式转换
 

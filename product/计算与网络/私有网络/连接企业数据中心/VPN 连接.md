@@ -1,9 +1,9 @@
-﻿## 简介
+## 简介
 VPN 连接是一种通过公网加密通道连接您的对端 IDC 和私有网络的方式。如下图所示， VPN 连接分为以下几个组成部分：
 - VPN网关：创建的私有网络 IPsec VPN 网关
 - 对端网关： IDC 端的 IPsec VPN 服务网关
 - VPN通道：加密的 IPsec VPN 通道
-![](https://mccdn.qcloud.com/static/img/a654d376b4e4e13ae2bb65b13239cef2/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/a654d376b4e4e13ae2bb65b13239cef2/image.png)
 
 私有网络内可以建立VPN网关，每个VPN网关可以建立多个VPN通道，每个VPN通道可以打通一个本地IDC。需要注意的是，**在建立VPN连接之后，您需要在路由表中配置相关路由策略，才能真正实现通信。**
  
@@ -20,7 +20,7 @@ VPN网关根据带宽上限分为5种设置，分别为：5M、10M、20M、50M�
 ## VPN通道
 VPN网关和对端网关建立后，即可建立VPN通道，用于私有网络和外部 IDC 之间的加密通信。当前 VPN 通道支持 IPsec 加密协议，可满足绝大多数 VPN 连接的需求。
 
-VPN 通道在运营商公网中运行，公网的网络阻塞、抖动会对VPN网络质量有影响，因此也无法提供 SLA 服务协议保障。如果业务对延时、抖动敏感，建议通过专线接入私有网络，更多内容可以查看[专线接入服务](http://tce.fsphere.cn/product/dc.html)。
+VPN 通道在运营商公网中运行，公网的网络阻塞、抖动会对VPN网络质量有影响，因此也无法提供 SLA 服务协议保障。如果业务对延时、抖动敏感，建议通过专线接入私有网络。
 
 云平台上的 VPN 通道在实现 IPsec 中使用 IKE（Internet Key Exchange，因特网密钥交换）协议来建立会话。IKE 具有一套自保护机制，可以在不安全的网络上安全地认证身份、分发密钥、建立 IPSec 会话。
 
@@ -49,7 +49,7 @@ SPD策略1 本端网段 `10.0.0.0/24`，对端网段为 `192.168.0.0/24`、`192.
 SPD策略2 本端网段 `10.0.1.0/24`，对端网段为 `192.168.2.0/24`。
 SPD策略3 本端网段 `10.0.2.0/24`，对端网段为 `192.168.2.0/24`。
 
-![](https://mccdn.qcloud.com/static/img/5b32174d312e31c5b5a9162a50456de8/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/5b32174d312e31c5b5a9162a50456de8/image.png)
  
 ### IKE配置
 
@@ -114,7 +114,7 @@ IPsec VPN 可以在控制台实现全自助配置，您需要完成以下几步�
 
 示例：
 通过IPsec VPN连接打通您在**广州**的私有网络TomVPC中子网A`192.168.1.0/24`与您的IDC中子网`10.0.1.0/24`，而您IDC中VPN 网关的公网 IP 是`202.108.22.5`。
-![](https://mc.qcloudimg.com/static/img/0cfc46cf11e4d53164219b1c386509a1/1.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/0cfc46cf11e4d53164219b1c386509a1/1.png)
 
 您需要完成以下几个步骤：
 #### 第一步：创建VPN网关

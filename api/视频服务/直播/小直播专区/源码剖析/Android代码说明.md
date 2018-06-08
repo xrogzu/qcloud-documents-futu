@@ -1,6 +1,6 @@
 ## 1.工程结构
 从github下载小直播代码，使用Android Studio打开工程后，您将看到如下的目录结构：
-![](https://mc.qcloudimg.com/static/img/af1b516a6c254da0224486bd35e3d2b6/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/af1b516a6c254da0224486bd35e3d2b6/image.png)
 
 |文件/目录 | 说明 | 
 |---------|---------|
@@ -129,11 +129,11 @@ UGC 小视频的录制和发布以及编辑功能。
 - 主播端可以展示观众列表，当有观众进入，退出房间时候，观众列表会刷新，主播也会收到观众进入或则退出房间消息
 
 #### 推流时序图
-![](https://mc.qcloudimg.com/static/img/6fb00666a6a1cdea732fbddccc5fc786/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6fb00666a6a1cdea732fbddccc5fc786/image.png)
 
 #### UI层级结构
 SDK渲染视频时，startCameraPreview的参数View（即videoParentView）是用来承载SDK渲染层的，SDK会在其之上构建一个用于OpenGL渲染的子view，如果您想要在渲染画面之上实现弹幕、献花之类的UI控件，应该如下图这般创建一个与之平级的view
-![](https://mc.qcloudimg.com/static/img/3da33f8c62b9339a365faddd2635faa2/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/3da33f8c62b9339a365faddd2635faa2/image.png)
 
 #### 相关代码 
 - Logic:
@@ -148,7 +148,7 @@ SDK渲染视频时，startCameraPreview的参数View（即videoParentView）是�
 - 观众端可以展示主播信息，观众列表，当有观众进入，退出房间时候，观众列表会刷新，同时消息列表也会展示其他观众进入，退出房间的消息。
 
 #### 播放时序图
-![](https://mc.qcloudimg.com/static/img/fb9f9002c2d973d069bb9c1568037e26/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/fb9f9002c2d973d069bb9c1568037e26/image.png)
 
 #### UI层级结构
 请参考推流模块的UI层级结构

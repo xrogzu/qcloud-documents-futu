@@ -4,7 +4,7 @@
 
 游戏客户也可通过独享宿主机的方式，联系大客户经理或提工单申请对名下宿主机进行定制化调整。
 
-![youxi](http://mc.qcloudimg.com/static/img/2f2f7d7b8bb3439faff1f998853030b9/image.png)
+![youxi](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2f2f7d7b8bb3439faff1f998853030b9/image.png)
 
 
 
@@ -16,5 +16,5 @@
 
 支持指定围笼购买产品，同时结合其他产品打造单租户独享区域，宿主机、网络、内存、磁盘均单租户专用。
 
-![fin](http://mc.qcloudimg.com/static/img/b8ae6b5de3e35202f1fc3d63895d1f97/image.png)
+![fin](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b8ae6b5de3e35202f1fc3d63895d1f97/image.png)
 

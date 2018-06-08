@@ -6,7 +6,7 @@
 香港和北美地域暂不支持高IO版。
 
 高IO云数据库购买页面如下图所示：
-![](https://mccdn.qcloud.com/img568280339e902.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img568280339e902.png)
 
 ## 2 高IO云数据库性能说明
 

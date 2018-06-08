@@ -8,7 +8,7 @@
 手机扫描下面的二维码，安装图片/微视频服务安卓版的体验APP。Android SDK中自带的demo即为这个体验APP。
 `http://1251013638.cdn.myqcloud.com/1251013638/img-qcloud-sdk/qr-code.png?v=1.1.0`
 **iOS系统**
-[iOS体验APP ](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/QCloudDemo-ios-v1.1.0.zip)
+[iOS体验APP ](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/QCloudDemo-ios-v1.1.0.zip)
 将SDK中Demo重新编译或在模拟器中运行图片/微视频服务iOS版的体验APP。
 
 ## 3	万象优图/微视频DemoAPP使用说明
@@ -17,21 +17,21 @@ DemoAPP本身自带了官网内置的APP应用信息，可以直接使用上传�
 (1) APPID为开发者在[移动服务控制台——应用管理](http://app.qcloud.com/)创建应用时获取的AppID；
 (2) USERID是开发者自己业务体系中的userid，用户可以自己设置也可以使用DemoAPP自带的123456；
 (3) SIGN为签名。签名是开发者客户端向其业务服务器请求得到的，验证自己的移动是否开通时，开发者可以参考服务器端SDK，选择熟悉的语言SDK，根据其提供的接口生成签名。
-![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-1.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-1.jpg)
 填写注册信息：
-![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-2.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-2.jpg)
 
 ### 3.2	使用上传、暂停、删除、查询、复制等操作
 图片服务页面如下：
-![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-3.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-3.jpg)
 视频服务页面如下：
-![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-4.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-4.jpg)
 
 ### 3.3	IOS返回码说明
-![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-5.jpg)
-![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-6.jpg)
-![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-7.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-5.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-6.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-7.jpg)
 
 ### 3.4	Android返回码说明
-![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-8.jpg)
-![](https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-9.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-8.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-9.jpg)

@@ -5,4 +5,4 @@
 
 主备 NameNode 之间通过一 组 JournalNode 同步元数据信息,一条数据只要成功 写入多数 JournalNode 即认为写 入成功。 通常配置 奇数个(2N+1) 个JournalNode,这样,只要 N+1 个写入成功就认为数据写入成功, 此时最多容忍 N-1 个JournalNode 挂掉,比如 3 个 JournalNode 时,最多允许 1 个 JournalNode 挂掉,5个 JournalNode 时,最多允许 2 个 JournalNode 挂掉。
 
-![](https://mc.qcloudimg.com/static/img/2d6e738edcabe791089188918c254ab9/HDFS_HA.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2d6e738edcabe791089188918c254ab9/HDFS_HA.png)

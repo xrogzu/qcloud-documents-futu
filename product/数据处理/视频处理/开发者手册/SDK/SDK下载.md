@@ -8,7 +8,7 @@
 **发布时间：**2016-07-11  
 **版本说明：**  
 优化代码，修改bug
-下载地址：[Android SDK V1.1.4.1 （含说明文档）](https://mccdn.qcloud.com/static/archive/97334818e8cefd26b8516876a869de29/android-v1.1.4.1.zip)  | [Android 体验 Demo](https://mccdn.qcloud.com/static/archive/870d73f4a51031375a6e139b0da1131a/QcloudDemoApp.zip)    | [Android 代码演示 Demo](https://mccdn.qcloud.com/static/archive/63bab1ec3ead6ac70620b1267a73ebfc/QloudVideoDemoApp.zip) 
+下载地址：[Android SDK V1.1.4.1 （含说明文档）](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/archive/97334818e8cefd26b8516876a869de29/android-v1.1.4.1.zip)  | [Android 体验 Demo](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/archive/870d73f4a51031375a6e139b0da1131a/QcloudDemoApp.zip)    | [Android 代码演示 Demo](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/archive/63bab1ec3ead6ac70620b1267a73ebfc/QloudVideoDemoApp.zip) 
 接入文档：[视频处理Android-SDK文档](http://tce.fsphere.cn/doc/product/314/3500)
 
 **版本号：**Android SDK V1.1.3.3  
@@ -16,13 +16,13 @@
 **版本说明：**  
 视频信息可以上传视频封面
 优化代码，修改bug
-下载地址：[Android SDK V1.1.3.3 （含说明文档）](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/qcloud-android-v1.1.3.332.zip) | [Android 体验 Demo](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/android-demo.zip) 
+下载地址：[Android SDK V1.1.3.3 （含说明文档）](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/qcloud-android-v1.1.3.332.zip) | [Android 体验 Demo](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/android-demo.zip) 
 
 **版本号：**Android SDK V1.1.3
 **发布时间：**2015-07-24
 **版本说明：**
 1. 全新发布
-  下载地址：[Android SDK V1.1.3](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/qcloud-android-v1.1.3.300.zip)
+  下载地址：[Android SDK V1.1.3](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/qcloud-android-v1.1.3.300.zip)
   接入文档：[视频处理Android-SDK文档](http://tce.fsphere.cn/doc/product/314/3500)
 
 ## 2. iOS SDK
@@ -30,7 +30,7 @@
 **发布时间：**2016-07-11
 **版本说明：**
 修正部分bug
-下载地址：[iOS SDK V1.1.4.1](http://iosimage-10016717.cos.myqcloud.com/qcloud-image-ios-v1.1.4.1.zip) | [iOS 体验 Demo](https://mccdn.qcloud.com/static/archive/870d73f4a51031375a6e139b0da1131a/QcloudDemoApp.zip) | [iOS 代码演示 Demo](https://mccdn.qcloud.com/static/archive/65929e1472906113dfbc5596f2485d26/QcloudDemoApp.zip)
+下载地址：[iOS SDK V1.1.4.1](http://iosimage-10016717.cos.myqcloud.com/qcloud-image-ios-v1.1.4.1.zip) | [iOS 体验 Demo](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/archive/870d73f4a51031375a6e139b0da1131a/QcloudDemoApp.zip) | [iOS 代码演示 Demo](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/archive/65929e1472906113dfbc5596f2485d26/QcloudDemoApp.zip)
 
 接入文档：[视频处理iOS-SDK文档](http://tce.fsphere.cn/doc/product/314/3501)
 
@@ -39,13 +39,13 @@
 **版本说明：**  
 视频信息可以上传视频封面（TXYVideoFileInfo增加coverUrl 属性）
   上传SDK添加支持了 bitecode 版本
-下载地址：[iOS SDK V1.1.3.3 （含说明文档）](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/qcloud-image-ios-v1.1.3.3.zip) | [iOS 体验 Demo](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/iOS-demo.zip)
+下载地址：[iOS SDK V1.1.3.3 （含说明文档）](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/qcloud-image-ios-v1.1.3.3.zip) | [iOS 体验 Demo](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/iOS-demo.zip)
 
 **版本号：**iOS SDK V1.1.3
 **发布时间：**2015-08-07
 **版本说明：**
 1. 全新发布
-  下载地址：[iOS SDK V1.1.3](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/qcloud-ios-v1.1.3.220.zip)
+  下载地址：[iOS SDK V1.1.3](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/qcloud-ios-v1.1.3.220.zip)
   接入文档：[视频处理iOS-SDK文档](http://tce.fsphere.cn/doc/product/314/3501)
 
 ## 3. 服务器SDK

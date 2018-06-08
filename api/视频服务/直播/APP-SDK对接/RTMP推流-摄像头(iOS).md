@@ -4,11 +4,11 @@
 
 如果您是一位刚刚接触视频直播的合作伙伴，您只需要几行代码就可以完成对接流程，而如果您是一位资深的移动端软件开发工程师，SDK所提供的丰富的设置接口，亦可让您能够定制出最符合需求的表现。
 
-![rtmp sdk push](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tx_cloud_push_sdk_struct.jpg)
+![rtmp sdk push](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tx_cloud_push_sdk_struct.jpg)
 
 ## 下载RTMP SDK
 在 [SDK下载区](http://tce.fsphere.cn/doc/api/258/6172#.E7.A7.BB.E5.8A.A8.E7.AB.AFsdk) 里找到指定平台的SDK压缩包，压缩包中包含了SDK本体和Demo的代码，参考 [工程配置(iOS)](http://tce.fsphere.cn/doc/api/258/5320) 在Xcode中将其运行起来，如果一起顺利可以看到如下界面。
-![demo](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/pusher_demo_introduction_2.jpg)
+![demo](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/pusher_demo_introduction_2.jpg)
 
 > **x86 模拟器调试**
 > 由于RTMP SDK大量使用iOS系统的高级特性，我们不能保证所有特性在x86环境的模拟器下都能正常运行，而且音视频是性能敏感的功能，模拟器下的表现跟真机会有很大的不同。所以，如果条件允许，推荐您尽量使用真机调试。
@@ -35,7 +35,7 @@ LivePushConfig 在alloc之后便已经装配了一些我们反复调过的参数
 
 - **推荐的布局！**
 > 实际上，RTMP SDK 的内部并不是直接把画面渲染在您提供的view上，而是在这个view之上创建一个用于OpenGL渲染的子视图（subView），但是，这个渲染用的subView的大小会跟随您提供的view大小变化而自动调整。
->![](https://mccdn.qcloud.com/static/img/75b41bd0e9d8a6c2ec8406dc706de503/image.png)
+>![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/75b41bd0e9d8a6c2ec8406dc706de503/image.png)
 >
 > 不过即如此，如果您想要在渲染画面之上实现弹幕、献花之类的UI控件，我们也推荐您”另起炉灶“（再创建一个平级的view），这样可以避免很多前后画面覆盖的问题。
 
@@ -148,7 +148,7 @@ iOS平台的机型数量并不像Android那么浩瀚，而且硬件质量也都�
 
 主播可能只是短暂接个紧急电话而已，但上述的交互体验显然会让观众全部离开直播间，怎么优化呢？
 从 **SDK 1.6.1** 开始，我们引入了一种解决方案，如下是从观众端的视角看去，该方案可以达到的效果： 
-![](https://mc.qcloudimg.com/static/img/6325a9f7918602bd8db15228e6ffe189/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6325a9f7918602bd8db15228e6ffe189/image.png)
 
 - **8.1) 设置pauseImg**
 在开始推流前，使用 LivePushConfig 的 pauseImg 接口设置一张等待图片，图片含义推荐为“主播暂时离开一下下，稍后回来”。
@@ -215,7 +215,7 @@ step 13 中会介绍 RTMP SDK 的推流事件处理，其中 **PUSH_WARNING_NET_
 
 ### step 11: 横屏推流
 大多数情况下，用户习惯以“竖屏持握”进行直播拍摄，观看端看到的也是竖屏样式；有时候用户在直播的时候需要更广的视角，则拍摄的时候需要“横屏持握”，这个时候其实是期望观看端能看到横屏画面，就需要做横屏推流，下面两幅示意图分别描述了横竖屏持握进行横竖屏推流在观众端看到的效果。
-![](https://mc.qcloudimg.com/static/img/cae1940763d5fd372ad962ed0e066b91/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/cae1940763d5fd372ad962ed0e066b91/image.png)
 > <font color='red'>**注意：**</font> 横屏推流和竖屏推流，观众端看到的图像的宽高比是不同的，竖屏9:16，横屏16：9。
 
 要实现横屏推流，需要在两处进行设置：

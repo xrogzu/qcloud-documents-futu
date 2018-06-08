@@ -17,13 +17,13 @@
 ###  配置参数
 在云平台IoT Suite控制台创建产品与设备，选择鉴权模式**（注意，选择不同模式则需要在device_config.h中配置不同的设备参数）**，获取到对应的`MQTT Server Host、Product ID、Product key、DeviceName、DeviceSecret`参数，用于填写配置文件
 - 选择鉴权模式
-  ![](https://main.qcloudimg.com/raw/c6fcf2a3df74e70893962399cb0e2216.png)
+  ![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/c6fcf2a3df74e70893962399cb0e2216.png)
 - 直连模式下product相关参数*(MQTT Server Host、Product ID、Product key)*
-  ![](https://main.qcloudimg.com/raw/50d1e01c991a2666e9e8c6a96148fb31.png)
+  ![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/50d1e01c991a2666e9e8c6a96148fb31.png)
 - token模式下product相关参数*（MQTT Server Host、Product ID、Product key、mqtt username、mqttpassword）*
-  ![](https://main.qcloudimg.com/raw/c245e861caee92fd71428d688f7732cd.png)
+  ![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/c245e861caee92fd71428d688f7732cd.png)
 - 在设备管理—设备证书下获取设备相关参数*(DeviceName、DeviceSecret)*
-  ![](https://main.qcloudimg.com/raw/763b931897398dc63b2e55089c014a99.png)
+  ![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/763b931897398dc63b2e55089c014a99.png)
 
 一个设备仅支持直连或临时token一种连接模式。
 1.选择直连模式：需要把控制台获取的`mqttHost、productKey、productId、deviceName、deviceSecret、mqtt username、mqtt password`填入下列配置参数

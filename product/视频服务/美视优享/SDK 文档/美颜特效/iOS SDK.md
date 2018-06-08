@@ -34,7 +34,7 @@
 ### 4. 添加动效资源
 
 将 zip 包中 Resource 目录以 folder refrence 形式添加到工程中。这些资源非常重要，如果没有添加切换到换脸类素材时会发生 crash。
-![](https://mc.qcloudimg.com/static/img/b7fac6b5e08b0ff245b17d29f7296b18/AAE85661-7601-4473-A338-747FB9A6981C.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b7fac6b5e08b0ff245b17d29f7296b18/AAE85661-7601-4473-A338-747FB9A6981C.png)
 
 ### 5. 导入 licence 文件
 特权版需要 licence 验证通过后，相应功能才能生效。您可以联系商务申请一个免费的为期 30 天的调试 license。

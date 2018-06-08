@@ -16,7 +16,7 @@
 
 具体接入开发指南见：[**身份证识别 SDK 接入**](http://tce.fsphere.cn/document/product/655/13846)
 ## 流程图示
- ![](https://mc.qcloudimg.com/static/img/757aebd7592edcc02fa967a875dc70c4/ID+card+OCR.png)
+ ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/757aebd7592edcc02fa967a875dc70c4/ID+card+OCR.png)
 
 
 

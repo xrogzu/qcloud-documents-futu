@@ -4,7 +4,7 @@
 <!--### <font color=gray>设备端 C-SDK 概述</font>
 -->
 SDK 根据代码结构可以大致分成四部分：
-![](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/SDK代码结构v1.2.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/SDK代码结构v1.2.jpg)
 
 1、硬件平台抽象层（HAL 层）
 

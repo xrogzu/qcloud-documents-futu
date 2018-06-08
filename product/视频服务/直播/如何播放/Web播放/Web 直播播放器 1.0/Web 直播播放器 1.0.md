@@ -23,8 +23,8 @@
 进入 [直播管理控制台](http://console.tce.fsphere.cn/live) 并创建直播频道。
 ### Step 3：获取 ID
 您可以在直播管理控制台查找到直播频道并对该频道进行管理，在控制界面您可以找到 app_id，单击该直播频道可以在【基础设置】查询到该频道的频道 ID。
-![](https://mc.qcloudimg.com/static/img/ac00be44d369a9fa6bc5a93c2b837527/image.png)
-![](https://mc.qcloudimg.com/static/img/41ad87e5f153cb1df1d31d6b4a55ea47/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ac00be44d369a9fa6bc5a93c2b837527/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/41ad87e5f153cb1df1d31d6b4a55ea47/image.png)
 
 ### Step 4：页面准备
 在需要播放视频的页面（包括 PC 或 H5）中引入初始化脚本。

@@ -6,7 +6,7 @@
 - **短视频发布**：
 即将 MP4 文件上传到腾讯视频云，并获得在线观看 URL， 腾讯视频云支持视频观看的就近调度、秒开播放、动态加速 以及海外接入等要求，从而确保优质的观看体验。
 
-![](https://mc.qcloudimg.com/static/img/283c8d7fe0a5a316097ae687a2bf6c5a/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/283c8d7fe0a5a316097ae687a2bf6c5a/image.png)
 
 * 第一步：使用 TXUGCRecord 接口录制一段小视频，录制结束后会生成一个小视频文件（MP4）回调给客户；
 
@@ -41,7 +41,7 @@
 
 ## 对接攻略
 
-![](https://mc.qcloudimg.com/static/img/6b21b033259c1b5124648b73e88fb243/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6b21b033259c1b5124648b73e88fb243/image.png)
 
 
 ### 1. 画面预览

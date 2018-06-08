@@ -14,7 +14,7 @@ Java-SDK说明文档-2.0.4
 或者直接在github下载zip包。
 2.	导入项目
 在IDE中导入jar包（如果代码不支持，可以直接复制代码文件）
-![](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/jieruwanxiang-22.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/jieruwanxiang-22.jpg)
 
 3.	参照api说明和sdk中提供的demo，开发代码。
 

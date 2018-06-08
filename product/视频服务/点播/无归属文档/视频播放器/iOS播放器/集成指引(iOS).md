@@ -25,7 +25,7 @@
 
 在本例中，新建一个名字叫做HelloSDK的iOS工程，将下载下来的`TXRTMPSDK.framework`拷贝至工程目录。目录结构如下图所示：
 
-![](https://mccdn.qcloud.com/static/img/235308a7d33f2f8c921a048737899c24/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/235308a7d33f2f8c921a048737899c24/image.png)
 
 ### 2、添加Framework
 
@@ -44,11 +44,11 @@
 
 所有添加完毕，工程依赖如下图所示：
 
-![](https://mc.qcloudimg.com/static/img/0e012a7ab67e833eb33aec1e02f5d86b/image.jpg)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/0e012a7ab67e833eb33aec1e02f5d86b/image.jpg)
 
 关闭工程Bitcode选项。
 
-![](https://mccdn.qcloud.com/static/img/4298f90507a749625d7e92cc9004c1b1/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/4298f90507a749625d7e92cc9004c1b1/image.png)
 
 ### 3、添加头文件
 在Build Settings->Search Paths->User Header Search Paths中添加头文件搜索路径。注意此项不是必须的，如果您没有添加TXRTMPSDK的头文件搜索路径，则在引用SDK的相关头文件时，需要在头文件前增加"TXRTMPSDK/"，如下所示：

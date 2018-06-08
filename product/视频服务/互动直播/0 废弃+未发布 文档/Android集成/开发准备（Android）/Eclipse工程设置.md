@@ -15,13 +15,13 @@ APP的开发环境不需要与SDK的完全一致，但要保证兼容。以下�
 下面通过一个简单的示例工程，说明如何在Eclipse工程中集成SDK。
 ### 1、关于Android SDK版本
 APP的开发环境不需要与SDK的完全一致，但要保证兼容。如下图所示，APP工程最低支持API 8:Android 2.2(Froyo)版本：
-![](https://mccdn.qcloud.com/static/img/29a545171c4479c8f255c25ef0629b8e/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/29a545171c4479c8f255c25ef0629b8e/image.png)
 
 ### 2、拷贝SDK文件
 如下图所示，将《[下载SDK](http://tce.fsphere.cn/doc/product/268/%E4%B8%8B%E8%BD%BDSDK%EF%BC%88Android%EF%BC%89)》中那个libs文件夹下的所有jar和so文件拷贝到工程文件夹：
 - jar文件都放在libs文件夹；
 - so文件都放在libs\armeabi文件夹。
-![](https://mccdn.qcloud.com/static/img/ba16e54bac3a2d284c81eaefe006621e/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/ba16e54bac3a2d284c81eaefe006621e/image.png)
 
 ### 3、配置APP权限
 在AndroidManifest.xml中配置APP的权限，音视频通信类的APP一般需要以下权限：

@@ -17,28 +17,28 @@ DemoAPP本身自带了官网内置的APP应用信息，可以直接使用上传�
 (2). USERID是开发者自己业务体系中的userid，用户可以自己设置也可以使用DemoAPP自带的123456；
 (3). SIGN为签名。签名是开发者客户端向其业务服务器请求得到的，验证自己的移动是否开通时，开发者可以参考[服务器端SDK](http://tce.fsphere.cn/doc/product/314/SDK%E4%B8%8B%E8%BD%BD)，选择熟悉的语言SDK，根据其提供的接口生成签名。
 
-![](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-1.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-1.jpg)
 
 填写注册信息：
-![](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-2.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-2.jpg)
 
 ### 2.2	使用上传、暂停、删除、查询、复制等操作
 图片服务页面如下：
 
-![](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-3.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-3.jpg)
 
 视频服务页面如下：
 
-![](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-4.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-4.jpg)
 
 ### 2.3	iOS返回码说明
-![](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-5.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-5.jpg)
 
-![](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-6.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-6.jpg)
 
-![](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-7.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-7.jpg)
 
 ### 2.4	Android返回码说明
-![](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-8.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-8.jpg)
 
-![](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-9.jpg)
+![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/demo-9.jpg)

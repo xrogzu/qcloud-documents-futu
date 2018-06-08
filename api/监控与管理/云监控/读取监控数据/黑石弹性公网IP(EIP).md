@@ -29,6 +29,7 @@ dimensions.0.value为要查询的EIP的地址信息
 | endTime            | 否    | Datetime | 结束时间           | 结束时间，默认为当前时间。 endTime不能小于startTime       |
 
 ### 2.2 指标名称
+
 > 当前黑石弹性公网IP监控维度的取值周期为300秒(period参数)，暂不支持更细粒度的数据获取
 
 | 指标名称           | 含义    | 单位   | 纬度   |

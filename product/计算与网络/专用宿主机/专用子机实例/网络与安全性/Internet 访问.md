@@ -52,4 +52,4 @@
 curl http://metadata.tencentyun.com/meta-data/public-ipv4
 ```
 返回值有类似如下结构：
-![](https://mccdn.qcloud.com/img56a1f015c48e5.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56a1f015c48e5.png)

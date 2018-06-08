@@ -20,7 +20,7 @@ Ubuntu
 
 ### 安装LogListener
 
-[点击下载 LogListener 1.1.2](https://mc.qcloudimg.com/static/archive/64065f325335ce4fb1ed96433eb691fd/loglistener.1.1.2.tar.gz)，将安装包解压至指定的目标目录中，在root下执行
+[点击下载 LogListener 1.1.2](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/64065f325335ce4fb1ed96433eb691fd/loglistener.1.1.2.tar.gz)，将安装包解压至指定的目标目录中，在root下执行
 
 ```
 cd loglistener/tools/op;

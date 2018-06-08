@@ -46,7 +46,7 @@ git clone https://github.com/tencentyun/COS_iOS_SDK.git
 
 在 Build Settings 中设置 Other Linker Flags，加入参数 -ObjC。
 
-![参数配置](https://mccdn.qcloud.com/static/img/58327ba5d83809c77da158ff95627ef7/image.png)
+![参数配置](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/58327ba5d83809c77da158ff95627ef7/image.png)
 
 在工程info.plist文件中添加App Transport Security Settings 类型，然后在App Transport Security Settings下添加Allow Arbitrary Loads 类型Boolean,值设为YES。
 

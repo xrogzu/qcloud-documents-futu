@@ -17,7 +17,7 @@
 #### 通过控制台升级实例配置
 1. 登录 [云平台](https://console.tce.fsphere.cn/cvm/overview)，单击左侧【云主机】。
 2. 对于要调整配置的 CVM 实例，在右侧操作栏，单击【更多】->【云主机设置】->【调整配置】。
-   ![](https://mc.qcloudimg.com/static/img/2cf36c88b498d6e1a0f79141c0bc9ded/image.png)
+   ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2cf36c88b498d6e1a0f79141c0bc9ded/image.png)
 3. 在调整配置弹出框中，选定升级后的 **目标 CPU 核数** 和 **目标内存容量** 后，单击 **确定**。即可即时调整实例配置。
  
  >**注意：**
@@ -38,7 +38,7 @@
 #### 降级方法：
 1. 登录 [云平台](https://console.tce.fsphere.cn/cvm/overview)，单击左侧【云主机】。
 2. 对于要调整配置的 **按量计量** CVM 实例，在右侧操作栏，单击【更多】->【云主机配置】->【调整配置】。
-   ![](https://mc.qcloudimg.com/static/img/f4b8b92472a34a22f5a3df8ae8011f0d/image.png)
+   ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f4b8b92472a34a22f5a3df8ae8011f0d/image.png)
 3. 在调整配置弹出框中，选择降级后的 **目标 CPU 核数** 和 **目标内存容量** 后，单击确定，即时降级云服务器配置。
   
 >**注意：**

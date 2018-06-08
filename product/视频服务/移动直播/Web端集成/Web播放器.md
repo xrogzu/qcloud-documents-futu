@@ -19,7 +19,7 @@ Web播放器的视频播放能力本身不是网页代码实现的，而是靠�
  
 - **协议的支持（PC）**
  在PC上情况会好很多，因为PC上的浏览器目前还没有抛弃flash控件，而flash控件的开发商 Adobe 并不追求设计上的洁癖，所以flash支持的视频源格式挺多的，而且各浏览器上的flash控件都是Adobe它家自己开发，所以兼容性非常好（也是因为这个原因，意图推广 webrtc 和 HTML5 技术的 Google 在最新版的 Chrome 浏览器里默认禁用了 Flash）
-![](https://mc.qcloudimg.com/static/img/b0d6aaf5a6478ad7e5bda380260983b4/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b0d6aaf5a6478ad7e5bda380260983b4/image.png)
 ## 对接攻略
 
 ### Step 1：页面准备工作
@@ -46,7 +46,7 @@ Web播放器的视频播放能力本身不是网页代码实现的，而是靠�
 ```
 http://2157.liveplay.myqcloud.com/2157_358535a.m3u8      // m3u8播放地址
 ```
-![](https://mc.qcloudimg.com/static/img/7923a14be5525bd37719c18d54243403/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/7923a14be5525bd37719c18d54243403/image.png)
 
 我们现在要在手机浏览器上播放这个 URL 的视频，javascript代码可以这样写：
 ```javascript
@@ -122,14 +122,14 @@ style支持的样式有3种：
 #### 4.3 实现用例
 
 这里有一个线上的示例代码，里面使用了cover方式显示封面，在PC浏览器中右键“查看页面源码”即可查看页面的代码实现：
-[http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-cover.html](http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-cover.html)
+[http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-cover.html](http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-cover.html)
 
 <font color="red">备注：在某些移动端设置封面会无效，具体说明请查看常见问题</font>
 
 ### Step 5：多清晰度的支持
 #### 5.1 原理介绍
 我们知道优酷、土豆、腾讯上的视频有些是有多清晰度选择的，这个效果如何实现呢？
-![](https://mc.qcloudimg.com/static/img/5769d1bd31db2d9ed258d0bf62be3f0f/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/5769d1bd31db2d9ed258d0bf62be3f0f/image.png)
 
 这里要特别科普一下：<font color='red'>**播放器本身是没有能力去改变视频的清晰度的**</font>，在视频源产生的地方其实只有一种清晰度，我们称之为**原画**。
 
@@ -163,10 +163,10 @@ var player = new TcPlayer('id_test_video', {
 
 #### 5.3 实现用例
 这里有一个线上的示例代码，里面使用了多种分辨率的设置以及切换功能，在PC浏览器中右键“查看页面源码”即可查看页面的代码实现：
-[http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-clarity.html?autoplay=true](http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-clarity.html?autoplay=true)
+[http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-clarity.html?autoplay=true](http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-clarity.html?autoplay=true)
 
 正常情况将看到这样的效果：
-![](https://mc.qcloudimg.com/static/img/68c513d931214e86549dd9c0426efe04/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/68c513d931214e86549dd9c0426efe04/image.png)
 
 <font color="red">pc端现已支持多种清晰度播放并支持切换的功能，移动端尚未支持。</font>
 
@@ -189,7 +189,7 @@ var player = new TcPlayer('id_test_video', {
 
 #### 6.2 实现用例
 这里有一个线上的示例代码，里面使用了自定义提示文案的功能，在PC浏览器中右键“查看页面源码”即可查看页面的代码实现：
-[http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer.html?m3u8=http://2527.vod.myqcloud.com/2527_b393eb1.f230.av.m3u8](http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer.html?m3u8=http://2527.vod.myqcloud.com/2527_b393eb1.f230.av.m3u8)
+[http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer.html?m3u8=http://2527.vod.myqcloud.com/2527_b393eb1.f230.av.m3u8](http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer.html?m3u8=http://2527.vod.myqcloud.com/2527_b393eb1.f230.av.m3u8)
 
 #### 6.3 错误码对照表
 | Code  | 提示语|说明                                       |
@@ -210,12 +210,12 @@ var player = new TcPlayer('id_test_video', {
 ## 源码参考
 这里有一个线上的示例代码，在PC浏览器中右键“查看页面源码”即可查看页面的代码实现：
 
-[http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer.html?autoplay=true](http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer.html?autoplay=true)
+[http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer.html?autoplay=true](http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer.html?autoplay=true)
 
 您也用它来测试播放器的效果，在链接后面加上需要播放的视频地址，刷新后就会播放这个视频地址：
 
 ```
-http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer.html?autoplay=true&m3u8=http://2527.vod.myqcloud.com/2527_b3907044441c11e6a46d294f954f93eb.f230.av.m3u8
+http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer.html?autoplay=true&m3u8=http://2527.vod.myqcloud.com/2527_b3907044441c11e6a46d294f954f93eb.f230.av.m3u8
 ```
 
 ## 参数列表
@@ -278,15 +278,15 @@ volumechange
 
 在非自动播放的条件下，加载视频至待播放状态，移动端和PC Flash 触发的事件区别
 移动端：
-![移动端](https://mc.qcloudimg.com/static/img/ddf4e9ff5998dc84b1887fba0e94d446/image.png)
+![移动端](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ddf4e9ff5998dc84b1887fba0e94d446/image.png)
 PC Flash：
-![PC Flash](https://mc.qcloudimg.com/static/img/f49d8aa8ef678b63ac73e69f254c20bb/image.png)
+![PC Flash](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f49d8aa8ef678b63ac73e69f254c20bb/image.png)
 
 <font color="red">备注：以上是两种平台的差异，然而在移动端的各种设备和 APP 之间同样存在差异。</font><br>
 
 应用案例：
 
-通过事件监听，可以进行播放失败重连，[在线例子链接](http://imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-reconnect.html)
+通过事件监听，可以进行播放失败重连，[在线例子链接](http://imgcache.tce.fsphere.cn/static/imgcache.qq.com/open/qcloud/video/vcplayer/demo/tcplayer-reconnect.html)
 
 
 ## 常见问题

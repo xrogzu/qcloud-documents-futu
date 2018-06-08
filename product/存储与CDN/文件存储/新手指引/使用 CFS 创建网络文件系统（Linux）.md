@@ -5,21 +5,21 @@
 
 登录云平台，选择【云产品】>【计算与网络】>【云服务器】，进入 [云服务器购买页面](https://buy.tce.fsphere.cn/buy/cvm)。
 ### 1. 选择地域与机型
-![](https://mc.qcloudimg.com/static/img/3ed8bab8cce3dde578a6e3fb14267ea5/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/3ed8bab8cce3dde578a6e3fb14267ea5/image.png)
 
 - 选择地域和可用区。当您需要多台云服务器时，选择不同可用区可实现容灾效果。
 - 选择机型和配置。实例类型详细说明，请参见 [实例类型概述](/doc/product/213/7153) 。
 
 
 ### 2. 选择镜像
-![](https://mc.qcloudimg.com/static/img/fd40922e47525453a58de73d0ffa266c/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/fd40922e47525453a58de73d0ffa266c/image.png)
 
 - 选择镜像提供方。云平台提供公共镜像、自定义镜像、共享镜像、，您可参考 [镜像类型](/doc/product/213/4941) 进行选择。对于刚开始使用云平台的用户，推荐选择公共镜像。
 - 选择操作系统。云平台提供了 CentOS、tlinux 等操作系统，后续运行环境请您自行搭建。
 - 选择系统版本。 
 
 ### 3. 选择存储与网络
-![](https://mc.qcloudimg.com/static/img/e95a5bf7bf47c60f43dd0ee62946b67a/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/e95a5bf7bf47c60f43dd0ee62946b67a/image.png)
 - 选择硬盘类型和数据盘大小。
 云平台提供云硬盘和本地硬盘两种类型（均默认 50GB 系统盘，系统盘大小任选）。
   - 云硬盘：采用一盘三备的分布式存储方式，数据可靠性高。
@@ -34,7 +34,7 @@
 - 选择购买时长与续费方式（仅限包年包月云服务器）。
 
 ### 4. 设置信息
-![](https://mc.qcloudimg.com/static/img/1c463db6e3b31abd6c1d3163f1c3108f/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/1c463db6e3b31abd6c1d3163f1c3108f/image.png)
 - 命名主机：您可选择创建后命名，也可立即命名。
 - 登录信息设置：
  - 设置密码：输入主机密码设置。
@@ -48,10 +48,10 @@
 ## 二、创建文件系统及挂载点
 
 1. 进入云平台 [控制台](http://console.tce.fsphere.cn/)，单击【云产品】>【存储】>【文件存储】，即可进入 CFS 控制台。
-![](https://mc.qcloudimg.com/static/img/4fee6ea61cfba11927f6891527237610/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4fee6ea61cfba11927f6891527237610/image.png)
 
 2. 在云平台 CFS 控制台，单击【新建】，弹出创建文件系统弹窗。在创建文件系统弹窗中填写相关信息，确认无误后，单击【确定】即可创建文件系统。
-![](https://main.qcloudimg.com/raw/3797c04469bf0da994d2e2876a2a39ad.png)
+![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/3797c04469bf0da994d2e2876a2a39ad.png)
  - 名称：您可以为创建的文件系统进行命名。
  - 地域和可用区：靠近您客户的地域可降低访问延迟，提高下载速度。
  - 文件协议：NFS 协议，支持跨平台。
@@ -64,7 +64,7 @@
 3. 获取挂载点信息。当文件系统及挂载点创建完毕后，单击实例 ID 进入到文件系统详情，单击【挂载点信息】，获取 Linux 下的挂载命令。
 
 NFS 文件系统挂载点信息如下:
-![](https://mc.qcloudimg.com/static/img/f50435216defb4083874bc78d568001e/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f50435216defb4083874bc78d568001e/image.png)
 
 
 ## 三、连接实例
@@ -77,7 +77,7 @@ NFS 文件系统挂载点信息如下:
 
 **控制台登录云服务器**
 - 在云服务器列表的操作列，单击【登录】按钮即可通过 VNC 连接至 Linux 云服务器。
-![](https://mc.qcloudimg.com/static/img/73cc4f9f702f80d95717c7a35063ab41/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/73cc4f9f702f80d95717c7a35063ab41/image.png)
 - 输入帐号（root ，Ubuntu 系统用户为 ubuntu）和密码即可登录。
 
 >**注意：**
@@ -143,7 +143,7 @@ sudo mount -t nfs -o vers=4 10.0.0.1:/ /local/test
 sudo mount -t nfs -o vers=4 10.10.19.12:/subfolder /local/test
 ```
 
- ![](https://mc.qcloudimg.com/static/img/03550214c0499438e86cfd64b3c377b8/image.png)
+ ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/03550214c0499438e86cfd64b3c377b8/image.png)
 
 **NFS v3.0 挂载**
 使用下列命令实现 NFS v3.0 挂载。
@@ -168,7 +168,7 @@ mount -t nfs -o vers=3,nolock,proto=tcp 10.10.19.12:/z3r6k95r /local/test
 ```
 mount -t nfs -o vers=3,nolock,proto=tcp 10.10.19.12:/nfs /local/test
 ```
-![](https://mc.qcloudimg.com/static/img/03550214c0499438e86cfd64b3c377b8/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/03550214c0499438e86cfd64b3c377b8/image.png)
 
 #### 4. 查看挂载点信息
 挂载完成后，请使用如下命令查看已挂载的文件系统：
@@ -195,9 +195,9 @@ umount /local/test
 ## 五、终止资源
 
 1. 终止云平台实例。进入云平台云服务器 [控制台](http://console.tce.fsphere.cn/cvm/index)，选中需要终止的实例，单击【更多】>【云主机状态】，可以选中【销毁】以终止 CVM 实例。
-![](https://mc.qcloudimg.com/static/img/76c588284e3b525702d748b5cd7b8b00/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/76c588284e3b525702d748b5cd7b8b00/image.png)
 2. 终止文件系统。进入云平台文件存储 [控制台](http://console.tce.fsphere.cn/cfs)，选中需要终止的文件系统，单击【删除】并【确认】，即可删除文件系统。
-![](https://mc.qcloudimg.com/static/img/28cade4807a283ffdcb1fc2a39a7ad88/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/28cade4807a283ffdcb1fc2a39a7ad88/image.png)
 
 
 

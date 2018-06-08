@@ -36,12 +36,12 @@ Ingress类型目前支持应用型LB, 应用型LB后端容器节点需打开对�
 
 测试访问：
 
-![Alt text](https://mc.qcloudimg.com/static/img/4160d18aad9fd9d0da7b69cabce9f2f9/%7BEF8EA5D8-4859-4008-9E3C-B98E7E25AAAF%7D.png)
-![Alt text](https://mc.qcloudimg.com/static/img/47d9eca8fef9f7c492c4033d8080a0ae/%7B1700D9DE-417D-4F3E-8E9E-0883FA9A5C5C%7D.png)
+![Alt text](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4160d18aad9fd9d0da7b69cabce9f2f9/%7BEF8EA5D8-4859-4008-9E3C-B98E7E25AAAF%7D.png)
+![Alt text](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/47d9eca8fef9f7c492c4033d8080a0ae/%7B1700D9DE-417D-4F3E-8E9E-0883FA9A5C5C%7D.png)
 
 
 
 
-[roledemo]:https://mc.qcloudimg.com/static/img/fa7048f3ab7dc6aad9aa554b39b158a6/%7B7487A7E3-8BDD-44CB-81F9-38631784E0F0%7D.png
-[create]:https://mc.qcloudimg.com/static/img/6dc5400d69b00794787bcfda3dd231bf/%7BE8312885-54E0-4D25-AFCA-59B6E2CA74C2%7D.png
-[set]:https://mc.qcloudimg.com/static/img/b5cec3c1703b0a69bad15b7477d10017/%7B4833E8A7-E8E7-4FA9-81D3-50A2291F4E42%7D.png
+[roledemo]:http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/fa7048f3ab7dc6aad9aa554b39b158a6/%7B7487A7E3-8BDD-44CB-81F9-38631784E0F0%7D.png
+[create]:http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6dc5400d69b00794787bcfda3dd231bf/%7BE8312885-54E0-4D25-AFCA-59B6E2CA74C2%7D.png
+[set]:http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b5cec3c1703b0a69bad15b7477d10017/%7B4833E8A7-E8E7-4FA9-81D3-50A2291F4E42%7D.png

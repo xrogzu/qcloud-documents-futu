@@ -16,11 +16,11 @@ COS 提供了 5 种对象 HTTP 头部标识供配置：
 
 ## 配置步骤
 1. 登录 [对象存储桶控制台](http://console.tce.fsphere.cn/cos5)，选择左侧菜单栏【存储桶列表】，进入存储桶列表页面。单击需要配置回源的存储桶（如 example-1253833564），进入存储桶。
-![访问权限1](https://mc.qcloudimg.com/static/img/d156619ab35a0e1195a70d0e8d8954ca/image.png)
+![访问权限1](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d156619ab35a0e1195a70d0e8d8954ca/image.png)
 2. 找到需要设置头部的对象（如 example.exe）,单击对象右侧的【详情】，在详情页面设置权限。
-![设置HTTP头部1](https://mc.qcloudimg.com/static/img/f9fe9cdf0d3535cc4bc93547ab7bd84c/image.png)
+![设置HTTP头部1](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f9fe9cdf0d3535cc4bc93547ab7bd84c/image.png)
 3. 单击【添加Header】，选择需要设置的参数类型（自定义内容需输入自定义名称），输入对应的值。单击【保存】即可。
-![设置HTTP头部2](https://mc.qcloudimg.com/static/img/e490a107dadd5d477584a8accbc746e9/image.png)
+![设置HTTP头部2](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/e490a107dadd5d477584a8accbc746e9/image.png)
 
 ## 示例
 
@@ -42,7 +42,7 @@ COS 提供了 5 种对象 HTTP 头部标识供配置：
 ```
 
 添加如下配置：
-![设置HTTP头部3](https://mc.qcloudimg.com/static/img/bcba7754ca585143371935a9f4f0228a/image.png)
+![设置HTTP头部3](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/bcba7754ca585143371935a9f4f0228a/image.png)
 再次发起请求，浏览器或客户端得到的对象头部范例如下：
 ```http
 > GET /example.txt HTTP/1.1

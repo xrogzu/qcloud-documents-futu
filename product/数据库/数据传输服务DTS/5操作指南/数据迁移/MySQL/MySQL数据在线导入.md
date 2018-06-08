@@ -70,18 +70,18 @@
 
 ### 新建 DTS 数据迁移服务
 登录控制台，进入数据迁移页面，单击【新建任务】
-![](https://mc.qcloudimg.com/static/img/2ad6200dc53556f2c03f45e7a1af8320/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2ad6200dc53556f2c03f45e7a1af8320/image.png)
 
 
 ###  修改配置
 跳转页面后，填写任务设置、源库设置和目标库设置。信息详情：
-![](https://mc.qcloudimg.com/static/img/513a6893e79862359ee52fd6d2d97c5b/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/513a6893e79862359ee52fd6d2d97c5b/image.png)
 
 #### 任务设置
 	
 * 任务名称： 为任务指定名称
 * 定时执行：可为您的迁移任务指定开始时间
-![](https://mc.qcloudimg.com/static/img/6d45bf22f31923704b6055f3f94f1781/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6d45bf22f31923704b6055f3f94f1781/image.png)
 
 ##### 源库信息
 * 源库类型：目前支持有公网 IP 的 MySQL，云主机上的自建 MySQL，专线接入云平台的 MySQL，VPN 接入的 MySQL 四种源库类型
@@ -92,7 +92,7 @@
 * MySQL 账号
 * MySQL 密码
 		
-![](https://mc.qcloudimg.com/static/img/d7ea867e99cf6dcaeea777f1f8a498e2/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d7ea867e99cf6dcaeea777f1f8a498e2/image.png)
 		
 ###### 云主机上的自建 MySQL：支持基础网络和私有网络两种环境下基于云主机 CVM 的自建 MySQL 数据库。使用时需要指定云主机 CVM 的实例 ID 和所处的网络环境。
 所需信息：
@@ -104,7 +104,7 @@
 * MySQL 账号
 * MySQL 密码
 			
-![](https://mc.qcloudimg.com/static/img/1f7d1837b9c18ae22835460215c48daf/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/1f7d1837b9c18ae22835460215c48daf/image.png)
 	
 ###### 专线接入的 MySQL：本地 IDC 自建 MySQL 使用 [专线接入 DC][1] 服务与云平台相连接后，可使用 DTS 数据迁移至云平台。所需信息：
 * 专线网关：接入云平台的数据库服务器所使用的专线网关。[了解专线网关][2]
@@ -114,7 +114,7 @@
 * MySQL 账号
 * MySQL 密码
 	
-![](https://mc.qcloudimg.com/static/img/4d6317bb20e5551f9a5ff58218ae9c18/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4d6317bb20e5551f9a5ff58218ae9c18/image.png)
 		
 ###### VPN 接入的 MySQL：本地 IDC 自建 MySQL 通过 [云平台VPN连接服务][3] 或云主机上自建 VPN 服务接入与云平台相连接后，可使用 DTS 数据迁移至云平台。
 所需信息：
@@ -127,7 +127,7 @@
 * MySQL 账号
 * MySQL 密码
 		
-![](https://mc.qcloudimg.com/static/img/dd72353254680fb09b2d004c50d33c01/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/dd72353254680fb09b2d004c50d33c01/image.png)
 
 ### 选择所要迁移的数据库
  选择要迁移的数据库(可选择全部迁移或部分库表迁移)，创建并检查迁移任务信息。
@@ -136,7 +136,7 @@
 >1. 仅在整实例迁移时会迁移 character_set_server、lower_case_table_names 配置项
 >2. 若源实例所迁移的库表字符集设置和目标实例字符集设置不一致，则迁移会保留源实例的字符集设置。
 		
-![](https://mc.qcloudimg.com/static/img/4c944c5a4b9871eb971c22a4344933a5/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4c944c5a4b9871eb971c22a4344933a5/image.png)
 
 **数据迁移**：将选中数据库中的数据导出，然后在 CDB for MySQL 中导入。
 **增量同步**：在进行数据导出导入后，设置 CDB for MySQL 为源库的备库，进行主备增量同步。
@@ -144,14 +144,14 @@
 
 ### 数据一致性检测
 选择数据检测类型(可选择全部检测或部分检测或不检测) 
-![](https://mc.qcloudimg.com/static/img/6c49e44bbc5c289f218892290ea396e7/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6c49e44bbc5c289f218892290ea396e7/image.png)
 
 >**注意：**
 >选择部分检测选项时，需填写检测比例
 
 ### 校验迁移任务信息
  在创建完迁移任务后，您需要对迁移任务信息进行校验，单击【下一步：校验任务】进行校验，只有所有校验项通过后才能启动迁移任务，单击【启动】即可。
-![](https://mc.qcloudimg.com/static/img/f71f17469f53e1d7a32d4c836ce7ef4d/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f71f17469f53e1d7a32d4c836ce7ef4d/image.png)
 任务校验存在 3 种状态：
 
  - 通过：表示校验完全通过
@@ -174,7 +174,7 @@
 
 ### 停止迁移
 在迁移过程中，如果您需要停止迁移，可以单击【停止】按钮。
-![](https://mc.qcloudimg.com/static/img/2c7a3c1534676cf9753010e986681938/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2c7a3c1534676cf9753010e986681938/image.png)
 
 
 >**注意：**
@@ -183,7 +183,7 @@
 
 ### 完成迁移
 当迁移进度达到 100% 时，可单击右侧【完成】按钮，完成迁移任务。
-![](https://mc.qcloudimg.com/static/img/1fff643dd6dd18a8c678e7ae1462d317/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/1fff643dd6dd18a8c678e7ae1462d317/image.png)
 
 >**注意：**
 > 当迁移处于【未结束】状态时，迁移任务将一直进行，数据库数据同步。

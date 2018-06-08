@@ -6,7 +6,7 @@
 - **功能层：**
   躲在接入层后面，既然接入层已经完成了安全确认和攻击屏蔽，功能层就只需要做自己的功能处理就行了，频道管理、文件查询等基本功能都是在这个部分实现的。
 	
-	![api](https://mc.qcloudimg.com/static/img/963c7973a3d5a77d6bd36d1cf3fd65ca/image.png)
+	![api](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/963c7973a3d5a77d6bd36d1cf3fd65ca/image.png)
 	
 您的服务器要调用云平台的服务端API，首先要过接入层这一关，她会要求：
 - 您的请求协议必须是HTTPS

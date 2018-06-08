@@ -4,7 +4,7 @@
 
 ### NS记录的添加方式
 
-![](https://mccdn.qcloud.com/static/img/937b1357daaa2ad3266bec04d3950514/Ns-1.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/937b1357daaa2ad3266bec04d3950514/Ns-1.png)
 
 1. 主机记录处填子域名（比如需要将 www.123.com 的解析授权给其他DNS服务器，只需要在主机记录处填写www即可，主机记录“@”不能做NS记录，授权出去的子域名不会影响其他子域名的正常解析）。
 

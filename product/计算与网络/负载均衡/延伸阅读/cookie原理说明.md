@@ -9,7 +9,7 @@ Cookie就是这样一个用来标识每一次请求的状态位。经过多年�
 
 ## cookie的工作原理
 
-![](https://mccdn.qcloud.com/static/img/58f3b8fb6182198e549315f3192bd11a/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/58f3b8fb6182198e549315f3192bd11a/image.png)
 
 1) 当首次向发起请求时，HTTP请求头如下：
 

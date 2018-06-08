@@ -30,7 +30,7 @@ nginx -v
 
 这个命令会显示 Nginx 的版本号，如果显示如下信息，则安装成功：
 
-<img width="253" alt="nginx" src="https://mc.qcloudimg.com/static/img/fd6021afc2d8599604e46273ca9c194f/nginx.png">
+<img width="253" alt="nginx" src="http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/fd6021afc2d8599604e46273ca9c194f/nginx.png">
 
 ## 安装 PHP
 
@@ -54,7 +54,7 @@ php -v
 
 该命令会返回当前 PHP 的版本号，如果你看到了版本号大于 5.6，则 PHP 安装成功：
 
-<img width="437" alt="node" src="https://mc.qcloudimg.com/static/img/644dde0092226c2748d5cb1eecca9984/php-v.png">
+<img width="437" alt="node" src="http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/644dde0092226c2748d5cb1eecca9984/php-v.png">
 
 ## 开启 SFTP
 
@@ -66,7 +66,7 @@ service sshd status
 
 看到输出的信息中有 `active (running)` 则表示 `sshd` 进程已经开启，可以通过 sftp 连接：
 
-<img width="570" alt="sshd" src="https://mc.qcloudimg.com/static/img/8b329ba974d6e7899fccdb606a8c6c88/sftp.png">
+<img width="570" alt="sshd" src="http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/8b329ba974d6e7899fccdb606a8c6c88/sftp.png">
 
 接下来可以通过 FileZilla、Transmit 等 FTP 工具连接上服务器。
 
@@ -74,7 +74,7 @@ service sshd status
 
 完成以上准备工作，就要开始配置 Nginx 和 HTTPS 了，首先需要申请一个 SSL 证书，可以到云平台[申请免费的 SSL 证书](http://console.tce.fsphere.cn/ssl?apply=1)，申请成功之后下载证书，并把压缩包中 Nginx 目录下的证书文件通过 SFTP 上传到服务器的 `/data/release/nginx` 目录，如果没有这个目录则新建：
 
-<img width="409" alt="ssl" src="https://mc.qcloudimg.com/static/img/fa4cba0bc508457040ff0ccf5052ba21/WX20171128-121407%402x.png">
+<img width="409" alt="ssl" src="http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/fa4cba0bc508457040ff0ccf5052ba21/WX20171128-121407%402x.png">
 
 上传完证书以后，可以开始配置 Nginx，进入服务器的 `/etc/nginx/conf.d` 目录，新建一个 `weapp.conf` 文件，将文件拷贝到本地，打开编辑，写入如下配置（请将配置里 `wx.wafersolution.com` 修改为你自己的域名，包括证书文件名）：
 
@@ -129,13 +129,13 @@ nginx -t
 
 如果显示如下信息，则配置成功：
 
-<img width="474" alt="nginx-t" src="https://mc.qcloudimg.com/static/img/17703dd9b8e47a349ab77c0d29531d06/nginx-t.png">
+<img width="474" alt="nginx-t" src="http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/17703dd9b8e47a349ab77c0d29531d06/nginx-t.png">
 
 配置成功之后，输入 `nginx` 回车，即可启动 Nginx。
 
 此时通过配置的域名访问服务器，会显示 `404 Not Found`，则表示配置成功：
 
-<img width="1439" alt="chrome2" src="https://mc.qcloudimg.com/static/img/5e4c1a05191ff1655d223831ed1dc0bc/visit.png">
+<img width="1439" alt="chrome2" src="http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/5e4c1a05191ff1655d223831ed1dc0bc/visit.png">
 
 ## 上传 Demo 和启动
 
@@ -215,7 +215,7 @@ $config = [
 
 接着点击左侧栏的【cAuth】数据库，再点击顶栏的【导入】，选择下载的代码中的 cAuth.sql 文件，点击【执行】即可完成导入：
 
-<img width="1192" alt="pma" src="https://mc.qcloudimg.com/static/img/3368fdf7ab27a91faaa460f085ac95f4/sql.png">
+<img width="1192" alt="pma" src="http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/3368fdf7ab27a91faaa460f085ac95f4/sql.png">
 
 ## 启动 PHP
 

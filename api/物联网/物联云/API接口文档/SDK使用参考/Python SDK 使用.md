@@ -22,11 +22,11 @@
 ### 2.2 获取云 API 密钥(SecretId、SecretKey)
 登入 [控制台](http://console.tce.fsphere.cn/iotcloud) 后，进入 [云API密钥](http://console.tce.fsphere.cn/cam/capi)
 
-![云API密钥](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/d7cbde91-5723-47f9-8c56-d0381bb3eb1b.png)
+![云API密钥](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/d7cbde91-5723-47f9-8c56-d0381bb3eb1b.png)
 
 在 **API 密钥管理**中 点击 **新建密钥**，新建成功后获取到 **SecretId** 和 **SecretKey**
 
-![新建密钥](http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/ba3f3f9d-db13-45c4-bad6-e5c236ebcbba.png)
+![新建密钥](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/ba3f3f9d-db13-45c4-bad6-e5c236ebcbba.png)
 
 ### 2.3 使用方法
 以创建产品为例：

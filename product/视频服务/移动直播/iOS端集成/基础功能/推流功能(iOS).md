@@ -2,7 +2,7 @@
 **推流** 是指将音视频数据采集编码之后，推送到您指定的视频云平台上，这里涉及大量的音视频基础知识，而且需要长时间的打磨和优化才能达到符合预期的效果。
 
 腾讯视频云 SDK 主要帮您解决在智能手机上的推流问题，它的接口非常简单易用，只需要一个推流URL就能驱动：
-![](https://mc.qcloudimg.com/static/img/ca7f200c31a9323c032e9e000831ea63/image.jpg)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ca7f200c31a9323c032e9e000831ea63/image.jpg)
 
 ## 特别说明
 - **<font color='red'>不绑定云平台</font>**
@@ -18,7 +18,7 @@
 
 - **获取测试URL**
 [开通](http://console.tce.fsphere.cn/live)直播服务后，可以使用 [直播控制台>>直播码接入>>推流生成器](http://console.tce.fsphere.cn/live/livecodemanage) 生成推流地址，详细信息可以参考 [获得推流播放URL](http://tce.fsphere.cn/document/product/454/7915)。
-![](https://mc.qcloudimg.com/static/img/64342b926e05da462a54b8ce4f8c526f/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/64342b926e05da462a54b8ce4f8c526f/image.png)
 
 ## 代码对接
 >本篇攻略主要是面向**摄像头直播**的解决方案，该方案主要用于美女秀场直播、活动直播等场景，游戏直播请参考本目录下的同级文档。
@@ -42,7 +42,7 @@ LivePushConfig 在alloc之后便已经装配了一些我们反复调过的参数
 
 - **推荐的布局！**
 > 实际上，SDK 的内部并不是直接把画面渲染在您提供的view上，而是在这个view之上创建一个用于OpenGL渲染的子视图（subView），但是，这个渲染用的subView的大小会跟随您提供的view大小变化而自动调整。
->![](https://mccdn.qcloud.com/static/img/75b41bd0e9d8a6c2ec8406dc706de503/image.png)
+>![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/75b41bd0e9d8a6c2ec8406dc706de503/image.png)
 >
 > 不过即如此，如果您想要在渲染画面之上实现弹幕、献花之类的UI控件，我们也推荐您”另起炉灶“（再创建一个平级的view），这样可以避免很多前后画面覆盖的问题。
 
@@ -84,7 +84,7 @@ NSString* rtmpUrl = @"rtmp://2157.livepush.myqcloud.com/live/xxxxxx";
 
 如果您是第一次接触音视频，<font color='red'>**不推荐**</font> 您自行设置分辨率、码率等视频参数，参数配置不当可能影响最终的画质表现，推荐您使用 TXLivePusher::setVideoQuality 接口的可以设定推流的画面清晰度：
 
-![](https://main.qcloudimg.com/raw/6e66be90ff14bb8f0603c70668a27ec8.png)
+![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/6e66be90ff14bb8f0603c70668a27ec8.png)
 
 - **推荐参数设置**
 
@@ -115,7 +115,7 @@ NSString* rtmpUrl = @"rtmp://2157.livepush.myqcloud.com/live/xxxxxx";
 
 ### step 5: 美颜滤镜
 
-![](https://mc.qcloudimg.com/static/img/aac647073cf0641141900e775e929418/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/aac647073cf0641141900e775e929418/image.png)
 - **美颜**
 setBeautyStyle 接口可以设置美颜风格、磨皮程度、美白级别和红润级别，配合 540 * 960 分辨率（setVideoQuality - VIDEO_QUALITY_HIGH_DEFINITION），可以达到最佳的画质效果：
 ```objectivec
@@ -208,10 +208,10 @@ _config.watermarkPos = (CGPoint){10, 10};
 
 主播可能只是短暂接个紧急电话而已，但上述的交互体验显然会让观众全部离开直播间，怎么优化呢？
 从 **SDK 1.6.1** 开始，我们引入了一种解决方案，如下是从观众端的视角看去，该方案可以达到的效果： 
-![](https://mc.qcloudimg.com/static/img/6325a9f7918602bd8db15228e6ffe189/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6325a9f7918602bd8db15228e6ffe189/image.png)
 
 - **9.1) 调整XCode设置**
-![](https://main.qcloudimg.com/raw/64e1d95634ebed1de71ad3b84492f37e.jpg)
+![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/64e1d95634ebed1de71ad3b84492f37e.jpg)
 
 - **9.2) 设置pauseImg**
 在开始推流前，使用 LivePushConfig 的 pauseImg 接口设置一张等待图片，图片含义推荐为“主播暂时离开一下下，稍后回来”。
@@ -279,7 +279,7 @@ App 如果切后台后就彻底被休眠掉，那么 SDK 再有本事也无济�
 
 ### step 11: 横屏推流
 大多数情况下，用户习惯以“竖屏持握”进行直播拍摄，观看端看到的也是竖屏样式；有时候用户在直播的时候需要更广的视角，则拍摄的时候需要“横屏持握”，这个时候其实是期望观看端能看到横屏画面，就需要做横屏推流，下面两幅示意图分别描述了横竖屏持握进行横竖屏推流在观众端看到的效果。
-![](https://mc.qcloudimg.com/static/img/cae1940763d5fd372ad962ed0e066b91/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/cae1940763d5fd372ad962ed0e066b91/image.png)
 > <font color='red'>**注意：**</font> 横屏推流和竖屏推流，观众端看到的图像的宽高比是不同的，竖屏9:16，横屏16：9。
 
 要实现横屏推流，需要在两处进行设置：
@@ -304,7 +304,7 @@ SDK 1.6.1 开始支持背景混音，支持主播带耳机和不带耳机两种�
 ### step 13: 耳返&混响
 - **耳返**
 指的是当主播带上耳机来唱歌时，耳机中要能实时反馈主播的声音，这是由于主播自己的声音是通过头部骨骼（固体）传入耳朵，而观众听到声音最终是通过空气介质传入耳朵，这两种方式听的声音是有很大差异的，因此主播有需求直接听到观众端的效果。
-![](https://mc.qcloudimg.com/static/img/fca1094c93126ad5b61d962ec22ad0d5/image.png)
+![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/fca1094c93126ad5b61d962ec22ad0d5/image.png)
 
  在 TXLivePushConfig中 enableAudioPreview 接口可以打开耳返（如果是连麦，推荐大主播开，小主播就不要开了，实时音视频通话时开耳返会很奇怪。）
 
