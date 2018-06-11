@@ -38,12 +38,12 @@
 
 ### 开始部署网关 
 进入 CSG 控制台之后， 在列表左上角点击【创建网关】按钮，进入创建向导
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/3295699467ef5535cda16c00be82c812/image.png)	
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/3295699467ef5535cda16c00be82c812/image.png)	
 
 
 ### 选择地区
 由于不同地区的网关跟云服务器之间无法之间互通，建议您根据业务主要分布的地区选择网关所在地区。点击【下一步】。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/8736746c1bbf9f3e10e3d1ca3247db47/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8736746c1bbf9f3e10e3d1ca3247db47/image.png)
 > **注意：**
 > 创建时，设置网关所在地区后将无法修改。
 
@@ -55,66 +55,66 @@
 
 ### 选择网关运行的平台
 网关支持运行于 VMware 及 CVM 的 Linux 下。如果您需要在本地环境中创建网关，请下载并部署网关 VM，然后激活网关。如果您需要在 CVM 实例上创建网关，请在 CVM 镜像市场中选中包含网关 VM 镜像并启动运行，然后激活网关。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/54779ae228dbc53e2480262c06fcc1a7/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/54779ae228dbc53e2480262c06fcc1a7/image.png)
 
 > **注："NFS 网关" 与 "CIFS/SMB 网关" 与 "卷网关" 共用 "[云平台存储网关（CSG）镜像 - 卷网关](https://market.tce.fsphere.cn/products/4276?productId=4276&_ga=1.138077944.992563734.1509872671#)"的镜像。**
 
 ### 在 VMware 上部署 CSG 网关
 在当前页面下载带有 VM 镜像的压缩包。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d02d40b2e99351111f2c4bf4fc3059c9/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d02d40b2e99351111f2c4bf4fc3059c9/image.png)
 
 #### 将网关 VM 部署到 VMware 主机
 - 连接到您的管理程序主机
 通过 Windows 上的 VMware vSphere 客户端，输入该主机的 IP 和密码后登录。
- ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/a19a562c204e25069182276b3adb6931/image.png)
+ ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a19a562c204e25069182276b3adb6931/image.png)
 
 - 打开 OVF 模板部署向导
  在 vSphere 客户端的 "文件" 菜单上，点击【部署 OVF 模板】。
- ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b937e1adc501d883799963e7540dc308/image.png)
+ ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b937e1adc501d883799963e7540dc308/image.png)
 
 - 选中网关镜像文件
   在 "源" 窗格中，选择刚刚解压后存储网关 CSG.ova 文件所在的路径，然后点击【下一步】。
-  ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/a0c8389fbf39c3c231beb922ecdb9752/image.png)
+  ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a0c8389fbf39c3c231beb922ecdb9752/image.png)
 
 - 输入名称
   在 "名称和位置" 窗口中，输入 VM 的名称，然后点击【下一步】。
-  ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/21058d668eec84f00a56a03c6e9412f5/image.png)
+  ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/21058d668eec84f00a56a03c6e9412f5/image.png)
 
 - 设置数据存储 
   当您的主机仅有一个数据存储时，则直接进入下一步。
   当您的主机有多个数据存储时，您需要在列表中选择要从中部署 VM 的数据存储，然后点击【下一步】。
-  ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/17f78509150cd43543ac8947f24df245/image.png)
+  ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/17f78509150cd43543ac8947f24df245/image.png)
 
 - 设置磁盘格式 
   在磁盘格式设置窗口中，选择 "厚置备延迟置零" 或者 "厚置备置零"，然后点击【下一步】。
   说明：设置厚置备格式为网关正常运行提供足够的磁盘。
-  ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/86c76c3f0c01a7ab03ca3c84917ba1fa/image.png)
+  ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/86c76c3f0c01a7ab03ca3c84917ba1fa/image.png)
 
 - 完成设置 
 按照上述设置步骤，完成 VM 的配置。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/e18dba4da68619e611e8c17c5012e373/image.png)	
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e18dba4da68619e611e8c17c5012e373/image.png)	
 
 > <p style="color: red;">** 注意：**
 >  为了防止来自公网的 iscsi 连接，建议网关所在机器将 22 端口及 80 端口全部开放，3260 端口只对内网 IP 开放。<p> 
 
 ### 设置 VM 时间、与主机时间同步	
 - 在 vSphere 客户端中选择【编辑设置】。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/253856bf215be43d5c882c02a5e44ac7/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/253856bf215be43d5c882c02a5e44ac7/image.png)
 - 在 "选项" 选项卡中选择 "VMware Tools"。勾选 "同步客户机时间与主机时间" 选项。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/cc7744baf1e40d70f30affc2a6cc9555/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/cc7744baf1e40d70f30affc2a6cc9555/image.png)
 
 - 设置主机时间与 NTP 服务器同步。
   在【时间设置】中选择【属性】。
-  ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/34ebfd4dfb03630ac2e4ccccf1356750/image.png)
+  ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/34ebfd4dfb03630ac2e4ccccf1356750/image.png)
 
   在弹出的时间设置窗口中设置时间和日期。
-  ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/81ee7d4b67d8b9d85d5dacc940e5bc77/image.png)
+  ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/81ee7d4b67d8b9d85d5dacc940e5bc77/image.png)
 
   点击上面窗口的【选项】按钮，在弹窗中点击添加 NTP 服务器 IP 或 完整域名，您可以输入 pool.ntp.org 的域名。
-  ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4021ee87b962df50eaf76846f5da1142/image.png)
+  ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/4021ee87b962df50eaf76846f5da1142/image.png)
 
   在【常规】点击【启动】按钮以启动服务，再点击【确认】。
-  ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/9dbdf6b3b03a7a452551138edf8ad19a/image.png)
+  ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/9dbdf6b3b03a7a452551138edf8ad19a/image.png)
 
 ###  为网关 VM 预配置本地磁盘存储	
 
@@ -130,55 +130,55 @@
 
 请按照下列步骤为网关 VM 预配置本地磁盘。
 - 点击【编辑设置】按钮。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/c543d185cce324d9bd78ba91fde45c24/image.png)	
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/c543d185cce324d9bd78ba91fde45c24/image.png)	
 
 - 在弹出窗口中，点击【添加】按钮，并选择 "硬盘"。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ddba7eb592d7e6a6e8fd4f6545a0b1ae/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ddba7eb592d7e6a6e8fd4f6545a0b1ae/image.png)
 
 - 在弹出窗口中，选择 "创建新的虚拟磁盘".
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/30e9f45df99906c35348b6e6cd6f1104/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/30e9f45df99906c35348b6e6cd6f1104/image.png)
 
 - 设置磁盘大小（需要大于10 GB）和磁盘置备为 "厚置备延迟置零" 或者 "厚置备置零"。
-  ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4e18ebc34b0b96b351e5afa918405f84/image.png)
+  ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/4e18ebc34b0b96b351e5afa918405f84/image.png)
 
 - 完成磁盘创建。
-  ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ce566e05137128e2d60a68d1e450db81/image.png)
+  ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ce566e05137128e2d60a68d1e450db81/image.png)
 
 #### 配置磁盘 ID
 由于网关需要通过磁盘 ID 来挂载，还需要为上面步骤创建的磁盘添加 ID 信息。
 	
 - 在 "选项" 选项卡中选择 "常规"。点击【同配置参数】按钮。
-  ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d47ce35e66d0583d0da3a2c4caae75ea/image.png)
+  ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d47ce35e66d0583d0da3a2c4caae75ea/image.png)
 
 - 在弹出的窗口内，点击【添加行】按钮。然后在增加的行内，名称栏填入 "disk.EnableUUID", 值栏填入 "true"。点击【确认】按钮，并退出。
-  ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/e05d02f29ccef723753bba137496a2c2/image.png)
+  ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e05d02f29ccef723753bba137496a2c2/image.png)
 
 ### 在 CVM 上部署 CSG 网关
 在创建网关的第三步，选择 "去 CVM 上部署"。从 CSG 控制台页面，跳转到 CVM 购买页。或者，也可以在 CVM 处直接创建新的主机。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/8aa870b2527a0d51d281f99fd6d8a05f/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8aa870b2527a0d51d281f99fd6d8a05f/image.png)
 
 #### 选择 CVM 地域与机型
 跳转到 CVM 购买页后，选择计费模式、地域、可用区、系列及机型。
 > <p style="color: red;">** 注意：**
 > 部署网关的 CVM 可以与 CSG 分布在不同的地域，但是跨地域访问会产生相应的网络流量。同时，为了保证网关正常运行， 请根据本篇第一章要求选择合适的主机配置。若选择低于该配置的主机，存储网关将无法正常启动。<p> 
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b744953d0eeb21f02ba8666a0716958c/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b744953d0eeb21f02ba8666a0716958c/image.png)
 
 #### 选择 CSG 镜像
 若是从 CSG 的控制台跳转到 CVM 购买页，则此处仅需确认镜像为 CSG 镜像即可。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f37783fc72d541b7e7e7f63d6434cf2f/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f37783fc72d541b7e7e7f63d6434cf2f/image.png)
 
 若是直接购买 CVM，则需要选择 "服务市场" 选项，在弹出的窗口中搜索 "存储网关" 并选择所需要的网关类型。**注："NFS 网关" 与 "CIFS/SMB 网关" 与 "卷网关" 共用 "[云平台存储网关（CSG）镜像 - 卷网关](https://market.tce.fsphere.cn/products/4276?productId=4276&_ga=1.138077944.992563734.1509872671#)"的镜像。**
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d87443a2452c4ee76f05bea4b0d491df/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d87443a2452c4ee76f05bea4b0d491df/image.png)
 说明：CSG 镜像包含的系统为 CentOS 7.2 版本。
 
 #### 选择存储与网络
 为存储网关配置存储及网络。在购买 CVM 流程中**不用选择数据盘（数据盘设置为 0GB）**。 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4e1de73e91cb3b4eab390e142d09af59/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/4e1de73e91cb3b4eab390e142d09af59/image.png)
 
 #### 设置服务器相关信息并购买机器
 为该存储网关设置主机名称及安全组。 端口开放需求请参考 [存储网关安全组要求](http://tce.fsphere.cn/document/product/581/9775#.E7.BD.91.E7.BB.9C.E5.8F.8A.E7.BD.91.E5.85.B3.E5.AE.89.E5.85.A8.E7.BB.84)，设置完成后确认购买机器。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4cf0544a1d410861d032f05ba61b464e/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/4cf0544a1d410861d032f05ba61b464e/image.png)
 > <p style="color: red;">说明：
 > 出于安全原因考虑，运行存储网关的云主机暂不提供 root 权限（即使此处配置了 root 也无效。请使用下面用户名/密码进行登录到存储网关主机并维护。<p>
 
@@ -189,7 +189,7 @@ Password: csg123
 
 #### 为服务器增加磁盘
 购买完云服务器后，需要回到 [CVM 控制台](http://console.tce.fsphere.cn/cvm)。 在 CVM 控制台新建至少 2 块 10GB 以上的云硬盘并挂载到该主机上（网关正常运行至少需要 2 块以上磁盘，请根据业务需要选择缓存/上传缓冲磁盘/元数据磁盘大小，磁盘后期还可根据需要自行添加）。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/92c386037e4aeff1dfcf91a1d6fc6994/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/92c386037e4aeff1dfcf91a1d6fc6994/image.png)
 > <span style="color: red;"> **注意：**
 > 为了保障卷网关、磁带网关的读写性能，缓存磁盘的容量必须为上传缓冲磁盘容量的 1.5 倍以上。</span>
 
@@ -201,7 +201,7 @@ Password: csg123
 - 网关运行在 CVM 实例上
   从云平台 CVM 控制台获取 IP 地址。
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/0900a37d4650a2a6d8c0bd4ead88f356/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/0900a37d4650a2a6d8c0bd4ead88f356/image.png)
 
 > 说明：
 > 若激活失败，请检查您输入的 IP 地址是否正确。如果该 IP 地址正确，则请确认已将网络设置为 "允许浏览器访问" 。
@@ -212,7 +212,7 @@ Password: csg123
 
 - 稳定模式：数据直接写入磁盘。**说明：该模式数据写入后稳定性高，异常掉电等情况也可以从磁盘中进行数据恢复。
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4012fdd301ee6ed62a30a92ec54f12b7/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/4012fdd301ee6ed62a30a92ec54f12b7/image.png)
 
 ### 配置本地磁盘并完成创建  
 在获取本地磁盘信息后，请根据业务情况将各个磁盘分别设置为 "上传缓冲区" 或 "缓存"。设置完毕后，点击【完成】并退出网关创建向导。*说明：本地磁盘一旦设置用途后不允许更改（仅可新增或者删除）。若在本地磁盘列表中未找到自己的磁盘，请点击【刷新】按钮。* 
@@ -225,15 +225,15 @@ Password: csg123
 - 缓存区= 3TB
 - 上传缓冲区=缓存区（3TB）/1.5= 2TB
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/74499026483883fb7244b8bf391cefdc/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/74499026483883fb7244b8bf391cefdc/image.png)
 > <p style="color: red;"> **注意：**
 >  网关正常运行，**至少需要配置一个 "上传缓冲区" 和 一个 "缓存" 磁盘，且缓存磁盘容量必须是上传缓冲区容量的 1.5 倍及以上**。 若您没有在创建时为网关分配本地磁盘，网关将处于 "待配置" 状态，需要等待配置本地磁盘后才能正常运行，请参照 [管理磁盘配置](http://tce.fsphere.cn/document/product/581/9485#.E7.AE.A1.E7.90.86.E6.9C.AC.E5.9C.B0.E7.A3.81.E7.9B.985) 进行配置。<p> 
 
 ## 创建 CIFS/SMB 文件系统
 完成网关的创建之后，您需要为该网关分配云端的存储空间（即文件系统），用于存储用户上传的数据。
 在 "CSG 控制台-网关" 页面或 "文件共享->文件系统" 页面， 点击【创建文件系统】或 【新建】。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/1d5c0529709738e1a6527e6a63e77d11/image.png)
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/63321f86e1e25578a3b55e1c349bfa04/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1d5c0529709738e1a6527e6a63e77d11/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/63321f86e1e25578a3b55e1c349bfa04/image.png)
 
 在弹出的窗口中进行相关设置：
 
@@ -243,7 +243,7 @@ Password: csg123
   注意：名称要求 1-64 位的数字或英文字母，同一个网关下名称不能重复。名称一旦创建后，不支持修改。
 * 允许访问地址：设置来访 IP 或网段的白名单，允许这些客户端挂载并访问该文件系统。该字段留空会允许所有客户端访问。同时，如果是多 IP 主机，请填写该主机的内网 IP。**注意：同一个 SMB 网关下的多个文件系统共享该来访白名单，因此此处会显示该网关的白名单信息，若修改该允许来访地址名单时，会同时影响其他该网关下的文件系统来访信息。**
 
- ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/0dfe1fb6f83853ec41c25d547e5e41cf/image.png) 
+ ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/0dfe1fb6f83853ec41c25d547e5e41cf/image.png) 
 
 ## 使用 CIFS/SMB 文件系统
 创建文件系统后，请在其他服务器或客户端上按照如下指引进行配置，挂载该文件系统并使用。SMB 网关支持 CIFS、 SMB2.0 及 SMB 3.0。
@@ -253,65 +253,65 @@ Password: csg123
 ###  在 Windows 上使用 SMB 文件系统
 #### 创建 SMB 用户并分配权限
 在存储网关控制台创建用来访问文件系统的用户，设置用户名及密码，并为该用户分配文件系统权限。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/26b6ad3bfa669ad01dc0852cd810df26/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/26b6ad3bfa669ad01dc0852cd810df26/image.png)
 
 #### 添加访问白名单
 在文件系统处，添加来访客户端的 IP 到 "允许访问地址" 中以获得访问权限 。如果使用 CVM 来访，建议将外网地址和内网地址都添加到来访地址中（ 可以到 CVM 控制台获取内网和外网 IP ）。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ba1f23f1ceaec7a46e47a25594960b39/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ba1f23f1ceaec7a46e47a25594960b39/image.png)
 
 
 #### 打开 "映射网路驱动器"
 登录到需要挂载文件系统的 Windows 上，在 "开始" 菜单中找到 "计算机"，单击鼠标右键出现菜单，点击菜单中的 "映射网路驱动器"。 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/5696d66a83d4e9b35196274f89e07dfc/image.png)
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6eeb1c0838e6aab185ed8b76dc736912/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/5696d66a83d4e9b35196274f89e07dfc/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6eeb1c0838e6aab185ed8b76dc736912/image.png)
 
 #### 输入访问路径
 在弹出的设置窗口中设置 "驱动器" 盘符名称及文件夹（即在 SMB 文件系统中看到的挂载目录）。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/004ef32b0b934ed6d666405a38fff999/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/004ef32b0b934ed6d666405a38fff999/image.png)
 
 #### 输入用户名密码
 点击【完成】按钮后，在弹出的窗口中输入第一步创建的用户名密码，点击确认完成挂载。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/27f2f6fdcb2f75ea974ef96bdb90ef28/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/27f2f6fdcb2f75ea974ef96bdb90ef28/image.png)
 
 <p style="color: red;">注意，请勿从多台客户端主机上使用相同用户名密码访问同一文件系统，该操作会被系统自动识别为非法（文件系统会锁住）。</p>
 
 
 #### 验证读写
 确认后，页面直接进入到已经挂载的文件系统中。可以右键新建一个文件来验证读写的正确性。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/60b9388885536ec7d81b1cf7f76c39d5/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/60b9388885536ec7d81b1cf7f76c39d5/image.png)
 
 #### 断开文件系统
 要断开已经挂载的文件系统，只需鼠标右键单击磁盘，再出现的菜单中点击【断开】选项，即可断开文件系统的连接。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/376cd0547aa64f4d519e5444c5a58f93/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/376cd0547aa64f4d519e5444c5a58f93/image.png)
 
 
 ## 管理 CIFS/SMB 用户
 
 登录控制台后，可以到 "文件共享->CIFS/SMB用户" 菜单下管理 CIFS/SMB 网关的用户。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/1844afdea6b5c428eb5e5cb204e52025/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1844afdea6b5c428eb5e5cb204e52025/image.png)
 
 ### 查看用户信息
 
 点击列表中 “用户名” 可以进入用户详情页面，查看用户详细信息。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/eb6ea81fd40aec4aed6a056846467e1b/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/eb6ea81fd40aec4aed6a056846467e1b/image.png)
 
 
 ### 编辑用户信息
 
 在用户详细信息页面，点击编辑图标修改用户详情和文件系统权限。**注意，若有客户端正使用该用户挂载或访问文件系统，此时修改密码或文件系统权限可能导致正在使用的文件系统因为失去权限而不可用。另，若使用 Linux 挂载 SMB 文件系统，由于协议限制，修改用户权限或密码后需要重启客户端才能生效。**
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/aaf0bd8aa9ace5c98df757ca7f792ff9/image.png)
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/188df01176ce3697658675abf43e2ea1/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/aaf0bd8aa9ace5c98df757ca7f792ff9/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/188df01176ce3697658675abf43e2ea1/image.png)
 
 ### 禁用/启用用户
 
 当需要禁用用户账户时，可以从 CIFS/SMB 用户列表的 “操作” 栏中找到【禁用】或【启用】按钮。在弹窗中点击【立即禁用】或者【立即启用】按钮来改变用户状态。**注意，若有客户端正使用该用户挂载或访问文件系统，此时修改密码或文件系统权限可能导致正在使用的文件系统因为失去权限而不可用。另，若使用 Linux 挂载 SMB 文件系统，由于协议限制，修改用户权限或密码后需要重启客户端才能生效。**
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/00ccf74c97a308ca95f7eef325f2ebd6/image.png)
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/55a2f0e5cd77217355f00fd845e27665/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/00ccf74c97a308ca95f7eef325f2ebd6/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/55a2f0e5cd77217355f00fd845e27665/image.png)
 
 ### 删除用户
 
 当需要删除用户时，可以从 CIFS/SMB 用户列表的 “操作” 栏中找到【删除】按钮。在弹窗中点击【立即删除】按钮删除该用户。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/3e79cdb1989efa6d68c86b0151cda0c5/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/3e79cdb1989efa6d68c86b0151cda0c5/image.png)
 
 
 ## CIFS/SMB 网关使用常见问题

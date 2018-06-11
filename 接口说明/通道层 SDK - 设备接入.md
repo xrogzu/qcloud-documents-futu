@@ -12,11 +12,11 @@
 
 同时，绝大部分能力整合在云端，设备端SDK通过简单有效的接口，提供外部服务：
 
-[![img_main](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xiaowei_main.jpg)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xiaowei_main.jpg)
+[![img_main](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xiaowei_main.jpg)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xiaowei_main.jpg)
 
 我们在设备SDK端，提供了一条通用的语音通道，用于上传语音指令，云端会对语音进行一系列的处理，返回处理结果和资源列表，SDK处理后，会把语音状态和其他数据回调给接入层：
 
-[![img_channel](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Channel_interface.png)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Channel_interface.png)
+[![img_channel](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Channel_interface.png)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Channel_interface.png)
 
 ## 能力说明
 | 能力类型 |  | 是否支持通道层对接 | 说明 |
@@ -50,7 +50,7 @@
 
 ### 硬件开放平台框架
 
-[![硬件开放平台框架](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/硬件开放平台框架.png)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/硬件开放平台框架.png)
+[![硬件开放平台框架](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/硬件开放平台框架.png)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/硬件开放平台框架.png)
 
 ### 硬件设备能力概述（有屏 & 无屏设备）
 
@@ -60,13 +60,13 @@
 
 硬件厂商完成sdk接入之后，传统硬件便获得了语音交互的能力，整个产品的使用流程包含以下5个步骤，先来看一张概览图：
 
-[![image](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/能力.png)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/能力.png)
+[![image](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/能力.png)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/能力.png)
 
 1：用户可通过语音唤醒音箱（或其他硬件设备，此处以音箱为例），并说出具体的指令；
 
 在这里指令的内容指的是云平台小微skill的能力（具体skill的能力和配置可见skill部分wiki，在这里不多作赘述），包含内置skill和第三方skill两大块，提供丰富的资源和服务能力，下图是重点能力的概览。
 
-[![云平台小微skill能力](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/云平台小微skill能力.png)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/云平台小微skill能力.png)
+[![云平台小微skill能力](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/云平台小微skill能力.png)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/云平台小微skill能力.png)
 
 2：音箱将语音内容传送到云端；
 
@@ -84,7 +84,7 @@
 
 开发者申请接入云平台小微硬件开放平台需要在[官网](https://xiaowei.qcloud.com/hardware.html)递交申请资料，进入云平台小微官网--硬件开放开放--点击【申请内测】：
 
-[![image](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/申请内测.jpg)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/申请内测.jpg)
+[![image](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/申请内测.jpg)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/申请内测.jpg)
 
 点击申请之后需要完善开发者的相关信息:
 
@@ -94,15 +94,15 @@
 
 3.技术参数：请根据需求选择符合自己硬件设备的技术参数，如有疑问可参见技术wiki。
 
-[![image](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/资料填写.jpg)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/资料填写.jpg)
+[![image](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/资料填写.jpg)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/资料填写.jpg)
 
 以上信息确认填写无误之后，选择提交，会获得您的申请接入单号，云平台小微团队会尽快通过邮件反馈审核结果给开发者注册的邮箱地址，开发者也可以在申请页面查看审核进度及反馈。
 
-[![image](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/申请记录.png)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/申请记录.png)
+[![image](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/申请记录.png)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/申请记录.png)
 
 当申请通过之后，再次进入官网硬件开放平台，会看到【申请内测】的button变成了【开始接入】，此时点击【开始接入】即可进入配置平台进行具体的硬件开发配置。
 
-[![image](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/开始接入.jpg)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/开始接入.jpg)
+[![image](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/开始接入.jpg)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/开始接入.jpg)
 
 ## 配置平台使用说明
 
@@ -114,19 +114,19 @@
 
 设备类型：必须填写准确，后期无法进行修改，这里我们选择设备类型为音箱。
 
-[![image](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-添加设备.png)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-添加设备.png)
+[![image](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-添加设备.png)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-添加设备.png)
 
 完成后，我们已经获得了该产品获得重要信息：pid和server key，这两个信息非常重要，会在SDK登录的时候中用到。
 
 在设备导航栏中，选择进入相应的设备，即可在头部看到这两个信息，请看下图：
 
-[![image](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-pid.jpg)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-pid.jpg)
+[![image](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-pid.jpg)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-pid.jpg)
 
 ### 填写设备信息
 
 当您完成一个新设备的创建之后，需要继续补充完善设备的信息，这里包含【基础信息】和【设备信息】两部分。
 
-[![image](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-基本信息.png)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-基本信息.png)
+[![image](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-基本信息.png)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-基本信息.png)
 
 进入到刚刚创建的设备-设备信息tab，补充完整设备的【基本信息】：
 
@@ -144,13 +144,13 @@
 
 公钥上传 稍微复杂一点，因为您需要下载一个我们的工具来完成这个步骤，点击 网页上的“公钥&证书工具下载（Win 7 Only）” 链接，然后运行密钥生成工具，点击下图中的生成KEY按钮，会在您指定的目录下生成一对非对称密钥文件： ec_key.pem 和 public.pem。之后点击上传按钮上传public.pem 就可以了。
 
-[![image](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-公钥.png)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-公钥.png)
+[![image](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-公钥.png)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-公钥.png)
 
 ### 为设备配置skill
 
 每一个接入云平台小微的硬件都有使用我们强大资源和服务的权限，此处需要使用同一个账号在我们云平台小微skill平台进行创建，创建完成之后就会显示在这里，开发者可以自行选择该硬件需要使用的skill。
 
-[![image](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-skill.png)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-skill.png)
+[![image](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-skill.png)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-skill.png)
 
 ### OTA能力管理
 
@@ -158,7 +158,7 @@ OTA能力配置中分为【正式环境】和【测试环境】两个部分，�
 
 在测试环境中允许向指定的设备推送升级，需要上传对应的sn包，限制为100个。
 
-[![image](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-OTA.png)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-OTA.png)
+[![image](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-OTA.png)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/配置平台-OTA.png)
 
 ### 样机审核
 
@@ -302,7 +302,7 @@ playid为当前正在播放的资源ID，appInfo为当前资源对应的场景�
 
 整个会话过程，可以参考`方案简介`中的流程图：
 
-[![img_channel](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Channel_interface.png)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Channel_interface.png)
+[![img_channel](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Channel_interface.png)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Channel_interface.png)
 
 ## 其他
 

@@ -2,9 +2,9 @@
 
 ### SDK 获取
 
-对象存储服务的 iOS SDK 的下载地址：[iOS SDK](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/a78a41f6eb769e421aa41fa607bc1501/qcloud-image-ios-v1.1.4.2.zip) 
+对象存储服务的 iOS SDK 的下载地址：[iOS SDK](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/a78a41f6eb769e421aa41fa607bc1501/qcloud-image-ios-v1.1.4.2.zip) 
 
-更多示例可参考Demo：[iOS Demo](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/abdd2f53afdbe005278e9a81d61da6d4/QcloudDemoApp.zip) 
+更多示例可参考Demo：[iOS Demo](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/abdd2f53afdbe005278e9a81d61da6d4/QcloudDemoApp.zip) 
 
 ### 开发准备
 
@@ -24,13 +24,13 @@ COS 的 iOS SDK 由上传 SDK 和下载 SDK 两个压缩包组成：
 
 每个压缩包都包含了一个 .a 静态库和一个包含头文件的文件夹 Headers，如下图所示。上传包提供了支持 bitcode 版本，与不支持 bitcode 版本，可根据业务需要进行选择。
 
-![上传SDK](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/05f5a1d6768985aa11b23c3808914989/image.png)
+![上传SDK](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/05f5a1d6768985aa11b23c3808914989/image.png)
 
-![下载SDK](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/190e5c8c4920ba4d7334f7ba64fd3839/image.png)
+![下载SDK](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/190e5c8c4920ba4d7334f7ba64fd3839/image.png)
 
 将解压后的 QCloudUploadSDK 和 QCloudDownloadSDK 拖入工程目录，Xcode 会自动将其加入链接库列表中。
 
-![导入 SDK 包](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/96dda4e5f2e4f8fab3fbda3de1cd8e25/image.png)
+![导入 SDK 包](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/96dda4e5f2e4f8fab3fbda3de1cd8e25/image.png)
 
 **注意：**上传/下载SDK包可根据业务需求选择性导入。
 
@@ -38,7 +38,7 @@ COS 的 iOS SDK 由上传 SDK 和下载 SDK 两个压缩包组成：
 
 在 Build Settings 中设置 Other Linker Flags，加入参数 -ObjC。
 
-![参数配置](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/58327ba5d83809c77da158ff95627ef7/image.png)
+![参数配置](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/58327ba5d83809c77da158ff95627ef7/image.png)
 
 #### 依赖库添加
 

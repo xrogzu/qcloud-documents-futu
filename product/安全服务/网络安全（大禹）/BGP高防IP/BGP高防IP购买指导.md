@@ -20,4 +20,4 @@
 <br>4.选择需要的弹性防护带宽大小；
 <br>5.选择需要的使用时长；
 <br>6.您可以选择自动续费功能；
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f70b835b13e828cde662826ee11361ef/image003%2811-22-09-02-52%29.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f70b835b13e828cde662826ee11361ef/image003%2811-22-09-02-52%29.png)

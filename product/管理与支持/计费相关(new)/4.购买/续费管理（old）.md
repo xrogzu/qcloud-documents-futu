@@ -7,7 +7,7 @@
 
 为了方便您对资源的查找，您可以根据资源所属地域、资源的到期时间范畴对资源进行筛选。
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/54d76756618ac9570ba861353cd248d2/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/54d76756618ac9570ba861353cd248d2/image.png)
 
 ## 批量资源续费
 
@@ -15,7 +15,7 @@
 
 当您的资源较多时，您可以跨页选中全部资源，批量提交续费。
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xufei-2.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xufei-2.png)
 
 <font color="red">当批量选中的资源超过100台时，不能使用代金券，如果您有使用代金券的需求，请提交工单</font>。
 
@@ -23,7 +23,7 @@
 
 如果您的资源，有长期使用的打算，您可以为资源设置自动续费。
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xufei-3.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xufei-3.png)
 
 【注意事项】
 
@@ -39,7 +39,7 @@
 
 如果您的资源，已经决定到期后不再继续使用，您可以为资源设置决定不续。
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xufei-4.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xufei-4.png)
 
 【注意事项】
 
@@ -53,19 +53,19 @@
 
 首先您要设置一个统一固定的资源到期日，这个日期一经设置不可更改，请您在设置时注意确认。
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xufei-5.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xufei-5.png)
 
 说明：
 
 设置了固定到期日之后，您可以选中意向的资源，统一到期日。我们会将您的资源向后续费至统一到期日，续费时间须大于一个月，不足整月的部分，我们将按照月价折算您续费天数的价格。例如，4月5日到期的资源，月价格为60元，需要调整到期日为每月20日，续费至5月20日，您需要支付的金额为90元（60+60÷30×15）。
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xufei-6.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xufei-6.png)
 
 ## 设置续费提醒
 
 如果您的资源预算需要较长的时间来申请，我们支持您对续费提醒进行时间上的自定义设置。
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xufei-7.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/xufei-7.png)
 
 【注意事项】
 

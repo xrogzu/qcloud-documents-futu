@@ -3,17 +3,17 @@
 
 ## 产品概述
 ### 静态内容
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/c9b885a88dd42ebc7ad2b9fbdc2f5556/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/c9b885a88dd42ebc7ad2b9fbdc2f5556/image.png)
 
 ### UGC内容
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/6720cd87c8a8ca60a69b9b43e42dd411/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/6720cd87c8a8ca60a69b9b43e42dd411/image.png)
 
 ### 海量数据
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/8bb6e910455669d6823588241e902ab8/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/8bb6e910455669d6823588241e902ab8/image.png)
 
 
 ### 无缝迁移
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/ca49cb884bdebbd74973a6172eec3aca/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/ca49cb884bdebbd74973a6172eec3aca/image.png)
 
 ### 产品功能
 1、**灵活文件管理**：通过 Web 控制台、API、SDK 等多种方式，直接上传、下载和管理海量文件。

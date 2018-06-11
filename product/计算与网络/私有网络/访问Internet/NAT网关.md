@@ -6,7 +6,7 @@ NAT 网关是一种将私有网络中内网 IP 地址和公网 IP 地址进行�
 ## 网络拓扑关系
 如下图所示，NAT 网关是一个处于 Internet 和 VPC 边界的网关，并接在 VPC 的路由器上。由这样的拓扑图可知，VPC 内云主机等资源通过 NAT 网关向外发送数据包时，数据会先经过路由器，按照路由策略进行路由选择。然后 NAT 网关通过绑定的弹性 IP 地址作为源 IP 地址，将流量发送到 Internet：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/4772b9bc1e78436104f89f943f06ac97/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/4772b9bc1e78436104f89f943f06ac97/image.png)
 
 ## 主要功能
 - NAT 网关支持 SNAT 和 DNAT：

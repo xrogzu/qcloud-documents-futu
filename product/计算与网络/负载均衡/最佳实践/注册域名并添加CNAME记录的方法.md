@@ -7,7 +7,7 @@
 
 登录云平台【管理中心】-【云产品】-【域名管理】-【解析】, 示例的主域名为qcloudtest.com。
 
-![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/005aec8272c6384a9626e62b5d3bd735.png)
+![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/005aec8272c6384a9626e62b5d3bd735.png)
 
 ### 2. 添加CNAME记录
 
@@ -52,7 +52,7 @@ d. CNAME记录值主要填写空间商给您提供的域名
 
 其余值可以按照默认进行操作。添加完毕后，点击【确定】。
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/3d952308d0e576fa3a2be640b3238074/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/3d952308d0e576fa3a2be640b3238074/image.png)
 
 ### 3. 查看CNAME记录
 

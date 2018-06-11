@@ -79,7 +79,7 @@
 - 如用户开启会话保持功能，或关闭会话保持功能但选择ip_hash的调度方式，则请求持续分配到同一台后端服务器上去。
 - 如用户关闭会话保持功能，选择轮询的方式进行调度，则请求依次分配到不同后端服务器上。
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/6db39e63f01e0212b85811d17467e5be/image.png)
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/3a3df321b536f701c172f200f36bddc7/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/6db39e63f01e0212b85811d17467e5be/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/3a3df321b536f701c172f200f36bddc7/image.png)
 
 

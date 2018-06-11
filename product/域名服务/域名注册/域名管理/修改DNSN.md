@@ -6,13 +6,13 @@ DNS 修改会实时提交注册局生效，各地运营商递归解析服务器�
 
 ### 步骤一：登录管理控制台
 打开 [云平台官网](http://tce.fsphere.cn/)，在顶部导航条右侧单击【管理中心】，登录到管理中心首页。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/93b74a8e306f5f05dfcaf89abeef523d/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/93b74a8e306f5f05dfcaf89abeef523d/image.png)
 在**使用中的云产品**栏目内，单击【域名管理】进入域名管理页面，即可看到您购买的所有域名信息列表。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/da4ba43894682972815e6deb5f040e50/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/da4ba43894682972815e6deb5f040e50/image.png)
 ### 步骤二：修改 DNS
 域名管理页面右侧，单击**操作**栏内的【更多】，在下拉框内单击【DNS 修改】进入域名管理页面。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/517619e780c730c147b4ad3708c8f7e7/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/517619e780c730c147b4ad3708c8f7e7/image.png)
 点击【修改】按钮，进入 DNS 修改页面。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/c8deac17998bf68b016bb1ea2d52d980/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/c8deac17998bf68b016bb1ea2d52d980/image.png)
 修改您的 DNS 信息，单击【保存】即可完成修改。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2199d4a35f0bc17d2acd35690b106602/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2199d4a35f0bc17d2acd35690b106602/image.png)

@@ -24,7 +24,7 @@ VPN 连接是一种通过公网加密通道连接您的对端 IDC 和私有网�
 - 对端网关： IDC 端的 IPsec VPN 服务网关
 - VPN 通道：加密的 IPsec VPN 通道
 <div style="text-align:center">
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/a654d376b4e4e13ae2bb65b13239cef2/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/a654d376b4e4e13ae2bb65b13239cef2/image.png)
 
 </div>
 私有网络内可以建立 VPN 网关，每个 VPN 网关可以建立多个 VPN 通道，每个 VPN 通道可以打通一个本地 IDC。
@@ -71,7 +71,7 @@ SPD 策略 1 本端网段 ```10.0.0.0/24```，对端网段为 ```192.168.0.0/24`
 SPD 策略 2 本端网段 ```10.0.1.0/24```，对端网段为 ```192.168.2.0/24```。
 SPD 策略 3 本端网段 ```10.0.2.0/24```，对端网段为 ```192.168.2.0/24```。
 <div style="text-align:center">
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/5b32174d312e31c5b5a9162a50456de8/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/5b32174d312e31c5b5a9162a50456de8/image.png)
  
  </div>
 ### IKE 配置

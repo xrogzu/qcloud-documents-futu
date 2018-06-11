@@ -58,7 +58,7 @@ yum -y install php-curl
 
 #### 获取软件
 
-[点击这里](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/1ce5a174bd3a7ec7cf44b7dbe45e90bf/cos_migration_tools.tar)下载最新版本的 cos_migration 迁移工具。
+[点击这里](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/1ce5a174bd3a7ec7cf44b7dbe45e90bf/cos_migration_tools.tar)下载最新版本的 cos_migration 迁移工具。
 
 将安装包放置在存储空间较大的磁盘目录下，执行 tar 命令解压即可使用。
 
@@ -303,11 +303,11 @@ cd cos_migration_tools/bin
 
 1. 未安装 php 时会报错：
 
-   ![IMG of tool-cos_migration/PHP fail.png](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/694748c11829d1b6d15ab26a7a961b60/%7B24D8F2F9-496D-4115-AF95-E240F4040D2A%7D.png)
+   ![IMG of tool-cos_migration/PHP fail.png](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/694748c11829d1b6d15ab26a7a961b60/%7B24D8F2F9-496D-4115-AF95-E240F4040D2A%7D.png)
 
 2. 未按照 php-curl 时会报错：
 
-   ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6c47948fa04f500a7681b47335ad53f9/%7BDA9F1329-7E87-4C42-AAE0-17A7E5205E32%7D.png)
+   ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6c47948fa04f500a7681b47335ad53f9/%7BDA9F1329-7E87-4C42-AAE0-17A7E5205E32%7D.png)
 
 #### 服务端异常
 

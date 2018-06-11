@@ -7,7 +7,7 @@
 ## 配置指引
 
 登录 [CDN 控制台](http://console.tce.fsphere.cn/cdn)，选择左侧菜单栏的【域名管理】，单击您所要编辑的域名右侧的【管理】。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/1f2cb594cd614b62b589cb20a20ed362/basic-config-1.png)在【高级配置】中找到【HTTP Header配置】模块，可自助添加头部：![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f47d9e08cad09f58f6bd7b86bf0bb572/header-config-1.png)点击【添加 HTTP header】可添加头部：![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/5ef8e9ad80a57d77b23a6bf2ad71690a/header-config-2.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1f2cb594cd614b62b589cb20a20ed362/basic-config-1.png)在【高级配置】中找到【HTTP Header配置】模块，可自助添加头部：![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f47d9e08cad09f58f6bd7b86bf0bb572/header-config-1.png)点击【添加 HTTP header】可添加头部：![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/5ef8e9ad80a57d77b23a6bf2ad71690a/header-config-2.png)
 
 CDN 提供以下常见的 6类头部设置，也可支持自定义头部设置：
 
@@ -73,9 +73,9 @@ Access-Control-Expose-Headers 用于指定哪些头部可以作为响应的一�
 
 ### 自定义头部
 
-支持添加自定义 header，自定义 key-value 设置：![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/8fad908143b81e3d2c21c9ff5ddf2ce0/header-config-3.png)
+支持添加自定义 header，自定义 key-value 设置：![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8fad908143b81e3d2c21c9ff5ddf2ce0/header-config-3.png)
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/70c010f9dcbbaff8ead411527a0de796/header-config-4.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/70c010f9dcbbaff8ead411527a0de796/header-config-4.png)
 
 暂不支持以下header添加：
 

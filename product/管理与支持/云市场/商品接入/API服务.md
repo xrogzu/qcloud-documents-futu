@@ -10,9 +10,9 @@
 1. 发布 API 服务，请参考 [配置 API 网关接入 API 市场](/document/product/306/13034)。  
 2. 登录 [云市场->服务商管理](http://console.tce.fsphere.cn/serviceprovider/goods/api) 后台。  
 3. 进入商品管理 > API 服务，单击【+新建】按钮。    
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/c3f3bce8487fc2dd0d3b7d3168ac517f/image.png)  
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/c3f3bce8487fc2dd0d3b7d3168ac517f/image.png)  
 4. 填写 API 服务商品信息。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/20ada80246bbd1e005f3dcea01926f6e/image.png)  
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/20ada80246bbd1e005f3dcea01926f6e/image.png)  
 填写以下说明：
 **商品名称**：输入商品名称， 40 字内；  
 **商品分类**：选择发布商品对应的分类；  

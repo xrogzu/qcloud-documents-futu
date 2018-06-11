@@ -18,8 +18,8 @@ A：目前是部分开放阶段，可直接联系客服经理关闭。
 
 Q：如何知道我的请求是被WAF拦截了？
 A：当你看到如下拦截页面时，表示你的请求触发了WAF的防护规则。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56c636ed7b8be.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56c636ed7b8be.png)
 
 Q：如果被拦截的是我业务正常请求，该如何解决呢？
 A：如果你为站长，请点击如下图红框的链接，增加白名单，则不再拦截。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56c63706d8830.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56c63706d8830.png)

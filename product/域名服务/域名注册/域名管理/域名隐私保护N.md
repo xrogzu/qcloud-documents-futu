@@ -5,12 +5,12 @@
 
 ### 步骤一：登录管理控制台
 登录 [云平台控制台](http://console.tce.fsphere.cn/)，在【使用中的云产品】栏目内单击【域名管理】，即可看到您购买的所有域名信息列表。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/da4ba43894682972815e6deb5f040e50/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/da4ba43894682972815e6deb5f040e50/image.png)
 ### 步骤二：域名隐私保护
 在域名管理页面最右侧，单击【操作】栏内的【更多】，在下拉框内单击【域名隐私保护】进入域名管理页面。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/e059efc5b982a1197d1180c61e13c182/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e059efc5b982a1197d1180c61e13c182/image.png)
 单击【域名隐私保护】按钮，即可开启域名保护。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/50d93b3dc1cad70f3e793473d92d41de/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/50d93b3dc1cad70f3e793473d92d41de/image.png)
 >**注意：**
 >按钮显示为灰色，表示域名保护功能为关闭状态；
 >按钮显示为蓝色，表示域名保护功能为开启状态。

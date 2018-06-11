@@ -6,9 +6,9 @@ Label 标签本质上是一对  key / value 被关联到对象上，对象可以
 ### 服务 Label 标签的展示
 在服务列表页面和服务的详情页面可以查看服务的标签。由于容器服务自身会对服务增加一定的标签，因此服务的标签分为系统标签 ( 不可修改 ) 和用户标签 ( 可以修改 )。
 **服务列表页展示服务的标签：**
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/84129fe851591c95410ffef3720f424b/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/84129fe851591c95410ffef3720f424b/image.png)
 **服务详情页展示的服务标签：**
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/599de3ec9efbfda563bbafeffbed9564/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/599de3ec9efbfda563bbafeffbed9564/image.png)
 系统标签说明：
 
 | 标签 Key 名称 | 标签 Value 意义 |
@@ -20,8 +20,8 @@ Label 标签本质上是一对  key / value 被关联到对象上，对象可以
 >**注意：**
 >系统标签不支持修改。
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/28d324c9146e75f9097844666e7aa548/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/28d324c9146e75f9097844666e7aa548/image.png)
 
 ### 按 Label 标签过滤服务
 在服务列表页面，支持按照标签搜索服务通过标签筛选，只展示标记了相应标签的服务。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/21205041928dd8c15779a32aa0a5cb78/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/21205041928dd8c15779a32aa0a5cb78/image.png)

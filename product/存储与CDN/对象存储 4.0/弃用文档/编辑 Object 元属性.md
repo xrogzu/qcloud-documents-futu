@@ -19,11 +19,11 @@ COS提供了 5 种头部标识可以配置：
 
 进入控制台，选择 Bucket，选择 Object，点击 **设置Header**。
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/dc304b8df347ff565f6424eb965ff8db/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/dc304b8df347ff565f6424eb965ff8db/image.png)
 
 在弹出来的设置 Header弹窗中添加参数，并选择类型，如果是自定义内容则需要输入自定义的名称。输入对应值，并按确定保存。
 
-![](https:http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/3bb5a7c32049a07d8077477f7106fcf7/image.jpg)
+![](https:http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/3bb5a7c32049a07d8077477f7106fcf7/image.jpg)
 
 
 ## 示例
@@ -49,7 +49,7 @@ COS提供了 5 种头部标识可以配置：
 
 当添加了一些配置如下：
 
-![](https:http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/3bb5a7c32049a07d8077477f7106fcf7/image.jpg)
+![](https:http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/3bb5a7c32049a07d8077477f7106fcf7/image.jpg)
 
 再次发起请求，浏览器或客户端得到的 Object 头部范例如下：
 

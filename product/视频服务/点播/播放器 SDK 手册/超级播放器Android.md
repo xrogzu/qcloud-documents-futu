@@ -2,7 +2,7 @@
 
 超级播放器是基于`TXVodPlayer`实现的集视频信息拉取、横竖屏切换、清晰度选择、弹幕等功能于一体的解决方案，**且完全开源**。帮助您在短时间内，打造一个媲美市面上各种流行视频App的播放体验。
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/c5a7b6e6e8cba617b76fee49aa03da18/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/c5a7b6e6e8cba617b76fee49aa03da18/image.png)
 
 ## 接入准备
 
@@ -50,7 +50,7 @@ fileId在一般是在视频上传后，由服务器返回：
 
 如果文件已存在云平台，则可以进入 [点播视频管理](http://console.tce.fsphere.cn/video/videolist) ，找到对应的文件。点开后在右侧视频详情中，可以看到appId和fileId。
 
-![视频管理](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/fcad44c3392b229f3a53d5f8b2c52961/image.png)
+![视频管理](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/fcad44c3392b229f3a53d5f8b2c52961/image.png)
 
 SDK在请求成功后，将视频信息将以事件的形式通知到上层
 

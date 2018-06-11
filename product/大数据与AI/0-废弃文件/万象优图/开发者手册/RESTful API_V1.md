@@ -259,7 +259,7 @@ fill|	encodedTextColor|字体颜色，缺省为白色，RGB格式，可以是颜
 dissolve|	dissolve|文字透明度，取值1-100|	100（完全不透明）
 domain, appid, userid, fileid, pattern等参数参见[基本格式参数说明](#8-.E5.9B.BE.E5.83.8F.E5.A4.84.E7.90.86)。
 九宫格图如下：
-<img src="http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/apicankao-3.jpg" alt="apicankao-3.jpg" /><br /><br />
+<img src="http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/apicankao-3.jpg" alt="apicankao-3.jpg" /><br /><br />
 示例:
 ```
 //myPattern为开发者自定义样式

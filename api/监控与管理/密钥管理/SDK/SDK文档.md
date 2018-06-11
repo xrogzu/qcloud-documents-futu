@@ -10,10 +10,10 @@
 ### KMS Python SDK 下载与配置
 #### 云 API 密钥使用说明
 使用 Python SDK 时，首先需要用户的云 API 密钥，云 API 密钥是对用户身份的合法性验证。获取云 API 密钥的方法如下：登录[云平台控制台](http://console.tce.fsphere.cn/)，选择【云产品】-【云 API 密钥】选项
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b04d51df61bc4e9259dcee293981b644/5.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b04d51df61bc4e9259dcee293981b644/5.png)
 
 用户可在此新建新的云 API 密钥或使用现有密钥。点击密钥 ID 进入详情页获取使用的密钥 secretId 和对应的 secretKey。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/47b2cf18add4d32a867f115fffb6af48/2.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/47b2cf18add4d32a867f115fffb6af48/2.png)
 
 #### endpoint 说明
 endpoint 是使用 KMS 服务的访问地址，同时 endpoint 中也包含了使用的协议，endpoint的格式如下：

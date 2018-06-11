@@ -15,7 +15,7 @@ LoadBalance 团队在4月推出**公网应用型LB**独家能力：自定义重�
 通过在云平台后端服务器的 nginx 上配置 rewrite 操作，该请求经过 8080 端口，并被重写到 https://example.com 页面。
 此时浏览器再次发送 https://example.com 请求到相应的 HTTPS 站点，该请求通过 VIP 访问负载均衡监听器的 443 端口，并被转发到后端云服务器的 80 端口。至此，请求转发完成。架构如下图所示：
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b5d0efa20da5872ac3d29a41fd29d945/11.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b5d0efa20da5872ac3d29a41fd29d945/11.jpg)
 
 #### B.具体配置
 1. 当用户请求的 HTTP 和 HTTPS 服务的域名一样时，且 HTTPS 端口默认为 443 时，为实现以上请求转发操作，用户可以直接对后端服务器做如下配置：
@@ -63,9 +63,9 @@ server {
 假定开发者需要配置网站 https://example.com 。开发者希望用户在浏览器中输入网址时，直接键入www.example.com 即可通过 HTTPS 协议安全访问。www.example.com 下，不仅仅是一个地址，后端关联的 URL 可能有数百的（用正则匹配），总的 real server 数量会有几百个，逐一配置难度太大。云平台支持一键式的，强制 HTTPS 跳转。
 
 第一步，先在 [负载均衡控制台](http://console.tce.fsphere.cn/loadbalance/index?rid=1) 将 LB 的 HTTPS 监听器配置好，也就是将 https://example.com 的 Web 环境搭建好。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/61a723a69c581968a46fe86447f1473a/1111.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/61a723a69c581968a46fe86447f1473a/1111.jpg)
 第二步，到应用型负载均衡器控制台处启用重定向能力，目前支持域名级别，整体跳转。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/e066362fed8d3cf7740dd50c49c6004b/2222.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e066362fed8d3cf7740dd50c49c6004b/2222.jpg)
 
 #### B.方案优势
 - 仅需1次配置：一个域名，一次配置即可完成强制 HTTPS。

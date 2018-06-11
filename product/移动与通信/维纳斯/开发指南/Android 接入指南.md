@@ -22,7 +22,7 @@ sdk 接受数据限制长度为 512K 字节
 ## Sdk 配置和初始化说明
 ### 引入 Wns Sdk
 将 /libs 下的 assets 和 libs 目录分别复制到工程根目录对应的目录中，如下图
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/dca5498f8a97efd6050f0ac4e3610ab9/wns_and_lib.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/dca5498f8a97efd6050f0ac4e3610ab9/wns_and_lib.png)
 >注意：
 >需要将 jar 文件和对应的 so 添加 到工程中。
 
@@ -396,4 +396,4 @@ Wns 提供快速验证模式，开发商可以先集成 Wns 的 Sdk，但是通�
 方法加载 so，提高启动 WNS 的成功率。
 
 我们提供的 sdk  zip 包中包含获取应用签名的 app 工具，安装到手机后，输入您的 app 包名即可获取到签名。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/bde9d37a48d969ead313cbbe6f2b1e9a/wns_and_tool.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/bde9d37a48d969ead313cbbe6f2b1e9a/wns_and_tool.png)

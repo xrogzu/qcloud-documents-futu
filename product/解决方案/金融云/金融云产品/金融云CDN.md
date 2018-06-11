@@ -3,13 +3,13 @@
 
 ## 产品概述
 ### 网页图片加速
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/49bad2c7f1737c6dcf86cf17249b63ce/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/49bad2c7f1737c6dcf86cf17249b63ce/image.png)
 
 ### 下载服务加速
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/c8db4a085e0e2d3643eb7457b1faa698/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/c8db4a085e0e2d3643eb7457b1faa698/image.png)
 
 ### 音视频加速
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/a7229f0620132aff8e2e81d5f28fd6b4/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/a7229f0620132aff8e2e81d5f28fd6b4/image.png)
 
 ## 详细了解
 [金融云CDN](http://tce.fsphere.cn/product/cdn.html)

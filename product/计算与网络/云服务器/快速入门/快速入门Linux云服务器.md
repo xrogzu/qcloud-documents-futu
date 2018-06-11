@@ -90,7 +90,7 @@
 	>**注意：**
 	>`fdisk -l`与`df -h` 都为拆看数据盘信息命令，但在没有分区和格式化数据盘之前，使用`df -h` 命令无法看到数据盘。
 
-	![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f26b5a092e1521556410afdc75a95474/image.png)
+	![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f26b5a092e1521556410afdc75a95474/image.png)
 
  3. 对数据盘进行分区。按照界面的提示，依次操作：
 
@@ -103,10 +103,10 @@
  	7. 输入`wq`(保存分区表)，回车开始分区。
 
 	这里以创建 1 个分区为例，开发者也可以根据自己的需求创建多个分区。
-	![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/8a9c8ff4db5a7e4622bf2968d0309129/image.png)
+	![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8a9c8ff4db5a7e4622bf2968d0309129/image.png)
 
  4. 使用`fdisk -l`命令，即可查看到，新的分区 vdb1 已经创建完成。
-	![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/304ccd9491f2a25b8d3b33b5213faa0e/image.png)
+	![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/304ccd9491f2a25b8d3b33b5213faa0e/image.png)
 
 ### 格式化数据盘
 
@@ -116,7 +116,7 @@
 	```
 	mkfs.ext3 /dev/vdb1
 	```
-	![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/fce59c4aba93c688c429fe4760452264/image.png)
+	![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/fce59c4aba93c688c429fe4760452264/image.png)
 
  2. 挂载分区
 	使用以下命令创建 mydata 目录并将分区挂载在该目录下：
@@ -129,7 +129,7 @@
 	df -h
 	```
 	出现如图框选的 vdb1 信息则说明挂载成功，即可以查看到数据盘了。
-	![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d6bc35b30b823c567812affd032bfedf/image.png)
+	![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d6bc35b30b823c567812affd032bfedf/image.png)
 
  3. 设置启动自动挂载
 如果希望云服务器在重启或开机时能自动挂载数据盘，必须将分区信息添加到 `/etc/fstab `中。
@@ -142,6 +142,6 @@
 	cat /etc/fstab
 	```
 	出现如图最下方框选的 vdb1 信息则说明添加分区信息成功。
-	![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/39025e909cd849d5a34378a7d0078d13/image.png)
+	![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/39025e909cd849d5a34378a7d0078d13/image.png)
 	
 **至此，您已完成 Linux 系统的云服务器的创建和基础配置。**

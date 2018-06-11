@@ -88,17 +88,17 @@
 </th></tr>
 <tr>
 <td> 1
-</td><td> <img src="http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/anquanAPIjieru_02.png" alt="anquanAPIjieru_02.png">
+</td><td> <img src="http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/anquanAPIjieru_02.png" alt="anquanAPIjieru_02.png">
 </td><td> 清晰4位字母
 </td></tr>
 <tr>
 <td> 2
-</td><td> <img src="http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/anquanAPIjieru_03.png" alt="anquanAPIjieru_03.png">
+</td><td> <img src="http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/anquanAPIjieru_03.png" alt="anquanAPIjieru_03.png">
 </td><td> 清晰5位字母
 </td></tr>
 <tr>
 <td> 3
-</td><td> <img src="http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/anquanAPIjieru_04.png" alt="anquanAPIjieru_04.png">
+</td><td> <img src="http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/anquanAPIjieru_04.png" alt="anquanAPIjieru_04.png">
 </td><td> 清晰6位字母
 </td></tr>
 <tr>
@@ -108,17 +108,17 @@
 </td></tr>
 <tr>
 <td> 5
-</td><td> <img src="http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/anquanAPIjieru_05.png" alt="anquanAPIjieru_05.png">
+</td><td> <img src="http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/anquanAPIjieru_05.png" alt="anquanAPIjieru_05.png">
 </td><td> 干扰4 位字母
 </td></tr>
 <tr>
 <td> 6
-</td><td> <img src="http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/anquanAPIjieru_06.png" alt="anquanAPIjieru_06.png">
+</td><td> <img src="http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/anquanAPIjieru_06.png" alt="anquanAPIjieru_06.png">
 </td><td> 干扰5位字母
 </td></tr>
 <tr>
 <td> 7
-</td><td> <img src="http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/anquanAPIjieru_07.png" alt="anquanAPIjieru_07.png">
+</td><td> <img src="http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/anquanAPIjieru_07.png" alt="anquanAPIjieru_07.png">
 </td><td> 干扰6位字母
 </td></tr>
 <tr>
@@ -173,9 +173,9 @@ https://domain/v2/index.php?Action=CaptchaQuery
 ```
 
 ## 6. JavaScript样例
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img5693ad9809b39.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img5693ad9809b39.png)
 
 ## 7. JavaScript使用参考
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img5693adaad4352.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img5693adaad4352.png)
 
 代码下载链接：http://url.cn/f5F9ix

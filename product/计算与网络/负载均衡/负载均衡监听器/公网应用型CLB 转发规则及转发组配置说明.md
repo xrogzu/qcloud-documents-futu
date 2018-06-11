@@ -2,7 +2,7 @@
 
 公网应用型 CLB 的七层业务流程及四层业务流程如下所示：
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f0fa90984d263a9f7e26d4f6ee3b6c5f/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f0fa90984d263a9f7e26d4f6ee3b6c5f/image.png)
 
 - 在公网应用型负载均衡的七层转发 http/https 中，一个 LB 实例的监听器中，新建转发规则时，用户可选添加一个对应的域名。
 - 当用户只建立了一条转发规则时，访问 VIP+URL 可以对应相应的转发规则，并正常访问服务。
@@ -68,7 +68,7 @@ URL支持正则表达，用如下方法判断：
 `"` `{` `}` `;` `\` ` ` ` `~`  `'` `空格`   
 
 ### URL匹配规则示例
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/5e322824d13d70c55f12c5d34f066d4a/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/5e322824d13d70c55f12c5d34f066d4a/image.png)
  
 1 匹配规则：优先精确匹配，之后依照规则模糊匹配
 

@@ -49,7 +49,7 @@ CAM 协作者可以设置的操作属性如下：
 您在安全设置中只能看到 **主账号** 的状态展示，如果您需要变更设置，可以请求主账号或者具有 CAM 管理权限的子用户，在 [访问管理控制台](http://console.tce.fsphere.cn/cam) 的 **用户管理** 中，设置相关内容。
 
 1. 在控制台的用户管理页面新建子用户时可以设置是否开启登录保护和敏感操作保护。
-![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/086d82025e720830d57c2824180a8e98.png)
+![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/086d82025e720830d57c2824180a8e98.png)
 
 2. 设置子用户开启 MFA 校验后，子用户在下一次登录时，系统将首先要求进行 MFA 设备关联，关联之后才可以进入控制台进行操作。
 
@@ -57,9 +57,9 @@ CAM 协作者可以设置的操作属性如下：
 
 ## 为子用户（协作者）重置 MFA
 1. 在 [访问管理控制台](http://console.tce.fsphere.cn/cam) 用户管理页面，进入子用户（协作者）详情页面，进入安全设置，找到 MFA 设置项。
-![img](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/7e15061c3e6d8032e0e711fde84585ad.png) 
+![img](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/7e15061c3e6d8032e0e711fde84585ad.png) 
 2. 管理 MFA 设置项中，可以对子用户（协作者）的 MFA 设置内容进行管理和配置，选择是否开启登录保护和敏感操作保护。
-![img](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/005403ec1dc438cf3d7194c15afa53d8.png) 
+![img](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/005403ec1dc438cf3d7194c15afa53d8.png) 
 
 3. 子用户（协作者）的 MFA 开启后，您可以重置该用户的设备状态。重置完成后，子用户（协作者）下次登录后，将进入重新绑定 MFA 的流程。
 重置 MFA 设备再重新绑定，可以解决当子用户（协作者）在设备丢失时无法重新关联的问题。

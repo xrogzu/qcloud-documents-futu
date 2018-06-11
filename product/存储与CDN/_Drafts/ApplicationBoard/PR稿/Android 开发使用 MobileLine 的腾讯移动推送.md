@@ -21,7 +21,7 @@ MobileLine 移动推送服务背后依赖的是腾讯的信鸽服务，但就 An
 
 消息的发送流程大概是这样的，这里截取一下官网的一个流程图：
 
-![](http://imgcache.tce.fsphere.cn/static/developer.qq.com/wiki/xg/imgs/20151029163904_73066.png)
+![](http://imgcache.tce.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151029163904_73066.png)
 
 ## 一些概念
 
@@ -61,22 +61,22 @@ dependencies {
 
 代码中启动服务很简单，只需要在 `Application` 的 `onCreate` 里面调用 `start` 即可：
 
-![](http://imgcache.tce.fsphere.cn/static/ww1.sinaimg.cn/large/62f68aebgy1fpkhef6jclj218e0niae4.jpg)
+![](http://imgcache.tce.fsphere.cn/image/ww1.sinaimg.cn/large/62f68aebgy1fpkhef6jclj218e0niae4.jpg)
 
 推送服务是会单独启动一个独立进程的。因为我的app开启了多进程，所以需要判断下当前是否是主进程，以免启用多个服务进程：
 
-![](http://imgcache.tce.fsphere.cn/static/ww1.sinaimg.cn/large/62f68aebgy1fpkhet3499j21ei0li79d.jpg)
+![](http://imgcache.tce.fsphere.cn/image/ww1.sinaimg.cn/large/62f68aebgy1fpkhet3499j21ei0li79d.jpg)
 
 
 ### 5. 注册回调
 
 然后就是注册 `Receiver` 了，消息到达之后，会回调 `Receiver` 的对应方法：
 
-![](http://imgcache.tce.fsphere.cn/static/ww1.sinaimg.cn/large/62f68aebgy1fpki0uddexj21540eiwgo.jpg)
+![](http://imgcache.tce.fsphere.cn/image/ww1.sinaimg.cn/large/62f68aebgy1fpki0uddexj21540eiwgo.jpg)
 
 `Receiver` 可以直接继承与 `TACMessagingReceiver`，然后在具体的回调方法里面写自己的逻辑。
 
-![](http://imgcache.tce.fsphere.cn/static/ww1.sinaimg.cn/large/62f68aebgy1fpki5zonn6j21z40lin2a.jpg)
+![](http://imgcache.tce.fsphere.cn/image/ww1.sinaimg.cn/large/62f68aebgy1fpki5zonn6j21z40lin2a.jpg)
 
 比如收到了通知栏消息，那么 `onNotificationShowed` 方法就会自动调用了。
 
@@ -86,19 +86,19 @@ dependencies {
 
 登录MobileLine 控制台，进入移动推送，可以非常方便的创建一条通知栏推送消息了。
 
-![](http://imgcache.tce.fsphere.cn/static/ww1.sinaimg.cn/mw690/62f68aebgy1fpkj01exflj221o1eq13g.jpg)
+![](http://imgcache.tce.fsphere.cn/image/ww1.sinaimg.cn/mw690/62f68aebgy1fpkj01exflj221o1eq13g.jpg)
 
 推送还支持单播和广播。因为现在是测试状态，我这里选的是广播，如果app上线了，还是选择单播比较安全~
 
 然后过了几秒，手机端就收到推送消息了。
 
-![](http://imgcache.tce.fsphere.cn/static/ww1.sinaimg.cn/mw690/62f68aebgy1fpkj34zw3zj20u01hc0xa.jpg)
+![](http://imgcache.tce.fsphere.cn/image/ww1.sinaimg.cn/mw690/62f68aebgy1fpkj34zw3zj20u01hc0xa.jpg)
 
 ## 推送效果监控
 
 控制台上可以实时监控推送的发送量，展示量也就是达到率，还有用户的点击率，帮助产品更好的运营，方便评估推送的效果。
 
-![](http://imgcache.tce.fsphere.cn/static/ww1.sinaimg.cn/mw690/62f68aebgy1fpkjkjc2kqj221g0tsjv4.jpg)
+![](http://imgcache.tce.fsphere.cn/image/ww1.sinaimg.cn/mw690/62f68aebgy1fpkjkjc2kqj221g0tsjv4.jpg)
 
 
 几个重要的数据指标的意思是这样的：
@@ -130,7 +130,7 @@ dependencies {
 
 实际上，如果因为网络原因等导致注册服务失败，消息是肯定收不到的，所以最好在 logcat 里面看到有获取 token 成功的日志，或者收到成功的回调之后再测试。可以这样拿到注册结果的回调：
 
-![](http://imgcache.tce.fsphere.cn/static/ww1.sinaimg.cn/large/62f68aebgy1fpkk138pqkj21cm0ni0xc.jpg)
+![](http://imgcache.tce.fsphere.cn/image/ww1.sinaimg.cn/large/62f68aebgy1fpkk138pqkj21cm0ni0xc.jpg)
 
 其中的token就是设备的唯一标识啦，Android Token长度为40位。
 

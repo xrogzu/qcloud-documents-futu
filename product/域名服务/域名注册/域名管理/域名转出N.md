@@ -5,16 +5,16 @@
 
 ### 步骤一：登录管理控制台
 登录 [云平台控制台](http://console.tce.fsphere.cn/)，在【使用中的云产品】栏目内单击【域名管理】，即可看到您购买的所有域名信息列表。
-![打开域名管理中心](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/da4ba43894682972815e6deb5f040e50/image.png)
+![打开域名管理中心](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/da4ba43894682972815e6deb5f040e50/image.png)
 ### 步骤二：获取域名转出密码
 在域名管理页面右侧，单击【操作】>【管理】，进入域名信息管理页面。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d7d485d04f780bacb592826f0148a540/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d7d485d04f780bacb592826f0148a540/image.png)
 信息管理页面底部，单击【转出域名】，进入域名转出页面。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/a99460dbf349c245af844a53b819cd8b/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a99460dbf349c245af844a53b819cd8b/image.png)
 确认您的邮箱地址，能正常收到邮件，勾选 **我已阅读《国际转出域名注册商服务条款》，理解并接受协议**，然后单击【获取转出密码】。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/0a5fa8d9aa2bbb478e3c27e2759df718/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/0a5fa8d9aa2bbb478e3c27e2759df718/image.png)
 域名转出密码将发送到您的邮箱内，请注意查收。如未收到邮件，您可再次操作一遍【获取转出密码】，或者您可以返回上一步，修改您的邮箱，再次单击【获取转出密码】。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ef862cb132435348d3ab2de3bcc54a58/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ef862cb132435348d3ab2de3bcc54a58/image.png)
 ### 步骤三：填写转出密码
 请您将上一步获取到的域名转出密码填写到新的域名注册商域名转入信息内，并按域名转入的注册商操作流程完成域名转入操作，域名转移时间一搬需要 3~5 天，请您耐心等待。
 

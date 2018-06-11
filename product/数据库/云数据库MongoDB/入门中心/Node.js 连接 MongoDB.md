@@ -18,7 +18,7 @@ npm install mongodb --save
 ```
 
 出现如下图信息，安装驱动成功。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/c00a020f550ffb3afe9f2f5ee38859d4/npm.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/c00a020f550ffb3afe9f2f5ee38859d4/npm.png)
 
 ## 连接示例
 在 nodejs 根目录创建 test.js 文件，保存以下代码：
@@ -61,7 +61,7 @@ mongoClient.connect(url, function(err, db) {
 });
 ```
 在命令提示符中输入`node test.js`，输出如下结果，Node.js 连接 MongoDB 示例成功。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/18779d11d3619f1fcbc7bcd8cf253fb5/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/18779d11d3619f1fcbc7bcd8cf253fb5/image.png)
 
 以上为连接示例，后续您可自由编写代码部署应用程序。
 

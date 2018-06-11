@@ -117,20 +117,20 @@ No rows affected (1.643 seconds)
 select TABLE_SCHEM,TABLE_NAME,COLUMN_NAME from SYSTEM.CATALOG limit 10;
 ```
 查询结果如下：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/5636b538cf1d4d70f769d22df9cb9dd5/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/5636b538cf1d4d70f769d22df9cb9dd5/image.png)
 	`10 rows selected (0.305 seconds)`
 更多 Phoenix 相关资料请参考 [Phoenix](http://phoenix.apache.org/Phoenix-in-15-minutes-or-less.html) 。
 ### 通过 Hue 操作 Hbase
 登录 Hue，并进入如下页面:
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/a5f5a6421305d6593390eaf3dd388a05/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a5f5a6421305d6593390eaf3dd388a05/image.png)
 Hbase 表列表，如下图：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/784abba01f5ab6b3b0bb2da0ae9cdee9/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/784abba01f5ab6b3b0bb2da0ae9cdee9/image.png)
 勾选表可以对表进行启用、禁用、删除操作。
 单击【New Table】按钮可以创建新表，如下图：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/7937f38f16ed880a874c505aa2e92638/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7937f38f16ed880a874c505aa2e92638/image.png)
  输入表名和要添加的列族然后单击【Submit】按钮即可。
 在 Hbase 列表单击其中的一个表可以对表的数据进行管理，如下图：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b5afa5b5f749dfee33cc070e4d0c3a07/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b5afa5b5f749dfee33cc070e4d0c3a07/image.png)
 在该页面可以删除单元格也可以添加单元格数据。
 还可以通过搜索框查找快速定位想要查询的数据。
 

@@ -230,34 +230,34 @@
 数据准备同 [通过命令行准备数据](#jump) 一致。
 ### 2. 登录 HUE 进行操作
 通过 EMR 控制的快捷入口可以找到 HUE 的登录页面，找到如下入口， 如下图。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/0c216d3f9dac1c9daa8935d4b688ba50/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/0c216d3f9dac1c9daa8935d4b688ba50/image.png)
 进入页面后单击【Create】按钮，弹出如下对话框，拖拽 SparkProgram。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/fccdfc197136f95c320b83f4017b9bba/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/fccdfc197136f95c320b83f4017b9bba/image.png)
 >**注意：**文件需要提前上传到 HDFS。
 
 单击【Add】后给任务添加参数，如下图：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/13c1069522b048b429ea51efebe545ca/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/13c1069522b048b429ea51efebe545ca/image.png)
 >**注意：**
 >如果文件位于 COS，可以直接填写 COS 路径如：`cosn://buckname/example/source/people.txt`
 
 设置好参数后单击右上角的保存，然后再单击【提交】，保存完之后，箭头 2 处会有【提交】按钮。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/bb62338cd2cd6c45d6dc2dd693f2df9d/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/bb62338cd2cd6c45d6dc2dd693f2df9d/image.png)
 此时任务进入提交，单击箭头处，可查看任务日志。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6ba2d768b1abf5595e277e16fb5df0a6/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6ba2d768b1abf5595e277e16fb5df0a6/image.png)
 
 ### 3. 在 HUE 中调度 Spark 任务
 进入任务调度创建页面，入口如下图：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d839a8367e6a8b2b70843d5cc9e0dc0f/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d839a8367e6a8b2b70843d5cc9e0dc0f/image.png)
 进入创建页面后单击【Create】按钮，进入下图：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6ec89b776e767d09ac569dce384377d1/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6ec89b776e767d09ac569dce384377d1/image.png)
 选定好流程后，设置调度时间，如下图：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6125e6b4b9cb39d78d8397c78945743b/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6125e6b4b9cb39d78d8397c78945743b/image.png)
 【hour】可以选择小时里某些分钟；
 【day】可以选择某天的小时和分钟；
 【week】可以选择周一到周天的小时和分钟；
 【month】可以选择当前月下的天、小时、分钟；
 【year】选择当前年下的月、日、小时、分钟。
 选择好调度时间后单击提交即可，可以通过【Workflows】>【Dashboards】>【Coordinators】查看已经存储在调度任务。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/e47a806bd2b9228784b7b9c5834882b3/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e47a806bd2b9228784b7b9c5834882b3/image.png)
 下图为经存在的任务列表。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d4e06a57026e5b286c504176f8c24ce8/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d4e06a57026e5b286c504176f8c24ce8/image.png)

@@ -17,7 +17,7 @@
 
 ## 直播系统与 IM 系统的一般集成架构
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/9de5ecdca24d44477b0e925156cc3588/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/9de5ecdca24d44477b0e925156cc3588/image.png)
 
 ## 云通信直播场景 Demo
 
@@ -27,26 +27,26 @@
 
 云通信直播聊天室的相关 Demo 在应用商店上架名为“随心播”，该 App 是基于云通信以及云平台另一款产品“[互动直播](http://tce.fsphere.cn/product/ilvb.html)”开发而成。点击下载 [ Android 版 Demo（应用宝）](http://sj.qq.com/myapp/detail.htm?apkName=com.tencent.qcloud.suixinbo)，或者扫描以下二维码。
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/55b65132442aa62465730bc0b20a1c7b/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/55b65132442aa62465730bc0b20a1c7b/image.png)
 
 点击下载[ iOS 版 Demo（App Store）](https://itunes.apple.com/cn/app/sui-xin-bo/id1037944078?mt=8)，或者扫描以下二维码。
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/25abd38be30a88cdaf6eedb975be02e7/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/25abd38be30a88cdaf6eedb975be02e7/image.png)
 
 **H5 Demo：**
 
-为了确保 H5 Demo 的简洁，我们仅在 Demo 中集成了 IM 相关功能，并未包含视频功能。点击体验 [ H5 Demo](http://imgcache.tce.fsphere.cn/static/avc.qcloud.com/demo/webim/biggroup/mobile/index.html)，或者扫描以下二维码。
+为了确保 H5 Demo 的简洁，我们仅在 Demo 中集成了 IM 相关功能，并未包含视频功能。点击体验 [ H5 Demo](http://imgcache.tce.fsphere.cn/image/avc.qcloud.com/demo/webim/biggroup/mobile/index.html)，或者扫描以下二维码。
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/a188f7fd653c8237b362a7adea1f63b1/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/a188f7fd653c8237b362a7adea1f63b1/image.png)
 
 ### Demo 源码下载与代码导读
 
 - 下载 Android SDK
 	- [查看 GitHub Android 源码与导读 >>](https://github.com/zhaoyang21cn/Android_Suixinbo)
-	-	[点击下载 Android SDK >>](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/e8389820ad5dc3b40cf3dc689d3f5432/Android_Suixinbo-master.zip)
+	-	[点击下载 Android SDK >>](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/e8389820ad5dc3b40cf3dc689d3f5432/Android_Suixinbo-master.zip)
 - 下载 iOS SDK
 	- [查看 GitHub iOS 源码下载与导读 >>](https://github.com/zhaoyang21cn/iOS_Suixinbo)
-	- [点击下载 iOS SDK >>](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/8015331b15c58c29ce01d303fff00ee7/iOS_Suixinbo-master.zip)
+	- [点击下载 iOS SDK >>](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/8015331b15c58c29ce01d303fff00ee7/iOS_Suixinbo-master.zip)
 - [H5 源码下载与导读 >>](/doc/product/269/H5直播聊天室DEMO指引)
 
 ## 直播聊天室接入指引

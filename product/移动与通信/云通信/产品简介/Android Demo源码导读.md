@@ -1,6 +1,6 @@
 ## 1. 工程结构
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/4d51d33de6132707aa9793c2afaa1b94/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/4d51d33de6132707aa9793c2afaa1b94/image.png)
 
 ### 1.1 模块
 整个工程包含四个模块，分别是: app,presentation,sdk,tlslibrary
@@ -10,7 +10,7 @@
 * **Sdk**: 包含所有的sdk
 * **Tlslibrary**: 集成tls登录模块，属于工程的依赖项
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/15d450251638dc8cdf906477b1188017/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/15d450251638dc8cdf906477b1188017/image.png)
 ### 1.2 MVP
 整个工程采用了MVP的设计模式，主要目的是将逻辑和activity等界面层剥离。MVP模式主要分为四个要素：
 
@@ -18,7 +18,7 @@
 - View interface：需要view实现的接口，view通过view interface与Presenter交互，降低耦合（在demo的presentation模块）
 - Model：负责数据存储（demo的app模块和SDK中）
 - Presenter：负责用户交互逻辑（demo的presentation中）
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/162c99ddb1650b43d07e72ae9217f570/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/162c99ddb1650b43d07e72ae9217f570/image.png)
 
 ## 2. 使用方式
 

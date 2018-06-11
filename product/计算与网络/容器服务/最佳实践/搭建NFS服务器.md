@@ -7,9 +7,9 @@ NFS 是 Network File System 的简写，即网络文件系统。 通过使用 NF
 ### 操作步骤
 **第一步** ：新建服务
 在 [容器服务控制台](http://console.tce.fsphere.cn/ccs) 页面，单击 **服务**，在服务列表页单击【新建】。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/9770c91c39779859f75153b6709ff75b/image.gif)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/9770c91c39779859f75153b6709ff75b/image.gif)
 **第二步**：添加数据卷
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ae63d74d7b78d2b74ad2590606c24cd7/image.gif)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ae63d74d7b78d2b74ad2590606c24cd7/image.gif)
 >**注意**：
 
 **第三步**：在容器配置中设置挂载点
@@ -19,20 +19,20 @@ NFS 是 Network File System 的简写，即网络文件系统。 通过使用 NF
 >**注意**：
 >请务必按照下图所示将云盘挂载到 **/exports** 中。
 
-![Alt text](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/a54be48bcbe8e24410361b5a2860c43f/image.png)
+![Alt text](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a54be48bcbe8e24410361b5a2860c43f/image.png)
 **第四步**：选择镜像
 - **镜像**：在 TencentHub 镜像中选择 ccr.ccs.tencentyun.com/library/nfs-server。
 - **版本**：选择 latest。
 
-![Alt text](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6238482728fbffc531c9b029bcf78eff/image.png)
+![Alt text](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6238482728fbffc531c9b029bcf78eff/image.png)
 **第五步**：设置服务访问方式为 **集群内访问**。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b33610a809d2eb036b053a84a76203e0/image.gif)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b33610a809d2eb036b053a84a76203e0/image.gif)
 
 **第六步**：添加端口映射
 添加 111 , 2049 , 20048 三个端口映射。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/422f5cb9570b9674450cd8ea4d4a4a10/image.gif)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/422f5cb9570b9674450cd8ea4d4a4a10/image.gif)
 **第七步**：开启容器特权级功能
-![Alt text](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/1a739ddd2e4933285af85954c4c59aea/image.png)
+![Alt text](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1a739ddd2e4933285af85954c4c59aea/image.png)
 **第八步**：完成创建容器
 服务创建完成后，可以在同一集群内创建一个挂载该 NFS 盘的测试服务。测试服务可以使用任意镜像，只需要在创建测试服务时选择挂载刚创建的 NFS 盘。
 在创建测试服务的时候，NFS 盘挂载参数示例如下图：
@@ -42,7 +42,7 @@ NFS 是 Network File System 的简写，即网络文件系统。 通过使用 NF
 >**注意：**
 >服务 IP 为刚创建成功的 NFS 盘服务的 IP。
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/9ce501057b5cad2a2271716725be0606/1212.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/9ce501057b5cad2a2271716725be0606/1212.png)
 若测试服务启动成功，则说明 NFS 服务搭建完成。挂载 NFS 盘的细节请参见：[挂载详情](/doc/product/457/9112)。
 
 >** 注意:**

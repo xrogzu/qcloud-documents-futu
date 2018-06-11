@@ -16,14 +16,14 @@
 ### 获取云 API 密钥(SecretId、SecretKey)
 - 登入 [控制台](http://console.tce.fsphere.cn/iotcloud) 后，进入 [云API密钥](http://console.tce.fsphere.cn/cam/capi)
 
-![云API密钥](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/62352850496e6184f6a74f496f8d8638/miyao1.png)
+![云API密钥](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/62352850496e6184f6a74f496f8d8638/miyao1.png)
 
 - 在 **API 密钥管理**中 点击 **新建密钥**，新建成功后获取到 **SecretId** 和 **SecretKey**
 
-![新建密钥](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/81d74a87132a2b8e92989bd4abd32278/miyao2.png)
+![新建密钥](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/81d74a87132a2b8e92989bd4abd32278/miyao2.png)
 
 ### PHP-SDK 引入及初始化 
-- 下载 [PHP-SDK](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/efa554822424bdb785491f5d144acc28/TXIoTCloud-restapi-php-sdk.zip) 开发包，解压后得到 **TXIoTCloud.phar**
+- 下载 [PHP-SDK](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/efa554822424bdb785491f5d144acc28/TXIoTCloud-restapi-php-sdk.zip) 开发包，解压后得到 **TXIoTCloud.phar**
 - 在 PHP 文件中引入开发包 **TXIoTCloud.phar**，如：
 
 ```

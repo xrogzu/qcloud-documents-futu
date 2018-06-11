@@ -3,7 +3,7 @@
 请先下载云平台改造的 [OBS Studio ](http://dldir1.qq.com/hudongzhibo/xiaozhibo/obs_distribute_question.zip) ，定制版 OBS 主要用于冲顶答题模式，具体技术文档可以参考 [直播答题（冲顶模式）](http://tce.fsphere.cn/document/product/454/13863) 中的方案一。
 
 **demo演示效果**
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/c33ead292783bd4061ef069665b78a38/capture.gif)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/c33ead292783bd4061ef069665b78a38/capture.gif)
 
 ## 您需要做什么？
 
@@ -15,14 +15,14 @@
 OBS的使用方法，我们就不在这里赘述了，但有几个细节需要您注意：
 - **1. 推流 URL要这样填写：**
     比如一个合法的推流 URL `rtmp://3891.livepush.myqcloud.com/live/3891_rexchang?bizid=3891&txSecret=d436dc53e5ab06a12313c736f7d533c91&txTime=5A6B507F`
-    ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/5c132c243e2659befd69cae4537aead6/image.jpg)
+    ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/5c132c243e2659befd69cae4537aead6/image.jpg)
 
 - **2. GOP（I帧间隔）要设置为1**
-  ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/204d041289f535ef9355ca8b45780e5d/image.jpg)
+  ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/204d041289f535ef9355ca8b45780e5d/image.jpg)
 
 - **3. 编码参数追求经济适用**
-  ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/3c4a53b596e1663b5d12e4779922045a/image.jpg)
-  ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2516df29225a4e13db1c0a217dc0996c/image.jpg)
+  ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/3c4a53b596e1663b5d12e4779922045a/image.jpg)
+  ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2516df29225a4e13db1c0a217dc0996c/image.jpg)
 
 | 推荐推荐配置 | 分辨率     | 视频比特率    | 帧率   | 声道数  | 采样率  | 音频比特率  |
 | ------ | ------- | -------- | ---- | ---- | ---- | ------ |
@@ -31,7 +31,7 @@ OBS的使用方法，我们就不在这里赘述了，但有几个细节需要�
 
 ## 如何配置服务器？
 我们在 OBS 的**“工具”**菜单栏里面加了一个**“题目分发”**按钮，点击后在弹窗中选择**“服务器设置”**tab 页，设置您的服务器地址：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/912ebc5bf4ac55cd2bce8aa9cee5f1ba/server.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/912ebc5bf4ac55cd2bce8aa9cee5f1ba/server.jpg)
 单击**“保存配置”**后，将在 obs32.exe 运行目录中生成 config.ini 文件，存储相应配置。下次运行时将直接读取对应配置内容。
 
 ```
@@ -60,7 +60,7 @@ server=http://jww.qcloud.com/dabaa
   ```
 
   加载后显示如图：
-  ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f2ae42fdbb886d85c7404755bc836018/ini.jpg)
+  ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f2ae42fdbb886d85c7404755bc836018/ini.jpg)
   在实战场景中，主持人会根据题词板播报题目，位于演播室的导播员负责选中指定的题目，操作OBS中的**“分发题目”**按钮，将题目打入音视频流中。
   具体传递格式为：
 
@@ -119,7 +119,7 @@ server=http://jww.qcloud.com/dabaa
 
   切换到**“服务器设置”**tab页，可以看到有**服务器透传**的内容，如下图：
 
-  ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/73e7af835f437a3c70565d55c50befe4/servermode.jpg)
+  ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/73e7af835f437a3c70565d55c50befe4/servermode.jpg)
 
   该模式需要您的 http 服务器支持。在实战场景中，当导播员需要向观众端派发题目内容时，只需要先调整题目id的数值，并点击 **“分发题目”** 按钮，定制版 OBS 会向您的服务器发送如下 HTTP GET 请求（“/subject/question/1“部分将由OBS进行拼接，1 代表题目 id）
 
@@ -161,7 +161,7 @@ server=http://jww.qcloud.com/dabaa
 
 这个定制版 OBS 的主要功能就是将题目夹在音视频流中，那么如果音视频卡顿会不会有问题？
 确实是可能有问题的，所以我们采用的解决办法是定时地将同样的题目均匀的塞入音视频流中，类似雌雄受精中精子的解决方案，只要观众端不是持续卡顿，总是能够拿到题目。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/3ef35d5f920c7231127128d504775f23/interval.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/3ef35d5f920c7231127128d504775f23/interval.jpg)
 
  上图中的设置，是指间隔多少时间(单位ms)发一次题，一共发送多少次，推荐的配置是（500ms + 6次）。
  如果采用这种方案，APP端需要根据题号**进行剔重**，避免重复的题目多次显示。

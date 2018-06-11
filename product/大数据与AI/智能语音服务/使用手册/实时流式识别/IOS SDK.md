@@ -2,9 +2,9 @@
 
 ### SDK 获取
 
-实时流式语音识别的 iOS SDK 的下载地址：[iOS SDK](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/e681b228c06e53096510b3b61c012d36/QCloudAAI_IOSSDK.zip)
+实时流式语音识别的 iOS SDK 的下载地址：[iOS SDK](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/e681b228c06e53096510b3b61c012d36/QCloudAAI_IOSSDK.zip)
 
-更多示例可参考 Demo：[iOS Demo](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/44653a19a6f274ebc2b3f7ef028bb72b/QCloudAAI_IOSDemo.zip)
+更多示例可参考 Demo：[iOS Demo](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/44653a19a6f274ebc2b3f7ef028bb72b/QCloudAAI_IOSDemo.zip)
 
 ### 开发准备
 
@@ -23,7 +23,7 @@ iOS SDK 压缩包名称为： QCloudAAIClientSDK.zip。压缩包中包含了一�
 
 在 Build Settings 中设置 Other Linker Flags，加入参数 `-ObjC`。
 
-![参数配置](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/58327ba5d83809c77da158ff95627ef7/image.png)
+![参数配置](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/58327ba5d83809c77da158ff95627ef7/image.png)
 
 在工程` info.plist` 文件中设置：
 

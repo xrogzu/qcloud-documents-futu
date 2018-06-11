@@ -5,9 +5,9 @@
 
 ### A记录的添加方式
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/c1aa0b88e7ad1f6b571ed14ad7224667/A-1.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/c1aa0b88e7ad1f6b571ed14ad7224667/A-1.png)
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/a329e052630d5e1684083e2deb917cd6/A-2.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/a329e052630d5e1684083e2deb917cd6/A-2.png)
 
 1. 主机记录处填子域名（比如需要添加 www.123.com 的解析，只需要在主机记录处填写www即可；如果只是想添加123.com的解析，主机记录直接留空，系统会自动填一个“@”到输入框内）。
 

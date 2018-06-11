@@ -1,8 +1,8 @@
 Hybrid 统计是在原生统计基础上进行的，在开始之前请确保已按照 [iOS SDK 接入指南](http://tce.fsphere.cn/document/product/549/12858) 正常接入 MTA iOS SDK 。
 1.在 MTA iOS SDK 包中的 sdk/plugin/hybrid 目录下找到 libmtahybrid.a  静态库和 MTAHybrid.h 头文件；
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4fd0feffa51b8e14c09ff12edbd71bc6/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/4fd0feffa51b8e14c09ff12edbd71bc6/image.png)
 2.将静态库文件连接至工程中；
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d0048063f43d22daa4a8c9c52f4f77f9/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d0048063f43d22daa4a8c9c52f4f77f9/image.png)
 3.在工程中添加代码（具体例子可以参考 demo）。
 3.1 **如果使用的是 UIwebview**
 在 UIwebview 的 delegate 中添加以下代码：

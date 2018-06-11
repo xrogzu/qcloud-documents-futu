@@ -5,7 +5,7 @@
 ## 对接流程
 UGC小视频录制与发布的整体流程分为如下三步：
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/283c8d7fe0a5a316097ae687a2bf6c5a/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/283c8d7fe0a5a316097ae687a2bf6c5a/image.png)
 
 * 第一步：使用 TXUGCRecord 接口录制一段小视频，录制结束后会生成一个小视频文件（MP4）回调给客户；
 
@@ -37,7 +37,7 @@ RTMP SDK 提供了相关接口用来实现短视频的录制与发布，其详�
 
 ## 对接攻略
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6b21b033259c1b5124648b73e88fb243/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6b21b033259c1b5124648b73e88fb243/image.png)
 
 
 ### 1. 画面预览
@@ -121,7 +121,7 @@ void onRecordComplete(TXRecordResult result);
 
 - **SecretID （密钥ID）**
 你可以在 [云 API 密钥](http://console.tce.fsphere.cn/capi) 管理里获取或者创建一个 SecretID，如下图红框标注部分：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/23f95aaa97adf3eeae3bf90470fe5122/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/23f95aaa97adf3eeae3bf90470fe5122/image.png)
 
 - **Signature（上传签名）**
 上传签名就是基于从云平台获取的 SecretID 和 SecretKey ，用一套标准的签名算法，算出的一段一次性有效的字符串。

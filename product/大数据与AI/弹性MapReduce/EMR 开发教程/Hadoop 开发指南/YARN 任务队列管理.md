@@ -1,6 +1,6 @@
 您可以登录 YARN 自带的 YARNwebUI，登录方式为通过 EMR 提供的快捷入口，查看快捷入口请参考产品部分说明，登录后您将看到如下图:  
 
-![YARN](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/df3b8ca1dc152d28f7f84caa87613e53/5-1-3.png)  
+![YARN](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/df3b8ca1dc152d28f7f84caa87613e53/5-1-3.png)  
 
 从图中可以看到整个集群的一些监控信息：
 

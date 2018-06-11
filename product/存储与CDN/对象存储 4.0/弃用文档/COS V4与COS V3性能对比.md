@@ -16,7 +16,7 @@ COS V4与COS V3进行文件上传、下载、删除三个维度进行对比测�
 >- 购买的华为云的一台虚拟机(122.112.229.25，上海地区，BGP网络)，
 >CentOS 2核 2.50GHz 2G，带宽100M。
           
-![配置](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/69e33867c4dafc5c3236cb297f967531/image.png)
+![配置](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/69e33867c4dafc5c3236cb297f967531/image.png)
 
 
 **Server： **
@@ -55,12 +55,12 @@ client端均使用官网提供的python sdk。
 
 - **文件上传测试(50K/2M/50M)：**
 
-![50K](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/141dd2f376c7a9b37e7d04ae72c0764d/50K3.png)
+![50K](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/141dd2f376c7a9b37e7d04ae72c0764d/50K3.png)
 
-![2M](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/e63d09e94f8f20c23c717c429c7a2905/2M2.png)
+![2M](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e63d09e94f8f20c23c717c429c7a2905/2M2.png)
 
 
-![50M](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/46dda2f037ad2ca321823189694ba6ad/50M2.png)
+![50M](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/46dda2f037ad2ca321823189694ba6ad/50M2.png)
 
 
 **总结：文件删除功能，2M文件上传，COS V3耗时最小，优于COS V4 。但在50K以及50M文件上传的情况下，COS V4耗时最小。**
@@ -71,7 +71,7 @@ client端均使用官网提供的python sdk。
 50K/2M/50M 文件删除(文件上传成功后，执行删除，记录耗时)
 
 
-![文件删除平均耗时](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/84e1f9f536925c8ba3575de5afdde3d6/image.png)
+![文件删除平均耗时](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/84e1f9f536925c8ba3575de5afdde3d6/image.png)
 
 |产品   |50k文件删除平均耗时(ms)|	2M文件删除平均耗时(ms)|50M文件删除平均耗时(ms)|
 |--------|--------|--------|--------|
@@ -89,7 +89,7 @@ client端均使用官网提供的python sdk。
 100k的文件下载72小时，每隔60s进行下载，记录下载耗时
 
 
-![图片描述](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/8d89db4ece7cffa638403e0c07d62035/100K.png)
+![图片描述](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8d89db4ece7cffa638403e0c07d62035/100K.png)
 
 
 |产品	|100k文件下载平均耗时(ms)	|样本数|

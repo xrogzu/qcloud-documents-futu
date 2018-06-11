@@ -1,10 +1,10 @@
 管理人员登录 [微金小云客服管理系统](https://ics.webank.com) ，在【系统管理】>【App 接入】单击 iOS SDK 接入说明，接入指引如下：
-![1](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/12192f1261eba091584e07ee1cef6f96/image.png)
+![1](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/12192f1261eba091584e07ee1cef6f96/image.png)
 ### SDK 接入(iOS)
 接入前请先确保后台接入正常，接入配置为 iOS。
 WeBankService SDK 最低支持到 iOS7.0，请在构建项目的时候注意。
 引用资源文件 WBCloudCustomerService.bundle 和 WBCloudCustomerService.framework 到项目，SDK Required 依赖 libspeex.a，libogg.a；Optional 依赖 Photos.framework，libc++.tbd.需要在【BuildPhases】>【Link Binary With Libraries】中添加。
-![2](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ed316933bf54032566badb7595255139/image.png)
+![2](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ed316933bf54032566badb7595255139/image.png)
 SDK 需要使用相机，相册和录音权限，请在 info.plist 中添加 Privacy -Microphone Usage Description，Privacy -Camera Usage Description，Privacy -Photo Library Usage Description
 设置语言，在工程中【project】>【info】>【Localization】>【language】中 add 一个简体中文 Chinese(Simplified)
 ### 调用 SDK 接口

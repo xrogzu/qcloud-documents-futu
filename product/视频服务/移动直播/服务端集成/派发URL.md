@@ -9,7 +9,7 @@
 ### 推流URL的组成
 
 如下是一条标准的推流URL，它由三个部分组成：
- ![url](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6b4fd09ab2c7d6f1503070f8c994f4e0/image.png)
+ ![url](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6b4fd09ab2c7d6f1503070f8c994f4e0/image.png)
 
 - **直播码**
 也叫房间号，推荐用随机数字或者用户ID，注意一个合法的直播码需要拼接 BIZID 前缀。
@@ -25,7 +25,7 @@
 
 ### 播放URL的组成
 播放URL的拼接跟推流URL一样简单，只是需要把子域名从 **livepush** 改成 **<font color='red'>liveplay</font>**：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b7d8744654af4a174edf47f8998348a4/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b7d8744654af4a174edf47f8998348a4/image.png)
 
 
 <h2 id="Secret"> 防盗链签名</h2>
@@ -33,18 +33,18 @@
 ### 什么是防盗链签名？
 防盗链签名指的是推流 URL 和播放 URL 中的 **txTime** 和 **txSecret** 字段，它的作用是防止攻击者通过伪造您的直播 URL 而盗播您的流量。
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4c0ba5f9993da67ff785f10eb4c85f3d/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/4c0ba5f9993da67ff785f10eb4c85f3d/image.png)
 
 ### 防盗链签名的原理？
 为了不让攻击者可以伪造您的服务器生成推流URL，我们需要您现在直播管理控制台配置 **防盗链加密KEY**，由于攻击者无法轻易获得加密KEY，也就无法伪造出有效的推流URL，原理如下图所示：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/4ea1512fd335f68f30cca0a01e902966/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/4ea1512fd335f68f30cca0a01e902966/image.png)
 
 ### 防盗链签名的计算？
 #### step1 ： 交换KEY
 首先，您需要在 [直播控制台](http://console.tce.fsphere.cn/live/livecodemanage) 设置一个**加密密钥**，该密钥用于在您的服务器上计算防盗链签名，由于云平台跟您持有同样的密钥，所以您生成的防盗链签名，云平台可以进行合法性确认。
 
 密钥分为**推流防盗链KEY**和**播放防盗链KEY**，前者用于生成推流防盗链URL，后者用于生成播放防盗链URL。目前在  [直播控制台](http://console.tce.fsphere.cn/live/livecodemanage) 上可以自助配置推流防盗链KEY，如下图：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6be1d875f1120a16d3692c60bb4485a9/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6be1d875f1120a16d3692c60bb4485a9/image.png)
  >  **播放防盗链不支持自助配置**
  >   
  > 由于播放防盗链KEY的配置需要同步到几千台CDN集群，同步周期一般都很长，不适合调试期频繁修改。如果您需要配置播放防盗链，可以通过客服电话联系我们，正常流程一般需要 1 - 3 天完成全 CDN 集群的配置。

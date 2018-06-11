@@ -4,22 +4,22 @@
 ### 1.频道模式获取播放地址
 
 创建一个频道,选择需要的播放码率，如下图
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/9ce69e0956fa742c04fea9398a9a9988/1233.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/9ce69e0956fa742c04fea9398a9a9988/1233.png)
 
 
 在接收方设置中，选择需要的播放协议，如下图
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/c86206664ad3289911b276d1a9686e82/123.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/c86206664ad3289911b276d1a9686e82/123.png)
 
 
 点击确认。创建完成后，在频道信息中可查看到各种码率和播放协议对应的播放URL，如下图
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/afecc7c3963e083c27fba7748b718651/12334.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/afecc7c3963e083c27fba7748b718651/12334.png)
 
 
 ### 2.直播码模式获取播放地址
 进入直播吗模式，在推流生成器中输入直播码，可得到对应的推流id和播放id。
 * 推流生成器是一个推流播放地址生成的工具，仅是一个工具，工具展示出URL时该条流并未建立，实际推流成功后，才会建立对应的一条流
 * 直播码即 一条流的id，等同于频道模式的频道概念，或者房间的概念。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/de6150ff5a0f8c766ddbd64f72edd9bb/133.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/de6150ff5a0f8c766ddbd64f72edd9bb/133.png)
 
 **如需多码率，则获取到播放URL后，在URL后携带码率后缀**，
 
@@ -59,7 +59,7 @@ http://bizid.liveplay.myqcloud.com/live/bizid_test.m3u8
 ```
 
 bizid可在控制台上查看，id为自定义部分，一般由大小英文字幕和下划线组成
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f70a09344a89e7c1c4491b1cf6a567f9/132.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f70a09344a89e7c1c4491b1cf6a567f9/132.png)
 
 #### 3.2 多码率播放地址
 
@@ -95,7 +95,7 @@ http://5000.liveplay.myqcloud.com/live/test2016011415_550.m3u8      path为test2
 http://5000.liveplay.myqcloud.com/live/test2016011415_900.flv       path为test2016011415_900
 ```
 * KEY：为用户的密钥；由控制分配，进入直播码模式——接入配置——应用信息 即可查看
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f96379d3803342bb5e4d4465c23d1c7a/12.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f96379d3803342bb5e4d4465c23d1c7a/12.png)
 
 
 **配置申请**

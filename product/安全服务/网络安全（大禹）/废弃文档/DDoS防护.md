@@ -19,7 +19,7 @@ DDoS分布式防御系统在全国部署了多个攻击防护点，通过高效�
 
 ### 3.1 网站高防（原DDoS分布式防御）原理
 网站高防（原DDoS分布式防御）系统大致架构图如下图所示。其中共包括如下几个主要系统：移动加速系统、攻击防护点、源站、腾讯宙斯盾系统。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56c58c1972feb.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56c58c1972feb.jpg)
 其中各网络节点作用：
 调度系统，在DDoS分布式防御系统中起着智能域名解析、网络监控、流量调度等作用。
 源站，开发商业务服务器。

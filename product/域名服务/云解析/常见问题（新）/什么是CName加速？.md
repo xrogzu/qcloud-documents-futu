@@ -5,15 +5,15 @@ CNAME 加速功能是云平台 DNSPod 自主研发，旨在解决用户在设置
 `www.b.com` 设置 CNAME 记录，记录值为 `www.c.com`
 `www.c.com` 设置 A 记录，记录值为 1.2.3.4
 一般情况下，递归需要到授权服务器请求三次才能得到 `www.a.com` 的 IP 地址，如下图所示：
-![加速-1](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/57938b0d24aa1a136c852c0cf0d1abc3/123.png)
+![加速-1](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/57938b0d24aa1a136c852c0cf0d1abc3/123.png)
 启用 CNAME 加速功能，授权服务器会把 CNAME 记录和最终的 A 记录一次返回给递归，递归服务器由请求三次授权服务器，减小到请求一次，如下图所示：
-![加速-2](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/a8b35c14692209372897e985990be3a6/123.png)
+![加速-2](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a8b35c14692209372897e985990be3a6/123.png)
 这样就极大地减少了请求和应答中网络通信消耗的时间，让解析变得更快，特别是在设置多跳 CNAME 解析记录的情况下，加速效果更明显。
 ### 加速效果
 开启 CNAME 加速前 query-time 1021 msec：
-![1](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/a3b44b2e056e921ca1adac9e5dfb77d3/speedup_off.png)
+![1](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a3b44b2e056e921ca1adac9e5dfb77d3/speedup_off.png)
 开启 CNAME 加速后 query-time 410 msec：
-![2](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f71dfc679621faff5a93889f56c9ac48/speedup_on.jpg)
+![2](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f71dfc679621faff5a93889f56c9ac48/speedup_on.jpg)
 解析耗时减小 59.84%，提升幅度相当明显。
 >**注意：**
 >该测试是清空缓存之后的，并且修改设置需要等待 TTL 过期。

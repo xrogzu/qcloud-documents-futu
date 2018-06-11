@@ -16,12 +16,12 @@
 3. 机型和配置：机型选择【GPU计算型GN8】，提供三种配置任用户选择。
 
 设置完成后单击【下一步：选择镜像】。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/db914ea989c976c7cb053b11cc96f4fe/GN8_select.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/db914ea989c976c7cb053b11cc96f4fe/GN8_select.png)
 ### 3. 选择镜像
 GPU 云服务器支持四种镜像类型：公共镜像、自定义镜像、共享镜像、服务市场。 [了解镜像 >>](/doc/product/213/4940)
 对于刚开始使用云平台的用户，可选择【公共镜像】，并根据需要挑选版本。GPU 云服务器提供 CentOS、Ubuntu、Windows Server 三种公共镜像，可根据不同需要挑选公共镜像的版本。
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/7701f037e9f301130f13974691168849/GN8_image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7701f037e9f301130f13974691168849/GN8_image.png)
 
 **注意：**
 **GPU 云服务器必须具备相应的 GPU 驱动才能正常运行。**
@@ -46,7 +46,7 @@ GPU 云服务器支持四种镜像类型：公共镜像、自定义镜像、共�
 - 确定服务器数量及购买时长。
 
 设置完成后单击【下一步：设置信息】
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b1b51645f6c224dd8128c46828640d72/storage_net.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b1b51645f6c224dd8128c46828640d72/storage_net.png)
 ### 5. 设置信息
 在这个步骤需要：
 - 设置主机名（可选）及密码。
@@ -56,6 +56,6 @@ GPU 云服务器支持四种镜像类型：公共镜像、自定义镜像、共�
 ### 6. 查收服务器
 核实信息后完成支付，即可进入 [控制台](http://console.tce.fsphere.cn/cvm) 的邮箱中查收云服务器。
 GPU 云服务器购买完成后，将会收到站内信，内容包括实例名称、公网 IP 地址、内网 IP 地址、登录名、初始登录密码等信息。可以使用这些信息登录和管理实例，也请尽快更改登录密码保障主机安全性。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2003b614e24ea973f9c03a9c084380ce/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2003b614e24ea973f9c03a9c084380ce/image.png)
 
 

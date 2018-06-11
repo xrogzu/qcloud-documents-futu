@@ -8,7 +8,7 @@
 
     可以免除使用 Hbase API 时需要精心设计 RowKey 的麻烦。如果用户对 Hbase Row Key 的设计理解不够，建议使用 salted 表。Phoenix 官方提供的写和查询，salted 表和非 salted 表性能对比：
       
-    ![salted 表性能](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/8381e5a72ea654a488dd29b5d0effccf/5-4-4.png)  
+    ![salted 表性能](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8381e5a72ea654a488dd29b5d0effccf/5-4-4.png)  
 
     更多 salte 性能或者操作说明，可查看 Phoenix salted 表 [社区文档](http://phoenix.apache.org/salted.html)。
 

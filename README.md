@@ -142,19 +142,19 @@
   <tr>
     <td>强调</td>
     <td>	粗体+斜体+前后空格	</td>
-    <td>非普通文字和短语或重要文字和短语的特殊标记。<br><br><img src="http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/b979c0180a367bd3203f9f443f243671/image.png">
+    <td>非普通文字和短语或重要文字和短语的特殊标记。<br><br><img src="http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/b979c0180a367bd3203f9f443f243671/image.png">
 
     </td>
   </tr>
   <tr>
     <td>正文中的参数、表达式或代码</td>
     <td>	内联代码	</td>
-    <td>必须使用内联代码标识正文中的参数、表达式或代码。Markdown语法为 ``<br><br><img src="http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/f9dbb700441f7a407727eb9c6d20a4e8/image.png"></td>
+    <td>必须使用内联代码标识正文中的参数、表达式或代码。Markdown语法为 ``<br><br><img src="http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/f9dbb700441f7a407727eb9c6d20a4e8/image.png"></td>
   </tr>
   <tr>
     <td>代码块</td>
     <td>	文档中出现的完整代码	</td>
-    <td>与正文分开，使用代码块标识。Markdown语法为``` ```<br><br><img src="http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/05b2ea78c32e165af2922b3a9da54464/image.png"></td>
+    <td>与正文分开，使用代码块标识。Markdown语法为``` ```<br><br><img src="http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/05b2ea78c32e165af2922b3a9da54464/image.png"></td>
   </tr>
   <tr>
     <td>界面标志</td>
@@ -229,4 +229,4 @@
 
 ## 5. 示例
 *本示例仅供参考此规范中部分条款的使用说明，不保证其对客观事实的描述正确性。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/c3ab304e29ec3c2ce3655184438261b0/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/c3ab304e29ec3c2ce3655184438261b0/image.png)

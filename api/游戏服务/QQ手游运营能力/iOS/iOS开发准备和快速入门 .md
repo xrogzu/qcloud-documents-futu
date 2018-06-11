@@ -9,25 +9,25 @@ iOS SDK 包中：
 - TencentOpenApi_iOS_Bundle.bundle 打包了 iOS SDK 需要的资源文件。
 - TencentOpenAPI.framework 打包了 iOS SDK 的头文件定义和具体实现。
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/67b5aabeb560054a018c497e4bf4c462/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/67b5aabeb560054a018c497e4bf4c462/image.png)
 
 ### 安装SDK
 1. 将 iOS SDK 中的 TencentOpenAPI.framework 和 TencentOpenApi_IOS_Bundle.bundle 两个文件拷贝到应用开发的目录下，然后按下图所示添加到工程中：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f709646f850644361d814855ed91fbf1/image.png)
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f38f0183b8b167d2c81ce1c90932405f/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f709646f850644361d814855ed91fbf1/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f38f0183b8b167d2c81ce1c90932405f/image.png)
 2. 添加 SDK 依赖的系统库文件 SystemConfiguration.framework 和 libstdc++.tbd。然后在 Xcode 中打开工程配置文件，添加依赖库。如图所示：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/e9c540e4b5b35026e226c8f79739e489/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e9c540e4b5b35026e226c8f79739e489/image.png)
 3. 直接在默认库文件中选择后单击【Add】，下图以添加 SystemConfiguration.framework 为例：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/31a0aa2d4175dc3b113f1506803c8cf0/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/31a0aa2d4175dc3b113f1506803c8cf0/image.png)
 4. 返回后看到 SystemConfiguration.framework 已经在 Linked Frameworks and Libraries 中出现。如图所示：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/76f1c8252d61d8db9fced7295fd893d0/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/76f1c8252d61d8db9fced7295fd893d0/image.png)
 5. 修改必要的工程配置属性：在工程配置中的【Build Settings】一栏中找到 Linking 配置区，给【Other Linker Flags】配置项添加属性值** -fobjc-arc**。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/742cddedf0c34de7f0da7b4f2be0147b/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/742cddedf0c34de7f0da7b4f2be0147b/image.png)
 
 ### 修改必要的代码
 - 修改工程配置文件:
 在 XCode 中选择你的工程设置项：选中【TARGETS】一栏，在【info】>【URL type】添加一条新的 URL scheme，新的 scheme 是 tencent 和 APPID 的组合。如果您使用的是 XCode3 或者更低的版本，则需要在 plist 文件中添加。Demo 中我们使用的注册 APPID 是 222222。如下图所示：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/3bcc4ae889d6d5cef121d564b1922d88/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/3bcc4ae889d6d5cef121d564b1922d88/image.png)
 - 重写 AppDelegate 的 handleOpenURL 和 openURL 方法:
 openURL:
 ```

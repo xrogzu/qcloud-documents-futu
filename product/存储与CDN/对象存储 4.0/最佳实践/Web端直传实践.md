@@ -6,7 +6,7 @@
 1. 登录  [COS 控制台](http://console.tce.fsphere.cn/cos4) 并创建存储桶，得到 Bucket（存储桶名称） 和 Region（地域名称）。
 2. 登录 [控制台密钥管理](http://console.tce.fsphere.cn/cam/capi) 获取您的项目 SecretId 和 SecretKey。
 3. 在 COS 控制台，进入新建的存储桶，单击【基础配置】，配置 CORS 规则，配置示例如下图：
-![cors](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2e7791e9274ce3ebf8b25bbeafcd7b45/image.png)
+![cors](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2e7791e9274ce3ebf8b25bbeafcd7b45/image.png)
 
 ## 二、计算签名
 签名计算放在前端会暴露 SecretKey，因此我们把签名计算过程放在后端实现，前端通过 AJAX 向后端获取签名结果，正式部署时请在后端加一层您的网站本身的权限检验。
@@ -121,7 +121,7 @@ AJAX 上传需要浏览器支持基本的 HTML5 特性，当前方案使用的�
 </html>
 ```
 执行效果如下图：
-![Ajax 上传](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/99a434bbf2fb62e988396b487f1918f8/image.png)
+![Ajax 上传](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/99a434bbf2fb62e988396b487f1918f8/image.png)
 
 ### 方案 B：使用 Form 表单上传
 Form 表单上传支持低版本的浏览器的上传（如 IE8），当前方案使用的是 [XML API 的 PostObject 接口](/doc/product/436/7751)。操作指引：
@@ -246,7 +246,7 @@ Form 表单上传支持低版本的浏览器的上传（如 IE8），当前方�
 </html>
 ```
 执行效果如下图：
-![Form 表单上传](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b7944177f25a64c3f6c19275b586c32f/image.png)
+![Form 表单上传](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b7944177f25a64c3f6c19275b586c32f/image.png)
 ## 相关文档
 若您有更丰富的接口调用需求，请参考以下 JavaScript SDK 文档：
 - [JavaScript SDK](http://tce.fsphere.cn/document/product/436/11459)

@@ -18,4 +18,4 @@ EMR Phoenix 编译的是 4.8.1 版本，首先下载一个 phoenix-4.8.1-HBase-1
 
 成功后会显示成这种方式：
 
-![配置成功](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/18a364f4f014c8df2edcd89ded877e34/5-4-1.png)
+![配置成功](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/18a364f4f014c8df2edcd89ded877e34/5-4-1.png)

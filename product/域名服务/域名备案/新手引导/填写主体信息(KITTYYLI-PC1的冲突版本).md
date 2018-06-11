@@ -4,7 +4,7 @@
 
 网站备案需填写**主办单位信息**和**负责人信息**。
 
-![](http://imgcache.tce.fsphere.cn/static/i.imgur.com/lxTRmT5.jpg)
+![](http://imgcache.tce.fsphere.cn/image/i.imgur.com/lxTRmT5.jpg)
 
 其中，在验证备案类型环节填写过的信息系统将自动进行填充，无需手动填写。
 

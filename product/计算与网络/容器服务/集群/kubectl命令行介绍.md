@@ -89,8 +89,8 @@ $ kubectl logs <pod-name>
 
 
 
-[create]:http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/a33b8f47e796374d5c457542c1569a9c/image.png
-[get]:http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/fb095179d54e49e0287ba3020f7835cf/image.png
+[create]:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a33b8f47e796374d5c457542c1569a9c/image.png
+[get]:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/fb095179d54e49e0287ba3020f7835cf/image.png
 
-[show]:http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/e09ab193d3f1732cc435ba53235094c1/image.png
-[logs]:http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2c34aca3e996296742e6fa9a9be77432/image.png
+[show]:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e09ab193d3f1732cc435ba53235094c1/image.png
+[logs]:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2c34aca3e996296742e6fa9a9be77432/image.png

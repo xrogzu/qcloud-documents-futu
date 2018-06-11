@@ -2,10 +2,10 @@
 Apache Flume 是一个从可以收集例如日志，事件等数据资源，并将这些数量庞大的数据从各项数据资源中集中起来存储的工具/服务，或者数集中机制。flume具有高可用，分布式，配置工具，其设计的原理也是基于将数据流。
  
  Flume基本结构如下图所示：
-![Alt text](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/291cf61049ab4820c10c05c6f0900850/00.png)
+![Alt text](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/291cf61049ab4820c10c05c6f0900850/00.png)
 
 Flume以agent为最小的独立运行单位。一个agent就是一个JVM。单agent由Source、Sink和Channel三大组件构成。
-![Alt text](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/17244b0d3460b838f7b6764db5497c98/11.png)
+![Alt text](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/17244b0d3460b838f7b6764db5497c98/11.png)
 
 ## Why Flume + Kafka
 把数据存储到hdfs或者hbase等下游存储模块或者计算模块时需要考虑各种复杂的场景，比如并发写入的量以及系统承载压力，网络延迟等等问题。flume设计为灵活的分布式系统具有多种接口，同时提供可定制化的管道。
@@ -84,11 +84,11 @@ https://flume.apache.org/FlumeUserGuide.html
 
 ### Ckafka创建
 1）	拥有实例后，可从控制台中可以看到自己的实例信息
- ![Alt text](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/67f19ef17a73e768fba188d58ae08f9a/22.png)
+ ![Alt text](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/67f19ef17a73e768fba188d58ae08f9a/22.png)
 2）	点击实例名称可以看到实例分配的具体信息：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/3841d4eb19ad992d35e60196b38498ce/33.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/3841d4eb19ad992d35e60196b38498ce/33.png)
 3）	点击topic管理，创建topic，此处名字为flume_test
- ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/9f069263c59539be5dcf845bba0b0455/44.png)
+ ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/9f069263c59539be5dcf845bba0b0455/44.png)
 
 至此，Ckafka相关的工作环境完成。
 
@@ -97,24 +97,24 @@ https://flume.apache.org/FlumeUserGuide.html
 2）	配置Flume选项
 - 使用 Ckafka 作为Sink
 a)	编写配置文件，此处重点放在flume 与ckafka作为Sink结合上，所以Source和Channel使用默认配置，不做详细介绍。以下是一个简单的demo （配置在解压目录的conf文件夹下），需要注意的是，若无特殊要求则将自己的实例ip与topic替换到配置文件当中即可：
- ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/daf5063d3c2c74eddb93f729eb6feb5b/55.png)
+ ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/daf5063d3c2c74eddb93f729eb6feb5b/55.png)
 b)	此处使用的source为tail -F flume-test ，即文件中新增的信息
 c)	启动flume ：
 ```
 ./bin/flume-ng agent -n agentckafka -c conf -f conf/flume-kafka-sink.properties
 ```
 d)	写入消息到flume-test文件中，此时消息将由flume写入到ckafka
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/c9dc1f539e00f21fca1ead546f4e007e/66.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/c9dc1f539e00f21fca1ead546f4e007e/66.png)
 e)	启动ckafka客户端进行消费：
 ```
 ./kafka-console-consumer.sh --bootstrap-server 172.16.16.12:9092 --topic flume_test --from-beginning --new-consumer
 ```
 可以看到刚刚的消息被消费出来了
- ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ee394af9d8280bfef988d71ccc30f805/77.png)
+ ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ee394af9d8280bfef988d71ccc30f805/77.png)
 
 - 使用 Ckafka 作为Source
 a)	编写配置文件，此处重点放在flume 与ckafka作为Source结合上，所以Sink和Channel使用默认配置，不做详细介绍。以下是一个简单的demo （配置在解压目录的conf文件夹下）。需要注意的是，若无特殊要求则将自己的实例ip与topic替换到配置文件当中即可：
- ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/18e5d3b3a533ef8e385e18301cc08961/88.png)
+ ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/18e5d3b3a533ef8e385e18301cc08961/88.png)
 
 b)	此处使用的sink为logger
 c)	启动flume ：
@@ -122,6 +122,6 @@ c)	启动flume ：
 ./bin/flume-ng agent -n agentckafka -c conf -f conf/flume-kafka-source.properties
 ```
 d)	查看logger输出信息（默认路径 logs/flume.log）
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d6b51f8de1a063e51171b2996764f40d/99.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d6b51f8de1a063e51171b2996764f40d/99.png)
  
 

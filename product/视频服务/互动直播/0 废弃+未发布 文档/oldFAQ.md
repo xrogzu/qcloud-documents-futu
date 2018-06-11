@@ -2,17 +2,17 @@
 
 ### 安卓
 
-![mirrorAndroid](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/9148c0611d28be304e4bd96dd20341ba/image.png)
+![mirrorAndroid](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/9148c0611d28be304e4bd96dd20341ba/image.png)
 
 ### iOS
 
 请参考粗红框里的内容
 
-![mirrorIOS](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/484da1414d62848bf0d77845586b7f02/image.png)
+![mirrorIOS](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/484da1414d62848bf0d77845586b7f02/image.png)
 
 ## 【iOS】观众或者主播端出现花屏的解决方案
 
-![花屏](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/1545ecd928d6cd59c2944b5699a2c02b/image.png)
+![花屏](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/1545ecd928d6cd59c2944b5699a2c02b/image.png)
 
 ## 进房间回调里面打开麦克风报1002错误的解决办法
 
@@ -64,11 +64,11 @@
 
 ## 进入房间时，如果房间不存在则自动创建房间选项
 
-![自动创建房间](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/f8f70026eae76d3b6415a8ea3c051932/image.jpg)
+![自动创建房间](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/f8f70026eae76d3b6415a8ea3c051932/image.jpg)
 
 ## SDK1.7(+) 版本美颜渲染主播本地画面
 
-![美颜本地渲染](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/c0ff897cac4a9a42ef452626e7404a61/image.png)
+![美颜本地渲染](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/c0ff897cac4a9a42ef452626e7404a61/image.png)
 
 ## 终端App退后台/回前台的处理
 
@@ -85,15 +85,15 @@ result = avVideoCtrl.enableCamera(FRONT_CAMERA, isEnable, mEnableCameraCompleteC
 ### iOS
 iOS退后台时需要关掉上层的opengl渲染。回前台时，如果主播开启了摄像头的话，建议关闭摄像头。相关修改的示例代码如下：
 
-![iOS示例代码](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/b2401839764de55d9a3f8f5a67a4e49b/image.png)
+![iOS示例代码](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/b2401839764de55d9a3f8f5a67a4e49b/image.png)
 
 ## 如何在代码中使用控制台SPEAR引擎配置中的“角色”
 
 对于美女主播类业务，通常会在云平台控制台的SPEAR引擎中配置两种“角色”：主播角色和观众角色。二者的主要区别是观众角色通常只是收看/收听，不需要录音等音频权限，所以很多业务也希望观众端最好不要触发操作系统弹出“是否允许访问XX设备”的权限提示。
 
 那么如何在代码中使用网页上配置的“角色”呢？请参考下面的代码片段
-![图1](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/e4e8a61adf1d250630f101bbd9160285/image.png)
-![图2](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/e9e0e5041a81d75a2d3a9c54257a4d1d/image.png)
+![图1](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/e4e8a61adf1d250630f101bbd9160285/image.png)
+![图2](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/e9e0e5041a81d75a2d3a9c54257a4d1d/image.png)
 ## OpenSDK默认日志存放目录
 
 ### Android
@@ -104,7 +104,7 @@ iOS退后台时需要关掉上层的opengl渲染。回前台时，如果主播�
 
 DEMO APP安装目录下的/Library/Caches子目录。如下图：
 
-![iOSLog目录](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/0837b7ff0ec0d611b0f2c7ddaef0c0a2/image.png)
+![iOSLog目录](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/0837b7ff0ec0d611b0f2c7ddaef0c0a2/image.png)
 
 ### Windows
 
@@ -120,7 +120,7 @@ DEMO APP安装目录下的/Library/Caches子目录。如下图：
 
 将下图中黄色框里的代码添加到AvActivity类的相应位置
 
-![AvActivity](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56cde3ee57ed1.png)
+![AvActivity](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56cde3ee57ed1.png)
 
 ```c++
 Log.d("shixu", "isfront: " + isFront);
@@ -136,7 +136,7 @@ if (isFront) {
 
 将下图中黄色框里的代码添加到AVUIControl类的相应位置
 
-![AVUIControl](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56cde50e6c1dc.png)
+![AVUIControl](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56cde50e6c1dc.png)
 
 ```c++
 if (isFrontCamera()) {
@@ -168,7 +168,7 @@ public void setMirror(boolean isMirror, String identifier) {
 
 将下图中黄色框里的代码添加到QavsdkControl类的相应位置
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56cde60fd1e7c.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56cde60fd1e7c.png)
 
 ```c++
 public void setMirror(boolean isMirror, String identifier) {

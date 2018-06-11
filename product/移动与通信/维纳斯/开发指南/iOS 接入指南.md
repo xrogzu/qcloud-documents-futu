@@ -11,7 +11,7 @@ sdk 接口字符类型参数限制长度为 256 字节
 sdk 发送数据限制长度为 512K 字节
 sdk 接受数据限制长度为 512K 字节
 应用程序工程需要包含以下库(可以参考 demo)：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/dab523fae1934af9d3ad1d5ff872e9e4/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/dab523fae1934af9d3ad1d5ff872e9e4/image.png)
 
 ## Sdk 使用说明
 ### 名词解释

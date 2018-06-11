@@ -1,11 +1,11 @@
 ## Spark Streaming简介
 Spark Streaming是Spark Core的一个扩展，用于高吞吐且容错地处理持续性的数据，目前支持的外部输入有Kafka，Flume，HDFS/S3，Kinesis，Twitter和TCP socket。
  
-![Alt text](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b95ad071d2273bde7b9d8b64894c7ce6/111.png)
+![Alt text](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b95ad071d2273bde7b9d8b64894c7ce6/111.png)
 
 Spark Streaming将连续数据抽象成DStream(Discretized Stream)，而DStream由一系列连续的RDD(弹性分布式数据集)组成，每个RDD是一定时间间隔内产生的数据。使用函数对DStream进行处理其实即为对这些RDD进行处理。
 
-![Alt text](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f6f2869bc18bffc9a8e4e807276dd5a6/222.png)
+![Alt text](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f6f2869bc18bffc9a8e4e807276dd5a6/222.png)
 
 目前Spark Streaming对kafka作为数据输入的支持分为稳定版本与实验版本：
 
@@ -26,11 +26,11 @@ Spark Streaming将连续数据抽象成DStream(Discretized Stream)，而DStream�
 ## Spark Streaming接入CKafka
 
 ### 申请Ckafka实例
-![Alt text](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d7ee601da4d342cb2651d6a39db99e45/1501596501359.png)
+![Alt text](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d7ee601da4d342cb2651d6a39db99e45/1501596501359.png)
 
 确认网络类型是否与当前使用网络相符
 ### 创建topic
-![Alt text](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2d07bc5d5cac3be1ff03e7da099783f1/1501596195835.png)
+![Alt text](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2d07bc5d5cac3be1ff03e7da099783f1/1501596195835.png)
 
 这里创建了一个名为spark_test的topic，接下来将以该topic为例子介绍如何生产消费
 [内网IP与端口]即为生产消费需要用到的bootstrap-server

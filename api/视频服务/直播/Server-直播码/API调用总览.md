@@ -1,7 +1,7 @@
 ﻿
 ## 调用方式
 下图是直播码后台接口的调用方式，简单分为两种，主动请求和被动通知：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ae90fa870c89c023a409988377de0bdc/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ae90fa870c89c023a409988377de0bdc/image.png)
 
 ### 主动请求
 即客户服务器主动调用云平台后台API查询所需的信息或者对直播流进行控制，包括如下API:
@@ -34,7 +34,7 @@
 - **t（过期时间）**：如果一个API请求或者通知中的 t 值所规定的时间已经过期，则可以判定这个请求或者通知为无效的，这样做可以防止网络重放攻击。t 的格式为UNIX时间戳，即从1970年1月1日（UTC/GMT的午夜）开始所经过的秒数。
 
 - **sign（安全签名）**:  <font color='blue'>sign = MD5(key + t) </font>，即把加密key 和 t 进行字符串拼接后，计算一下md5值。这里的key即CGI调用key，您在云平台直播管理控制台开通直播码服务时可以指定，如下图所示：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/28a16dbab36fc3867301d2311204b8e4/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/28a16dbab36fc3867301d2311204b8e4/image.png)
 
 由于MD5是不可逆的hash算法，所以只要确保KEY不泄露，即使攻击者拿到很多对t和sign也无法反算出KEY值，进而无法进行伪装攻击。
 

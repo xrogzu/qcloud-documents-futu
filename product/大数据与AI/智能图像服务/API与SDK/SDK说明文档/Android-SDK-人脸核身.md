@@ -1,7 +1,7 @@
 ## 开发准备
 
 ### SDK 获取
-人脸核身 SDK 的 Android SDK-1.0.0下载地址：[Android SDK](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/96cb171e0810b55e85689d0c6f17af34/QCloudFaceIdSample_beta.zip)。
+人脸核身 SDK 的 Android SDK-1.0.0下载地址：[Android SDK](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/96cb171e0810b55e85689d0c6f17af34/QCloudFaceIdSample_beta.zip)。
 
 
 ### 开发准备

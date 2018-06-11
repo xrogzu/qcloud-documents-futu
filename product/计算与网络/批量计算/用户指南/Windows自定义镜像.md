@@ -8,7 +8,7 @@
 
 进入[云主机购买页](https://buy.tce.fsphere.cn/cvm)。
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f4c62ba416032b20e17ff9ec3ed15e39/s3.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f4c62ba416032b20e17ff9ec3ed15e39/s3.png)
 [云市场链接地址>>](https://market.tce.fsphere.cn/products/5310)
 
 选择镜像的时候，选择『服务市场』，在搜索栏里搜索『批量计算』，选择Windows Server 2012 的基础镜像（镜像 ID：img-er9shcln），后续存储、网络、其他设置根据提示选择，最后点击『立即购买』创建云主机。
@@ -19,11 +19,11 @@
 
 ### 3. 制作自定义镜像
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/270d48a5e64e7ec32e1d710f43123b47/s1.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/270d48a5e64e7ec32e1d710f43123b47/s1.png)
 
 在控制台点击``制作镜像``即可，请耐心等待镜像制作完成
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/e939a39dcebe0c7449c7dacdb33e52ea/s2.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e939a39dcebe0c7449c7dacdb33e52ea/s2.png)
 
 这个 ID 就是你的自定义镜像 ID，你可以随时到 [镜像控制台](http://console.tce.fsphere.cn/cvm/image) 来查看
 

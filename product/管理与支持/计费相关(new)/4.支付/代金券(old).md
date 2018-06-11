@@ -1,6 +1,6 @@
 ## 1. 什么是代金券
 代金券是可抵扣费用的优惠券，登录云平台官网，在 费用中心 - [代金券管理](http://console.tce.fsphere.cn/account/voucher) 页面中可查看用户账户下的代金券情况。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/1521a0c1596a18cbf450f8c1b380f372/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1521a0c1596a18cbf450f8c1b380f372/image.png)
 
 ## 2. 如何使用代金券
 代金券适用的付费类型（预/后付费）不同，其使用方式也不同，具体如下：
@@ -8,7 +8,7 @@
 - **适用于预付费：用户可在下订单购买云产品时选用代金券**
 
 （1）在付款页面，系统会根据订单对应的产品、付费类型、订单金额匹配代金券适用的产品、类型和订单金额限制。只有3个条件都符合的待使用、已使用（可多次使用且仍有余额的）状态的代金券才会显示在订单下方，可用于支付订单；
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/0c2a7fe9a186a2b1a7e957f7802e4542/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/0c2a7fe9a186a2b1a7e957f7802e4542/image.png)
 
 （2）**一个订单只能使用一张代金券**，支付订单时，如果有多张代金券可用，可点击选择框自主选择使用某张代金券，或取消勾选【使用代金券】选项不用代金券；
 
@@ -28,7 +28,7 @@
 按上述代金券排序逻辑，选用顺序为代金券C、B、A、E、D，所以，本次扣费时系统选用了代金券C进行抵扣。
 
 （2）系统自动选用代金券进行费用抵扣后，可在“收支明细”-“详情”页及”资源账单”页的“费用”一列，查看代金券抵扣金额。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ec5664d80ceff99179d1a76edf9bbdc3/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ec5664d80ceff99179d1a76edf9bbdc3/image.png)
 
 ## 3. 代金券的使用权限说明
 
@@ -58,7 +58,7 @@
 **兑换流程**
 
 （1）登录云平台官网，在费用中心-[代金券管理](http://console.tce.fsphere.cn/account/voucher)页面中点击“兑换代金券”。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/eeca08b8ba05d430af5773592729149f/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/eeca08b8ba05d430af5773592729149f/image.png)
 
 （2）弹出兑换代金券窗口
 ![enter description here][1]
@@ -69,9 +69,9 @@
 （4）若是通过其他途径领取的纸质券，则输入18位兑换码进行兑换
 
 （5）输入完毕后点击确认即可成功兑换代金券，可在待使用的代金券里查看具体情况。
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/daijinquan-4.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/daijinquan-4.png)
 
 
 
-  [1]: http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2d3e38050920a2fa55fbefb7af1c9011/WX20170731-151451@2x.png
-  [2]: http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/1c41d2b1e7474e0f0b4c340d6d08a46e/image.png
+  [1]: http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2d3e38050920a2fa55fbefb7af1c9011/WX20170731-151451@2x.png
+  [2]: http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1c41d2b1e7474e0f0b4c340d6d08a46e/image.png

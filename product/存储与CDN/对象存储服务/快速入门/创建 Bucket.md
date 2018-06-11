@@ -2,7 +2,7 @@
 
 进入 COS 管理控制台，点击 **立即创建 Bucket** ，会弹出创建 Bucket 对话框：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/a72342e5d10c18ccba9dde905fcd8695/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/a72342e5d10c18ccba9dde905fcd8695/image.png)
 
 **注意事项**
 
@@ -20,7 +20,7 @@
 
 点击 **创建** ，即可在页面 Bucket 列表中看到创建的 Bucket：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/0e3624e28cd0fa0f2d95da6492d55c72/image.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/0e3624e28cd0fa0f2d95da6492d55c72/image.jpg)
 
 
 

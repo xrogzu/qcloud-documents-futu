@@ -7,4 +7,4 @@
 4. 记录值并没有固定的格式，不过大部分时间，TXT 记录是用来做 SPF 反垃圾邮件的。最典型的 SPF 格式的 TXT 记录例子为“v=spf1 a mx ~all”，表示只有这个域名的 A 记录和 MX 记录中的 IP 地址有权限使用这个域名发送邮件。
 5. MX 优先级不需要填写。
 6. TTL 不需要填写，添加时系统会自动生成，默认为 600 秒（TTL 为缓存时间，数值越小，修改记录各地生效时间越快）。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/77b55e2f5fb0263fc5ff1cb13fb442cb/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/77b55e2f5fb0263fc5ff1cb13fb442cb/image.png)

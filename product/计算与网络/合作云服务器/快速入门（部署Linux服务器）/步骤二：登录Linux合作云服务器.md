@@ -14,7 +14,7 @@
 - Connection type：选择“SSH”。
 
 全部输入完后，点击“Open”，创建一个新对话。
-![Alt text](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2ddbfe58c5fd6e2a783bb92fa51124b8/image.png)
+![Alt text](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2ddbfe58c5fd6e2a783bb92fa51124b8/image.png)
 
 在Putty会话窗口中， 输入管理员帐号，按回车键。
 >管理员帐号：
@@ -22,6 +22,6 @@ ubuntu/CentOS/Debian：root
 
 
 再输入初始密码，回车完成登录。
-![Alt text](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56a5d47b8b5da.png)
+![Alt text](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a5d47b8b5da.png)
 
 2) 从本地Linux或Mac OS登录Linux合作云服务器，直接使用SSH命令进行连接，如：ssh root@Linux云服务器公网IP，然后输入root用户的初始密码，即可完成登录。

@@ -49,7 +49,7 @@ Execute sql in the sxb_db.sql file.
 
 ## 2. Code Directory Structure
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/0413205b36b65645ef4a5ddd8135198c/2.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/0413205b36b65645ef4a5ddd8135198c/2.png)
 
 ### 2.1 service 
 
@@ -97,7 +97,7 @@ Scheduled background task. Clears any LVB records that do not send heartbeat pac
  * Change to your own SDKAPPID and private/public key path.
 
 ## 4. Interaction Diagram
-![Tencent ILVB Data Interaction](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4094feaf383cf1e3c5714bd3f9dbfc8e/hudongzhibo.png)
+![Tencent ILVB Data Interaction](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/4094feaf383cf1e3c5714bd3f9dbfc8e/hudongzhibo.png)
 
 ## 5. Realized Features
 

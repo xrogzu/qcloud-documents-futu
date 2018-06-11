@@ -14,11 +14,11 @@
 ### 购买步骤
 1.进入BGP高防服务包[购买页面](https://buy.tce.fsphere.cn/buy/bgp_sp) 
 2.选择高防服务包所在的地域
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ab91f77998537c28a0950258e38c9f8e/1.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ab91f77998537c28a0950258e38c9f8e/1.png)
 3.选择高防服务包的防护阈值，当前支持10-50G
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/8d74063193978d4e43dab3479b7344ea/2.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8d74063193978d4e43dab3479b7344ea/2.png)
 4.选择高防服务包的服务时长，当前支持1个月，6个月和12个月
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f46449eb65604011464c6a6856c527f5/3.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f46449eb65604011464c6a6856c527f5/3.png)
 5.点击“立即支付”按钮，进入支付页面
 6.在支付页面中支付即可完成购买。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/028c36f3febba8084dd57f896b1501d0/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/028c36f3febba8084dd57f896b1501d0/image.png)

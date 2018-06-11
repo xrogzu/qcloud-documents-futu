@@ -12,17 +12,17 @@ SSL 证书续费操作相当于在控制台重新申请了一个新证书，用�
 ## 证书续费流程
 ### 一、进入证书续费入口
 1. DV 付费证书在过期前 3 个月会开启快速续费通道，用户可在 [SSL 证书管理控制台](http://console.tce.fsphere.cn/ssl) 证书列表中，对应证书的状态项中单击【快速续费】，打开快速续费窗口。    
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f1a8c5f4245cde0334dbf2e0770960d8/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f1a8c5f4245cde0334dbf2e0770960d8/image.png)
 2. 弹出 SSL 证书续费提示后，请确认信息，单击【前往续费】进入续费页面。 
 
 ### 二、续费信息确认与支付
 1. 证书续费无需再次填写信息，由于证书续费后会生成一个新证书，因此要为新证书设置 CSR 文件。用户可通过系统自动生成 CSR 文件，也可以自己上传 CSR 文件。
 2. 用户在确认信息后，选择续费年限，单击【快速支付】进入证书支付流程。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/7c949a9725f458b8d6b84ddc6975e566/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7c949a9725f458b8d6b84ddc6975e566/image.png)
 3. 确认证书信息后，点击【确认购买】进行付款。   
 
 ### 三、 上传确认函并等待审核
 1. 购买成功后，SSL 证书管理控制台的证书列表中将生成一个新的证书，状态为 **待验证**，单击【详情】进入证书详情页。   
   
 2. 证书详情中会生成解析验证值，您需要添加该条DNS 解析记录。记录添加完成后，等待 CA 机构扫描验证，验证审核通过后会立即颁发证书。   
- ![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/dbf0dd813451ecffa1ca71de8089c2c5/image.png)
+ ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/dbf0dd813451ecffa1ca71de8089c2c5/image.png)

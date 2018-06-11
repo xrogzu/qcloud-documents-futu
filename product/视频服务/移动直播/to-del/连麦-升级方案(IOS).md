@@ -7,7 +7,7 @@
 ### 演示Demo
 在详细介绍连麦升级方案的对接攻略之前，先介绍一下2.0.3版本引入的连麦演示Demo，以便您可以快速地体验一下连麦的效果。
 
-![enter image description here](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/linkmic_demo_step.png)
+![enter image description here](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/linkmic_demo_step.png)
 
 假设用户A和用户B进行连麦，连麦演示Demo的使用方法是：
 
@@ -27,7 +27,7 @@
 3. 在连麦演示TAB界面，用户A、用户B分别点击右上角的+按钮，扫描**对方的拉流地址**，添加一路拉流；
 4. 经过步骤2和步骤3两步操作，用户A和用户B在推流的同时，互相拉取到了对方的视频流，也即在二者之间建立起了双向实时视频对话，具体效果如下图所示。
 
-![enter image description here](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/linkmic_demo_example.png)
+![enter image description here](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/linkmic_demo_example.png)
 
 【特别说明】
 - 步骤3中“扫描拉流地址，添加一路拉流”，必须保证拉流地址包含防盗链key；因为只有包含防盗链key，演示Demo才会使用本文后面介绍的加速拉流接口进行拉流播放，以降低视频时延，并做音频回声消除；
@@ -151,7 +151,7 @@ _txLivePush.delegate = _pushDelegate;
 
 #### 1.生成加速拉流链路的 URL
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/RTMP加速拉流地址.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/RTMP加速拉流地址.png)
 
 这里需要注意的有两点：
 

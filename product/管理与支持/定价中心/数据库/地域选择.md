@@ -25,7 +25,7 @@
  
 可用区（zone）是指云平台在同一地域内电力和网络互相独立的物理数据中心。目标是能够保证可用区间故障相互隔离（大型灾害或者大型电力故障除外），不出现故障扩散，使得用户的业务持续在线服务。
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img567e643eadf65.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img567e643eadf65.png)
 
 在同一地域内可用区与可用区之间内网互通，同一可用区内产品网络延时更小。
 

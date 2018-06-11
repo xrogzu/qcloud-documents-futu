@@ -42,23 +42,23 @@
 ### 账单
 黑石弹性公网IP按收费项和计费模式分为三个账单，分别是：
 <li>黑石EIP公网出口-按公网流量计费-x月扣费，记录所选时间区间内所有黑石弹性公网IP产生的公网流量情况和扣费详情</li>
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/00a241310bde9875abc00112b1651ac9/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/00a241310bde9875abc00112b1651ac9/image.png)
 <li>黑石EIP公网出口-按固定带宽计费-x月扣费，记录所选时间区间内黑石弹性公网IP购买的峰值带宽情况和扣费详情</li>
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/84562d836f248f54a93fbf811176ac42/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/84562d836f248f54a93fbf811176ac42/image.png)
 <li>黑石弹性IP-x月扣费,记录所选时间区间内所有黑石弹性公网IP的闲置情况和扣费详情</li>
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/21e4a12a3e18993d87d9360dfaca2fb3/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/21e4a12a3e18993d87d9360dfaca2fb3/image.png)
 
 ## 绑定
 
 1) 打开黑石服务器控制台，找到弹性公网IP选项。
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/9123cee39932385deb3ea5beef3416cf/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/9123cee39932385deb3ea5beef3416cf/image.png)
 
 2) 找到您想用来绑定的IP，单击【绑定】按钮。若已绑定了某台黑石服务器或者NAT网关，则【绑定】按钮将为不可用点击状态，需与原资源解绑后再绑定。
 
 
 3) 在弹出框中选择您需要绑定的黑石服务器或者NAT网关，点击【绑定】按钮即可完成绑定，此时开始收取公网出口费。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b2658106b9895bd396a7d813a2c9f8d9/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b2658106b9895bd396a7d813a2c9f8d9/image.png)
 
 *按固定带宽计费的黑石弹性公网IP不可用于绑定NAT网关*</br>
 
@@ -66,7 +66,7 @@
 
 1) 打开黑石服务器控制台，找到弹性公网IP选项。
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/9123cee39932385deb3ea5beef3416cf/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/9123cee39932385deb3ea5beef3416cf/image.png)
 
 2) 在已绑定资源的黑石弹性公网IP列表项后，单击【解绑】按钮，确认后即可解绑，此时开始收取IP闲置费。
 
@@ -76,6 +76,6 @@
 
 1) 打开黑石服务器控制台，找到弹性公网IP选项。
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/9123cee39932385deb3ea5beef3416cf/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/9123cee39932385deb3ea5beef3416cf/image.png)
 
 2) 在您想要释放的黑石弹性公网IP，单击【释放】按钮，释放后即不再计费。

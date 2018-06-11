@@ -36,10 +36,10 @@ make install
 protoc -version
 ```
 如下图所示，安装成功。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/0c9e3f1f45df121b214f07b8961c1c09/1.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/0c9e3f1f45df121b214f07b8961c1c09/1.jpg)
 
 ### SDK 下载
-单击[ SDK 下载](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/5455997ec0076386ac96536d71f0a1ce/TcaplusPbApi3.18.0.152096.x86_64_release_20170712.tar.gz)。
+单击[ SDK 下载](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/5455997ec0076386ac96536d71f0a1ce/TcaplusPbApi3.18.0.152096.x86_64_release_20170712.tar.gz)。
 
 ### SDK 安装
 ``` tar –xzf<安装包路径> -C <安装目录> ```
@@ -72,12 +72,12 @@ tar -xzvf TcaplusPbApi3.18.0.152096.x86_64_release_20170712.tar.gz
 	**ZONE_ID：**部署单元 ZoneId。
 	**SIGNATURE：**业务 AppKey。
 	
-	![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4eddaa926243031049ab2e019d8686ab/image.png)
+	![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/4eddaa926243031049ab2e019d8686ab/image.png)
 3. 修改环境配置设置文件
 在 TcaplusPbApi3.18.0.152096.x86_64_release_20170712/release/x86_64/examples/tcaplus 目录下有分别通过异步方式以及协程方式调用API的例子，现在以协程方式调用 Set 接口设置数据为例：
 命令行输入
 `cd TcaplusPbApi3.18.0.152096.x86_64_release_20170712/release/x86_64/examples/tcaplus/C++_pb2_coroutine_simpletable/SingleOperation/set`进入代码目录，协程方式 Set 例子的所有代码都在该目录中。修改 envcfg.env 文件，将 PROTOBUF_HOME 环境变量设置为本机 protobuf 的安装路径（--prefix指定），并将 TCAPLUS_HOME 环境变量设置为 Tcaplus Pb API 包下 release/x86_64 目录的绝对路径，如下图：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/093250c857a6c77847fd14bd037dc7e9/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/093250c857a6c77847fd14bd037dc7e9/image.png)
 4. 设置环境变量
 在代码目录下执行
 ```
@@ -86,6 +86,6 @@ bash conv.sh
 ```
 5. 编译二进制程序 
 执行`make`命令编译 example 二进制,编译成功生成 mytest 可执行文件。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/9b4dd73cf2d3b93721d9782a76804d7f/mytest.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/9b4dd73cf2d3b93721d9782a76804d7f/mytest.png)
 6. 执行二进制程序
 命令行输入`./mytest` ,执行二进制程序。执行结果将在命令行标准输出中显示，若遇到错误，请查看代码目录下的 tcaplus_pb.log 日志文件。

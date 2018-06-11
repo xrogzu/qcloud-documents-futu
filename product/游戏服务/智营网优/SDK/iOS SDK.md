@@ -46,7 +46,7 @@
 5) 完成，按照所需调用相应接口即可。
 
 ## 2 API 接口接入步骤
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/a88e299383eb7d9aae1e848a500e0486/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a88e299383eb7d9aae1e848a500e0486/image.png)
 1. 应用启动时，调用初始化`MNAInit`。
 2. 应用登录成功后，需要调用`MNASetUserName`设置`openid`。 
 3. 对局开始前调用`MNAStartDiagnose`；当应用切换到前台时，调用`MNAGoFront`; 当应用切换到后台时，调用`MNAGoBack`。
@@ -243,8 +243,8 @@ int netinfo_desc; // 网卡情况具体描述
 具体设置请参考王者荣耀的示例：（ 红色字体为备注 ）
 
 WIFI 直连环境下图示如下：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/8be2ccf30041db352caed1d98b524bab/wifi-android.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8be2ccf30041db352caed1d98b524bab/wifi-android.png)
 
 4G 直连环境下图示如下：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f62992074419d7e3a8e90c53a7112cf1/4g-android.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f62992074419d7e3a8e90c53a7112cf1/4g-android.png)
 

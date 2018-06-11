@@ -11,15 +11,15 @@
 
 *   **sn(serial number：序列号)** 每台设备都应该有一个唯一的序列号，序列号并不需要腾讯后台分配，所以您可以直接对接原有产品线的序列号系统，但是我们对序列号格式有严格要求：长度必须是16个字符的字母、数字或者连词符的组合，例如`ABC-0032-1234567`就是一个非常标准的序列号。 您亦可以使用我们提供的客户端工具（Step2.2所示的页面中可以下载）来生成符合要求的序列号，如下图：
 
-[![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_9.png)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_9.png)
+[![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_9.png)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_9.png)
 
 *   **license(sn对应的认证签名)** license用于安全校验，主要目的是保护合作方的利益，避免冒充合作方的山寨设备出现，license的产生可以借助客户端工具实现。 `注意：license的生成使用的是您在Step2.2中产生的密钥对中的私钥，文件名叫做ec_key.pem，请您不要弄混了`
 
-[![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_10.png)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_10.png)
+[![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_10.png)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_10.png)
 
 *   **server public key(物联云服务器认证key)** 最后一组信息是用于保护设备的，避免它被来自互联网的DNS劫持或者后台伪造等手段所攻击，所以这一项也是必选项，您可以在Step2.2提及的页面里找到这个key，如下图：
 
-[![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/step2_n_6.png)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/step2_n_6.png)
+[![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/step2_n_6.png)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/step2_n_6.png)
 
 ### 3.2 SDK下载
 
@@ -129,7 +129,7 @@ bool initDevice() {
 
 最后，示例代码调用了**tx_init_device**函数完成了初始化过程，我们来看一下这段代码的运行结果。如果设备目前还是“白纸一张”，也就是还没有被某个用户绑定过，那么期望的设备端串口输出应该是如下所示：
 
-[![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_12.png)](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_12.png)
+[![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_12.png)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_12.png)
 
 因为还没有被绑定过，所以目前为止SDK所做的工作基本就仅启动了一个内部线程，然后以一种几乎不消耗CPU的方式等待它的第一个任务——**接受绑定**。
 

@@ -39,4 +39,4 @@
 
 
 **运行结果**：
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/PHP-1.jpg)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/PHP-1.jpg)

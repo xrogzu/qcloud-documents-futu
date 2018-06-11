@@ -15,7 +15,7 @@ NAT 网关，点击查看 <a href="http://tce.fsphere.cn/doc/product/215/4954#.E
 （3）点击修改主 IP。
 （4）填入新的 IP，并保存即可。
 <div style="text-align:center">
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/9c08d3a7ead4707abd6315e2a092184b/A%7D%257Q%25R3C5QDOR%24JM%25I3U%28D.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/9c08d3a7ead4707abd6315e2a092184b/A%7D%257Q%25R3C5QDOR%24JM%25I3U%28D.png)
 
 </div>
 您也可以在弹性网卡详情页修改主内网 IP，点击查看<a href="http://tce.fsphere.cn/doc/product/215/6513#.E4.BF.AE.E6.94.B9.E4.B8.BB.E5.86.85.E7.BD.91ip" target="_blank">操作详情。</a>

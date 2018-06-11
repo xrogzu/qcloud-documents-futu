@@ -1,8 +1,8 @@
 ## 开发准备
 
 ### SDK 获取
-人脸核身 SDK 的 Android SDK-1.0.0下载地址：[Android SDK](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/9f5229f0bb019f5fe5b9f6b7bc6134af/faceid-1.0.0.zip)。
-更多示例可以参考Demo：[Android SDK Demo](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/6e5c11cd423409f50804410e47b04e9a/FaceIdDemo+.zip)。
+人脸核身 SDK 的 Android SDK-1.0.0下载地址：[Android SDK](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/9f5229f0bb019f5fe5b9f6b7bc6134af/faceid-1.0.0.zip)。
+更多示例可以参考Demo：[Android SDK Demo](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/6e5c11cd423409f50804410e47b04e9a/FaceIdDemo+.zip)。
 
 ### 开发准备
 - 开发者使用人脸识别功能前，需要先进行 [云平台账号注册](http://tce.fsphere.cn/register)（详细指引请参考 [注册云平台](http://tce.fsphere.cn/document/product/378/9603)），并 [创建存储桶](http://tce.fsphere.cn/document/product/460/10637)，从而获得 APPID 、SecretId 和 SecretKey 等（获取 APPID 可参考 [域名管理](http://tce.fsphere.cn/document/product/460/6937)）；

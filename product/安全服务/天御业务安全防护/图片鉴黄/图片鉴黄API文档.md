@@ -96,7 +96,7 @@
 </tbody></table>
 
 ## 4.示例代码
-代码下载：  [Python示例](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/c8aa3de8d147ae873b9645c1b84eaac4/FileDetection.py.zip) [PHP示例](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/df6e1d58b1a853e9af459e034661feb9/FileDetection.php.zip) [Java示例](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/6ad6797367a37e8cd7d09f94b008b76e/FileDetection.java.zip) [.Net示例](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/5314a5e2171556d17cc197cf1cc7e14d/FileDetection.cs.zip)
+代码下载：  [Python示例](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/c8aa3de8d147ae873b9645c1b84eaac4/FileDetection.py.zip) [PHP示例](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/df6e1d58b1a853e9af459e034661feb9/FileDetection.php.zip) [Java示例](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/6ad6797367a37e8cd7d09f94b008b76e/FileDetection.java.zip) [.Net示例](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/5314a5e2171556d17cc197cf1cc7e14d/FileDetection.cs.zip)
 <br> 一个完整的请求需要两类请求参数：公共请求参数和接口请求参数。这里只列出了接口请求参数，并未列出公共请求参数，有关公共请求参数的说明可见[公共请求参数](http://tce.fsphere.cn/document/product/295/7279)小节。
 ```
 请求示例 ：

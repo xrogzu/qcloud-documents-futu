@@ -6,15 +6,15 @@ Webhooks 允许您在代码 pushed 或创建一个新的 issue 时触发自定�
 
 ### Webhooks 设置步骤：
 1. 在 [TGit 的主界面](https://git.tce.fsphere.cn/) 上，单击到具体的某个项目。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/8af55a37eba4b7de1db5ce6563338cfb/2017-08-29_160052.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8af55a37eba4b7de1db5ce6563338cfb/2017-08-29_160052.png)
 
 2. 在左边的导航栏里，单击【Settings】。  
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/16706629a6d1df502dd165855243dec2/2017-08-29_160252.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/16706629a6d1df502dd165855243dec2/2017-08-29_160252.png)
 
 3. 在左边的导航栏里，单击【Web Hooks】。  
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/08ae72317392960028d66c2a93be8d2a/2017-08-29_160328.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/08ae72317392960028d66c2a93be8d2a/2017-08-29_160328.png)
 
 4. 根据具体情况，设置好需要填写的信息，单击【Add Web Hook】即可。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/805b232aed937114ba352c6e450a392a/2017-08-29_160355.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/805b232aed937114ba352c6e450a392a/2017-08-29_160355.png)
 
 > 若要获取更多 Webhooks 的信息，可参考 TGit 里的 [帮助文档](https://git.tce.fsphere.cn/help/web_hooks/web_hooks.md)。

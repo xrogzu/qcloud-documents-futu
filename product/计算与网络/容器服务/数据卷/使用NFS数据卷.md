@@ -21,7 +21,7 @@
 
   ![][verification]
 
-[createVolume]:http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/0286498ec3ada210c6c01f9ef8ca7b52/image.png
-[setVolumeConfig]:http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/366d4f7229e12327308f36cfa88cf537/%7B3CDF6473-D03E-4AF7-BEE6-C87CDD70FACD%7D.png
-[setVolumeMountPath]:http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/3547f641ae9b6882c4bc9cead42f2b05/%7B8F01ACF0-6408-4EFB-A2B3-D1EE8A56EA6C%7D.png
-[verification]:http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/1770f6809fd201f1bcf1ec85dddd3c2b/%7BDF572259-79C1-4879-9121-F33A66F002BD%7D.png
+[createVolume]:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/0286498ec3ada210c6c01f9ef8ca7b52/image.png
+[setVolumeConfig]:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/366d4f7229e12327308f36cfa88cf537/%7B3CDF6473-D03E-4AF7-BEE6-C87CDD70FACD%7D.png
+[setVolumeMountPath]:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/3547f641ae9b6882c4bc9cead42f2b05/%7B8F01ACF0-6408-4EFB-A2B3-D1EE8A56EA6C%7D.png
+[verification]:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1770f6809fd201f1bcf1ec85dddd3c2b/%7BDF572259-79C1-4879-9121-F33A66F002BD%7D.png

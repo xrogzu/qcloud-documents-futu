@@ -3,7 +3,7 @@
 
 ## 效果演示
 您可以扫描如下二维码，或在微信小程序里搜索“腾讯视频云”，即可打开我们的 demo 小程序，内部的 **直播体验室** 即为 &lt;live-room&gt; 的典型应用场景。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/9851dba2c86161bc9e14a08b5b82dfd2/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/9851dba2c86161bc9e14a08b5b82dfd2/image.png)
 
 ## 标签详解
 ### 属性定义
@@ -277,7 +277,7 @@ liveroom.respondJoinReq(true, aduience);
                 audio-quality="high"
                 beauty="{{beauty}}"
                 muted="{{muted}}"
-                waiting-image="http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/
+                waiting-image="http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/
 								     daeed8616ac5df256c0591c22a65c4d3/pause_publish.jpg"
                 background-mute="{{true}}"
                 debug="{{debug}}"
@@ -356,6 +356,6 @@ liveroom.respondJoinReq(true, aduience);
 - step1： [开通](http://console.tce.fsphere.cn/video) 云平台点播服务。
 
 - step2：进入[直播控制台](http://console.tce.fsphere.cn/live)（小程序音视频流媒体是基于直播服务构建的），在【接入管理>>接入配置>>直播录制】中，开启录制功能。（注意：这里说的录制费用是按并发收费的，不是每一路都收费）
-![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/6dfeba07c25151be7025dab0245398ff.jpg)
+![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/6dfeba07c25151be7025dab0245398ff.jpg)
 
 - step3：在点播的[视频管理](http://console.tce.fsphere.cn/video/videolist)界面中，您可以看到这些录制的文件，您也可以通过点播服务的 REST API 获取到这些文件。

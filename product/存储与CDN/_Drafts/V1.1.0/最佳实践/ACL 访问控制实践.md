@@ -103,10 +103,10 @@ COS 支持一系列的预定义授权，称之为标准 ACL，下表列出了标
 
 以下示例对存储桶授予了另一个根账户的读取权限：
 
-![](https:http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/7088f7b6c3336668b4b04f63392e069d/image.jpg)
+![](https:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7088f7b6c3336668b4b04f63392e069d/image.jpg)
 
 ### 为对象设置 ACL
 
 以下示例对某个对象授予了另一个根账户的读取权限：
 
-![](https:http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/7088f7b6c3336668b4b04f63392e069d/image.jpg)
+![](https:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7088f7b6c3336668b4b04f63392e069d/image.jpg)

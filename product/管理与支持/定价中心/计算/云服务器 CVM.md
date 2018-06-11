@@ -34,7 +34,7 @@ CVM 定价主要包括 CVM 实例价格，磁盘价格，网络价格。
 |价格(元／小时)  |P |50% × P | 34% × P|
 > 注: P 为按量计费云服务器的第一阶梯的单价。
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2b8e3a898dab0454d77d99a0e1c1eb07/image.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2b8e3a898dab0454d77d99a0e1c1eb07/image.jpg)
 
 以1核2GB配置为例，第一阶梯价格为0.42元/小时，第二阶梯价格为0.42×(1-50%)=0.21元/小时，第三阶梯价格为0.42×(1-50%-16%)=0.14元/小时
 
@@ -185,7 +185,7 @@ CVM 定价主要包括 CVM 实例价格，磁盘价格，网络价格。
 
 ### 按量计费 CVM 
  
- ![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img567f91951599d.png)
+ ![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img567f91951599d.png)
  
 - 余额预警
 系统每天会根据您名下按量付费资源过去24小时的消费情况以及账户余额情况，预估余额可支撑的时间。若可支撑时间小于5天，我们将会向您推送余额预警。预警消息将通过邮件及短信的方式通知到云平台账户的创建者以及所有协作者。

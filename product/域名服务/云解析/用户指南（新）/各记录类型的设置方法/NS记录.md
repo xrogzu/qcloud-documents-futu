@@ -7,4 +7,4 @@
 4. 记录值为要授权的 DNS 服务器域名，记录生成后会自动在域名后面补一个“.”，这是正常现象。
 5. TTL 不需要填写，添加时系统会自动生成，默认为 600 秒（TTL 为缓存时间，数值越小，修改记录各地生效时间越快）。
 6. MX 优先级不需要填写。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ade89d17313705d405470208397d3a2a/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ade89d17313705d405470208397d3a2a/image.png)

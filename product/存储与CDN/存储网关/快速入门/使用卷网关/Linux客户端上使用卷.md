@@ -43,7 +43,7 @@ sudo /sbin/iscsiadm --mode node --targetname iqn.2003-07.com.qcloud:vol-10098 --
 
 ### 查看卷
 您可以使用 fdisk –l、lsblk 等命令查看已经挂载的卷。当前状态下，卷已经成为一个裸磁盘可用。如果还需要安装文件系统，请参考下一个步骤。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b3e7c75a649e84d33b823b5e22925317/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b3e7c75a649e84d33b823b5e22925317/image.png)
 
 ### 分区及格式化文件系统
 - **执行以下命令，对数据盘进行分区。**
@@ -52,11 +52,11 @@ sudo /sbin/iscsiadm --mode node --targetname iqn.2003-07.com.qcloud:vol-10098 --
 	```
 	
 	按照界面的提示，依次输入 "n" (新建分区)、"p"(新建扩展分区)、"1" (使用第1个主分区)，两次回车(使用默认配置)，输入 "wq" (保存分区表)，回车开始分区。这里是以创建1个分区为例，开发者也可以根据自己的需求创建多个分区。
-	![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56a604c2b886f.png)
+	![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a604c2b886f.png)
 	
 - **查看分区**
 	使用“fdisk -l”命令，即可查看到，新的分区 vdb1 已经创建完成。
-	![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56a605027a966.png)
+	![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a605027a966.png)
 	
 - **格式化分区**
 	分区后需要对分好的区进行格式化，您可自行决定文件系统的格式，如xfs、ext4等，本例以“ext3”为例。请使用以下命令对新分区进行格式化。
@@ -65,7 +65,7 @@ sudo /sbin/iscsiadm --mode node --targetname iqn.2003-07.com.qcloud:vol-10098 --
 	mkfs.ext3 /dev/vdb1
 	```
 	
-	![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56a6053fb5aa0.png)
+	![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a6053fb5aa0.png)
 
 - **挂载及查看分区**
 	使用以下命令创建mydata目录并将分区挂载在该目录下：
@@ -80,7 +80,7 @@ sudo /sbin/iscsiadm --mode node --targetname iqn.2003-07.com.qcloud:vol-10098 --
 	```
 	
 	出现如下图信息则说明挂载成功，即可以查看到数据盘了。
-	![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56a60615c0984.png)
+	![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a60615c0984.png)
 	
 - 	**自动挂载分区**
 	如果希望云服务器在重启或开机时能自动挂载数据盘，必须将分区信息添加到/etc/fstab中。如果没有添加，则云服务器重启或重新开机后，都不能自动挂载数据盘。请使用以下命令添加分区信息：
@@ -94,7 +94,7 @@ sudo /sbin/iscsiadm --mode node --targetname iqn.2003-07.com.qcloud:vol-10098 --
 	```
 
 	出现如下图信息则说明添加分区信息成功。
-	![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56a606ad3180c.png)
+	![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a606ad3180c.png)
 	
 	
 ### 卸载卷

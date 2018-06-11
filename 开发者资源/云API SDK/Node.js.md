@@ -1,7 +1,7 @@
 为方便Node.js开发者调试和接入云API， 我们提供了基于 Node.js 的 SDK。
 
 [从 Github 访问 >>](https://github.com/CFETeam/qcloudapi-sdk) 
-[点击下载 Node.js SDK >>](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/archive/0903b39539c6759cb61c797ae06da259/qcloudapi-sdk-master.zip)
+[点击下载 Node.js SDK >>](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/0903b39539c6759cb61c797ae06da259/qcloudapi-sdk-master.zip)
 
 qcloudapi-sdk 是云平台 API 2.0 的 node.js SDK 工具包。
 

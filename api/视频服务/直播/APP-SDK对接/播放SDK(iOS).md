@@ -3,11 +3,11 @@
 
 该播放器SDK支持两种标准的流媒体协议：**RTMP** 和 **FLV**，一般而言，FLV 是我们更加推荐使用的格式。
 
-![struct](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tx_cloud_play_sdk_struct.jpg)
+![struct](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tx_cloud_play_sdk_struct.jpg)
 
 SDK开发包附带的播放器DEMO界面如下：
 
-![demo](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/player_demo_introduction.jpg)
+![demo](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/player_demo_introduction.jpg)
 
 ## 基础篇
 腾讯视频云RTMP SDK的使用特别简单，您只需要在您的App里添加如下几行代码就可以完成对接工作了。目前SDK内部的默认参数设置参考直播场景精心校调过的。
@@ -36,7 +36,7 @@ _txLivePlayer = [[TXLivePlayer alloc] init];
 step2中的示例代码有一个叫做_myView参数，该参数的作用就是指定视频图像的渲染区域：SDK会在_myView之上构建一个图像控件用于实时渲染视频画面。
 
 如果您想要在渲染画面之上实现弹幕、献花之类的UI控件，可以如下图这般创建一个与_myView平级的兄弟view，并将其叠加在_myView之上，简言之，让_myView只用来渲染对于编写清晰的UI代码会比较有帮助。
- ![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/75b41bd0e9d8a6c2ec8406dc706de503/image.png)
+ ![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/75b41bd0e9d8a6c2ec8406dc706de503/image.png)
 
 如果您想要调整渲染界面的大小，只需要调整myView的大小就可以了，内部的视频画面会跟随myView的大小变化而自动地适应。
 
@@ -59,7 +59,7 @@ NSString* flvUrl = @"http://2157.liveplay.myqcloud.com/live/2157_xxxx.flv";
 
 ### step 5: 填充&适应&旋转
 如果你希望调整画面的显示方式，SDK也提供了多种选择：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ef948faaf1d62e8ae69e3fe94ab433dc/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ef948faaf1d62e8ae69e3fe94ab433dc/image.png)
 
 - **setRenderMode**
 
@@ -93,7 +93,7 @@ NSString* flvUrl = @"http://2157.liveplay.myqcloud.com/live/2157_xxxx.flv";
 #### 延迟的产生
 这里说的**延迟**是主播 -> 观众的时间延迟，而**卡顿**指的是出现500ms以上的播放停滞。
 如果是在完美的网络环境下，可以做到超低延迟下没有卡顿，但现实是国内的网络环境并不完美，数据在经过互联网传输时必然会有抖动和丢包，从而对播放端的流畅播放产生影响。
-![tx_live_service_lag](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tx_live_service_lag.jpg)
+![tx_live_service_lag](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tx_live_service_lag.jpg)
 
 因此，为了缓解这些不稳定因素，云服务和终端APP都需要引入一些缓冲，但缓冲的加入就不可避免地引入了延迟。
 所以，**延迟和流畅是一架天平的两端**，如果过分强调降低延迟，就会导致轻微的网络波动即产生明显的播放端卡顿。反推之，如果过分强调流畅，就意味着引入大量的延迟，一个典型的案例就是HLS协议，通过引入10-30秒的延迟来实现流畅的播放体验。
@@ -135,7 +135,7 @@ _config.cacheTime              = 5;
 ### 1. 内部原理
 下面这幅图展示了SDK播放器的内部技术细节：
 
-![SDK内部原理](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tencent_cloud_rtmp_sdk_player_status_14.jpg)
+![SDK内部原理](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tencent_cloud_rtmp_sdk_player_status_14.jpg)
 
 简单描述就是在您**调用startPlay**之后，RTMP SDK就会**尝试连接网络**，如果一切顺利，就会进入**播放主循环**，SDK内部会按照每秒一次的频率通知**当前的内部状态**（net status），如果中途出现什么问题，则会以 **event**、 **warning** 或者 **error** 的形式通知出来。
 

@@ -11,7 +11,7 @@
 6.垫付还款途经
 - 线下汇款： 云平台收到汇款后将优先为您还款，剩余款项充值到您的账户。
 - 线上充值： 从账户余额中扣费还款，您可前往费用中心-[账户信息](http://console.tce.fsphere.cn/account)页，点击立即还款按钮自助进行还款。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d2d9a04c8d70fea02d7d7884465f3dc1/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d2d9a04c8d70fea02d7d7884465f3dc1/image.png)
 
 
 7.特权关闭风险
@@ -20,6 +20,6 @@
 
 8.特权关闭方式
 您可以前往 [费用中心](http://console.tce.fsphere.cn/account) 申请关闭特权。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4e4d77423dc7c209a371b5b72276cd40/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/4e4d77423dc7c209a371b5b72276cd40/image.png)
 
 

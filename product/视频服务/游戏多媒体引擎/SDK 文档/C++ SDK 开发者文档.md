@@ -619,12 +619,12 @@ ITMGAudioCtrl virtual int UpdateSpatializer(std::string& identifier,float azimut
 | distance_cm    	|float         	|距离参数，以厘米为距离单位				|
 
 #### 函数原理
-![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/0f90e8e84915c3f34482b1d40b0630c0.png)
+![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/0f90e8e84915c3f34482b1d40b0630c0.png)
 
-从图看参数，假设接收端用户为 A 点位置，发送端用户为 B点位置 ,![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/64491afbf45c2afc68039e704b77292e.png)与![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/e82e5036a05a0e23f0baac39733fa427.png)为 azimuth 方位，![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/affadf85b6c842c025e2ae9f8ef114d9.png)为 elevation 角度，AB 即为 distance_cm 距离。
-假设坐标 ![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/8b06a9be42ac50d8653af271c057fa64.png)，转换为 ![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/ff91cf1896f4f15eabc677586923400f.png)，其中 ![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/1d8902af13daf380e312e36138eef7b5.png)
+从图看参数，假设接收端用户为 A 点位置，发送端用户为 B点位置 ,![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/64491afbf45c2afc68039e704b77292e.png)与![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/e82e5036a05a0e23f0baac39733fa427.png)为 azimuth 方位，![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/affadf85b6c842c025e2ae9f8ef114d9.png)为 elevation 角度，AB 即为 distance_cm 距离。
+假设坐标 ![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/8b06a9be42ac50d8653af271c057fa64.png)，转换为 ![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/ff91cf1896f4f15eabc677586923400f.png)，其中 ![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/1d8902af13daf380e312e36138eef7b5.png)
 则计算公式为：
-![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/e1aa4d09b144af4ea920d63cf9cac6bb.png)
+![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/e1aa4d09b144af4ea920d63cf9cac6bb.png)
 
 #### 示例代码
 ```

@@ -14,4 +14,4 @@ HTTPS 回源：源站更新证书，CDN 节点也需要同步更新。客户端�
 
 ### 5. CDN 有没有方法让用户控制只允许 HTTPS 访问，禁止 HTTP 访问？
 使用强制 HTTPS 功能。证书配置成功后，会出现【强制跳转】开关，开启后，即使用户发起 HTTP 请求，也会强制跳转为 HTTPS 进行访问。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/8dc758129896bef56c85a8528371e9e7/force_https.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8dc758129896bef56c85a8528371e9e7/force_https.png)

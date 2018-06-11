@@ -14,7 +14,7 @@
 	
 2)	在导航窗格中，单击弹性公网IP。
 
-3)	点击您要修改的EIP列表项中的改名按钮![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img568c80a2324b8.png)
+3)	点击您要修改的EIP列表项中的改名按钮![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img568c80a2324b8.png)
 
 4)	输入新名称，点击【确定】按钮。
 

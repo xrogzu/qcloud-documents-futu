@@ -20,7 +20,7 @@
 ```
 
 ## 2 API 接口接入步骤
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/057c7436f3a4b6ac2a0eeb056548bb01/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/057c7436f3a4b6ac2a0eeb056548bb01/image.png)
 1. 应用启动时，调用初始化`GSDKInit`。
 2. 应用登录成功后，需要调用`GSDKSetUserName`设置`openid`。 
 3. 应用登录成功后，尽可能早地调用`GSDKStartSpeed`，用户因网络或者其他异常无法连接到服务器，重新进行连接时，为保证加速效果，需要再次调用`GSDKStartSpeed`；当应用切换到前台时，调`GSDKGoFront`; 当应用切换到后台时，调用`GSDKGoBack`；当应用不想进行加速，但依然想保留 SDK 的网络探测功能时可调用`GSDKStopMNA`函数。
@@ -290,8 +290,8 @@ public class KartinRet {
 具体设置请参考王者荣耀的示例：（ 红色字体为备注 ）
 
 WIFI 直连环境下图示如下：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/8be2ccf30041db352caed1d98b524bab/wifi-android.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8be2ccf30041db352caed1d98b524bab/wifi-android.png)
 
 4G 直连环境下图示如下：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f62992074419d7e3a8e90c53a7112cf1/4g-android.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f62992074419d7e3a8e90c53a7112cf1/4g-android.png)
 

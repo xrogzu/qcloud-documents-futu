@@ -18,12 +18,12 @@
 按照使用场景可以将消息中间件粗略分为：高可靠和高性能两大类。CMQ主要适用于金融、交易、订单等对可靠性、可用性有较高要求的业务场景。
 
 如图1以腾讯充值系统为例，该充值系统通过CMQ 对交易模块、发货部分、结算系统进行异步解耦、削峰填谷，一方面大大降低了模块间耦合度另一方面减轻了大量突发请求对后端系统的冲击。在月初充值该系统一天经过CMQ转发的消息超过十亿条，每秒峰值超过10w，最高时有数亿条消息通过CMQ的堆积能力缓冲了对后端消费模块的压力。
- [](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4a83d7744cceddbd97afbfd232c44428/01.png)
+ [](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/4a83d7744cceddbd97afbfd232c44428/01.png)
 图1-某充值系统结构
 CMQ 整体结构如图2所示，本文重点介绍后端broker set实现原理。通常情况下一个set由3个节点组成，通过多副本保证消息的可靠性、多节点提高系统可用性。当然，可以根据业务的实际需求通过增加set内节点个数来进一步提高可靠性和可用性，CMQ set 内部结构如图3所示。
- [](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/de45378ee687bc967210be63670236b4/02.png)
+ [](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/de45378ee687bc967210be63670236b4/02.png)
 图2-CMQ整体架构图
-[](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b491500e2ce701e862e2d7266e832715/03.png) 
+[](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b491500e2ce701e862e2d7266e832715/03.png) 
 图3-broker set 内部结构图
 下面分别中数据高可靠、强一致，系统可用性，可扩展、消息全路径追踪方面分别介绍。
 ### 2.2 高可靠保证
@@ -33,7 +33,7 @@ CMQ 整体结构如图2所示，本文重点介绍后端broker set实现原理�
 可靠生产带来的一个问题就是消息的重复，在网络异常等情况下很可能CMQ broker已经存储消息成功只是确认包在网络上丢失了，这样客户端重试生产后，在broker上存在两条重复的消息。考虑到消息去重开销较大，目前消息的幂等性需要业务逻辑来保证。
 #### 存储可靠
 CMQ SET中一个节点为leader 其他节点为follower，leader 负责所有消息的生产消费。当生产消息到达leader 节点后，通过raft 一致性模块将请求顺序写raft log 并同步刷盘，同时将构造好的raft log 按顺序通过网络发送到其他follower节点，follower节点同步刷盘并返回成功。当leader 收到过半数的节点同步成功信息后将此条请求提交到mq 处理状态机，由mq 状态机将请求应用到相应queue。大致逻辑图4所示。
- [](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d3ee244bb55af0792bd588cbfa77d9be/04.png)
+ [](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d3ee244bb55af0792bd588cbfa77d9be/04.png)
 图4-数据存储原理示意图
 
 由此可见，对于返回客户端成功的消息至少是分别在两个节点磁盘上存储成功的，这就将磁盘故障引起的数据丢失大大降低。另外数据在磁盘上存储时会将检验结果一同记下来，消费者在消费数据之前CMQ broker 会进行比较，确保消息是完整有效的。
@@ -44,19 +44,19 @@ CMQ SET中一个节点为leader 其他节点为follower，leader 负责所有消
 ### 2.3 强一致实现
 假如一个set中有3个节点(A, B, C), A为leader，B  C 是follower。如上图所示，对于返回客户端成功的请求数据在CMQ 中至少在两个节点上存在,假设为A  B，此时如果leader A故障，B C 两个follower 会自动选举出一个新leader，CMQ 使用的raft 算法可以保证这个leader 一定是拥有最全量log 信息中的一个，在此必定是B。此时B继续对外服务，B 和A 拥有相同的已经返回确认给用户的全量数据视图，数据是强一致的。
 对于A 和 B C 所在的网络发生分区的情况（如图5），由于leader A得不到set 中过半节点的回复所以不能处理请求，B C在选举超时后会选举出一个新的leader ，CMQ的接入层会自动进行切换。Raft 算法保证新leader 同样具有完成的数据视图。
- [](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/93baf968ad724d96d23fef61a256d281/05-1.png)
+ [](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/93baf968ad724d96d23fef61a256d281/05-1.png)
 图5-1 网络分区前   
-[](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/215a569c0b6e33ad210063bbc72db630/05-2.png)         
+[](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/215a569c0b6e33ad210063bbc72db630/05-2.png)         
 图5-2 发生网络分区      
-[](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/8cab123d330321fd596ba3f6d3007b72/05-3.png)
+[](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8cab123d330321fd596ba3f6d3007b72/05-3.png)
 图5-3 新leader对外服务          
 ### 2.4 可用性保证
- [](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d3eb9e9e6a178dbf10e6adfb3e74eaca/06.png)
+ [](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d3eb9e9e6a178dbf10e6adfb3e74eaca/06.png)
 图6 leader 选举流程
 如上文所述，master 负责所有消息的生产消费，当master 故障时SET中其他follower节点会自动选举出一个新leader，客户端请求会自动重定向到leader节点，RTO和配置的选举超时时间有关，目前是在5s左右。大致过程如上图6所示，具体选举算法请参考raft 论文。 
 CMQ单个set 在CAP理论中优先保证了CP，当SET中过半数节点都正常工作时，才能进行消息的生产消费。对于SET多个节点同时故障的不可用情况，CMQ强大的监控调度能力能够快速对queue进行调度迁移恢复服务，将不可用时间降到最低。
 ### 2.5 横向扩展，无限堆积
-  [](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/a79dbc6a1f33b220835dbf272eb2d67b/07.png)
+  [](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a79dbc6a1f33b220835dbf272eb2d67b/07.png)
 图7横向扩展
 上文中SET的概念对用户来说是透明无感知的，CMQ controller server 根据set的负载情况实时对queue进行调度搬迁。如果某个queue的请求量超过当前set的服务阈值，controller server 可以将queue 路由分布到多个set 上来提高并发量，对于需要海量堆积的服务来说可以通过路由调度来提升堆积上限，理论上可以达到无限堆积。
 目前CMQ只能保证特定情况下消息的严格有序，例如需要保证单个生产进程、单个消费进程，或者queue的消费窗口设定为1等条件。
@@ -82,10 +82,10 @@ CPU：RabbitMQ的日志缓存和状态转换运算较复杂，大量耗用CPU。
 ### 3.3 可用性提升
 CMQ和RabbitMQ都能够使用多台机器进行热备，提高可用性。CMQ基于Raft算法实现，简单易维护。RabbitMQ使用自创的GM算法（Guaranteed Multicast），学习难度高。
 
- [](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4b8606aba5db68bbf506543785afe749/08.png)
+ [](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/4b8606aba5db68bbf506543785afe749/08.png)
 图8  Raft日志复制
 Raft协议中，Log复制只要大多数节点向Leader返回成功，Leader就可以应用该请求，向客户端返回成功。
-[](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2bcb96730a47dc4d10b83e262a99e24c/09.png)
+[](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2bcb96730a47dc4d10b83e262a99e24c/09.png)
 图9  GM环状可靠多播
 GM可靠多播将集群中所有节点组成一个环。Log复制依次从Leader向后继节点传播，当Leader再次收到该请求时，发出确认消息在环中传播，直至Leader再次收到该确认消息，表明Log在环中所有节点同步完成。
 GM算法要求Log在集群所有节点同步之后才能向客户端返回成功；Raft算法则只要求大多数节点同步完成。Raft算法在同步路径上比GM算法减少了一半的等待时间。
