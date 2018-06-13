@@ -7,9 +7,6 @@
 | 修改私有网络名称 | [ModifyVpcAttribute](http://tce.fsphere.cn/doc/api/245/%E4%BF%AE%E6%94%B9%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%E5%90%8D%E7%A7%B0) | 修改指定vpc的名称。 |
 | 查询私有网络列表 | [DescribeVpcEx](http://tce.fsphere.cn/doc/api/245/%E6%9F%A5%E8%AF%A2%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%E5%88%97%E8%A1%A8) | 批量查询vpc信息，支持分页查询、模糊匹配等。|
 | 绑定私有网络内主机与VIP | [AssociateVip](http://tce.fsphere.cn/doc/api/245/%E7%BB%91%E5%AE%9A%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%E5%86%85%E4%B8%BB%E6%9C%BA%E4%B8%8EVIP) | 给vpc内云主机绑定一个VIP。 |
-| 创建私有网络和基础网络设备互通 | [AttachClassicLinkVpc](http://tce.fsphere.cn/doc/api/245/2098) | 创建私有网络和基础网络设备互通。 |
-| 删除私有网络和基础网络设备互通 | [DetachClassicLinkVpc](http://tce.fsphere.cn/doc/api/245/2097) | 删除私有网络和基础网络设备互通。 |
-| 查询私有网络和基础网络设备互通 | [DescribeVpcClassicLink](http://tce.fsphere.cn/document/api/215/2112) | 查询私有网络和基础网络设备互通。 |
 
 ## 2. 子网相关接口
 | 接口功能 | Action ID | 功能描述 | 
@@ -48,11 +45,9 @@
 ## 5. VPN相关接口
 | 接口功能 | Action ID |  功能描述 |
 |---------|---------|---------|
-| 查询VPN网关价格 | [InquiryVpnPrice](http://tce.fsphere.cn/doc/api/245/5104) | 查询VPN网关价格。 |
 | 购买VPN网关 | [CreateVpn](http://tce.fsphere.cn/doc/api/245/5106) | 购买vpn网关。 |
 | 修改VPN网关属性 | [ModifyVpnGw](http://tce.fsphere.cn/doc/api/245/5107) | 修改指定vpn网关信息，例如名称。|
 | 查询VPN网关列表 | [DescribeVpnGw](http://tce.fsphere.cn/doc/api/245/5108) | 根据用户信息，如vpn网关ID，名称，查询对应vpn网关的信息。|
-| 续费VPN网关 | [RenewVpn](http://tce.fsphere.cn/doc/api/245/5109) | 续费vpn网关。 |
 
 ## 6. 对端网关相关接口
 | 接口功能 | Action ID |  功能描述 |
@@ -74,14 +69,8 @@
 | 下载VPN通道配置 | [GetVpnConnConfig](http://tce.fsphere.cn/doc/api/245/5114) | 下载vpn通道配置，对通道配置做调整。 |
 | 获取VPN通道的监控数据 | [DescribeVpnConnMonitor](http://tce.fsphere.cn/doc/api/245/5115) |  获取VPN通道的监控数据。 |
 
-## 8. SSL VPN相关接口
-| 接口功能 | Action ID |  功能描述 |
-|---------|---------|---------|
-| 查询sslVPN | [DescribeSSLVpn](http://tce.fsphere.cn/doc/api/245/5121) | 查询sslVPN。 |
-| 查询sslVPN域 | [DescribeSSLVpnDomain](http://tce.fsphere.cn/doc/api/245/5122) | 查询sslVPN域。 |
-| 设置sslVPN域 | [SetSSLVpnDomain](http://tce.fsphere.cn/doc/api/245/5123) | 设置sslVPN域。 |
 
-## 9. 对等连接
+## 8. 对等连接
 | 接口功能 | Action ID |  功能描述 |
 |---------|---------|---------|
 | 创建同地域对等连接 | [CreateVpcPeeringConnection](http://tce.fsphere.cn/doc/api/245/2107) | 创建同地域对等连接。 |
@@ -98,7 +87,7 @@
 | 启用跨地域过期对等连接 | [EnableVpcPeeringConnectionEx](http://tce.fsphere.cn/doc/api/245/4808) | 启用跨地域过期对等连接。 |
 | 查询对等连接 | [DescribeVpcPeeringConnections](http://tce.fsphere.cn/doc/api/245/2101) | 查询对等连接。 |
 
-## 10. 专线网关相关接口
+## 8. 专线网关相关接口
 | 接口功能 | Action ID |  功能描述 |
 |---------|---------|---------|
 | 创建专线网关 | [CreateDirectConnectGateway](http://tce.fsphere.cn/doc/api/245/4824) | 创建专线网关。 |
@@ -130,7 +119,7 @@
 | 修改本端IP端口转换 acl策略 | [ModifyLocalSourceIPPortTranslationAclRule](http://tce.fsphere.cn/doc/api/245/5213) | 修改本端IP端口转换 acl策略。 |
 | 查询本端IP端口转换 acl策略 | [DescribeLocalSourceIPPortTranslationAclRule](http://tce.fsphere.cn/doc/api/245/5214) | 查询本端IP端口转换 acl策略。 |
 
-## 11. NAT网关相关接口
+## 10. NAT网关相关接口
 | 接口功能 | Action ID |  功能描述 |
 |---------|---------|---------|
 | 创建NAT网关 | [CreateNatGateway](http://tce.fsphere.cn/doc/api/245/4094) |  创建NAT网关。 |
@@ -142,7 +131,7 @@
 | NAT网关解绑EIP | [EipUnBindNatGateway](http://tce.fsphere.cn/doc/api/245/4092) | NAT网关解绑EIP。 |
 | 升级NAT网关规格 | [UpgradeNatGateway](http://tce.fsphere.cn/doc/api/245/4090) | 升级NAT网关规格。 |
 
-## 12. 弹性网卡相关接口
+## 11. 弹性网卡相关接口
 | 接口功能 | Action ID |  功能描述 |
 |---------|---------|---------|
 | 创建弹性网卡 | [CreateNetworkInterface](http://tce.fsphere.cn/doc/api/245/4811) |  创建弹性网卡。 |
@@ -155,12 +144,5 @@
 | 弹性网卡迁移 | [MigrateNetworkInterface](http://tce.fsphere.cn/doc/api/245/5384) | 弹性网卡迁移。 |
 | 内网IP迁移 | [MigratePrivateIpAddress](http://tce.fsphere.cn/doc/api/245/5385) | 内网IP迁移。 |
 
-## 13. 流日志相关接口
-| 接口功能 | Action ID |  功能描述 |
-|---------|---------|---------|
-| 创建流日志 | [CreateFlowLog](流日志相关接口/创建流日志) |  创建流日志。 |
-| 删除流日志 | [DeleteFlowLog](流日志相关接口/删除流日志) |  删除流日志。 |
-| 查询流日志信息 | [DescribeFlowLog](流日志相关接口/查询流日志信息) | 查询流日志实例信息。 |
-| 查询流日志列表 | [DescribeFlowLogs](流日志相关接口/查询流日志列表) | 查询流日志列表信息。 |
-| 修改流日志属性 | [ModifyFlowLogAttribute](流日志相关接口/修改流日志属性) | 修改流日志属性。 |
+
 
