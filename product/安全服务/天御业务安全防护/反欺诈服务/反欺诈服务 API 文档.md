@@ -8,7 +8,7 @@
 
 ## 输入参数
 
-以下请求参数列表仅列出了接口请求参数，正式调用时需要加上公共请求参数，详情请参见 [公共请求参数](http://tce.fsphere.cn/document/product/295/7279) 页面。其中，此接口的 Action 字段为 AntiFraud。
+以下请求参数列表仅列出了接口请求参数，正式调用时需要加上公共请求参数，详情请参见 [公共请求参数](http://tcecqpoc.fsphere.cn/document/product/295/7279) 页面。其中，此接口的 Action 字段为 AntiFraud。
 
 注意：以下每一个参数对于识别恶意用户和行为都非常重要，缺少任何参数都有可能影响识别效果 。
 
@@ -141,7 +141,7 @@ idfa</td>
 
 | 参数名称 | 类型 | 描述 |
 | ----- | ----- | ----- |
-| code | Int | 公共错误码；</br>0 表示成功，其他值表示失败；</br>详见 [错误码](http://tce.fsphere.cn/document/product/295/7285) 页面中的“公共错误码”相关内容。 |
+| code | Int | 公共错误码；</br>0 表示成功，其他值表示失败；</br>详见 [错误码](http://tcecqpoc.fsphere.cn/document/product/295/7285) 页面中的“公共错误码”相关内容。 |
 | codeDesc | String | 业务侧错误码；</br>成功时返回 Success；</br>错误时返回具体业务错误原因。 |
 | message | String | 模块错误信息描述，与接口相关。 |
 | idfound | Int | 表示该条记录中的身份证能否查到；</br>1 :能查到；</br>-1 :查不到。 |
@@ -233,9 +233,9 @@ RiskDetail 类型说明
 
 ## 示例代码
 
-代码下载：[Python 示例](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/a8b291becf06c9fefab003f6afc16509/AntiFraud.py.zip)、 [PHP 代码示例](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/06397c265ae2dc364f2f47559125ce5b/AntiFraud.php.zip)、 [Java 示例](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/70b700e34e982822af2a020454185a8d/AntiFraud.zip)、 [.Net 示例](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/05c3d0f6edbcd297502ab7407e91275b/AntiFraud.zip)
+代码下载：[Python 示例](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/a8b291becf06c9fefab003f6afc16509/AntiFraud.py.zip)、 [PHP 代码示例](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/06397c265ae2dc364f2f47559125ce5b/AntiFraud.php.zip)、 [Java 示例](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/70b700e34e982822af2a020454185a8d/AntiFraud.zip)、 [.Net 示例](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/05c3d0f6edbcd297502ab7407e91275b/AntiFraud.zip)
 
-一个完整的请求需要两类请求参数：公共请求参数和接口请求参数。这里只列出了接口请求参数，并未列出公共请求参数，有关公共请求参数的说明可见 [公共请求参数](http://tce.fsphere.cn/document/product/295/7279) 页面。
+一个完整的请求需要两类请求参数：公共请求参数和接口请求参数。这里只列出了接口请求参数，并未列出公共请求参数，有关公共请求参数的说明可见 [公共请求参数](http://tcecqpoc.fsphere.cn/document/product/295/7279) 页面。
 
 ```
 请求示例 ：

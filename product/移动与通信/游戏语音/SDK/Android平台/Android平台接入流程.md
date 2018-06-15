@@ -8,36 +8,36 @@ GcloudVoice 客户端SDK目前主要有实时语音(Real-Time)、离线语音(Me
 GcloudVoice 客户端SDK接口主要分成三个部分：基本API、实时语音API以及离线语音API。
 
 ### 1.1 系统配置和基本使用
-[Android SDK 下载](http://tce.fsphere.cn/document/product/556/10041)  
-[Android Demo 下载](http://tce.fsphere.cn/document/product/556/10042)  
+[Android SDK 下载](http://tcecqpoc.fsphere.cn/document/product/556/10041)  
+[Android Demo 下载](http://tcecqpoc.fsphere.cn/document/product/556/10042)  
 
 下载Android SDK包后，导入Jar包和SO文件到android工程后。按如下流程即可接入。 主要是导入包
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6f5adac586a22176e7f27155c2cb095f/1.png) 
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/6f5adac586a22176e7f27155c2cb095f/1.png) 
 然后通过    
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/fc862a3b8de404984c173d6d644fa33a/2.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/fc862a3b8de404984c173d6d644fa33a/2.png)
 初始化java. 再完成初始化以及对应的模式设置  
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ce293ff49f4cf57639f686fc8d6f451c/3.png)  
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ce293ff49f4cf57639f686fc8d6f451c/3.png)  
 实现和设置回调： 导入回调接口：  
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/0c1626efd6ccaaf610fa75ee1cdb282c/4.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/0c1626efd6ccaaf610fa75ee1cdb282c/4.png)
 实现回调类：  
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1396eee7c8ba16d27fcf55635308c317/5.png)  
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1396eee7c8ba16d27fcf55635308c317/5.png)  
 设置回调：  
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/727f245bc232509203aed2b6013adee2/6.png)  
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/727f245bc232509203aed2b6013adee2/6.png)  
 加入房间：  
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ce985387539c27a80716ab2303f29148/7.png)  
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ce985387539c27a80716ab2303f29148/7.png)  
 在回调中查看进房的回调结果：  
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/785a9e54c6c0ec141a936fa5fd64deb8/8.png)  
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/785a9e54c6c0ec141a936fa5fd64deb8/8.png)  
 成功后则可以OpenMic OpenSpeaker：  
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d5d36d5bd99d3c09695ef09b489d0e69/9.png)  
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d5d36d5bd99d3c09695ef09b489d0e69/9.png)  
   
 具体流程接口可以照以下文档的详细说明。
 
 ### 1.2 接口调用流程  
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/99e9bffb0f35d7d52d8775cfb47bc6ce/11.png)  
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/99e9bffb0f35d7d52d8775cfb47bc6ce/11.png)  
 首先实现IGCloudVoiceNotify回调，然后调用GetVoiceEngine获取IGCloudVoiceNotify对象。然后对该对象进行初始化操作并设置回调。接着再根据需要调用实时语音接口或者离线语音接口，然后在系统可以Tick的地方（如Unity3D的Update）调用Poll驱动处理事务中的回调信息。
 
 ### 1.3 实时语音接口调用流程  
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b36200d498f8ce1c564f37c592bce125/12.png)  
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b36200d498f8ce1c564f37c592bce125/12.png)  
 在使用实时语音的时候，首先需要调用SetMode方法设置使用实时语音模式。然后根据业务逻辑判断是需要加入小队语音房间或者国战语音房间，分别调用JoinTeamRoom和JoinNationalRoom。
 
 然后需要tick的调用poll来检查回调，当加入房间成功或者失败时，会回调OnJoinRoom方法。
@@ -50,7 +50,7 @@ GcloudVoice 客户端SDK接口主要分成三个部分：基本API、实时语�
 
 
 ### 1.4 离线语音接口调用流程  
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/5ff2e43e498ec6e8216b1a878cf501c3/13.png)  
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/5ff2e43e498ec6e8216b1a878cf501c3/13.png)  
 在使用语音消息的时候，首先需要调用SetMode方法设置使用语音消息模式。然后调用ApplyMessageKey申请用于离线语音的相关的key信息，当申请成功后会通过OnApplyMessageKey进行回调。
 
 当需要录音时，调用StartRecording接口将音频文件录制到文件中（文件的路径格式是file://your path）。如果想取消录制可以调用StopRecording接口进行取消。当录制完成后，调用UploadRecordedFile将文件上传到GcloudVoice的服务器上，该过程会通过OnUploadFile回调在上传成功的时候返还一个ShareFileID.该ID是这个文件的唯一标识符，用于其他用户收听时候的下载。服务器需要对其进行管理和转发

@@ -36,7 +36,7 @@ CLB 定价主要包括实例租用费和后端服务器带宽流量费。
 
 ### API 购买
 
-详情请参见 [负载均衡API](http://tce.fsphere.cn/doc/api/244/%E7%AE%80%E4%BB%8B)。
+详情请参见 [负载均衡API](http://tcecqpoc.fsphere.cn/doc/api/244/%E7%AE%80%E4%BB%8B)。
 
 ## 回收机制
 

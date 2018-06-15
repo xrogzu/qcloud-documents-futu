@@ -8,11 +8,11 @@
 此处及以下的%root%都表示云平台官网提供的SDK包的根目录
 - 2.%root%\samples\sample2\public\QAVSDKDemo\OpenGL_Restruct文件夹
 将其集成进入自己的工程中，集成后如图所示
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/52c94ef63daf4dabb92f941db2e6100b/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/52c94ef63daf4dabb92f941db2e6100b/image.png)
 
 ### 2.解决编译问题
 由于渲染的模块不是ARC模式的，假如工程使用MRC的模块，要在Targets -> Build Phrases -> Compile Sources里面将刚刚导入的渲染模块的全部文件加入编译标记 -fno-objc-arc 即可解决，效果如图所示：
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/32213471324acf314e8883f1c52b19ed/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/32213471324acf314e8883f1c52b19ed/image.png)
 
 ### 3.添加头文件
 

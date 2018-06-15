@@ -17,7 +17,7 @@
 或者直接在github下载zip包。<br>
 2.	导入项目<br>
 在IDE中导入jar包（如果代码不支持，可以直接复制代码文件）<br>
-<img src="http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/jieruwanxiang-22.jpg" alt="jieruwanxiang-22.jpg"><br><br>
+<img src="http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/jieruwanxiang-22.jpg" alt="jieruwanxiang-22.jpg"><br><br>
 3.	参照api说明和sdk中提供的demo，开发代码。<br>
 </p>
 
@@ -34,7 +34,7 @@
 签名分为2种：<br>
 		多次有效签名（有一定的有效时间）<br>
 		单次有效签名（绑定资源url，只能生效一次）<br>
-签名的详细描述及使用场景参见<a href="http://tce.fsphere.cn/doc/product/314/%E9%89%B4%E6%9D%83%E5%8F%8A%E7%AD%BE%E5%90%8D%E6%96%87%E6%A1%A3" title="微视频鉴权及签名文档">鉴权服务技术方案</a><br>
+签名的详细描述及使用场景参见<a href="http://tcecqpoc.fsphere.cn/doc/product/314/%E9%89%B4%E6%9D%83%E5%8F%8A%E7%AD%BE%E5%90%8D%E6%96%87%E6%A1%A3" title="微视频鉴权及签名文档">鉴权服务技术方案</a><br>
 2．	方法<br>
 多次有效签名<br>
 String appSign(int appId, String secretId, String secretKey, long expired, String bucketName)<br>
@@ -899,7 +899,7 @@ String uploadFile(String bucketName, String remotePath,String localPath,String v
 </td><td> String
 </td><td> 否
 </td><td> 无
-</td><td> 透传字段，微视频会将此字段信息透传给业务设定的回调url，具体参见<a href="http://tce.fsphere.cn/doc/product/314/%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97" title="微视频控制台操作指南">回调设置</a>
+</td><td> 透传字段，微视频会将此字段信息透传给业务设定的回调url，具体参见<a href="http://tcecqpoc.fsphere.cn/doc/product/314/%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97" title="微视频控制台操作指南">回调设置</a>
 </td></tr></tbody></table><br><br>
 <p>返回值,json格式字符串：<br>
 </p>
@@ -1028,7 +1028,7 @@ String sliceUpload(String bucketName,String remotePath,String localPath,String v
 </td><td> String
 </td><td> 否
 </td><td> 无
-</td><td> 透传字段，微视频会将此字段信息透传给业务设定的回调url，具体参见<a href="http://tce.fsphere.cn/doc/product/314/%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97" title="微视频控制台操作指南">回调设置</a>
+</td><td> 透传字段，微视频会将此字段信息透传给业务设定的回调url，具体参见<a href="http://tcecqpoc.fsphere.cn/doc/product/314/%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97" title="微视频控制台操作指南">回调设置</a>
 </td></tr>
 <tr>
 <td> sliceSize

@@ -248,4 +248,4 @@ typedef void (^WBFaceLoginFailureBlock)(WBFaceVerifyLogin errorCode, NSString *l
 -(NSDictionary *)wbfaceVerifySerivceGetExternalParamsWBFaceVerifyCustomerService:)service;
 ```
 
-上一步：[SDK 启动](http://tce.fsphere.cn/document/product/655/13824)
+上一步：[SDK 启动](http://tcecqpoc.fsphere.cn/document/product/655/13824)

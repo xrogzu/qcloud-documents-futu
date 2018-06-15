@@ -82,31 +82,31 @@ v1: digest: sha256:38b194feeee09abf8ee45e7abca82b9fe494b18b953c771ce8ebefa387107
 ### 操作步骤
 1. 登录 [容器服务控制台](http://console.tce.fsphere.cn/ccs) 。
 2. 单击左侧导航栏中的【服务】，在服务列表页单击【+新建】。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/11f7f75d7b051a815da8bfe1e744a8e8/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/11f7f75d7b051a815da8bfe1e744a8e8/image.png)
 3. 填写服务的基本信息。
  - **服务名称**：要创建的服务的名称。本例中，服务名称为 helloworld。
  - **所在地域**：建议您根据所在地理位置选择靠近的地域。
  - **运行集群**：选择合适的集群和 Namespace。
  - **服务描述**：服务的相关信息。该信息将显示在 **服务信息** 页面。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a09e01f2f54a5d68720d4078d21e7c46/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a09e01f2f54a5d68720d4078d21e7c46/image.png)
 4. 选择镜像。输入运行容器的名称，此处以 helloworld 为例。单击【选择镜像】 。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/abb29fc594b5d87d7c475585b1dbe143/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/abb29fc594b5d87d7c475585b1dbe143/image.png)
 在 **我的镜像** 下，在搜索框中输入 helloworld，单击搜索。在搜索结果中选择 helloworld，单击 【确定】。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/3f4e4dada565b815788720fb6436a6c6/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/3f4e4dada565b815788720fb6436a6c6/image.png)
 5. 设置端口映射。将容器端口设置为 8080 。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6e2110856cd51efe51431a4a3977e3ea/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/6e2110856cd51efe51431a4a3977e3ea/image.png)
 6. 单击【创建服务】。完成 helloworld 服务的创建。
 >**注意：**
 >其他选项保持为默认设置。
 
 ## 访问 helloworld 服务
 1. 单击服务页面的【服务信息】查看负载均衡 ID 和负载均衡 IP 。 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7891c817f167f7726b67615696cfff08/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/7891c817f167f7726b67615696cfff08/image.png)
 2. 提供两种种方式访问  helloworld 服务。
  - 通过负载均衡 IP 来访问  helloworld 服务。
  - 通过 **域名** 来访问  helloworld 服务。
  在容器服务控制台左侧导航栏中，单击【负载均衡】，单击【TCP/UDP】，复制域名访问服务。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a1bd366e0154dff0a15c7d062c500699/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a1bd366e0154dff0a15c7d062c500699/image.png)
  
 3. 在浏览器中输入 IP 地址，即可看到 Hello World！
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ef9e2067f34004f49f7fe1360f20c3a5/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ef9e2067f34004f49f7fe1360f20c3a5/image.png)

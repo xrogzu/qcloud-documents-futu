@@ -120,8 +120,8 @@ status:
 接下来可以使用创建的模板，进行应用服务部署。关于如何使用应用模板进行应用部署可以参考[创建应用][16]。关于`nginx`这个应用模板具体部署应用的过程可以参考[应用模板示例-Nginx单服务应用][17]。
 
 [1]: http://console.tce.fsphere.cn/ccs/template
-[import]:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/3edab39e7f0dff61d121dc6b0cca6892/image.png
-[show]:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7d19bbccbcf86d5514d2f92562444bff/image.png
+[import]:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/3edab39e7f0dff61d121dc6b0cca6892/image.png
+[show]:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/7d19bbccbcf86d5514d2f92562444bff/image.png
 
-[16]: http://tce.fsphere.cn/document/product/457/11942
-[17]: http://tce.fsphere.cn/document/product/457/11952
+[16]: http://tcecqpoc.fsphere.cn/document/product/457/11942
+[17]: http://tcecqpoc.fsphere.cn/document/product/457/11952

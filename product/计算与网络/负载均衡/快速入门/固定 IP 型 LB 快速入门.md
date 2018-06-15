@@ -2,7 +2,7 @@
 
 ## 前提条件
 - 负载均衡只负责转发流量，不具备处理请求的能力。因此，您首先需要有用以处理用户请求的运行中的云服务器实例。本示例要求您只要具有两台云服务器实例，您也可以自行规划需要向多少云服务器转发请求。本例中已经在北京地域下创建了云服务器实例 `rs-1` 和 `rs-2`。有关如何创建云服务器实例，请参考 [购买并启动云服务器实例](/doc/product/213/4855)。
-- 本例以 HTTP 转发为例，云服务器上必须部署相应的 Web 服务器，如 Apache、Nginx、IIS等。为了验证结果，示例在 `rs-1` 上部署了Apache 并返回一个带有 “This is rs-1” 的 HTML，在 `rs-2` 上部署了Apache 并返回一个带有 “This is rs-2” 的 HTML。有关如何在云服务器上部署服务的更多内容，请参考 [Windows 安装配置 IIS 和 PHP](http://tce.fsphere.cn/doc/product/213/2755) 及 [Linux 系统环境配置（CentOS）](http://tce.fsphere.cn/doc/product/213/2125)。
+- 本例以 HTTP 转发为例，云服务器上必须部署相应的 Web 服务器，如 Apache、Nginx、IIS等。为了验证结果，示例在 `rs-1` 上部署了Apache 并返回一个带有 “This is rs-1” 的 HTML，在 `rs-2` 上部署了Apache 并返回一个带有 “This is rs-2” 的 HTML。有关如何在云服务器上部署服务的更多内容，请参考 [Windows 安装配置 IIS 和 PHP](http://tcecqpoc.fsphere.cn/doc/product/213/2755) 及 [Linux 系统环境配置（CentOS）](http://tcecqpoc.fsphere.cn/doc/product/213/2125)。
 
 > 注：示例中后端服务器部署的服务返回值不同，实际情况下，为保持所有用户均有一致体验，后端服务器上一般是部署完全相同的服务。
 
@@ -52,9 +52,9 @@
 4) 点击【确定】按钮。
 
 ## 购买域名并解析到负载均衡实例
-1) 打开[云平台域名注册页面](http://tce.fsphere.cn/product/dm.html) 进行域名查询和注册。本例以 qcloudtest.com 为例。
+1) 打开[云平台域名注册页面](http://tcecqpoc.fsphere.cn/product/dm.html) 进行域名查询和注册。本例以 qcloudtest.com 为例。
 
-相关文档可以参考[如何注册域名](http://tce.fsphere.cn/doc/product/242/3717)
+相关文档可以参考[如何注册域名](http://tcecqpoc.fsphere.cn/doc/product/242/3717)
 
 2) 登录[云平台控制台](http://console.tce.fsphere.cn/)，点击【云产品】-【域名管理】-【解析】。
 
@@ -79,7 +79,7 @@
 - 如用户开启会话保持功能，或关闭会话保持功能但选择ip_hash的调度方式，则请求持续分配到同一台后端服务器上去。
 - 如用户关闭会话保持功能，选择轮询的方式进行调度，则请求依次分配到不同后端服务器上。
 
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/6db39e63f01e0212b85811d17467e5be/image.png)
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/3a3df321b536f701c172f200f36bddc7/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/6db39e63f01e0212b85811d17467e5be/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/3a3df321b536f701c172f200f36bddc7/image.png)
 
 

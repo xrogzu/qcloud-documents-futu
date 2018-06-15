@@ -4,10 +4,10 @@ Tencent Cloud Computing (Beijing) Limited Liability Company (“Tencent”)
 20th Floor, Yin Ke Building, No. 38 Haidian street, Haidian District, Beijing 100080, China
 中国北京市海淀区海淀大街38号银科大厦20层
 
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/e2fc22a438f77897f9d677d350829a4e.png)
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/8279fda15063143d7953533bdb2122bd.png)
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/527d78d82dbbfecec9e0fe47168aafd6.png)
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/64a1497a2820c6595a7b7dbcf44fe25a.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/e2fc22a438f77897f9d677d350829a4e.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/8279fda15063143d7953533bdb2122bd.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/527d78d82dbbfecec9e0fe47168aafd6.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/64a1497a2820c6595a7b7dbcf44fe25a.png)
 A. Terms of Your Order 订购文件条款
 1. Applicable Agreement:  适用的协议
 This order incorporates by reference the terms of the Cloud Services Agreement and all amendments and addenda 

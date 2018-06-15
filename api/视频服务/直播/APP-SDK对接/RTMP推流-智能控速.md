@@ -1,7 +1,7 @@
 ## 背景说明
 RTMP 推流质量对于观看体验非常关键，因为如果主播的推流质量不佳，那么所有观众看到的视频画面都是卡顿的，据统计，视频云客户群 80% 以上的直播间卡顿问题均是由于 RTMP 推流质量不佳导致的。
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/4bf231da79ec8e45bdc4c16c927da47f/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/4bf231da79ec8e45bdc4c16c927da47f/image.png)
 
 在众多的推流质量问题中，主播的上行网络不给力引发的问题又是最主要的，上行带宽不足会导致音视频数据在主播端堆积并丢弃，从而使观众端看到的视频画面出现卡顿甚至长时间卡死。
 

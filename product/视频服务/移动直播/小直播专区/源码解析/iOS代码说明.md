@@ -1,6 +1,6 @@
 ## 1.工程结构
-[下载](http://tce.fsphere.cn/document/product/454/7873)小直播代码后，您将看到TCLVBIMDemo.xcworkspace文件，这是小直播的Xcode工程工作区，用于管理小直播的代码工程和依赖的第三方开源类库（位于Pods目录下），如果您需要编译或浏览小直播相关代码，请打开此文件，请勿直接打开小直播的工程文件TCLVBIMDemo.xcodeproj。打开TCLVBIMDemo.xcworkspace后，您将看到如下的工程目录结构：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8673bf53392e34a9f38d8a5a8625e8eb/image.jpg)
+[下载](http://tcecqpoc.fsphere.cn/document/product/454/7873)小直播代码后，您将看到TCLVBIMDemo.xcworkspace文件，这是小直播的Xcode工程工作区，用于管理小直播的代码工程和依赖的第三方开源类库（位于Pods目录下），如果您需要编译或浏览小直播相关代码，请打开此文件，请勿直接打开小直播的工程文件TCLVBIMDemo.xcodeproj。打开TCLVBIMDemo.xcworkspace后，您将看到如下的工程目录结构：
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/8673bf53392e34a9f38d8a5a8625e8eb/image.jpg)
 
 |工程目录 | 说明 | 
 |---------|---------|
@@ -15,13 +15,13 @@
 ## 2.编译运行
 下载代码后，打开**TCLVBIMDemo.xcworkspace**工程文件（请勿直接打开小直播的工程文件TCLVBIMDemo.xcodeproj），由于小直播目前还不支持模拟器调试，只能在真机调试，所以您需要按照如下步骤配置工程的证书：
 **Step1:配置bundle id及签名证书**
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e2c29a0daa9dbba958c970fadc0a3f09/image.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/e2c29a0daa9dbba958c970fadc0a3f09/image.jpg)
 **Step2:配置完签名后，还需要配置App Groups**
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/cd7f2559857e8248efa08551e80e8c05/image.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/cd7f2559857e8248efa08551e80e8c05/image.jpg)
 **Step3:配置其他TARGETS**
 按照Step1和Step2配置另外2个targets：TCLVBIMDemoUpload和TCLVBIMDemoUploadUI，这2个targets是用于replaykit方式的录屏推流，如果您不需要这个功能，可以删除这2个targets
 
-配置完成后，工程就可以在真机上运行，但是如果要真正体验小直播的功能，还需要修改TCConstants.h中的配置，如何配置，请参考[终端集成](http://tce.fsphere.cn/document/product/454/7999#4.-.E7.BB.88.E7.AB.AF.E9.9B.86.E6.88.90.E5.8F.8A.E5.9B.9E.E8.B0.83.E8.AE.BE.E7.BD.AE)
+配置完成后，工程就可以在真机上运行，但是如果要真正体验小直播的功能，还需要修改TCConstants.h中的配置，如何配置，请参考[终端集成](http://tcecqpoc.fsphere.cn/document/product/454/7999#4.-.E7.BB.88.E7.AB.AF.E9.9B.86.E6.88.90.E5.8F.8A.E5.9B.9E.E8.B0.83.E8.AE.BE.E7.BD.AE)
 
 ## 3.模块介绍
 小直播按照功能不同划分了7个模块，分别为：帐号、列表管理、推流、播放、消息、资料以及连麦，代码上也是按照这种划分进行分类，下面我们将分别介绍这些模块以及相应实现。
@@ -29,8 +29,8 @@
 ### 帐号模块
 #### 模块简介
 - 帐号模块负责处理用户登录/注册以及登录缓存的逻辑
-- 登录注册功能使用[TLSSDK托管](http://tce.fsphere.cn/doc/product/269/%E6%89%98%E7%AE%A1%E6%A8%A1%E5%BC%8F)登录实现
-- 如果您已经有自己的帐号体系，可以直接替换该模块，并调用TCIMPlatform的guestLogin接口以游客身份使用IM通道，详情请参考[替换帐号](http://tce.fsphere.cn/doc/api/258/6441)
+- 登录注册功能使用[TLSSDK托管](http://tcecqpoc.fsphere.cn/doc/product/269/%E6%89%98%E7%AE%A1%E6%A8%A1%E5%BC%8F)登录实现
+- 如果您已经有自己的帐号体系，可以直接替换该模块，并调用TCIMPlatform的guestLogin接口以游客身份使用IM通道，详情请参考[替换帐号](http://tcecqpoc.fsphere.cn/doc/api/258/6441)
 - 在TLSSDK登录鉴权成功后，可以通过鉴权返回的UserId与UserSig调用ImSDK的login接口完成IM模块的登录
 - 用户可以通过帐号密码/手机验证码两种方式进行注册与登录
 - 帐号模块会缓存最后登录的用户基本信息（UserId与UserSig）在本地，通过接口调用可以获取最近登录的用户信息并判断是否需要重新登录
@@ -73,10 +73,10 @@
 - 主播端可以展示观众列表，当有观众进入，退出房间时候，观众列表会刷新，主播也会收到观众进入或则退出房间消息
 
 #### 推流时序图
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6fb00666a6a1cdea732fbddccc5fc786/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/6fb00666a6a1cdea732fbddccc5fc786/image.png)
 
 #### UI层级结构
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/df03a372dfdb1fe5ca8a8675dc9e7dcb/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/df03a372dfdb1fe5ca8a8675dc9e7dcb/image.png)
 
 #### 相关代码
 - Logic:
@@ -92,7 +92,7 @@
 - 观众端可以展示主播信息，观众列表，当有观众进入，退出房间时候，观众列表会刷新，同时消息列表也会展示其他观众进入，退出房间的消息。
 
 #### 播放时序图
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/fb9f9002c2d973d069bb9c1568037e26/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/fb9f9002c2d973d069bb9c1568037e26/image.png)
 
 #### UI层级结构
 请参考推流模块的UI层级结构
@@ -106,7 +106,7 @@
 
 ### 消息
 #### 模块介绍
-- 小直播的互动消息功能主要基于[ImSDK](http://tce.fsphere.cn/doc/product/269/1569)的群聊功能实现，需要在IMSDK登录后才能调用
+- 小直播的互动消息功能主要基于[ImSDK](http://tcecqpoc.fsphere.cn/doc/product/269/1569)的群聊功能实现，需要在IMSDK登录后才能调用
 - 每个直播间都是一个直播大群，推流端在推流之前需要创建直播大群，结束推流时，解散该群；播放端在进入该直播间时，加入该群，退出直播间时，则退出该群
 - 通过实现消息收发的监听类，可以在监听接口中获取相应的消息通知，目前实现的消息类型：文本消息、弹幕消息、点赞消息、用户加入/退出消息、群组解散消息
 - 各种类型的消息都是以文本消息形式发送，采用统一的JSON格式，在JSON中携带消息类型、发送者id、昵称、头像、消息文本的信息，接收端收到消息后解析JSON格式，向上层回调各种类型的消息
@@ -157,7 +157,7 @@
 - 主播端开始直播后，连麦观众向主播发起连麦请求，主播同意连麦请求后，连麦观众和主播分别通过对方的播放地址拉取视频数据并展示，后台对主播和连麦观众的推流数据进行混流，第三方观众看到的直接是混流后的视频
 
 #### 时序图
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1b80501829fd5528bf41d4c9a84aed2b/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1b80501829fd5528bf41d4c9a84aed2b/image.png)
 
 #### 相关代码
 - Logic:

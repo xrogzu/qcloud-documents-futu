@@ -16,7 +16,7 @@ Host: <Bucketname>-<APPID>.cos.<Region>.myqcloud.com
 Date: GMT date
 Authorization: Auth String
 ```
-> Authorization: Auth String (详细参见 [请求签名](http://tce.fsphere.cn/document/product/436/7778) 章节)
+> Authorization: Auth String (详细参见 [请求签名](http://tcecqpoc.fsphere.cn/document/product/436/7778) 章节)
 
 ### 请求行
 
@@ -28,7 +28,7 @@ PUT /?versioning HTTP 1.1
 ### 请求头
 
 #### 公共头部
-该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](http://tce.fsphere.cn/document/product/436/7728) 章节。
+该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](http://tcecqpoc.fsphere.cn/document/product/436/7728) 章节。
 
 #### 非公共头部
 该请求操作无特殊的请求头部信息。
@@ -51,7 +51,7 @@ PUT /?versioning HTTP 1.1
 
 ### 响应头
 #### 公共响应头 
-该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](http://tce.fsphere.cn/document/product/436/7729) 章节。
+该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](http://tcecqpoc.fsphere.cn/document/product/436/7729) 章节。
 #### 特有响应头
 该响应无特殊的响应头。
 
@@ -65,7 +65,7 @@ PUT /?versioning HTTP 1.1
 | InvalidArgument | 400 Bad Request |如果开启版本管理的 xml body 为空，会返回 InvalidArgument  | 
 | InvalidDigest   |400 Bad Request | 1. 携带的 Content-MD5 和服务端计算的请求 body 的不一致；<br>2. 开启版本管理的状态只有 Enabled 和 Suspended 两个合法值，如果写了其他状态，会返回 InvalidArgument | 
 
-获取更多关于 COS 的错误码的信息，或者产品所有的错误列表，请查看 [错误码](http://tce.fsphere.cn/document/product/436/7730) 文档。
+获取更多关于 COS 的错误码的信息，或者产品所有的错误列表，请查看 [错误码](http://tcecqpoc.fsphere.cn/document/product/436/7730) 文档。
 
 ## 实际案例
 ```

@@ -9,10 +9,10 @@
 + 支持一次查询多个域名的详细信息
 + 调用频率限制为 1000次/分钟
 
-[查看调用示例](http://tce.fsphere.cn/document/product/228/1734)
+[查看调用示例](http://tcecqpoc.fsphere.cn/document/product/228/1734)
 
 ## 入参说明
-以下请求参数列表仅列出了接口请求参数，正式调用时需要加上公共请求参数，见[公共请求参数](http://tce.fsphere.cn/doc/api/231/4473)页面。其中，此接口的 Action 字段为 GetHostInfoById。
+以下请求参数列表仅列出了接口请求参数，正式调用时需要加上公共请求参数，见[公共请求参数](http://tcecqpoc.fsphere.cn/doc/api/231/4473)页面。其中，此接口的 Action 字段为 GetHostInfoById。
 
 | 参数名称 | 是否必选 | 类型 | 描述                             |
 | -------- | -------- | ---- | -------------------------------- |
@@ -31,10 +31,10 @@ ids.0=123&ids.1=1234
 
 | 参数名称     | 类型     | 描述                                       |
 | -------- | ------ | ---------------------------------------- |
-| code     | Int    | 公共错误码，0表示成功，其他值表示失败。<br/>详见错误码页面[公共错误码](http://tce.fsphere.cn/doc/api/231/5078#1.-.E5.85.AC.E5.85.B1.E9.94.99.E8.AF.AF.E7.A0.81)。 |
+| code     | Int    | 公共错误码，0表示成功，其他值表示失败。<br/>详见错误码页面[公共错误码](http://tcecqpoc.fsphere.cn/doc/api/231/5078#1.-.E5.85.AC.E5.85.B1.E9.94.99.E8.AF.AF.E7.A0.81)。 |
 | message  | String | 模块错误信息描述，与接口相关。                          |
 | codeDesc | String | 英文错误信息，或业务侧错误码。                          |
-| data     | Array  | 结果数据，详细说明见下文<br/>详见错误码页面[业务错误码](http://tce.fsphere.cn/document/product/228/5078#2.-.E6.A8.A1.E5.9D.97.E9.94.99.E8.AF.AF.E7.A0.81) |
+| data     | Array  | 结果数据，详细说明见下文<br/>详见错误码页面[业务错误码](http://tcecqpoc.fsphere.cn/document/product/228/5078#2.-.E6.A8.A1.E5.9D.97.E9.94.99.E8.AF.AF.E7.A0.81) |
 
 ### 详细说明
 
@@ -82,7 +82,7 @@ ids.0=123&ids.1=1234
 | ssl_cert_id       | String | 托管证书ID                                                   |
 | seo               | String | 是否开启SEO优化<br/>"off"：表示未开启<br/>"on"：表示开启     |
 | status_code_cache | Object | 状态码缓存设置<br/>"404"：404状态码缓存过期时间，单位为秒，设置为 0 表示不缓存 |
-| safety_chain      | Object | 时间戳鉴权设置<br/>"switch"：开关，on-开启，off-关闭<br/>"key"：鉴权key<br/>"time_format"：时间戳格式，10-十进制，16-16进制<br/>"ttl_time"：过期时间<br/>更多配置说明可查看[鉴权配置](http://tce.fsphere.cn/document/product/228/13677) |
+| safety_chain      | Object | 时间戳鉴权设置<br/>"switch"：开关，on-开启，off-关闭<br/>"key"：鉴权key<br/>"time_format"：时间戳格式，10-十进制，16-16进制<br/>"ttl_time"：过期时间<br/>更多配置说明可查看[鉴权配置](http://tcecqpoc.fsphere.cn/document/product/228/13677) |
 | capping           | Object | 带宽上限设置<br/>"bandwidth"：设置的带宽封顶阈值<br/>"uint"：设置带宽封顶阈值的单位<br/>"hy"：yes 表示设置为请求回源<br/>"active"：yes 表示开启带宽封顶 |
 | host_config       | Object | 其他高级配置项，具体见下文                                   |
 

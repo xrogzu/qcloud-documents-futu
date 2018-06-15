@@ -19,15 +19,15 @@
 
 8) 使用<实例ID：用户密码>作为访问密码，可以正常访问实例
  
-  [查看代码示例](http://tce.fsphere.cn/wiki/%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B)
+  [查看代码示例](http://tcecqpoc.fsphere.cn/wiki/%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B)
 新建实例：
 	
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Resis-1.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Resis-1.png)
 
 实例初始化密码：
 	
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img569de0e096f15.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img569de0e096f15.png)
 
 密码初始化完成，实例正常运行：
 	
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img569de0f790f16.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img569de0f790f16.png)

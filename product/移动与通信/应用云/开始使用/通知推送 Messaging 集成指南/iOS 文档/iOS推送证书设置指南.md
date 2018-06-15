@@ -25,42 +25,42 @@ openssl s_client -connect gateway.push.apple.com:2195 -cert xxx.pem -key xxx.pem
 ### 设置步骤
 
 首先，登录 [苹果开发者中心网站](https://Developer.apple.com/account)。然后点击 Certificates,Identifiers & Profiles
-![开发者网站](http://imgcache.tce.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151118164839_43490.jpg)
+![开发者网站](http://imgcache.tcecqpoc.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151118164839_43490.jpg)
 
 
 然后点击 Certificates
-![Certificates](http://imgcache.tce.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151118164854_57803.jpg)
+![Certificates](http://imgcache.tcecqpoc.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151118164854_57803.jpg)
 
 
 选中需要制作 Push 证书的应用，勾选 Push 服务
 
-![制作证书](http://imgcache.tce.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151118165407_29483.jpg)
+![制作证书](http://imgcache.tcecqpoc.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151118165407_29483.jpg)
 
 下面以制作开发证书为例演示。点击 Create Certificate…
-![Create Certificate](http://imgcache.tce.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151110192434_69196.png)
-![create certificate2](http://imgcache.tce.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151118170034_31723.jpg)
+![Create Certificate](http://imgcache.tcecqpoc.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151110192434_69196.png)
+![create certificate2](http://imgcache.tcecqpoc.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151118170034_31723.jpg)
 
 
 然后打开 Keychain Access 工具
-![Keychain Access](http://imgcache.tce.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151118170223_56259.jpg)
+![Keychain Access](http://imgcache.tcecqpoc.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151118170223_56259.jpg)
 
  选择 Request a Certificate From a Certificate Authority…
- ![Request a certificate From a certificate authority](http://imgcache.tce.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151118170327_87514.jpg)
+ ![Request a certificate From a certificate authority](http://imgcache.tcecqpoc.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151118170327_87514.jpg)
 
 填写邮件地址，其它留空，继续，证书将保存到本地
-![Fill email address](http://imgcache.tce.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151110193013_44930.png)
+![Fill email address](http://imgcache.tcecqpoc.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151110193013_44930.png)
 
 
 返回网站，选择刚才创建的文件上传
 
-![Upload Certificate](http://imgcache.tce.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151118170443_25583.jpg)
+![Upload Certificate](http://imgcache.tcecqpoc.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151118170443_25583.jpg)
 
 成功后，下载到本地
-![Download Certificate](http://imgcache.tce.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151118170536_85822.jpg)
+![Download Certificate](http://imgcache.tcecqpoc.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151118170536_85822.jpg)
 
 再次打开Keychain Access。选中 Push 证书导出，选中一行，导出的格式为 p12
 
-![Keychain Access export p12](http://imgcache.tce.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151118170642_42628.jpg)
+![Keychain Access export p12](http://imgcache.tcecqpoc.fsphere.cn/image/developer.qq.com/wiki/xg/imgs/20151118170642_42628.jpg)
 
 ### 生成 pem 格式的证书
 

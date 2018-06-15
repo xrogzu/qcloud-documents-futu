@@ -40,4 +40,4 @@ public class HelloRedis {
 ```
 
 **运行结果**：
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/JAVA-1.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/JAVA-1.jpg)

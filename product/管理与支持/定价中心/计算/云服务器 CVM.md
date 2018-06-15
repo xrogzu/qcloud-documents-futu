@@ -22,7 +22,7 @@ CVM 定价主要包括 CVM 实例价格，磁盘价格，网络价格。
 
 本文档说明云服务器按量计费的价格规则，具体价格请点击 [CVM价格计算器](https://buy.tce.fsphere.cn/calculator/cvm?devPayMode=hourly) 进行测算。
 
-2016年7月26日12时开始，CVM按量计费实行3级阶梯价，新购、原有规格CVM实例均参照新价格体系标准。了解云服务器CVM按量计费价格调整策略 请参见 [云服务器按量计费价格调整](http://tce.fsphere.cn/event/unit-pricing.html) 。同时，**按照最新计费方式，CVM 按量计费实行3阶级梯价，用得越久，优惠就越大**，详情如下：
+2016年7月26日12时开始，CVM按量计费实行3级阶梯价，新购、原有规格CVM实例均参照新价格体系标准。了解云服务器CVM按量计费价格调整策略 请参见 [云服务器按量计费价格调整](http://tcecqpoc.fsphere.cn/event/unit-pricing.html) 。同时，**按照最新计费方式，CVM 按量计费实行3阶级梯价，用得越久，优惠就越大**，详情如下：
 
 |阶段|第一阶梯|第二阶梯|第三阶梯|
 |---|---|---|---|
@@ -34,7 +34,7 @@ CVM 定价主要包括 CVM 实例价格，磁盘价格，网络价格。
 |价格(元／小时)  |P |50% × P | 34% × P|
 > 注: P 为按量计费云服务器的第一阶梯的单价。
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2b8e3a898dab0454d77d99a0e1c1eb07/image.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/2b8e3a898dab0454d77d99a0e1c1eb07/image.jpg)
 
 以1核2GB配置为例，第一阶梯价格为0.42元/小时，第二阶梯价格为0.42×(1-50%)=0.21元/小时，第三阶梯价格为0.42×(1-50%-16%)=0.14元/小时
 
@@ -130,7 +130,7 @@ CVM 定价主要包括 CVM 实例价格，磁盘价格，网络价格。
 5) 订单支付后立即开通服务器，10分钟左右即可看到IP地址，进行登录管理。（开通按量云服务器后，请确保您的账户余额充足）
 
 ## API购买
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;API 购买云服务器,请参见API文档[创建实例（包年包月）](http://tce.fsphere.cn/doc/api/229/%E5%88%9B%E5%BB%BA%E5%AE%9E%E4%BE%8B%EF%BC%88%E5%8C%85%E5%B9%B4%E5%8C%85%E6%9C%88%EF%BC%89)和[创建实例（按量计费）](http://tce.fsphere.cn/doc/api/229/%E5%88%9B%E5%BB%BA%E5%AE%9E%E4%BE%8B%EF%BC%88%E6%8C%89%E9%87%8F%E8%AE%A1%E8%B4%B9%EF%BC%89)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;API 购买云服务器,请参见API文档[创建实例（包年包月）](http://tcecqpoc.fsphere.cn/doc/api/229/%E5%88%9B%E5%BB%BA%E5%AE%9E%E4%BE%8B%EF%BC%88%E5%8C%85%E5%B9%B4%E5%8C%85%E6%9C%88%EF%BC%89)和[创建实例（按量计费）](http://tcecqpoc.fsphere.cn/doc/api/229/%E5%88%9B%E5%BB%BA%E5%AE%9E%E4%BE%8B%EF%BC%88%E6%8C%89%E9%87%8F%E8%AE%A1%E8%B4%B9%EF%BC%89)
 
 ## CVM 实例配置
 
@@ -185,7 +185,7 @@ CVM 定价主要包括 CVM 实例价格，磁盘价格，网络价格。
 
 ### 按量计费 CVM 
  
- ![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img567f91951599d.png)
+ ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img567f91951599d.png)
  
 - 余额预警
 系统每天会根据您名下按量付费资源过去24小时的消费情况以及账户余额情况，预估余额可支撑的时间。若可支撑时间小于5天，我们将会向您推送余额预警。预警消息将通过邮件及短信的方式通知到云平台账户的创建者以及所有协作者。

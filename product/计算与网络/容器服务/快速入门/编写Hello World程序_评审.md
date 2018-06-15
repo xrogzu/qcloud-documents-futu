@@ -78,28 +78,28 @@ v1: digest: sha256:38b194feeee09abf8ee45e7abca82b9fe494b18b953c771ce8ebefa387107
 ## 第二步：通过该镜像创建 Hello World 服务
 >**注意：**
 > 在创建使用 Hello World 服务之前，您必须拥有:
-1. 一个帐户。有关如何创建帐户，请在 [注册页面](http://tce.fsphere.cn/register) 填写相关信息注册帐户。
-2. 一个创建好的集群。有关如何创建集群的详细信息，参见 [新建集群](http://tce.fsphere.cn/document/product/457/9091) 。
+1. 一个帐户。有关如何创建帐户，请在 [注册页面](http://tcecqpoc.fsphere.cn/register) 填写相关信息注册帐户。
+2. 一个创建好的集群。有关如何创建集群的详细信息，参见 [新建集群](http://tcecqpoc.fsphere.cn/document/product/457/9091) 。
 
 ### 操作步骤
 1) 登录 [容器服务控制台](http://console.tce.fsphere.cn/ccs) 。
 2) 单击左侧导航栏中的【服务】，单击服务列表页的【+ 新建】。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/11f7f75d7b051a815da8bfe1e744a8e8/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/11f7f75d7b051a815da8bfe1e744a8e8/image.png)
 3) 设置服务的基本信息。
  - **服务名称**：要创建的服务的名称。服务名称由小写字母、数字和 - 组成，且由小写字母开头，小写字母或数字结尾。本例中，服务名称为 helloworld。
  - **所在地域**：建议您根据所在地理位置选择靠近的地域。
  - **运行集群**：选择服务所要运行的集群。运行集群需要选择运行中和集群内有可用主机的集群。
  - **服务描述**：创建服务的相关信息。该信息将显示在 **服务信息** 页面。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a09e01f2f54a5d68720d4078d21e7c46/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a09e01f2f54a5d68720d4078d21e7c46/image.png)
 
 4) 选择镜像。输入运行容器的名称，此处以 helloworld 为例。单击【选择镜像】 。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/abb29fc594b5d87d7c475585b1dbe143/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/abb29fc594b5d87d7c475585b1dbe143/image.png)
 在 **我的镜像** 下，在搜索框中输入 helloworld，单击搜索。在搜索结果中选择 helloworld，单击 【确定】。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/3f4e4dada565b815788720fb6436a6c6/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/3f4e4dada565b815788720fb6436a6c6/image.png)
 5) 设置端口映射。将容器端口和服务端口都设置为 80 。
->**注意**：服务所在集群的安全组需要放通节点网络及容器网络，同时需要放通30000-32768端口，否则可能会出现容器服务无法使用问题。详情参见[容器服务安全组设置](http://tce.fsphere.cn/document/product/457/9084)
+>**注意**：服务所在集群的安全组需要放通节点网络及容器网络，同时需要放通30000-32768端口，否则可能会出现容器服务无法使用问题。详情参见[容器服务安全组设置](http://tcecqpoc.fsphere.cn/document/product/457/9084)
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a86f50da339892896871ab9408514433/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a86f50da339892896871ab9408514433/image.png)
 
 6) 单击 **创建服务**。完成 Hello World 服务的创建。
 >**注意**：其他选项保持为默认设置。
@@ -107,11 +107,11 @@ v1: digest: sha256:38b194feeee09abf8ee45e7abca82b9fe494b18b953c771ce8ebefa387107
 ## 访问 Hello World 服务
 1) 提供三种方式访问 Hello World 服务。
  - 通过**负载均衡 IP**来访问 Hello World 服务。单击服务页面的【服务信息】查看负载均衡 IP和负载均衡ID。 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7891c817f167f7726b67615696cfff08/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/7891c817f167f7726b67615696cfff08/image.png)
  - 通过 **域名** 来访问 Hello World 服务。在容器服务控制台左侧导航栏中，单击【负载均衡】，单击【TCP/UDP】，找到对应的负载均衡ID，复制域名访问服务。
  - 集群内的其他服务或容器可以直接通过服务名称访问。
  
 2) 进入 Hello World 服务器的默认欢迎页。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ef9e2067f34004f49f7fe1360f20c3a5/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ef9e2067f34004f49f7fe1360f20c3a5/image.png)
 
-若容器创建失败，可查看[事件常见问题](http://tce.fsphere.cn/document/product/457/8187)。
+若容器创建失败，可查看[事件常见问题](http://tcecqpoc.fsphere.cn/document/product/457/8187)。

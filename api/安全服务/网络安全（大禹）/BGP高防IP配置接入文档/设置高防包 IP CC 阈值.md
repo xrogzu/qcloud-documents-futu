@@ -25,10 +25,10 @@ background: #efefef;
 <br> 接口名：NS.BGPIP.ServicePack.SetCCThreshold
 
 ### 2.输入参数
-以下请求参数列表仅列出了接口请求参数，正式调用时需要加上[公共请求参数](http://tce.fsphere.cn/document/product/295/7279)，见公共参数说明页面。
+以下请求参数列表仅列出了接口请求参数，正式调用时需要加上[公共请求参数](http://tcecqpoc.fsphere.cn/document/product/295/7279)，见公共参数说明页面。
 <br> 其中，此接口的 Action 字段为 NS.BGPIP.ServicePack.SetCCThreshold。
 
 | 参数名称 | 是否必须 | 类型 | 描述 |
 |:---------:|:---------:|:---------:|:---------:|
 | bgpId | <font color=red> 必选 </font color=red> | String | BGP 高防 IP 的资源 ID |
-| threshold |<font color=red> 必选 </font color=red>| String | CC 防护阈值，传 0 表示关闭 CC 防护，注意 CC 防护阈值只能小于当前防护套餐的 CC 防护峰值，对应关系如下：![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/48aebbd9e0e609608399b189c40682dd/image.png)|
+| threshold |<font color=red> 必选 </font color=red>| String | CC 防护阈值，传 0 表示关闭 CC 防护，注意 CC 防护阈值只能小于当前防护套餐的 CC 防护峰值，对应关系如下：![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/48aebbd9e0e609608399b189c40682dd/image.png)|

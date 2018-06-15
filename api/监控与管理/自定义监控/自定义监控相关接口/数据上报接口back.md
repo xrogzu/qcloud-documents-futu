@@ -35,7 +35,7 @@ http://monitor.api.qcloud.com/v2/index.php?Action=PutMonitorData
 &Signature=mysignature
 &Namespace=web_site
 &Data=[{“dimensions”:{“d1”:”v1”,”d2”:”v2”,”d3”:”v3”,”d4”:”v4”,”d5”:”v5”},”metricName”:”metric1”,”value”:123},…]
-&<a href="http://tce.fsphere.cn/doc/api/229/6976">公共请求参数</a>
+&<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>
 </pre>
 输出
 ```

@@ -9,7 +9,7 @@
 **安全加固组件安装**
 为确保安全防护服务正常运行，在您购买云服务器时，云安全选项默认为选中状态，安全加固组件会直接安装，无需用户操作。
 请您在windows云服务器浏览器中通过以下地址下载安装包：
-http://imgcache.tce.fsphere.cn/image/imgcache.qq.com/qcloud/csec/yunjing/static/ydeyes_win32.exe 
+http://imgcache.tcecqpoc.fsphere.cn/image/imgcache.qq.com/qcloud/csec/yunjing/static/ydeyes_win32.exe 
 双击运行下载来的exe文件，根据提示点击“下一步”，然后勾选“接受‘许可证协议’中的退款”进行安装即可。
 
 **安全加固组件检查&修复**
@@ -17,4 +17,4 @@ http://imgcache.tce.fsphere.cn/image/imgcache.qq.com/qcloud/csec/yunjing/static/
 
 **安全加固组件卸载**
 Window操作系统下，请直接卸载并重装安全组件。
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56c6323482b7f.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img56c6323482b7f.png)

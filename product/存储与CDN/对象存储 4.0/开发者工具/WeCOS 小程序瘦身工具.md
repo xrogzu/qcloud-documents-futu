@@ -8,7 +8,7 @@
 只适用于 COS V4 版本，不支持地域：重庆（ap-chongqing），首尔（ap-seoul），孟买（ap-mumbai）。
 
 ## 准备工作
-1. 进入 [云平台官网](http://tce.fsphere.cn/)，注册云平台账户，指引参考 [注册云平台](/doc/product/378/9603)。
+1. 进入 [云平台官网](http://tcecqpoc.fsphere.cn/)，注册云平台账户，指引参考 [注册云平台](/doc/product/378/9603)。
 - 登录 [对象存储控制台](http://console.tce.fsphere.cn/cos4)，开通对象存储服务，创建存储桶，指引参考 [创建存储桶](/doc/product/436/6232)
 - 通过 [GitHub 地址](https://github.com/tencentyun/wecos) 下载 WeCOS 工具。
 - 在 [Node.js 官网](https://nodejs.org/)下载环境并安装。
@@ -82,7 +82,7 @@ wecos
 ```
 #### 开启图片压缩
 图片上传到 COS 之后虽然大大减轻了程序包的大小，但如果图片自身体积过大导致访问延迟，也会影响到用户体验。
-WeCOS 在图片上云的基础功能上还额外提供了基于 [云平台万象优图](http://tce.fsphere.cn/product/ci) 的图片压缩功能。您在 [万象优图控制台](http://console.tce.fsphere.cn/ci) 创建与 COS 同名的存储桶后，进入存储桶，在样式页面开启图片压缩功能后，资源将被压缩后上传。
+WeCOS 在图片上云的基础功能上还额外提供了基于 [云平台万象优图](http://tcecqpoc.fsphere.cn/product/ci) 的图片压缩功能。您在 [万象优图控制台](http://console.tce.fsphere.cn/ci) 创建与 COS 同名的存储桶后，进入存储桶，在样式页面开启图片压缩功能后，资源将被压缩后上传。
 ```
   "compress": true
 ```

@@ -6,7 +6,7 @@
 
 这篇文章分享一个简单的剪刀石头布的小游戏的制作，希望能对想要在小程序中使用 WebSocket 的开发者有帮助。
 
-![剪刀石头布小游戏截图](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1d4772272b20760b8063356069328be9/image.gif)
+![剪刀石头布小游戏截图](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1d4772272b20760b8063356069328be9/image.gif)
 
 整个游戏非常简单，连接到服务器后自动匹配在线玩家（没有则分配一个机器人），然后两人进行剪刀石头布的对抗游戏。当对方进行拳头选择的时候，头像会旋转，这个过程使用 WebSocket 会变得简单快速。
 
@@ -24,7 +24,7 @@
 
 在微信小程序中，所有的网路请求受到严格限制，不满足条件的域名和协议无法请求，具体包括：
 
-* 只允许和在 MP 中配置好的域名进行通信，如果还没有域名，需要[注册一个](http://tce.fsphere.cn/product/dm.html?utm_source=jiaocheng&utm_medium=domain2&utm_ca)。
+* 只允许和在 MP 中配置好的域名进行通信，如果还没有域名，需要[注册一个](http://tcecqpoc.fsphere.cn/product/dm.html?utm_source=jiaocheng&utm_medium=domain2&utm_ca)。
 * 网络请求必须走 HTTPS 协议，所以你还需要为你的域名[申请一个证书](http://console.tce.fsphere.cn/ssl?utm_source=jiaocheng&utm_medium=ssl2&utm_campaign=qcloud)。
 
 域名注册好之后，可以登录[微信公众平台](https://mp.weixin.qq.com)配置通信域名了。
@@ -35,7 +35,7 @@
 
 剪刀石头布的服务器运行代码和配置已经打包成云平台 CVM 镜像，大家可以[直接使用](https://buy.tce.fsphere.cn/cvm?marketImgId=371&utm_source=jiaocheng&utm_medium=cvm2&utm_campaign=qcloud)。
 
-> 云平台用户可以[免费领取礼包](http://tce.fsphere.cn/act/event/yingyonghao.html#section-voucher)，体验云平台小程序解决方案。
+> 云平台用户可以[免费领取礼包](http://tcecqpoc.fsphere.cn/act/event/yingyonghao.html#section-voucher)，体验云平台小程序解决方案。
 
 ![选择服务市场镜像](http://easyimage-10028115.file.myqcloud.com/internal/p5vbnlfw.yik.jpg)
 

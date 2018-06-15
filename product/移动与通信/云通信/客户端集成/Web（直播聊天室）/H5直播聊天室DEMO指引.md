@@ -1,19 +1,19 @@
 ## 1 官网sdk和demo
 
 SDK包下载地址：
-http://tce.fsphere.cn/product/im.html
+http://tcecqpoc.fsphere.cn/product/im.html
 
 直播聊天室demo体验地址：
 http://avc.tce.fsphere.cn/demo/webim/biggroup/mobile/index.html
 
 直播聊天室demo二维码：
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/a188f7fd653c8237b362a7adea1f63b1/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/a188f7fd653c8237b362a7adea1f63b1/image.png)
 
 通用demo地址：
 http://avc.tce.fsphere.cn/demo/webim/index.html
 
 通用demo运行指引地址：
-http://tce.fsphere.cn/doc/product/269/4196
+http://tcecqpoc.fsphere.cn/doc/product/269/4196
 
 
 ## 2 准备环境
@@ -70,14 +70,14 @@ C:\Users\peakerdong>"D:\Program Files\Apache24\bin\httpd.exe" -k install -n apac
 其中，Errors reported here must be corrected before the service can be started.意思是，若该句话后面有错误信息，则表示服务安装失败，需要先改正错误。若没有，则成功。
 
 在安装目录中，找到D:\Program Files\Apache24\bin\ApacheMonitor.exe可执行文件，双击运行，桌面右下角会出现图标，双击打开窗口界面，会看到如图所示：
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/02ef4d509e5579661953a9cc3dc4ee59/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/02ef4d509e5579661953a9cc3dc4ee59/image.png)
 
 点击左侧start，启动apache服务。
 
 打开浏览器，输入访问 `http://localhost`
 如果你设置的端口是8080，则访问地址是`http://localhost:8080/`
 出现以下界面，表示apahce启动成功。
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/1a051fa9cbedf08e55a979f732e824ef/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/1a051fa9cbedf08e55a979f732e824ef/image.png)
 
 ## 3 运行demo
 
@@ -92,7 +92,7 @@ D:\Program Files\Apache24\htdocs
 运行Demo之前，需要创建一个AVChatRoom类型（直播聊天室）的群组id。
 
 可以通过restapi 创建，参考连接：
-http://tce.fsphere.cn/doc/product/269/%E5%88%9B%E5%BB%BA%E7%BE%A4%E7%BB%84
+http://tcecqpoc.fsphere.cn/doc/product/269/%E5%88%9B%E5%BB%BA%E7%BE%A4%E7%BB%84
 
 也可以使用在其他平台（android或者ios）上创建的直播聊天室id。
 
@@ -131,18 +131,18 @@ var avChatRoomId = '@TGS#aJIPTVAEE';
 `http://localhost:8080/webim/biggroup/mobile/index.html`
 
 效果如下：
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/9994fb0d0f4073a77f5766a7abd5283d/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/9994fb0d0f4073a77f5766a7abd5283d/image.png)
 
 模拟手机访问，按F12，点击下图箭头所指的手机图标：
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/e71c925af3ea9d2e04ca0dbbea86fcee/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/e71c925af3ea9d2e04ca0dbbea86fcee/image.png)
 
 点击下方评论或点赞按钮，会跳转到tls登录界面，直接点击游客登录，会跳回到首页：
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/c604fbde4569278532eebc6d5eb7ebc7/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/c604fbde4569278532eebc6d5eb7ebc7/image.png)
 
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/1f39be07a839ff47bd13a08a58b64647/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/1f39be07a839ff47bd13a08a58b64647/image.png)
 
 登录之后，可以评论，点赞：
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/aa37dcc2c32aa47c57f107bd0ea8785c/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/aa37dcc2c32aa47c57f107bd0ea8785c/image.png)
 
 ### 3.3 运行demo（独立模式）
 
@@ -186,7 +186,7 @@ var avChatRoomId = '@TGS#aJIPTVAEE';
 
 填写登录用户信息identifier和userSig，userSig需要开发者在自己的服务器调用tls api生成。
 独立模式生成usersig，请参考链接：
-http://tce.fsphere.cn/doc/product/269/TLS%E5%90%8E%E5%8F%B0API%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C
+http://tcecqpoc.fsphere.cn/doc/product/269/TLS%E5%90%8E%E5%8F%B0API%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C
  ![](http://cs-1253400008.coscd.myqcloud.com/%E7%8B%AC%E7%AB%8B%E6%A8%A1%E5%BC%8F%E7%99%BB%E5%BD%95%E5%B7%B2%E8%BE%93%E5%85%A5%E5%B8%90%E5%8F%B7.png)
 
 点击确定，拿到登录用户信息identifier和userSig放入loginInfo去登录sdk：

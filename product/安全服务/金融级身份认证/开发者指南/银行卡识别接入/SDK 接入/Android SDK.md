@@ -360,4 +360,4 @@ Toast.makeText(MainActivity.this, "登录OCR sdk失败！" + "errorCode= " + err
 | OAUTH_INVALID_FILE_HASH="400503"      | 文件校验值错误     |
 | OAUTH_REQUEST_RATE_LIMIT="400504"     | 请求访问频率过高    |
 
-[上一步：SDK 启动](http://tce.fsphere.cn/document/product/655/13858)
+[上一步：SDK 启动](http://tcecqpoc.fsphere.cn/document/product/655/13858)

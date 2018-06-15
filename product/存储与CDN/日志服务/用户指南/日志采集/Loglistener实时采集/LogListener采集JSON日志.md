@@ -12,4 +12,4 @@
 
 - 配置过滤器（非必选）：若您需要对日志数据进行过滤后采集，您可以使用过滤器配置。过滤器允许您指定特定key，并配置过滤规则对日志进行过滤。例如：您可以指定 errorcode = 200的日志数据不被采集。过滤规则最多配置五条，并且规则支持正则表达式。过滤规则最多添加五条。
 
-  ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/0af46f5e283f0652ef4cb440c1c27aa4/image.png )
+  ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/0af46f5e283f0652ef4cb440c1c27aa4/image.png )

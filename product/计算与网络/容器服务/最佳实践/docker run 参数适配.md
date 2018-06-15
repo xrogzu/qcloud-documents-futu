@@ -24,17 +24,17 @@ gitlab/gitlab-ce:8.16.7-ce.0
 `-d`:容器在后台运行。容器平台都是以后台的形式来运行容器，所以本参数不需要在容器控制台指定。
 
 `-p`:指定端口映射。我们这里映射了两个端口，容器端口分别是80和22，对外暴露的端口分别是20180和20122，对应到控制台，我们添加两条端口映射规则，并填写对应的容器端口和服务端口。由于我们的gitlab需要提供外网访问，我们选择了**提供公网访问**访问方式。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/cf73ee3d941a768491d52af56a386db4/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/cf73ee3d941a768491d52af56a386db4/image.png)
 
 `--restart`:本参数用于指定在容器退出时，是否重启容器。容器平台创建的所有容器退出时，都会重启容器，所以本参数不需要在容器控制台指定。
 
 `-v`:本参数用于指定容器卷。上面的命令指定了三个卷，对应到容器控制台，我们也需要添加三个**数据卷**，并在容器的**高级设置**里将这三个卷挂载到容器里。
 
 首先我们创建三个卷：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/c5b11b2c717c263aa68a2aab12234fad/volume.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/c5b11b2c717c263aa68a2aab12234fad/volume.png)
 
 接着我们在容器的高级设置里面，将三个卷分别挂载到容器里：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d4130bd91b37fd76b6de759c2f8a1075/mount.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d4130bd91b37fd76b6de759c2f8a1075/mount.png)
 
 这里要注意的是，我们的数据卷的类型选择的是`使用本地硬盘`，所以容器运行过程中，在容器中生产的数据会被保存到容器所在的节点上，如果容器被调度到其他的节点上，那么数据就丢失了。我们可以使用`云硬盘`类型数据卷，容器的数据会保存到云硬盘中，即使容器被调度到其他的节点，容器卷的数据也不会丢。
 
@@ -64,4 +64,4 @@ docker run --name=kubedns gcr.io/google_containers/kubedns-amd64:1.7 /kube-dns -
 这里我们指定了容器进程的命令为： /kube-dns，并指定了三个参数：`-domain=cluster.local.` `--dns-port=10053` 和-`v 2`。
 在我们的控制台，我们可以这样指定：
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/cf991cd098b96c19b70b1da4e11507c5/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/cf991cd098b96c19b70b1da4e11507c5/image.png)

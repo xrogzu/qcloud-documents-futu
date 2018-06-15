@@ -1,6 +1,6 @@
 ## 1.工程结构
 从github下载小直播代码，使用Android Studio打开工程后，您将看到如下的目录结构：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/af1b516a6c254da0224486bd35e3d2b6/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/af1b516a6c254da0224486bd35e3d2b6/image.png)
 
 |文件/目录 | 说明 | 
 |---------|---------|
@@ -10,7 +10,7 @@
 | ui/customviews| 小直播ui用到的自定义控件|
 | jniLibs| 小直播依赖的腾讯相关sdk，主要是BuglySDK、TLSSDK、IMSDK及RTMPSDK|
 ### 库使用说明
-##### [直播 SDK](http://tce.fsphere.cn/document/product/454/7873)  (必选)
+##### [直播 SDK](http://tcecqpoc.fsphere.cn/document/product/454/7873)  (必选)
 移动直播最主要的 SDK，其提供了推流、直播、点播、连麦、录屏等功能。
 - jar 包
 txrtmpsdk.jar
@@ -43,7 +43,7 @@ txrtmpsdk.jar
 	- libqalmsfboot.so
   - libwtcrypto.so
 
-##### [UGC 小视频](http://tce.fsphere.cn/document/product/454/8843)（非必选）
+##### [UGC 小视频](http://tcecqpoc.fsphere.cn/document/product/454/8843)（非必选）
 UGC 小视频的录制和发布以及编辑功能。
 - jar 包
 
@@ -91,8 +91,8 @@ UGC 小视频的录制和发布以及编辑功能。
 ### 帐号模块
 #### 模块简介
 - 帐号模块负责处理用户登录/注册以及登录缓存的逻辑
-- 登录注册功能使用[TLSSDK托管](http://tce.fsphere.cn/doc/product/269/%E6%89%98%E7%AE%A1%E6%A8%A1%E5%BC%8F)登录实现
-- 如果您已经有自己的帐号体系，可以直接替换该模块，并调用TCLoginMgr的guestLogin接口以游客身份使用IM通道，详情请参考[替换帐号](http://tce.fsphere.cn/doc/api/258/6441)
+- 登录注册功能使用[TLSSDK托管](http://tcecqpoc.fsphere.cn/doc/product/269/%E6%89%98%E7%AE%A1%E6%A8%A1%E5%BC%8F)登录实现
+- 如果您已经有自己的帐号体系，可以直接替换该模块，并调用TCLoginMgr的guestLogin接口以游客身份使用IM通道，详情请参考[替换帐号](http://tcecqpoc.fsphere.cn/doc/api/258/6441)
 - 在TLSSDK登录鉴权成功后，可以通过鉴权返回的UserId与UserSig调用ImSDK的login接口完成IM模块的登录
 - 用户可以通过帐号密码/手机验证码两种方式进行注册与登录
 - 帐号模块会缓存最后登录的用户基本信息（UserId与UserSig）在本地，通过接口调用可以获取最近登录的用户信息并判断是否需要重新登录
@@ -129,11 +129,11 @@ UGC 小视频的录制和发布以及编辑功能。
 - 主播端可以展示观众列表，当有观众进入，退出房间时候，观众列表会刷新，主播也会收到观众进入或则退出房间消息
 
 #### 推流时序图
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6fb00666a6a1cdea732fbddccc5fc786/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/6fb00666a6a1cdea732fbddccc5fc786/image.png)
 
 #### UI层级结构
 SDK渲染视频时，startCameraPreview的参数View（即videoParentView）是用来承载SDK渲染层的，SDK会在其之上构建一个用于OpenGL渲染的子view，如果您想要在渲染画面之上实现弹幕、献花之类的UI控件，应该如下图这般创建一个与之平级的view
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/3da33f8c62b9339a365faddd2635faa2/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/3da33f8c62b9339a365faddd2635faa2/image.png)
 
 #### 相关代码 
 - Logic:
@@ -148,7 +148,7 @@ SDK渲染视频时，startCameraPreview的参数View（即videoParentView）是�
 - 观众端可以展示主播信息，观众列表，当有观众进入，退出房间时候，观众列表会刷新，同时消息列表也会展示其他观众进入，退出房间的消息。
 
 #### 播放时序图
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/fb9f9002c2d973d069bb9c1568037e26/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/fb9f9002c2d973d069bb9c1568037e26/image.png)
 
 #### UI层级结构
 请参考推流模块的UI层级结构
@@ -161,7 +161,7 @@ SDK渲染视频时，startCameraPreview的参数View（即videoParentView）是�
 
 ### 消息
 #### 模块介绍
-- 小直播的互动消息功能主要基于[ImSDK](http://tce.fsphere.cn/doc/product/269/1561)的群聊功能实现，需要在IMSDK登录后才能调用
+- 小直播的互动消息功能主要基于[ImSDK](http://tcecqpoc.fsphere.cn/doc/product/269/1561)的群聊功能实现，需要在IMSDK登录后才能调用
 - 每个直播间都是一个直播大群，推流端在推流之前需要创建直播大群，结束推流时，解散该群；播放端在进入该直播间时，加入该群，退出直播间时，则退出该群
 - 通过实现消息收发的监听类，可以在监听接口中获取相应的消息通知，目前实现的消息类型：文本消息、弹幕消息、点赞消息、用户加入/退出消息、群组解散消息
 - 各种类型的消息都是以文本消息形式发送，采用统一的JSON格式，在JSON中携带消息类型、发送者id、昵称、头像、消息文本的信息，接收端收到消息后解析JSON格式，向上层回调各种类型的消息

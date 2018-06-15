@@ -7,13 +7,13 @@ iOS 平台的客户端上传 SDK，可向云平台点播系统上传视频和封
 
 下载 [iOS SDK](http://download-1252463788.cossh.myqcloud.com/RTMPSDKiOSSimple2.0.2.2801.zip)，引入依赖包。
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/397fddc2dffe71787a849e279e8864b1/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/397fddc2dffe71787a849e279e8864b1/image.png)
 
 ### 配置项目
 
 位置：***Build Settings -> Other Linker Flags***
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1363842b36c56ecee4230c9e86fec473/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1363842b36c56ecee4230c9e86fec473/image.png)
 
 ***注意***
 

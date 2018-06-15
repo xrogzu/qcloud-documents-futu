@@ -14,13 +14,13 @@
 
 由于签名计算放在前端会暴露 SecretId 和 SecretKey，我们把签名计算过程放在后端实现，前段通过 ajax 向后端获取签名结果，正式部署时请再后端加一层自己网站本身的权限检验。
 
-这里提供 [PHP 和 NodeJS 的签名例子](https://github.com/tencentyun/cos-js-sdk-v5/blob/master/server/)，其他语言，请参照对应的 [XML SDK](http://tce.fsphere.cn/document/product/436/6474)
+这里提供 [PHP 和 NodeJS 的签名例子](https://github.com/tencentyun/cos-js-sdk-v5/blob/master/server/)，其他语言，请参照对应的 [XML SDK](http://tcecqpoc.fsphere.cn/document/product/436/6474)
 
 ## 三、前端上传
 
 ### 方案A：使用 ajax 上传
 
-Ajax 上传需要浏览器支持基本的 Html5 特性，当前方案使用的是 [XML API 的 PutObject 接口](http://tce.fsphere.cn/document/product/436/7749)
+Ajax 上传需要浏览器支持基本的 Html5 特性，当前方案使用的是 [XML API 的 PutObject 接口](http://tcecqpoc.fsphere.cn/document/product/436/7749)
 
 1. 按照上文【前期准备】，准备好存储桶
 2. 创建 ajax.html，填充下面的代码，修改里面的 Bucket 和 Region
@@ -117,7 +117,7 @@ Ajax 上传需要浏览器支持基本的 Html5 特性，当前方案使用的�
 
 ### 方案B：使用 form 表单上传
 
-Form 表单上传可以支持低版本的浏览器比如 ie8 的上传，当前方案使用的是 [XML API 的 PostObject 接口](http://tce.fsphere.cn/document/product/436/7751)
+Form 表单上传可以支持低版本的浏览器比如 ie8 的上传，当前方案使用的是 [XML API 的 PostObject 接口](http://tcecqpoc.fsphere.cn/document/product/436/7751)
 
 1. 按照上文【前期准备】，准备好存储桶
 2. 创建 form.html，填充下面的代码，修改里面的 AppId、Bucket 和 Region
@@ -234,4 +234,4 @@ Form 表单上传可以支持低版本的浏览器比如 ie8 的上传，当前�
 ## 相关文档
 
 有更丰富的接口调用需求，请使用 JS-SDK：
-1. [JS-SDK详细文档（XML API）](http://tce.fsphere.cn/document/product/436/8095)
+1. [JS-SDK详细文档（XML API）](http://tcecqpoc.fsphere.cn/document/product/436/8095)

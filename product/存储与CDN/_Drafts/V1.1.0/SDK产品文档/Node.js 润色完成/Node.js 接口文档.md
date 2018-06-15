@@ -1,4 +1,4 @@
-> 关于文章中出现的 SecretId、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](http://tce.fsphere.cn/document/product/436/7751)
+> 关于文章中出现的 SecretId、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](http://tcecqpoc.fsphere.cn/document/product/436/7751)
 
 ## Service操作
 
@@ -79,7 +79,7 @@ cos.headBucket(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 
 #### 回调函数说明
 
@@ -133,7 +133,7 @@ cos.getBucket(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 |   Prefix |  前缀匹配，用来规定返回的文件前缀地址 |   String| 否|
 |   Delimiter | 定界符为一个符号，如果有 Prefix，则将 Prefix 到 delimiter 之间的相同路径归为一类，定义为Common Prefix，然后列出所有 Common Prefix。如果没有 Prefix，则从路径起点开始|   String|  否|
 |   Marker |  默认以 UTF-8 二进制顺序列出条目，所有列出条目从marker开始 |  String|  否|
@@ -208,7 +208,7 @@ cos.putBucket(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 | ACL | 允许用户自定义文件权限。有效值：private，public-read默认值：private。|String|否|
 | GrantRead |赋予被授权者读的权限，格式 x-cos-grant-read: uin=" ",uin=" "，<br>当需要给子账户授权时，uin="RootAcountID/SubAccountID"，<br>当需要给根账户授权时，uin="RootAcountID"。|String| 否|
 |GrantWrite |赋予被授权者写的权限，格式 x-cos-grant-write: uin=" ",uin=" "，<br>当需要给子账户授权时，uin="RootAcountID/SubAccountID"，<br>当需要给根账户授权时，uin="RootAcountID"。|String| 否|
@@ -260,7 +260,7 @@ cos.deleteBucket(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 
 #### 回调函数说明
 
@@ -308,7 +308,7 @@ cos.getBucketACL(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 
 #### 回调函数说明
 
@@ -367,7 +367,7 @@ cos.putBucketACL(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 |   ACL |    允许用户自定义文件权限。有效值：private，public-read默认值：private。|  String| 否|
 |   GrantRead |    赋予被授权者读的权限，格式 x-cos-grant-read: uin=" ",uin=" "，<br>当需要给子账户授权时，uin="RootAcountID/SubAccountID"，<br>当需要给根账户授权时，uin="RootAcountID"。|  String| 否|
 |   GrantWrite |    赋予被授权者写的权限，格式 x-cos-grant-write: uin=" ",uin=" "，<br>当需要给子账户授权时，uin="RootAcountID/SubAccountID"，<br>当需要给根账户授权时，uin="RootAcountID"。|  String| 否|
@@ -419,7 +419,7 @@ cos.getBucketCORS(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 
 #### 回调函数说明
 
@@ -496,7 +496,7 @@ cos.putBucketCORS(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 |   CORSRules |    跨域规则集合|  Array| 否|
 |   ID |   规则名称|   String| 否|
 |   AllowedMethods |   允许的HTTP操作，枚举值：Get，Put，Head，Post，Delete|   Array| 是|
@@ -551,7 +551,7 @@ cos.deleteBucketCORS(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 
 #### 回调函数说明
 
@@ -599,7 +599,7 @@ cos.getBucketLocation(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 
 #### 回调函数说明
 
@@ -646,7 +646,7 @@ cos.getBucketTagging(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 
 #### 回调函数说明
 
@@ -703,7 +703,7 @@ cos.putBucketTagging(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 | Tags  |  	Bucket 的标签集合 | Array |是|
 | Key  | 	Tag 的类别名称 | String | 是|
 | Value | Tag 的值 |  String |是|
@@ -755,7 +755,7 @@ cos.deleteBucketTagging(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 
 #### 回调函数说明
 
@@ -805,7 +805,7 @@ cos.headObject(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 | Key | 文件名称|String|是|
 | IfModifiedSince |当 Object 在指定时间后被修改，则返回对应 Object 元信息|String| 否|
 
@@ -868,7 +868,7 @@ cos.getObject(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 |  Key |  String|   文件名称|  是|
 |  ResponseContentType |    设置返回头部中的 Content-Type 参数|  String| 否|
 |  ResponseContentLanguage |   设置返回头部中的 Content-Language 参数|  String|  否|
@@ -946,7 +946,7 @@ cos.putObject(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 |   Key |   文件名称|   String| 是|
 |   CacheControl | RFC 2616 中定义的缓存策略，将作为 Object 元数据保存|   String|   否|
 |   ContentDisposition |    RFC 2616 中定义的文件名称，将作为 Object 元数据保存|   String|否|
@@ -1011,7 +1011,7 @@ cos.deleteObject(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 |   Key |   文件名称|   String| 是|
 
 
@@ -1066,7 +1066,7 @@ cos.optionsObject(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 |   Key |   文件名称|   String| 是|
 |Origin | 模拟跨域访问的请求来源域名|String|是|
 |AccessControlRequestMethod|模拟跨域访问的请求HTTP方法|String| 是|
@@ -1124,7 +1124,7 @@ cos.getObjectACL(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 |   Key |   文件名称|   String| 是|
 
 
@@ -1186,7 +1186,7 @@ cos.putObjectACL(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 |   Key |   文件名称|   String| 是|
 |ACL | 允许用户自定义文件权限。有效值：private，public-read默认值：private。|   String|   否|
 |   GrantRead |   赋予被授权者读的权限，格式 x-cos-grant-read: uin=" ",uin=" "，<br>当需要给子账户授权时，uin="RootAcountID/SubAccountID"，<br>当需要给根账户授权时，uin="RootAcountID"。|  String|  否|
@@ -1247,7 +1247,7 @@ cos.deleteMultipleObject(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 | Quiet |布尔值，这个值决定了是否启动Quiet模式，True启动Quiet模式，False启动Verbose模式，默认False|Boolean| 否|
 | Objects |要删除的文件列表|Array| 否|
 |   Key |   要删除的文件名称|   String| 是|
@@ -1316,7 +1316,7 @@ cos.multipartInit(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 |  Key |    文件名称|  String| 是| 
 |   CacheControl |    RFC 2616 中定义的缓存策略，将作为 Object 元数据保存|  String| 否|
 |   ContentDisposition |   RFC 2616 中定义的文件名称，将作为 Object 元数据保存|  String|  否|
@@ -1384,7 +1384,7 @@ cos.multipartUpload(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 |  Key |    文件名称|  String| 是|
 | ContentLength |RFC 2616 中定义的 HTTP 请求内容长度（字节）|String| 是|
 | Expect |当使用 Expect: 100-continue 时，在收到服务端确认后，才会发送请求内容|String| 否|
@@ -1448,7 +1448,7 @@ cos.multipartComplete(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 |  Key |    文件名称|  String| 是|
 | UploadId |上传任务编号|String| 是|
 |Parts |分块的ETag 信息|Array| 是|
@@ -1509,7 +1509,7 @@ cos.multipartListPart(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 |  Key |    文件名称|  String| 是|
 |UploadId |上传任务编号|String| 是|
 |EncodingType |规定返回值的编码方式|String| 否|
@@ -1581,7 +1581,7 @@ cos.multipartAbort(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 |  Key |    文件名称|  String| 是|
 | UploadId |上传任务编号|String| 是|
 
@@ -1638,7 +1638,7 @@ cos.multipartList(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 | Delimiter |   界符为一个符号，如果有Prefix，则将Prefix到delimiter之间的相同路径归为一类，定义为Common Prefix，然后列出所有Common Prefix。如果没有Prefix，则从路径起点开始|   String| 否|
 |   EncodingType |   规定返回值的编码方式|  String|  否|
 |   Prefix |   前缀匹配，用来规定返回的文件前缀地址|  String|  否|
@@ -1720,7 +1720,7 @@ cos.sliceUploadFile(params, function(err, data) {
 |参数名|   参数描述|      类型|    必填|
 |--------|---------|--------|--------|
 | Bucket| Bucket 的名称 |   String|   是| 
-| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tce.fsphere.cn/document/product/436/6224)|String|是|
+| Region | Bucket 所在区域。枚举值请见：[Bucket 地域信息](http://tcecqpoc.fsphere.cn/document/product/436/6224)|String|是|
 |   Key |     Object 名称|  String|是|
 |   FilePath |    本地文件路径|  String| 是|
 |   SliceSize |  分块大小|   String|  否|

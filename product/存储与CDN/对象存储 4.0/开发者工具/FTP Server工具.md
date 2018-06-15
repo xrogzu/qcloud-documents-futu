@@ -3,7 +3,7 @@ COS FTP Server 工具支持通过 FTP 协议直接操作 COS 中的对象和目�
 ### 系统环境
 操作系统：Linux，推荐使用云平台 CentOS 7 系列 CVM，暂不支持 Windows 系统。
 
-Python 解释器版本：Python 2.7，可参考 [Python 安装与配置](http://tce.fsphere.cn/document/product/436/10866) 进行安装与配置。
+Python 解释器版本：Python 2.7，可参考 [Python 安装与配置](http://tcecqpoc.fsphere.cn/document/product/436/10866) 进行安装与配置。
 
 依赖库：
 - requests
@@ -60,7 +60,7 @@ cos_secretkey = XXXXXX
 cos_bucket = BucketName-appid
 # 要操作的bucket，bucket的格式为：bucektname-appid组成。示例：cos_bucket = mybucket-125888888888。
 cos_region = ap-xxx
-# Bucket 所在的地域，目前支持的地域请参照【可用地域-适用于 XML API 部分】：http://tce.fsphere.cn/document/product/436/6224
+# Bucket 所在的地域，目前支持的地域请参照【可用地域-适用于 XML API 部分】：http://tcecqpoc.fsphere.cn/document/product/436/6224
 cos_user_home_dir = /home/cos_ftp/data
 # FTP Server 的工作目录。
 [FTP_ACCOUNT]
@@ -95,7 +95,7 @@ log_dir             = log                  # 设置日志的存放目录，默�
 python ftp_server.py
 ```
 运行命令后，见到如下图示，即代表 FTP Server 服务启动成功，您可以开始使用 FTP 客户端对配置的 IP 和端口进行访问了。
-![运行成功](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7bbb20b2ba2c6cf9678a47d8753499cc/image.png)
+![运行成功](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/7bbb20b2ba2c6cf9678a47d8753499cc/image.png)
 
 ## 停止
 `Ctrl + C`即可取消 FTP Server 运行（直接运行，或 screen 方式放在后台运行）。

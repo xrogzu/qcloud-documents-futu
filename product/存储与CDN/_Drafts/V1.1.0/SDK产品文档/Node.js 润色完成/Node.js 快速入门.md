@@ -16,7 +16,7 @@ npm i cos-nodejs-sdk-v5 --save
 2. 安装好 npm 之后记得在 sdk 的解压目录 npm install 一次（安装依赖包）；
 3.  到 [控制台密钥管理](http://console.tce.fsphere.cn/capi) 获取您的项目 SecretId 和 SecretKey。
 
-> 关于文章中出现的 SecretId、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](http://tce.fsphere.cn/document/product/436/7751)
+> 关于文章中出现的 SecretId、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](http://tcecqpoc.fsphere.cn/document/product/436/7751)
 
 ## 快速入门	
 
@@ -46,5 +46,5 @@ cos.sliceUploadFile({
 
 ## 相关文档 
 更多例子请参阅 [XML Node.js SDK](https://github.com/tencentyun/cos-nodejs-sdk-v5) 。
-完整接口文档请参阅 [Node.js SDK 接口文档](http://tce.fsphere.cn/document/product/436/8629)。
+完整接口文档请参阅 [Node.js SDK 接口文档](http://tcecqpoc.fsphere.cn/document/product/436/8629)。
 

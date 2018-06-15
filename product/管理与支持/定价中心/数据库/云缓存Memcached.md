@@ -29,11 +29,11 @@
 ### 购买新表
 1.登录云平台首页tce.fsphere.c
 
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NoSQLBuy1.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NoSQLBuy1.png)
 
 2.在产品服务模块，选择云缓存Memcached，点击“立即购买”进入购买流程。
 
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NoSQLBuy2.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NoSQLBuy2.jpg)
 
 【注意事项】
 
@@ -41,6 +41,6 @@
 
 3.购买成功后，可在“管理中心 - 控制台 - 云缓存Memcached”看到购买的表。单击表名称可以修改名称。
 
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NoSQLBuy3.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NoSQLBuy3.png)
 
 4.确定是否开启expire过期删除功能。请参见[开启expire过期删除功能](/doc/product/439/6806)。

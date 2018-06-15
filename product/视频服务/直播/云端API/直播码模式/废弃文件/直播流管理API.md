@@ -1,5 +1,5 @@
 ## 与云平台后台通讯
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/bb38ba7d007910df41b2775a63c6e0d3/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/bb38ba7d007910df41b2775a63c6e0d3/image.png)
 
 您的服务器与云平台服务器的信息同步可以通过两种方式组合实现：
 - **API 调用**：云平台提供了一组直播码管理API，包括状态查询和状态管理等功能，供您的后台服务器调用。
@@ -13,21 +13,21 @@
 
 | API                                | 功能介绍                                                   |
 |---------------------------------|--------------------------------------------------------------|
-| [Get_LiveStat](http://tce.fsphere.cn/doc/api/258/6110)  | 统计信息查询 - 查询推流和播放相关信息|
-| [Get_LivePushStat](http://tce.fsphere.cn/doc/api/258/6110) | 统计信息查询 - 查询推流相关信息|
-| [Get_LivePlayStat](http://tce.fsphere.cn/doc/api/258/6110)  |  统计信息查询 - 查询播放相关信息 |
-| [Get_LivePushStatHistory](http://tce.fsphere.cn/document/product/267/9579)|获取推流历史信息|
-| [Get_LivePlayStatHistory](http://tce.fsphere.cn/document/product/267/9580)|获取播放统计历史信息|
-| [Live_Channel_GetStatus](http://tce.fsphere.cn/doc/api/258/5958) |  仅查询某条流的状态信息（旧版本接口） | 
-| [Live_Channel_SetStatus](http://tce.fsphere.cn/doc/api/258/5959) | 对某条流实行**禁播**操作，主要用于鉴黄场景 | 
-| [Live_Tape_GetFilelist](http://tce.fsphere.cn/doc/api/258/5960)| 查询某条流在直播过程中的**录制**文件列表 | 
-| [Live_Queue_Get](http://tce.fsphere.cn/doc/api/258/5961)| 查询某条流在直播过程中的**截图**文件列表 |
-| [Live_Channel_GetChannelList](http://tce.fsphere.cn/document/product/267/7997)|查询频道列表|
-| [Live_Channel_GetLiveChannelList](http://tce.fsphere.cn/document/product/267/8862)|查询直播中频道列表|
-| [mix_streamv2.start_mix_stream_advanced](http://tce.fsphere.cn/document/product/267/8832)|云端混流操作接口|
-| [channel_manager](http://tce.fsphere.cn/document/product/267/9500)|暂停并延迟恢复——可针对某路流禁止推流|
-| [Live_Tape_Start](http://tce.fsphere.cn/document/product/267/9567)|创建录制任务——可实现定时录制任务或者实时视频录制|
-| [Live_Tape_Stop](http://tce.fsphere.cn/document/product/267/9568)|结束录制任务|
+| [Get_LiveStat](http://tcecqpoc.fsphere.cn/doc/api/258/6110)  | 统计信息查询 - 查询推流和播放相关信息|
+| [Get_LivePushStat](http://tcecqpoc.fsphere.cn/doc/api/258/6110) | 统计信息查询 - 查询推流相关信息|
+| [Get_LivePlayStat](http://tcecqpoc.fsphere.cn/doc/api/258/6110)  |  统计信息查询 - 查询播放相关信息 |
+| [Get_LivePushStatHistory](http://tcecqpoc.fsphere.cn/document/product/267/9579)|获取推流历史信息|
+| [Get_LivePlayStatHistory](http://tcecqpoc.fsphere.cn/document/product/267/9580)|获取播放统计历史信息|
+| [Live_Channel_GetStatus](http://tcecqpoc.fsphere.cn/doc/api/258/5958) |  仅查询某条流的状态信息（旧版本接口） | 
+| [Live_Channel_SetStatus](http://tcecqpoc.fsphere.cn/doc/api/258/5959) | 对某条流实行**禁播**操作，主要用于鉴黄场景 | 
+| [Live_Tape_GetFilelist](http://tcecqpoc.fsphere.cn/doc/api/258/5960)| 查询某条流在直播过程中的**录制**文件列表 | 
+| [Live_Queue_Get](http://tcecqpoc.fsphere.cn/doc/api/258/5961)| 查询某条流在直播过程中的**截图**文件列表 |
+| [Live_Channel_GetChannelList](http://tcecqpoc.fsphere.cn/document/product/267/7997)|查询频道列表|
+| [Live_Channel_GetLiveChannelList](http://tcecqpoc.fsphere.cn/document/product/267/8862)|查询直播中频道列表|
+| [mix_streamv2.start_mix_stream_advanced](http://tcecqpoc.fsphere.cn/document/product/267/8832)|云端混流操作接口|
+| [channel_manager](http://tcecqpoc.fsphere.cn/document/product/267/9500)|暂停并延迟恢复——可针对某路流禁止推流|
+| [Live_Tape_Start](http://tcecqpoc.fsphere.cn/document/product/267/9567)|创建录制任务——可实现定时录制任务或者实时视频录制|
+| [Live_Tape_Stop](http://tcecqpoc.fsphere.cn/document/product/267/9568)|结束录制任务|
 
 ### 2. 调用方法
 
@@ -41,7 +41,7 @@
 
 - **sign（安全签名）**:  <font color='blue'>sign = MD5(key + t) </font>，即把加密key 和 t 进行字符串拼接后，计算一下md5值。这里的key即CGI调用key，您在云平台直播管理[控制台](http://console.tce.fsphere.cn/live/livecodemanage) 中可以进行设置：
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e5034b47cead66be46b1f81a1fea8274/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/e5034b47cead66be46b1f81a1fea8274/image.png)
 
 - **安全原理**
 由于MD5是不可逆的HASH算法，所以只要确保KEY不泄露，即使攻击者拿到很多对t和sign也无法反算出KEY值，进而无法进行伪装攻击。
@@ -70,7 +70,7 @@
 |---------|---------|---------|
 | appid is invalid | appid不合法，表示未开通该功能 ||
 
-**注：以上错误码针对本文1.API列表中的API。不包括[消息事件通知](http://tce.fsphere.cn/document/product/267/5957)**
+**注：以上错误码针对本文1.API列表中的API。不包括[消息事件通知](http://tcecqpoc.fsphere.cn/document/product/267/5957)**
 
 ## 消息通知
-详情参考云平台事件[消息通知](http://tce.fsphere.cn/document/product/267/5957)服务。 
+详情参考云平台事件[消息通知](http://tcecqpoc.fsphere.cn/document/product/267/5957)服务。 

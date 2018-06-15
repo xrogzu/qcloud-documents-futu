@@ -10,21 +10,21 @@
 
 - 选择鉴权模式
 
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/c6fcf2a3df74e70893962399cb0e2216.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/c6fcf2a3df74e70893962399cb0e2216.png)
 
 - 直连模式下product相关参数*(MQTT Server Host、Product ID、Product key)*
 
-  ![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/50d1e01c991a2666e9e8c6a96148fb31.png)
+  ![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/50d1e01c991a2666e9e8c6a96148fb31.png)
 
 
 - token模式下product相关参数*（MQTT Server Host、Product ID、Product key、mqtt username、mqttpassword）*
 
-  ![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/c245e861caee92fd71428d688f7732cd.png)
+  ![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/c245e861caee92fd71428d688f7732cd.png)
 
 
 - 在设备管理页面中选择设备—设备证书下获取设备相关参数*(DeviceName、DeviceSecret)*
 
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/763b931897398dc63b2e55089c014a99.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/763b931897398dc63b2e55089c014a99.png)
 
 
 

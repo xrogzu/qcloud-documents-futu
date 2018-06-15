@@ -8,7 +8,7 @@ COS JAVA SDK GitHub地址 [github项目](https://github.com/tencentyun/cos-java-
 
 JDK 1.7, 1.8. 
 
-JDK安装方式请参考 [JAVA安装与配置](http://tce.fsphere.cn/document/product/436/10865)
+JDK安装方式请参考 [JAVA安装与配置](http://tcecqpoc.fsphere.cn/document/product/436/10865)
 
 ## 安装SDK
 

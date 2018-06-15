@@ -92,7 +92,7 @@ qcloud.conf.setAppInfo('10000','xxxxxx','xxxxxx');
 var sign  = qcloud.auth.signOnce(bucket, 		'/'+conf.APPID+'/'+bucketname+'/'+remoteFilepath);
 ```
 
-更多签名相关详细说明，请参考[权限控制](http://tce.fsphere.cn/doc/product/227/1897#2.1-.E8.8E.B7.E5.8F.96.E7.AD.BE.E5.90.8D.E6.89.80.E9.9C.80.E4.BF.A1.E6.81.AF) 。
+更多签名相关详细说明，请参考[权限控制](http://tcecqpoc.fsphere.cn/doc/product/227/1897#2.1-.E8.8E.B7.E5.8F.96.E7.AD.BE.E5.90.8D.E6.89.80.E9.9C.80.E4.BF.A1.E6.81.AF) 。
 
 ## 目录操作
 

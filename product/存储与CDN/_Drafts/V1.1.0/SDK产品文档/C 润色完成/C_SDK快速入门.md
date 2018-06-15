@@ -13,13 +13,13 @@
 3. 到 (控制台密钥管理)[https://console.qcloud.com/capi] 获取您的项目 SecretId 和 SecretKey
 4. 配置 CORS 规则，配置例子如下图：
 
-![cors](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2e7791e9274ce3ebf8b25bbeafcd7b45/image.png)
+![cors](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/2e7791e9274ce3ebf8b25bbeafcd7b45/image.png)
     
 ### 二、计算签名
 
 由于签名计算放在前端会暴露 SecretId 和 SecretKey，我们把签名计算过程放在后端实现，前段通过 ajax 向后端获取签名结果，正式部署时请再后端加一层自己网站本身的权限检验。
 
-这里提供 [PHP 和 NodeJS 的签名例子](https://github.com/tencentyun/cos-js-sdk-v5/blob/master/server/)，其他语言，请参照对应的 [XML SDK](http://tce.fsphere.cn/document/product/436/6474)
+这里提供 [PHP 和 NodeJS 的签名例子](https://github.com/tencentyun/cos-js-sdk-v5/blob/master/server/)，其他语言，请参照对应的 [XML SDK](http://tcecqpoc.fsphere.cn/document/product/436/6474)
 
 ### 三、上传例子
 
@@ -78,4 +78,4 @@ npm i cos-js-sdk-v5 --save
 ## 其他文档和例子
 
 [更多例子](demo/demo.js)
-[完整文档](http://tce.fsphere.cn/document/product/436/11459)
+[完整文档](http://tcecqpoc.fsphere.cn/document/product/436/11459)

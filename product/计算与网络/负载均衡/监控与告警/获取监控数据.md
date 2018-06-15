@@ -16,4 +16,4 @@
 
 ## API 方式
 
-请参考 [GetMonitorData 接口](http://tce.fsphere.cn/doc/api/405/4667#5.3-.E8.B4.9F.E8.BD.BD.E5.9D.87.E8.A1.A1)。
+请参考 [GetMonitorData 接口](http://tcecqpoc.fsphere.cn/doc/api/405/4667#5.3-.E8.B4.9F.E8.BD.BD.E5.9D.87.E8.A1.A1)。

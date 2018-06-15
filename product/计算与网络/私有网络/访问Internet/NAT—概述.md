@@ -26,7 +26,7 @@ NAT 网关是一种将私有网络中内网 IP 地址和公网 IP 地址进行�
 ## 网络拓扑关系
 如下图所示，NAT 网关是一个处于 Internet 和 VPC 边界的网关，并接在 VPC 的路由器上。由这样的拓扑图可知，VPC 内云主机等资源通过 NAT 网关向外发送数据包时，数据会先经过路由器，按照路由策略进行路由选择。然后 NAT 网关通过绑定的弹性 IP 地址作为源 IP 地址，将流量发送到 Internet。
 <div style="text-align:center">
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/4772b9bc1e78436104f89f943f06ac97/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/4772b9bc1e78436104f89f943f06ac97/image.png)
 
 </div>
 ## NAT 网关和公网网关的区别
@@ -91,7 +91,7 @@ NAT 网关主要有以下几点关键特性：
 - 用户无法直接使用网络 ACL 控制进出 NAT 网关的流量，但可以使用网络 ACL 控制进出 NAT 网关所关联子网的流量。
 - 用户无法通过 VPC 对等连接、VPN 连接或专线接入将流量路由到 NAT 网关，这些连接另一端的资源不能使用 NAT 网关。例如，VPC 1 的发往 Internet 的流量都可以通过 NAT 网关实现，现在 VPC 1 和 VPC 2 建立了对等连接，VPC 2 里所有资源可以访问 VPC 1 中的所有资源，但 VPC 2 中的所有资源不可以经过 NAT 网关访问 Internet。
 - NAT 网关支持 TCP、UDP 和 ICMP 协议，而 GRE 隧道和 IPSec 使用的 ESP、AH 则无法使用 NAT 网关，这是由于 NAT 网关本身的特性决定的，与服务提供商无关。幸运的是互联网大部分应用都是 TCP 应用，TCP 和 UDP 应用合起来占互联网应用类型的99%。
-- NAT 网关资源支持限制如下表所示。您还可以查看 <a href="http://tce.fsphere.cn/doc/product/215/537" target="_blank">VPC 其它产品的使用限制</a>。
+- NAT 网关资源支持限制如下表所示。您还可以查看 <a href="http://tcecqpoc.fsphere.cn/doc/product/215/537" target="_blank">VPC 其它产品的使用限制</a>。
 
 | 资源| 限制 | 
 |:---------:|:---------:|

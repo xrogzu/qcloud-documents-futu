@@ -2,8 +2,8 @@
 
 新建数据库，如下图所示：
 
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img568129426fb79.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img568129426fb79.png)
 
 选择需要建表的数据库，新建数据表，如下图所示：
 
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56812956ec690.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img56812956ec690.png)

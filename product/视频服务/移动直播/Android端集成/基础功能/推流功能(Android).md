@@ -2,7 +2,7 @@
 **推流** 是指将音视频数据采集编码之后，推送到您指定的视频云平台上，这里涉及大量的音视频基础知识，而且需要长时间的打磨和优化才能达到符合预期的效果。
 
 腾讯视频云 SDK 主要帮您解决在智能手机上的推流问题，它的接口非常简单易用，只需要一个推流 URL 就能驱动：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ca7f200c31a9323c032e9e000831ea63/image.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ca7f200c31a9323c032e9e000831ea63/image.jpg)
 
 ## 特别说明
 - **<font color='red'>不绑定云平台</font>**
@@ -11,10 +11,10 @@
 ## 准备工作
 
 - **获取开发包**
-[下载](http://tce.fsphere.cn/document/product/454/7873) SDK 开发包，并按照[工程配置](http://tce.fsphere.cn/document/product/454/7877)指引将 SDK 嵌入您的 APP 开发工程。
+[下载](http://tcecqpoc.fsphere.cn/document/product/454/7873) SDK 开发包，并按照[工程配置](http://tcecqpoc.fsphere.cn/document/product/454/7877)指引将 SDK 嵌入您的 APP 开发工程。
 
 - **获取测试 URL**
-[开通](http://console.tce.fsphere.cn/live)直播服务后，可以使用 [直播控制台>>直播码接入>>推流生成器](http://console.tce.fsphere.cn/live/livecodemanage) 生成推流地址，详细信息可以参考 [获得推流播放 URL](http://tce.fsphere.cn/document/product/454/7915)。
+[开通](http://console.tce.fsphere.cn/live)直播服务后，可以使用 [直播控制台>>直播码接入>>推流生成器](http://console.tce.fsphere.cn/live/livecodemanage) 生成推流地址，详细信息可以参考 [获得推流播放 URL](http://tcecqpoc.fsphere.cn/document/product/454/7915)。
 
 ## 代码对接
 本篇攻略主要是面向**摄像头直播**的解决方案，该方案主要用于美女秀场直播、个人直播以及活动直播等场景。
@@ -74,7 +74,7 @@ mLivePusher.startPusher(rtmpUrl);
 
 使用 setVideoQuality 接口的可以设定推流的画面清晰度：
 
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/6e66be90ff14bb8f0603c70668a27ec8.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/6e66be90ff14bb8f0603c70668a27ec8.png)
 
 - **推荐参数设置**
 
@@ -104,7 +104,7 @@ mLivePusher.startPusher(rtmpUrl);
 | VIDEOCHAT | true | true | 200~800kbps| 190x320~360x640| 
 
 ### step 5: 美颜滤镜
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/aac647073cf0641141900e775e929418/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/aac647073cf0641141900e775e929418/image.png)
 - **美颜**
 setBeautyFilter 接口可以设置美颜风格、磨皮程度、美白级别和红润级别，配合 540 * 960 分辨率（setVideoQuality - VIDEO_QUALITY_HIGH_DEFINITION），可以达到最佳的画质效果：
 ```java
@@ -236,7 +236,7 @@ Android 手机目前对硬件加速的支持已较前两年有明显的进步，
 ### step 9: 本地录制
 使用 startRecord 接口可以启动本地录制，录制格式为 MP4，通过 videoFilePath 可以指定 MP4 文件的存放路径。
 - 录制过程中请勿动态切换分辨率和软硬编，可能导致生成的视频异常。
-- 如果是云端录制，只需要在推流 URL 后面拼接 &record=mp4 即可，详情请参考 [云端录制](http://tce.fsphere.cn/document/product/454/7917)。
+- 如果是云端录制，只需要在推流 URL 后面拼接 &record=mp4 即可，详情请参考 [云端录制](http://tcecqpoc.fsphere.cn/document/product/454/7917)。
 - 通过 setVideoRecordListener 接口，可以设置 TXRecordCommon.ITXVideoRecordListener 监听器给 TXLivePusher ，从而获取录制相关的事件通知。
 
 ```java
@@ -261,7 +261,7 @@ public interface ITXVideoRecordListener {
 主播可能只是短暂接个紧急电话而已，但各云商的安全保护措施会让主播的直播被迫提前结束。
 
 我们可以采用如下方案规避：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6325a9f7918602bd8db15228e6ffe189/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/6325a9f7918602bd8db15228e6ffe189/image.png)
 
 - **10.1、设置 pauseImg**
 在开始推流前，使用 TXLivePushConfig 的 setPauseImg 接口设置一张等待图片，图片含义推荐为“主播暂时离开一下下，稍后回来”。
@@ -325,7 +325,7 @@ public void onResume() {
 
 ### step 12: 横屏推流
 有时候用户在直播的时候需要更广的视角，则拍摄的时候需要“横屏持握”，这个时候其实是期望观看端能看到横屏画面，就需要做横屏推流，下面两幅示意图分别描述了横竖屏持握进行横竖屏推流在观众端看到的效果：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/cae1940763d5fd372ad962ed0e066b91/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/cae1940763d5fd372ad962ed0e066b91/image.png)
 
 - **调整观众端表现**
 通过对 LivePushConfig 中的 **setHomeOrientation** 设置项进行配置，此接口提供了**手机旋转了 0，90，180，270 度** 四个参数供设置旋转角度。调整后的结果可以用播放器 Demo 查看以确认是否符合预期。
@@ -347,8 +347,8 @@ mLivePusher.setRenderRotation(90);
 
 
 - **Activity自动旋转**
-Android 系统的 Activity 本身支持跟随手机的重力感应进行旋转（设置 android:configChanges），[CODE](http://tce.fsphere.cn/document/product/454/9876)演示了如何做到下面这种重力感应效果：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7255ffae57f3e9b7d929a5cb11f85c79/image.png)
+Android 系统的 Activity 本身支持跟随手机的重力感应进行旋转（设置 android:configChanges），[CODE](http://tcecqpoc.fsphere.cn/document/product/454/9876)演示了如何做到下面这种重力感应效果：
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/7255ffae57f3e9b7d929a5cb11f85c79/image.png)
 
 
 ### step 13: 背景混音
@@ -356,7 +356,7 @@ SDK 1.6.1 开始支持背景混音，支持主播带耳机和不带耳机两种�
 
 | 接口 | 说明 |
 |---------|---------|
-| playBGM | 通过 path 传入一首歌曲，[小直播 Demo](http://tce.fsphere.cn/doc/api/258/6164)中我们是从iOS的本地媒体库中获取音乐文件 |
+| playBGM | 通过 path 传入一首歌曲，[小直播 Demo](http://tcecqpoc.fsphere.cn/doc/api/258/6164)中我们是从iOS的本地媒体库中获取音乐文件 |
 | stopBGM|停止播放背景音乐|
 | pauseBGM|暂停播放背景音乐|
 | resumeBGM|继续播放背景音乐|
@@ -386,7 +386,7 @@ public void stopRtmpPublish() {
 mTXLivePusher.sendMessage(questionInfo.getBytes("UTF-8"));
 ```
 
-> 播放端使用 TXLivePlayer 的 onPlayEvent （PLAY_EVT_GET_MESSAGE） 可以用来接收消息。具体参考[播放文档](http://tce.fsphere.cn/document/product/454/7886#Message)
+> 播放端使用 TXLivePlayer 的 onPlayEvent （PLAY_EVT_GET_MESSAGE） 可以用来接收消息。具体参考[播放文档](http://tcecqpoc.fsphere.cn/document/product/454/7886#Message)
 
 
 ## 事件处理

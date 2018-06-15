@@ -2,11 +2,11 @@
 
 解开压缩包，可以看到双人通话、多人通话两份Demo。
 
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-1.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-1.png)
 
 多人通话Demo是由Eclipse创建的工程。
 
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-2.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-2.png)
 
 bin目录存放apk包，可以直接安装体验demo
 
@@ -18,21 +18,21 @@ libs目录存放集成SDK所需的jar和so。
 
 目前SDK最低支持Android 2.2。
 
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-3.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-3.png)
 
 ## 3 SDK集成
 
 SDK库以jar和动态链接库(so)的形式提供。请将so放置于工程名/libs/armeabi目录下，同时将eup_1.9.2__allproguad_rqdp.jar、imsdk.jar、qavsdk.jar放置于/libs目下，刷新Eclipse会自动加入工程引用。
 
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-4.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-4.png)
 
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-5.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-5.png)
 
 >注意：在Eclipse的Perferences中取消选中Force error when external jars contain native libraries。
 
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-6.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-6.png)
 
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-7.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yinshipinAndroidkehuduanjicheng-7.png)
 
 
 
@@ -58,4 +58,4 @@ Manifest
 
 ## 5 开发者文档
 
-详情参考[音视频通信开发指南](http://tce.fsphere.cn/wiki/%E9%9F%B3%E8%A7%86%E9%A2%91%E9%80%9A%E4%BF%A1%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97)
+详情参考[音视频通信开发指南](http://tcecqpoc.fsphere.cn/wiki/%E9%9F%B3%E8%A7%86%E9%A2%91%E9%80%9A%E4%BF%A1%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97)

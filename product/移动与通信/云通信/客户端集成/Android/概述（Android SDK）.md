@@ -7,7 +7,7 @@ ImSDK 支持 JDK 1.6 和 Android SDK version 14 以上系统。
 
 ### 下载 ImSDK
 
-点击下载 [ImSDK](http://tce.fsphere.cn/product/im.html#sdk)，包含以下库文件：
+点击下载 [ImSDK](http://tcecqpoc.fsphere.cn/product/im.html#sdk)，包含以下库文件：
 
 ```
 libs/bugly_1.3.0_imsdk_release.jar
@@ -120,7 +120,7 @@ libs/x86_64/libwtcrypto.so
 
 ### 集成 ImSDK
 
-将上述下载得到的 [ImSDK](http://tce.fsphere.cn/product/im.html#sdk) 库文件复制到工程 `libs/` 文件夹下。
+将上述下载得到的 [ImSDK](http://tcecqpoc.fsphere.cn/product/im.html#sdk) 库文件复制到工程 `libs/` 文件夹下。
 
 >注：
 >- 集成 ImSDK 1.9.0 以上的版本时，需要引用 Android SDK API LEVEL 23+ 版本的 android-support-v4.jar。
@@ -129,7 +129,7 @@ libs/x86_64/libwtcrypto.so
 
 ### 功能开发
 
-在工程中引入上述提及的 [ImSDK](http://tce.fsphere.cn/product/im.html#sdk) 库文件，根据后续章节的开发指引进行功能的开发。其中函数调用顺序可参见 [调用顺序介绍](#.E8.B0.83.E7.94.A8.E9.A1.BA.E5.BA.8F.E4.BB.8B.E7.BB.8D)。
+在工程中引入上述提及的 [ImSDK](http://tcecqpoc.fsphere.cn/product/im.html#sdk) 库文件，根据后续章节的开发指引进行功能的开发。其中函数调用顺序可参见 [调用顺序介绍](#.E8.B0.83.E7.94.A8.E9.A1.BA.E5.BA.8F.E4.BB.8B.E7.BB.8D)。
 
 ### 代码混淆规则
 
@@ -155,7 +155,7 @@ ImSDK 中会话（Conversation）分为两种：
 
 如下图所示，一个会话表示与一个好友的对话。
 
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/6a12c1ea947e7b36a7abe25e55c33608/image.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/6a12c1ea947e7b36a7abe25e55c33608/image.jpg)
 
 **消息：**ImSDK 中消息（Message）表示要发送给对方的内容，消息包括若干属性，如是否自己已读，是否已经发送成功，发送人帐号，消息产生时间等。一条消息由若干 `Elem` 组合而成，每种 `Elem` 可以是文本、图片、表情等等，消息支持多种 `Elem` 组合发送。
 

@@ -1,5 +1,5 @@
 ### 1.注意事项
-1.**前置条件**：确保 Access Token 已经正常获取，获取规则见[登录鉴权流程](http://tce.fsphere.cn/document/product/295/10117)。
+1.**前置条件**：确保 Access Token 已经正常获取，获取规则见[登录鉴权流程](http://tcecqpoc.fsphere.cn/document/product/295/10117)。
 2.主要用于合作方**后台服务端业务请求**生成签名鉴权参数之一，用于后台查询验证结果、调用其他业务服务等。
 3.api ticket 为 SIGN 类型，有效期为最长为 3600S, 此处 api ticket 的必须缓存在磁盘，并定时刷新,刷新的机制如下：
 - 由于 api ticket 的生命周期依赖于 Access Token。最长为 3600S,故为了简单方便，建议 api ticket 的刷新机制与Access Token 定时机制原理一致，严格按照每50分钟请求新的api ticket,原api ticket 1 小时 (3600S) 失效，期间两个 api ticket 都能使用。
@@ -13,7 +13,7 @@
 | 参数 | 说明 |类型 |长度 | 是否必填 |
 |---------|---------|---------|---------|---------|
 | app_id | 腾讯服务分配的 app_id | 字符串 |腾讯服务分配 |必填 ，腾讯服务分配的 app_id |
-| access_token | 根据[《整体登录鉴权流程》](http://tce.fsphere.cn/document/product/295/10117?=cn)获取 access token | 字符串 |腾讯服务分配 |根据[《整体登录鉴权流程》](http://tce.fsphere.cn/document/product/295/10117?=cn)获取 access token |
+| access_token | 根据[《整体登录鉴权流程》](http://tcecqpoc.fsphere.cn/document/product/295/10117?=cn)获取 access token | 字符串 |腾讯服务分配 |根据[《整体登录鉴权流程》](http://tcecqpoc.fsphere.cn/document/product/295/10117?=cn)获取 access token |
 |type | ticket 类型 | 字符串 |20 |必填 ，默认值：**SIGN** (必须大写) |
 | version | 版本号 | 字符串 |20 |必填 ，默认值：1.0.0|
 

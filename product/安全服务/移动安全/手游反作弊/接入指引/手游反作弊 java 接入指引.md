@@ -30,15 +30,15 @@ SDK 接口函数：
 #### 2.1 添加文件
 （1）将 sdk/android/c 目录下的 tp2.jar 文件拷贝到 android 工程目录的 libs 目录下;
 （2）将 sdk/android/java/lib 目录下以 CPU 架构命名的文件夹 (包含 libtersafe2.so 文件) 拷贝到 android 工程目录的 libs 目录下, 对不支持的 CPU 架构体系不需要拷贝.
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/eab83b3ae6d2a13b8f6a8479137a5e07/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/eab83b3ae6d2a13b8f6a8479137a5e07/image.png)
 
 #### 2.2 工程属性设置
 在 Eclipse 中左边的项目导航栏 [Project Explorer] 中选择游戏项目，点击鼠标右键，在弹出的菜单中选择 [Properties]，选中 Properties 窗口左边导航栏中的[Java Build Path] 选项，然后在 [Library] 中点击 [add JARs] 添加 tp2.jar
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2b038746f019e439ef5bbdb473ab16b2/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/2b038746f019e439ef5bbdb473ab16b2/image.png)
  选择已拷贝到工程目录的 tp2.jar
- ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b48aeb6b30b9c689ca5e56357a0c72b3/image.png)
+ ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b48aeb6b30b9c689ca5e56357a0c72b3/image.png)
  添加 tp2.jar 后在 [Order and Export] 中选中 tp2.jar
- ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e19cbe55f0997e7bdb68eeef275a1fb4/image.png)
+ ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/e19cbe55f0997e7bdb68eeef275a1fb4/image.png)
 clean 工程并重新编译
 
 ### 3. SDK 接口调用
@@ -142,19 +142,19 @@ TP2Sdk.onResume();
 
 ### 4. 验证 SDK 接入是否正确
 1. 将安卓手机通过 usb 数据线连接 windows 电脑。连接成功后，使用 windows 的命令行工具，登录到 android adb 控制台，如图：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/091f2d44b4862e843748fdd9655e9914/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/091f2d44b4862e843748fdd9655e9914/image.png)
 2. 敲入 cd /sdcard 回车，再敲入 mkdir sdk 回车，用于创建 / sdcard/sdk 目录。其中，如果目录已经存在，则系统会提示 mkdir failed for /sdcard/sdk，File exists，继续下一步：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/748c74c2ef3f5bec2a650f3d8eb0bdc6/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/748c74c2ef3f5bec2a650f3d8eb0bdc6/image.png)
 3.cd /sdcard/sdk 进入目录，echo>enable.log 创建 enable.log 空文件 ：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/26aa6733a77a4c2625d131cddba47b89/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/26aa6733a77a4c2625d131cddba47b89/image.png)
 有的机型可能无法访问 shell 创建的目录下的文件，这种情况请切换为 root 用户更改 / sdcard/sdk 目录权限或更换手机
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/91cd8bb85e88eede943d47570a792c35/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/91cd8bb85e88eede943d47570a792c35/image.png)
 4. 运行游戏并登录用户，查看 / data/data/log 目录会生成日志文件 tp2.log 和 tlog.log，如图：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/3ce91cbdb15cdb72998fbfcc2bdf074e/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/3ce91cbdb15cdb72998fbfcc2bdf074e/image.png)
 如果没有生成日志，请检查 / sdcard/sdk 和 enable.log 是否有读写权限。少部分机型无法读写这个目录，可更换机型测试或将 / sdcard/sdk 改为 / data/data/log(需要 root)。<br><font color=red > 注：enable.log 只用于测试使用。</font color=red>
 5. 打开 tp2.log 文件，检查日志中是否包含三个接口（native）信息 **tp2_sdk_init_ex，tp2_setuserinfo，setgamestatus** 以及 jar 包版本号 **jar_ver**。以上条件必须都满足才能正确运行安全 SDK。setgamestatus:1 表示当前进程运行在前台，setgamestatus:2 表示当前进程运行在后台。
 请测试 app 切换前后台，查看接口调用是否正确。除了接口调用，还要检查用户信息 (userinfo) 是否填写正确。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/75eef4a35cf89e8e1d02be304403377b/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/75eef4a35cf89e8e1d02be304403377b/image.png)
 6. 打开 tlog.log 可查看安全 SDK 发送的数据，如图
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/50526870e79bb4d21d5b5bb0c333f86f/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/50526870e79bb4d21d5b5bb0c333f86f/image.png)
 安全 SDK 除了在初始化时会上报一些进程基本信息，还会根据定期的安全扫描结果来发送数据，例如扫描到 app 证书签名不正确，内存被修改，外挂进程正在运行等信息。tlog.log 记录 SDK 发送的数据（只在测试时生成），一般 1 小时的数据是 20K 左右，可以查看 tlog.log 的大小来统计安全 SDK 发送的数据量。

@@ -1,9 +1,9 @@
 ## 1 概述
-使用实时语音，需要先调用[基本API](http://tce.fsphere.cn/document/product/556/7665)。
+使用实时语音，需要先调用[基本API](http://tcecqpoc.fsphere.cn/document/product/556/7665)。
 
 ## 2 实时语音API调用流程
  
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d7eb0df95ebdff5e8f9d44a8a01bd74f/jj2.png)  
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d7eb0df95ebdff5e8f9d44a8a01bd74f/jj2.png)  
 **流程说明**   
 1.调用`SetMode()`方法设置使用实时语音模式。  
 2.根据业务需求使用小队语音或国战语音，分别调用`JoinTeamRoom()`或`JoinNationalRoom()`。  

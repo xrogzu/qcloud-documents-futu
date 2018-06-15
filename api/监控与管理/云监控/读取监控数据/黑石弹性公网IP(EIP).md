@@ -10,7 +10,7 @@ dimensions.0.value为要查询的EIP的地址信息
 
 | 英文   | 中文含义                                     |
 | ---- | ---------------------------------------- |
-| vip  | 弹性公网IP地址，可以通过查询EIP列表接口[DescribeEipBm](http://tce.fsphere.cn/document/product/386/6671)查看自己账户已申请的EIP列表 |
+| vip  | 弹性公网IP地址，可以通过查询EIP列表接口[DescribeEipBm](http://tcecqpoc.fsphere.cn/document/product/386/6671)查看自己账户已申请的EIP列表 |
 
 ## 2. 输入参数
 

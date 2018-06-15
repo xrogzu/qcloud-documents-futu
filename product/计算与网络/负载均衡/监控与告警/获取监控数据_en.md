@@ -16,5 +16,5 @@ Log in to [Cloud Monitor Console](http://console.tce.fsphere.cn/monitor/overview
 
 ## API Method
 
-Please refer to [API GetMonitorData](http://tce.fsphere.cn/doc/api/405/4667#5.3-.E8.B4.9F.E8.BD.BD.E5.9D.87.E8.A1.A1).
+Please refer to [API GetMonitorData](http://tcecqpoc.fsphere.cn/doc/api/405/4667#5.3-.E8.B4.9F.E8.BD.BD.E5.9D.87.E8.A1.A1).
 

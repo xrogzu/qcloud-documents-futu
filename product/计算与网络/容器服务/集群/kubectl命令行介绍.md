@@ -1,5 +1,5 @@
 ## kubectl 命令行介绍
-kubectl 是一个用于对 Kubernetes 集群操作命令行工具。 本文涵盖 kubectl 语法，常见命令操作，并提供常见示例。 有关每个命令（包括所有主命令和子命令）的详细信息，请参阅 [kubectl 参考文档](https://kubernetes.io/docs/reference/generated/kubectl/kubectl/) 或使用 kubectl help 命令查看详细帮助，有关安装说明，请参阅 [安装 kubectl](http://tce.fsphere.cn/document/product/457/8438)。
+kubectl 是一个用于对 Kubernetes 集群操作命令行工具。 本文涵盖 kubectl 语法，常见命令操作，并提供常见示例。 有关每个命令（包括所有主命令和子命令）的详细信息，请参阅 [kubectl 参考文档](https://kubernetes.io/docs/reference/generated/kubectl/kubectl/) 或使用 kubectl help 命令查看详细帮助，有关安装说明，请参阅 [安装 kubectl](http://tcecqpoc.fsphere.cn/document/product/457/8438)。
 
 ## 通过kubectl创建nginx
 使用以下一组示例来帮助您熟悉运行常用 kubectl 操作：
@@ -89,8 +89,8 @@ $ kubectl logs <pod-name>
 
 
 
-[create]:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a33b8f47e796374d5c457542c1569a9c/image.png
-[get]:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/fb095179d54e49e0287ba3020f7835cf/image.png
+[create]:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a33b8f47e796374d5c457542c1569a9c/image.png
+[get]:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/fb095179d54e49e0287ba3020f7835cf/image.png
 
-[show]:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e09ab193d3f1732cc435ba53235094c1/image.png
-[logs]:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2c34aca3e996296742e6fa9a9be77432/image.png
+[show]:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/e09ab193d3f1732cc435ba53235094c1/image.png
+[logs]:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/2c34aca3e996296742e6fa9a9be77432/image.png

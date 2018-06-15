@@ -17,7 +17,7 @@ COS提供了 5 种头部标识可以配置：
 
 ## 配置方法
 
-进入控制台，选择Bucket，选择Object，点击「Header设置」。![](https:http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/3bb5a7c32049a07d8077477f7106fcf7/image.jpg)
+进入控制台，选择Bucket，选择Object，点击「Header设置」。![](https:http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/3bb5a7c32049a07d8077477f7106fcf7/image.jpg)
 
 添加参数，并选择类型，如果是自定义内容则需要输入自定义的名称。
 
@@ -47,7 +47,7 @@ COS提供了 5 种头部标识可以配置：
 
 当添加了一些配置如下：
 
-![](https:http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/3bb5a7c32049a07d8077477f7106fcf7/image.jpg)
+![](https:http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/3bb5a7c32049a07d8077477f7106fcf7/image.jpg)
 
 再次发起请求，浏览器或客户端得到的Object头部范例如下：
 

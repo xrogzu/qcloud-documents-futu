@@ -54,4 +54,4 @@ func main() {
 ```    
 
 结果如下：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6119908db94734b6b398075da64ef2d4/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/6119908db94734b6b398075da64ef2d4/image.png)

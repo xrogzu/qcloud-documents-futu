@@ -16,9 +16,9 @@ WHERE house="tencent" AND temperature > 40
 此规则从消息中提取了```t```和```house```这两个字段的值，假定```house```字段的内容为```tencent```，此时如果定义了转发给```house_monitor/app/{house}```这个 Topic，那么规则引擎就会把这个 Topic 中的 ${house} 变量替换为"tencent", 从而将 ```t```和```house```的字段内容发送给```house_monitor/app/tencent```这个 Topic。
 
 下图展示了转发的全过程：
-![image](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2fd61f602479ab39f47e7d6eb4f93558/gui3.png)
+![image](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/2fd61f602479ab39f47e7d6eb4f93558/gui3.png)
 ## 配置
 1. 登录 [规则引擎](http://console.tce.fsphere.cn/iotcloud/rules/rule) 控制台页面，点击所要配置的规则。
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/201da574b056fc52c174ef70ee348505.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/201da574b056fc52c174ef70ee348505.png)
 2. 在规则详情页面，单击【添加行为】按钮。在弹出的“新增行为”窗口，选择行为“republish”，填写要转发至的 Topic 名称，单击【创建】即可。物联网通信平台会将上报数据发转至该 Topic。
-![image](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/a9c2bae6c4ab034a85e0fc516fdbac1a.png)
+![image](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/a9c2bae6c4ab034a85e0fc516fdbac1a.png)

@@ -8,7 +8,7 @@
 
 ## 相关说明
 ### 1. 拓扑连接
-![](http://imgcache.tce.fsphere.cn/image/i.imgur.com/Fv3Kmyc.png)   
+![](http://imgcache.tcecqpoc.fsphere.cn/image/i.imgur.com/Fv3Kmyc.png)   
 - CDM-L80：寄给客户的专用数据迁移设备，单台容量 80 TB  。
 - 交换机：客户提供用于连接外部设备（例如 CDM-L80）的交换机  。
 - 存储挂载点：能够连接客户本地数据存储环境的设备。
@@ -17,14 +17,14 @@
 
 迁移服务器均已完成初始化配置，通过对 CDM-L80 设备进行初始化，可以将其逻辑结构划分成 4 个部分，如图所示：
 
-![](http://imgcache.tce.fsphere.cn/image/i.imgur.com/hrRRrOF.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/i.imgur.com/hrRRrOF.png)
 
 *  顶层为 NFS 服务，主要面向客户提供 NFS 服务，便于客户访问 CDM-L80 上的文件系统。
 *  中间层为数据保护层，对拷贝的数据自动进行加密处理，保证从磁盘不能获取文件信息，即使磁盘遗失，也能保障安全。同时，通过配置磁盘阵列 RAID，保证数据一致性和完整性，确保运输过程中可承受部分硬盘损坏。
 * 底层为物理层，存储迁移数据。
 
 ### 3. 原理说明
-![](http://imgcache.tce.fsphere.cn/image/i.imgur.com/MWM6qQb.png)  
+![](http://imgcache.tcecqpoc.fsphere.cn/image/i.imgur.com/MWM6qQb.png)  
 客户收到 CDM-L80 设备之后，需要将 CDM-L80 中的共享目录 `/dataseal` 挂载到本地，方可执行数据拷贝。（建议每个 Bucket 单独成为一个文件夹目录，并且该目录以 Bucket 名称命名）
 
 ## 操作步骤
@@ -37,7 +37,7 @@
 
 #### 2.1 登录
 将迁移服务器连上显示器和键盘，利用迁移账号登录到系统，用户名为 admin，密码为 Move@cdm2017
-![](http://imgcache.tce.fsphere.cn/image/i.imgur.com/8Ml6aPV.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/i.imgur.com/8Ml6aPV.png)
 
 #### 2.2 切换用户目录
 执行命令 `cd` 切换到 admin 对应的用户目录下（`/home/admin`），执行命令为：
@@ -49,10 +49,10 @@
 ```
 ./ip-conf.sh
 ```
-![](http://imgcache.tce.fsphere.cn/image/i.imgur.com/Pib8rT3.png)    
+![](http://imgcache.tcecqpoc.fsphere.cn/image/i.imgur.com/Pib8rT3.png)    
 #### 2.4 填写 IP 等信息并保存
 执行过程中会弹出 vi 编辑窗口，按照提示填写 IP 地址，网关和掩码信息，填写完毕之后保存。
-![](http://imgcache.tce.fsphere.cn/image/i.imgur.com/aMvE11z.png)  
+![](http://imgcache.tcecqpoc.fsphere.cn/image/i.imgur.com/aMvE11z.png)  
 >**注意：** 
 > 最多只能填写两个有效的 IP 地址，中间用空格隔开，若填写一个 IP 地址，则只会配置一个网卡（默认网卡 eth0）。
 

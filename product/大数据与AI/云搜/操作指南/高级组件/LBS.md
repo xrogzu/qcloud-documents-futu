@@ -6,14 +6,14 @@ LBS定制可以提供给基于地理位置距离进行优先的搜索业务，�
 
 第一步：在“应用结构修改”数值域字段添加”经纬度“两个字段（字段类型为浮点型），用于存储商户的经纬度信息。如下图
 
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunsousuobangzhuwendang-55.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunsousuobangzhuwendang-55.png)
 
 第二步：在高级组件定制”LBS“里设置经纬度字段，并保存开启LBS距离优先策略。
 
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img5698f6224f42f.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img5698f6224f42f.png)
 
 ## 3 使用
 
 在检索过程中，需要传入用户所在的经（参数名为longitude）纬（参数名为latitude）度值，用来计算两点的距离，如下图所示：
 
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunsousuobangzhuwendang-57.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunsousuobangzhuwendang-57.png)

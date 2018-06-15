@@ -11,34 +11,34 @@ OCR（Optical Character Recognition，光学字符识别）是指利用光学字
 身份证 OCR 识别技术，支持二代身份证正反面关键字段识别，一次扫描即可识别所有字段，对倾斜、暗光、曝光、阴影等异常情况稳定性好、识别准确率高，通过自适应判别纠正技术更将身份证上的数字识别准确率提高到了 99.9%以上，在多个字段上处于当前领先地位，为用户提供最方便快捷的身份证信息录入体验。可用于金融场景下的客户身份识别、视频场景下的主播实名认证、电商场景下的买家卖家身份认证等。
 
 
-![身份证识别](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/dfc1bcdd3be822b730eb347b17f5f55f/image.jpg)
+![身份证识别](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/dfc1bcdd3be822b730eb347b17f5f55f/image.jpg)
 
 ### b. 名片识别
 名片 OCR 识别技术，为用户提供最高效快捷的名片信息录入体验，使用优图技术，仅需轻轻一拍，即可自动完成名片信息识别录入。支持姓名、手机号、QQ 等字段的自动定位与识别，支持 30 度以内的角度偏转，对拍摄环境适用性高，性能良好。可为社交平台、展会管理、手机厂商、CRM 软件等行业提供解决方案。
 
 
-![名片识别](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/dd9ecbcb093fe51b8c3e9cf38be1eb69/image.jpg)
+![名片识别](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/dd9ecbcb093fe51b8c3e9cf38be1eb69/image.jpg)
 
 ### c. 营业执照识别
 
 营业执照 OCR 可以识别营业执照中的注册号与公司名称等字段，注册号准确率达 95%以上。可应用于供应链管理、电商平台的企业、商家、服务商等的证件管理识别，有效减少营业执照审核人员的工作量，提高营业执照录入速度。
 
-![营业执照识别](http://imgcache.tce.fsphere.cn/image/open.youtu.qq.com/content/img/introduce/image_identify/b_2.3%E8%90%A5%E4%B8%9A%E6%89%A7%E7%85%A7.jpg)
+![营业执照识别](http://imgcache.tcecqpoc.fsphere.cn/image/open.youtu.qq.com/content/img/introduce/image_identify/b_2.3%E8%90%A5%E4%B8%9A%E6%89%A7%E7%85%A7.jpg)
 ### d. 运单识别
 
 首家将手写文字识别应用到复杂场景中的智能识别服务提供商，经过长期积累和对运单场景的深入分析，采用业内领先的 OCR 整行手写文字识别技术，精确识别运单上的寄件人和收件人信息，接近人工识别水平。
 
-![运单识别](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2cc0584a933e178b56029b35df497d0d/image.png)
+![运单识别](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/2cc0584a933e178b56029b35df497d0d/image.png)
 
 ###  e. 行驶证/驾驶证识别
 行驶证/驾驶证 OCR 识别技术助力实现汽车“身份证”的快速信息录入工作。其中行驶证识别可自动识别机动车行驶证主页正面的文字，驾驶证识别可自动识别机动车驾驶证主页正面的文字，均支持所有字段。各字段自动识别准确率处于业界一流水平。可用于保险行业与移动查勘、在线租车、网约车司机审核、公安移动警务通等场景，减少证件手动输入，提高工作效率与用户体验。
 
 
-![行驶证/驾驶证识别](http://imgcache.tce.fsphere.cn/image/open.youtu.qq.com/content/img/introduce/image_identify/b_2.4%E8%A1%8C%E9%A9%B6%E8%AF%81.jpg)
+![行驶证/驾驶证识别](http://imgcache.tcecqpoc.fsphere.cn/image/open.youtu.qq.com/content/img/introduce/image_identify/b_2.4%E8%A1%8C%E9%A9%B6%E8%AF%81.jpg)
 
 ###  f. 通用OCR识别
 万象优图基于业界领先的深度学习技术，为用户提供图片整体文字的检测和识别服务，返回文字框位置与文字内容。支持多场景、任意版面下整图文字的识别，以及中英文、字母、数字的识别。被广泛应用于印刷文档识别、广告图文字识别、街景店招识别、菜单识别、视频标题识别、互联网头像文字识别等。
 
 
-![通用OCR识别](http://imgcache.tce.fsphere.cn/image/open.youtu.qq.com/content/img/introduce/image_identify/b_2.6%E9%80%9A%E7%94%A8OCR.jpg)
+![通用OCR识别](http://imgcache.tcecqpoc.fsphere.cn/image/open.youtu.qq.com/content/img/introduce/image_identify/b_2.6%E9%80%9A%E7%94%A8OCR.jpg)
 

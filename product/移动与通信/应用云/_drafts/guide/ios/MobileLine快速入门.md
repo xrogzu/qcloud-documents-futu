@@ -23,7 +23,7 @@
 解压后将 tac_services_configurations.plist 文件集成进项目中。其中有一个  tac_services_configurations_unpackage.plist 文件，请将该文件放到您工程的根目录下面(**切记不要将改文件添加进工程中**)。 添加好配置文件后，继续点击【下一步】。
 
 
-![](http://imgcache.tce.fsphere.cn/image/ws1.sinaimg.cn/large/006tNc79gy1forbnw3ijyj31bi11wnch.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/ws1.sinaimg.cn/large/006tNc79gy1forbnw3ijyj31bi11wnch.jpg)
 
 > 切记**不要**将文件 `tac_service_configurations_unpackage.plist` 添加进工程，文件中包含了不可泄露的机密信息，请不要打包到 apk 文件中，MobileLine SDK 也会对此进行检查，防止由于您误打包造成的机密信息泄露。
 
@@ -95,7 +95,7 @@ pod 'TACCrash'
 1. 在构建之前运行的脚本，该类型的脚本会修改一些程序的配置信息，比如在 Info.plist 里面增加 qqwallet 的 scheme 回调。
 2. 在构建之后运行的脚本，该类型的脚本在执行结束后做一些动作，比如 Crash 符号表上报。
 
-![](http://imgcache.tce.fsphere.cn/image/ws1.sinaimg.cn/large/006tNc79ly1fnttw83xayj317i0ro44j.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/ws1.sinaimg.cn/large/006tNc79ly1fnttw83xayj317i0ro44j.jpg)
 
 请按照以下步骤来添加脚本：
 
@@ -235,12 +235,12 @@ MobileLine Android SDK 不会自动帮您启动服务，需要您自己手动启
 
 |功能|服务名称|入门指南|
 |:---|:---|:---|
-|腾讯移动分析（MTA）|analytics|[Analytics 快速入门](http://tce.fsphere.cn/document/product/666/14315)|
-|腾讯移动推送（信鸽）|messaging|[Messaging 快速入门](http://tce.fsphere.cn/document/product/666/14350)|
-|腾讯崩溃服务（bugly）|crash|[Crash 快速入门](http://tce.fsphere.cn/document/product/666/14311)|
-|腾讯计费（米大师）|payment|[Payment 快速入门](http://tce.fsphere.cn/document/product/666/14614)|
-|移动存储（Storage）|storage|[Storage 快速入门](http://tce.fsphere.cn/document/product/666/14351)|
-|授权（Authorization）|authorization|[Authorization 快速入门](http://tce.fsphere.cn/document/product/666/14333)|
+|腾讯移动分析（MTA）|analytics|[Analytics 快速入门](http://tcecqpoc.fsphere.cn/document/product/666/14315)|
+|腾讯移动推送（信鸽）|messaging|[Messaging 快速入门](http://tcecqpoc.fsphere.cn/document/product/666/14350)|
+|腾讯崩溃服务（bugly）|crash|[Crash 快速入门](http://tcecqpoc.fsphere.cn/document/product/666/14311)|
+|腾讯计费（米大师）|payment|[Payment 快速入门](http://tcecqpoc.fsphere.cn/document/product/666/14614)|
+|移动存储（Storage）|storage|[Storage 快速入门](http://tcecqpoc.fsphere.cn/document/product/666/14351)|
+|授权（Authorization）|authorization|[Authorization 快速入门](http://tcecqpoc.fsphere.cn/document/product/666/14333)|
 
 
 ## 后续步骤
@@ -251,9 +251,9 @@ MobileLine Android SDK 不会自动帮您启动服务，需要您自己手动启
 
 ### 向您的应用添加 MobileLine 功能：
 
-- 借助 [Analytics](http://tce.fsphere.cn/document/product/666/14822) 深入分析用户行为。
-- 借助 [messaging](http://tce.fsphere.cn/document/product/666/14826) 向用户发送通知。
-- 借助 [crash](http://tce.fsphere.cn/document/product/666/14824) 确定应用崩溃的时间和原因。
-- 借助 [storage](http://tce.fsphere.cn/document/product/666/14828) 存储和访问用户生成的内容（如照片或视频）。
-- 借助 [authorization](http://tce.fsphere.cn/document/product/666/14830) 来进行用户身份验证。
-- 借助 [payment](http://tce.fsphere.cn/document/product/666/14832) 获取微信和手 Q 支付能力
+- 借助 [Analytics](http://tcecqpoc.fsphere.cn/document/product/666/14822) 深入分析用户行为。
+- 借助 [messaging](http://tcecqpoc.fsphere.cn/document/product/666/14826) 向用户发送通知。
+- 借助 [crash](http://tcecqpoc.fsphere.cn/document/product/666/14824) 确定应用崩溃的时间和原因。
+- 借助 [storage](http://tcecqpoc.fsphere.cn/document/product/666/14828) 存储和访问用户生成的内容（如照片或视频）。
+- 借助 [authorization](http://tcecqpoc.fsphere.cn/document/product/666/14830) 来进行用户身份验证。
+- 借助 [payment](http://tcecqpoc.fsphere.cn/document/product/666/14832) 获取微信和手 Q 支付能力

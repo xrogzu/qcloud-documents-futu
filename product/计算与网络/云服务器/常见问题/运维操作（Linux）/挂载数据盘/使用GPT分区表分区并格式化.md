@@ -5,44 +5,44 @@
 ### 非 FreeBSD 系统操作方法
 #### 1. 查看磁盘列表
 使用命令 `fdisk –l` 查看磁盘设备列表。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/cd614ab9441c731539cda705bce12f4a/27.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/cd614ab9441c731539cda705bce12f4a/27.png)
 #### 2. 创建 GPT 分区
 使用 parted 工具，创建 GPT 分区。
 1）. 输入 `parted /dev/vdb` 命令。
 2）. 输入 `mklabel gpt` 命令，再输入 `print` 将信息打印出来，此时会显示磁盘大小。
 3）. 输入 `mkpart primary 0 磁盘大小` 命令，并在提示警告时选择 ignore 忽视。
 4）. 输入 `print` 将信息打印出来。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7a2dbc0db11c035e13049581b3a53923/28.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/7a2dbc0db11c035e13049581b3a53923/28.png)
 
 #### 3. 查看新分区消息
 分区创建完成后，可使用 `fdisk -l` 语句查看新分区信息。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/21931bce6b1bad88454da272cb4d9520/29.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/21931bce6b1bad88454da272cb4d9520/29.png)
 
 #### 4. 格式化分区
 使用 mkfs 工具格式化分区：执行 `mkfs.ext4 -T largefile 磁盘`
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a647e6efee27611461c3b687b7db73cc/30.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a647e6efee27611461c3b687b7db73cc/30.png)
 
 #### 5. 挂载新分区
 格式化完成后，执行命令 `mount 文件系统 分区路径 挂载点` 挂载新分区。
 此时使用命令 `df –h` 可以查看到磁盘剩余容量。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/984ff3b2d4c56e84057573643ac0009a/31.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/984ff3b2d4c56e84057573643ac0009a/31.png)
 
 #### 6. 设置自动挂载
 修改 fstab 文件，设置系统重启时自动挂载新分区。
 执行命令 `vi /etc/fstab` ，进入编辑页面，键入`i`进入编辑模式；
 将 `/dev/vdb1      /data           ext4         defaults     0 0` 添加至文本末端，再按 Esc 键，输入`:wq`保存并返回到命令行，此时已成功修改 fstab 文件。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/dfaf4ce2855059ba9da9f18e0da1b260/32.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/dfaf4ce2855059ba9da9f18e0da1b260/32.png)
  
 ### FreeBSD 系统操作方法
 #### 1. 查看磁盘列表
 使用命令 `diskinfo -v /dev/vtbd1` 查看磁盘设备列表。
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a616a9911da.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img56a616a9911da.png)
 
 #### 2. 创建 GPT 分区
 1）. 执行命令 `gpart create -s gpt vtbd1`。
 ![](//mccdn.qcloud.com/img56a6171206c80.png)
 2）. 执行命令 `gpart add -t freebsd-ufs -a 1M vtbd1`。
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a6172bb39c0.png) 
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img56a6172bb39c0.png) 
 
 #### 3. 查看新分区消息
 使用命令 `diskinfo -v /dev/vtbd1` 查看新分区消息。
@@ -58,4 +58,4 @@
 修改 /etc/fstab 文件，设置系统重启时自动挂载新分区。
 执行命令 `vi /etc/fstab` ，进入编辑页面，键入`i`进入编辑模式；
 将 `/dev/vtbd1p1       /ufs     rw       0        0` 添加至文本末端，再按 Esc 键，输入`:wq`保存并返回到命令行，此时已成功修改 fstab 文件。
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a6188004bac.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img56a6188004bac.png)

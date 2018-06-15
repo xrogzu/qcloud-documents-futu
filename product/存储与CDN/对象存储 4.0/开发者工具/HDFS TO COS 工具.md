@@ -6,7 +6,7 @@ Linux 或 Windows 系统
 ### 软件依赖
 JDK 1.7 或1.8 
 #### 安装与配置
-具体环境安装与配置请参考 [Java 安装与配置](http://tce.fsphere.cn/document/product/436/10865)。
+具体环境安装与配置请参考 [Java 安装与配置](http://tcecqpoc.fsphere.cn/document/product/436/10865)。
 ## 配置及使用方法
 ### 配置方法
 1. 安装 Hadoop-2.7.2 及以上版本，具体安装步骤请参考 [Hadoop 安装与测试](/doc/product/436/10867)。
@@ -24,7 +24,7 @@ JDK 1.7 或1.8
 ./hdfs_to_cos_cmd -h
 ```
 执行结果如下图所示：
-![微信图片_20170807163035](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/dcff34d37928c0d8b9c4b45c25ac116e/image.png)
+![微信图片_20170807163035](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/dcff34d37928c0d8b9c4b45c25ac116e/image.png)
 
 #### 文件拷贝
 - 从 HDFS 拷贝到 COS，若 COS 上已存在同名文件， 则会覆盖原文件。

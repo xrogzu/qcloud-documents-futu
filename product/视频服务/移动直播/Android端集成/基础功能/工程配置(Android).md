@@ -1,6 +1,6 @@
 ## 1 SDK 信息
 
-您可以在云平台官网更新 [小直播 SDK](http://tce.fsphere.cn/document/product/454/7873)，目前小直播 SDK 有如下几下版本：
+您可以在云平台官网更新 [小直播 SDK](http://tcecqpoc.fsphere.cn/document/product/454/7873)，目前小直播 SDK 有如下几下版本：
 
 | 版本类型   | 功能                           |
 | ------ | ---------------------------- |
@@ -12,7 +12,7 @@
 
 以专业版为例，下载完的 SDK 解压后有以下几个部分：
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1244d459b1719650ee80b7b1ab9e0be1/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1244d459b1719650ee80b7b1ab9e0be1/image.png)
 
 
 | 文件名 | 说明 | 
@@ -39,7 +39,7 @@ SDK 支持 在 Android 4.0.3（API 15）及以上系统上运行，但只有 ( A
 ## 4 集成攻略（aar）
 
 ### 4.1 新建工程
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ac2efe1a787a8c23a9250214a84fce44/image.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ac2efe1a787a8c23a9250214a84fce44/image.jpg)
 
 ### 4.2 拷贝文件
 

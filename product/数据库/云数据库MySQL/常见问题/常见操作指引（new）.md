@@ -1,6 +1,6 @@
 ## 1. 如何备份数据
 
-云数据库实例每天会进行全量备份，开发者可以在控制台外网或者内网下载备份数据（详情请参考 <a href="http://tce.fsphere.cn/document/product/236/7274" target="_blank">下载备份文件</a>），也可以在 phpMyAdmin 控制台中手动备份数据库。
+云数据库实例每天会进行全量备份，开发者可以在控制台外网或者内网下载备份数据（详情请参考 <a href="http://tcecqpoc.fsphere.cn/document/product/236/7274" target="_blank">下载备份文件</a>），也可以在 phpMyAdmin 控制台中手动备份数据库。
 
 ## 2. 如何查看云数据库慢查询日志
 
@@ -79,4 +79,4 @@ cd mysql-proxy-0.8.4-linux-glibc2.3-x86-64bit/bin
 
 ## 7. 云数据库如何做读写分离
 
-可通过购买只读实例做读写分离。详情请参考 <a href="http://tce.fsphere.cn/document/product/236/7270" target="_blank">只读实例</a>。
+可通过购买只读实例做读写分离。详情请参考 <a href="http://tcecqpoc.fsphere.cn/document/product/236/7270" target="_blank">只读实例</a>。

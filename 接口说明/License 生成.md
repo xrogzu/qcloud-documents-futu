@@ -16,13 +16,13 @@
 
 需要注意的是，我们对序列号格式有严格要求：长度必须是16个字符的字母、数字或者连词符的组合，例如ABC-0032-1234567就是一个非常标准的序列号。
 
-您也可以使用小微提供的[客户端工具](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/key_tools_v3.01.zip)，来生成符合要求的序列号。
+您也可以使用小微提供的[客户端工具](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/key_tools_v3.01.zip)，来生成符合要求的序列号。
 
 ### license(SN对应的认证签名)
 
 **license**用于安全校验，作用等同与密码。
 
-**license**的存在意义和目的，是保护合作方的利益，避免冒充合作方的山寨设备出现，**license**可以使用[客户端工具](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/key_tools_v3.01.zip)来实现。
+**license**的存在意义和目的，是保护合作方的利益，避免冒充合作方的山寨设备出现，**license**可以使用[客户端工具](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/key_tools_v3.01.zip)来实现。
 
 ### 签名密钥
 在对接小微的过程中，会遇到两对非对称密钥，我们需要用它们来生成**license**，以保证设备的合法性验证。
@@ -53,7 +53,7 @@
 
 ### 生成签名密钥
 
-*   首先下载[客户端工具](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/key_tools_v3.01.zip)，然后运行之。（目前工具只支持windows版本）
+*   首先下载[客户端工具](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/key_tools_v3.01.zip)，然后运行之。（目前工具只支持windows版本）
 
 *   在工具中点击**生成KEY**按钮，便会在指定的目录下生成两个密钥文件：
 
@@ -71,19 +71,19 @@
 
 ### license生成-批量方案
 
-可以使用 [客户端工具](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/key_tools_v3.01.zip)或 [工具源代码](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/KeySnLicense_v1.0.tar.bz2)，根据 **SN** 批量生成 **license**，然后在设备出厂前，内置到设备中。
+可以使用 [客户端工具](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/key_tools_v3.01.zip)或 [工具源代码](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/KeySnLicense_v1.0.tar.bz2)，根据 **SN** 批量生成 **license**，然后在设备出厂前，内置到设备中。
 
 使用**客户端工具**生成license的步骤如下：
 
 *   首先，选择**使用自有序列号(SN)**，批量导入**SN**，您也可以使用**客户端工具**随机生成一批SN来使用。
 
-    [![img](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_9.png)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_9.png)
+    [![img](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_9.png)](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_9.png)
 
 > *   注意：随机生成**SN**是针对当前运行而言的，如果之前已经存在一批SN，**客户端工具**无法保证是否会和之前的SN重复。
 
 *   <div class="md-text">有了**SN**，我们就可以在**证书生成工具**区域，生成license了。生成前，需要选择要使用的**签名私钥**，然后点击**生成License**即可。</div>
 
-    <div class="col-sm-12">[![img](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_10.png)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_10.png)</div>
+    <div class="col-sm-12">[![img](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_10.png)](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_10.png)</div>
 
 > *   注意：license的生成使用的是**签名密钥**对中的私钥，文件名叫做ec_key.pem，需要和上传到小微平台的**签名公钥**匹配。
 
@@ -98,6 +98,6 @@
 > *   设备端Demo之所以把私钥放在云端，是为了方便对接小微平台的开发人员理解**license**的生成过程。
 
 ## 源码&工具获取
-[客户端工具](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/key_tools_v3.01.zip)
+[客户端工具](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/key_tools_v3.01.zip)
 
-[工具源代码](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/KeySnLicense_v1.0.tar.bz2)
+[工具源代码](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/KeySnLicense_v1.0.tar.bz2)

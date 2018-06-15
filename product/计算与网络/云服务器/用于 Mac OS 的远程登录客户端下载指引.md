@@ -9,4 +9,4 @@ Microsoft 为 Mac 提供了测试版客户端，您可转到 [Microsoft Remote D
 > 该客户端不面向中国地区用户开放，您需要有其他地区 AppleID 账号才可下载。
 
  3.  您还可以尝试通过搜索引擎，自行搜索下载。如下图：
-![搜索引擎](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8a149e8858af5a29894436f4138c3fbb/image.png)
+![搜索引擎](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/8a149e8858af5a29894436f4138c3fbb/image.png)

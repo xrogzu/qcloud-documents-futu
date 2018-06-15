@@ -175,7 +175,7 @@ dependencies {
 
 支付不算是应用的标配，不过如果是有内购商品的话，可以直接用微信和qq的支付渠道，非常方便。
 
-因为涉及到钱的问题，所以流程还是比较繁琐的，这里贴一下大致的流程吧，具体可以看下官方的 [指引文档](http://tce.fsphere.cn/document/product/666/14599)。
+因为涉及到钱的问题，所以流程还是比较繁琐的，这里贴一下大致的流程吧，具体可以看下官方的 [指引文档](http://tcecqpoc.fsphere.cn/document/product/666/14599)。
 
 1. 注册微信开放平台账号并进行开发者资质认证
 2. 提交资料申请微信支付
@@ -196,4 +196,4 @@ qq支付没有远程依赖，只能从 [mqqopenpay.jar](http://tac-android-libs-
 
 ![支付过程](https://tacimg-1253960454.cos.ap-guangzhou.myqcloud.com/guides/payment/payment%E6%95%B4%E4%BD%93%E6%B5%81%E7%A8%8B.png)
 
-具体的 API 调用可以参考下官方的 [编程指南](http://tce.fsphere.cn/document/product/666/14594)。
+具体的 API 调用可以参考下官方的 [编程指南](http://tcecqpoc.fsphere.cn/document/product/666/14594)。

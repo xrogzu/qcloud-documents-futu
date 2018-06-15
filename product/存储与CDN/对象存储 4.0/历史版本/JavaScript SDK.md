@@ -69,7 +69,7 @@ COS服务的js sdk v4版本的GitHub下载地址： [https://github.com/tencenty
 | **参数名**        | **类型**   | **是否必填** | **默认值** | **参数描述**                                 |
 | -------------- | -------- | -------- | ------- | ---------------------------------------- |
 | appid          | int      | 是        | 无       | appid                                    |
-| bucket         | String   | 是        | 无       | bucket名称，bucket创建参见[创建Bucket](http://tce.fsphere.cn/document/product/436/6232) |
+| bucket         | String   | 是        | 无       | bucket名称，bucket创建参见[创建Bucket](http://tcecqpoc.fsphere.cn/document/product/436/6232) |
 | region         | String   | 是        | 'gz'    | 地域信息，必填参数 华南地区填gz 华东填sh 华北填tj            |
 | getAppSign     | Function | 是        | 无       | 获取多次签名的函数，建议从服务器端获取签名字符串                 |
 | getAppSignOnce | Function | 是        | 无       | 获取单次签名的函数，建议从服务器端获取签名字符串                 |

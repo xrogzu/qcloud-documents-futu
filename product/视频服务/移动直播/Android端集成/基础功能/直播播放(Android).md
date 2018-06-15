@@ -8,7 +8,7 @@
 
 - **协议的支持**
 通常使用的直播协议如下，APP 端推荐使用 FLV 协议的直播地址(以“http”打头，以“.flv”结尾)：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/94c348ff7f854b481cdab7f5ba793921/image.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/94c348ff7f854b481cdab7f5ba793921/image.jpg)
 
 ## 特别说明
 - **是否有限制？**
@@ -84,7 +84,7 @@ mLivePlayer.setRenderMode(TXLiveConstants.RENDER_MODE_ADJUST_RESOLUTION);
 mLivePlayer.setRenderRotation(TXLiveConstants.RENDER_ROTATION_LANDSCAPE);
 ```
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ef948faaf1d62e8ae69e3fe94ab433dc/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ef948faaf1d62e8ae69e3fe94ab433dc/image.png)
 
 
 ### step 5: 暂停播放
@@ -152,7 +152,7 @@ stopPlay 的布尔型参数含义为—— “是否清除最后一帧画面”�
 ### step 8: 屏幕截图
 通过调用 **snapshot** 您可以截取当前直播画面为一帧屏幕，此功能只会截取当前直播流的视频画面，如果您需要截取当前的整个 UI 界面，请调用 iOS 的系统 API 来实现。
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f63830d29c16ce90d8bdc7440623b0be/image.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/f63830d29c16ce90d8bdc7440623b0be/image.jpg)
 
 ```java
 mLivePlayer.snapshot(new ITXSnapshotListener() {
@@ -168,7 +168,7 @@ mLivePlayer.snapshot(new ITXSnapshotListener() {
 ### step 9: 截流录制
 截流录制是直播播放场景下的一种扩展功能：观众在观看直播时，可以通过点击录制按钮把一段直播的内容录制下来，并通过视频分发平台（比如云平台的点播系统）发布出去，这样就可以在微信朋友圈等社交平台上以 UGC 消息的形式进行传播。
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2963b8f0af228976c9c7f2b11a514744/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/2963b8f0af228976c9c7f2b11a514744/image.png)
 
 ```java
 //指定一个 ITXVideoRecordListener 用于同步录制的进度和结果
@@ -183,7 +183,7 @@ mLivePlayer.stopRecord();
 
 - 录制的进度以时间为单位，由 ITXVideoRecordListener 的    onRecordProgress 通知出来。
 - 录制好的文件以 MP4 文件的形式，由 ITXVideoRecordListener 的  onRecordComplete 通知出来。
-- 视频的上传和发布由 TXUGCPublish 负责，具体使用方法可以参考 [短视频-文件发布](http://tce.fsphere.cn/document/product/584/9367#6.-.E6.96.87.E4.BB.B6.E5.8F.91.E5.B8.8310)。
+- 视频的上传和发布由 TXUGCPublish 负责，具体使用方法可以参考 [短视频-文件发布](http://tcecqpoc.fsphere.cn/document/product/584/9367#6.-.E6.96.87.E4.BB.B6.E5.8F.91.E5.B8.8310)。
 
 <h2 id="Delay">延时调节</h2>
 云平台 SDK 的直播播放（LVB）功能，并非基于 ffmpeg 做二次开发， 而是采用了自研的播放引擎，所以相比于开源播放器，在直播的延迟控制方面有更好的表现，我们提供了三种延迟调节模式，分别适用于：秀场，游戏以及混合场景。
@@ -220,7 +220,7 @@ mLivePlayer.setConfig(mPlayConfig);
 //设置完成之后再启动播放
 ```
 
-> 更多关于卡顿和延迟优化的技术知识，可以阅读 [视频卡顿怎么办？](http://tce.fsphere.cn/document/product/454/7946)
+> 更多关于卡顿和延迟优化的技术知识，可以阅读 [视频卡顿怎么办？](http://tcecqpoc.fsphere.cn/document/product/454/7946)
 
 <h2 id="RealTimePlay">超低延时播放</h2>
 支持 <font color='red'>**400ms**</font> 左右的超低延迟播放时云平台直播播放器的一个特点，它可以用于一些对时延要求极为苛刻的场景，比如**远程夹娃娃**或者**主播连麦**，等等，关于这个特性，您需要知道：
@@ -229,7 +229,7 @@ mLivePlayer.setConfig(mPlayConfig);
 该功能并不需要提前开通，但是要求直播流必须位于云平台，跨云商实现低延时链路的难度不仅仅是技术层面的。
 
 - **播放地址需要带防盗链**
-播放URL 不能用普通的 CDN URL， 必须要带防盗链签名，防盗链签名的计算方法见 [**txTime&txSecret**](http://tce.fsphere.cn/document/product/454/9875)。
+播放URL 不能用普通的 CDN URL， 必须要带防盗链签名，防盗链签名的计算方法见 [**txTime&txSecret**](http://tcecqpoc.fsphere.cn/document/product/454/9875)。
 
 - **播放类型需要指定 ACC**
 在调用 startPlay 函数时，需要指定 type 为 <font color='red'>**PLAY_TYPE_LIVE_RTMP_ACC**</font>，SDK 会使用 RTMP-UDP 协议拉取直播流。
@@ -238,7 +238,7 @@ mLivePlayer.setConfig(mPlayConfig);
 目前最多同时<font color="red"> 10 路 </font>并发播放，设置这个限制的原因并非是技术能力限制，而是希望您只考虑在互动场景中使用（比如连麦时只给主播使用， 或者夹娃娃直播中只给操控娃娃机的玩家使用），避免因为盲目追求低延时而产生不必要的费用损失（低延迟线路的价格要贵于CDN线路）。
 
 - **Obs的延时是不达标的**
-推流端如果是 [TXLivePusher](http://tce.fsphere.cn/document/product/454/7885)，请使用 [setVideoQuality](http://tce.fsphere.cn/document/product/454/7885#step-4.3A-.E8.AE.BE.E5.AE.9A.E6.B8.85.E6.99.B0.E5.BA.A6) 将 `quality`  设置为 MAIN_PUBLISHER 或者 VIDEO_CHAT。如果是 Windows 端，请使用我们的 [Windows SDK](http://tce.fsphere.cn/document/product/454/7873#Windows)， Obs 的推流端积压比较严重，是无法达到低延时效果的。
+推流端如果是 [TXLivePusher](http://tcecqpoc.fsphere.cn/document/product/454/7885)，请使用 [setVideoQuality](http://tcecqpoc.fsphere.cn/document/product/454/7885#step-4.3A-.E8.AE.BE.E5.AE.9A.E6.B8.85.E6.99.B0.E5.BA.A6) 将 `quality`  设置为 MAIN_PUBLISHER 或者 VIDEO_CHAT。如果是 Windows 端，请使用我们的 [Windows SDK](http://tcecqpoc.fsphere.cn/document/product/454/7873#Windows)， Obs 的推流端积压比较严重，是无法达到低延时效果的。
 
 
 ## SDK 事件监听

@@ -9,7 +9,7 @@
 <br>3.选择需要的基础防护带宽大小；
 <br>4.选择需要的弹性防护带宽大小；
 <br>5.选择需要的使用时长；
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/55f3d1f08a598e6d1e2c7205c705a88f/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/55f3d1f08a598e6d1e2c7205c705a88f/image.png)
 ### 4. 费用说明
 **基础防护（按月预付费）**
 

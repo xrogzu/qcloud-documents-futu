@@ -1,12 +1,12 @@
 ## 开发准备
 
 ### SDK 获取
-人脸核身 SDK 的 Android SDK-1.0.0下载地址：[Android SDK](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/96cb171e0810b55e85689d0c6f17af34/QCloudFaceIdSample_beta.zip)。
+人脸核身 SDK 的 Android SDK-1.0.0下载地址：[Android SDK](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/96cb171e0810b55e85689d0c6f17af34/QCloudFaceIdSample_beta.zip)。
 
 
 ### 开发准备
- 1. 前往注册： [云平台账号注册](http://tce.fsphere.cn/register) （详细指引见 [注册云平台](http://tce.fsphere.cn/document/product/378/9603)）
- 2. 取得存储桶名称 `BucketName`： 请前往 [创建存储桶](http://tce.fsphere.cn/document/product/460/10637) 
+ 1. 前往注册： [云平台账号注册](http://tcecqpoc.fsphere.cn/register) （详细指引见 [注册云平台](http://tcecqpoc.fsphere.cn/document/product/378/9603)）
+ 2. 取得存储桶名称 `BucketName`： 请前往 [创建存储桶](http://tcecqpoc.fsphere.cn/document/product/460/10637) 
  3. 取得 `APPID`、`SecretId`、`SecretKey`：请前往 [云API密钥](http://console.tce.fsphere.cn/cam/capi) ，点击“新建密钥”
 
 # 快速体验 Demo
@@ -288,7 +288,7 @@ ClientConfiguration.setHttpReadTimeout(100 * 1000);
 ClientConfiguration.setHttpWriteTimeout(100 * 1000);
 ```
 ### 签名获取
-所有请求均需要多次有效签名。为了方便用户测试，SDK 中提供了本地生成签名的方法，调用 CredentialProvider 对象的getMultipleSign方法即可获得有效签名。但是为了不暴露用户的 SecretKey，正式环境下请在第三方服务器上进行签名。具体签名算法可参考 [签名与鉴权](http://tce.fsphere.cn/document/product/460/6968)。
+所有请求均需要多次有效签名。为了方便用户测试，SDK 中提供了本地生成签名的方法，调用 CredentialProvider 对象的getMultipleSign方法即可获得有效签名。但是为了不暴露用户的 SecretKey，正式环境下请在第三方服务器上进行签名。具体签名算法可参考 [签名与鉴权](http://tcecqpoc.fsphere.cn/document/product/460/6968)。
 
 本地生成签名示例：
 ```

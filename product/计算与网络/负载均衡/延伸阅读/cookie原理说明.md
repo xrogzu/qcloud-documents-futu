@@ -9,7 +9,7 @@ Cookie就是这样一个用来标识每一次请求的状态位。经过多年�
 
 ## cookie的工作原理
 
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/58f3b8fb6182198e549315f3192bd11a/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/58f3b8fb6182198e549315f3192bd11a/image.png)
 
 1) 当首次向发起请求时，HTTP请求头如下：
 
@@ -83,7 +83,7 @@ cookie是有生命周期的。一旦到了cookie的失效日期，客户端的co
 
 ```
 // 创建一个cookie对象 
-Cookie co = new Cookie(“site”, “http://tce.fsphere.cn“); 
+Cookie co = new Cookie(“site”, “http://tcecqpoc.fsphere.cn“); 
 co.setDomain(“test.com”); 
 // 通过响应头，将cookie发送到客户端 
 response.addCookie(co);

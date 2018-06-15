@@ -2,15 +2,15 @@
 
 ### SDK 获取
 
-实时流式语音识别的 iOS SDK 的下载地址：[iOS SDK](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/e681b228c06e53096510b3b61c012d36/QCloudAAI_IOSSDK.zip)
+实时流式语音识别的 iOS SDK 的下载地址：[iOS SDK](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/e681b228c06e53096510b3b61c012d36/QCloudAAI_IOSSDK.zip)
 
-更多示例可参考 Demo：[iOS Demo](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/44653a19a6f274ebc2b3f7ef028bb72b/QCloudAAI_IOSDemo.zip)
+更多示例可参考 Demo：[iOS Demo](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/44653a19a6f274ebc2b3f7ef028bb72b/QCloudAAI_IOSDemo.zip)
 
 ### 开发准备
 
 -  只支持 iOS 8.0 及以上版本，不支持 bitcode 版本；
 -  实时流式语音识别，需要手机能够连接网络（GPRS、3G 或 WiFi 网络等）；
--  从控制台获取 APP ID、SecretID、SecretKey，详情参考[基本概念](http://tce.fsphere.cn/document/product/441/6194)。
+-  从控制台获取 APP ID、SecretID、SecretKey，详情参考[基本概念](http://tcecqpoc.fsphere.cn/document/product/441/6194)。
 
 
 ### SDK 配置
@@ -23,7 +23,7 @@ iOS SDK 压缩包名称为： QCloudAAIClientSDK.zip。压缩包中包含了一�
 
 在 Build Settings 中设置 Other Linker Flags，加入参数 `-ObjC`。
 
-![参数配置](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/58327ba5d83809c77da158ff95627ef7/image.png)
+![参数配置](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/58327ba5d83809c77da158ff95627ef7/image.png)
 
 在工程` info.plist` 文件中设置：
 
@@ -39,7 +39,7 @@ iOS SDK 压缩包名称为： QCloudAAIClientSDK.zip。压缩包中包含了一�
 
 ## 签名获取
 
-移动端 SDK 中用到的签名，建议由业务服务器来生成，并由移动端向业务服务器请求。业务侧服务器需要进行签名的生成，具体生成和使用请参照[签名鉴权](http://tce.fsphere.cn/document/product/441/6203) 。识别SDK签名必须实现QCloudAAIClient的 QCloudAAIGetSignDelegate 的协议，对由SDK 提供(NSString*)param，进行加密处理；
+移动端 SDK 中用到的签名，建议由业务服务器来生成，并由移动端向业务服务器请求。业务侧服务器需要进行签名的生成，具体生成和使用请参照[签名鉴权](http://tcecqpoc.fsphere.cn/document/product/441/6203) 。识别SDK签名必须实现QCloudAAIClient的 QCloudAAIGetSignDelegate 的协议，对由SDK 提供(NSString*)param，进行加密处理；
 
 ```objective-c
 // 获取请求的签名

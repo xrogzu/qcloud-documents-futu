@@ -2,11 +2,11 @@
 
 ## 双人视频
 
-下载[Windows SDK+Demo](http://tce.fsphere.cn/document/product/454/7873#Windows) ，打开CustomServiceDemo.exe程序，首页包含3种模式，**[标准直播](http://tce.fsphere.cn/document/product/454/13627)**、**双人视频**和**多人视频**。
+下载[Windows SDK+Demo](http://tcecqpoc.fsphere.cn/document/product/454/7873#Windows) ，打开CustomServiceDemo.exe程序，首页包含3种模式，**[标准直播](http://tcecqpoc.fsphere.cn/document/product/454/13627)**、**双人视频**和**多人视频**。
 
 双人视频通话的功能，双人视频用于体验双人实时视频通话功能，金融和保险等行业的客服进行一对一的视频沟通，这是比较常见的场景。
 
-![双人视频](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8afc10c1b1bff78fc22dbdd4cad69467/image.png)
+![双人视频](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/8afc10c1b1bff78fc22dbdd4cad69467/image.png)
 
 
 
@@ -43,15 +43,15 @@
 
 通话双方各自创建RTCRoom（即TXLivePusher+TXLivePlayer对）的实例，交换双方的超低延迟流地址，拉取对端的流进行播放。
 
-![原理](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/4c17b5d8d3f39edeb17195b62909eb56/image.jpg)
+![原理](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/4c17b5d8d3f39edeb17195b62909eb56/image.jpg)
 
 
 
 下面介绍双人视频功能的交互过程，也包含如何接入SDK的功能，如下图所示
 
-![时序图](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ea4e53c29ae574288aa71ff4e7b0a757/image.png)
+![时序图](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ea4e53c29ae574288aa71ff4e7b0a757/image.png)
 
-**step1：**A创建房间room-A，向业务服务器请求推流和拉流地址，获取 push-url-A 和低延时的 play-url-A，服务器分配 URL 的方法参考 [DOC](http://tce.fsphere.cn/document/product/454/7915)
+**step1：**A创建房间room-A，向业务服务器请求推流和拉流地址，获取 push-url-A 和低延时的 play-url-A，服务器分配 URL 的方法参考 [DOC](http://tcecqpoc.fsphere.cn/document/product/454/7915)
 
 **step2：**A创建TXPusher实例，推流的URL使用push-url-A ，通过setCallback接口监听推流事件
 
@@ -75,7 +75,7 @@
 
 多人实时视频通话的功能，类似于远程会议的功能，和上面提到的双人视频最大的区别在于多人参与视频通话。但又不是简单加法，里边涉及很多状态同步的问题，下面继续具体介绍。
 
-![多人视频](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d924e2d0eb82eeaff969879395226d0d/image.png)
+![多人视频](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d924e2d0eb82eeaff969879395226d0d/image.png)
 
 
 
@@ -105,7 +105,7 @@
 
 关于原理的介绍，在双人视频通话的文档中，主要是介绍两个人之间的通话连接建立和状态同步，超过2个人的视频通话，事情就变得更加复杂，但基本的原理类似。主要的问题，如何管理多个端的状态，如何正确同步状态变化，我们推荐的做法是在服务器管理和维护这些信息。
 
-![原理](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/3370d82f2bed7534147d253d1fdd26ca/image.jpg)
+![原理](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/3370d82f2bed7534147d253d1fdd26ca/image.jpg)
 
 #### Client
 

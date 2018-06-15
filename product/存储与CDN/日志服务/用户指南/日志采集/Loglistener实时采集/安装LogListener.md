@@ -18,7 +18,7 @@ Ubuntu
 
 ### 安装 LogListener
 
-[点击下载 LogListener 2.1.1](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/520370e2a9e96c9bd36b5ced36ecdb83/loglistener.2.1.1.tar.gz)，将安装包解压至指定的目标目录中，在 root 下执行：
+[点击下载 LogListener 2.1.1](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/520370e2a9e96c9bd36b5ced36ecdb83/loglistener.2.1.1.tar.gz)，将安装包解压至指定的目标目录中，在 root 下执行：
 
 ```
 cd loglistener/tools;
@@ -87,7 +87,7 @@ cd loglistener/tools;
 2. 备份较低版本 LogListener
 3. 下载并安装最新版本 LogListener 
 
->后续我们将支持2.0.0以上版本的LogListener自动更新，敬请期待。[低于2.0.0版本LogListener使用指南](http://tce.fsphere.cn/document/product/614/13550)
+>后续我们将支持2.0.0以上版本的LogListener自动更新，敬请期待。[低于2.0.0版本LogListener使用指南](http://tcecqpoc.fsphere.cn/document/product/614/13550)
 
 ## LogListener 工作原理
 

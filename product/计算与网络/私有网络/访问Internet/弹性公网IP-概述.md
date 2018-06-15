@@ -24,7 +24,7 @@ background: #efefef;
 您的弹性 IP 地址与云平台账户相关联，而不是与某个 CVM 实例相关联，而且在您选择显式释放该地址，它会一直与您的云平台账户保持关联。
 <div style="text-align:center">
 
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/3dbf04b5fb9bff4bef632074ecf767da/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/3dbf04b5fb9bff4bef632074ecf767da/image.png)
 
 </div>
 <p style="text-align:center">图1：弹性 IP 示意图</p>

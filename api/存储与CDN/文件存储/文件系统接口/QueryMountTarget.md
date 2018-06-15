@@ -6,11 +6,11 @@
 文件存储请求域名：`cfs.api.qcloud.com`
 
 ## 请求参数
-以下请求参数为本接口的请求参数，其它参数见 [公共请求参数](http://tce.fsphere.cn/document/product/582/13227) 页面。
+以下请求参数为本接口的请求参数，其它参数见 [公共请求参数](http://tcecqpoc.fsphere.cn/document/product/582/13227) 页面。
 
 |    参数   | 必填 |  类型 |                       描述                         |
 |------------|-----|--------|------------------------------------------------|
-| Region     |    是   | string |园区，请参考 [概览](http://tce.fsphere.cn/document/product/582/13225) 文档中的园区与可用区列表 | 
+| Region     |    是   | string |园区，请参考 [概览](http://tcecqpoc.fsphere.cn/document/product/582/13225) 文档中的园区与可用区列表 | 
 | FileSystemId | 是  |string| 文件系统 ID                                       | 
 
 
@@ -27,7 +27,7 @@
 | VpcName          | string | 私有网络名称               |
 | SubnetId         |  int    |子网 Id                       |
 | SubnetName       | string |子网名称                                     | 
-| ZoneId           | int    |可用区 ID，请参考 [概览](http://tce.fsphere.cn/document/product/582/13225) 文档中的园区与可用区列表                       | 
+| ZoneId           | int    |可用区 ID，请参考 [概览](http://tcecqpoc.fsphere.cn/document/product/582/13225) 文档中的园区与可用区列表                       | 
 
 
 

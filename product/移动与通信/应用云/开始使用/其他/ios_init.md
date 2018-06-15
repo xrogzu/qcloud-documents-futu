@@ -5,7 +5,7 @@ XCode 说明
 1. 下载tac_services_configurations.zip
 2. 解压 tac_services_configurations.zip 后将其中文件移动到您的 XCode 项目目录下面，并将其中的plist文件添加到您的工程之中（其中 tac_services_configurations_unpackage.plist 请不要添加）
 
-![](http://imgcache.tce.fsphere.cn/image/ws1.sinaimg.cn/large/006tNc79gy1forbnw3ijyj31bi11wnch.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/ws1.sinaimg.cn/large/006tNc79gy1forbnw3ijyj31bi11wnch.jpg)
 
 
 
@@ -13,7 +13,7 @@ XCode 说明
 
 CocoaPods 说明
 
-MobileLine移动开发平台的 服务使用 CocoaPods 安装和管理依赖项。请打开终端窗口，然后导航至应用的 Xcode 项目位置。具体配置可以参考[TAC使用入门](http://tce.fsphere.cn/document/product/666/14306?!preview&lang=cn)
+MobileLine移动开发平台的 服务使用 CocoaPods 安装和管理依赖项。请打开终端窗口，然后导航至应用的 Xcode 项目位置。具体配置可以参考[TAC使用入门](http://tcecqpoc.fsphere.cn/document/product/666/14306?!preview&lang=cn)
 
 
 1. 如果您没有 Podfile，请创建一个：
@@ -40,7 +40,7 @@ MobileLine移动开发平台的 服务使用 CocoaPods 安装和管理依赖项�
 
 4. 配置项目脚本程序
 
-![](http://imgcache.tce.fsphere.cn/image/ws1.sinaimg.cn/large/006tNc79ly1fnttw83xayj317i0ro44j.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/ws1.sinaimg.cn/large/006tNc79ly1fnttw83xayj317i0ro44j.jpg)
 
 >  添加构建之前运行的脚本
 

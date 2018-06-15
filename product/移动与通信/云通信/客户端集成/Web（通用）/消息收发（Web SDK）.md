@@ -721,7 +721,7 @@ function sendPic(images) {
 **示例： **
 
 发送自定义消息入口：
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/6ad98f6243363ced652f46a9fed727ba/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/6ad98f6243363ced652f46a9fed727ba/image.png)
 ```
 //弹出发自定义消息对话框
 function showEditCustomMsgDialog() {

@@ -1,9 +1,9 @@
 ## 通过公网获取更新
 用户可以通过系统的 Windows Update 服务程序来安装补丁程序。具体执行步骤如下：
 1. 单击【开始】>【控制面板】>【Windows 更新】， 单击 **检查更新** 按钮， 等待检查完成后会提示有若干更新包。此时单击 **可选更新** 选项。
- ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/427adcd28ef541476212e3f2098a69c6/20.png)
+ ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/427adcd28ef541476212e3f2098a69c6/20.png)
 2. 在弹出的“选择安装的更新”窗口中，选择需要安装的更新，单击**安装**按钮，指导系统提示完成。
- ![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b2ba48e4d8f.png)
+ ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img56b2ba48e4d8f.png)
 如果在完成更新以后，系统提示需要重新启动系统，请及时重启云服务器。
 
 >**注意：**
@@ -16,13 +16,13 @@
 内网的补丁服务器的使用方法如下:
 1. 登录 Windows 云服务器后，通过 IE 浏览器在内网下载设置工具 wusin.bat。下载地址为：http://mirrors.tce.fsphere.cn/install/windows/wusin.bat
 2. 将下载的设置工具保存到 C:\wusin.bat，打开控制台执行:
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b2bae4c1a05.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img56b2bae4c1a05.png)
 >**注意：**
 >通过 IE 直接执行这个脚本，控制台窗口会自动关闭，无法观察输出信息。
 
 如果不再需要使用内网 Windows 补丁服务器，可以下载清理工具 wusout.bat 进行清理，方法如下:
 1. 登录 Windows 云服务器后，通过 IE 浏览器下载清理工具 wuout.bat。下载地址为：http://mirrors.tce.fsphere.cn/install/windows/wusout.bat
 2. 将下载的清理工具保存到 C:\wusout.bat，并且在控制台执行:
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b2bb66dc99f.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img56b2bb66dc99f.png)
 >**注意：**
 >通过 IE 直接执行这个脚本，控制台窗口会自动关闭，无法观察输出信息。

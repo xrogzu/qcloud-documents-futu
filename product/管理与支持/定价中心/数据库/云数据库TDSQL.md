@@ -104,9 +104,9 @@ CDB for TDSQL 目前提供多种实例版本，关于更多版本详情，请参
 
 - 操作审计：操作审计又名操作日志，是根据相关信息安全规定记录的用户使用TDSQL管理中心web页面的操作记录，包括但不限于登录帐号、访问IP、访问时间、操作行为等，操作日志根据国家信息安全规定存储在安全等级更高且无法修改的独立数据库中。**该功能目前免费。**
 
-- 代理网关：每个TDSQL实例都包括一套独立的[Proxy代理网关](http://tce.fsphere.cn/doc/product/237/1057#2.2-tdsql.E9.9B.86.E7.BE.A4.E6.9E.B6.E6.9E.84)，**该网关目前免费**。
+- 代理网关：每个TDSQL实例都包括一套独立的[Proxy代理网关](http://tcecqpoc.fsphere.cn/doc/product/237/1057#2.2-tdsql.E9.9B.86.E7.BE.A4.E6.9E.B6.E6.9E.84)，**该网关目前免费**。
 
-- 调度集群：每个TDSQL实例都被[调度集群](http://tce.fsphere.cn/doc/product/237/1057#2.2-tdsql.E9.9B.86.E7.BE.A4.E6.9E.B6.E6.9E.84)直接管理和监控，**调度集群目前免费**。
+- 调度集群：每个TDSQL实例都被[调度集群](http://tcecqpoc.fsphere.cn/doc/product/237/1057#2.2-tdsql.E9.9B.86.E7.BE.A4.E6.9E.B6.E6.9E.84)直接管理和监控，**调度集群目前免费**。
 
 - 1分钟粒度监控：仅金融专区实例提供，目前免费。
 
@@ -128,7 +128,7 @@ CDB for TDSQL 目前提供多种实例版本，关于更多版本详情，请参
 1.在“管理中心>云数据库>TDSQL”中选择选择相应的实例，点击“升级”，弹出升级弹窗
 2.根据需要选择目标规格，并支付响应费用，成功后系统将自动升级实例规格
 升级界面如下：
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/d5916ce64bd27d051a305476c0191449/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/d5916ce64bd27d051a305476c0191449/image.png)
 
 【注意事项】
 
@@ -145,15 +145,15 @@ CDB for TDSQL 目前提供多种实例版本，关于更多版本详情，请参
 
 #### 新增分片
 进入管理中心>分布式云数据库，点击“新增分片”按钮，通过弹出选择新增分片的规格和数量，即可升级。
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/b9cff4d43c31ffac56b2296945ac2337/image.png)
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/6742591dcd12c8f56e6a11cdf0670e79/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/b9cff4d43c31ffac56b2296945ac2337/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/6742591dcd12c8f56e6a11cdf0670e79/image.png)
 
 #### 升级分片
 升级分片指不增加分片数量，但将单个分片的规格升级到更大。** 当前版本暂不支持该能力，计划后续支持。**
 
 1.进入管理中心>分布式云数据库，点击“管理”按钮，进入管理页面，选择分片管理，点击需要升级的分片，即可升级。
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/d77ef38bc7becc785decbd51fd285b84/image.png)
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/0bb016e4be65e8865a86cd4f4eb20c59/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/d77ef38bc7becc785decbd51fd285b84/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/0bb016e4be65e8865a86cd4f4eb20c59/image.png)
 
 ## 续费指导
 
@@ -161,7 +161,7 @@ CDB for TDSQL 目前提供多种实例版本，关于更多版本详情，请参
 
 1.在“管理中心—云数据库—TDSQL—续费”中选择选择相应的实例，点击“续费”或“批量续费”
 2.在“用户中心->续费管理 ->云数据库（TDSQL）”待续费项，选择选择相应的实例，点击“续费”或“批量续费”，如下图：
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/ac67608a62020ce34e84c7e985eafc0a/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/ac67608a62020ce34e84c7e985eafc0a/image.png)
 3.在“用户中心->续费管理 ->云数据库（TDSQL）”待续费项中，也选择响应的实例，支持自动续费，或到期不续费等操作。
 
 ### 续费费用

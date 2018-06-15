@@ -7,4 +7,4 @@
 | 出包量   | VPN 网关平均每秒出包量 | 个 / s  | VPN 网关 |
 | 入包量   | VPN 网关平均每秒入包量 | 个 / s  | VPN 网关 |
 
-有关更多如何使用 VPN 网关 的监控指标内容，可以查看云监控 API 中的[读取消息队列监控数据接口](http://tce.fsphere.cn/document/product/248/11013)。
+有关更多如何使用 VPN 网关 的监控指标内容，可以查看云监控 API 中的[读取消息队列监控数据接口](http://tcecqpoc.fsphere.cn/document/product/248/11013)。

@@ -1,8 +1,8 @@
 ## 1 概述
-使用消息语音，需要先调用[基本API](http://tce.fsphere.cn/document/product/556/7665)。
+使用消息语音，需要先调用[基本API](http://tcecqpoc.fsphere.cn/document/product/556/7665)。
 
 ## 2 消息语音API调用流程
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/28ec9bf0eab80c06c7883219fbd7604a/jj3.png)  
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/28ec9bf0eab80c06c7883219fbd7604a/jj3.png)  
 **流程说明**   
 1.调用`SetMode`方法设置使用语音消息模式。  
 2.调用`ApplyMessageKey()`获取语音消息安全密钥key信息，当申请成功后会通过`OnApplyMessageKeyComplete`进行回调。  

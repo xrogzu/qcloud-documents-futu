@@ -3,7 +3,7 @@
 ### 开启日志功能
 在**负载均衡实例详情**页面，开启日志访问功能。
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/17014eeb67628fa78ffe04e2d7a58d8d/log1.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/17014eeb67628fa78ffe04e2d7a58d8d/log1.png)
 
 选取相应的COS中bucket，则请求日志会自动在bucket下创建lb-id为名称的文件夹进行存储。选取完成后，点击bucket地址可以直接跳转到日志下载页面。
 
@@ -16,7 +16,7 @@
 
 - 日志数据的传输会有一定的延迟。
 
-- 当前负载均衡日志服务`免费`，COS存储的免费额度按照[文档](http://tce.fsphere.cn/document/product/436/6240)中所示，提供50G免费存储空间。如您的日志量级较大，请及时清理数据。
+- 当前负载均衡日志服务`免费`，COS存储的免费额度按照[文档](http://tcecqpoc.fsphere.cn/document/product/436/6240)中所示，提供50G免费存储空间。如您的日志量级较大，请及时清理数据。
 
 ### 日志格式及变量说明
 #### 日志格式

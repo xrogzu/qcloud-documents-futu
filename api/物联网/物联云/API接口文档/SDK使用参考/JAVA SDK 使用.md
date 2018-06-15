@@ -2,16 +2,16 @@
 
 登入 [控制台](http://console.tce.fsphere.cn/iotcloud) 后，进入 [云API密钥](http://console.tce.fsphere.cn/cam/capi)
 
-![云API密钥](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/62352850496e6184f6a74f496f8d8638/miyao1.png)
+![云API密钥](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/62352850496e6184f6a74f496f8d8638/miyao1.png)
 
 在 **API 密钥管理**中 点击 **新建密钥**，新建成功后获取到 **SecretId** 和 **SecretKey**
 
-![新建密钥](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/81d74a87132a2b8e92989bd4abd32278/miyao2.png)
+![新建密钥](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/81d74a87132a2b8e92989bd4abd32278/miyao2.png)
 
 
 ### 2. 引入SDK
 
-下载并解压 [Java RestAPI SDK](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/3421d16447a99bebf042880b7fadc8e1/qcloud-restapi-java-release-1.0.0.zip), 将下列 JAR 包导入到应用代码工程中。
+下载并解压 [Java RestAPI SDK](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/3421d16447a99bebf042880b7fadc8e1/qcloud-restapi-java-release-1.0.0.zip), 将下列 JAR 包导入到应用代码工程中。
 
 ```
 qcloud-restapi-java-release.jar
@@ -25,12 +25,12 @@ gson-2.6.2.jar
 
 
 第一步：将 JAR 放到代码工程中
-![配置1](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d7bc0f601398e989c759d553ab3f3d07/restapi-java-config-step1.png
+![配置1](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d7bc0f601398e989c759d553ab3f3d07/restapi-java-config-step1.png
 )
 
 
 第二步：配置依赖
-![配置1](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/be64061452a5e2ce92d6534cef2aa281/restapi-java-config-step2.png)
+![配置1](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/be64061452a5e2ce92d6534cef2aa281/restapi-java-config-step2.png)
 
  
 ### 3. 初始化

@@ -3,7 +3,7 @@
 
 ## 效果演示
 您可以扫描如下二维码，或在微信小程序里搜索“腾讯视频云”，即可打开我们的 demo 小程序，内部的 **直播体验室** 即为 &lt;live-room&gt; 的典型应用场景。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/9851dba2c86161bc9e14a08b5b82dfd2/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/9851dba2c86161bc9e14a08b5b82dfd2/image.png)
 
 ## 标签详解
 ### 属性定义
@@ -129,7 +129,7 @@ Page({
 
 ### step2: 下载自定义组件源码
 
-**&lt;live-room&gt;** 并非微信小程序原生提供的标签，而是一个自定义组件，所以您需要额外的代码来支持这个标签。点击 [小程序源码](http://tce.fsphere.cn/document/product/454/7873#XiaoChengXu) 下载源码包，您可以在 `wxlite` 文件夹下获取到所需文件。
+**&lt;live-room&gt;** 并非微信小程序原生提供的标签，而是一个自定义组件，所以您需要额外的代码来支持这个标签。点击 [小程序源码](http://tcecqpoc.fsphere.cn/document/product/454/7873#XiaoChengXu) 下载源码包，您可以在 `wxlite` 文件夹下获取到所需文件。
 
 ### step3: 登录房间服务（必需）
 
@@ -148,7 +148,7 @@ liveroom.login({
 });
 ```
 
-参考 [DOC](http://tce.fsphere.cn/document/product/454/14606#Server) 可以了解上面的这些参数应该怎么填写。
+参考 [DOC](http://tcecqpoc.fsphere.cn/document/product/454/14606#Server) 可以了解上面的这些参数应该怎么填写。
 
 ### step4: 获取房间列表（可选）
 如果您不想自己实现房间列表，而是使用房间服务自带的房间列表，您可以通过调用 `/utils/liveroom.js` 的 `getRoomList` 函数获取到列表信息。
@@ -277,7 +277,7 @@ liveroom.respondJoinReq(true, aduience);
                 audio-quality="high"
                 beauty="{{beauty}}"
                 muted="{{muted}}"
-                waiting-image="http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/
+                waiting-image="http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/
 								     daeed8616ac5df256c0591c22a65c4d3/pause_publish.jpg"
                 background-mute="{{true}}"
                 debug="{{debug}}"
@@ -342,20 +342,20 @@ liveroom.respondJoinReq(true, aduience);
 ```
 
 ## 其它平台
-**&lt;live-room&gt;** 也有 Windows、iOS、Android 等平台下的对等实现，您可以参考下表中的资料。同时， 阅读 [设计文档](http://tce.fsphere.cn/document/product/454/14617)，您可以了解该解决方案的内部设计原理。
+**&lt;live-room&gt;** 也有 Windows、iOS、Android 等平台下的对等实现，您可以参考下表中的资料。同时， 阅读 [设计文档](http://tcecqpoc.fsphere.cn/document/product/454/14617)，您可以了解该解决方案的内部设计原理。
 
 | 所属平台 | SDK下载 | 文档指引 |
 |:-------:|:-------:|:-------:|
-| Windows(C++) | [DOWNLOAD](http://tce.fsphere.cn/document/product/454/7873#Windows) | [API](http://tce.fsphere.cn/document/product/454/14745) |
-| Windows(C#) | [DOWNLOAD](http://tce.fsphere.cn/document/product/454/7873#Windows) | [API](http://tce.fsphere.cn/document/product/454/15367) |
-| IE浏览器 | [DOWNLOAD](http://tce.fsphere.cn/document/product/454/7873#Windows) | [API](http://tce.fsphere.cn/document/product/454/14766) |
-| iOS | [DOWNLOAD](http://tce.fsphere.cn/document/product/454/7873#iOS) | [API](http://tce.fsphere.cn/document/product/454/14730) |
-| Android | [DOWNLOAD](http://tce.fsphere.cn/document/product/454/7873#Android) | [API](http://tce.fsphere.cn/document/product/454/14642) |
+| Windows(C++) | [DOWNLOAD](http://tcecqpoc.fsphere.cn/document/product/454/7873#Windows) | [API](http://tcecqpoc.fsphere.cn/document/product/454/14745) |
+| Windows(C#) | [DOWNLOAD](http://tcecqpoc.fsphere.cn/document/product/454/7873#Windows) | [API](http://tcecqpoc.fsphere.cn/document/product/454/15367) |
+| IE浏览器 | [DOWNLOAD](http://tcecqpoc.fsphere.cn/document/product/454/7873#Windows) | [API](http://tcecqpoc.fsphere.cn/document/product/454/14766) |
+| iOS | [DOWNLOAD](http://tcecqpoc.fsphere.cn/document/product/454/7873#iOS) | [API](http://tcecqpoc.fsphere.cn/document/product/454/14730) |
+| Android | [DOWNLOAD](http://tcecqpoc.fsphere.cn/document/product/454/7873#Android) | [API](http://tcecqpoc.fsphere.cn/document/product/454/14642) |
 
 ## 录制指引
 - step1： [开通](http://console.tce.fsphere.cn/video) 云平台点播服务。
 
 - step2：进入[直播控制台](http://console.tce.fsphere.cn/live)（小程序音视频流媒体是基于直播服务构建的），在【接入管理>>接入配置>>直播录制】中，开启录制功能。（注意：这里说的录制费用是按并发收费的，不是每一路都收费）
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/6dfeba07c25151be7025dab0245398ff.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/6dfeba07c25151be7025dab0245398ff.jpg)
 
 - step3：在点播的[视频管理](http://console.tce.fsphere.cn/video/videolist)界面中，您可以看到这些录制的文件，您也可以通过点播服务的 REST API 获取到这些文件。

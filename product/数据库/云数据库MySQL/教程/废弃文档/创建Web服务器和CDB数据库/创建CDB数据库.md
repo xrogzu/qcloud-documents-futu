@@ -14,4 +14,4 @@
 [2]:	http://console.tce.fsphere.cn/cdb/ "云数据库控制台"
 [3]:	/doc/product/285/%E9%A2%84%E4%BB%98%E8%B4%B9%E8%AE%A1%E8%B4%B9%E6%B5%81%E7%A8%8B
 [4]:	/doc/product/285/%E8%AE%A1%E8%B4%B9%E6%B5%81%E7%A8%8B
-[5]:	http://tce.fsphere.cn/document/product/236/7913
+[5]:	http://tcecqpoc.fsphere.cn/document/product/236/7913

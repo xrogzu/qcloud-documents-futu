@@ -4,11 +4,11 @@
 
 如果您是一位刚刚接触视频直播的合作伙伴，您只需要几行代码就可以完成对接流程，而如果您是一位资深的移动端软件开发工程师，SDK所提供的丰富的设置接口，亦可让您能够定制出最符合需求的表现。
 
-![rtmp sdk push](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tx_cloud_push_sdk_struct.jpg)
+![rtmp sdk push](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tx_cloud_push_sdk_struct.jpg)
 
 ## 下载RTMP SDK
-在 [SDK下载区](http://tce.fsphere.cn/doc/api/258/6172#.E7.A7.BB.E5.8A.A8.E7.AB.AFsdk) 里找到指定平台的SDK压缩包，压缩包中包含了SDK本体和Demo的代码，参考 [工程配置(Android)](http://tce.fsphere.cn/doc/api/258/5319) 在Xcode中将其运行起来，如果一起顺利可以看到如下界面。
-![demo](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/pusher_demo_introduction_2.jpg)
+在 [SDK下载区](http://tcecqpoc.fsphere.cn/doc/api/258/6172#.E7.A7.BB.E5.8A.A8.E7.AB.AFsdk) 里找到指定平台的SDK压缩包，压缩包中包含了SDK本体和Demo的代码，参考 [工程配置(Android)](http://tcecqpoc.fsphere.cn/doc/api/258/5319) 在Xcode中将其运行起来，如果一起顺利可以看到如下界面。
+![demo](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/pusher_demo_introduction_2.jpg)
 
 ## 对接攻略
 本篇攻略主要是面向**摄像头直播**的解决方案，该方案主要用于美女秀场直播、个人直播以及活动直播等场景。
@@ -115,7 +115,7 @@ mLivePusher.setConfig(mLivePushConfig);
 - **机型白名单**
 > 上述示例代码中的第一句为 HWSupportList.isHWVideoEncodeSupport 调用，改函数并不是RTMP SDK提供的函数，而是位于Demo的 HWSupportList.java 文件中。
 > 
-> HWSupportList 是我们的专业测试团队处理过的一个[白名单列表](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/a1e796c150ea60246e07947b679e0662/archive.xls)，列表中的机型可以放心开启硬件加速的Android机型，后续时间里我们会持续增加这个列表的机型数量。
+> HWSupportList 是我们的专业测试团队处理过的一个[白名单列表](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/a1e796c150ea60246e07947b679e0662/archive.xls)，列表中的机型可以放心开启硬件加速的Android机型，后续时间里我们会持续增加这个列表的机型数量。
 
 - **推荐的设计**
 >  不在白名单中的机型<font color='red'>**并非一定有问题**</font>，只是因为Android机型众多，我们没有精力全部测试过，所以如果您希望**在列表以外的机型上开启硬件加速**，最好加一些安全机制，比如一个推荐的做法是：
@@ -136,7 +136,7 @@ mLivePusher.setConfig(mLivePushConfig);
 实际上使用一些投机的办法是可以实现的，比如创建一个Service，并使用1\*1像素的 SurfaceView 持续采集Camera数据。但如果您是主播，发现有个App在切后台之后还能访问摄像头，您是否真的敢用这个App呢？
 
 我们需要在保护隐私和照顾观众体验方面求得一个完美的平衡：SDK 1.6.1 开始我们引入了一种解决方案： 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6325a9f7918602bd8db15228e6ffe189/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/6325a9f7918602bd8db15228e6ffe189/image.png)
 
 
 - **8.1) 设置pauseImg**
@@ -193,7 +193,7 @@ step 13 中会介绍 RTMP SDK 的推流事件处理，其中 **PUSH_WARNING_NET_
 
 ### step 11: 横屏推流
 大多数情况下，用户习惯以“竖屏持握”进行直播拍摄，观看端看到的也是竖屏样式；有时候用户在直播的时候需要更广的视角，则拍摄的时候需要“横屏持握”，这个时候其实是期望观看端能看到横屏画面，就需要做横屏推流，下面两幅示意图分别描述了横竖屏持握进行横竖屏推流在观众端看到的效果。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/cae1940763d5fd372ad962ed0e066b91/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/cae1940763d5fd372ad962ed0e066b91/image.png)
 > <font color='red'>**注意：**</font> 横屏推流和竖屏推流，观众端看到的图像的宽高比是不同的，竖屏9:16，横屏16：9。
 
 #### 调整观众端表现
@@ -211,7 +211,7 @@ step 13 中会介绍 RTMP SDK 的推流事件处理，其中 **PUSH_WARNING_NET_
 
 #### Activity自动旋转
 Android 系统的 Activity 本身支持跟随手机的重力感应进行旋转（设置 android:configChanges），如何做到下面这种横竖屏推流跟随重力感应而变换的效果呢？
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7255ffae57f3e9b7d929a5cb11f85c79/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/7255ffae57f3e9b7d929a5cb11f85c79/image.png)
 
 ```java
     @Override
@@ -247,7 +247,7 @@ RTMP SDK 1.6.1 开始支持背景混音，支持主播带耳机和不带耳机�
 
 | 接口 | 说明 |
 |---------|---------|
-| playBGM | 通过path传入一首歌曲，[小直播Demo](http://tce.fsphere.cn/doc/api/258/6164)中我们是从iOS的本地媒体库中获取音乐文件 |
+| playBGM | 通过path传入一首歌曲，[小直播Demo](http://tcecqpoc.fsphere.cn/doc/api/258/6164)中我们是从iOS的本地媒体库中获取音乐文件 |
 | stopBGM|停止播放背景音乐|
 | pauseBGM|暂停播放背景音乐|
 | resumeBGM|继续播放背景音乐|

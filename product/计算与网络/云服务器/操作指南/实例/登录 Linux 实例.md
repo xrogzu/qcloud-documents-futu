@@ -31,10 +31,10 @@
   >- Connect type：选择“ SSH ”。
 
 3. 输入完后，单击【Open】，创建一个新对话。
-  ![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a5d38a4ffbc.png)
+  ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img56a5d38a4ffbc.png)
 
 4. 在 Putty 会话窗口中，输入前提条件中获得的管理员帐号，按回车键。再输入前提条件中获取的登录密码，回车完成登录过程。
-  ![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a5d47b8b5da.png)
+  ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img56a5d47b8b5da.png)
 
 >**注意：**
 >如果登录失败，请检查您的云服务器实例是否允许 22 端口的入流量。端口的查看请参考 [安全组](/doc/product/213/5221) ,若您的云服务器处于 [私有网络](/doc/product/213/5227) 环境下，请同时查看相关子网的 [网络ACL](/doc/product/215/5132) 。 
@@ -47,23 +47,23 @@
 1. 安装 Windows 远程登录软件，参考下载地址：https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html ，分别下载 putty.exe 及 puttygen.exe 两个文件。
 
 2. 选择私钥。打开 puttygen.exe，单击【Load】按钮，在弹窗中首先进入您存放前提条件中下载下来的私钥的路径，然后选择“All File（\*.\*）”，选择下载好的私钥（例子中为文件david，david是密钥的名称），单击【打开】。
-  ![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a5c48fb810a.png)
+  ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img56a5c48fb810a.png)
 
 3. 密钥转换。在 key comment 栏中输入密钥名，输入加密私钥的密码，单击【Save private key】，在弹窗中选择您存放密钥的目录，然后在文件名栏输入 密钥名 +".ppk"，单击【保存】按钮。
-  ![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a5c4ff657cc.png)
+  ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img56a5c4ff657cc.png)
 
 4. 打开 putty.exe ，进入【Auth】配置。
-  ![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a5c61c61e42.png)
+  ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img56a5c61c61e42.png)
 
 5. 单击【Browse】按钮，打开弹窗后进入密钥存储的路径，并选择密钥，单击【打开】，返回配置界面，进入【Session】配置。
-  ![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a5c67ea3edb.png)
+  ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img56a5c67ea3edb.png)
 
 6. 在Session配置页中，配置服务器的IP，端口，连接类型。
  - IP：云服务器的公网IP。登录 [云服务器控制台](https://console.tce.fsphere.cn)，可在列表页及详情页中获取主机公网IP。
  - 端口：云服务器的端口，必须填 22 。（请确保云主机22端口已开放，详见查看 安全组 及 网络ACL）。
 
 6. 在【Saved Sessions】输入框中中输入会话名称（本例为 test ），再单击【Save】按钮，然后双击会话名称或者单击【Open】按钮发起登录请求。
-  ![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a5c6bca781f.png)
+  ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img56a5c6bca781f.png)
 
 >**注意：**
 >如果登录失败，请检查您的云服务器实例是否允许 22 端口的入流量。端口的查看请参考 [安全组](/doc/product/213/5221) ，若您的云服务器处于 [私有网络](/doc/product/213/5227) 环境下，请同时查看相关子网的 [网络ACL](/doc/product/215/5132) 。 

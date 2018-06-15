@@ -2,11 +2,11 @@
 
 本文基于以下环境：
 
-- [云平台 CVM（云服务器）](http://tce.fsphere.cn/product/cvm)：CentOS 7.3 64位
+- [云平台 CVM（云服务器）](http://tcecqpoc.fsphere.cn/product/cvm)：CentOS 7.3 64位
 
   ###### 如果系统不是 CentOS，以下操作只是包管理工具不同，例如 Ubuntu 则是 `apt-get` 等。
 
-- [云平台 CDB（云数据库）](http://tce.fsphere.cn/product/cdb)：MySQL 5.7
+- [云平台 CDB（云数据库）](http://tcecqpoc.fsphere.cn/product/cdb)：MySQL 5.7
 
   ###### Wafer SDK 的数据库仅支持 5.7 及以上版本的 MySQL。为了生产环境的稳定，采用云数据库而非自行搭建。
 
@@ -176,7 +176,7 @@ const CONF = {
          * 华南：cn-south
          * 西南：cn-southwest
          * 新加坡：sg
-         * @see http://tce.fsphere.cn/document/product/436/6224
+         * @see http://tcecqpoc.fsphere.cn/document/product/436/6224
          */
         region: 'cn-south',
         // Bucket 名称

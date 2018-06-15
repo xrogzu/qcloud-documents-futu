@@ -10,7 +10,7 @@
 
 1. 提工单或客服电话（400-9100-100）联系我们商务同学。
 
-2. 下载[示例表格](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/766c9092424d0440a31c56c81f34a629/archive.xlsx)，按照表格填好信息后，邮件发送到 jerryqian@tencent.com 并抄送给您联系的商务同学（重要）。
+2. 下载[示例表格](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/766c9092424d0440a31c56c81f34a629/archive.xlsx)，按照表格填好信息后，邮件发送到 jerryqian@tencent.com 并抄送给您联系的商务同学（重要）。
 
 3. 敦促商务同学回复邮件确认，未经云平台商务同学确认的邮件，我们可能会视为骚扰邮件不予处理。
 
@@ -23,11 +23,11 @@
 
 ## 版本下载
 
-可以到 [SDK 开发包](http://tce.fsphere.cn/document/product/454/7873) 页面下方下载商用版本 SDK 压缩包，压缩包有加密（解压密码 & Licence文件 可以跟我们的商务同学获取）, 成功解压后得到一个`LiteAVSDK_Enterprise_3.9.2749.aar`和`LiteAVSDK_Enterprise_3.9.2749.zip`，分别对应两种集成方式。
+可以到 [SDK 开发包](http://tcecqpoc.fsphere.cn/document/product/454/7873) 页面下方下载商用版本 SDK 压缩包，压缩包有加密（解压密码 & Licence文件 可以跟我们的商务同学获取）, 成功解压后得到一个`LiteAVSDK_Enterprise_3.9.2749.aar`和`LiteAVSDK_Enterprise_3.9.2749.zip`，分别对应两种集成方式。
 
 ## 工程设置
 
-参考 [工程配置](http://tce.fsphere.cn/document/product/584/11631) 
+参考 [工程配置](http://tcecqpoc.fsphere.cn/document/product/584/11631) 
 
 ### 添加SDK
 
@@ -72,7 +72,7 @@
 
 示例：
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a320624ee8d3a82ee07feb05969e5290/A8B81CB6-DBD3-4111-9BF0-90BD02779BFC.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a320624ee8d3a82ee07feb05969e5290/A8B81CB6-DBD3-4111-9BF0-90BD02779BFC.png)
 
 一个动效模版是一个目录，里面包含很多资源文件。每个动效因为复杂度不同，目录个数以和文件大小也不尽相同。
 
@@ -98,7 +98,7 @@ public void setMotionTmpl(String tmplPath);
 
 示例：
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/0f79b78687753f88af7685530745a8d4/98B403B8-1DEC-4130-B691-D9EB5E321162.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/0f79b78687753f88af7685530745a8d4/98B403B8-1DEC-4130-B691-D9EB5E321162.png)
 
 需要下载AI抠背的资源，接口跟动效接口相同
 
@@ -150,8 +150,8 @@ public void setGreenScreenFile(String path);
      
 ### 2. 工程特效不生效？  
  > 1. 检查YTFaceSDK.licence 命名是否正确，YTFaceSDK.licence必须放在assets根目录下  
- > 2. 检查licence是否过期（下载[查询工具](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/9c0f8c02466d08e5ac14c396fad21005/PituDateSearch.zip)或则联系我们的开发同学）    
+ > 2. 检查licence是否过期（下载[查询工具](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/9c0f8c02466d08e5ac14c396fad21005/PituDateSearch.zip)或则联系我们的开发同学）    
  > 3. 如果是jar集成方式，检查pitu资源是否添加正确（sdk解压出来的assets目录内容都要拷贝到工程的assets目录下）  
- > 4. 如果客户更新了licence，请确保使用的是最新的licence，如果不确定，可以查下licence的有效期（下载[查询工具](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/9c0f8c02466d08e5ac14c396fad21005/PituDateSearch.zip)或则联系我们开发同学)，另外如果工程更换了licence，请先clean工程，删除本地安装包，重新编译       
+ > 4. 如果客户更新了licence，请确保使用的是最新的licence，如果不确定，可以查下licence的有效期（下载[查询工具](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/9c0f8c02466d08e5ac14c396fad21005/PituDateSearch.zip)或则联系我们开发同学)，另外如果工程更换了licence，请先clean工程，删除本地安装包，重新编译       
  
-##### [查询工具](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/9c0f8c02466d08e5ac14c396fad21005/PituDateSearch.zip)是一个xcode工程，目前仅支持在mac上使用， 后续会开放其他查询方式
+##### [查询工具](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/9c0f8c02466d08e5ac14c396fad21005/PituDateSearch.zip)是一个xcode工程，目前仅支持在mac上使用， 后续会开放其他查询方式

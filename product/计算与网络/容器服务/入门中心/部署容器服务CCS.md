@@ -4,7 +4,7 @@
 首先您需要创建集群。集群是指容器运行所需云资源的集合，包含了若干台云主机、负载均衡器等资源。
 1. 登录 [容器服务控制台](http://console.tce.fsphere.cn/ccs) 。
 2. 单击左侧导航栏中的【集群】，单击集群列表页的【+ 新建】。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/3e20524b9aaa91e937bcfd02270d69c7/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/3e20524b9aaa91e937bcfd02270d69c7/image.png)
 3. 设置集群的基本信息。
  - **集群名称**：您要创建的集群的名称。不超过60个字符。
  - **计费模式**：提供包年包月和按量计费两种计费模式，详细对比请查看 [计费模式说明](/doc/product/213/2180)。
@@ -13,11 +13,11 @@
  - **节点网络**：为集群内主机分配在节点网络地址范围内的 IP 地址。参阅 [容器及节点网络设置](/doc/product/457/9083)。
  - **容器网络**：为集群内容器分配在容器网络地址范围内的 IP 地址。参阅 [容器及节点网络设置](/doc/product/457/9083)。
  - **集群描述**：创建集群的相关信息。该信息将显示在 **集群信息** 页面。
-![Alt text](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d52ff827c724c74c38a595d646cb0ca6/image.png)
+![Alt text](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d52ff827c724c74c38a595d646cb0ca6/image.png)
 4. 选择机型 (支持系统盘为云盘的所有机型)。
  - **系列**：提供 **系列 1** 和 **系列 2** 。详细对比参看 [实例类型概述](/doc/product/213/7153#.E5.8F.AF.E7.94.A8.E5.AE.9E.E4.BE.8B.E7.B1.BB.E5.9E.8B2) 。
  - **机型**：机型选择方案参看 [确定云服务器配置方案](/doc/product/213/2764#.E7.A1.AE.E5.AE.9A.E4.BA.91.E6.9C.8D.E5.8A.A1.E5.99.A8.E9.85.8D.E7.BD.AE.E6.96.B9.E6.A1.88)。
-![Alt text](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e13c49f3333a1c482bbc158ffaff9653/image.png) 
+![Alt text](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/e13c49f3333a1c482bbc158ffaff9653/image.png) 
 5. 填写云主机配置并单击 【完成】。
  - **系统盘**：固定为 50G 。
  - **数据盘**：步长 10G ，最高为 4000G 。
@@ -29,76 +29,76 @@
 	iii.**自动生成密码**：自动生成的密码将通过站内信发送给您。
  - **安全组**：安全组具有防火墙的功能，用于设置云主机 CVM 的网络访问控制。参阅  [容器服务安全组设置](/doc/product/457/9084) 。
  - **云主机数量**：选择服务器数量。
-![Alt text](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/eff41bd979d9572c773dd2dca6230261/image.png)
+![Alt text](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/eff41bd979d9572c773dd2dca6230261/image.png)
 6. 创建完成的集群将出现在集群列表中。
-![Alt text](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e8224896e742266489f3e4f56c27b95e/image.png)
+![Alt text](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/e8224896e742266489f3e4f56c27b95e/image.png)
 
 ## 步骤2：创建服务
 您现已创建了集群，接下来就是创建服务。服务是由多个相同配置的容器和访问这些容器的规则组成的微服务。
 1. 单击左侧导航栏中的【服务】，单击服务列表页的【+ 新建】。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/11f7f75d7b051a815da8bfe1e744a8e8/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/11f7f75d7b051a815da8bfe1e744a8e8/image.png)
 2.  设置服务的基本信息。
  - **服务名称**：要创建的集群的名称。服务名称由小写字母、数字和 - 组成，且由小写字母开头，小写字母或数字结尾。
  - **所在地域**：建议您根据所在地理位置选择靠近的地域。
  - **运行集群**：选择服务所要运行的集群。运行集群需要选择运行中和集群内有可用主机的集群。
  - **服务描述**：创建服务的相关信息。该信息将显示在 **服务信息** 页面。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/9254649a08d86761bcb8287fe5a45141/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/9254649a08d86761bcb8287fe5a45141/image.png)
 3. 设置数据卷。
 要指定容器挂载至指定路径时，单击【添加数据卷】。
 >**注意：**
 >源路径不指定时将默认分配临时路径。
 
- - **类型**： 支持使用本地硬盘、云硬盘、NFS 盘、配置文件四种类型的数据卷。相关详细介绍请参阅 [容器服务数据卷使用说明](http://tce.fsphere.cn/document/product/457/9112#.E5.AE.B9.E5.99.A8.E6.9C.8D.E5.8A.A1.E6.95.B0.E6.8D.AE.E5.8D.B7.E4.BD.BF.E7.94.A8.E8.AF.B4.E6.98.8E)。
+ - **类型**： 支持使用本地硬盘、云硬盘、NFS 盘、配置文件四种类型的数据卷。相关详细介绍请参阅 [容器服务数据卷使用说明](http://tcecqpoc.fsphere.cn/document/product/457/9112#.E5.AE.B9.E5.99.A8.E6.9C.8D.E5.8A.A1.E6.95.B0.E6.8D.AE.E5.8D.B7.E4.BD.BF.E7.94.A8.E8.AF.B4.E6.98.8E)。
  - **名称**：数据卷的名称。
  - **路径**：指定容器要挂载的路径。
- ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2f3c75de6cb710e4163ff8c468a7e287/image.png)
+ ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/2f3c75de6cb710e4163ff8c468a7e287/image.png)
 4. 设置运行容器。
  - **名称** ：要创建容器的名称。
  - **镜像**：单击【选择镜像】，可选择在我的镜像、我的收藏、TencentHub 镜像、DockerHub 镜像和其他镜像下创建服务。
  - **版本**：容器服务默认选择版本。如果您需要使用镜像的其它版本，单击版本显示框选择。
- ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/647899fd3bb0fccd34bdbbc2e32fbad0/image.png)
+ ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/647899fd3bb0fccd34bdbbc2e32fbad0/image.png)
 5. 其他设置。
  -  **实例数量**：一个实例由相关的一个或多个容器构成。可单击 + 或 - 控制实例数量。
- -  **服务访问方式**：服务的访问方式决定了这个服务的网络属性，不同访问方式的服务可以提供不同网络能力。提供的四种访问方式详细介绍请参阅 [服务访问方式设置](http://tce.fsphere.cn/document/product/457/9098)。
- ![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/709ab652384bb5905718dc0ff01903f4/image.png)
+ -  **服务访问方式**：服务的访问方式决定了这个服务的网络属性，不同访问方式的服务可以提供不同网络能力。提供的四种访问方式详细介绍请参阅 [服务访问方式设置](http://tcecqpoc.fsphere.cn/document/product/457/9098)。
+ ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/709ab652384bb5905718dc0ff01903f4/image.png)
 6. 单击【创建服务】完成服务创建。创建完成的服务将出现在服务列表中。
 
 ## 步骤3：查看资源
 在上述步骤中，您创建了集群、服务。在此步骤中，您将查看您所创建的资源。
 ### 查看集群
 1. 单击左侧导航栏中的【集群】，单击集群列表页集群的【ID/名称】，如 cls-r3g887p9。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/394db8837335eaf3244844cd2881d231/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/394db8837335eaf3244844cd2881d231/image.png)
 2. **节点列表** ：节点是一台已注册到集群内的云服务器。可以进行新建节点、添加已有节点、移除节点的操作
 **Namespace 列表**：Namespace 是对一组资源和对象的抽象集合。单击【Namespace 列表】，可以对 Namespace 进行新建和删除操作。
 **集群信息**：显示了集群的基本信息。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1264b4318a6a30a9780a0a71ecc7008c/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1264b4318a6a30a9780a0a71ecc7008c/image.png)
 
 ### 查看服务
 1. 单击左侧导航栏中的【服务】，单击服务列表页服务的【名称】，如 cfs1。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/9dcddd72ac2a2c955be166d23ed9dd12/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/9dcddd72ac2a2c955be166d23ed9dd12/image.png)
 2. **实例列表**：实例由相关的一个或多个容器构成。可以进行更新实例数量和销毁实例操作。
 **服务信息**：显示了服务基本信息、配置信息和端口映射信息。
 **实例信息**：显示了实例的基本信息。
 **事件**：创建服务时会跳转至此页面，显示服务创建时流水事件。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6e0f4e936465ac1895642a122e14737a/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/6e0f4e936465ac1895642a122e14737a/image.png)
 
 ## 步骤4：删除资源
 在本教程中，您启动了两种资源：集群和服务。在此步骤中，您将清除所有的资源以免产生不必要的费用。
 ### 删除集群
 1. 单击左侧导航栏中的【集群】，单击集群列表页面右侧的【删除】。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/fc2cf76d876c28f8ee103e34226b300d/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/fc2cf76d876c28f8ee103e34226b300d/image.png)
 2. 单击【确定】。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6bbe325ce866351392d0ffd6a2b3a0d7/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/6bbe325ce866351392d0ffd6a2b3a0d7/image.png)
 >**注意：**
 >集群在删除期间，无法对外提供服务，请提前做好准备，以免造成影响。
 
 ### 删除服务
 1. 单击左侧导航栏中的【服务】，单击服务列表右侧【更多】下的【删除】。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/927afdd93623127bd5ee9b8c5bacf858/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/927afdd93623127bd5ee9b8c5bacf858/image.png)
 2. 单击【确定】。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/07c697f52454ea7ed439653702a32750/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/07c697f52454ea7ed439653702a32750/image.png)
 
 ## 更多
 通过本教程，您已经了解如何在容器服务 CSS 中配置、部署和删除服务。使用容器服务 CSS，您将无需安装、运维、扩展您的集群管理基础设施，只需进行简单的API调用，便可启动和停止 Docker 应用程序，查询集群的完整状态，以及使用各种云服务。
 
-您可以进入下一个教程，了解 [负载均衡](http://tce.fsphere.cn/document/product/457/9110) 和 [镜像仓库](http://tce.fsphere.cn/document/product/457/9118) 的基本概念和操作。您还可以通过 [快速入门](http://tce.fsphere.cn/document/product/457/7851) 里的入门实例快速入门构建服务。
+您可以进入下一个教程，了解 [负载均衡](http://tcecqpoc.fsphere.cn/document/product/457/9110) 和 [镜像仓库](http://tcecqpoc.fsphere.cn/document/product/457/9118) 的基本概念和操作。您还可以通过 [快速入门](http://tcecqpoc.fsphere.cn/document/product/457/7851) 里的入门实例快速入门构建服务。

@@ -1,6 +1,6 @@
 
 当大客户手动支付新购/续费的预付费订单时，可以主动勾选多张代金券（每次支付最多可使用10张）进行抵扣。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f3017938bf8b1a496afd12414cef95cb/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/f3017938bf8b1a496afd12414cef95cb/image.png)
 
 
 ## 1.代金券系统自动选用规则
@@ -30,4 +30,4 @@
 - 当您选择多张代金券时，请注意代金券的使用限制条件（如限一次使用），以免造成不必要的浪费。
 - 您用代金券支付的订单，若申请退款，不退还相应的代金券。
 - 您的账户中可能存在未支付或者支付中的订单使用了代金券，为了保障您该订单成功用代金券支付，此时该张代金券就会被暂时冻结。您可以在 [我的订单](http://console.tce.fsphere.cn/deal) 付款或取消相关订单，即可解冻相应代金券。
-- 更多FAQ可参考 [代金券常见问题](http://tce.fsphere.cn/document/product/555/10870)
+- 更多FAQ可参考 [代金券常见问题](http://tcecqpoc.fsphere.cn/document/product/555/10870)

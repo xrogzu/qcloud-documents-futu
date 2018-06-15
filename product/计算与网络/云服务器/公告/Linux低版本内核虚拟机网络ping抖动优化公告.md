@@ -3,7 +3,7 @@
 您好，
 
 在已知特定场景下，您的云服务器网络繁忙时，ping云服务器会有20ms到100ms不等的ping抖动。如图所示：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e82e1c21f7658006ca2eb155d6fbf9d4/image.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/e82e1c21f7658006ca2eb155d6fbf9d4/image.jpg)
 【受影响虚拟机配置】
 1. 单队列多云服务器
 2. 装有如下所示受影响的版本内核

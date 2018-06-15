@@ -15,4 +15,4 @@ step1：通过策略语法方式创建以下策略
     ]
 }
 ```
-step2：将该策略授权给子账号。授权方式请参考[授权管理](http://tce.fsphere.cn/document/product/378/8961)。
+step2：将该策略授权给子账号。授权方式请参考[授权管理](http://tcecqpoc.fsphere.cn/document/product/378/8961)。

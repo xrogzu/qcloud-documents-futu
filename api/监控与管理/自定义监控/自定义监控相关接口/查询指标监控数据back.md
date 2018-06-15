@@ -48,7 +48,7 @@ https://monitor.api.qcloud.com/v2/index.php?Action=GetMonitorData
 &dimensions.2.value=v3
 &period=300
 &statistics=last
-&<a href="http://tce.fsphere.cn/doc/api/229/6976">公共请求参数</a>
+&<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>
 </pre>
 输出
 ```

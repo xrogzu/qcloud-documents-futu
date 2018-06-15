@@ -31,7 +31,7 @@ WEB SDK直播视频格式支持：
 ### Step 3：获取ID
 您可以在直播管理控制台查找到直播频道并对该频道进行管理。在控制界面您可以找到app_id。在**基础设置**中，可以查询到该频道的频道id。
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/c891d20153fe9e46e1647bd7494ab021/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/c891d20153fe9e46e1647bd7494ab021/image.png)
 
 ### Step 4：页面准备
 在需要播放视频的页面（包括PC或H5）中引入初始化脚本
@@ -45,7 +45,7 @@ WEB SDK直播视频格式支持：
 
 >注意事项：**<font color="red">播放页面需要挂ip或域名访问，如若直接打开本地静态页面将无法播放</font>**
 
-> 备注：另外可以通过服务端API获取频道ID和APPID，[参考文档链接](http://tce.fsphere.cn/doc/api/258/4714)
+> 备注：另外可以通过服务端API获取频道ID和APPID，[参考文档链接](http://tcecqpoc.fsphere.cn/doc/api/258/4714)
 
 
 ## API 基础使用方法

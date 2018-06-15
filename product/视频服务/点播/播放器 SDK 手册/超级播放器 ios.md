@@ -3,11 +3,11 @@
 超级播放器是基于`TXVodPlayer`实现的集视频信息拉取、横竖屏切换、清晰度选择、弹幕等功能于一体的解决方案，**且完全开源**。帮助您在短时间内，打造一个媲美市面上各种流行视频App的播放体验。
 
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/c5a7b6e6e8cba617b76fee49aa03da18/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/c5a7b6e6e8cba617b76fee49aa03da18/image.png)
 
 ## 接入准备
 
-1. 下载 SDK + Demo 开发包，下载地址为（[iOS](http://tce.fsphere.cn/document/product/454/7873#iOS)）。
+1. 下载 SDK + Demo 开发包，下载地址为（[iOS](http://tcecqpoc.fsphere.cn/document/product/454/7873#iOS)）。
 
 2. 超级播放器的 UI 部分源码开源，开源代码位于`Player`文件夹，图片资源位于`Resource/Player`文件夹，您需要先将这两部分拷贝的您的App工程中。其它依赖的第三方库您可以自行 Pod 添加或在 `Third` 目录中获取
  -  Masonry
@@ -47,12 +47,12 @@ self.getInfoPlayer.vodDelegate = self;
 
 fileId在一般是在视频上传后，由服务器返回：
 
-1. 客户端视频发布后，服务器会返回[fileId](http://tce.fsphere.cn/document/product/584/9367#8..E5.8F.91.E5.B8.83.E7.BB.93.E6.9E.9C)到客户端
-2. 服务端视频上传，在[确认上传](http://tce.fsphere.cn/document/product/266/9757)的通知中包含对应的fileId
+1. 客户端视频发布后，服务器会返回[fileId](http://tcecqpoc.fsphere.cn/document/product/584/9367#8..E5.8F.91.E5.B8.83.E7.BB.93.E6.9E.9C)到客户端
+2. 服务端视频上传，在[确认上传](http://tcecqpoc.fsphere.cn/document/product/266/9757)的通知中包含对应的fileId
 
 如果文件已存在云平台，则可以进入 [点播视频管理](http://console.tce.fsphere.cn/video/videolist) ，找到对应的文件。点开后在右侧视频详情中，可以看到appId和fileId。
 
-![视频管理](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/fcad44c3392b229f3a53d5f8b2c52961/image.png)
+![视频管理](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/fcad44c3392b229f3a53d5f8b2c52961/image.png)
 
 
 

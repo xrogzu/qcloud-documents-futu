@@ -3,7 +3,7 @@ VPN 连接是一种通过公网加密通道连接您的对端 IDC 和私有网�
 - VPN网关：创建的私有网络 IPsec VPN 网关
 - 对端网关： IDC 端的 IPsec VPN 服务网关
 - VPN通道：加密的 IPsec VPN 通道
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/a654d376b4e4e13ae2bb65b13239cef2/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/a654d376b4e4e13ae2bb65b13239cef2/image.png)
 
 私有网络内可以建立VPN网关，每个VPN网关可以建立多个VPN通道，每个VPN通道可以打通一个本地IDC。需要注意的是，**在建立VPN连接之后，您需要在路由表中配置相关路由策略，才能真正实现通信。**
  
@@ -48,7 +48,7 @@ SPD策略1 本端网段 `10.0.0.0/24`，对端网段为 `192.168.0.0/24`、`192.
 SPD策略2 本端网段 `10.0.1.0/24`，对端网段为 `192.168.2.0/24`。
 SPD策略3 本端网段 `10.0.2.0/24`，对端网段为 `192.168.2.0/24`。
 
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/5b32174d312e31c5b5a9162a50456de8/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/5b32174d312e31c5b5a9162a50456de8/image.png)
  
 ### IKE配置
 
@@ -113,7 +113,7 @@ IPsec VPN 可以在控制台实现全自助配置，您需要完成以下几步�
 
 示例：
 通过IPsec VPN连接打通您在**广州**的私有网络TomVPC中子网A`192.168.1.0/24`与您的IDC中子网`10.0.1.0/24`，而您IDC中VPN 网关的公网 IP 是`202.108.22.5`。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/0cfc46cf11e4d53164219b1c386509a1/1.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/0cfc46cf11e4d53164219b1c386509a1/1.png)
 
 您需要完成以下几个步骤：
 #### 第一步：创建VPN网关
@@ -166,7 +166,7 @@ VPN 通道提供告警功能：
 1)	登录[云平台控制台](http://console.tce.fsphere.cn/)点击顶部导航条【云产品】-【监控与管理】-[【云监控】](http://console.tce.fsphere.cn/monitor/overview)，选择左导航栏内的【我的告警】-[【告警策略】](http://console.tce.fsphere.cn/monitor/policylist)，点击：新增告警策略。
 2)	填写告警策略名称，在策略类型中选择【VPN通道】，然后添加告警触发条件。
 3)	**关联告警对象**：选择告警接收组，保存后即可在告警策略列表中查看已设置的告警策略。
-4)	**查看告警信息**：告警条件被触发后，您将接受到短信/邮件/站内信等通知，同时可以在左导航【我的告警】-【告警列表】中查看。有关告警的更多信息，请参考[创建告警](http://tce.fsphere.cn/doc/product/248/1073)。
+4)	**查看告警信息**：告警条件被触发后，您将接受到短信/邮件/站内信等通知，同时可以在左导航【我的告警】-【告警列表】中查看。有关告警的更多信息，请参考[创建告警](http://tcecqpoc.fsphere.cn/doc/product/248/1073)。
 
 ### 查看 VPN 网关详细信息
 1)	登录[云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入[私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)。
@@ -181,35 +181,35 @@ VPN 通道提供告警功能：
 
 
 ## API概览
-您可以使用API操作来设置和管理您的VPN连接，私有网络的更多相关API可以参考[私有网络所有 API 概览。](http://tce.fsphere.cn/doc/api/245/909)
+您可以使用API操作来设置和管理您的VPN连接，私有网络的更多相关API可以参考[私有网络所有 API 概览。](http://tcecqpoc.fsphere.cn/doc/api/245/909)
 ### VPN 相关接口
 | 接口功能 | Action ID |  功能描述 |
 |---------|---------|---------|
-| 查询VPN网关价格 | [InquiryVpnPrice](http://tce.fsphere.cn/doc/api/245/5104) | 查询VPN网关价格。 |
-| 购买VPN网关 | [CreateVpn](http://tce.fsphere.cn/doc/api/245/5106) | 购买VPN网关。 |
-| 修改VPN网关属性 | [ModifyVpnGw](http://tce.fsphere.cn/doc/api/245/5107) | 修改指定VPN网关信息，例如名称。|
-| 查询VPN网关列表 | [DescribeVpnGw](http://tce.fsphere.cn/doc/api/245/5108) | 根据用户信息，如VPN网关ID，名称，查询对应VPN网关的信息。|
-| 续费VPN网关 | [RenewVpn](http://tce.fsphere.cn/doc/api/245/5109) | 续费VPN网关。 |
+| 查询VPN网关价格 | [InquiryVpnPrice](http://tcecqpoc.fsphere.cn/doc/api/245/5104) | 查询VPN网关价格。 |
+| 购买VPN网关 | [CreateVpn](http://tcecqpoc.fsphere.cn/doc/api/245/5106) | 购买VPN网关。 |
+| 修改VPN网关属性 | [ModifyVpnGw](http://tcecqpoc.fsphere.cn/doc/api/245/5107) | 修改指定VPN网关信息，例如名称。|
+| 查询VPN网关列表 | [DescribeVpnGw](http://tcecqpoc.fsphere.cn/doc/api/245/5108) | 根据用户信息，如VPN网关ID，名称，查询对应VPN网关的信息。|
+| 续费VPN网关 | [RenewVpn](http://tcecqpoc.fsphere.cn/doc/api/245/5109) | 续费VPN网关。 |
 
 ### 对端网关相关接口
 | 接口功能 | Action ID |  功能描述 |
 |---------|---------|---------|
-| 创建对端网关 | [AddUserGw](http://tce.fsphere.cn/doc/api/245/5116) | 创建要连接的对端网关。 |
-| 删除对端网关 | [DeleteUserGw](http://tce.fsphere.cn/doc/api/245/5117) | 删除指定对端网关。 |
-| 修改对端网关名称 | [ModifyUserGw](http://tce.fsphere.cn/doc/api/245/5118) | 修改对端网关名称。 |
-| 查询对端网关列表 | [DescribeUserGw](http://tce.fsphere.cn/doc/api/245/5119) | 根据用户信息，如对端网关ID，名称，查询对应对端网关的信息。|
-| 获取可支持的对端网关厂商信息 | [DescribeUserGwVendor](http://tce.fsphere.cn/doc/api/245/5120) | 查询vpn网关可支持的对端网关厂商信息。 |
+| 创建对端网关 | [AddUserGw](http://tcecqpoc.fsphere.cn/doc/api/245/5116) | 创建要连接的对端网关。 |
+| 删除对端网关 | [DeleteUserGw](http://tcecqpoc.fsphere.cn/doc/api/245/5117) | 删除指定对端网关。 |
+| 修改对端网关名称 | [ModifyUserGw](http://tcecqpoc.fsphere.cn/doc/api/245/5118) | 修改对端网关名称。 |
+| 查询对端网关列表 | [DescribeUserGw](http://tcecqpoc.fsphere.cn/doc/api/245/5119) | 根据用户信息，如对端网关ID，名称，查询对应对端网关的信息。|
+| 获取可支持的对端网关厂商信息 | [DescribeUserGwVendor](http://tcecqpoc.fsphere.cn/doc/api/245/5120) | 查询vpn网关可支持的对端网关厂商信息。 |
 
 
 ### VPN通道相关接口
 
 | 接口功能 | Action ID |  功能描述 |
 |---------|---------|---------|
-| 创建VPN通道 | [AddVpnConn](http://tce.fsphere.cn/doc/api/245/5110) | 创建VPN加密通道，将VPC接入其他网络资源。 |
-| 删除VPN通道 | [DeleteVpnConn](http://tce.fsphere.cn/doc/api/245/5111) | 删除指定VPN通道。|
-| 修改VPN通道 | [ModifyVpnConn](http://tce.fsphere.cn/doc/api/245/5112) | 修改指定VPN通道的信息，如名称。 |
-| 查询VPN通道列表 | [DescribeVpnConn](http://tce.fsphere.cn/doc/api/245/5113) | 根据用户信息，如通道ID，名称，查询对应通道的信息。|
-| 下载VPN通道配置 | [GetVpnConnConfig](http://tce.fsphere.cn/doc/api/245/5114) | 下载VPN通道配置，对通道配置做调整。 |
-| 获取VPN通道的监控数据 | [DescribeVpnConnMonitor](http://tce.fsphere.cn/doc/api/245/5115) |  获取VPN通道的监控数据。 |
+| 创建VPN通道 | [AddVpnConn](http://tcecqpoc.fsphere.cn/doc/api/245/5110) | 创建VPN加密通道，将VPC接入其他网络资源。 |
+| 删除VPN通道 | [DeleteVpnConn](http://tcecqpoc.fsphere.cn/doc/api/245/5111) | 删除指定VPN通道。|
+| 修改VPN通道 | [ModifyVpnConn](http://tcecqpoc.fsphere.cn/doc/api/245/5112) | 修改指定VPN通道的信息，如名称。 |
+| 查询VPN通道列表 | [DescribeVpnConn](http://tcecqpoc.fsphere.cn/doc/api/245/5113) | 根据用户信息，如通道ID，名称，查询对应通道的信息。|
+| 下载VPN通道配置 | [GetVpnConnConfig](http://tcecqpoc.fsphere.cn/doc/api/245/5114) | 下载VPN通道配置，对通道配置做调整。 |
+| 获取VPN通道的监控数据 | [DescribeVpnConnMonitor](http://tcecqpoc.fsphere.cn/doc/api/245/5115) |  获取VPN通道的监控数据。 |
 
 

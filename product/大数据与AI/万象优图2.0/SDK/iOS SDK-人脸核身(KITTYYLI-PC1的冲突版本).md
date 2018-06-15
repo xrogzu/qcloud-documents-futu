@@ -2,7 +2,7 @@
 
 ### SDK 获取
 
-人脸核身的 iOS SDK 下载地址：[iOS SDK](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/71b1c0bcb84ba926866af194d9f9743e/CISDK_1.0.2.zip) 
+人脸核身的 iOS SDK 下载地址：[iOS SDK](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/71b1c0bcb84ba926866af194d9f9743e/CISDK_1.0.2.zip) 
 
 ### 开发准备
 
@@ -21,19 +21,19 @@ CI 的 iOS SDK压缩包组成：
 
 压缩包中都包含了一个 .a 静态库和一个包含头文件的文件夹 Headers，如下图所示。上传包提供了支持 bitcode 版本，与不支持 bitcode 版本，可根据业务需要进行选择。
 
-![上传SDK](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/05f5a1d6768985aa11b23c3808914989/image.png)
+![上传SDK](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/05f5a1d6768985aa11b23c3808914989/image.png)
 
-![下载SDK](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/190e5c8c4920ba4d7334f7ba64fd3839/image.png)
+![下载SDK](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/190e5c8c4920ba4d7334f7ba64fd3839/image.png)
 
 将解压后的 CISDK 拖入工程目录，Xcode 会自动将其加入链接库列表中。
 
-![导入 SDK 包](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/96dda4e5f2e4f8fab3fbda3de1cd8e25/image.png)
+![导入 SDK 包](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/96dda4e5f2e4f8fab3fbda3de1cd8e25/image.png)
 
 #### 工程配置
 
 在 Build Settings 中设置 Other Linker Flags，加入参数 -ObjC。
 
-![参数配置](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/58327ba5d83809c77da158ff95627ef7/image.png)
+![参数配置](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/58327ba5d83809c77da158ff95627ef7/image.png)
 
 在工程info.plist文件中添加App Transport Security Settings 类型，然后在App Transport Security Settings下添加Allow Arbitrary Loads 类型Boolean,值设为YES
 

@@ -4,25 +4,25 @@
 
 ## 2 SDK集成
 
-iOS SDK下载地址为：[iOS SDK](http://tce.fsphere.cn/wiki/%E4%B8%87%E8%B1%A1%E4%BC%98%E5%9B%BESDK%E4%B8%8B%E8%BD%BD#2._iOS_SDK)。
+iOS SDK下载地址为：[iOS SDK](http://tcecqpoc.fsphere.cn/wiki/%E4%B8%87%E8%B1%A1%E4%BC%98%E5%9B%BESDK%E4%B8%8B%E8%BD%BD#2._iOS_SDK)。
 
 万象优图iOS SDK其中包括上传SDK和下载SDK，上传SDK压缩包QCloudUploadSDK.zip,下载SDK压缩包QCloudDownloadSDK.zip.上传和下载SDK压缩包中分别包含了一个.a静态库和一个包含头文件的文件夹Headers，解压后的内容如下：
 
 上传SDK:
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-1.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-1.jpg)
 
 下载SDK:
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-2.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-2.jpg)
 
 将解压后的QCloudUPloadSDK和QCloudDownloadSDK拖入工程目录，Xcode会自将其加入链接库列表中。
 
 注：如果只需要上传或下载功能，则只拖入对应的SDK即可。
 
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-3.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-3.jpg)
 
 在build Settings中设置Other Linker Flags，加入参数-ObjC
 
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-4.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-4.jpg)
 
 在build Phases -> Link Binary With Libraries中加入以下几个依赖库
 
@@ -33,7 +33,7 @@ iOS SDK下载地址为：[iOS SDK](http://tce.fsphere.cn/wiki/%E4%B8%87%E8%B1%A1
 5)	libz.dylib
 6)	libstdc++.6.dylib
 
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-5.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-5.jpg)
 
 注：如果只需要上传或下载功能，则只需要引入对应的动态库：
 

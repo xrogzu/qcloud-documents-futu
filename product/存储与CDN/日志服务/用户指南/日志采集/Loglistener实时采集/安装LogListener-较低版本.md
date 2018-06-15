@@ -1,6 +1,6 @@
 LogListener是云平台日志服务提供的日志采集Agent，您可以安装LogListener实时采集日志文件。
 
-**此文档为较低版本 LogListener 的使用指南，若还未安装过 LogListener 我们建议您安装最新版本的LogListener。[获取最新版本 LogListener](http://tce.fsphere.cn/document/product/614/11257)** 
+**此文档为较低版本 LogListener 的使用指南，若还未安装过 LogListener 我们建议您安装最新版本的LogListener。[获取最新版本 LogListener](http://tcecqpoc.fsphere.cn/document/product/614/11257)** 
 
 ## LogListener的系统支持
 
@@ -20,7 +20,7 @@ Ubuntu
 
 ### 安装LogListener
 
-[点击下载 LogListener 1.1.2](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/64065f325335ce4fb1ed96433eb691fd/loglistener.1.1.2.tar.gz)，将安装包解压至指定的目标目录中，在root下执行
+[点击下载 LogListener 1.1.2](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/64065f325335ce4fb1ed96433eb691fd/loglistener.1.1.2.tar.gz)，将安装包解压至指定的目标目录中，在root下执行
 
 ```
 cd loglistener/tools/op;

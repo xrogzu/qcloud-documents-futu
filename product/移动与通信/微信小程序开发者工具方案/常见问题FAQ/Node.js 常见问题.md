@@ -2,13 +2,13 @@
 
 您还可以查看[《开发环境和生产环境》](/document/product/619/11446)了解开发环境和生产环境的区别；
 
-如果本文还不能解决您的问题，您可以到云平台[问答](http://tce.fsphere.cn/developer/ask)提问，我们将尽快跟进解答。
+如果本文还不能解决您的问题，您可以到云平台[问答](http://tcecqpoc.fsphere.cn/developer/ask)提问，我们将尽快跟进解答。
 
 ## 如何部署代码到开发环境
 
 通过已经绑定云平台账号的微信号扫码登录微信开发者工具，接着创建一个小程序项目：
 
-![上传代码](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/4fd45bb5c74eed92b031fbebf8600bd2/1.png)
+![上传代码](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/4fd45bb5c74eed92b031fbebf8600bd2/1.png)
 
 项目目录可以选择 `wafer2-startup` 提供的 Demo 代码，也可以自行开发。
 
@@ -34,11 +34,11 @@
 
 云平台微信小程序解决方案 2.0 是基于 Node.js 开发的，提供远程调试功能，在微信开发者工具页面点击右上角“云平台”，在下拉菜单中选中“启动单步调试”，系统会自动重启远程服务，并使用 [inspect-brk 模式](https://nodejs.org/en/docs/inspector/)启动 Node.js App，接着开发者工具会打开调试窗口。
 
-![Debug窗口](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/abd646218599ff3c0056ce99ee6fdbd7/1.png)
+![Debug窗口](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/abd646218599ff3c0056ce99ee6fdbd7/1.png)
 
 此时，App 进入暂停状态，这个时候您可以在 `app.js` 或者其他启动程序就会载入的包中下断点，点击代码左边的行号即可下断点，接着点击右上角蓝色的三角形按钮，启动 App，可以看到，程序会在断点处暂停下来。
 
-![给程序下断点并启动](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1731adeff8e3be435a4ba2213fef2ec9/2.png)
+![给程序下断点并启动](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1731adeff8e3be435a4ba2213fef2ec9/2.png)
 
 更多关于 Node.js 远程调试的文档说明，可以查看 [Chrome 开发者工具官方文档](https://developers.google.cn/web/tools/chrome-devtools/?hl=zh-cn)。
 
@@ -54,7 +54,7 @@
 
 进入[云平台小程序控制台](http://console.tce.fsphere.cn/lav2)，点击“phpMyAdmin”按钮打开 phpMyAdmin 登录界面，输入用户名（默认为 `root`）和密码（默认密码为小程序的 AppID）点击登录即可登录进图形化数据库操作界面。
 
-![phpMyAdmin](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/0b17ef0178c71463d65b3f883a3f1f2b/3.png)
+![phpMyAdmin](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/0b17ef0178c71463d65b3f883a3f1f2b/3.png)
 
 点击右边列表的“新建”，即可新建数据库。点击任一一个数据库可以进行新建表等操作。phpMyAdmin 具体操作说明可以查看 [phpMyAdmin文档](https://docs.phpmyadmin.net/zh_CN/latest/)。
 
@@ -102,11 +102,11 @@ router.get('/demo', controllers.demo)
 
 在 Demo 中 `server/config.js` 的 `CONF` 里添加一项 `wxMessageToken`，为任意值：
 
-![修改配置](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d6ac75415137fcc01166227b5c8c000f/4.png)
+![修改配置](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d6ac75415137fcc01166227b5c8c000f/4.png)
 
 点击开发者工具右上角的“云平台”按钮，点击“上传代码”，代码上传完成之后点击“部署开发环境”，部署开发环境完成之后登录微信公众平台，依次进入“设置”-“开发设置”-“消息推送”，点击启用，按如下指引填写并点击【提交】即可。：
 
-![配置消息推送](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/445e323417d279c8e40ad50e96f89bcc/5.png)
+![配置消息推送](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/445e323417d279c8e40ad50e96f89bcc/5.png)
 
 ## 如何使用服务端 SDK 连接和操作数据库
 
@@ -208,7 +208,7 @@ npm run dev
 
 启动之后，会输出 SDK 和其他 npm 包的 debug 信息，您也可以自己开发的时候直接输出。
 
-![本地开发环境下启动](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/283a9f3250a97f826d4f0d25c04ab2c2/6.png)
+![本地开发环境下启动](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/283a9f3250a97f826d4f0d25c04ab2c2/6.png)
 
 ## Error: 未找到 project.config.json 中的 svr 字段。错误：10080
 
@@ -244,7 +244,7 @@ npm run dev
 
 建议上传测试代码的时候，点击勾选”部署后自动安装依赖“
 
-<img alt="点击勾选部署后自动安装依赖" src="http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7dcb9f30aba7fbdfa4a9f415bc8b75a1/7.jpg" width="420px">
+<img alt="点击勾选部署后自动安装依赖" src="http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/7dcb9f30aba7fbdfa4a9f415bc8b75a1/7.jpg" width="420px">
 
 ## 如何连接上服务器
 
@@ -252,8 +252,8 @@ npm run dev
 
 ## 真机预览的时候提示网络出错
 
-<img src="http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/049a1f8b5a477ebda6f088828f290e3c/8.png" width="240px" alt="真机预览的时候提示网络出错">
+<img src="http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/049a1f8b5a477ebda6f088828f290e3c/8.png" width="240px" alt="真机预览的时候提示网络出错">
 
 这种问题是因为开发域名不在安全域名列表里，可以点击界面右上角的三个小点，选择开启调试，就会绕过域名的验证
 
-<img src="http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b192942b7593bcc344dfe89bd7fa2d3e/9.jpg" width="240px" alt="真机预览打开调试">
+<img src="http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b192942b7593bcc344dfe89bd7fa2d3e/9.jpg" width="240px" alt="真机预览打开调试">

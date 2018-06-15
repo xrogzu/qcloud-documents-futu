@@ -1,7 +1,7 @@
 ## 温馨提示
 请注意这是历史版本（V4，基于 JSON API 封装的 SDK），**已经不再推荐使用**。
 
-对于新接入SDK的用户，我们推荐使用最新的V5版本[基于 XML API 封装的 SDK](http://tce.fsphere.cn/document/product/436/11280)。如果因为种种原因确实仍然需要需要使用基于 JSON API 封装的 SDK ,那么推荐使用我们基于历史版本重构后的[基于 JSON API 封装的 SDK](https://github.com/tencentyun/qcloud-sdk-ios/tree/master/QCloudNewCOSV4) 。
+对于新接入SDK的用户，我们推荐使用最新的V5版本[基于 XML API 封装的 SDK](http://tcecqpoc.fsphere.cn/document/product/436/11280)。如果因为种种原因确实仍然需要需要使用基于 JSON API 封装的 SDK ,那么推荐使用我们基于历史版本重构后的[基于 JSON API 封装的 SDK](https://github.com/tencentyun/qcloud-sdk-ios/tree/master/QCloudNewCOSV4) 。
 
 ## 开发准备
 
@@ -55,7 +55,7 @@ git clone https://github.com/tencentyun/COS_iOS_SDK.git
 
 在 Build Settings 中设置 Other Linker Flags，加入参数 -ObjC。
 
-![参数配置](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/58327ba5d83809c77da158ff95627ef7/image.png)
+![参数配置](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/58327ba5d83809c77da158ff95627ef7/image.png)
 
 在工程info.plist文件中添加App Transport Security Settings 类型，然后在App Transport Security Settings下添加Allow Arbitrary Loads 类型Boolean,值设为YES。
 

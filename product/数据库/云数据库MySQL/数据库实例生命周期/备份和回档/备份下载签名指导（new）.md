@@ -5,13 +5,13 @@
 ### 1. 下载URL的获取
 #### 方式一：通过页面控制台下载 URL
 1. 在实例管理界面，单击【备份管理】，选择备份列表或Binlog列表。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a3c43c4aed35725b567332edb9fdcff8/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a3c43c4aed35725b567332edb9fdcff8/image.png)
 2. 选择需要下载的备份，在操作里单击【下载】。（冷备数据可以选择【全部下载】下载整个数据库实例或者【部分下载】下载部分数据库、数据表）
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/838eee5eecd37df2ec17318991e6e298/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/838eee5eecd37df2ec17318991e6e298/image.png)
 3. 获取 URL。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ddf7f77cdd088087228f5da010146e3e/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ddf7f77cdd088087228f5da010146e3e/image.png)
 
-#### 方式二：通过API获取下载链接，[点击查看API文档说明](http://tce.fsphere.cn/doc/api/253/5125)
+#### 方式二：通过API获取下载链接，[点击查看API文档说明](http://tcecqpoc.fsphere.cn/doc/api/253/5125)
 获取到的URL格式如下（以下是样例）：
 ```
 http://gz.dl.cdb.qcloud.com/c85be5fa579da84af33f0efd49b1b7cd?appid=8888888888&time=1478778522&sign=ZDxBCfRuFXDITwXY4C7%2BkTDAlDE%3D

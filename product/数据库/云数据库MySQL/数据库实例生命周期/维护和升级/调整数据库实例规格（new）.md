@@ -6,7 +6,7 @@
 > 2. 调整配置过程中，不允许取消本次调整配置操作
 > 3. 调整配置过程中，实例可正常访问，部分功能将不受影响，如数据的导入、导出功能。
 > 4. 调整配置前后实例的名称、访问IP、访问端口均不发生变化
-> 5. **调整配置完毕时可能会涉及实例切换（即秒级MySQL数据库连接断开），建议程序有自动重连功能，并且选择在实例可维护时间内做切换。有关维护时间请参考[设置实例维护时间](http://tce.fsphere.cn/document/product/598/10583)**。
+> 5. **调整配置完毕时可能会涉及实例切换（即秒级MySQL数据库连接断开），建议程序有自动重连功能，并且选择在实例可维护时间内做切换。有关维护时间请参考[设置实例维护时间](http://tcecqpoc.fsphere.cn/document/product/598/10583)**。
 > 6. **调整配置过程中，请尽量避免修改MySQL的全局参数、实例名称、用户密码等操作。**
 
 ## 1. 调整配置方法
@@ -18,12 +18,12 @@
 3. 在弹出框中，选择升级后的配置，单击【确认】即可。
 
  - **包年包月实例弹框：**
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/c58002204cb5a0481fed03c7ad9903b1/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/c58002204cb5a0481fed03c7ad9903b1/image.png)
  - **按量计费实例弹框：**
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2736588533362e5904a7d006136ceb01/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/2736588533362e5904a7d006136ceb01/image.png)
 
 ### 通过 API 调整实例配置
-用户可以使用 UpgradeCdb、InquiryCdbUpgradePrice 和 GetCdbUpgradeJobInfo 接口升级实例配置，具体内容可参考 [升级实例 API ](http://tce.fsphere.cn/document/product/236/7164)。
+用户可以使用 UpgradeCdb、InquiryCdbUpgradePrice 和 GetCdbUpgradeJobInfo 接口升级实例配置，具体内容可参考 [升级实例 API ](http://tcecqpoc.fsphere.cn/document/product/236/7164)。
 > **注意：**
 > 
 >  目前不支持通过API接口来降低实例配置，请通过控制台来实现实例降配。

@@ -2,7 +2,7 @@
 
 弹性IP（Elastic IP，EIP）是可以独立申请的公网IP地址，支持与CVM/NAT 网关实例的动态绑定和解绑。如下图所示，您可以将其与账户中的云主机（或 NAT 网关实例）绑定或者解绑，主要作用是屏蔽实例故障。例如：动态DNS 映射把 DNS 名称映射到 IP 地址，传播这个映射变化到整个 Internet可能需花费24 小时，而弹性IP实现了IP从一个云主机到另一个云主机的漂移。在任何云主机出现故障时，只需启动另一个实例并重新映射它，从而快速响应实例故障。
 您的弹性 IP 地址与云平台账户相关联，而不是与某个 CVM 实例相关联，而且在您选择显式释放该地址。
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/3dbf04b5fb9bff4bef632074ecf767da/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/3dbf04b5fb9bff4bef632074ecf767da/image.png)
 
 ## 使用范围
 弹性公网IP地址适用于私有网络的 CVM 实例，以及私有网络中的 NAT 网关实例，支持动态的绑定和解绑，您需要注意得是：
@@ -21,7 +21,7 @@
 ## 弹性公网IP不通原因排查方法
 弹性公网IP不通一般有如下原因：
 - 弹性 IP 地址没有绑定云产品。具体绑定方法见弹性公网 IP 绑定云产品。
-- 安全策略无效。查看是否有生效的安全策略（ <a href="http://tce.fsphere.cn/doc/product/213/5221" target="_blank">安全组</a> 或 <a href="http://tce.fsphere.cn/doc/product/215/5132" target="_blank">网络 ACL</a> )。如果绑定的云产品实例有安全策略，例如：禁止 `8080` 端口访问，那么弹性公网 IP 的 `8080` 端口也是无法访问的。
+- 安全策略无效。查看是否有生效的安全策略（ <a href="http://tcecqpoc.fsphere.cn/doc/product/213/5221" target="_blank">安全组</a> 或 <a href="http://tcecqpoc.fsphere.cn/doc/product/215/5132" target="_blank">网络 ACL</a> )。如果绑定的云产品实例有安全策略，例如：禁止 `8080` 端口访问，那么弹性公网 IP 的 `8080` 端口也是无法访问的。
 
 ## NAT网关和弹性公网IP的使用
 
@@ -51,7 +51,7 @@ NAT网关和弹性公网IP是云主机访问Internet的两种方式，您可以�
 2) 在左侧导航窗格中，单击【弹性公网IP】。
 3) 选择列表上方的地域，点击【申请】按钮。
 4) 申请结束后即可在EIP列表中看到您申请的EIP。
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/ba977c383635c2eca9b826d7a9520194/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/ba977c383635c2eca9b826d7a9520194/image.png)
 
 ### 修改EIP名称
 1) 打开云服务器 CVM 控制台。

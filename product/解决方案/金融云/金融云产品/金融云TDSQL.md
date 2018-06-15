@@ -3,10 +3,10 @@
 
 ## 产品概述
 ### 单机集群架构
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/ea3f76dc7e661147a05f84e5e6f0bcf1/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/ea3f76dc7e661147a05f84e5e6f0bcf1/image.png)
 
 ### 分布式集群架构
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/1243449707b88ff38e0122c3049b5334/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/1243449707b88ff38e0122c3049b5334/image.png)
 
 ### 架构说明
 • 云平台公用组件由云安全、云监控、大禹高防、负载均衡等多个服务组成的综合服务能力，也可添加服务市场第三方服务
@@ -17,4 +17,4 @@
 • 异地容灾数据库节点组部署在主节点100km以外的异地机房，异地机房处于实时运行状态，且至少拥有主节点50%的性能
 
 ## 详细了解
-[金融云TDSQL](http://tce.fsphere.cn/product/tdsql.html)
+[金融云TDSQL](http://tcecqpoc.fsphere.cn/product/tdsql.html)

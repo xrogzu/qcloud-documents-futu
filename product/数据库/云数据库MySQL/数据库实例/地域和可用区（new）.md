@@ -115,7 +115,7 @@
 [2]:	/doc/product/213/5225
 [3]:	/doc/product/213/5224
 [4]:	/doc/product/215/5000
-[5]:	http://tce.fsphere.cn/doc/product/214
-[6]:	http://tce.fsphere.cn/doc/product/304/%E9%87%91%E8%9E%8D%E4%BA%91%E7%AE%80%E4%BB%8B
-[7]:	http://tce.fsphere.cn/doc/product/214
+[5]:	http://tcecqpoc.fsphere.cn/doc/product/214
+[6]:	http://tcecqpoc.fsphere.cn/doc/product/304/%E9%87%91%E8%9E%8D%E4%BA%91%E7%AE%80%E4%BB%8B
+[7]:	http://tcecqpoc.fsphere.cn/doc/product/214
 [8]:	/doc/product/213/5733

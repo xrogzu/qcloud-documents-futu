@@ -6,7 +6,7 @@
 - **功能层：**
   躲在接入层后面，既然接入层已经完成了安全确认和攻击屏蔽，功能层就只需要做自己的功能处理就行了，频道管理、文件查询等基本功能都是在这个部分实现的。
 	
-	![api](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/963c7973a3d5a77d6bd36d1cf3fd65ca/image.png)
+	![api](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/963c7973a3d5a77d6bd36d1cf3fd65ca/image.png)
 	
 您的服务器要调用云平台的服务端API，首先要过接入层这一关，她会要求：
 - 您的请求协议必须是HTTPS
@@ -16,7 +16,7 @@
 所以...
 
 ## 服务端SDK
-推荐您使用[云平台服务端SDK](http://tce.fsphere.cn/doc/sdk)，目前提供了如下几种语言的版本：
+推荐您使用[云平台服务端SDK](http://tcecqpoc.fsphere.cn/doc/sdk)，目前提供了如下几种语言的版本：
 - PHP
 - Python
 - Java
@@ -49,4 +49,4 @@
 
 - **20200**：这里是实打实的功能层错误码，是具体功能模块返回的，比如20108代表“频道处于非编辑状态”，代表您的请求已经给到直播系统在处理了，只是直播系统任务您的请求有问题，返回特定的提示性错误。
 
-错误码的查询统一参考[错误码表](http://tce.fsphere.cn/doc/api/258/4733)。
+错误码的查询统一参考[错误码表](http://tcecqpoc.fsphere.cn/doc/api/258/4733)。

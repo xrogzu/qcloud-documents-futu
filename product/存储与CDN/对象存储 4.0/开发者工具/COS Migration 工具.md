@@ -33,7 +33,7 @@ COS Migration是一个集成了有关COS数据迁移功能的一体化工具。�
  - Linux 或 Windows 环境
 
 ### 软件依赖
-- JDK1.7或以上, 有关JDK的安装与配置请参考[JAVA安装与配置](http://tce.fsphere.cn/document/product/436/10865)
+- JDK1.7或以上, 有关JDK的安装与配置请参考[JAVA安装与配置](http://tcecqpoc.fsphere.cn/document/product/436/10865)
 
 
 ## 使用方法
@@ -304,11 +304,11 @@ COS迁移工具是有状态的，已经迁移成功的会记录在db目录下，
 2. 根据指定的迁移类型，扫描对比db下对所要迁移文件的标识，判断是否允许上传
 3. 迁移执行过程中会打印执行结果，其中inprogress表示迁移中，skip表示跳过，fail表示失败，ok表示成功。失败的详细信息可以在log的error日志中查看。执行过程示意图如下图所示：
 
-     ![](http://imgcache.tce.fsphere.cn/image/i.imgur.com/oojIbOm.png)
+     ![](http://imgcache.tcecqpoc.fsphere.cn/image/i.imgur.com/oojIbOm.png)
 
 4. 整个迁移结束后会打印统计信息，包括累积的迁移成功量，失败量，跳过量，耗时。对于失败的情况，请查看error日志，或重新运行，因为迁移工具会跳过已迁移成功的，对未成功的会跳过。运行完成结果示意图如下图所示：
 
-    ![](http://imgcache.tce.fsphere.cn/image/i.imgur.com/NkoddI5.png)
+    ![](http://imgcache.tcecqpoc.fsphere.cn/image/i.imgur.com/NkoddI5.png)
 
 
 ## 常见问题

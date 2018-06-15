@@ -7,7 +7,7 @@
 
 登录云平台【管理中心】-【云产品】-【域名管理】-【解析】, 示例的主域名为qcloudtest.com。
 
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/005aec8272c6384a9626e62b5d3bd735.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/005aec8272c6384a9626e62b5d3bd735.png)
 
 ### 2. 添加CNAME记录
 
@@ -44,15 +44,15 @@ d. CNAME记录值主要填写空间商给您提供的域名
 - CNAME记录：填写空间商给您提供的域名，***例如：负载均衡中LB实例的域名1b16c9-0.ap-guangzhou.12345678.clb.myqcloud.com*** 
 - MX记录：填写您邮件服务器的IP地址或企业邮局给您提供的域名，如果您不知道，请咨询您的邮件服务提供商
 - TXT记录：一般用于 Google、QQ等企业邮箱的反垃圾邮件设置
-- 显性URL记录：填写要跳转到的网址，例如：http://tce.fsphere.cn
-- 隐性URL记录：填写要引用内容的网址，例如：http://tce.fsphere.cn
+- 显性URL记录：填写要跳转到的网址，例如：http://tcecqpoc.fsphere.cn
+- 隐性URL记录：填写要引用内容的网址，例如：http://tcecqpoc.fsphere.cn
 - AAAA：不常用。解析到 IPv6 的地址。
 - NS记录：不常用。系统默认添加的两个NS记录请不要修改。NS向下授权，填写dns域名，例如：f1g1ns1.dnspod.net
 - SRV记录：不常用。格式为：优先级、空格、权重、空格、端口、空格、主机名，记录生成后会自动在域名后面补一个“.”，这是正常现象。例如：5 0 5269 xmpp-server.l.google.com.
 
 其余值可以按照默认进行操作。添加完毕后，点击【确定】。
 
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/3d952308d0e576fa3a2be640b3238074/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/3d952308d0e576fa3a2be640b3238074/image.png)
 
 ### 3. 查看CNAME记录
 

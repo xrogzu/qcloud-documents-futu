@@ -2,10 +2,10 @@
 
 [从 Githb 访问 >>](https://github.com/QcloudApi/qcloudapi-sdk-python)
 
-qcloudapi-sdk-python 是为了让 Python 开发者能够在自己的代码里更快捷方便的使用云平台的 API 而开发的 SDK 工具包。我们已经将其打包发布到 [pypi](https://pypi.python.org/pypi/qcloudapi-sdk-python/) ，您可以使用 pip 工具将 SDK 安装到本地，pip 工具在各操作系统的安装方式请参考[如何安装python环境和pip工具](http://tce.fsphere.cn/doc/product/440/6181)。您也可以将其添加到项目的依赖列表中，或者使用 [git submodule](https://git-scm.com/docs/git-submodule) 功能将其直接置于您的项目中。
+qcloudapi-sdk-python 是为了让 Python 开发者能够在自己的代码里更快捷方便的使用云平台的 API 而开发的 SDK 工具包。我们已经将其打包发布到 [pypi](https://pypi.python.org/pypi/qcloudapi-sdk-python/) ，您可以使用 pip 工具将 SDK 安装到本地，pip 工具在各操作系统的安装方式请参考[如何安装python环境和pip工具](http://tcecqpoc.fsphere.cn/doc/product/440/6181)。您也可以将其添加到项目的依赖列表中，或者使用 [git submodule](https://git-scm.com/docs/git-submodule) 功能将其直接置于您的项目中。
 
 ## 资源
-见不同模块API的公共参数、API概览、错误码。如[云服务器API公共参数](http://tce.fsphere.cn/document/api/213/6976)、[云服务器API概览](http://tce.fsphere.cn/doc/api/229/API%E6%A6%82%E8%A7%88)、[云服务器API错误码](http://tce.fsphere.cn/doc/api/229/%E9%94%99%E8%AF%AF%E7%A0%81)。
+见不同模块API的公共参数、API概览、错误码。如[云服务器API公共参数](http://tcecqpoc.fsphere.cn/document/api/213/6976)、[云服务器API概览](http://tcecqpoc.fsphere.cn/doc/api/229/API%E6%A6%82%E8%A7%88)、[云服务器API错误码](http://tcecqpoc.fsphere.cn/doc/api/229/%E9%94%99%E8%AF%AF%E7%A0%81)。
 
 ## 获取安全凭证
 [获取安全凭证](http://console.tce.fsphere.cn/capi)。在第一次使用云API之前，用户首先需要在云平台控制台上申请安全凭证，安全凭证包括 SecretId 和 SecretKey, SecretId 是用于标识 API 调用者的身份，SecretKey是用于加密签名字符串和服务器端验证签名字符串的密钥。SecretKey 必须严格保管，避免泄露。

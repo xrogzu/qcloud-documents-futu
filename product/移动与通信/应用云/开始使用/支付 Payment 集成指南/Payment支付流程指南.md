@@ -32,23 +32,23 @@ Payment 是 MobileLine 的移动支付服务，给用户提供微信支付与手
 
 ### 1. 创建 MobileLine 应用
 
-如果您还没有自己的 MobileLine 应用，那么您首先需要在控制台上 [创建项目](http://tce.fsphere.cn/document/product/666/14836)，创建好项目后，请在该项目下 [创建 MoblieLine 应用](http://tce.fsphere.cn/document/product/666/14835)，创建应用时，**请按照控制台指引配置您自己的应用 APP**。
+如果您还没有自己的 MobileLine 应用，那么您首先需要在控制台上 [创建项目](http://tcecqpoc.fsphere.cn/document/product/666/14836)，创建好项目后，请在该项目下 [创建 MoblieLine 应用](http://tcecqpoc.fsphere.cn/document/product/666/14835)，创建应用时，**请按照控制台指引配置您自己的应用 APP**。
 
 ### 2. 配置应用 Server
 
-应用 Server 指的是您自己业务的服务端，使用 Payment 服务时，您必须至少在应用 Server 上部署**统一下单**和**支付成功回调**两个接口，其他如查询订单信息、退货等接口您可以根据自己的需要自行配置，服务端配置请参见 [Payment 后台服务配置](http://tce.fsphere.cn/document/product/666/14600)。
+应用 Server 指的是您自己业务的服务端，使用 Payment 服务时，您必须至少在应用 Server 上部署**统一下单**和**支付成功回调**两个接口，其他如查询订单信息、退货等接口您可以根据自己的需要自行配置，服务端配置请参见 [Payment 后台服务配置](http://tcecqpoc.fsphere.cn/document/product/666/14600)。
 
 ### 3. 配置支付渠道
 
-支付渠道包括微信支付和 QQ 支付两个渠道，您需要自己在微信开放平台或者腾讯开放平台上申请渠道信息，然后在控制台上进行配置，支付渠道配置请参见 [Payment 支付渠道配置指引](http://tce.fsphere.cn/document/product/666/14599)。
+支付渠道包括微信支付和 QQ 支付两个渠道，您需要自己在微信开放平台或者腾讯开放平台上申请渠道信息，然后在控制台上进行配置，支付渠道配置请参见 [Payment 支付渠道配置指引](http://tcecqpoc.fsphere.cn/document/product/666/14599)。
 
 ### 4. 接入 Payment SDK
 
-配置好支付渠道后，您需要将 Payment SDK 集成到应用中，具体步骤请参见 [Payment Android 集成指南](http://tce.fsphere.cn/document/product/666/14593) 和 [Payment IOS 集成指南](http://tce.fsphere.cn/document/product/666/14614)。
+配置好支付渠道后，您需要将 Payment SDK 集成到应用中，具体步骤请参见 [Payment Android 集成指南](http://tcecqpoc.fsphere.cn/document/product/666/14593) 和 [Payment IOS 集成指南](http://tcecqpoc.fsphere.cn/document/product/666/14614)。
 
 ### 5. 使用 Payment SDK 发起支付
 
-至此，您已经完成了整个 Payment 服务的配置，现在您可以使用 Payment SDK 来发起支付了，详情请参见 [Payment Android 编程手册](http://tce.fsphere.cn/document/product/666/14594) 和 [Payment IOS 编程手册](http://tce.fsphere.cn/document/product/666/14613)。
+至此，您已经完成了整个 Payment 服务的配置，现在您可以使用 Payment SDK 来发起支付了，详情请参见 [Payment Android 编程手册](http://tcecqpoc.fsphere.cn/document/product/666/14594) 和 [Payment IOS 编程手册](http://tcecqpoc.fsphere.cn/document/product/666/14613)。
 
 ### 6. 沙箱联调和发布上线
 
@@ -60,7 +60,7 @@ Payment 的默认环境，主要用于调试，在这个环境下，支付成功
 
 #### 线上环境
 
-当您的应用调试成功后，请您将应用发布上线，上线后，Payment Server 会在您支付成功后回调控制台上设置的主回调地址或者备回调地址，如何发布上线请参考 Payment 控制台使用手册的 [配置参数](http://tce.fsphere.cn/document/product/666/14838) 部分。
+当您的应用调试成功后，请您将应用发布上线，上线后，Payment Server 会在您支付成功后回调控制台上设置的主回调地址或者备回调地址，如何发布上线请参考 Payment 控制台使用手册的 [配置参数](http://tcecqpoc.fsphere.cn/document/product/666/14838) 部分。
 
 
 

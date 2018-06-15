@@ -1,6 +1,6 @@
 
 ## Step1. 准备工作
-## Step2. 设备注册及配置参考 [硬件开放平台快速入门](http://tce.fsphere.cn/document/product/645/12750)
+## Step2. 设备注册及配置参考 [硬件开放平台快速入门](http://tcecqpoc.fsphere.cn/document/product/645/12750)
 
 ## Step3. 硬件 SDK 对接
 
@@ -11,19 +11,19 @@
 
 *   **sn(serial number：序列号)** 每台设备都应该有一个唯一的序列号，序列号并不需要腾讯后台分配，所以您可以直接对接原有产品线的序列号系统，但是我们对序列号格式有严格要求：长度必须是 16 个字符的字母、数字或者连词符的组合，例如 `ABC-0032-1234567` 就是一个非常标准的序列号。 您亦可以使用我们提供的客户端工具（Step2.2 所示的页面中可以下载）来生成符合要求的序列号，如下图：
 
-[![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_9.png)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_9.png)
+[![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_9.png)](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_9.png)
 
 *   **license(sn 对应的认证签名)** license 用于安全校验，主要目的是保护合作方的利益，避免冒充合作方的山寨设备出现，license 的产生可以借助客户端工具实现。 ` 注意：license 的生成使用的是您在 Step2.2 中产生的密钥对中的私钥，文件名叫做 ec_key.pem，请您不要弄混了 `
 
-[![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_10.png)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_10.png)
+[![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_10.png)](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_10.png)
 
 *   **server public key(物联云服务器认证 key)** 最后一组信息是用于保护设备的，避免它被来自互联网的 DNS 劫持或者后台伪造等手段所攻击，所以这一项也是必选项，您可以在 Step2.2 提及的页面里找到这个 key，如下图：
 
-[![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/step2_n_6.png)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/step2_n_6.png)
+[![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/step2_n_6.png)](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/step2_n_6.png)
 
 ### 3.2 SDK 下载
 
-参考 [LinuxSDK 下载](http://tce.fsphere.cn/document/product/645/14216)
+参考 [LinuxSDK 下载](http://tcecqpoc.fsphere.cn/document/product/645/14216)
 
 ### 3.3 第一行代码
 
@@ -129,7 +129,7 @@ bool initDevice() {
 
 最后，示例代码调用了 **tx_init_device** 函数完成了初始化过程，我们来看一下这段代码的运行结果。如果设备目前还是 “白纸一张”，也就是还没有被某个用户绑定过，那么期望的设备端串口输出应该是如下所示：
 
-[![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_12.png)](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_12.png)
+[![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_12.png)](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ipcamera_12.png)
 
 因为还没有被绑定过，所以目前为止 SDK 所做的工作基本就仅启动了一个内部线程，然后以一种几乎不消耗 CPU 的方式等待它的第一个任务——** 接受绑定 **。
 
@@ -167,11 +167,11 @@ callback.on_state = on_ai_state;
 tx_ai_audio_service_start(&callback);
 ```
 
-**tx_ai_audio_configservice_with_player_callback** 设置语音输入和输出相关参数 tx_ai_audio_player 包括播放器创建、url 资源播放、播放器控制、tts 播放等部分， 详细说明请参考 [播放器接口说明](http://tce.fsphere.cn/document/product/645/14222)
+**tx_ai_audio_configservice_with_player_callback** 设置语音输入和输出相关参数 tx_ai_audio_player 包括播放器创建、url 资源播放、播放器控制、tts 播放等部分， 详细说明请参考 [播放器接口说明](http://tcecqpoc.fsphere.cn/document/product/645/14222)
 
 tx_ai_audio_encode_param 指定了语音输入格式、码率、采样率 须按照按照固定参数设置
 
-**tx_ai_audio_service_start** 开启语音服务 tx_ai_audio_callback 主要负责全局控制和状态回调， 详细说明请参考 [播放器接口说明](http://tce.fsphere.cn/document/product/645/14222)
+**tx_ai_audio_service_start** 开启语音服务 tx_ai_audio_callback 主要负责全局控制和状态回调， 详细说明请参考 [播放器接口说明](http://tcecqpoc.fsphere.cn/document/product/645/14222)
 
 到此为止， 已经完成了语音服务基本配置，接下去就可以往云端写入语音数据了
 
@@ -197,7 +197,7 @@ void on_ai_control(int ctlcode, int value) {
 tx_ai_audio_request_fill_data((void*)frames, frameCount * frameSize, frameCount * frameSize, 0);
 ```
 
-来填充语音数据，数据类型必须按照 tx_ai_audio_configservice_with_player_callback 设置的类型写入，更多该接口说明参考头文件或 [通道层接口说明](http://tce.fsphere.cn/document/product/645/14249) 为了先完成流程接入， 可以从 pcm 文件读取源数据直接填充， 流程接入完成后可以接入[唤醒词](http://tce.fsphere.cn/document/product/645/14220) 模块
+来填充语音数据，数据类型必须按照 tx_ai_audio_configservice_with_player_callback 设置的类型写入，更多该接口说明参考头文件或 [通道层接口说明](http://tcecqpoc.fsphere.cn/document/product/645/14249) 为了先完成流程接入， 可以从 pcm 文件读取源数据直接填充， 流程接入完成后可以接入[唤醒词](http://tcecqpoc.fsphere.cn/document/product/645/14220) 模块
 
 等待 tx_ai_audio_control_code_endrecord 事件触发 后 停止填充数据
 

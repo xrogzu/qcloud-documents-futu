@@ -1,5 +1,5 @@
 ## 基本 API 描述
-> 关于文章中出现的 SecretId、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](http://tce.fsphere.cn/document/product/436/7751)
+> 关于文章中出现的 SecretId、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](http://tcecqpoc.fsphere.cn/document/product/436/7751)
 
 ### 获取 Buckets 列表
 #### 功能说明
@@ -589,7 +589,7 @@ try {
 ### Lifecycle 相关
 #### 参数说明
 参数说明详见官网文档
-[Put Bucket Lifecycle ](http://tce.fsphere.cn/document/product/436/8280) / [Get Bucket Lifecycle](http://tce.fsphere.cn/document/product/436/8278) / [Delete Bucket Lifecycle](http://tce.fsphere.cn/document/product/436/8284)
+[Put Bucket Lifecycle ](http://tcecqpoc.fsphere.cn/document/product/436/8280) / [Get Bucket Lifecycle](http://tcecqpoc.fsphere.cn/document/product/436/8278) / [Delete Bucket Lifecycle](http://tcecqpoc.fsphere.cn/document/product/436/8284)
 
 #### 示例
 

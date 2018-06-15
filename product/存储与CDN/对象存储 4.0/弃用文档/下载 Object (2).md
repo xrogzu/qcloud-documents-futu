@@ -2,10 +2,10 @@
 
 进入 COS 管理控制台，点击 Object 所在的 Bucket，在 Object 列表右侧，点击 **文件信息** ：
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e26cf2de168ba9dc1de75dc775e5f480/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/e26cf2de168ba9dc1de75dc775e5f480/image.png)
 
 点击复制链接按钮再将链接粘贴至浏览器地址栏实现下载，或者直接点击下载按钮实现下载：
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7325519a5253375d117cc779ce4f8d04/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/7325519a5253375d117cc779ce4f8d04/image.png)
 
 

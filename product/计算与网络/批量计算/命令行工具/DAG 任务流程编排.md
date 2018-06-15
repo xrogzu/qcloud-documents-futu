@@ -1,7 +1,7 @@
 远程映射是 Batch 对存储使用相关的辅助功能，能够将 COS、CFS 等远程存储映射到本地的文件夹上
 
 ### 1. 前置准备
-请根据 [前置准备](http://tce.fsphere.cn/document/product/599/10548) 里的说明完成准备，并了解如何配置自定义信息里的通用部分。
+请根据 [前置准备](http://tcecqpoc.fsphere.cn/document/product/599/10548) 里的说明完成准备，并了解如何配置自定义信息里的通用部分。
 
 ### 2. 上传输入数据文件
 number.txt 的内容如下
@@ -19,7 +19,7 @@ number.txt 的内容如下
 
 将文件上传到前置准备里创建的 input 文件夹里
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/02738c821f14ed132fef76c466c79d08/COS_5.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/02738c821f14ed132fef76c466c79d08/COS_5.png)
 
 ### 3. 查看和修改 Demo
 使用编辑器打开 3_StoreMapping.py 文件
@@ -84,14 +84,14 @@ $ python 3_StoreMapping.py
 }
 ```
 
-如果返回 JobId 字段则代表提交成功，没有则检查返回值排查错误，也可以加入 [用户反馈](http://tce.fsphere.cn/document/product/599/10806) 里的沟通群向管理员咨询。
+如果返回 JobId 字段则代表提交成功，没有则检查返回值排查错误，也可以加入 [用户反馈](http://tcecqpoc.fsphere.cn/document/product/599/10806) 里的沟通群向管理员咨询。
 
 ### 5. 查看状态
-参考 [1_简单开始](http://tce.fsphere.cn/document/product/599/10551) 同名章节
+参考 [1_简单开始](http://tcecqpoc.fsphere.cn/document/product/599/10551) 同名章节
 
 ### 6. 查看结果
 Batch 会将输出数据从本地目录拷贝到远程存储目录，3_StoreMapping.py 的执行结果保存在了 result.txt 里，这个文件将自动同步到 COS 上
-![pic](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/aee7138e589378eea48851dd1649b711/COS_6.png)
+![pic](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/aee7138e589378eea48851dd1649b711/COS_6.png)
 ```
 45
 ```

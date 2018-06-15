@@ -65,4 +65,4 @@
 |数据块写入磁盘次数|key_writes|次/秒|uInstanceId|
 
 
-有关更多如何使用云数据库监控指标的内容，可以查看云监控 API 中的[读取监控数据接口](http://tce.fsphere.cn/document/api/248/11006)。
+有关更多如何使用云数据库监控指标的内容，可以查看云监控 API 中的[读取监控数据接口](http://tcecqpoc.fsphere.cn/document/api/248/11006)。

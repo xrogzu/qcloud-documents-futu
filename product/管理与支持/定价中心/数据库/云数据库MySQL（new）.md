@@ -43,7 +43,7 @@ CDB for MySQL 数据库支持控制台续费和续费管理中心续费两种方
 ![实例详情页续费][image-6]
 
 ### 续费管理中心续费
- 在 [续费管理页面][10] 提供实例的【批量资源续费】、【设置自动续费】、【设置统一到期日】、【取消不续费】等功能 ，详见 [续费管理](http://tce.fsphere.cn/document/product/555/7454)。
+ 在 [续费管理页面][10] 提供实例的【批量资源续费】、【设置自动续费】、【设置统一到期日】、【取消不续费】等功能 ，详见 [续费管理](http://tcecqpoc.fsphere.cn/document/product/555/7454)。
 
 ## 到期提醒
 
@@ -63,7 +63,7 @@ CDB for MySQL 数据库支持控制台续费和续费管理中心续费两种方
 
 ### 按量计费
  
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img567f91951599d.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img567f91951599d.png)
 1. 余额预警
 系统每天会根据您名下按量付费资源过去 24 小时的消费情况以及账户余额情况，预估余额可支撑的时间。若可支撑时间小于 5 天，我们将会向您推送余额预警。预警消息将通过邮件及短信的方式通知到云平台账户的创建者以及所有协作者。
 
@@ -82,22 +82,22 @@ CDB for MySQL 数据库支持控制台续费和续费管理中心续费两种方
 主机销毁/回收后，数据将会被清除且不可找回。
 您的实际资源消耗可能不断变化，因此余额预警可能存在一定的误差。
 
-[image-1]:  http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/c5a7e2e50a04631d861d899c1e71598b/step1.png
-[image-2]:  http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/c8d25b4002230535f28dbc59ae58318b/step2.png
-[image-3]:  http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/876e8649c8f1b41fe792fd86e08d993a/step3.png
-[image-4]:	http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/745bffd1e06ffd5e7c7bb8f87766050b/step4.png
-[image-5]:	http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1f4c68979c718e4a75734ca91f37c4ac/step5.png
-[image-6]:	http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a4403f63257ebe96b62867f22417d356/step6.png
+[image-1]:  http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/c5a7e2e50a04631d861d899c1e71598b/step1.png
+[image-2]:  http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/c8d25b4002230535f28dbc59ae58318b/step2.png
+[image-3]:  http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/876e8649c8f1b41fe792fd86e08d993a/step3.png
+[image-4]:	http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/745bffd1e06ffd5e7c7bb8f87766050b/step4.png
+[image-5]:	http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1f4c68979c718e4a75734ca91f37c4ac/step5.png
+[image-6]:	http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a4403f63257ebe96b62867f22417d356/step6.png
 
 [1]:	http://console.tce.fsphere.cn/
 [2]:	http://console.tce.fsphere.cn/cdb
-[3]:	http://tce.fsphere.cn/document/product/378/3629
-[4]:	http://tce.fsphere.cn/document/product/236/8458
-[5]:    http://tce.fsphere.cn/document/product/213/5227
-[6]:    http://tce.fsphere.cn/document/product/236/7913
-[7]:	http://tce.fsphere.cn/document/product/555/9618
-[8]:	http://tce.fsphere.cn/document/product/555/9617
-[9]:    http://tce.fsphere.cn/document/product/555/7437
+[3]:	http://tcecqpoc.fsphere.cn/document/product/378/3629
+[4]:	http://tcecqpoc.fsphere.cn/document/product/236/8458
+[5]:    http://tcecqpoc.fsphere.cn/document/product/213/5227
+[6]:    http://tcecqpoc.fsphere.cn/document/product/236/7913
+[7]:	http://tcecqpoc.fsphere.cn/document/product/555/9618
+[8]:	http://tcecqpoc.fsphere.cn/document/product/555/9617
+[9]:    http://tcecqpoc.fsphere.cn/document/product/555/7437
 [10]:   http://console.tce.fsphere.cn/account/renewal
-[11]:   http://tce.fsphere.cn/document/product/236/5158
+[11]:   http://tcecqpoc.fsphere.cn/document/product/236/5158
 [12]:   https://buy.tce.fsphere.cn/calculator/cdb

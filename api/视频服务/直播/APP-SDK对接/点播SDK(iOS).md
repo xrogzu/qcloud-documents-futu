@@ -8,7 +8,7 @@
 - **HLS**: 苹果公司力推的标准，在移动终端的浏览器上的支持度较好（在IOS和大部分Android设备上，都可以使用系统浏览器进行播放），但IE的支持情况依赖FLASH的二次开发工作（比如使用腾讯视频云的FLASH播放器控件）。其精简的m3u8的索引结构可以规避**MP4**的索引慢问题，如果是用于点播，是非常不错的选择。
 
 - **FLV**: Adobe公司所推的标准，目前直播平台最常用的封装格式，在PC端有FLASH的强力支持，但在移动终端只有APP实现播放器才有可能支持（或者使用本播放器），大部分手机端浏览器均不支持。目前腾讯视频云的直播录制，采用的就是FLV视频格式。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/9e79a1e82a61b5ae6c45e6da93f3980a/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/9e79a1e82a61b5ae6c45e6da93f3980a/image.png)
 
 ## 基础篇
 在线点播的接口依然复用直播的接口类，即TXLivePlayer，所以使用方式上有诸多类似之处。
@@ -47,7 +47,7 @@ NSString *vodUrl = @"http://2527.vod.myqcloud.com/xxx.mp4";
 
 ### step 5: 画面调整
 如果你希望调整画面的显示方式，SDK也提供了多种选择：
-![enter image description here](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/player_demo_render_mode.jpg)
+![enter image description here](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/player_demo_render_mode.jpg)
 
 ##### setRenderMode
 * RENDER_MODE_FULL_FILL_SCREEN  - 将图像等比例铺满整个屏幕，多余部分裁剪掉，此模式下画面不留黑边

@@ -8,16 +8,16 @@ GVoice 游戏语音目前提供了实时语音（Real-Time）、语音消息（M
 GVoice 客户端 SDK 接口主要分成三个部分：基本 API、实时语音 API 以及语音消息 API。
 
 ### 系统配置和基本使用
-[iOS SDK 下载](http://tce.fsphere.cn/document/product/556/10041)  
-[iOS Demo 下载](http://tce.fsphere.cn/document/product/556/10042)
+[iOS SDK 下载](http://tcecqpoc.fsphere.cn/document/product/556/10041)  
+[iOS Demo 下载](http://tcecqpoc.fsphere.cn/document/product/556/10042)
 
 下载iOS SDK包后，解压得到`.a`文件、`.h`文件以及`bundle`文件。按如下流程即可接入：
 1. 导入库文件和 Bundle 文件到 Xcode 工程中。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b980d0e2ba93fd8ce0884170c6cab596/1.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b980d0e2ba93fd8ce0884170c6cab596/1.png)
 并导入以下库文件：
-![库文件](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/4f1e2a40d23e6afafd0769d0f2628f75/image.png)
+![库文件](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/4f1e2a40d23e6afafd0769d0f2628f75/image.png)
 在iOS 10 以后还需要在 Info 中配置麦克风权限。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/4f821f50b9c45118cba2cd17c34f5a94/3.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/4f821f50b9c45118cba2cd17c34f5a94/3.png)
 
 2. 在合适的地方进行包含头文件`GVoice.h`并进行初始化
 GVoice 通过单例方法 [GVGCloudVoice sharedInstance] 来获得示例对象并进行相关的操作。首先要设置应用的信息，然后初始化引擎：
@@ -91,7 +91,7 @@ GVoice 通过单例方法 [GVGCloudVoice sharedInstance] 来获得示例对象�
 
 
 ### 接口调用流程
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/db4301975a4007a65e2b71152e103fd4/4.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/db4301975a4007a65e2b71152e103fd4/4.png)
 - 实现 GVGCloudVoiceDelegate 回调类。  
 
 - 调用 GVGCloudVoice 的 [GVGCloudVoice sharedInstance] 方法获取 GVGCloudVoice 对象。  
@@ -103,7 +103,7 @@ GVoice 通过单例方法 [GVGCloudVoice sharedInstance] 来获得示例对象�
 - 在系统可以 Tick 的地方（如 Unity3D 的 Update）调用 poll() 函数驱动程序运行。  
 
 ### 实时语音接口调用流程
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d7eb0df95ebdff5e8f9d44a8a01bd74f/5.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d7eb0df95ebdff5e8f9d44a8a01bd74f/5.png)
 - 调用 setMode() 方法设置使用实时语音模式。
 
 - 根据业务需求使用小队语音或国战语音，分别调用 joinTeamRoom() 或 joinNationalRoom()。
@@ -120,7 +120,7 @@ GVoice 通过单例方法 [GVGCloudVoice sharedInstance] 来获得示例对象�
 对于国战语音，系统要求说话人数不能超过 5 个人，每个用户多了一个角色信息，在加入房间的时候需要指定是以听众的身份加入还是以主播的身份加入。
 
 ### 离线语音接口调用流程
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/28ec9bf0eab80c06c7883219fbd7604a/6.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/28ec9bf0eab80c06c7883219fbd7604a/6.png)
 - 调用 setMode 方法设置使用语音消息模式。
 
 - 调用 applyMessageKey() 获取语音消息安全密钥 key 信息，当申请成功后会通过 onApplyMessageKeyComplete 进行回调。
@@ -134,7 +134,7 @@ GVoice 通过单例方法 [GVGCloudVoice sharedInstance] 来获得示例对象�
 - 当游戏客户端需要收听其他人的录音时，首先从服务器获取转发的 ShareFileID，然后调用 downloadRecordedFile 下载该语言文件，下载结果通过 onDownloadRecordFileComplete 回调来通知。当下载成功时，就可以调用 playRecordedFile 播放下载完成的语音数据了。同样的，如果想取消播放，可以调用 stopPlayFile 进行取消。
 
 ### 语音转文字调用流程
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/c0789172ff0ffb679cc9beeb3ba4d18b/7.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/c0789172ff0ffb679cc9beeb3ba4d18b/7.png)
 - 调用 setMode 方法设置使用翻译（Translation）模式。
 
 - 调用 applyMessageKey() 获取语音消息安全密钥 key 信息，当申请成功后会通过 onApplyMessageKeyComplete 进行回调。

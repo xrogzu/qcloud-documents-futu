@@ -1,7 +1,7 @@
 ## 开发准备
 
 ### SDK 获取
-对象存储服务的C# SDK的[下载地址](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/d76eadff7abde134c3aee1e7894d514e/cos-dotnet-sdk.tar)
+对象存储服务的C# SDK的[下载地址](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/d76eadff7abde134c3aee1e7894d514e/cos-dotnet-sdk.tar)
 
 ### 开发准备
 
@@ -66,7 +66,7 @@ public static string SignatureOnce(int appId, string secretId, string secretKey,
 var sign = Sign.SignatureOnce(appId, secretId, secretKey,remotePath, bucketName); 
 ```
 
-更多签名详细说明，请参考[权限控制](http://tce.fsphere.cn/doc/product/227/1897#2.1-.E8.8E.B7.E5.8F.96.E7.AD.BE.E5.90.8D.E6.89.80.E9.9C.80.E4.BF.A1.E6.81.AF) 。
+更多签名详细说明，请参考[权限控制](http://tcecqpoc.fsphere.cn/doc/product/227/1897#2.1-.E8.8E.B7.E5.8F.96.E7.AD.BE.E5.90.8D.E6.89.80.E9.9C.80.E4.BF.A1.E6.81.AF) 。
 
 ## 目录操作
 

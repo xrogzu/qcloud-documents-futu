@@ -41,7 +41,7 @@
 
 ### 上海使用备案 App 备案，需要营业执照吗？
 
-App 核验拍照不需要营业执照，只需要网站负责人身份证件就可以了，详细流程可参考  [上海客户手机 App 核验方法](http://tce.fsphere.cn/document/product/243/9591#11..E4.B8.8A.E6.B5.B7.E5.AE.A2.E6.88.B7.E6.89.8B.E6.9C.BAapp.E6.A0.B8.E9.AA.8C.E6.96.B9.E6.B3.95)。
+App 核验拍照不需要营业执照，只需要网站负责人身份证件就可以了，详细流程可参考  [上海客户手机 App 核验方法](http://tcecqpoc.fsphere.cn/document/product/243/9591#11..E4.B8.8A.E6.B5.B7.E5.AE.A2.E6.88.B7.E6.89.8B.E6.9C.BAapp.E6.A0.B8.E9.AA.8C.E6.96.B9.E6.B3.95)。
 
 ### 幕布照片可以使用之前在云平台备案时拍的么？
 

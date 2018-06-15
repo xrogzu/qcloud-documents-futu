@@ -2,24 +2,24 @@
 
 ### SDK 获取
 
-人脸核身的 iOS SDK 下载地址：[iOS SDK](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/71b1c0bcb84ba926866af194d9f9743e/CISDK_1.0.2.zip) 。
+人脸核身的 iOS SDK 下载地址：[iOS SDK](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/71b1c0bcb84ba926866af194d9f9743e/CISDK_1.0.2.zip) 。
 
 ### 开发准备
 -  iOS 8.0+ ；
 -  手机必须要有网络（ GPRS 、3G 或 Wifi 网络等）；
--  开发者使用人脸识别功能前，需要先进行 [云平台账号注册](http://tce.fsphere.cn/register)（详细指引请参考 [注册云平台](http://tce.fsphere.cn/document/product/378/9603)），并 [创建存储桶](http://tce.fsphere.cn/document/product/460/10637)，从而获得 APPID 、SecretId 和 SecretKey 等（获取 APPID 可参考 [域名管理](http://tce.fsphere.cn/document/product/460/6937)）。
+-  开发者使用人脸识别功能前，需要先进行 [云平台账号注册](http://tcecqpoc.fsphere.cn/register)（详细指引请参考 [注册云平台](http://tcecqpoc.fsphere.cn/document/product/378/9603)），并 [创建存储桶](http://tcecqpoc.fsphere.cn/document/product/460/10637)，从而获得 APPID 、SecretId 和 SecretKey 等（获取 APPID 可参考 [域名管理](http://tcecqpoc.fsphere.cn/document/product/460/6937)）。
 ### SDK 配置
 #### SDK 导入
 
 万象优图的 iOS SDK 压缩包（CIClientSDK.zip）由一个 .a 静态库和一个包含头文件的文件夹 Headers 组成，如下图所示。上传包提供了**支持 bitcode **与**不支持 bitcode **两个版本，可根据业务需要进行选择。
-![上传SDK](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/05f5a1d6768985aa11b23c3808914989/image.png)
-![下载SDK](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/190e5c8c4920ba4d7334f7ba64fd3839/image.png)
+![上传SDK](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/05f5a1d6768985aa11b23c3808914989/image.png)
+![下载SDK](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/190e5c8c4920ba4d7334f7ba64fd3839/image.png)
 将解压后的 CISDK 拖入工程目录，Xcode 会自动将其加入链接库列表中。
-![导入 SDK 包](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/96dda4e5f2e4f8fab3fbda3de1cd8e25/image.png)
+![导入 SDK 包](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/96dda4e5f2e4f8fab3fbda3de1cd8e25/image.png)
 
 #### 工程配置
 在 Build Settings 中设置 Other Linker Flags，加入参数 -ObjC。
-![参数配置](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/58327ba5d83809c77da158ff95627ef7/image.png)
+![参数配置](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/58327ba5d83809c77da158ff95627ef7/image.png)
 在工程 info.plist 文件中添加 App Transport Security Settings 类型，然后在 App Transport Security Settings 下添加 Allow Arbitrary Loads 类型 Boolean ，值设为‘YES’。
 ## 签名获取
 **签名类型：**

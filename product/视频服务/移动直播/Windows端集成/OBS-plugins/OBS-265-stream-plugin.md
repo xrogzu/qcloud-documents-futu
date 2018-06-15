@@ -15,7 +15,7 @@
 ### step2: 下载并安装 265 编码插件
 点击 [DOWNLOAD](http://liteavsdk-1252463788.cosgz.myqcloud.com/windows/OBS_Plugins/tx265-plugin-setup.exe) H.265 插件并安装，该插件仅能安装在 **20.0.0** 或以上版本的 OBS Studio 上。 
 
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/98f69bbefe4e5efee58e609446a5ba6a.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/98f69bbefe4e5efee58e609446a5ba6a.png)
 
 > 插件安装包会自动检测OBS studio安装的目录，检测失败需要您手动选择 OBS Studio 安装的目录
 
@@ -25,14 +25,14 @@
 #### 3.1 OBS 设置 - 流：
 OBS设置-流-流类型选择 **Tencent Stream(H.265) Service**，填写推流地址
 
- [开通](http://console.tce.fsphere.cn/live)直播服务后，可以使用 [直播控制台>>直播码接入>>推流生成器](http://console.tce.fsphere.cn/live/livecodemanage) 生成推流地址，详细信息可以参考 [获得推流播放URL](http://tce.fsphere.cn/document/product/454/7915)。
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/81b7aaa96e7beb2744550360d3c1e1dd.png)
+ [开通](http://console.tce.fsphere.cn/live)直播服务后，可以使用 [直播控制台>>直播码接入>>推流生成器](http://console.tce.fsphere.cn/live/livecodemanage) 生成推流地址，详细信息可以参考 [获得推流播放URL](http://tcecqpoc.fsphere.cn/document/product/454/7915)。
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/81b7aaa96e7beb2744550360d3c1e1dd.png)
 
 
 #### 3.2 OBS 设置 - 输出：
 OBS设置-输出-输出模式-选择**高级**
 OBS设置-输出-流-编码器-选择带**TX265开头的编码器**，并按需设置编码参数
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/da8c892c2c0cc5ac12c033d40163a2dd.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/da8c892c2c0cc5ac12c033d40163a2dd.png)
 
 编码器名称|说明
 -|-

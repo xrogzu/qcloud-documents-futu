@@ -3,6 +3,6 @@
 
 在实例管理列表内，点击页面右侧的对应实例的“管理”按钮,
 
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/aa3c3ac8e0869b2d3188c204e967398f/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/aa3c3ac8e0869b2d3188c204e967398f/image.png)
 选择“系统监控”选项卡”，即可对相关数据进行实时监控。
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/7a67efab3db8f2594ad216397ee6f40c/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/7a67efab3db8f2594ad216397ee6f40c/image.png)

@@ -7,7 +7,7 @@
 
 当然如果用户没办法使用，对于开发者来说也只能算是鸡肋了，之前也是一直期望国内的几家大厂能够提供相类似的平台，但是一直都没有，感觉有点可惜啊，自我感觉如果这个平台搞好了还是应该有很多人用的，对于快速开发有很大的好处啊。
 
-终于，最近云平台推出了一个 [MobileLine 平台](http://tce.fsphere.cn/document/product/666)，功能暂时没有 firebase 那么齐全，毕竟刚上线，不过体验了一下，感觉还是很不错的。目前主要包含了数据分析、消息推送、Crash 上报、支付还有存储。
+终于，最近云平台推出了一个 [MobileLine 平台](http://tcecqpoc.fsphere.cn/document/product/666)，功能暂时没有 firebase 那么齐全，毕竟刚上线，不过体验了一下，感觉还是很不错的。目前主要包含了数据分析、消息推送、Crash 上报、支付还有存储。
 
 ### 先来看下创建应用吧：
 
@@ -39,11 +39,11 @@
 
 ### 支付
 
-支付稍微步骤有点多，因为涉及到比较多信息的申请，这个文档写的很详细 [Payment支付流程指南](http://tce.fsphere.cn/document/product/666/14879)，
+支付稍微步骤有点多，因为涉及到比较多信息的申请，这个文档写的很详细 [Payment支付流程指南](http://tcecqpoc.fsphere.cn/document/product/666/14879)，
 
 ![](http://tacimg-1253960454.cosgz.myqcloud.com/guides/payment/console_payment_7.png)
 
-更多的数据和使用方式可以参考下[官网](http://tce.fsphere.cn/document/product/666)，这里就不详细贴图啦。
+更多的数据和使用方式可以参考下[官网](http://tcecqpoc.fsphere.cn/document/product/666)，这里就不详细贴图啦。
 
 
 

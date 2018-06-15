@@ -26,7 +26,7 @@
 | 参数   | 必选 | 类型   | 描述                                                                                     |
 |--------|------|--------|------------------------------------------------------------------------------------------|
 | ext    | 否   | string | 用户的 session 内容，腾讯 server 回包中会原样返回，可选字段，不需要就填空                    |
-| extend | 否   | string | 短信码号扩展号，格式为纯数字串，其他格式无效。默认没有开通，开通请联系 [云平台短信技术支持](http://tce.fsphere.cn/document/product/382/3773) |
+| extend | 否   | string | 短信码号扩展号，格式为纯数字串，其他格式无效。默认没有开通，开通请联系 [云平台短信技术支持](http://tcecqpoc.fsphere.cn/document/product/382/3773) |
 | msg    | 是   | string | 短信消息，utf8 编码，需要匹配审核通过的模板内容                                           |
 | sig    | 是   | string | App 凭证，具体计算方式见下注                                                              |
 | tel    | 是   | string | 国际电话号码，格式依据 [e.164](https://en.wikipedia.org/wiki/E.164) 标准为: `+[国家码][手机号]` ，示例如：`+8613711112222`， 其中前面有一个 `+` 符号 ，`86` 为国家码，`13711112222` 为手机号       |
@@ -67,11 +67,11 @@ string sig = sha256(appkey=5f03a35d00ee52a21327ab048186a2c4&random=7226249334&ti
 
 | 参数       | 必选 | 类型   | 描述                                          |
 |------------|------|--------|-----------------------------------------------|
-| result | 是   | number | 错误码，0 表示成功（计费依据），非 0 表示失败, 参考 [错误码](http://tce.fsphere.cn/document/product/382/3771)     |
+| result | 是   | number | 错误码，0 表示成功（计费依据），非 0 表示失败, 参考 [错误码](http://tcecqpoc.fsphere.cn/document/product/382/3771)     |
 | errmsg     | 是   | string | 错误消息，result 非 0 时的具体错误信息           |
 | ext        | 否   | string | 用户的 session 内容，腾讯 server 回包中会原样返回 |
 | nationcode | 是   | string | 国家码                                        |
-| fee    | 否   | number | 短信计费的条数，["fee" 字段计费说明](http://tce.fsphere.cn/document/product/382/9556#.E7.9F.AD.E4.BF.A1.E5.86.85.E5.AE.B9.E9.95.BF.E5.BA.A6.E8.AE.A1.E7.AE.97.E8.A7.84.E5.88.99)                                |
+| fee    | 否   | number | 短信计费的条数，["fee" 字段计费说明](http://tcecqpoc.fsphere.cn/document/product/382/9556#.E7.9F.AD.E4.BF.A1.E5.86.85.E5.AE.B9.E9.95.BF.E5.BA.A6.E8.AE.A1.E7.AE.97.E8.A7.84.E5.88.99)                                |
 | sid        | 否   | string | 本次发送标识 id，标识一次短信下发记录          |
 
 

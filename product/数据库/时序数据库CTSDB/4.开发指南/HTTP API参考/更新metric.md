@@ -6,7 +6,7 @@
 ### 3.请求参数 ###
 无
 ### 4.请求内容 ###
-字段tags、time、fields、options均为map类型的，选填，格式请参考API [新建metric](http://tce.fsphere.cn/document/product/652/13604)。具体要求如下：<br>
+字段tags、time、fields、options均为map类型的，选填，格式请参考API [新建metric](http://tcecqpoc.fsphere.cn/document/product/652/13604)。具体要求如下：<br>
 tags：允许新增维度字段和修改已存在的维度字段类型，不会删除原有字段<br>
 time：name不能修改，format允许修改<br>
 fields：允许新增指标字段和修改已存在的指标字段类型，不会删除原有字段<br>

@@ -12,7 +12,7 @@
 云平台上的网络分为私有网络和基础网络，其中：
 - 基础网络是云平台上所有用户的公共网络资源池（如左图所示）。所有[云服务器](https://www.qcloud.com/doc/product/213/495)的内网 IP 地址由云平台统一分配，配置简单，使用方便，适合对操作易用性要求比较高、需要快速使用云服务器的场景。
 - 私有网络是指用户在云平台上建立的一块逻辑隔离的网络空间（如右图所示）。在私有网络内，用户可以自由定义网段划分、IP地址和路由策略。与基础网络相比，私有网络更适合有网络自定义配置需求的场景。
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/f1c113751199560fb87bc002b4bf0207/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/f1c113751199560fb87bc002b4bf0207/image.png)
     　　　　　    　　　　　  图1： 基础网络和私有网络对比图
 						
 私有网络和基础网络的功能区别如下表所示：

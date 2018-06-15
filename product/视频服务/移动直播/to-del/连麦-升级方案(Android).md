@@ -2,16 +2,16 @@
 
 -----------------------------------------------------------------------------------------------------------------
 
-本文主要介绍腾讯视频云连麦升级方案的对接方法，连麦旧方案的对接方法可以参考这里[Android视频连麦（旧方案）](http://tce.fsphere.cn/document/product/454/8091)，如果您是首次使用视频连麦功能，强烈建议您直接使用连麦升级方案。
+本文主要介绍腾讯视频云连麦升级方案的对接方法，连麦旧方案的对接方法可以参考这里[Android视频连麦（旧方案）](http://tcecqpoc.fsphere.cn/document/product/454/8091)，如果您是首次使用视频连麦功能，强烈建议您直接使用连麦升级方案。
 
 ### 演示Demo
 在详细介绍连麦升级方案的对接攻略之前，先介绍一下2.0.3版本引入的连麦演示Demo，以便您可以快速地体验一下连麦的效果。
 
-![enter image description here](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/linkmic_demo_step.png)
+![enter image description here](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/linkmic_demo_step.png)
 
 假设用户A和用户B进行连麦，连麦演示Demo的使用方法是：
 
-1. 用户A、用户B分别生成自己的推流地址和拉流地址；需要特别注意的是，**拉流地址里必须包括防盗链key：即必须包含bizid、txSecret和txTime三个参数**，具体生成方式请参考本文后面[加速拉流链路URL](http://tce.fsphere.cn/document/product/454/8872#.E6.AD.A5.E9.AA.A4.E4.BA.8C.EF.BC.9A.E4.BA.92.E7.9B.B8.E6.8B.89.E6.B5.818)里的介绍；
+1. 用户A、用户B分别生成自己的推流地址和拉流地址；需要特别注意的是，**拉流地址里必须包括防盗链key：即必须包含bizid、txSecret和txTime三个参数**，具体生成方式请参考本文后面[加速拉流链路URL](http://tcecqpoc.fsphere.cn/document/product/454/8872#.E6.AD.A5.E9.AA.A4.E4.BA.8C.EF.BC.9A.E4.BA.92.E7.9B.B8.E6.8B.89.E6.B5.818)里的介绍；
 
 ```
 推流地址A: rtmp://3891.livepush.myqcloud.com/live/3891_streamA?bizid=3891&txSecret=9d6e1a1ec1dde00dab718e5684ad53a3&txTime=5919D07F
@@ -27,11 +27,11 @@
 3. 在连麦演示TAB界面，用户A、用户B分别点击右上角的+按钮，扫描**对方的拉流地址**，添加一路拉流；
 4. 经过步骤2和步骤3两步操作，用户A和用户B在推流的同时，互相拉取到了对方的视频流，也即在二者之间建立起了双向实时视频对话，具体效果如下图所示。
 
-![enter image description here](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/linkmic_demo_example.png)
+![enter image description here](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/linkmic_demo_example.png)
 
 【特别说明】
 - 步骤3中“扫描一个拉流地址，添加一路拉流”，必须保证拉流地址包含防盗链key；因为只有包含防盗链key，演示Demo才会使用本文后面介绍的加速拉流接口进行拉流播放，以降低视频时延，并做音频回声消除；
-- 连麦演示Demo只用于在大、小主播之间建立双向实时视频对话，没有做视频混流，其它第三方观众看到的还是大主播一个人的视频画面；您在实际对接过程中，需要按照本文后面介绍的[视频混流方法](http://tce.fsphere.cn/document/product/454/8872#.E6.AD.A5.E9.AA.A4.E4.B8.89.EF.BC.9A.E5.90.AF.E5.8A.A8.E6.B7.B7.E6.B5.8111)，对大、小主播做视频混流，才可以达到真正的连麦效果。
+- 连麦演示Demo只用于在大、小主播之间建立双向实时视频对话，没有做视频混流，其它第三方观众看到的还是大主播一个人的视频画面；您在实际对接过程中，需要按照本文后面介绍的[视频混流方法](http://tcecqpoc.fsphere.cn/document/product/454/8872#.E6.AD.A5.E9.AA.A4.E4.B8.89.EF.BC.9A.E5.90.AF.E5.8A.A8.E6.B7.B7.E6.B5.8111)，对大、小主播做视频混流，才可以达到真正的连麦效果。
 
 ### 对接攻略
 
@@ -56,7 +56,7 @@
 
 在升级方案里，大、小主播启动推流时，都**不需要在推流地址的后面添加连麦参数**（旧方案里，大主播需添加连麦参数mix=layer:b;session_id:xxxx;t_id:1，小主播需添加连麦参数mix=layer:s;session_id:xxxx;t_id:1，以便启动服务端视频混流）；升级方案通过调用后台CGI的方式启动视频混流，使用更加灵活；
 
-我们在文档[Android推流](http://tce.fsphere.cn/document/product/454/7885)中有详细介绍如何在主播端开启直播推流功能，您可以直接参考，如果您是第一次接触RTMP SDK，务必要先阅读一下基础推流功能的文档。
+我们在文档[Android推流](http://tcecqpoc.fsphere.cn/document/product/454/7885)中有详细介绍如何在主播端开启直播推流功能，您可以直接参考，如果您是第一次接触RTMP SDK，务必要先阅读一下基础推流功能的文档。
 
 需要注意的是连麦模式下推流有两点差异：一是需要开启回音消除，二是需要采用合理的调控策略来控制时延。对于这两点差异，其实您可以不用关心，我们强烈建议您使用SDK从1.9.2开始提供的视频质量设置接口 setVideoQuality ，视频质量有如下几个枚举值，每一个都对应了一组质量参数，比如视频分辨率、码率、帧率、是否开启回音消除等，这些参数是我们精心优化的，您可以放心使用。
 
@@ -144,7 +144,7 @@ mLivePusher.startPusher(pusherUrl);
 
 连麦模式下，大、小主播之间互相拉流，必须使用SDK提供的加速拉流接口；在介绍加速拉流接口的使用方法之前，先说明一下，需要互相拉流的三种场景：
 
-- 小主播在连麦之前，作为普通观众，通过普通拉流接口（文档[Android拉流](http://tce.fsphere.cn/document/product/454/7886)）观看大主播的视频；小主播加入连麦后，必须通过加速拉流接口观看大主播的视频；小主播退出连麦后，必须切换为普通拉流接口观看大主播的视频。
+- 小主播在连麦之前，作为普通观众，通过普通拉流接口（文档[Android拉流](http://tcecqpoc.fsphere.cn/document/product/454/7886)）观看大主播的视频；小主播加入连麦后，必须通过加速拉流接口观看大主播的视频；小主播退出连麦后，必须切换为普通拉流接口观看大主播的视频。
 - 大主播在连麦之前，不需要拉取视频流；连麦之后，需要通过加速拉流接口观看小主播的视频。
 - 如果有多个小主播（目前最多支持三个）同时和大主播连麦：那么大主播需要通过加速拉流接口，拉取每一个小主播的视频流；小主播除了要拉取大主播的视频流，还需要拉取其它所有小主播的视频流。
 
@@ -152,12 +152,12 @@ mLivePusher.startPusher(pusherUrl);
 
 #### 1. 生成加速拉流链路的 URL
 
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/RTMP加速拉流地址.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/RTMP加速拉流地址.png)
 
 这里需要注意的有两点：
 
 - URL 必须选用 rtmp 播放协议 ，flv 是没有办法做到秒级延迟的。
-- 播放地址必须要加防盗链签名，签名方法参考[ 推流防盗链的计算](http://tce.fsphere.cn/document/product/454/7915#.E9.98.B2.E7.9B.97.E9.93.BE.E7.9A.84.E8.AE.A1.E7.AE.97.EF.BC.9F)。因为几乎所有云平台的客户都配置了推流防盗链KEY，为了减少您的接入成本，可以直接使用推流防盗链KEY; 如果您接入云平台直播时设置了拉流防盗链KEY，那么请使用拉流防盗链KEY。
+- 播放地址必须要加防盗链签名，签名方法参考[ 推流防盗链的计算](http://tcecqpoc.fsphere.cn/document/product/454/7915#.E9.98.B2.E7.9B.97.E9.93.BE.E7.9A.84.E8.AE.A1.E7.AE.97.EF.BC.9F)。因为几乎所有云平台的客户都配置了推流防盗链KEY，为了减少您的接入成本，可以直接使用推流防盗链KEY; 如果您接入云平台直播时设置了拉流防盗链KEY，那么请使用拉流防盗链KEY。
 
 #### 2. 设置播放器参数
 

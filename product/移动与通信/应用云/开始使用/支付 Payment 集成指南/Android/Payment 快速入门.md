@@ -1,12 +1,12 @@
 ## 准备
 
 - 您首先需要一个 Android 工程，这个工程可以是您现有的工程，也可以是您新建的一个空的工程。
-- 其次您需要 [配置后台服务器](http://tce.fsphere.cn/document/product/666/14600)。
-- 最后您需要申请到相关支付渠道（[如何自行申请渠道](http://tce.fsphere.cn/document/product/666/14599)）。
+- 其次您需要 [配置后台服务器](http://tcecqpoc.fsphere.cn/document/product/666/14600)。
+- 最后您需要申请到相关支付渠道（[如何自行申请渠道](http://tcecqpoc.fsphere.cn/document/product/666/14599)）。
 
 ## 第一步：创建项目和应用（已完成请跳过）
 
-在使用我们的服务前，您必须先在 MobileLine 控制台上 [创建项目和应用](http://tce.fsphere.cn/document/product/666/15345)。
+在使用我们的服务前，您必须先在 MobileLine 控制台上 [创建项目和应用](http://tcecqpoc.fsphere.cn/document/product/666/15345)。
 
 ## 第二步：添加配置文件（已完成请跳过）
 

@@ -11,7 +11,7 @@
 - 选择地域。
 - 找到需要查看详情的实例，单击实例ID，进入实例详情页面。
 - 在实例详情页，点击【弹性网卡】-【修改主IP】。
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/8ed95250a179ea85b003df79178087a9.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/8ed95250a179ea85b003df79178087a9.png)
 - 在弹出来的修改主 IP 页面输入新的IP，然后点击【确定】，然后等待实例重启完毕即可生效。
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/a1828fa41fbed3efabd78636f435188a.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/a1828fa41fbed3efabd78636f435188a.png)
 >注意：只能填入属于当前子网CIDR的内网IP。

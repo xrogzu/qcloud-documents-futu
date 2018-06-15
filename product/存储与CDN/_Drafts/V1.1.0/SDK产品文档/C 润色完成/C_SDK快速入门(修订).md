@@ -2,7 +2,7 @@
 ### 相关资源
 对象存储的 XML C SDK 资源下载地址：
 - [GitHub 项目（to be updated）](https://github.com/tencentyun/cos-c-sdk-v5)
-- [本地下载（to be updated）](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/2549fea204187b28d05fb1ac470f49d4/cos-c-sdk-v5-master.zip)
+- [本地下载（to be updated）](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/2549fea204187b28d05fb1ac470f49d4/cos-c-sdk-v5-master.zip)
 
 演示示例 Demo 下载地址：
 - [XML C SDK Demo（to be updated）](https://github.com/tencentyun/cos-c-sdk-v5/cos_c_sdk_test/cos_demo.c)

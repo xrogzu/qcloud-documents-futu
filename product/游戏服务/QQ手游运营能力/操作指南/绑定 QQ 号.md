@@ -2,8 +2,8 @@
 
 ## QQ 登录
 使用 QQ 号登录云平台的用户，默认绑定登录的 QQ 号，可以更换绑定。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/87f99df1a124c009c9e4270abba89731/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/87f99df1a124c009c9e4270abba89731/image.png)
 
 ## 其它帐号登录
 使用其他帐号登录云平台的用户，输入需要绑定的 QQ 号。单击【发送验证码】按钮后，该QQ号的QQ邮箱会收到带有验证码的邮件。填写您收到的验证码，单击【确定】按钮进行身份验证。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/02b0f2a88f613c98979308047a08e159/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/02b0f2a88f613c98979308047a08e159/image.png)

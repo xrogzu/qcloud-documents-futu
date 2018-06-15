@@ -38,27 +38,27 @@
 
     在 Hue 页面中选择 Workflows -> Editors -> Workflows
 
-    ![创建工作流](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d370180a4d6886b335e199cf045dcab9/5-8-2-1.png)
+    ![创建工作流](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d370180a4d6886b335e199cf045dcab9/5-8-2-1.png)
 
     单击“create”
 
-    ![creat](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/51aab5e3987b1a627c9914667317bc89/5-8-2-2.png)
+    ![creat](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/51aab5e3987b1a627c9914667317bc89/5-8-2-2.png)
 
     进入当前 workflow 的 HDFS 空间
 
-    ![进入HDFS](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ad9c45d94cb125df03b434191b4ce806/5-8-2-3.png)
+    ![进入HDFS](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ad9c45d94cb125df03b434191b4ce806/5-8-2-3.png)
 
     上传 Hive script 文件和 hive-site.xml, 并在 lib 目录中加入 mySQL 的 jdbc jar 包
 
-     ![加入包](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/18dc191755cdb726c862942c3dc9c51e/5-8-2-4.png  )
+     ![加入包](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/18dc191755cdb726c862942c3dc9c51e/5-8-2-4.png  )
 
     在工作流编辑页面中拖一个 Hive
 
-    ![编辑页面](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/9eca15617a835b1f0828ef9501810dda/5-8-2-5.png)
+    ![编辑页面](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/9eca15617a835b1f0828ef9501810dda/5-8-2-5.png)
 
     选择刚刚上传的 Hive scipt 文件和 hive-site.xml 文件
 
-    ![选择文件](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8aba3d74764e60f739dcb0caf15ad1ac/5-8-2-6.png)
+    ![选择文件](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/8aba3d74764e60f739dcb0caf15ad1ac/5-8-2-6.png)
 
     保存当前 workflow
 
@@ -66,24 +66,24 @@
 
     Hue 的定时任务是 coordinator, 类似于 linux 的 crontab，支持的调度粒度可以到分钟级别, 选择 Workflows -> Editors -> Coordinator -> Create，创建 coordinator
 
-    ![创建定时](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e0e18b6ee297fc42a30b741371a47098/5-8-2-7.png)
+    ![创建定时](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/e0e18b6ee297fc42a30b741371a47098/5-8-2-7.png)
 
     单击 "choose a workflow...", 选择一个创建好的流程
 
-    ![选择流程](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7636daf7c05d7691291a93406e851783/5-8-2-8.png)
+    ![选择流程](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/7636daf7c05d7691291a93406e851783/5-8-2-8.png)
 
     选择需要调度的粒度和时间间隔，可以多选，用于支持多个时间间隔
 
-    ![选择粒度](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e8d8649600f3b22be693dbb8fa80d603/5-8-2-9.png)
+    ![选择粒度](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/e8d8649600f3b22be693dbb8fa80d603/5-8-2-9.png)
 
 4. 执行定时任务
 
     选择 coordinator 的执行时间区间，然后单击"submiT"
 
-    ![执行定时](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a145f4c79bac4a69797fb669bde921cf/5-8-2-10.png)
+    ![执行定时](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a145f4c79bac4a69797fb669bde921cf/5-8-2-10.png)
 
     在 coordinator 的监控页面可以看到 coordinator 的调度情况    
 
-    ![监控](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1f0f8cbc0164c31c6ac9a7b4e069ecdf/5-8-2-11.png)
+    ![监控](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1f0f8cbc0164c31c6ac9a7b4e069ecdf/5-8-2-11.png)
 
 除此以外 Hue 还支持管理 HDFS 上的数据、Hbase 数据管理，Yarn 任务管理等，更多资料请参考 [这里](http://gethue.com/blog/)

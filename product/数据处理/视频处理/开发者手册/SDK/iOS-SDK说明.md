@@ -8,14 +8,14 @@
 微视频 iOS SDK其中包括上传SDK和下载SDK，上传SDK压缩包QCloudUploadSDK.zip,下载SDK压缩包QCloudDownloadSDK.zip.
 上传和下载SDK压缩包中分别包含了一个.a 静态库和一个包含头文件的文件夹Headers，解压后的内容如下：<br>
 上传SDK：<br>
-<img src="http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-1.jpg" alt="ios-sdk-1.jpg"><br>
+<img src="http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-1.jpg" alt="ios-sdk-1.jpg"><br>
 下载SDK：<br>
-<img src="http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-2.jpg" alt="ios-sdk-2.jpg"><br>
+<img src="http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-2.jpg" alt="ios-sdk-2.jpg"><br>
 将解压后的QCloudUPloadSDK和QCloudDownloadSDK拖入工程目录，Xcode会自将其加入链接库列表中。<br>
 注：如果只需要上传或下载功能，则只拖入对应的SDK即可。<br>
-<img src="http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-3.jpg" alt="ios-sdk-3.jpg"><br>
+<img src="http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-3.jpg" alt="ios-sdk-3.jpg"><br>
 在build Settings 中设置Other Linker Flags，加入参数--ObjC<br>
-<img src="http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-4.jpg" alt="ios-sdk-4.jpg"><br>
+<img src="http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-4.jpg" alt="ios-sdk-4.jpg"><br>
 在build Phases-&gt;Link Binary With Libraries中加入以下几个依赖库<br>
 1) SystemConfiguration.framework<br>
 2) CoreTelephony.framework<br>
@@ -23,7 +23,7 @@
 4) libxml2.dylib<br>
 5) libz.dylib<br>
 6) libstdc++.6.dylib<br>
-<img src="http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-5.jpg" alt="ios-sdk-5.jpg"><br>
+<img src="http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/ios-sdk-5.jpg" alt="ios-sdk-5.jpg"><br>
 注：如果只需要上传或下载功能，则只需要引入对应的动态库：<br>
 上传SDK依赖的系统动态库有：<br>
 1) SystemConfiguration.framework<br>

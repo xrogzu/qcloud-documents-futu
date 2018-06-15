@@ -9,7 +9,7 @@
 ## 第一步：创建项目和应用
 
 
-在使用我们的服务前，您必须先在 MobileLine 控制台上 [创建项目和应用](http://tce.fsphere.cn/document/product/666/15345)。
+在使用我们的服务前，您必须先在 MobileLine 控制台上 [创建项目和应用](http://tcecqpoc.fsphere.cn/document/product/666/15345)。
 
 > 如果您已经在 MobileLine 控制台上创建过了项目和应用，请跳过此步。
 
@@ -25,7 +25,7 @@
 解压后将 tac_services_configurations.plist 文件集成进项目中。其中有一个  tac_services_configurations_unpackage.plist 文件，请将该文件放到您工程的根目录下面(**切记不要将改文件添加进工程中**)。 添加好配置文件后，继续点击【下一步】。
 
 
-![](http://imgcache.tce.fsphere.cn/image/ws1.sinaimg.cn/large/006tNc79gy1forbnw3ijyj31bi11wnch.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/ws1.sinaimg.cn/large/006tNc79gy1forbnw3ijyj31bi11wnch.jpg)
 
 > 切记**不要**将文件 `tac_service_configurations_unpackage.plist` 添加进工程，文件中包含了不可泄露的机密信息，请不要打包到 apk 文件中，MobileLine SDK 也会对此进行检查，防止由于您误打包造成的机密信息泄露。
 
@@ -66,7 +66,7 @@ pod 'TACStorage'
 1. 在构建之前运行的脚本，该类型的脚本会修改一些程序的配置信息，比如在 Info.plist 里面增加 qqwallet 的 scheme 回调。
 2. 在构建之后运行的脚本，该类型的脚本在执行结束后做一些动作，比如 Crash 符号表上报。
 
-![](http://imgcache.tce.fsphere.cn/image/ws1.sinaimg.cn/large/006tNc79ly1fnttw83xayj317i0ro44j.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/ws1.sinaimg.cn/large/006tNc79ly1fnttw83xayj317i0ro44j.jpg)
 
 请按照以下步骤来添加脚本：
 
@@ -173,7 +173,7 @@ Swift 代码示例：
 ### 配置 TACStorage 的使用权限。
 
 
-请先参考[快速搭建移动应用传输服务](http://tce.fsphere.cn/document/product/436/9068) 搭建用于构建临时密钥的服务器。
+请先参考[快速搭建移动应用传输服务](http://tcecqpoc.fsphere.cn/document/product/436/9068) 搭建用于构建临时密钥的服务器。
 
 TACStorage 后台为云平台 COS 服务，在使用 COS 服务的时候需要对请求进行权限校验，来确保对应的请求是否有权限访问对应的资源。因而您需要在您的代码中实现 `QCloudCredentailFenceQueueDelegate` 协议来提供相关的权限信息。
 
@@ -195,7 +195,7 @@ TACStorage 后台为云平台 COS 服务，在使用 COS 服务的时候需要�
     continueBlock(creator, nil);
 #else
 
-    //您需要配置自己的服务器，来获取CAM临时密钥。并通过临时密钥来创建权限Creator。具体可以参考：[快速搭建移动应用传输服务](http://tce.fsphere.cn/document/product/436/9068)
+    //您需要配置自己的服务器，来获取CAM临时密钥。并通过临时密钥来创建权限Creator。具体可以参考：[快速搭建移动应用传输服务](http://tcecqpoc.fsphere.cn/document/product/436/9068)
     void(^NetworkCall)(id response, NSError* error) = ^(id response, NSError* error) {
         if (error) {
             continueBlock(nil, error);
@@ -235,9 +235,9 @@ TACStorage 后台为云平台 COS 服务，在使用 COS 服务的时候需要�
 
 ### 向您的应用添加 MobileLine 功能：
 
-- 借助 [Analytics](http://tce.fsphere.cn/document/product/666/14822) 深入分析用户行为。
-- 借助 [messaging](http://tce.fsphere.cn/document/product/666/14826) 向用户发送通知。
-- 借助 [crash](http://tce.fsphere.cn/document/product/666/14824) 确定应用崩溃的时间和原因。
-- 借助 [storage](http://tce.fsphere.cn/document/product/666/14828) 存储和访问用户生成的内容（如照片或视频）。
-- 借助 [authorization](http://tce.fsphere.cn/document/product/666/14830) 来进行用户身份验证。
-- 借助 [payment](http://tce.fsphere.cn/document/product/666/14832) 获取微信和手 Q 支付能力
+- 借助 [Analytics](http://tcecqpoc.fsphere.cn/document/product/666/14822) 深入分析用户行为。
+- 借助 [messaging](http://tcecqpoc.fsphere.cn/document/product/666/14826) 向用户发送通知。
+- 借助 [crash](http://tcecqpoc.fsphere.cn/document/product/666/14824) 确定应用崩溃的时间和原因。
+- 借助 [storage](http://tcecqpoc.fsphere.cn/document/product/666/14828) 存储和访问用户生成的内容（如照片或视频）。
+- 借助 [authorization](http://tcecqpoc.fsphere.cn/document/product/666/14830) 来进行用户身份验证。
+- 借助 [payment](http://tcecqpoc.fsphere.cn/document/product/666/14832) 获取微信和手 Q 支付能力

@@ -14,7 +14,7 @@
 [从 Github 访问 >>](https://github.com/QcloudApi/qcloudapi-sdk-php)
 
 2.直接下载
-[点击下载 PHP SDK >>](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/cd1857b4d9a9aeb0179e72a59f235c41/qcloudapi-sdk-php-master.zip)
+[点击下载 PHP SDK >>](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/cd1857b4d9a9aeb0179e72a59f235c41/qcloudapi-sdk-php-master.zip)
 
 3.composer
 在composer.json的require结构体中加入一行："tencentyun-api/qcloudapi-sdk-php": "dev-master"
@@ -24,7 +24,7 @@
 ## 示例
 
 ### 公共说明
-见不同模块API的公共参数、API概览、错误码。如[云服务器API公共参数](http://tce.fsphere.cn/document/api/213/6976)、[云服务器API概览](http://tce.fsphere.cn/doc/api/229/API%E6%A6%82%E8%A7%88)、[云服务器API错误码](http://tce.fsphere.cn/doc/api/229/%E9%94%99%E8%AF%AF%E7%A0%81)。
+见不同模块API的公共参数、API概览、错误码。如[云服务器API公共参数](http://tcecqpoc.fsphere.cn/document/api/213/6976)、[云服务器API概览](http://tcecqpoc.fsphere.cn/doc/api/229/API%E6%A6%82%E8%A7%88)、[云服务器API错误码](http://tcecqpoc.fsphere.cn/doc/api/229/%E9%94%99%E8%AF%AF%E7%A0%81)。
 
 
 

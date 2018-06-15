@@ -49,7 +49,7 @@ https://csec.api.qcloud.com/v2/index.php?Action=CaptchaIframeQuery
 &uid=15013465759
 &userIp=8.8.8.8
 &xForwardedFor=121.14.96.121
-&<a href="http://tce.fsphere.cn/doc/api/229/6976">公共请求参数</a>
+&<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>
 </pre>
 
 输出

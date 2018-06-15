@@ -1,9 +1,9 @@
 # 快速入门DDoS高防包 #
 云平台宙斯盾 DDoS 高防包防护流程图如下：
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/26e2bab63e6df5395036522b50b3cfd4.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/26e2bab63e6df5395036522b50b3cfd4.png)
 ## 一、准备与选型 
 1. 注册云平台账号
-新用户需在 [云平台官网](http://tce.fsphere.cn/) 进行【注册】然后购买宙斯盾安全防护服务，详情可参见 [注册云平台](http://tce.fsphere.cn/document/product/378/9603) 操作指引和宙斯盾安全防护 [购买指导]()。
+新用户需在 [云平台官网](http://tcecqpoc.fsphere.cn/) 进行【注册】然后购买宙斯盾安全防护服务，详情可参见 [注册云平台](http://tcecqpoc.fsphere.cn/document/product/378/9603) 操作指引和宙斯盾安全防护 [购买指导]()。
 2. 确定高防包区域
  - 区域选择原则
 DDoS 高防包只能为同区域的云平台公网 IP 提供高防服务，请务必选择与您云平台源站服务器同区域的高防包。
@@ -19,11 +19,11 @@ DDoS 高防包只能为同区域的云平台公网 IP 提供高防服务，请�
 DDoS 高防包购买完成后，在 DDoS 高防包管理页面列表中即可以看到分配的高防包资源。高防包可以直接对云平台公网 IP 地址提升 DDoS 防护能力.
 本部分介绍添加 IP 的配置方法。
 1. 在宙斯盾安全防护产品控制台，在左侧目录中选择【DDoS 高防包】 即可以进入 DDoS 高防包管理页；
- ![](http://imgcache.tce.fsphere.cn/image/i.imgur.com/EyS5666.jpg)
+ ![](http://imgcache.tcecqpoc.fsphere.cn/image/i.imgur.com/EyS5666.jpg)
 2. 在高防包列表中，单击【绑定 IP 数】列的 IP 数量，即可接入防护 IP 列表；
- ![](http://imgcache.tce.fsphere.cn/image/i.imgur.com/SWyyKSx.jpg)
+ ![](http://imgcache.tcecqpoc.fsphere.cn/image/i.imgur.com/SWyyKSx.jpg)
 3. 在防护 IP 列表下，单击【添加 IP】，并选取需要添加到高防包中防护的 IP 地址；
- ![](http://imgcache.tce.fsphere.cn/image/i.imgur.com/nPTbOqg.jpg)
- ![](http://imgcache.tce.fsphere.cn/image/i.imgur.com/itOyZcR.jpg)
+ ![](http://imgcache.tcecqpoc.fsphere.cn/image/i.imgur.com/nPTbOqg.jpg)
+ ![](http://imgcache.tcecqpoc.fsphere.cn/image/i.imgur.com/itOyZcR.jpg)
 4. 完成添加后，该 IP 地址即可以得到宙斯盾安全防护系统的保护了。
-![](http://imgcache.tce.fsphere.cn/image/i.imgur.com/7wzmM0D.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/i.imgur.com/7wzmM0D.jpg)

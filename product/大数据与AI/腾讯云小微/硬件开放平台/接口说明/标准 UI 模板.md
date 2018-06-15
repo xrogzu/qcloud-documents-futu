@@ -166,7 +166,7 @@ class WeatherItem {
 
 #### 闹钟
 
-参照 [Skill 对接](http://tce.fsphere.cn/document/product/645/13451)。
+参照 [Skill 对接](http://tcecqpoc.fsphere.cn/document/product/645/13451)。
 
 #### 纯文本
 
@@ -259,8 +259,8 @@ TXAIAudioMsgInfo[] listMsgInfo = TXAIAudioSDK.getInstance().getMsgInfo(listMsgID
 
 #### QQ 电话
 
-具体参照 [音视频通话接入指引](http://tce.fsphere.cn/document/product/645/14233)。
+具体参照 [音视频通话接入指引](http://tcecqpoc.fsphere.cn/document/product/645/14233)。
 
 #### 音乐资源接口获取
 
-具体参照 [音乐资源可视化](http://tce.fsphere.cn/document/product/645/14246)。
+具体参照 [音乐资源可视化](http://tcecqpoc.fsphere.cn/document/product/645/14246)。

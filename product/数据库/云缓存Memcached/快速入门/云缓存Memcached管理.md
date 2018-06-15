@@ -16,7 +16,7 @@
 
 在管理中心的云缓存Memcached管理视图页面，在需要清空的的表后点击“清空”按钮，确认清空后，后台开始清空操作。清空完成后，页面会提示清空成功。
 
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NoSQLClearTable.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NoSQLClearTable.jpg)
 
 ## 4 表退还
 注意：
@@ -24,11 +24,11 @@
 
 进入管理中心的云缓存Memcached管理视图页面，勾选需要退还的表，然后点击“退还选中表”按钮，点击“提交退还”按钮后，后台开始清理表数据并删除表。
 
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NoSQLDeleteTable.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NoSQLDeleteTable.jpg)
 
 ## 5 开启expire过期删除
 1、要使用expire功能，首先需要在云平台管理控制台打开对应CMEM实例的expire开关
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/5fe836860fcf211c0984d84946735d0e/cmem.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/5fe836860fcf211c0984d84946735d0e/cmem.png)
 2、开启expire功能后，需要在代码里设置key的有效期，具体请参考各语言memcached设置方法。
 3、注意，开启expire功能前设置的key是不会自动过期的。
 
@@ -45,4 +45,4 @@
 请提交工单联系我们。
 
 ## 9 连接诊断
-详见： [云缓存Memcached连接诊断](http://tce.fsphere.cn/doc/product/241/3247)
+详见： [云缓存Memcached连接诊断](http://tcecqpoc.fsphere.cn/doc/product/241/3247)

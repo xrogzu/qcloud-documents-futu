@@ -1,5 +1,5 @@
 ## 前期准备
->下载 云平台•优图人脸识别 [Android SDK](http://imgcache.tce.fsphere.cn/image/imgcache.qq.com/qcloud/tianyan/QCloudFR_ANDROID_SDK1.0.zip)。
+>下载 云平台•优图人脸识别 [Android SDK](http://imgcache.tcecqpoc.fsphere.cn/image/imgcache.qq.com/qcloud/tianyan/QCloudFR_ANDROID_SDK1.0.zip)。
 >	SDK支持Android 2.2及以上版本的手机系统；
 	手机必须要有网络（GPRS、3G或Wifi网络等）；
 	在[云平台密钥管理页面](http://console.tce.fsphere.cn/capi/project)，为你的项目申请安全密钥
@@ -38,7 +38,7 @@ SDK需要网络访问和读取SD卡存储空间的权限，配置如下：
 ```
 
 ## 初始化
->申请安全密钥，并请求你的业务服务器生成签名，详见[鉴权签名文档](http://imgcache.tce.fsphere.cn/image/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf)
+>申请安全密钥，并请求你的业务服务器生成签名，详见[鉴权签名文档](http://imgcache.tcecqpoc.fsphere.cn/image/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf)
 导入优图人脸识别的SDK相关jar包后，通过以下方法对优图sdk进行初始化：
 ```
 QcloudFrSDK sdk = new QcloudFrSDK (APP_ID, AUTHORIZATION);

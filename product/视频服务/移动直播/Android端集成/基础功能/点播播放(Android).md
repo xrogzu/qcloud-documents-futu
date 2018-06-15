@@ -8,7 +8,7 @@
 
 - **协议的支持**
  通常使用的点播协议如下，现在比较流行的是HLS(以“http”打头，以“.m3u8”结尾)的点播地址：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/4b42a00bb7ce2f58f362f35397734177/image.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/4b42a00bb7ce2f58f362f35397734177/image.jpg)
 
 ## 特别说明
 视频云 SDK  <font color='red'>**不会对**</font> 播放地址的来源做限制，即您可以用它来播放云平台或非云平台的播放地址。但视频云 SDK 中的播放器只支持 FLV 、RTMP 和 HLS（m3u8）三种格式的直播地址，以及 MP4、 HLS（m3u8）和 FLV 三种格式的点播地址。
@@ -54,7 +54,7 @@ mVodPlayer.startPlay(authBuilder);
 ```
 在[点播视频管理](http://console.tce.fsphere.cn/video/videolist) 找到对应的文件。点开后在右侧视频详情中，可以看到appId和fileId。
 
-![视频管理](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/fcad44c3392b229f3a53d5f8b2c52961/image.png)
+![视频管理](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/fcad44c3392b229f3a53d5f8b2c52961/image.png)
 
 通过fileId方式播放，播放器会向后台请求真实的播放地址。如果此时网络异常或fileId不存在，则会收到`TXLiveConstants.PLAY_ERR_GET_PLAYINFO_FAIL`事件，反之收到`TXLiveConstants.PLAY_EVT_GET_PLAYINFO_SUCC`表示请求成功。
 
@@ -77,7 +77,7 @@ mVodPlayer.startPlay(authBuilder);
 | RENDER_ROTATION_PORTRAIT | 正常播放（Home键在画面正下方） | 
 | RENDER_ROTATION_LANDSCAPE | 画面顺时针旋转270度（Home键在画面正左方） | 
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ef948faaf1d62e8ae69e3fe94ab433dc/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ef948faaf1d62e8ae69e3fe94ab433dc/image.png)
 
 
 ### step 5: 播放控制
@@ -110,7 +110,7 @@ stopPlay 的布尔型参数含义为—— “是否清除最后一帧画面”�
 ### step 7: 屏幕截图
 通过调用 **snapshot** 您可以截取当前视频为一帧画面，此功能只会截取当前直播流的视频画面，如果您需要截取当前的整个 UI 界面，请调用 Android 的系统 API 来实现。
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f63830d29c16ce90d8bdc7440623b0be/image.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/f63830d29c16ce90d8bdc7440623b0be/image.jpg)
 
 ```java
 mVodPlayer.snapshot(new ITXSnapshotListener() {
@@ -126,7 +126,7 @@ mVodPlayer.snapshot(new ITXSnapshotListener() {
 ### step 8: 变速播放
 点播播放器支持变速播放，通过接口`setRate`设置点播播放速率来完成，支持快速与慢速播放，如0.5X、1.0X、1.2X、2X等。
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8666305d62167cfb7c1e670d14fbd689/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/8666305d62167cfb7c1e670d14fbd689/image.png)
 
  ```java
 //如下代码用于展示点播倍速播放
@@ -168,7 +168,7 @@ mVodPlayer.startPlay(playUrl);                         
 
 这就是视频播放中无缝切换的背后技术支撑，您可以使用 TXVodPlayer 中的 setAutoPlay 开关来实现这个功能，具体做法如下：
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7331417ebbdfe6306fe96f4b76c8d0ad/image.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/7331417ebbdfe6306fe96f4b76c8d0ad/image.jpg)
 
 ```java
 // 播放视频A: 如果将 autoPlay 设置为 true， 那么 startPlay 调用会立刻开始视频的加载和播放
@@ -198,9 +198,9 @@ public void onPlayEvent(TXVodPlayer player, int event, Bundle param) {
 autoPlay 还可以用来做贴片广告功能，由于设置了 autoPlay 为 false 之后，播放器会立刻加载但又不会立刻播放，因此可以在此时展示贴片广告，等广告播放结束，在使用 resume 函数立即开始视频的播放。
 
 ### step 12: 加密播放
-视频加密方案主要用于在线教育等需要对视频版权进行保护的场景。如果要对您的视频资源进行加密保护，就不仅仅需要在播放器上做改造，还需要对视频源本身进行加密转码，亦需要您的后台和终端研发工程师都参与其中。在 [视频加密解决方案](http://tce.fsphere.cn/document/product/266/9638) 中您会了解到全部细节内容。
+视频加密方案主要用于在线教育等需要对视频版权进行保护的场景。如果要对您的视频资源进行加密保护，就不仅仅需要在播放器上做改造，还需要对视频源本身进行加密转码，亦需要您的后台和终端研发工程师都参与其中。在 [视频加密解决方案](http://tcecqpoc.fsphere.cn/document/product/266/9638) 中您会了解到全部细节内容。
 
-目前 TXVodPlayer 也是支持加密播放的，您可以使用通过 [URL](http://tce.fsphere.cn/document/product/266/9638#.E8.A7.86.E9.A2.91.E6.92.AD.E6.94.BE.E6.96.B9.E6.A1.881.EF.BC.9A.E9.80.9A.E8.BF.87querystring.E4.BC.A0.E9.80.92.E8.BA.AB.E4.BB.BD.E8.AE.A4.E8.AF.81.E4.BF.A1.E6.81.AF) 携带身份认证信息的方案，该种方案下 SDK 的调用方式跟普通情况没有什么区别。 您也可以使用 [Cookie](http://tce.fsphere.cn/document/product/266/9638#.E8.A7.86.E9.A2.91.E6.92.AD.E6.94.BE.E6.96.B9.E6.A1.882.EF.BC.9A.E9.80.9A.E8.BF.87cookie.E4.BC.A0.E9.80.92.E8.BA.AB.E4.BB.BD.E8.AE.A4.E8.AF.81.E4.BF.A1.E6.81.AF) 携带身份认证信息的方案，该种方案下，需要您通过 TXVodPlayConfig 中的 headers 字段设置 cookie 信息于 http 请求头中。
+目前 TXVodPlayer 也是支持加密播放的，您可以使用通过 [URL](http://tcecqpoc.fsphere.cn/document/product/266/9638#.E8.A7.86.E9.A2.91.E6.92.AD.E6.94.BE.E6.96.B9.E6.A1.881.EF.BC.9A.E9.80.9A.E8.BF.87querystring.E4.BC.A0.E9.80.92.E8.BA.AB.E4.BB.BD.E8.AE.A4.E8.AF.81.E4.BF.A1.E6.81.AF) 携带身份认证信息的方案，该种方案下 SDK 的调用方式跟普通情况没有什么区别。 您也可以使用 [Cookie](http://tcecqpoc.fsphere.cn/document/product/266/9638#.E8.A7.86.E9.A2.91.E6.92.AD.E6.94.BE.E6.96.B9.E6.A1.882.EF.BC.9A.E9.80.9A.E8.BF.87cookie.E4.BC.A0.E9.80.92.E8.BA.AB.E4.BB.BD.E8.AE.A4.E8.AF.81.E4.BF.A1.E6.81.AF) 携带身份认证信息的方案，该种方案下，需要您通过 TXVodPlayConfig 中的 headers 字段设置 cookie 信息于 http 请求头中。
 
 ### step 13: HTTP-REF
 TXVodPlayConfig 中的 headers 可以用来设置 http 请求头，比如常用的防止 URL 被到处拷贝的 Referer 字段（云平台可以提供更加安全的签名防盗链方案），以及用于验证客户端身份信息的 Cookie 字段。
@@ -231,7 +231,7 @@ ArrayList<TXBitrateItem> bitrates = mVodPlayer.getSupportedBitrates(); //获取�
 
 您可以为 TXVodPlayer 对象绑定一个 **TXVodPlayerListener** 监听器，进度通知会通过 **PLAY_EVT_PLAY_PROGRESS** 事件回调到您的应用程序，该事件的附加信息中即包含上述两个进度指标。
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6ac5e2fe87e642e6c2e6342d72464f4a/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/6ac5e2fe87e642e6c2e6342d72464f4a/image.png)
 
 ```java
 public void onPlayEvent(int event, Bundle param) {

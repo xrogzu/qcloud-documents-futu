@@ -250,4 +250,4 @@ exit 0
 在 /usr/local/cuda/samples/1_Utilities/deviceQuery 目录下，执行 make 命令，可以编译出 deviceQuery 程序。<br/>
 执行 deviceQuery 正常显示如下设备信息，此刻认为 CUDA 安装正确。
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d545951dc869591d83bf23e27831287a/image.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d545951dc869591d83bf23e27831287a/image.jpg)

@@ -19,7 +19,7 @@ GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=DeleteBmSslVpnGw
 
 | 参数名称 | 必选  | 类型 | 描述 |
 |---------|---------|---------|---------|
-| unVpcId | 否 | string | 私有网络ID。 例如：vpc-kd7d06of，可通过<a href="http://tce.fsphere.cn/document/api/386/6646" title="DescribeBmVpcEx">DescribeBmVpcEx</a>接口查询。|
+| unVpcId | 否 | string | 私有网络ID。 例如：vpc-kd7d06of，可通过<a href="http://tcecqpoc.fsphere.cn/document/api/386/6646" title="DescribeBmVpcEx">DescribeBmVpcEx</a>接口查询。|
 | vpnGwId | 否 | string | 查询指定的sslvpn网关唯一ID。 |
 
 
@@ -40,7 +40,7 @@ GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=DeleteBmSslVpnGw
 | message | string | 错误信息|
 
 ## 错误码
-以下错误码表仅列出了该接口的业务逻辑错误码，更多公共错误码详见<a href="http://tce.fsphere.cn/doc/api/245/4924" title="VPC错误码">VPC错误码</a>。
+以下错误码表仅列出了该接口的业务逻辑错误码，更多公共错误码详见<a href="http://tcecqpoc.fsphere.cn/doc/api/245/4924" title="VPC错误码">VPC错误码</a>。
  
 | 错误代码 | 英文提示 | 错误描述 |
 |---------|---------|---------|

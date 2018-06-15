@@ -2,4 +2,4 @@
 1）当后端对接 SCF 时，需要配置您在 SCF 上创建的函数。
 
 2）配置超时时间，单击【完成】。
-![SCF](http://imgcache.tce.fsphere.cn/image/i.imgur.com/9eWsTv5.png)
+![SCF](http://imgcache.tcecqpoc.fsphere.cn/image/i.imgur.com/9eWsTv5.png)

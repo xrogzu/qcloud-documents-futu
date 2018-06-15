@@ -7,4 +7,4 @@
 
 对于 regionserver 节点死机后 zookeeper 节点会感知到立刻通知 master 进行 RS死机处理把宕机节点的 region 重新指派给新的 regionserver 进行托管，数据安全性是由 HDFS 来保证真的，同时用户也可以根据自己的需要来设定数据的安全程度，建议 HDFS 数据备份数为 3
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/979187777e8588f01c48d6792c439484/hbase_ha.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/979187777e8588f01c48d6792c439484/hbase_ha.png)

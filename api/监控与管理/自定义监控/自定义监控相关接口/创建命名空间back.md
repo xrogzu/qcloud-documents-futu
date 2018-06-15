@@ -54,7 +54,7 @@
 <pre>
   https://monitor.api.qcloud.com/v2/index.php?Action=CreateNamespace
 	&namespace=name1
-	&<a href="http://tce.fsphere.cn/doc/api/229/6976">公共请求参数</a>
+	&<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>
 </pre>
 
 输出

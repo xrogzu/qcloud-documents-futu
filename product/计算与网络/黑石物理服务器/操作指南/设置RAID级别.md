@@ -19,13 +19,13 @@ RAID的中文名称叫：独立硬盘冗余阵列（RAID, Redundant Array of Ind
 下面，将以购买一台PS100服务器为场景，介绍如何设置RAID。
 
 ### 选购带RAID卡的服务器
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/dd57a46f906360a82803191f3df53030/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/dd57a46f906360a82803191f3df53030/image.png)
 *请注意购买页中的服务器选购列表，RAID字段明确说明了这款服务器是否带RAID卡*
 
 在这步我们选择PS100型号的服务器。
 
 ### 设置RAID级别
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6008262c2f3ed43d8d44f11cd3f24e41/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/6008262c2f3ed43d8d44f11cd3f24e41/image.png)
 请在界面中选择不同的RAID级别。
 
 ### 常用的RAID级别
@@ -66,7 +66,7 @@ RAID的中文名称叫：独立硬盘冗余阵列（RAID, Redundant Array of Ind
 
 
 ## 重装时选择RAID级别
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/0f493a30a26797694ce4e80ce1cb126f/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/0f493a30a26797694ce4e80ce1cb126f/image.png)
 重装时，仍然可以选择RAID级别。
 
 *请注意，重建RAID时会<font color='red'>格式化磁盘</font> 请提前做好数据备份。*

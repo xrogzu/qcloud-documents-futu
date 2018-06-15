@@ -1,4 +1,4 @@
-本章节提供视频直播/点播DEMO下载，直播和点播为同一份DEMO和SDK，接口使用方式基本相同。直播DEMO使用方式请参考[快速体验](http://tce.fsphere.cn/doc/product/267/快速体验)章节。
+本章节提供视频直播/点播DEMO下载，直播和点播为同一份DEMO和SDK，接口使用方式基本相同。直播DEMO使用方式请参考[快速体验](http://tcecqpoc.fsphere.cn/doc/product/267/快速体验)章节。
 ## 下载地址
 
 **注：以下为直播/点播 SDK DEMO的下载地址，欢迎安装体验。**
@@ -16,8 +16,8 @@
 
 | 系统 | 版本 | 下载地址 | 
 |---------|---------|---------|---------|
-| iOS | 1.4.2.180 |  ![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/96240acaa7936727d75609a983262a27/image.png)|
-| Android|1.5.1.301 | [下载](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/archive/5afff09d6b40a48db78243c24c5ca651/rtmpdemo-1.5.1.301.apk.zip)|
+| iOS | 1.4.2.180 |  ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/96240acaa7936727d75609a983262a27/image.png)|
+| Android|1.5.1.301 | [下载](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/archive/5afff09d6b40a48db78243c24c5ca651/rtmpdemo-1.5.1.301.apk.zip)|
 
 ## 变更历史
 1.5.1

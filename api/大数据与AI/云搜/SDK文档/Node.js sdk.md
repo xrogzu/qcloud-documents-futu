@@ -44,4 +44,4 @@ var qs = capi.generateQueryString({
 })
  ```
 ### API 资源
- [API 列表](http://tce.fsphere.cn/doc/api)
+ [API 列表](http://tcecqpoc.fsphere.cn/doc/api)

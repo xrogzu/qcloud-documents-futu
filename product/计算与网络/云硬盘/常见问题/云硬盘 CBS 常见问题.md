@@ -29,7 +29,7 @@
 
 问：能否将多块硬盘逻辑上合并成一块硬盘以获得更好性能？
 
-可以。您可以将挂载到 CVM 实例的多块云硬盘一起条带化，以实现超越单硬盘的更高的性能。详细内容请参考[多块弹性云盘构建LVM逻辑卷](http://tce.fsphere.cn/document/product/362/2933)。
+可以。您可以将挂载到 CVM 实例的多块云硬盘一起条带化，以实现超越单硬盘的更高的性能。详细内容请参考[多块弹性云盘构建LVM逻辑卷](http://tcecqpoc.fsphere.cn/document/product/362/2933)。
 
 问：随云主机一起购买的数据盘可以卸载吗？
 自2017年11月后，随主机一起购买的数据盘支持卸载和重新挂载。为避免卸载后重新挂载至另一台到期时间不同的云主机上导致生命周期管理困难，我们在挂载时提供了对齐到期时间、设置自动续费等多种选项，请您注意选择合适的生命周期管理方式，避免因硬盘到期导致的数据丢失问题。
@@ -52,10 +52,10 @@
 问：在同一台子机上挂载了几块相同大小、相同类型的云硬盘，在操作系统中如何区分它们？
 
 对于Linux操作系统，您可以通过执行`ls -l /dev/disk/by-id `命令查看到弹性云盘与设备名之间的对应关系：
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/56e625dd23adfb78829d34a7e86e9291/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/56e625dd23adfb78829d34a7e86e9291/image.png)
 
 对于Windows操作系统，您可以通过执行`wmic diskdrive get caption,deviceid,serialnumber`或者`wmic path win32_physicalmedia get SerialNumber,Tag`命令查看：
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/205b1060c7bc7446becddee81971c506/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/205b1060c7bc7446becddee81971c506/image.png)
 
 问：云硬盘使用上有什么注意事项？
 

@@ -73,7 +73,7 @@ RTCRoom.setRTCRoomListener({
 
 ### <h3 id="login"> login </h3>
 - 接口定义：login(object):void
-- 接口说明：登录到 RoomService 后台，通过参数 serverDomain 可以指定是使用云平台的 RoomService 还是使用自建的 RoomService（具体可以参考 [DOC](http://tce.fsphere.cn/document/product/454/14606#ClientFLOW)）。
+- 接口说明：登录到 RoomService 后台，通过参数 serverDomain 可以指定是使用云平台的 RoomService 还是使用自建的 RoomService（具体可以参考 [DOC](http://tcecqpoc.fsphere.cn/document/product/454/14606#ClientFLOW)）。
 - 参数说明：
 
 ```

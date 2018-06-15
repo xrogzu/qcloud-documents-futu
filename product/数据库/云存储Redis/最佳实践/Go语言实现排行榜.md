@@ -80,4 +80,4 @@ func main() {
 }
 ```
 结果如下：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f6743aeb0757050eb65db9b2c684c0a7/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/f6743aeb0757050eb65db9b2c684c0a7/image.png)

@@ -12,7 +12,7 @@
 ## 基本原理
 通常高可用主备集群包含 2 台服务器，一台主服务器处于某种业务的激活状态（即 Active 状态），另一台备服务器处于该业务的备用状态（即 Standby 状态)，它们共享同一个 VIP（Virtual IP），同一时刻 VIP 只在一台主设备上生效，当主服务器出现问题，备用服务器接管 VIP 继续提供服务。高可用主备模式有着广泛的应用，例如：MySQL 主备切换、Ngnix Web 接入。
 <div style="text-align:center">
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a5aa34fb87508284d9e7a07898085728/1.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a5aa34fb87508284d9e7a07898085728/1.png)
 
 </div>
 ## 与物理网络的区别
@@ -102,14 +102,14 @@ stable 用法使用步骤：(两台设备选举主机优先权相同, 非常主�
 ### 步骤 1. 申请 VIP
 在某个子网内申请 VIP（VPC 内用户主动申请的 IP 都可作为 VIP），**控制台或 云 API**均可申请，由于 VIP 绑定于弹性网卡上，弹性网卡分为主网卡和辅助网卡，而 VPC 内每台 CVM 在创建时会默认分配一个主网卡，因此您可以选择在主服务器所绑定的主弹性网卡上申请 VIP :
 
-- **控制台**操作：点击查看 [在弹性网卡上分配内网 IP（Qcloud 控制台）](http://tce.fsphere.cn/document/product/215/6513#.E5.88.86.E9.85.8D.E5.86.85.E7.BD.91ip.EF.BC.88qcloud.E6.8E.A7.E5.88.B6.E5.8F.B0.EF.BC.8910) （推荐） 
+- **控制台**操作：点击查看 [在弹性网卡上分配内网 IP（Qcloud 控制台）](http://tcecqpoc.fsphere.cn/document/product/215/6513#.E5.88.86.E9.85.8D.E5.86.85.E7.BD.91ip.EF.BC.88qcloud.E6.8E.A7.E5.88.B6.E5.8F.B0.EF.BC.8910) （推荐） 
 
 >**注意：**
  1. 这个操作的重点是给网卡分配内网IP，而不是分配另一个网卡。
  2. 注意：不要把vip配置到/etc/sysconfig/network-scripts/的脚本中
  1. 后续配置完成后，在主备设备上启用 keepalived 服务，可以看到 VIP 出现在主设备上，并可以从 VPC 其它子机内 ping 通该 VIP 或外网 VIP。（请同时注意安全组对您主备云主机的网络隔离的功能，建议在实验阶段为主备云主机设置全通安全组）
  2. 申请到 VIP 后，云主机内不会自动在网卡配置上 VIP，但 VPC 管理平台已为您建立好了 VIP 相关功能。但云主机内不会自动感知自己有这个VIP，以下两种方式可以让你在云主机内看见网卡内看见vip。
-1） 未使用本文配置的 keepalived 管理Vip时，需要您在分配内网 IP 后，在云服务器内配置该内网 IP 才能使 VIP 在云主机内可见，点击查看[分配内网IP（云服务器系统内）的方法](http://tce.fsphere.cn/document/product/215/6513#.E5.88.86.E9.85.8D.E5.86.85.E7.BD.91ip.EF.BC.88.E4.BA.91.E6.9C.8D.E5.8A.A1.E5.99.A8.E7.B3.BB.E7.BB.9F.E5.86.85.EF.BC.8911) 。 云主机内配置命令： `ip addr add $vip dev $ethX` ；查看命令：`ip addr show $ethx`
+1） 未使用本文配置的 keepalived 管理Vip时，需要您在分配内网 IP 后，在云服务器内配置该内网 IP 才能使 VIP 在云主机内可见，点击查看[分配内网IP（云服务器系统内）的方法](http://tcecqpoc.fsphere.cn/document/product/215/6513#.E5.88.86.E9.85.8D.E5.86.85.E7.BD.91ip.EF.BC.88.E4.BA.91.E6.9C.8D.E5.8A.A1.E5.99.A8.E7.B3.BB.E7.BB.9F.E5.86.85.EF.BC.8911) 。 云主机内配置命令： `ip addr add $vip dev $ethX` ；查看命令：`ip addr show $ethx`
 2）本文配置的 keepalived 可在使用时帮您在云主机网卡配置 VIP 实现云主机内可见。  注意：用keepalived管理时，不要把vip配置到/etc/sysconfig/network-scripts/的脚本中。
 
 
@@ -270,7 +270,7 @@ vip.py：通过云 API 开发主备切换程序，通过调用内网 IP 迁移�
 	- pip install qcloudapi-sdk-python
 - github 源码下载方式
 	- [转到 github 查看 Python SDK >>](https://github.com/QcloudApi/qcloudapi-sdk-python)
-	- [点击下载 Python SDK >>](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/b61ee1ce734e7437530304152c20ee14/qcloudapi-sdk-python-master.zip)
+	- [点击下载 Python SDK >>](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/b61ee1ce734e7437530304152c20ee14/qcloudapi-sdk-python-master.zip)
 
 请仔细阅读其中`README.md`，并将 SDK 下载到`/etc/keepalived`目录中.
 2) 全内网环境的host修改
@@ -279,16 +279,16 @@ vip.py：通过云 API 开发主备切换程序，通过调用内网 IP 迁移�
 3) 云 API 密钥获取：
 
 <div style="text-align:center">
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ffd379c9e886d0ae3de4fba34539aac7/2.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ffd379c9e886d0ae3de4fba34539aac7/2.png)
 
 </div>
 <div style="text-align:center">
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/900df050c3d619566a482ff4e1bd5433/4.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/900df050c3d619566a482ff4e1bd5433/4.png)
 
 </div>
 4) 基于 SDK 开发切换调用云 API 的程序 vip.py，并将 vip.py 保存到```/etc/keepalived```目录，用于调用内网 IP 迁移云 API：
 - 从控制台云主机详情页弹性网卡标签下找到主网卡 ID：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/fa9fc6b8995bef9734c8de9cb004543c/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/fa9fc6b8995bef9734c8de9cb004543c/image.png)
 - 修改代码参数（注意python对缩进的严格要求）后使用
 
 ```
@@ -329,7 +329,7 @@ step1: 下载 python-sdk: 网页操作https://github.com/QcloudApi/qcloudapi-sdk
 step2: 将下载的 SDK 包放在 /etc/keepalived 并解压。修改解压后的文件夹名称为 src，并在 src 文件夹下创建名为__init__.py的空白文件；
 step3: 将以下 python 代码保存成 vip.py 放到 SDK 的 src 同级目录, 编辑好内容试用 。
 
-具体参数参考: http://tce.fsphere.cn/doc/api/245/1361
+具体参数参考: http://tcecqpoc.fsphere.cn/doc/api/245/1361
 """
 
 

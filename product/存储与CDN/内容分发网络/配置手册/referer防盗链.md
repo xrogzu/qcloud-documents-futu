@@ -3,9 +3,9 @@
 ## 配置指引
 
 登录 [CDN 控制台](http://console.tce.fsphere.cn/cdn)，选择左侧菜单栏的【域名管理】，单击您所要编辑的域名右侧的【管理】。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1f2cb594cd614b62b589cb20a20ed362/basic-config-1.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1f2cb594cd614b62b589cb20a20ed362/basic-config-1.png)
 单击【访问控制】，您可以看到 **防盗链配置** 模块：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7322fafaaf8a7d48422be43d8dc01f63/refer-config-1.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/7322fafaaf8a7d48422be43d8dc01f63/refer-config-1.png)
 
 默认情况下，防盗链未启用，无黑/白名单。referer 黑名单、白名单二者不兼容，同一时间只能生效一种类型，防盗链输入内容最多可输 400 条，以换行符相隔，一行输入一个。
 
@@ -15,7 +15,7 @@
 ### referer 白名单
 
 单击防盗链配置处【编辑】图标，选中 **referer 白名单**，可进行白名单配置。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/49bd3daadeba7fccee2858f1e7e82e2f/refer-config-3.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/49bd3daadeba7fccee2858f1e7e82e2f/refer-config-3.png)
 假设用户为域名 ```www.abc.com``` 配置了 referer 白名单，白名单内容如下：```www.test.com```，且未勾选 **包含空 referer**，则表示用户仅允许 referer 值为 ```www.test.com``` 的请求访问，其他请求均返回 403。 
 
 **配置须知** 
@@ -28,7 +28,7 @@
 ### referer 黑名单
 
 单击防盗链配置处【编辑】图标，选中 **referer 黑名单**，可进行黑名单配置。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/690538acf3324386b5d9ad9616aa100f/refer-config-2.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/690538acf3324386b5d9ad9616aa100f/refer-config-2.png)
 假设用户为域名 ```www.abc.com``` 配置了 referer 黑名单，黑名单内容如下：```www.test.com```，且未勾选 **包含空 referer**，则 referer 值为 ```www.test.com``` 的请求均返回 403，其他请求情况均返回正常内容。
 
 **配置须知** 
@@ -39,7 +39,7 @@
 
 ## 配置案例
 
-若域名referer配置如下：![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b48cb8de16269e71c6575d54bfc7d2d6/refer-config-4.png)
+若域名referer配置如下：![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b48cb8de16269e71c6575d54bfc7d2d6/refer-config-4.png)
 
 用户请求URL为```http://www.test.com/1.jpg?version=1.1```的资源，通过浏览器访问，请求 referer 为空，此时正常返回内容。
 

@@ -18,7 +18,7 @@
 5) 每个请求的包体大小限制为2m。
 
 ## 鉴权
-详见[鉴权签名文档](http://tce.fsphere.cn/doc/product/277/%E7%AD%BE%E5%90%8D%E9%89%B4%E6%9D%83)
+详见[鉴权签名文档](http://tcecqpoc.fsphere.cn/doc/product/277/%E7%AD%BE%E5%90%8D%E9%89%B4%E6%9D%83)
 
 ## 接口列表
 
@@ -61,7 +61,7 @@ https://youtu.api.qcloud.com/youtu/api/detectface
 | Host | 是 | String | 图片云服务器域名，固定为youtu.api.qcloud.com |
 | ContentLength | 是 | Int | 整个请求包体内容的总长度，单位：字节（Byte） |
 | ContentType | 是 | String | text/json表示json格式 |
-| Signature | 是 | String | 多次有效签名,用于鉴权， 具体生成方式详见[鉴权签名文档](http://tce.fsphere.cn/doc/product/277/%E7%AD%BE%E5%90%8D%E9%89%B4%E6%9D%83) |
+| Signature | 是 | String | 多次有效签名,用于鉴权， 具体生成方式详见[鉴权签名文档](http://tcecqpoc.fsphere.cn/doc/product/277/%E7%AD%BE%E5%90%8D%E9%89%B4%E6%9D%83) |
 #### 请求包体
 | 参数名称 | 必选 | 类型 | 描述 |
 |---------|---------|---------|---------|
@@ -144,7 +144,7 @@ https://youtu.api.qcloud.com/youtu/api/facecompare
 | Host | 是 | String | 图片云服务器域名，固定为youtu.api.qcloud.com |
 | ContentLength | 是 | Int | 整个请求包体内容的总长度，单位：字节（Byte） |
 | ContentType | 是 | String | text/json表示json格式 |
-| Signature | 是 | String | 多次有效签名,用于鉴权， 具体生成方式详见[鉴权签名文档](http://tce.fsphere.cn/doc/product/277/%E7%AD%BE%E5%90%8D%E9%89%B4%E6%9D%83) |
+| Signature | 是 | String | 多次有效签名,用于鉴权， 具体生成方式详见[鉴权签名文档](http://tcecqpoc.fsphere.cn/doc/product/277/%E7%AD%BE%E5%90%8D%E9%89%B4%E6%9D%83) |
 
 #### 请求包体
 |字段|	类型	|说明|
@@ -206,7 +206,7 @@ https://youtu.api.qcloud.com/youtu/api/faceverify
 | Host | 是 | String | 图片云服务器域名，固定为youtu.api.qcloud.com |
 | ContentLength | 是 | Int | 整个请求包体内容的总长度，单位：字节（Byte） |
 | ContentType | 是 | String | text/json表示json格式 |
-| Signature | 是 | String | 多次有效签名,用于鉴权， 具体生成方式详见[鉴权签名文档](http://tce.fsphere.cn/doc/product/277/%E7%AD%BE%E5%90%8D%E9%89%B4%E6%9D%83) |
+| Signature | 是 | String | 多次有效签名,用于鉴权， 具体生成方式详见[鉴权签名文档](http://tcecqpoc.fsphere.cn/doc/product/277/%E7%AD%BE%E5%90%8D%E9%89%B4%E6%9D%83) |
 
 #### 请求包体
 |字段	|类型	|说明|
@@ -263,7 +263,7 @@ https://youtu.api.qcloud.com/youtu/api/newperson
 | Host | 是 | String | 图片云服务器域名，固定为youtu.api.qcloud.com |
 | ContentLength | 是 | Int | 整个请求包体内容的总长度，单位：字节（Byte） |
 | ContentType | 是 | String | text/json表示json格式 |
-| Signature | 是 | String | 多次有效签名,用于鉴权， 具体生成方式详见[鉴权签名文档](http://tce.fsphere.cn/doc/product/277/%E7%AD%BE%E5%90%8D%E9%89%B4%E6%9D%83) |
+| Signature | 是 | String | 多次有效签名,用于鉴权， 具体生成方式详见[鉴权签名文档](http://tcecqpoc.fsphere.cn/doc/product/277/%E7%AD%BE%E5%90%8D%E9%89%B4%E6%9D%83) |
 
 #### 请求包体
 |参数名| 必选	|类型	|参数说明|
@@ -333,7 +333,7 @@ https://youtu.api.qcloud.com/youtu/api/delperson
 | Host | 是 | String | 图片云服务器域名，固定为youtu.api.qcloud.com |
 | ContentLength | 是 | Int | 整个请求包体内容的总长度，单位：字节（Byte） |
 | ContentType | 是 | String | text/json表示json格式 |
-| Signature | 是 | String | 多次有效签名,用于鉴权， 具体生成方式详见[鉴权签名文档](http://tce.fsphere.cn/doc/product/277/%E7%AD%BE%E5%90%8D%E9%89%B4%E6%9D%83) |
+| Signature | 是 | String | 多次有效签名,用于鉴权， 具体生成方式详见[鉴权签名文档](http://tcecqpoc.fsphere.cn/doc/product/277/%E7%AD%BE%E5%90%8D%E9%89%B4%E6%9D%83) |
 
 #### 请求包体
 |参数名|	类型	|参数说明|
@@ -415,7 +415,7 @@ https://youtu.api.qcloud.com/youtu/api/addface
 <td> Signature
 </td><td> 是
 </td><td> String
-</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tce.fsphere.cn/image/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
+</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tcecqpoc.fsphere.cn/image/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
 </td></tr></tbody></table>
 
 **请求包体**
@@ -547,7 +547,7 @@ https://youtu.api.qcloud.com/youtu/api/delface
 <td> Signature
 </td><td> 是
 </td><td> String
-</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tce.fsphere.cn/image/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
+</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tcecqpoc.fsphere.cn/image/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
 </td></tr></tbody></table>
 
 **请求包体**
@@ -628,7 +628,7 @@ https://youtu.api.qcloud.com/youtu/api/setinfo
 <td> Signature
 </td><td> 是
 </td><td> String
-</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tce.fsphere.cn/image/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
+</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tcecqpoc.fsphere.cn/image/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
 </td></tr></tbody></table>
 
 **请求包体**
@@ -755,7 +755,7 @@ https://youtu.api.qcloud.com/youtu/api/getinfo
 <td> Signature
 </td><td> 是
 </td><td> String
-</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tce.fsphere.cn/image/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
+</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tcecqpoc.fsphere.cn/image/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
 </td></tr></tbody></table>
 
 **请求包体**
@@ -894,7 +894,7 @@ https://youtu.api.qcloud.com/youtu/api/getgroupids
 <td> Signature
 </td><td> 是
 </td><td> String
-</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tce.fsphere.cn/image/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
+</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tcecqpoc.fsphere.cn/image/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
 </td></tr></tbody></table>
 
 **请求包体**
@@ -993,7 +993,7 @@ https://youtu.api.qcloud.com/youtu/api/getpersonids
 <td> Signature
 </td><td> 是
 </td><td> String
-</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tce.fsphere.cn/image/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
+</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tcecqpoc.fsphere.cn/image/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
 </td></tr></tbody></table>
 
 **请求包体**
@@ -1100,7 +1100,7 @@ https://youtu.api.qcloud.com/youtu/api/getfaceids
 <td> Signature
 </td><td> 是
 </td><td> String
-</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tce.fsphere.cn/image/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
+</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tcecqpoc.fsphere.cn/image/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
 </td></tr></tbody></table>
 
 **请求包体**
@@ -1205,7 +1205,7 @@ https://youtu.api.qcloud.com/youtu/api/getfaceinfo
 <td> Signature
 </td><td> 是
 </td><td> String
-</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tce.fsphere.cn/image/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
+</td><td> 多次有效签名,用于鉴权， 具体生成方式详见<a href="http://imgcache.tcecqpoc.fsphere.cn/image/imgcache.qq.com/qcloud/tianyan/wiki/Authorization.pdf" target="_blank" rel="nofollow">鉴权签名文档</a>
 </td></tr></tbody></table>
 
 **请求包体**

@@ -14,9 +14,9 @@ yum install 软件名称
 
 3. 输入上述命令后，系统将自动搜索相关的软件包和依赖关系，并且在界面中提示用户确认搜索到的软件包是否合适。
 例如，键入`yum install php`之后，界面显示如图：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/cdf81bb49022aa8924968864571922ed/39.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/cdf81bb49022aa8924968864571922ed/39.png)
 4. 确认软件包合适无误后，键入`y`，开始安装软件。界面提示`Complete`即安装完成。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/c98bda7d1f3f42156f9015e3c9d00295/40.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/c98bda7d1f3f42156f9015e3c9d00295/40.png)
 
 ### 查看已安装软件信息
 软件安装完成后：
@@ -24,6 +24,6 @@ yum install 软件名称
 - 可通过命令` rpm -q 软件名`查看软件包的版本信息。
 
 以 php 为例：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d8b9e21cc801da16b76011b3886e1351/42.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d8b9e21cc801da16b76011b3886e1351/42.png)
 
 

@@ -2,20 +2,20 @@
 
 本节主要介绍如何集成sdk。
 
-直播聊天室demo体验地址：http://imgcache.tce.fsphere.cn/image/avc.qcloud.com/demo/webim/biggroup/mobile/index.html
+直播聊天室demo体验地址：http://imgcache.tcecqpoc.fsphere.cn/image/avc.qcloud.com/demo/webim/biggroup/mobile/index.html
 
 直播聊天室demo二维码：
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/a188f7fd653c8237b362a7adea1f63b1/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/a188f7fd653c8237b362a7adea1f63b1/image.png)
 
 通用demo地址：
-http://imgcache.tce.fsphere.cn/image/avc.qcloud.com/demo/webim/index.html
+http://imgcache.tcecqpoc.fsphere.cn/image/avc.qcloud.com/demo/webim/index.html
 
 通用demo运行指引地址：
-http://tce.fsphere.cn/doc/product/269/4196
+http://tcecqpoc.fsphere.cn/doc/product/269/4196
 
 ### 1.1 下载SDK 
 
-从官网下载SDK包（[下载地址](http://tce.fsphere.cn/product/im.html)），包含以下库文件： 
+从官网下载SDK包（[下载地址](http://tcecqpoc.fsphere.cn/product/im.html)），包含以下库文件： 
 
 
 ```
@@ -34,7 +34,7 @@ sdk/json2.js
 <script type="text/javascript" src="sdk/json2.js"></script>
 ```
 
-此外，如果业务的帐号体系是[托管模式](http://tce.fsphere.cn/doc/product/269/%E6%89%98%E7%AE%A1%E6%A8%A1%E5%BC%8F)，还需要引入TLS web sdk：
+此外，如果业务的帐号体系是[托管模式](http://tcecqpoc.fsphere.cn/doc/product/269/%E6%89%98%E7%AE%A1%E6%A8%A1%E5%BC%8F)，还需要引入TLS web sdk：
 
 ```
 <!--TLS web sdk(只用于托管模式，独立模式不用引入)-->
@@ -43,7 +43,7 @@ sdk/json2.js
 
 ### 1.3 函数调用顺序
 
-如果帐号是[托管模式](http://tce.fsphere.cn/doc/product/269/%E6%89%98%E7%AE%A1%E6%A8%A1%E5%BC%8F)，在调用sdk登录api之前，需要先进行以下操作：
+如果帐号是[托管模式](http://tcecqpoc.fsphere.cn/doc/product/269/%E6%89%98%E7%AE%A1%E6%A8%A1%E5%BC%8F)，在调用sdk登录api之前，需要先进行以下操作：
 
 | 步骤 | 对应函数 | 说明 |
 |---------|---------|---------|
@@ -59,7 +59,7 @@ sdk/json2.js
 |acctype|	业务帐号类型accountType|	Integer|
 |url	|TLS登录成功回调地址，一般为业务网站首页地址|	String|
 
-当帐号模式为[独立模式](http://tce.fsphere.cn/doc/product/269/%E7%8B%AC%E7%AB%8B%E6%A8%A1%E5%BC%8F)时，则不需要上面的操作，直接进行下面的操作（当然这些步骤托管模式下也是需要的）。
+当帐号模式为[独立模式](http://tcecqpoc.fsphere.cn/doc/product/269/%E7%8B%AC%E7%AB%8B%E6%A8%A1%E5%BC%8F)时，则不需要上面的操作，直接进行下面的操作（当然这些步骤托管模式下也是需要的）。
 
 Sdk函数使用顺序，如下：
 
@@ -647,12 +647,12 @@ webim.Msg.Elem.MemberInfo.GroupInfo(userId,shutupTime)
 ### 2.16 表情对象Emotions
 
 webim.Emotions是表情对象，键值对形式，key是表情index，value包括了表情标识字符串和表情数据（可以是base64编码或者地址）。
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/28b535381f62f87d5b8464b819a5bcd1/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/28b535381f62f87d5b8464b819a5bcd1/image.png)
 
 ### 2.17 表情数据索引对象EmotionDataIndexs
 
 webim.EmotionDataIndexs是表情标识字符串和index的映射关系对象，键值对形式，key是表情的标识字符串，value是表情index，主要用于发表情消息时，需要将消息文本中的表情识别出来，并转换成对应的索引index传给后台接口。
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/11a2b050d1b47aefa1d9fb0a4e3fc716/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/11a2b050d1b47aefa1d9fb0a4e3fc716/image.png)
 
 ### 2.18 工具对象Tool
 

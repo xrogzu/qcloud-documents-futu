@@ -14,7 +14,7 @@ APNs 证书申请流程可参考文档：[Apple推送证书申请](/doc/product/
 
 完成APNs 证书申请以后，需要把生成的p12证书上传到控制台：
 
-<img src="http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d34bd0d7d3fe35a9171d396230df0fc6/image.png" width=480 />
+<img src="http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d34bd0d7d3fe35a9171d396230df0fc6/image.png" width=480 />
 
 上传时有几个注意点：
 
@@ -185,7 +185,7 @@ APNs 推送内容部分为消息体中各个Elem内容组合：
 
 ## 3. 多APP支持
 
-对于需要多APP互通的场景，可在多个APP中写同一个sdkappid，可实现消息互通，由于多个APP推送证书不同，所以需要在控制台上提交多个证书，每个证书在IM通讯云上生成一个编号，可参考 [1.4 客户端流程](http://tce.fsphere.cn/document/product/269/9154#1.4-.E5.AE.A2.E6.88.B7.E7.AB.AF.E5.AE.9E.E7.8E.B0apns.E6.8E.A8.E9.80.81) 设置证书，并提供当前证书的编号。
+对于需要多APP互通的场景，可在多个APP中写同一个sdkappid，可实现消息互通，由于多个APP推送证书不同，所以需要在控制台上提交多个证书，每个证书在IM通讯云上生成一个编号，可参考 [1.4 客户端流程](http://tcecqpoc.fsphere.cn/document/product/269/9154#1.4-.E5.AE.A2.E6.88.B7.E7.AB.AF.E5.AE.9E.E7.8E.B0apns.E6.8E.A8.E9.80.81) 设置证书，并提供当前证书的编号。
 
 
 ## 4. 推送声音

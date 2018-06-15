@@ -18,22 +18,22 @@
 1) 下载与安装插件F5XForwardedFor模块，根据自己的服务器操作系统版本将`x86\Release`或者`x64\Release`目录下的`F5XFFHttpModule.dll`和`F5XFFHttpModule.ini`拷贝到某个目录，这里假设为`C: \F5XForwardedFor`，确保对IIS进程对该目录有读取权限。
 
 2) 选择“IIS服务器”选项，按图所示选择“模块”功能：
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/9d7e43382b6b2bdf5753b67ccd248030/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/9d7e43382b6b2bdf5753b67ccd248030/image.png)
 
 3) 双击“模块”功能，点击“配置本机模块”：
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/01620ccc1be3c03569b31dc8bbaa7d73/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/01620ccc1be3c03569b31dc8bbaa7d73/image.png)
 
 4) 在弹出框中点击“注册”按钮：
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/27fd429c05788abbdc6e95adc215e39c/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/27fd429c05788abbdc6e95adc215e39c/image.png)
 
 5) 添加下载的DLL文件，如下图：
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/9e68ee04ef61c911a8dcc7caaf77b678/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/9e68ee04ef61c911a8dcc7caaf77b678/image.png)
 
 6) 添加完成后，勾选并点击“确定”：
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/c9bf9c597d7c0b2538dade72ed10bd4e/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/c9bf9c597d7c0b2538dade72ed10bd4e/image.png)
 
 7) 把这两个DLL在 “API 和CGI限制”进行添加，并改为允许：
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/bccab999282e71a49aeb144a4dc3c9ed/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/bccab999282e71a49aeb144a4dc3c9ed/image.png)
 
 8) 重启IIS服务器，等待配置生效。
 

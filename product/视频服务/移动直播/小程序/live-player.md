@@ -42,7 +42,7 @@
 
 - 符合类目要求的小程序，需要在小程序管理后台的<font color='red'> “设置 - 接口设置” </font>中自助开通该组件权限，如下图所示：
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a34df5e3e86c9b0fcdfba86f8576e06a/weixinset.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a34df5e3e86c9b0fcdfba86f8576e06a/weixinset.png)
 
 注意：如果以上设置都正确，但小程序依然不能正常工作，可能是微信内部的缓存没更新，请删除小程序并重启微信后，再进行尝试。
 
@@ -79,7 +79,7 @@
 
 ## 属性详解
 - **src**
-用于音视频下行的播放 URL，支持 rtmp 协议（URL 以 “rtmp://” 打头）和 flv 协议（URL 以 “http://” 打头且以 “.flv” 结尾） ，云平台推流 URL 的获取方法见 [DOC](http://tce.fsphere.cn/document/product/454/7915)。
+用于音视频下行的播放 URL，支持 rtmp 协议（URL 以 “rtmp://” 打头）和 flv 协议（URL 以 “http://” 打头且以 “.flv” 结尾） ，云平台推流 URL 的获取方法见 [DOC](http://tcecqpoc.fsphere.cn/document/product/454/7915)。
 > &lt;live-player&gt; 标签是不支持 HLS(m3u8) 协议的，因为 &lt;video&gt; 已经支持 HLS(m3u8) 播放协议了。但直播观看不推荐使用 HLS(m3u8) 协议，延迟要比 rtmp 和 flv 协议高一个数量级。
 
 - **mode**
@@ -110,7 +110,7 @@ live 模式主要用于直播类场景，比如赛事直播、在线教育、远
 设置播放模式，可设值为: ear与speaker，ear代表使用听筒播放， speaker代表使用扬声器。默认为扬声器
 
 - **debug**
- 调试音视频相关功能，如果没有很好的工具会是一个噩梦，所以小程序为 live-pusher 标签支持了 debug 模式，开始 debug 模式之后，原本用于渲染视频画面的窗口上，会显示一个半透明的 log 窗口，用于展示各项音视频指标和事件，降低您调试相关功能的难度，具体使用方法我们在 [FAQ](http://tce.fsphere.cn/document/product/454/7946#2.-.E5.8F.91.E7.8E.B0.E9.97.AE.E9.A2.98.E7.9A.84.E2.80.9C.E7.9C.BC.E7.9D.9B.E2.80.9D) 中有详细说明。
+ 调试音视频相关功能，如果没有很好的工具会是一个噩梦，所以小程序为 live-pusher 标签支持了 debug 模式，开始 debug 模式之后，原本用于渲染视频画面的窗口上，会显示一个半透明的 log 窗口，用于展示各项音视频指标和事件，降低您调试相关功能的难度，具体使用方法我们在 [FAQ](http://tcecqpoc.fsphere.cn/document/product/454/7946#2.-.E5.8F.91.E7.8E.B0.E9.97.AE.E9.A2.98.E7.9A.84.E2.80.9C.E7.9C.BC.E7.9D.9B.E2.80.9D) 中有详细说明。
 
 
 ## 对象操作

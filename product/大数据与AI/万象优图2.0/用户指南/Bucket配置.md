@@ -6,7 +6,7 @@ Bucket相关的配置和修改，需要前往[云对象存储服务（COS）控�
 
 | 功能   | 文档                                       |
 | ---- | ---------------------------------------- |
-| 回源设置 | [查看文档](http://tce.fsphere.cn/doc/product/436/6248) |
-| 权限控制 | [查看文档](http://tce.fsphere.cn/doc/product/436/6247) |
-| 跨域访问 | [查看文档](http://tce.fsphere.cn/doc/product/436/6251) |
+| 回源设置 | [查看文档](http://tcecqpoc.fsphere.cn/doc/product/436/6248) |
+| 权限控制 | [查看文档](http://tcecqpoc.fsphere.cn/doc/product/436/6247) |
+| 跨域访问 | [查看文档](http://tcecqpoc.fsphere.cn/doc/product/436/6251) |
 

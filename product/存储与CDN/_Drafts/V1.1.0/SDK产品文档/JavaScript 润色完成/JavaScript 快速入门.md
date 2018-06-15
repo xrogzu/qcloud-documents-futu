@@ -10,17 +10,17 @@
 2. 到 [COS 对象存储控制台](http://console.tce.fsphere.cn/cos4) 创建存储桶，得到 Bucket（存储桶名称） 和 Region（地域名称）。
 3. 到 [控制台密钥管理](http://console.tce.fsphere.cn/capi) 获取您的项目 SecretId 和 SecretKey。
 4. 配置 CORS 规则，配置例子如下图：
-![cors](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2e7791e9274ce3ebf8b25bbeafcd7b45/image.png)
+![cors](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/2e7791e9274ce3ebf8b25bbeafcd7b45/image.png)
 
 
-> 关于文章中出现的 SecretId、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](http://tce.fsphere.cn/document/product/436/7751)
+> 关于文章中出现的 SecretId、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](http://tcecqpoc.fsphere.cn/document/product/436/7751)
     
 ## 快速入门		
 ### 计算签名
 
 由于签名计算放在前端会暴露 SecretId 和 SecretKey，我们把签名计算过程放在后端实现，前段通过 ajax 向后端获取签名结果，正式部署时请再后端加一层自己网站本身的权限检验。
 
-这里提供 [PHP 和 NodeJS 的签名例子](https://github.com/tencentyun/cos-js-sdk-v5/blob/master/server/)，其他语言，请参照对应的 [XML SDK](http://tce.fsphere.cn/document/product/436/6474)
+这里提供 [PHP 和 NodeJS 的签名例子](https://github.com/tencentyun/cos-js-sdk-v5/blob/master/server/)，其他语言，请参照对应的 [XML SDK](http://tcecqpoc.fsphere.cn/document/product/436/6474)
 
 ### 上传例子
 
@@ -81,4 +81,4 @@ npm i cos-js-sdk-v5 --save
 ## 其他文档和例子
 
 更多例子请参阅 [XML JS SDK Demo](https://github.com/tencentyun/cos-js-sdk-v5/tree/master/demo)。
-完整接口文档请参阅 [JS SDK 接口文档](http://tce.fsphere.cn/document/product/436/11459)。
+完整接口文档请参阅 [JS SDK 接口文档](http://tcecqpoc.fsphere.cn/document/product/436/11459)。

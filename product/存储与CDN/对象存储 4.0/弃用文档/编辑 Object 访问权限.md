@@ -39,7 +39,7 @@ Object 访问权限提供了基于 Object 维度的访问权限控制，且该�
 ##自定义权限设置
 找到需要修改权限的 Object, 点击更多，从下拉选单中选择 **设置权限**：
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/fb3f7470ee8ed5ddfdc6c12996ae8843/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/fb3f7470ee8ed5ddfdc6c12996ae8843/image.png)
 
 在点击后的弹窗中设置权限：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/994dbbf53b567c5ae947e1e5962bdc90/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/994dbbf53b567c5ae947e1e5962bdc90/image.png)

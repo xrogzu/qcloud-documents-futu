@@ -13,13 +13,13 @@ CDN 目前已经接入新版的云资源访问管理（Cloud Access Management�
 + 财务管理员(策略名：QCloudFinanceFullAccess)
 
 CDN 部分功能仅供预设管理员使用，如：
-+ 调用云 API [DescribeCdnHosts](http://tce.fsphere.cn/doc/api/231/3937) 获取账户下所有域名的详细信息，包括配置信息，支持分页查询。
-+ 调用云 API [UpdateCdnProject](http://tce.fsphere.cn/doc/api/231/3935) 或在 CDN 控制台进行域名所属项目的切换。
++ 调用云 API [DescribeCdnHosts](http://tcecqpoc.fsphere.cn/doc/api/231/3937) 获取账户下所有域名的详细信息，包括配置信息，支持分页查询。
++ 调用云 API [UpdateCdnProject](http://tcecqpoc.fsphere.cn/doc/api/231/3935) 或在 CDN 控制台进行域名所属项目的切换。
 
 ### 项目管理员
 项目管理员拥有管理 CDN 业务项目内云资源和管理其他业务项目内云资源的权限。创建者或超级管理员可以通过将用户关联到 **项目管理** 策略进行指派。
 项目管理员权限等同于原有版本 **项目协作者**，可以在控制台进行有权限项目之间的资源分配。由于项目的划分对所有云资源均有效，您可以根据需要对项目管理的业务范围进行选择。
-如何配置项目管理员？请参考 [项目管理员配置示例](http://tce.fsphere.cn/doc/product/228/6693)。
+如何配置项目管理员？请参考 [项目管理员配置示例](http://tcecqpoc.fsphere.cn/doc/product/228/6693)。
 
 ## 子用户权限
 ### 查看消耗数据及统计量
@@ -34,14 +34,14 @@ CDN 部分功能仅供预设管理员使用，如：
 + 【CDN 控制台】>【统计分析】>【访问情况统计】：指定项目下资源对象的访问情况明细查询、下载。
 + 【CDN 控制台】>【统计分析】>【状态码统计】：指定项目下资源对象的状态码统计明细查询、下载。
 + 【CDN 控制台】>【统计分析】>【源站统计】：指定项目下资源对象的源站统计明细查询、下载。
-  ![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/1b7f65c15f0987e7bbeab821dad95a1d.png)
+  ![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/1b7f65c15f0987e7bbeab821dad95a1d.png)
 
 #### 云 API 权限控制
-拥有查看消耗数据及统计量权限的子用户，可申请云 API 密钥，详情请参考 [申请安全凭证](http://tce.fsphere.cn/doc/api/231/1725#1.-.E7.94.B3.E8.AF.B7.E5.AE.89.E5.85.A8.E5.87.AD.E8.AF.81)，并使用密钥调用下列云 API 查询指定项目下资源对象的消耗数据及统计量：
-+ [DescribeCdnHostInfo](http://tce.fsphere.cn/doc/api/231/3941)：查询指定时间区间、数据类型、项目、域名对应的统计量汇总信息。
-+ [DescribeCdnHostDetailedInfo](http://tce.fsphere.cn/doc/api/231/3942)：查询指定时间区间、数据类型、项目、域名对应的统计明细。
-+ [GetCdnStatusCode](http://tce.fsphere.cn/doc/api/231/3943)：查询指定时间区间、项目、域名对应的状态码统计明细。
-+ [GetCdnStatTop](http://tce.fsphere.cn/doc/api/231/3944)：查询指定时间区间、项目、域名、统计类型，对应的各省份、运营商、URL 排名 TOP100 统计。
+拥有查看消耗数据及统计量权限的子用户，可申请云 API 密钥，详情请参考 [申请安全凭证](http://tcecqpoc.fsphere.cn/doc/api/231/1725#1.-.E7.94.B3.E8.AF.B7.E5.AE.89.E5.85.A8.E5.87.AD.E8.AF.81)，并使用密钥调用下列云 API 查询指定项目下资源对象的消耗数据及统计量：
++ [DescribeCdnHostInfo](http://tcecqpoc.fsphere.cn/doc/api/231/3941)：查询指定时间区间、数据类型、项目、域名对应的统计量汇总信息。
++ [DescribeCdnHostDetailedInfo](http://tcecqpoc.fsphere.cn/doc/api/231/3942)：查询指定时间区间、数据类型、项目、域名对应的统计明细。
++ [GetCdnStatusCode](http://tcecqpoc.fsphere.cn/doc/api/231/3943)：查询指定时间区间、项目、域名对应的状态码统计明细。
++ [GetCdnStatTop](http://tcecqpoc.fsphere.cn/doc/api/231/3944)：查询指定时间区间、项目、域名、统计类型，对应的各省份、运营商、URL 排名 TOP100 统计。
 
 > **注意**：项目中已删除的域名，由于存在历史记录，因此在消耗查询中仍然可以查到。
 
@@ -53,12 +53,12 @@ CDN 部分功能仅供预设管理员使用，如：
 #### 控制台权限控制
 拥有查询域名信息权限的子用户，在控制台可进行如下操作：
 【CDN 控制台】>【域名管理】：查看指定项目下资源对象的域名信息，单击【管理】可查看更多配置详情。
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/ad9b7064f81ad9f3134ef435257da159.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/ad9b7064f81ad9f3134ef435257da159.png)
 
 #### 云 API 权限控制
-拥有查询域名信息权限的子用户，可申请云 API 密钥，详情请参考 [申请安全凭证](http://tce.fsphere.cn/doc/api/231/1725#1.-.E7.94.B3.E8.AF.B7.E5.AE.89.E5.85.A8.E5.87.AD.E8.AF.81)，并使用密钥调用下列云 API 查询域名信息（该域名必须属于该子用户有权限的项目）：
-+ [GetHostInfoByHost](http://tce.fsphere.cn/doc/api/231/3938)：根据域名查询域名的详细信息、配置信息，支持多个域名同时查询。
-+ [GetHostInfoById](http://tce.fsphere.cn/doc/api/231/3939)：根据域名 ID 查询域名详情，支持多域名 ID 一次性查询。
+拥有查询域名信息权限的子用户，可申请云 API 密钥，详情请参考 [申请安全凭证](http://tcecqpoc.fsphere.cn/doc/api/231/1725#1.-.E7.94.B3.E8.AF.B7.E5.AE.89.E5.85.A8.E5.87.AD.E8.AF.81)，并使用密钥调用下列云 API 查询域名信息（该域名必须属于该子用户有权限的项目）：
++ [GetHostInfoByHost](http://tcecqpoc.fsphere.cn/doc/api/231/3938)：根据域名查询域名的详细信息、配置信息，支持多个域名同时查询。
++ [GetHostInfoById](http://tcecqpoc.fsphere.cn/doc/api/231/3939)：根据域名 ID 查询域名详情，支持多域名 ID 一次性查询。
 
 ### 查询日志下载链接
 #### 配置须知
@@ -68,12 +68,12 @@ CDN 部分功能仅供预设管理员使用，如：
 #### 控制台权限控制
 拥有查询日志下载链接权限的子用户，在控制台可进行如下操作：
 【CDN 控制台】>【高级工具】>【日志管理】：查询指定项目下资源对象的指定日期日志下载链接。
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/0454152de50c9d5f402cba40ccb341b9.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/0454152de50c9d5f402cba40ccb341b9.png)
 
 #### 云 API 权限控制
-拥有查询日志下载链接权限的子用户，可申请云 API 密钥，详情请参考 [申请安全凭证](http://tce.fsphere.cn/doc/api/231/1725#1.-.E7.94.B3.E8.AF.B7.E5.AE.89.E5.85.A8.E5.87.AD.E8.AF.81)，并使用密钥调用下列云 API 查询日志下载链接（该域名必须属于该子用户有权限的项目）：
-+ [GenerateLogList](http://tce.fsphere.cn/doc/api/231/3950)：根据域名 ID 查询指定时间区间内，指定域名日志的下载链接，一次仅可指定一个域名进行查询。
-+ [GetCdnLogList](http://tce.fsphere.cn/doc/api/228/8087):根据域名查询指定时间区间内，指定域名日志的下载链接，一次仅可指定一个域名进行查询。
+拥有查询日志下载链接权限的子用户，可申请云 API 密钥，详情请参考 [申请安全凭证](http://tcecqpoc.fsphere.cn/doc/api/231/1725#1.-.E7.94.B3.E8.AF.B7.E5.AE.89.E5.85.A8.E5.87.AD.E8.AF.81)，并使用密钥调用下列云 API 查询日志下载链接（该域名必须属于该子用户有权限的项目）：
++ [GenerateLogList](http://tcecqpoc.fsphere.cn/doc/api/231/3950)：根据域名 ID 查询指定时间区间内，指定域名日志的下载链接，一次仅可指定一个域名进行查询。
++ [GetCdnLogList](http://tcecqpoc.fsphere.cn/doc/api/228/8087):根据域名查询指定时间区间内，指定域名日志的下载链接，一次仅可指定一个域名进行查询。
 
 ### 添加域名
 #### 配置须知
@@ -83,11 +83,11 @@ CDN 部分功能仅供预设管理员使用，如：
 #### 控制台权限控制
 拥有添加域名权限的子用户，在控制台可进行如下操作：
 【CDN 控制台】>【域名管理】>【添加域名】：单击【添加域名】后，**所属项目** 下拉菜单中显示的项目即为有权限添加域名的项目，若无项目，表明该子用户无添加域名的权限。
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/e61a06742f8f3a206471aad8e2c3b68f.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/e61a06742f8f3a206471aad8e2c3b68f.png)
 
 #### 云 API 权限控制
-拥有添加域名权限的子用户，可申请云 API 密钥，详情请参考 [申请安全凭证](http://tce.fsphere.cn/doc/api/231/1725#1.-.E7.94.B3.E8.AF.B7.E5.AE.89.E5.85.A8.E5.87.AD.E8.AF.81)，并使用密钥调用下列云 API 添加域名（项目必须为有权限的项目）：
-+ [AddCdnHost](http://tce.fsphere.cn/doc/api/231/1406)：新增加速域名。
+拥有添加域名权限的子用户，可申请云 API 密钥，详情请参考 [申请安全凭证](http://tcecqpoc.fsphere.cn/doc/api/231/1725#1.-.E7.94.B3.E8.AF.B7.E5.AE.89.E5.85.A8.E5.87.AD.E8.AF.81)，并使用密钥调用下列云 API 添加域名（项目必须为有权限的项目）：
++ [AddCdnHost](http://tcecqpoc.fsphere.cn/doc/api/231/1406)：新增加速域名。
 
 ### 上线/下线域名
 #### 配置须知
@@ -97,12 +97,12 @@ CDN 部分功能仅供预设管理员使用，如：
 #### 控制台权限控制
 拥有上线/下线域名权限的子用户，在控制台可进行如下操作：
 【CDN 控制台】>【域名管理】：找到有权限的域名，可对其进行上线/下线（开启/关闭）操作。
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/e05e631b07fa456499c146c9e1f33a74.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/e05e631b07fa456499c146c9e1f33a74.png)
 
 #### 云 API 权限控制
-拥有上线/下线域名权限的子用户，可申请云 API 密钥，详情请参考 [申请安全凭证](http://tce.fsphere.cn/doc/api/231/1725#1.-.E7.94.B3.E8.AF.B7.E5.AE.89.E5.85.A8.E5.87.AD.E8.AF.81)，并使用密钥调用下列云 API 上线/下线域名（上线/下线的域名必须为有权限的域名）：
-+ [OnlineHost](http://tce.fsphere.cn/doc/api/231/1402)：根据域名 ID 上线 CDN 域名。
-+ [OfflineHost](http://tce.fsphere.cn/doc/api/231/1403)：根据域名 ID 下线 CDN 域名。
+拥有上线/下线域名权限的子用户，可申请云 API 密钥，详情请参考 [申请安全凭证](http://tcecqpoc.fsphere.cn/doc/api/231/1725#1.-.E7.94.B3.E8.AF.B7.E5.AE.89.E5.85.A8.E5.87.AD.E8.AF.81)，并使用密钥调用下列云 API 上线/下线域名（上线/下线的域名必须为有权限的域名）：
++ [OnlineHost](http://tcecqpoc.fsphere.cn/doc/api/231/1402)：根据域名 ID 上线 CDN 域名。
++ [OfflineHost](http://tcecqpoc.fsphere.cn/doc/api/231/1403)：根据域名 ID 下线 CDN 域名。
 
 ### 删除域名
 #### 配置须知
@@ -111,12 +111,12 @@ CDN 部分功能仅供预设管理员使用，如：
 
 ####  控制台权限控制
 拥有删除域名权限的子用户，在控制台可进行如下操作：
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/d4e07efc098973d6faa642f13beb96e2.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/d4e07efc098973d6faa642f13beb96e2.png)
 【CDN 控制台】>【域名管理】：勾选要删除的域名，单击【更多操作】下拉菜单中的【删除】，可以对有权限的已关闭的域名进行删除操作。
 
 #### 云 API 权限控制
-拥有删除域名权限的子用户，可申请云 API 密钥，详情请参考 [申请安全凭证](http://tce.fsphere.cn/doc/api/231/1725#1.-.E7.94.B3.E8.AF.B7.E5.AE.89.E5.85.A8.E5.87.AD.E8.AF.81)，并使用密钥调用下列云 API 删除域名（指定域名必须为有权限的域名，域名状态需要为已关闭状态）：
-+ [DeleteCdnHost](http://tce.fsphere.cn/doc/api/231/1396)：根据域名 ID 删除 CDN 域名。
+拥有删除域名权限的子用户，可申请云 API 密钥，详情请参考 [申请安全凭证](http://tcecqpoc.fsphere.cn/doc/api/231/1725#1.-.E7.94.B3.E8.AF.B7.E5.AE.89.E5.85.A8.E5.87.AD.E8.AF.81)，并使用密钥调用下列云 API 删除域名（指定域名必须为有权限的域名，域名状态需要为已关闭状态）：
++ [DeleteCdnHost](http://tcecqpoc.fsphere.cn/doc/api/231/1396)：根据域名 ID 删除 CDN 域名。
 
 ### 修改域名配置
 #### 配置须知
@@ -126,13 +126,13 @@ CDN 部分功能仅供预设管理员使用，如：
 #### 控制台权限控制
 拥有修改域名配置权限的子用户，可在控制台做如下操作：
 【CDN 控制台】>【域名管理】：点击域名右侧【管理】，可对有权限的域名的各项配置进行修改。
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/4f372acc37b1511c1c7392874979b29a.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/4f372acc37b1511c1c7392874979b29a.png)
 
 #### 云 API 权限控制
-拥有修改域名配置权限的子用户，可申请云 API 密钥，详情请参考 [申请安全凭证](http://tce.fsphere.cn/doc/api/231/1725#1.-.E7.94.B3.E8.AF.B7.E5.AE.89.E5.85.A8.E5.87.AD.E8.AF.81)，并使用密钥调用下列云 API 修改域名配置（指定域名必须为有权限的域名）：
-+ [UpdateCdnConfig](http://tce.fsphere.cn/doc/api/231/3933)：修改域名配置。
-+ [UpdateCache](http://tce.fsphere.cn/doc/api/231/3934)：修改域名缓存配置。
-+ [UpdateCdnHost](http://tce.fsphere.cn/doc/api/231/1397)：修改域名源站配置。
+拥有修改域名配置权限的子用户，可申请云 API 密钥，详情请参考 [申请安全凭证](http://tcecqpoc.fsphere.cn/doc/api/231/1725#1.-.E7.94.B3.E8.AF.B7.E5.AE.89.E5.85.A8.E5.87.AD.E8.AF.81)，并使用密钥调用下列云 API 修改域名配置（指定域名必须为有权限的域名）：
++ [UpdateCdnConfig](http://tcecqpoc.fsphere.cn/doc/api/231/3933)：修改域名配置。
++ [UpdateCache](http://tcecqpoc.fsphere.cn/doc/api/231/3934)：修改域名缓存配置。
++ [UpdateCdnHost](http://tcecqpoc.fsphere.cn/doc/api/231/1397)：修改域名源站配置。
 
 ### 刷新预热
 #### 配置须知
@@ -142,16 +142,16 @@ CDN 部分功能仅供预设管理员使用，如：
 #### 控制台权限控制
 拥有刷新预热权限的子用户，可在控制台做如下操作：
 【CDN 控制台】>【缓存刷新】：批量贴入有权限的域名下的 URL 或目录，提交进行刷新。单击【操作记录】，可以看到您最近的操作记录。
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/42693acbc573a0fc474174de209c4c18.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/42693acbc573a0fc474174de209c4c18.png)
 
 #### 云 API 权限控制
-拥有刷新预热权限的子用户，可申请云 API 密钥，详情请参考 [申请安全凭证](http://tce.fsphere.cn/doc/api/231/1725#1.-.E7.94.B3.E8.AF.B7.E5.AE.89.E5.85.A8.E5.87.AD.E8.AF.81)，并使用密钥调用下列云 API 进行刷新预热（仅可提交有权限的域名下的 URL 或目录）：
-+ [RefreshCdnUrl](http://tce.fsphere.cn/doc/api/231/3946)：将节点上指定 URL 资源设置为过期。
-+ [RefreshCdnDir](http://tce.fsphere.cn/doc/api/231/3947)：将节点上指定资源目录下的内容设置为过期。
-+ [GetCdnRefreshLog](http://tce.fsphere.cn/doc/api/228/3948):查询指定时间区间内的刷新日志、刷新次数，可指定 URL 查询。
+拥有刷新预热权限的子用户，可申请云 API 密钥，详情请参考 [申请安全凭证](http://tcecqpoc.fsphere.cn/doc/api/231/1725#1.-.E7.94.B3.E8.AF.B7.E5.AE.89.E5.85.A8.E5.87.AD.E8.AF.81)，并使用密钥调用下列云 API 进行刷新预热（仅可提交有权限的域名下的 URL 或目录）：
++ [RefreshCdnUrl](http://tcecqpoc.fsphere.cn/doc/api/231/3946)：将节点上指定 URL 资源设置为过期。
++ [RefreshCdnDir](http://tcecqpoc.fsphere.cn/doc/api/231/3947)：将节点上指定资源目录下的内容设置为过期。
++ [GetCdnRefreshLog](http://tcecqpoc.fsphere.cn/doc/api/228/3948):查询指定时间区间内的刷新日志、刷新次数，可指定 URL 查询。
 
 ### 默认权限
 子用户一旦配置了 CDN 功能权限，则默认可以进行如下操作，无需进行配置。
 + 使用控制台查询所有刷新记录。
-  ![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/cbe883536cfea044eda8679ebc2df9fa.png)
-+ 使用云 API [GetCdnRefreshLog](http://tce.fsphere.cn/doc/api/228/3948) 查询指定时间区间内的刷新日志、刷新次数，可指定URL查询。
+  ![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/cbe883536cfea044eda8679ebc2df9fa.png)
++ 使用云 API [GetCdnRefreshLog](http://tcecqpoc.fsphere.cn/doc/api/228/3948) 查询指定时间区间内的刷新日志、刷新次数，可指定URL查询。

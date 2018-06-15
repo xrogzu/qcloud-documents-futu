@@ -18,7 +18,7 @@ android:exported="false"></provider>
 ```
 3. 【扩展，可选】assets 配置文件
 为了扩展逻辑，支持业务甚至是第三方 SDK 的代码无码加载，我们还支持通过在 assets 目录添加配置文件。
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/c3b50751d87f384ed302236c71991323.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/c3b50751d87f384ed302236c71991323.jpg)
 a. 在 assets 目录下新建 “MTA_SMART_MODULE” 文件
 b. 按以下格式，配置 JSON 文件
 ```
@@ -88,7 +88,7 @@ d. 验证
   iii. 查看 “MtaSDK” 标签的 Logcat 输出
   iv. 自定义方法可参考 MtaNoCodeCustomClassTest.java 文件
   v. logcat 输出示例
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/12bcc89ef43f1ef0d53e7940cd9ee9a8.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/12bcc89ef43f1ef0d53e7940cd9ee9a8.jpg)
 
 ## LBS
 ### 功能说明

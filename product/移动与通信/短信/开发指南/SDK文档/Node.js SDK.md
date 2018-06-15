@@ -9,10 +9,10 @@
 > SDK AppID 是以 14xxxxx 开头。
 
 **2. 申请签名：**
-下发短信必须携带签名，您可以在短信 [控制台](http://console.tce.fsphere.cn/sms) 中申请短信签名，详细申请操作参考 [创建签名](http://tce.fsphere.cn/document/product/382/13481#.E5.88.9B.E5.BB.BA.E7.AD.BE.E5.90.8D)。
+下发短信必须携带签名，您可以在短信 [控制台](http://console.tce.fsphere.cn/sms) 中申请短信签名，详细申请操作参考 [创建签名](http://tcecqpoc.fsphere.cn/document/product/382/13481#.E5.88.9B.E5.BB.BA.E7.AD.BE.E5.90.8D)。
 
 **3. 申请模板：**
-下发短信内容必须经过审核，您可以在短信 [控制台](http://console.tce.fsphere.cn/sms) 中申请短信模板，详细申请操作参考 [创建正文模板](http://tce.fsphere.cn/document/product/382/13481#.E5.88.9B.E5.BB.BA.E6.AD.A3.E6.96.87.E6.A8.A1.E7.89.88)。
+下发短信内容必须经过审核，您可以在短信 [控制台](http://console.tce.fsphere.cn/sms) 中申请短信模板，详细申请操作参考 [创建正文模板](http://tcecqpoc.fsphere.cn/document/product/382/13481#.E5.88.9B.E5.BB.BA.E6.AD.A3.E6.96.87.E6.A8.A1.E7.89.88)。
 
 完成以上三项便可开始代码开发。
 
@@ -32,7 +32,7 @@ npm install qcloudsms_js
 
 ## 快速入门
 
-若您对接口存在疑问，可以查阅 [API 文档](http://tce.fsphere.cn/document/product/382/13297)。
+若您对接口存在疑问，可以查阅 [API 文档](http://tcecqpoc.fsphere.cn/document/product/382/13297)。
 
 - **准备必要参数和实例化 QcloudSms**
 ```javascript

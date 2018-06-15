@@ -5,7 +5,7 @@ CDN 加速适用于对存储桶中的对象进行下载、分发的场景，特�
 
 ### 设置 CDN 加速
 1. 登录 [对象存储控制台](http://console.tce.fsphere.cn/cos4/index) ，进入左侧菜单栏【 Bucket 列表】，点击需要配置域名的存储桶（如 example），进入存储桶。
-![域名管理1](https:https:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/3153ef78fbad0c8e791f1d78d93023ce/image.png)
+![域名管理1](https:https:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/3153ef78fbad0c8e791f1d78d93023ce/image.png)
 2. 单击【域名管理】，进入域名管理页面，单击加速域名的【修改】按钮，进入可配置状态。
 3. 修改当前状态为开启，单击【保存】即可。
 
@@ -29,48 +29,48 @@ example-1234567890.file.myqcloud.com/test.txt
 用户可以通过 COS 控制台为存储桶绑定自定义域名，绑定后可通过自定义域名直接访问存储桶。绑定自定义域名时，需要通过 CDN 控制台创建 CNAME 记录将 `www.example.com`映射到`example-1234567890.cosgz.myqcloud.com。`
 
 >**注意：** 
-绑定存储桶的自定义域名需在工信部 [备案](http://tce.fsphere.cn/product/ba)，否则自定义域名将无法访问。
+绑定存储桶的自定义域名需在工信部 [备案](http://tcecqpoc.fsphere.cn/product/ba)，否则自定义域名将无法访问。
  
 ### 开启 CDN 加速
 #### 添加域名
 1. 登录 [对象存储控制台](http://console.tce.fsphere.cn/cos4/index) ，进入左侧菜单栏【 Bucket 列表】，点击需要配置域名的存储桶（如 example），进入存储桶。
-![域名管理1](https:https:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/3153ef78fbad0c8e791f1d78d93023ce/image.png)
+![域名管理1](https:https:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/3153ef78fbad0c8e791f1d78d93023ce/image.png)
 2. 单击【域名管理】，进入域名管理页面，单击自定义域名下的【+ 添加域名】按钮，进入可配置状态。
-![域名管理5](https:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/de12443b88e07fe20613cf759a60966f/image.png)
+![域名管理5](https:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/de12443b88e07fe20613cf759a60966f/image.png)
 <span id="步骤3"></span>
 3. 输入待绑定的自定义域名（如`www.example.com`），选择开启 CDN 加速，单击【保存】即可完成添加。
-![域名管理6](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/0f961cc797d90a2d59ce73c1d688385a/image.png)
+![域名管理6](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/0f961cc797d90a2d59ce73c1d688385a/image.png)
 4. 请稍等几分钟，等待域名上线。并获取一条对应的 CNAME 记录。
-![域名管理11](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6950a8955b4544e33bb9a4a5b05924c6/image.png)
+![域名管理11](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/6950a8955b4544e33bb9a4a5b05924c6/image.png)
 
 #### 解析域名
 1. 添加自定义域名后，还需进行域名解析。请登录 [域名管理控制台](http://console.tce.fsphere.cn/cns/domains)，单击左侧菜单栏【云解析】>【一级域名】，进入一级域名菜单。单击【+添加域名】，弹出添加域名对话框。
-![域名管理7](https:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6ac3a93bda882224cbd6c2f591397042/image.png)
+![域名管理7](https:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/6ac3a93bda882224cbd6c2f591397042/image.png)
 2. 输入自定义域名，选择所属项目，单击【确定】保存即可。
-![域名管理8](https:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8364ae1f871077a2755c4ea9c8071041/image.png)
+![域名管理8](https:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/8364ae1f871077a2755c4ea9c8071041/image.png)
 3. 域名添加成功后，点击域名，进入解析记录管理页面。单击【+ 添加记录】，弹出添加记录对话框。
-![域名管理9](https:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/34997fe3c0fa5ccf275997ae6a63a0bd/image.png)
+![域名管理9](https:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/34997fe3c0fa5ccf275997ae6a63a0bd/image.png)
 4. 记录类型选择 CNAME，主机记录留空，线路类型选择默认，填入 [步骤 3](#步骤3) 获取的 CNAME 记录，TTL 保持默认，单击【确定】保存即可。完成解析添加后，大约需 15 分钟左右生效，请耐心等待。
-![域名管理10](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8d0fdde4ff83ae50fdfea421935dc93d/image.png)
+![域名管理10](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/8d0fdde4ff83ae50fdfea421935dc93d/image.png)
 
 ### 关闭 CDN 加速
 #### 解析域名
 1. 登录 [对象存储控制台](http://console.tce.fsphere.cn/cos4/index) ，进入左侧菜单栏【 Bucket 列表】，点击需要配置域名的存储桶（如 example），进入存储桶。
-![域名管理1](https:https:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/3153ef78fbad0c8e791f1d78d93023ce/image.png)
+![域名管理1](https:https:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/3153ef78fbad0c8e791f1d78d93023ce/image.png)
 <span id="步骤2"></span>
 2. 单击【域名管理】，复制存储桶的默认域名（[步骤 6](#步骤6) 需要用到）。
 3. 登录 [域名管理控制台](http://console.tce.fsphere.cn/cns/domains)，单击左侧菜单栏【云解析】>【一级域名】，进入一级域名菜单。单击【+添加域名】，弹出添加域名对话框。
-![域名管理7](https:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6ac3a93bda882224cbd6c2f591397042/image.png)
+![域名管理7](https:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/6ac3a93bda882224cbd6c2f591397042/image.png)
 4. 输入自定义域名，选择所属项目，单击【确定】保存即可。
-![域名管理8](https:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8364ae1f871077a2755c4ea9c8071041/image.png)
+![域名管理8](https:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/8364ae1f871077a2755c4ea9c8071041/image.png)
 5. 域名添加成功后，点击域名，进入解析记录管理页面。单击【+ 添加记录】，弹出添加记录对话框。
-![域名管理9](https:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/34997fe3c0fa5ccf275997ae6a63a0bd/image.png)
+![域名管理9](https:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/34997fe3c0fa5ccf275997ae6a63a0bd/image.png)
 <span id="步骤6"></span>
 6. 记录类型选择 CNAME，主机记录留空，线路类型选择默认，记录值填入 [步骤 2 ](#步骤2) 复制的默认域名（以适用于 JSON API 的默认域名为例），TTL 保持默认，单击【确定】保存即可。完成解析添加后，大约需 15 分钟左右生效，请耐心等待。
-![域名管理13](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/0ce1b0776398e43658d80d5d02481283/image.png)
+![域名管理13](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/0ce1b0776398e43658d80d5d02481283/image.png)
 
 #### 添加域名
 1. 返回 [对象存储控制台](http://console.tce.fsphere.cn/cos4/index) ，单击【域名管理】，进入域名管理页面，单击自定义域名下的【+ 添加域名】按钮，进入可配置状态。
-![域名管理5](https:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/de12443b88e07fe20613cf759a60966f/image.png)
+![域名管理5](https:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/de12443b88e07fe20613cf759a60966f/image.png)
 2. 输入待绑定的自定义域名（如 www.example.com ），选择关闭 CDN 加速，单击【保存】即可完成自定义域名配置。
-![域名管理14](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/35c7da7a9cc0a82c062a84d32f0ed100/image.png)
+![域名管理14](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/35c7da7a9cc0a82c062a84d32f0ed100/image.png)

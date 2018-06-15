@@ -14,12 +14,12 @@ CPU 使用率过高可能由硬件因素、系统进程、业务进程或者木�
 1. 登录到 Windows 服务器。
 
 2. 使用 Ctrl+Shift+Esc 或开始菜单右键点击任务管理器打开任务管理器，切换到详细信息 tab，点击 CPU 使进程按照 CPU 使用率降序排列。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b91308226cee8b811038c9915224bc7a/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b91308226cee8b811038c9915224bc7a/image.png)
 
 3. 分析占用 CPU 多的进程。占用 CPU 多的可能为系统、业务抑或是异常进程，下面将例举这三种情况该如何处理：
  1. 系统进程。
 当发现系统进程占用大量 CPU 资源时，需要仔细检查进程名，不少病毒会通过使用跟系统进程相似的名称，迷惑用户的眼睛。例如：svch0st.exe、explore.exe、iexplorer.exe，要仔细甄别。其次要注意检查这些进程对应的可执行文件对应的位置，系统进程一般位于 c:\windows\system32，并且会有完善的签名和介绍，在任务管理器对应的进程处右键，点击打开文件位置，可以查看具体可执行文件的位置。如果进程位置也不是在 c:\windows\system32 目录下，服务器可能中了病毒，请手动或者使用安全工具进行查杀。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/62f986d51ac388281d9a77c0632c878f/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/62f986d51ac388281d9a77c0632c878f/image.png)
 常见的系统进程有：System Idle Process（系统空间进程，显示CPU空闲时间百分比）、system（内存管理进程）、explorer（桌面和文件管理）、iexplore（微软的浏览器）、csrss（微软客户端/服务端运行时子系统）、svchost（系统进程，用于执行 DLL）、Taskmgr（任务管理器）、Isass（本地安全权限服务）等。
 
  2. 异常进程。如果占用大量 CPU 资源的是一些命名很奇怪的进程，可能为木马病毒进程。建议使用搜索引擎进行搜索确认，例如 xmr64.exe（挖矿病毒）等。确认后使用安全工具进行查杀。

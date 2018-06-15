@@ -10,7 +10,7 @@
 - libgsdk.so
 
 2) 将脚本拷贝到项目中；
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/00ec57c83a914d5c00e24d81c04b341d/unity+sdk.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/00ec57c83a914d5c00e24d81c04b341d/unity+sdk.png)
 3) 修改项目中的 AndroidManifest.xml 文件，添加以下权限：
 ```
 <uses-permission android:name="android.permission.INTERNET"/>
@@ -76,7 +76,7 @@ MyMNAObserver *observer = MyMNAObserver::GetInstance();
 6) 完成，按照所需在 Unity 调用相应接口即可。
 
 ## 2 API 接口接入步骤
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/02a007d1996d9bde59be7e1ac721f795/unity+sdk1.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/02a007d1996d9bde59be7e1ac721f795/unity+sdk1.png)
 1. 游戏启动时，调用初始化`Init`。
 2. 游戏登录成功后，需要调用`SetUserName`设置`openid`；并设置加速结果回调`SetObserver`；如果需要接入诊断部分，则还需要调用`SetKartinObserver`函数。
 3. 游戏对局开始时，获取到对局中所使用到的域名或 IP 后，尽可能早的调用`StartSpeed`，玩家因网络或者其他异常无法连接到游戏，重新进行连接时，为保证加速效果，需要再次调用`StartSpeed`；当游戏切换到前台时，调用`GoFront`; 当游戏切换到后台时，调用`GoBack`；当游戏不想进行加速，但依然想保留 SDK 的网络探测功能时可调用`StopMNA`函数。
@@ -345,7 +345,7 @@ public class KartinRet {
 具体设置请参考王者荣耀的示例：（ 红色字体为备注 ）
 
 WIFI 直连环境下图示如下：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8be2ccf30041db352caed1d98b524bab/wifi-android.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/8be2ccf30041db352caed1d98b524bab/wifi-android.png)
 
 4G 直连环境下图示如下：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f62992074419d7e3a8e90c53a7112cf1/4g-android.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/f62992074419d7e3a8e90c53a7112cf1/4g-android.png)

@@ -135,7 +135,7 @@ Authorization 服务使用默认参数即可，不需要额外配置。如果您
 
 ### 3. 下载SDK 
 
-下载 [QQ互联的Android Jar包](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/Android_SDK_V3.3.0.lite.zip) ，并拷贝到应用模块的 libs 文件夹下。
+下载 [QQ互联的Android Jar包](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/Android_SDK_V3.3.0.lite.zip) ，并拷贝到应用模块的 libs 文件夹下。
 
 
 ### 4. 添加SDK依赖

@@ -2,7 +2,7 @@
 多层 Web 应用的隔离部署，用户希望既能保证 Web 接入层能访问 Internet，响应海量请求，同时，需要通过网络隔离保障数据库服务器的安全。
 
 那么，您可以在私有网络内创建不同子网，整个 Web 层放在一个子网，通过配置弹性 IP/网关云服务器/NAT 网关与 Internet 通信，配置负载均衡服务将访问流量自动分配自动分配到多个 Web 接入层云主机上；逻辑层单独放在一个子网，只能和 Web 层及数据层通信；数据层放在另外一个子网，只和逻辑层通信。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b127c404a42371721b7cc4c08b8ce7e0/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b127c404a42371721b7cc4c08b8ce7e0/image.png)
 
 
 ## 解决方案
@@ -43,8 +43,8 @@
 
 ## 操作步骤
 为部署多层 Web 应用，您需要完成以下步骤：
-1. 创建私有网络，点击查看 [操作详情](http://tce.fsphere.cn/document/product/215/4927#.E5.88.9B.E5.BB.BA.E7.A7.81.E6.9C.89.E7.BD.91.E7.BB.9C.E3.80.81.E5.88.9D.E5.A7.8B.E5.8C.96.E5.AD.90.E7.BD.91.E5.92.8C.E8.B7.AF.E7.94.B1.E8.A1.A8)。
-2. 创建web层子网，[添加云主机](http://tce.fsphere.cn/document/product/215/4927#.E5.90.91.E5.AD.90.E7.BD.91.E4.B8.AD.E6.B7.BB.E5.8A.A0.E4.BA.91.E4.B8.BB.E6.9C.BA)，部署负载均衡服务，详情查看部署 [负载均衡实例](http://tce.fsphere.cn/document/product/214/6574#.E8.B4.AD.E4.B9.B0.E5.B9.B6.E5.88.9B.E5.BB.BA.E8.B4.9F.E8.BD.BD.E5.9D.87.E8.A1.A1.E5.AE.9E.E4.BE.8B)。
-3. 创建逻辑层子网，[添加云主机](http://tce.fsphere.cn/document/product/215/4927#.E5.90.91.E5.AD.90.E7.BD.91.E4.B8.AD.E6.B7.BB.E5.8A.A0.E4.BA.91.E4.B8.BB.E6.9C.BA)。
-4. 创建数据层子网，添加云数据库，点击查看 [购买云数据库](http://tce.fsphere.cn/document/product/236/3128)。
-5. 分别为三个子网配置网络 ACL，规则如上表所示，点击查看 [操作详情](http://tce.fsphere.cn/document/product/215/8119)。
+1. 创建私有网络，点击查看 [操作详情](http://tcecqpoc.fsphere.cn/document/product/215/4927#.E5.88.9B.E5.BB.BA.E7.A7.81.E6.9C.89.E7.BD.91.E7.BB.9C.E3.80.81.E5.88.9D.E5.A7.8B.E5.8C.96.E5.AD.90.E7.BD.91.E5.92.8C.E8.B7.AF.E7.94.B1.E8.A1.A8)。
+2. 创建web层子网，[添加云主机](http://tcecqpoc.fsphere.cn/document/product/215/4927#.E5.90.91.E5.AD.90.E7.BD.91.E4.B8.AD.E6.B7.BB.E5.8A.A0.E4.BA.91.E4.B8.BB.E6.9C.BA)，部署负载均衡服务，详情查看部署 [负载均衡实例](http://tcecqpoc.fsphere.cn/document/product/214/6574#.E8.B4.AD.E4.B9.B0.E5.B9.B6.E5.88.9B.E5.BB.BA.E8.B4.9F.E8.BD.BD.E5.9D.87.E8.A1.A1.E5.AE.9E.E4.BE.8B)。
+3. 创建逻辑层子网，[添加云主机](http://tcecqpoc.fsphere.cn/document/product/215/4927#.E5.90.91.E5.AD.90.E7.BD.91.E4.B8.AD.E6.B7.BB.E5.8A.A0.E4.BA.91.E4.B8.BB.E6.9C.BA)。
+4. 创建数据层子网，添加云数据库，点击查看 [购买云数据库](http://tcecqpoc.fsphere.cn/document/product/236/3128)。
+5. 分别为三个子网配置网络 ACL，规则如上表所示，点击查看 [操作详情](http://tcecqpoc.fsphere.cn/document/product/215/8119)。

@@ -9,7 +9,7 @@
 1. 新建：新创建一个Bucket，由于万象优图的存储功能是基于对象存储服务（COS）的，新创建的Bucket也可以在COS控制台里查询到。
 2. 选择已有COS Bucket：通过此种方式，本质上是为一个COS上的Bucket开通图片处理服务。
 
-![创建Bucket](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/9b48fe8d2debeb9dd2651fb89524c417/image.png)
+![创建Bucket](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/9b48fe8d2debeb9dd2651fb89524c417/image.png)
 
 **请注意：**
 
@@ -27,7 +27,7 @@
 
   点击”创建“，即可在页面Bucket列表中看到创建的Bucket：
 
-  ![Bucket列表](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/c80bfdfb9ecda20eecd3ec4b28ea9317/image.jpg)
+  ![Bucket列表](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/c80bfdfb9ecda20eecd3ec4b28ea9317/image.jpg)
 
 
 ## 多园区及访问域名
@@ -42,7 +42,7 @@
 | 华东   | picsh | [bucketname]-[appid].picsh.myqcloud.com | 部署中  |
 | 新加坡  | -     | -                                       | 敬请期待 |
 
-内网跨区域访问： 不同区域的不同云平台产品之间无法直接进行访问。若需要实现内网跨区域的访问， 例如，所在区域为广州的 CVM 需要使用新加坡的 存储服务 上的数据，则需要使用 VPC 部署专属网络通道，实现高速访问体验。 [点击查看 VPC 相关信息](http://tce.fsphere.cn/product/vpc.html)
+内网跨区域访问： 不同区域的不同云平台产品之间无法直接进行访问。若需要实现内网跨区域的访问， 例如，所在区域为广州的 CVM 需要使用新加坡的 存储服务 上的数据，则需要使用 VPC 部署专属网络通道，实现高速访问体验。 [点击查看 VPC 相关信息](http://tcecqpoc.fsphere.cn/product/vpc.html)
 
 ## Bucket删除
 

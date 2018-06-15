@@ -19,9 +19,9 @@
 6、为集群节点选择磁盘、带宽等配置，并设置密码和安全组。
 7、选择集群节点的数目。
 8、稍等几分钟后，集群创建成功。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/bb4d18120964f61680f504f295418db1/image.png)
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f5b0e1faaa7458ea145df50e2d387c3f/image.png)
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/503003ab0d98eb9acf0109ee5b10a00e/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/bb4d18120964f61680f504f295418db1/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/f5b0e1faaa7458ea145df50e2d387c3f/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/503003ab0d98eb9acf0109ee5b10a00e/image.png)
 
 ### 二、创建web应用
 
@@ -36,7 +36,7 @@
 5. 选择服务的访问方式，因为我们的redis服务是内部服务，只提供给集群内其它服务访问，所以我们选择仅在集群内访问。
 6. 最后设置服务的访问端口，我们的服务实例包含1个redis容器，该容器监听了6379端口，所以我们配置端口映射的容器端口为6379，服务端口跟容器端口一样，也设置成6379，这样其它服务可以通过服务名称 redis-master以及端口6379就可以访问到我们的master容器了。
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/0205c172fdcc02921087024c0dfda6fa/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/0205c172fdcc02921087024c0dfda6fa/image.png)
 
 
 #### 2、创建redis-slave服务
@@ -53,7 +53,7 @@
 5. 选择服务的访问方式，因为我们的redis slave服务是内部服务，只提供给集群内其它服务访问，所以我们选择仅在集群内访问。
 6. 最后设置服务的访问端口，我们的服务实例包含1个redis slave容器，该容器监听了6379端口，所以我们配置端口映射的容器端口为6379，服务端口跟容器端口一样，也设置成6379，这样其它服务可以通过服务名称 redis-slave以及端口6379就可以访问到我们的slave容器了。
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/c289316bdb27dbf837cd3cba9de3b9da/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/c289316bdb27dbf837cd3cba9de3b9da/image.png)
 
 
 #### 3、创建frontend服务
@@ -68,14 +68,14 @@
 5. 选择服务的访问方式，因为我们的frontend需要提供外网浏览器访问，我们选择公网负载均衡访问方式。
 6. 最后设置服务的访问端口，我们的服务实例包含1个frontend容器，该容器监听了80端口，所以我们配置端口映射的容器端口为80，服务端口跟容器端口一样，也设置成80，这样，用户通过浏览器访问我们的负载均衡ip就可以访问到我们的frontend容器了。
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/fc06f28b107cae9aed975fddc71bf270/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/fc06f28b107cae9aed975fddc71bf270/image.png)
 
 #### 4、查看服务
 
 点击左侧栏的服务，即可看到我们刚刚创建的三个服务，其中frontend服务可以公网访问，因为我们指定了公网负载均衡访问方式，而redismaster和redisslave服务只能够在集群内被其它服务访问，因为我们设置了访问方式为集群内访问。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f6f97b051b982a79f48972151c2cb9e8/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/f6f97b051b982a79f48972151c2cb9e8/image.png)
 我们注意到，frontend服务的属性里面的ip地址有两个： 一个外网ip 211.159.213.194和一个内网ip 10.20.255.125，而redisslave和redismaster服务分别只有一个内网ip，那是因为frontend服务的访问方式为公网负载均衡方式访问，所以我们为该服务分配了一个公网负载均衡，该外网ip就是公网负载均衡的ip，由于frontend服务的访问端口为80，所以我们可以在浏览器直接输入该外网ip 211.159.213.194，可以看到：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1d2bee6cf0a05db0e12d409cc83995b7/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1d2bee6cf0a05db0e12d409cc83995b7/image.png)
 说明我们可以正常访问frontend服务了，现在就试下在输入框中输入任意的字符串吧，输入后可以看到，我们输入的记录被保存起来，并且展示在页面下方，我们可以开启另外一个浏览页，重新打开这个负载均衡的ip地址，看到之前输入的数据都在，说明我们输入的字符串确实已经保存到了redis。
 
 ### 三、开发实践

@@ -8,7 +8,7 @@ B.附加能力费用(可选)
 
 ## 基础网络费用
 ###  计算公式
- ![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/e045f054cc19ceb13344f2c8c0b7fc03/image.jpg)
+ ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/e045f054cc19ceb13344f2c8c0b7fc03/image.jpg)
  
 友情提示：如果您有较大的业务量或单独接入服务需求，可通过云平台客户经理进一步协商定制相关价格
 
@@ -133,7 +133,7 @@ B.附加能力费用(可选)
 ### 核心机房（DC）
 •	可以上下行音视频数据，适用于多人音视频互动
 #### 需要大比率用到DC的情况：
-(1)当观众端有上行音视频权限时 (【注意】观众端是否上麦是由开发者进行设定切换的，设定错误会导致大量流量走DC，请务必认真阅读具体设定方法：[点击此处查看](http://tce.fsphere.cn/doc/product/268/3227))
+(1)当观众端有上行音视频权限时 (【注意】观众端是否上麦是由开发者进行设定切换的，设定错误会导致大量流量走DC，请务必认真阅读具体设定方法：[点击此处查看](http://tcecqpoc.fsphere.cn/doc/product/268/3227))
 (2)如果没有上行音视频流量，当房间人数较少(比如小于等于5人)由于流程是主播--->DC--->OC--->观众，使用OC会导致 DC-->OC 流量浪费，所以也直接用DC流量下行)
 
 ### 边缘节点(OC)
@@ -142,11 +142,11 @@ B.附加能力费用(可选)
 
 ### 流量图解
 #### 无上麦，且房间人数大于5人的图解
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/1cb95629a1101c5381ce64194b478fbd/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/1cb95629a1101c5381ce64194b478fbd/image.png)
 
 #### 无上麦，且房间人数小于等于5人的图解
 当房间人数较少，使用OC会导致 DC-->OC 流量浪费，所以直接通过DC下行
- ![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/3dd9c91f847457a5d456256d895f56d4/image.jpg)
+ ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/3dd9c91f847457a5d456256d895f56d4/image.jpg)
  
 ####  有观众上麦的图解
- ![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/1e463c571da0514f6c01e3aa3b6f9bf5/image.jpg)
+ ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/1e463c571da0514f6c01e3aa3b6f9bf5/image.jpg)

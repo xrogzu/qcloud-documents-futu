@@ -1,5 +1,5 @@
 ## 相关说明
-云平台MongoDB默认提供了“rwuser”和“mongouser”两个用户名分别支持“MONGODB-CR”和“SCRAM-SHA-1”两种认证方式，对于这两种认证方式，连接URI需要做不同的处理，具体参见[连接示例](http://tce.fsphere.cn/doc/product/240/3563)一文。
+云平台MongoDB默认提供了“rwuser”和“mongouser”两个用户名分别支持“MONGODB-CR”和“SCRAM-SHA-1”两种认证方式，对于这两种认证方式，连接URI需要做不同的处理，具体参见[连接示例](http://tcecqpoc.fsphere.cn/doc/product/240/3563)一文。
 
 Python 驱动下载 [pymongo](https://pypi.python.org/pypi/pymongo/)
 

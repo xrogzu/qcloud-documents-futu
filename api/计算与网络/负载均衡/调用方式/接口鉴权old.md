@@ -8,7 +8,7 @@
 1. 登录 [云平台管理中心控制台](http://console.tce.fsphere.cn/)。
 
 2. 点击【云产品】，选择【监控与管理】栏下的【云 API 密钥】，进入云 API 密钥管理页面。
-![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/de0151670e4880aaaf0a5e4ec4e769bb.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/de0151670e4880aaaf0a5e4ec4e769bb.png)
 
 3. 在 [云 API 访问密钥管理](http://console.tce.fsphere.cn/capi) 页面，点击【新建】即可以创建 SecretId， 每个帐号最多可以创建两个 Secret ID。
 

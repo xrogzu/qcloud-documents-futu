@@ -74,7 +74,7 @@ PostgreSQL目前仍在免费使用期内。预计将于2016年12月开始以按�
 
 1、在“管理中心—云数据库—PostgreSQL—续费”中选择选择相应的实例，点击“续费”或“批量续费”
 2、在“用户中心->续费管理 ->云数据库（PostgreSQL）”待续费项，选择选择相应的实例，点击“续费”或“批量续费”，如下图：
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/ac67608a62020ce34e84c7e985eafc0a/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/ac67608a62020ce34e84c7e985eafc0a/image.png)
 3、在“用户中心->续费管理 ->云数据库（PostgreSQL）”待续费项中，也选择响应的实例，支持自动续费，或到期不续费等操作。
 
 ### 续费费用
@@ -85,7 +85,7 @@ PostgreSQL目前仍在免费使用期内。预计将于2016年12月开始以按�
 
 ## 到期提醒
 
-- 云服务资源到期前七天，系统会开始给用户发送续费提醒通知。[提醒规则](http://tce.fsphere.cn/doc/product/285/4108)
+- 云服务资源到期前七天，系统会开始给用户发送续费提醒通知。[提醒规则](http://tcecqpoc.fsphere.cn/doc/product/285/4108)
 
 - 到期后，七天内，云服务还可以继续使用，需要尽快续费，系统将发送云服务到期提醒。
 

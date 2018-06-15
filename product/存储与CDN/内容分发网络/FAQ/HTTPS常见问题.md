@@ -11,7 +11,7 @@
 	+ CDN HTTPS目前支持的 ssl\_protocols：TLSv1、TLSv1.1、TLSv1.2。
 
 + 配置证书时，提示证书链不齐全？
-	+ CDN 目前支持的是 PEM 格式的证书，在上传时，需要把CA的证书贴在域名证书后，进行上传，具体方法 [点击查看](http://tce.fsphere.cn/document/product/228/6303#.E8.AF.81.E4.B9.A6.E9.93.BE.E8.A1.A5.E9.BD.90) 。
+	+ CDN 目前支持的是 PEM 格式的证书，在上传时，需要把CA的证书贴在域名证书后，进行上传，具体方法 [点击查看](http://tcecqpoc.fsphere.cn/document/product/228/6303#.E8.AF.81.E4.B9.A6.E9.93.BE.E8.A1.A5.E9.BD.90) 。
 
 + 配置证书时，提示证书不匹配？
 	+ 您可以采用【批量上传】方式，将证书贴入后，CDN会为您分析能够使用该证书的域名，检查是否上传错误证书，或要配置的域名尚未接入CDN。

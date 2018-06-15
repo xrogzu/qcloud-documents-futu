@@ -22,10 +22,10 @@ CAM 相关术语、配置详细描述请查看 [CAM 概述](/doc/product/598/105
 ### 步骤一：创建子账号
 在 CAM 控制台可创建子账号，并配置授予子账号的访问权限。具体操作如下所示：
 1. 登陆 [CAM控制台](http://console.tce.fsphere.cn/cam)，单击左侧菜单栏【用户管理】，单击页面按钮【新建用户】：
- ![子账户1](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/5d9194888617f10bfde81afa01c69e0b/image.png)
+ ![子账户1](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/5d9194888617f10bfde81afa01c69e0b/image.png)
  
 2. 按照要求填写用户相关信息。
- ![子账户2](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/97dbdb848557f0195f90e1a78561eb37/image.png)
+ ![子账户2](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/97dbdb848557f0195f90e1a78561eb37/image.png)
 > **注意：**
 > “登陆帐号”为可登陆云平台的账号，可添加三种类型账号为子账号，添加方式如下：
  - 邮箱：请输入已注册云平台的邮箱或对应账号 ID；
@@ -33,23 +33,23 @@ CAM 相关术语、配置详细描述请查看 [CAM 概述](/doc/product/598/105
  - QQ号：请输入QQ号或其账号 ID。
 
 3. 根据系统提供的策略选择，可配置简单的策略，如 COS 的读写权限，只读权限等。如需配置更复杂的策略，可参考 [步骤二：对子账号授予权限](#对子账号授予权限)。
-![子账户3](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8c3be83e576d892c99b90190d5f5c0b2/image.png)
+![子账户3](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/8c3be83e576d892c99b90190d5f5c0b2/image.png)
 
 <span id="对子账号授予权限"></span>
 ### 步骤二：对子账号授予权限
 对子账号授予权限可通过 CAM，对子账号（用户）或用户组进行策略配置。
 1. 登陆 [CAM 控制台](http://console.tce.fsphere.cn/cam)，点击左侧菜单栏【策略管理】，点击标签页【自定义策略】，单击按钮【新建自定义策略】：
-![4](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/c1edfdc87bc078d8bc8f0fb052313d28/image.png)
+![4](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/c1edfdc87bc078d8bc8f0fb052313d28/image.png)
 2. 选择【按策略语法创建】，进入创建页面。
-![5](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/94801671fcdff7b80dc973d9ee0e1165/image.png)
+![5](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/94801671fcdff7b80dc973d9ee0e1165/image.png)
 3. 可供选择的模版有空白模板和已有的 COS 模板，您可以根据实际情况进行选择。
-![6](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8ee0f66634765849bb90a1a2d60806a5/image.png)
+![6](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/8ee0f66634765849bb90a1a2d60806a5/image.png)
 4. 编辑策略，COS 常见场景的策略请参见 [CAM 产品文档](/doc/product/598) 的商用案例部分。您可将策略内容复制粘贴到【编辑策略内容】输入框内。
-![7](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2a5ce2ce4863f1a537dc74d45284ee5d/image.png)
+![7](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/2a5ce2ce4863f1a537dc74d45284ee5d/image.png)
 5. 创建完成后，可将策略关联到子账户。
-![8](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/3517b05ee79c818883d1ecf96dbbad89/image.png)
+![8](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/3517b05ee79c818883d1ecf96dbbad89/image.png)
 完成子账户授权，子账号即可根据权限范围访问 COS 资源。
-![9](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/606cdbcdccb90cf65dbc8826bc7d92da/image.png)
+![9](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/606cdbcdccb90cf65dbc8826bc7d92da/image.png)
  
 
 本文还通过以下策略示例说明几种典型场景，详情参见 [策略示例](#策略示例)：
@@ -61,9 +61,9 @@ CAM 相关术语、配置详细描述请查看 [CAM 概述](/doc/product/598/105
 COS 访问（API/SDK）需要如下资源：APPID、SecretId、SecretKey。
 当使用子账号访问 COS 资源时，需要使用根账号的 APPID，子账号的 SecretId 和 SecretKey，您可以在访问管理控制台创建子账号的 SecretId 和 SecretKey。
 1. 子账号登陆  [访问管理控制台](http://console.tce.fsphere.cn/cam/capi)  时，需选择对应的根账号（开发商账号）。
-![10](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7f109890f04a9f57f3b8c924b3788e2d/image.png)
+![10](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/7f109890f04a9f57f3b8c924b3788e2d/image.png)
 2. 登陆后，单击按钮【新建密钥】，即可创建子账号的 SecretID 和 SecretKey，APPID 需由根账号提供。
-![11](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/294e294ef54662dedf57af975b7bea75/image.png)
+![11](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/294e294ef54662dedf57af975b7bea75/image.png)
 
 
 > **注意：**

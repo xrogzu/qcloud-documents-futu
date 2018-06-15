@@ -12,7 +12,7 @@
 
 1. 获取源码
 [从 Github 访问 >>](https://github.com/QcloudApi/qcloudapi-sdk-java)
-[点击下载 Java SDK >>](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/72dbc1a82ad8e18dead2e6dc07acd5d7/qcloudapi-sdk-java-master.zip)
+[点击下载 Java SDK >>](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/72dbc1a82ad8e18dead2e6dc07acd5d7/qcloudapi-sdk-java-master.zip)
 
 2. maven
 详情请点击查看[maven依赖项](https://mvnrepository.com/artifact/com.qcloud/qcloud-java-sdk)，以2.0.1版本的JAVA SDK为例，只需在pom.xml添加以下依赖项即可：
@@ -30,7 +30,7 @@
 ## 示例
 
 ### 公共说明
-见不同模块API的公共参数、API概览、错误码。如[云服务器API公共参数](http://tce.fsphere.cn/document/api/213/6976)、[云服务器API概览](http://tce.fsphere.cn/doc/api/229/API%E6%A6%82%E8%A7%88)、[云服务器API错误码](http://tce.fsphere.cn/doc/api/229/%E9%94%99%E8%AF%AF%E7%A0%81)。
+见不同模块API的公共参数、API概览、错误码。如[云服务器API公共参数](http://tcecqpoc.fsphere.cn/document/api/213/6976)、[云服务器API概览](http://tcecqpoc.fsphere.cn/doc/api/229/API%E6%A6%82%E8%A7%88)、[云服务器API错误码](http://tcecqpoc.fsphere.cn/doc/api/229/%E9%94%99%E8%AF%AF%E7%A0%81)。
 
 
 
@@ -54,7 +54,7 @@ public static void main(String[] args) {
      */
     /*
      * DescribeInstances
-     * 的api文档地址：http://tce.fsphere.cn/wiki/v2/DescribeInstances
+     * 的api文档地址：http://tcecqpoc.fsphere.cn/wiki/v2/DescribeInstances
      */
     QcloudApiModuleCenter module = new QcloudApiModuleCenter(new Cvm(),config);
     TreeMap<String, Object> params = new TreeMap<String, Object>();

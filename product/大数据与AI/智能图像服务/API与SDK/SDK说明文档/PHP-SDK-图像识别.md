@@ -4,7 +4,7 @@
 ## 快速入门
 
 ### 在云平台申请业务的授权
-授权包括： APPID 、SecretId 、 SecretKey 及存储桶名（可参考 [域名管理](http://tce.fsphere.cn/document/product/460/6937) ）。
+授权包括： APPID 、SecretId 、 SecretKey 及存储桶名（可参考 [域名管理](http://tcecqpoc.fsphere.cn/document/product/460/6937) ）。
 
 ### 创建对应操作类的对象
 如果要使用图片，需要创建图片操作类对象：

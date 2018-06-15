@@ -84,37 +84,37 @@
  2. 单击【开始】-【服务器管理器】-【工具】-【计算机管理】-【存储】-【磁盘管理】。
 
  3. 在磁盘1上右键单击，选择【联机】：
-	![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1217193557509925a622dcdb81aa2e35/image.png)
+	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1217193557509925a622dcdb81aa2e35/image.png)
 
  4. 右键单击，选择【初始化磁盘】：
-	![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/94ab92867d77ea69bc803a0b20f2b941/image.png)
+	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/94ab92867d77ea69bc803a0b20f2b941/image.png)
 
  5. 根据分区方式的不同，选择【GPT】或【MBR】，单击【确定】按钮：
  > **注意：**
  > 磁盘大于 2TB 时仅支持 GPT 分区形式。若您不确定磁盘后续扩容是否会超过该值，则建议您选择 GPT 分区；若您确定磁盘大小不会超过该值，则建议您选择 MBR 分区以获得更好的兼容性。
-	![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1f7b0f72767193cfa662e188c86cf31b/image.png)
+	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1f7b0f72767193cfa662e188c86cf31b/image.png)
 
 ### 磁盘分区（可选）
 
  1. 在未分配的空间处右击，选择【新建简单卷】：
-	![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/a6ca720af2082d7a470ece17a8e13f5d/image.png)
+	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a6ca720af2082d7a470ece17a8e13f5d/image.png)
 
  2. 在弹出的“新建简单卷向导”窗口中，单击【下一步】：
-	![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/10fdcd70b510a57919c6a40cf43452a7/image.png)
+	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/10fdcd70b510a57919c6a40cf43452a7/image.png)
 
  3. 输入分区所需磁盘大小，单击【下一步】：
-	![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/05c8d1425a0208597b1d2c75a9c811b6/image.png)
+	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/05c8d1425a0208597b1d2c75a9c811b6/image.png)
 
  4. 输入驱动器号，单击【下一步】：
-	![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/737ed569049ad617715efb06fe44e7b2/image.png)
+	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/737ed569049ad617715efb06fe44e7b2/image.png)
 
  5. 选择文件系统，格式化分区，单击【下一步】：
-	![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/896cb3f2705fb9fcd04c236b8fb9ec59/image.png)
+	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/896cb3f2705fb9fcd04c236b8fb9ec59/image.png)
 
  6. 完成新建简单卷，单击【完成】：
-	![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1e257b9c76d80f30b34f612496b8007b/image.png)
+	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1e257b9c76d80f30b34f612496b8007b/image.png)
 
  7. 在【开始】中打开【这台电脑】，查看新分区：
-	![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1cbb4ad1c3c01852a00a1415526a3e12/image.png)
+	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1cbb4ad1c3c01852a00a1415526a3e12/image.png)
 
 **至此，您已完成 Windows 系统的云服务器的创建和基础配置。**

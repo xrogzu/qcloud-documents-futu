@@ -28,6 +28,6 @@ ii. 将下面的启动接口添加到您的 AndroidManifest.xml 中的 LAUNCHER 
 请添加一整个 intent-filter 区块，并确保其中只有一个 data 字段。
 >**注意：**
 >配置 Scheme 的时候不要复制空格，否则会链接不成功。
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ac5b407da039b3ac842a229c693b58b4/image.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ac5b407da039b3ac842a229c693b58b4/image.jpg)
 
 4. 初始化SDK ，在应用 Application 的 onCreat 里面添加 StatisticsDataAPI.instance(this)。

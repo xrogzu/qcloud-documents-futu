@@ -1,7 +1,7 @@
 本页面为万象优图V2加强版的Restful API文档。
 
 1. 旧版本（V1和V2版本）的Restful API参见[万象优图Restful API文档-V1](/doc/product/275/RESTful API_V1)和[万象优图Restful API文档-V2](/doc/product/275/RESTful API_V2)。
-2. 如果您使用的是万象优图2.0，则APPID是以125为前三位的的，请查看[新版文档](http://tce.fsphere.cn/doc/product/460/6818)。
+2. 如果您使用的是万象优图2.0，则APPID是以125为前三位的的，请查看[新版文档](http://tcecqpoc.fsphere.cn/doc/product/460/6818)。
 
 注意：各版本只能使用属于其的CGI，请不要混用。具体版本说明请参照[版本说明](/doc/product/275/版本说明)。
 
@@ -19,11 +19,11 @@
 签名分为单次签名和多次签名, 区别为（可参见[签名适用场景](/doc/product/275/签名与鉴权文档#4-.E7.AD.BE.E5.90.8D.E9.80.82.E7.94.A8.E5.9C.BA.E6.99.AF)）: 
 如果针对资源进行写操作(资源删除和资源复制), 那么这个签名必须是单次有效的，重复使用该签名则会返回签名失败；
 如果是上传一个新的资源，那么这个签名可以是多次有效的。有效时长最多为三个月。
-开发者可以通过[服务器SDK文档](http://tce.fsphere.cn/doc/product/275/SDK%E4%B8%8B%E8%BD%BD)生成签名，也可以参考我们的签名函数自行生成签名，具体生成方式详见[鉴权签名方法](/doc/product/275/3805)。
+开发者可以通过[服务器SDK文档](http://tcecqpoc.fsphere.cn/doc/product/275/SDK%E4%B8%8B%E8%BD%BD)生成签名，也可以参考我们的签名函数自行生成签名，具体生成方式详见[鉴权签名方法](/doc/product/275/3805)。
 
 ## 3	图片上传
 
-<font color=red>说明</font>：如果您使用的是万象优图2.0，则APPID是以125为前三位的的，您需要使用COS的上传接口，请查看[新版文档](http://tce.fsphere.cn/doc/api/264/6005)。
+<font color=red>说明</font>：如果您使用的是万象优图2.0，则APPID是以125为前三位的的，您需要使用COS的上传接口，请查看[新版文档](http://tcecqpoc.fsphere.cn/doc/api/264/6005)。
 
 ### 3.1 直接上传
 功能: 直接上传单张图片, 只支持POST表单(multipart/form-data)方式, 目前只支持20M以内的图片。
@@ -105,7 +105,7 @@ Content-Type: image/jpeg
 
 ### 3.2 分片上传
 
-<font color=red>说明</font>：如果您使用的是万象优图2.0，则APPID是以125为前三位的的，您需要使用COS的上传接口，请查看[新版文档](http://tce.fsphere.cn/doc/api/264/6006)。
+<font color=red>说明</font>：如果您使用的是万象优图2.0，则APPID是以125为前三位的的，您需要使用COS的上传接口，请查看[新版文档](http://tcecqpoc.fsphere.cn/doc/api/264/6006)。
 
 功能: 将文件分成固定大小片段上传, 适用于图片文件偏大的情况(如大于5MB)。目前单张图片大小限制为20MB。
 接口:`http://web.image.myqcloud.com/photos/v2/[appid]/[bucket]/[userid]/[fileid]` (自定义fileid)
@@ -453,7 +453,7 @@ http://v2test-10000812.image.myqcloud.com/tencentyunRestAPITest?imageMogr2/thumb
 ```
 
 九宫格方位图：
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/apicankao-3.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/apicankao-3.jpg)
 
 裁剪操作表格（cropSize）：
 

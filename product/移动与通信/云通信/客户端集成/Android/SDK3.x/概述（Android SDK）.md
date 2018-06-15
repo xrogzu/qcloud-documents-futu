@@ -11,7 +11,7 @@ ImSDK 支持 JDK 1.6 和 Android SDK version 14 以上系统。
 
 ### 下载 ImSDK
 
-从[官网](http://tce.fsphere.cn/product/im.html#sdk)下载 ImSDK ，包含以下库文件：
+从[官网](http://tcecqpoc.fsphere.cn/product/im.html#sdk)下载 ImSDK ，包含以下库文件：
 
 ```
 libs
@@ -166,7 +166,7 @@ libs
 
 **会话：**ImSDK 中会话(Conversation)分为两种，一种是 C2C 会话，表示单聊情况自己与对方建立的对话，读取消息和发送消息都是通过会话完成；另一种是群会话，表示群聊情况下，群内成员组成的会话，群会话内发送消息群成员都可接收到。如下图所示，一个会话表示与一个好友的对话。
 
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/6a12c1ea947e7b36a7abe25e55c33608/image.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/6a12c1ea947e7b36a7abe25e55c33608/image.jpg)
 
 **消息：**ImSDK 中消息(Message)表示要发送给对方的内容，消息包括若干属性，如是否自己已读，是否已经发送成功，发送人帐号，消息产生时间等；一条消息由若干 Elem 组合而成，每种 Elem 可以是文本、图片、表情等等，消息支持多种 Elem 组合发送。
 

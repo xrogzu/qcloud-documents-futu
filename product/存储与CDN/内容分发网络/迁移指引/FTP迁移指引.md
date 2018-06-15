@@ -5,7 +5,7 @@
 #### 1 创建Bucket
 
 登陆 [COS控制台](http://console.tce.fsphere.cn/cos)，若未开通，请点击开通COS对象存储服务，在左侧点击【Bucket列表】：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b87d5d718cf5c7e8b6d93cd2acc78783/cos-1.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b87d5d718cf5c7e8b6d93cd2acc78783/cos-1.png)
 
 点击页面上【创建Bucket】按钮，填充如下项：
 
@@ -17,22 +17,22 @@
 
 访问权限：选择【公有读私有写】
 
-CDN加速：选择【关闭】![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e765dd971cb4a4ce2bae8d670e2a4e43/create_bucket.png)
+CDN加速：选择【关闭】![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/e765dd971cb4a4ce2bae8d670e2a4e43/create_bucket.png)
 
 此时可以看到该 bucket 对应默认域名：
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/448abcbf4f9f0ec86dac6449d7fbc184/domain-name.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/448abcbf4f9f0ec86dac6449d7fbc184/domain-name.png)
 
 选择【基础配置】，在下方开启该 bucket 的【静态网站】功能：
 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e7d6f2f605c3504efa713b2997f0f347/open_static_web.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/e7d6f2f605c3504efa713b2997f0f347/open_static_web.png)
 
 
 
 #### 2  同步资源
 
 利用COS本地同步工具，将资源同步至指定 bucket，使用方式可参考：
-http://tce.fsphere.cn/document/product/436/7133
+http://tcecqpoc.fsphere.cn/document/product/436/7133
 
 
 
@@ -40,5 +40,5 @@ http://tce.fsphere.cn/document/product/436/7133
 
 请保证COS中的资源路径与原有FTP中资源路径一致，然后通过工单系统提交加速域名与要切换的COS bucket 域名，我们会协助您进行切换。
 
-切换成功后，所有资源均从COS中获取，文件管理操作可通过COS进行，更多COS使用指南可参考：http://tce.fsphere.cn/document/product/436。
+切换成功后，所有资源均从COS中获取，文件管理操作可通过COS进行，更多COS使用指南可参考：http://tcecqpoc.fsphere.cn/document/product/436。
 

@@ -30,4 +30,4 @@
 | 批量已发布消息的大小  | 生产者批量发送消息到主题的消息总大小 | 个    | 每主题  |
 
 
-有关更多如何使用 CMQ 的监控指标内容，可以查看云监控 API 中的[读取消息队列监控数据接口](http://tce.fsphere.cn/document/product/248/11013)。
+有关更多如何使用 CMQ 的监控指标内容，可以查看云监控 API 中的[读取消息队列监控数据接口](http://tcecqpoc.fsphere.cn/document/product/248/11013)。

@@ -1,8 +1,8 @@
 ## 1 概述
-使用实时语音，需要先调用[基本API](http://tce.fsphere.cn/document/product/556/7675)。
+使用实时语音，需要先调用[基本API](http://tcecqpoc.fsphere.cn/document/product/556/7675)。
 
 ## 2 实时语音API调用流程 
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/69e8fafb64190a5ddc1f18a954d977ce/j2.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/69e8fafb64190a5ddc1f18a954d977ce/j2.png)
 
 **流程说明**   
 1.调用`SetMode()`方法设置使用实时语音模式。  

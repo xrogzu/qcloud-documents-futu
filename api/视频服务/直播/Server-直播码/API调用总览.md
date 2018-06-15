@@ -1,24 +1,24 @@
 ﻿
 ## 调用方式
 下图是直播码后台接口的调用方式，简单分为两种，主动请求和被动通知：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ae90fa870c89c023a409988377de0bdc/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ae90fa870c89c023a409988377de0bdc/image.png)
 
 ### 主动请求
 即客户服务器主动调用云平台后台API查询所需的信息或者对直播流进行控制，包括如下API:
 
 | API                                | 功能介绍                                                   |
 |---------------------------------|--------------------------------------------------------------|
-| [Get_LiveStat](http://tce.fsphere.cn/doc/api/258/6110)  | 统计信息查询 - 查询推流和播放相关信息|
-| [Get_LivePushStat](http://tce.fsphere.cn/doc/api/258/6110) | 统计信息查询 - 查询推流相关信息|
-| [Get_LivePlayStat](http://tce.fsphere.cn/doc/api/258/6110)  |  统计信息查询 - 查询播放相关信息 |
-| [Live_Channel_GetStatus](http://tce.fsphere.cn/doc/api/258/5958) |  仅查询某条流的状态信息（旧版本接口） | 
-| [Live_Channel_SetStatus](http://tce.fsphere.cn/doc/api/258/5959) | 对某条流实行**禁播**操作，主要用于鉴黄场景 | 
-| [Live_Tape_GetFilelist](http://tce.fsphere.cn/doc/api/258/5960)| 查询某条流在直播过程中的**录制**文件列表 | 
-| [Live_Queue_Get](http://tce.fsphere.cn/doc/api/258/5961)| 查询某条流在直播过程中的**截图**文件列表 | 
+| [Get_LiveStat](http://tcecqpoc.fsphere.cn/doc/api/258/6110)  | 统计信息查询 - 查询推流和播放相关信息|
+| [Get_LivePushStat](http://tcecqpoc.fsphere.cn/doc/api/258/6110) | 统计信息查询 - 查询推流相关信息|
+| [Get_LivePlayStat](http://tcecqpoc.fsphere.cn/doc/api/258/6110)  |  统计信息查询 - 查询播放相关信息 |
+| [Live_Channel_GetStatus](http://tcecqpoc.fsphere.cn/doc/api/258/5958) |  仅查询某条流的状态信息（旧版本接口） | 
+| [Live_Channel_SetStatus](http://tcecqpoc.fsphere.cn/doc/api/258/5959) | 对某条流实行**禁播**操作，主要用于鉴黄场景 | 
+| [Live_Tape_GetFilelist](http://tcecqpoc.fsphere.cn/doc/api/258/5960)| 查询某条流在直播过程中的**录制**文件列表 | 
+| [Live_Queue_Get](http://tcecqpoc.fsphere.cn/doc/api/258/5961)| 查询某条流在直播过程中的**截图**文件列表 | 
 
 
 ### 被动通知
-[通知服务](http://tce.fsphere.cn/doc/api/258/5957)，即云平台后台服务集群在一些关键事情发生时，以事件的形式主动通知客户服务器，需要客户提前到云平台注册接收事件通知的URL，目前支持的通知类型有：
+[通知服务](http://tcecqpoc.fsphere.cn/doc/api/258/5957)，即云平台后台服务集群在一些关键事情发生时，以事件的形式主动通知客户服务器，需要客户提前到云平台注册接收事件通知的URL，目前支持的通知类型有：
  
 | 事件类型（event_type）   | 功能介绍                                                          |
 |:-------------------------------:|--------------------------------------------------------------|
@@ -34,7 +34,7 @@
 - **t（过期时间）**：如果一个API请求或者通知中的 t 值所规定的时间已经过期，则可以判定这个请求或者通知为无效的，这样做可以防止网络重放攻击。t 的格式为UNIX时间戳，即从1970年1月1日（UTC/GMT的午夜）开始所经过的秒数。
 
 - **sign（安全签名）**:  <font color='blue'>sign = MD5(key + t) </font>，即把加密key 和 t 进行字符串拼接后，计算一下md5值。这里的key即CGI调用key，您在云平台直播管理控制台开通直播码服务时可以指定，如下图所示：
-![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/28a16dbab36fc3867301d2311204b8e4/image.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/28a16dbab36fc3867301d2311204b8e4/image.png)
 
 由于MD5是不可逆的hash算法，所以只要确保KEY不泄露，即使攻击者拿到很多对t和sign也无法反算出KEY值，进而无法进行伪装攻击。
 

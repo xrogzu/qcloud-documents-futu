@@ -3,7 +3,7 @@
 Domain name: live.api.qcloud.com
 API name: StopRecord
 
-Note: Recording files are stored on the VOD platform. If you want to use the recording function, you need to activate a VOD account first and then ensure that the account is available. When recording files are stored, the charges (including charges for storage and downstream playback traffic) are calculated with VOD billing method. For more information, refer to [Relevant Document](http://tce.fsphere.cn/document/product/267/2818).
+Note: Recording files are stored on the VOD platform. If you want to use the recording function, you need to activate a VOD account first and then ensure that the account is available. When recording files are stored, the charges (including charges for storage and downstream playback traffic) are calculated with VOD billing method. For more information, refer to [Relevant Document](http://tcecqpoc.fsphere.cn/document/product/267/2818).
 
 
 ## 2. Input parameters
@@ -56,7 +56,7 @@ Note: Recording files are stored on the VOD platform. If you want to use the rec
 Input 1
 <pre>
 
-http://domain/v2/index.php?Action=StopRecord&channelId=123&taskId=1&<a href="http://tce.fsphere.cn/doc/api/229/6976">Public Request Parameters</a>
+http://domain/v2/index.php?Action=StopRecord&channelId=123&taskId=1&<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">Public Request Parameters</a>
 
 
 </pre>

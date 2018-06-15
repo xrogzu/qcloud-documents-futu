@@ -7,7 +7,7 @@ SDK工具包目录结构说明:
 本SDK运行环境与项目要求:
 > 适用于iOS6.0及以上的系统版本
 > 
-[IOS-SDK下载](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/archive/e712602cb7317ed4642b2d785caf2f60/iOS_SDK_Demo_20170816.zip)
+[IOS-SDK下载](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/e712602cb7317ed4642b2d785caf2f60/iOS_SDK_Demo_20170816.zip)
 
 ### 2 接口说明
 ```

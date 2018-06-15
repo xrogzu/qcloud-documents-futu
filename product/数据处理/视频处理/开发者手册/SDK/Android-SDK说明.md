@@ -4,11 +4,11 @@
 ### 2.1 导入SDK
 将SDK包中的libs目录合并到本地工程的libs目录，然后配置工程导入所有jar包。
 上传SDK的libs目录如下：
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/SDK-and-1.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/SDK-and-1.jpg)
 PS：如果工程中含有armeabi-v7a，则上述so也需要拷贝一份到此目录下，否则由于android系统的问题在安装apk之后会找不到so。
 <font color='red'>so兼容x86架构，若项目需要兼容x86，则将sdk中的so复制一份放入x86目录下即可。</font>
 下载SDK的libs目录如下：
-![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/SDK-and-2.jpg)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/SDK-and-2.jpg)
 
 ### 2.2 配置manifest
 SDK需要网络访问相关的一些权限，需要在manifest中进行权限声明如下所示：
@@ -560,7 +560,7 @@ Downloader.uploadLog(APPID, beginDate, endDate);
 
 ## 5 文件SDK
 ### 5.1 初始化
-见[3.1初始化](http://tce.fsphere.cn/doc/product/314/Android-SDK%E8%AF%B4%E6%98%8E#3.1-.E5.88.9D.E5.A7.8B.E5.8C.96)章节
+见[3.1初始化](http://tcecqpoc.fsphere.cn/doc/product/314/Android-SDK%E8%AF%B4%E6%98%8E#3.1-.E5.88.9D.E5.A7.8B.E5.8C.96)章节
 -   示例
 
 ```
@@ -948,7 +948,7 @@ videoUploadMgr.upload(task);  // 开始上传
 ```
 
 ### 5.7 暂停、恢复、取消上传
-见[3.3暂停、恢复、取消上传](http://tce.fsphere.cn/doc/product/314/Android-SDK%E8%AF%B4%E6%98%8E#3.3-暂停、恢复、取消上传)章节
+见[3.3暂停、恢复、取消上传](http://tcecqpoc.fsphere.cn/doc/product/314/Android-SDK%E8%AF%B4%E6%98%8E#3.3-暂停、恢复、取消上传)章节
 ### 5.8 对象查询
 查询Bucket、目录、文件等对像的详细信息，步骤如下:
 1. 通过path和ObjectType创建ObjectStatTask对象

@@ -1,11 +1,11 @@
 云平台私有网络VPC可以通过加密的VPN通道连接客户IDC，只需在VPC及用户IDC中设置VPN网关及对端网关即可。客户如果暂时不打算使用cisco、juniper或H3C等厂家的硬件vpn设备，也可以使用开源软件在服务器上搭建对端网关。本文以在CentOS上安装ipsec-tools为例，介绍如何通过开源软件连接云平台VPC，建立混合云场景。
 
 ## 1. 环境说明
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56c6836ccfc95.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img56c6836ccfc95.png)
 
 如上图所示，左边是您在云平台上建立的私有网络。为了将VPC与右边的客户IDC互通，可以利用公网在两者之间建立加密Ipsec VPN通道，保障传输数据的安全可靠。
 
-首先您需要在云平台上建立您的私有网络，并根据您的需求规划子网、购买VPN网关，并设置好到需要互通的IDC网络的VPC路由（注意路由设置中“下一跳”请选择您购买的VPN网关）。具体操作步骤请见[创建私有网络及子网](http://tce.fsphere.cn/doc/product/215/%E5%88%9B%E5%BB%BA%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%E5%8F%8A%E5%AD%90%E7%BD%91)、[向私有网络中添加云服务](http://tce.fsphere.cn/doc/product/215/%E5%90%91%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%E4%B8%AD%E6%B7%BB%E5%8A%A0%E4%BA%91%E6%9C%8D%E5%8A%A1)、[关联子网路由](http://tce.fsphere.cn/doc/product/215/%E5%85%B3%E8%81%94%E5%AD%90%E7%BD%91%E8%B7%AF%E7%94%B1)、[修改默认路由表](http://tce.fsphere.cn/doc/product/215/%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E8%B7%AF%E7%94%B1%E8%A1%A8)和[创建VPN网关](http://tce.fsphere.cn/doc/product/215/%E5%88%9B%E5%BB%BAVPN%E7%BD%91%E5%85%B3)，将上图左边部分创建设置完成。
+首先您需要在云平台上建立您的私有网络，并根据您的需求规划子网、购买VPN网关，并设置好到需要互通的IDC网络的VPC路由（注意路由设置中“下一跳”请选择您购买的VPN网关）。具体操作步骤请见[创建私有网络及子网](http://tcecqpoc.fsphere.cn/doc/product/215/%E5%88%9B%E5%BB%BA%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%E5%8F%8A%E5%AD%90%E7%BD%91)、[向私有网络中添加云服务](http://tcecqpoc.fsphere.cn/doc/product/215/%E5%90%91%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%E4%B8%AD%E6%B7%BB%E5%8A%A0%E4%BA%91%E6%9C%8D%E5%8A%A1)、[关联子网路由](http://tcecqpoc.fsphere.cn/doc/product/215/%E5%85%B3%E8%81%94%E5%AD%90%E7%BD%91%E8%B7%AF%E7%94%B1)、[修改默认路由表](http://tcecqpoc.fsphere.cn/doc/product/215/%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E8%B7%AF%E7%94%B1%E8%A1%A8)和[创建VPN网关](http://tcecqpoc.fsphere.cn/doc/product/215/%E5%88%9B%E5%BB%BAVPN%E7%BD%91%E5%85%B3)，将上图左边部分创建设置完成。
 
 
 若您暂时不打算使用任何硬件厂家VPN设备，您也可按照本文档下面部分的操作方式，在位于IDC机房的一端使用Ipsec-tools开源工具搭建VPN网关。
@@ -37,7 +37,7 @@ rpm -ivh ipsec-tools-0.8.0-25.3.i686.rpm
 ```
 racoon –V
 ```
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56c68a299aed9.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img56c68a299aed9.png)
 
 ## 3. 配置Ipsec-tools
 需要配置的文件包括：
@@ -56,7 +56,7 @@ vi /etc/racoon/setkey.conf
 设置如下信息：
 
 假设您VPC的CIDR为10.100.2.0/24，VPC上VPN网关的IP地址为112.\*.\*.251。您IDC的CIDR为172.16.2.0/24，本地VPN设备的IP地址为112.\*.\*.152，则配置如下：
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56c68be5ba93c.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img56c68be5ba93c.png)
 
 ### 3.2. 配置密钥
 使用以下命令打开配置文件：
@@ -66,7 +66,7 @@ vi /etc/racoon/psk.txt
 ```
 仍然假设您VPC上VPN网关的IP地址为112.\*.\*.251，预共享密钥为test，则psk.txt配置内容如下：
 
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56c68ca34b349.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img56c68ca34b349.png)
 
 并执行以下命令：
 
@@ -84,7 +84,7 @@ vi /etc/racoon/racoon.conf
 
 仍然假设您VPC上VPN网关的IP地址为112.\*.\*.251，您本地VPN设备的IP地址为112.\*.\*.152，则racoon.conf配置内容如下：
 
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56c68dc067617.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img56c68dc067617.png)
 
 ## 4. 启动Ipsec-tools
 
@@ -106,7 +106,7 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 setkey -D
 ```
 
-![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56c68edfa569d.png)
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img56c68edfa569d.png)
 
 在您的IDC网络中需要将目的IP为VPC的CIDR的报文路由到您的对端VPN网关，即前面介绍的配置Ipsec-tools的机器。
 

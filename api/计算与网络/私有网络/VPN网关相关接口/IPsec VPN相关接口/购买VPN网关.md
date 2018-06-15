@@ -10,7 +10,7 @@
 | 参数名称 | 必选  | 类型 | 描述 |
 |---------|---------|---------|---------|
 | name | 是 | String | IPsec VPN 网关名称，可任意命名，但不得超过 60 个字符。 |
-| vpcId | 是 | String | 网络 ID 或者统一 ID，建议使用统一 ID，可通过 <a href="http://tce.fsphere.cn/doc/api/245/%E6%9F%A5%E8%AF%A2%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%E5%88%97%E8%A1%A8" title="DescribeVpcEx">DescribeVpcEx</a> 接口查询。 |
+| vpcId | 是 | String | 网络 ID 或者统一 ID，建议使用统一 ID，可通过 <a href="http://tcecqpoc.fsphere.cn/doc/api/245/%E6%9F%A5%E8%AF%A2%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%E5%88%97%E8%A1%A8" title="DescribeVpcEx">DescribeVpcEx</a> 接口查询。 |
 | bandwidth | 是 | Int | 带宽，只支持：5、10、20、50、100，单位 Mb。 |
 | chargeType	| 是	| String | PREPAID：预付费，即包年包月, POSTPAID_BY_HOUR：按小时后付费。 |
 | chargePrepaid	| 否	| ChargePrepaidObject |	预付费模式，即包年包月相关参数设置。通过该参数可以指定包年包月实例的购买时长、是否设置自动续费等属性。若指定实例的付费模式为预付费则该参数必传。|
@@ -36,14 +36,14 @@
 
 
  ## 4. 错误码表
- 该接口没有业务错误码，公共错误码详见 <a href="http://tce.fsphere.cn/doc/api/245/%e7%a7%81%e6%9c%89%e7%bd%91%e7%bb%9c%e9%94%99%e8%af%af%e7%a0%81?viewType=preview" title="私有网络错误码">VPC 错误码</a>。
+ 该接口没有业务错误码，公共错误码详见 <a href="http://tcecqpoc.fsphere.cn/doc/api/245/%e7%a7%81%e6%9c%89%e7%bd%91%e7%bb%9c%e9%94%99%e8%af%af%e7%a0%81?viewType=preview" title="私有网络错误码">VPC 错误码</a>。
 
 ## 5. 示例
  
 输入
 <pre>
   https://domain/v2/index.php?Action=CreateVpn
-  &<<a href="http://tce.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
+  &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
   &name=test-name
   &bandwidth=5
   &vpcId=vpc-4gzrxtwj

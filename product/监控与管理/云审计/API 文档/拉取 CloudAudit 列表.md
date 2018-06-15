@@ -2,7 +2,7 @@
 ## 接口描述
   ListAudits 用于拉取 CloudAudit 列表。
 ## 请求参数
-详见 [公共请求参数](http://tce.fsphere.cn/document/product/599/12707)  页面。
+详见 [公共请求参数](http://tcecqpoc.fsphere.cn/document/product/599/12707)  页面。
 
 ## 响应参数
 

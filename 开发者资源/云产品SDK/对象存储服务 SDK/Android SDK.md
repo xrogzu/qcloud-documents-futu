@@ -2,9 +2,9 @@
 
 ### SDK 获取
 
-对象存储服务的 Android SDK 的下载地址：[Android SDK](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/archive/02adc3c6b58c81d3d8c7cca109b3769a/qcloud-android-v1.1.4.1.zip)。
+对象存储服务的 Android SDK 的下载地址：[Android SDK](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/archive/02adc3c6b58c81d3d8c7cca109b3769a/qcloud-android-v1.1.4.1.zip)。
 
-更多示例可参考Demo：[Android SDK Demo](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/archive/35911b2c340ab33ed545660abb5857b8/QloudDemoApp.zip)。 
+更多示例可参考Demo：[Android SDK Demo](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/archive/35911b2c340ab33ed545660abb5857b8/QloudDemoApp.zip)。 
 
 ### 开发准备
 
@@ -18,7 +18,7 @@
 
 解压 SDK 包，将其中的 libs 目录合并到本地工程libs目录：
 
-![加入so文件](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/fc78c7bdd22a086a6d8d95aaa1cc59d9/image.png)
+![加入so文件](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/fc78c7bdd22a086a6d8d95aaa1cc59d9/image.png)
 
 **注意：**如果工程中存在 armeabi-v7a/armeabi-v8a目录，需将上述.so 文件拷贝一份到此目录下，否则由于 android 系统的问题在安装 apk 后会找不到 so 。
 
@@ -56,7 +56,7 @@ SDK 需要网络访问相关的一些权限，需要在 AndroidManifest.xml 中�
 
 **签名获取：**
 
-SDK 中用到的 SIGN，推荐使用 服务器端SDK，并由移动端向业务服务器请求。SIGN 的具体生成和使用请参照 [访问权限](http://tce.fsphere.cn/doc/product/227/1897#2.1-.E8.8E.B7.E5.8F.96.E7.AD.BE.E5.90.8D.E6.89.80.E9.9C.80.E4.BF.A1.E6.81.AF) 。
+SDK 中用到的 SIGN，推荐使用 服务器端SDK，并由移动端向业务服务器请求。SIGN 的具体生成和使用请参照 [访问权限](http://tcecqpoc.fsphere.cn/doc/product/227/1897#2.1-.E8.8E.B7.E5.8F.96.E7.AD.BE.E5.90.8D.E6.89.80.E9.9C.80.E4.BF.A1.E6.81.AF) 。
 
 ## 目录操作
 
