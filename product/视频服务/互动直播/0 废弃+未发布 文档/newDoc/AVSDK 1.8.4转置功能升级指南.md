@@ -91,6 +91,6 @@
 1. 更新[随心播](https://github.com/zhaoyang21cn/iOS_Suixinbo)代码，
 2. 参考随心播opengl代码，替换以下内容
 	
-	![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/94f24136772e38c77fe40a1968163539/mergeopengl.png)
+	![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/94f24136772e38c77fe40a1968163539/mergeopengl.png)
 	
 3. 如果开发者的渲染代码已经自己修改过，那么参考2中替换项，并根据自身需要进行同步（核心逻辑在TCAVFrameDispatcher和AVGLCustomRenderView中）。

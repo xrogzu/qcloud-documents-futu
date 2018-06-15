@@ -20,6 +20,6 @@
 具体接入开发指南见：[**人脸验证 SDK 接入**](http://tce.fsphere.cn/document/product/655/13824)
 
 ## 流程图示
-![face](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/61718f9b1ea5c50090ec646157d8e150.png)
+![face](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/61718f9b1ea5c50090ec646157d8e150.png)
 
 更多产品鉴权流程：[登录鉴权概览](http://tce.fsphere.cn/document/product/655/13663)

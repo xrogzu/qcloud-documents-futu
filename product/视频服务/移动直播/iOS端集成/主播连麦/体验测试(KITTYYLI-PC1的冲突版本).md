@@ -1,6 +1,6 @@
 ## 地址的准备
 体验最简单的1v1连麦，也需要两对地址，即两个直播码，每个直播码对应一路 livepush 推流地址 和 一路 liveplay 播放地址。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/fd615ac85e949617752130afd91b41a4/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/fd615ac85e949617752130afd91b41a4/image.png)
 
 如上图中 主播A 的直播码为 8888_streamA， 如上图中 主播B 的直播码为 8888_streamB，
 
@@ -48,7 +48,7 @@ txSecret = MD5(加密KEY + 直播码 + txTime)
 - 推一路（且仅有一路） rtmp 直播流，以供另外一台（或几台）手机播放。
 - 播一路（或多路）rtmp 直播流，这样才能构成双向（或多向）视频通话。
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/56eec150834927ffba770bcd55779ff3/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/56eec150834927ffba770bcd55779ff3/image.png)
 
 - **测试方法**：
 - 第一步：设置本地的 livepush 推流地址，比如文章开始的 steamA，并点击按时按钮启动推流。

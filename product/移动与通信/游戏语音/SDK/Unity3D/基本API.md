@@ -3,7 +3,7 @@
 
 ## 2 基本API调用流程
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/d709f155acaeb336df5ee93ddc708105/2.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/d709f155acaeb336df5ee93ddc708105/2.png)
 
 **流程说明**   
 1.实现相关`Handler`的事件委托。  

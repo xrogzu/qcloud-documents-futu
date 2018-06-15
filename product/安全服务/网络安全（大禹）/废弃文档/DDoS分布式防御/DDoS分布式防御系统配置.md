@@ -10,7 +10,7 @@
 
 **2.源地址设置**
 接入DDoS分布式防御系统后，若对对应域名的源站地址有更新需求，可在域名配置管理页面，如下图处进行编辑：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56c5d4e2580fd.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56c5d4e2580fd.png)
 注意：
 1)  可以填写源站IP或者域名，一行填一个
 2)  源列表中的域名不能和接入域名是同一个
@@ -24,7 +24,7 @@
 
 **5.缓存过期时间设置**
 DDoS分布式防御支持配置缓存时间。在域名管理中点击您需要设置的域名，在域名配置管理页面，可以看到缓存时间配置窗口，如下图：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56c5d5b2a6e76.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56c5d5b2a6e76.png)
 1）  什么是大禹分布式防御缓存时间
 大禹分布式防御缓存时间是大禹系统节点服务器保存的一套针对用户文件的缓存策略，根据缓存策略判断文件是否超时需要回源。合理配置您的缓存策略，会大大降低回源率，减少源站的压力，节省带宽。
 2）  全局设置
@@ -103,14 +103,14 @@ HTTPS：超文本传输安全协议（Hypertext Transfer Protocol Secure，缩�
 4. 管理系统会对证书进行证书链的自动补全以及合法性校验、过期监控等功能。
 使用方法：
 在接入域名的“配置管理”页面中，设置HTTPS。如界面：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56c5d78fc172f.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56c5d78fc172f.png)
  (1) 开启：点击“编辑”您将看到如下界面，您需要上传您当前网站的证书及KEY，上传完成后，需勾选“已阅读《云平台服务协议》”，最后点击“保存”即开启成功。
 云平台大禹系统将采用多种方式保证您的证书安全，如证书上载均是加密进行、所有数据均是非人工处理、证书部署不落地、多重监控等多重手段进行保障。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56c5d7a8237d1.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56c5d7a8237d1.png)
 (2) 关闭：在相应域名的“配置管理”页中选择“关闭HTTPS”，点击“保存”，即关闭成功。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56c5d7ba98499.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56c5d7ba98499.png)
 3、关于回源方式选择：
 用户在使用HTTPS加速方案的时候，可以选择两种回源方式,HTTP回源或者HTTPS回源。
   (1) HTTP方式主要是针对安全要求不高如静态图片等资源，或源站负载能力较弱无法支撑大量的HTTPS的加解密。
   (2) HTTPS回源方式主要是针对用户安全要求高，且源站要求强烈支持HTTPS回源的需求。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56c5d7d0d3647.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56c5d7d0d3647.png)

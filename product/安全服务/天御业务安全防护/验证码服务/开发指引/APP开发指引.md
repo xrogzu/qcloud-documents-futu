@@ -1,5 +1,5 @@
 ## 1.接口调用流程 ##
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2db4947e1315ffb60e25183050fa55ba/image.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2db4947e1315ffb60e25183050fa55ba/image.jpg)
 1）后台通过调用天御的 CaptchIframeQuery 接口获取验证码的js地址。 <br> 2）把获取到的 js 地址回传给网页客户端。<br> 3）客户端依据获取到的回传的 js 地址加载和校验验证码。<br> 4）用户验证完成后提交天御返回的票据到后台。<br> 5）后台调用天御的 CaptchaCheck 接口来验证票据是否通过验证。
 
 ## 2.后台获取验证码 js 地址接口 ##

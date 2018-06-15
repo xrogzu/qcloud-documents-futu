@@ -14,11 +14,11 @@ Android SDK的下载地址为：[Android SDK](/doc/product/275/SDK下载)。
 
 上传SDK的libs目录如下：
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/androidsdk-1-2.jpg)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/androidsdk-1-2.jpg)
 
 下载SDK的libs目录如下：
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/android-sdk-2.jpg)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/android-sdk-2.jpg)
 
 3. 配置manifest
 SDK需要网络访问相关的一些权限，需要在manifest中进行权限声明如下所示:

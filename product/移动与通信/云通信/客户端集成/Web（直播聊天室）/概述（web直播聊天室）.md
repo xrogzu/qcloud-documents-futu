@@ -2,13 +2,13 @@
 
 本节主要介绍如何集成sdk。
 
-直播聊天室demo体验地址：http://imgcache.tce.fsphere.cn/static/avc.qcloud.com/demo/webim/biggroup/mobile/index.html
+直播聊天室demo体验地址：http://imgcache.tce.fsphere.cn/image/avc.qcloud.com/demo/webim/biggroup/mobile/index.html
 
 直播聊天室demo二维码：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/a188f7fd653c8237b362a7adea1f63b1/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/a188f7fd653c8237b362a7adea1f63b1/image.png)
 
 通用demo地址：
-http://imgcache.tce.fsphere.cn/static/avc.qcloud.com/demo/webim/index.html
+http://imgcache.tce.fsphere.cn/image/avc.qcloud.com/demo/webim/index.html
 
 通用demo运行指引地址：
 http://tce.fsphere.cn/doc/product/269/4196
@@ -647,12 +647,12 @@ webim.Msg.Elem.MemberInfo.GroupInfo(userId,shutupTime)
 ### 2.16 表情对象Emotions
 
 webim.Emotions是表情对象，键值对形式，key是表情index，value包括了表情标识字符串和表情数据（可以是base64编码或者地址）。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/28b535381f62f87d5b8464b819a5bcd1/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/28b535381f62f87d5b8464b819a5bcd1/image.png)
 
 ### 2.17 表情数据索引对象EmotionDataIndexs
 
 webim.EmotionDataIndexs是表情标识字符串和index的映射关系对象，键值对形式，key是表情的标识字符串，value是表情index，主要用于发表情消息时，需要将消息文本中的表情识别出来，并转换成对应的索引index传给后台接口。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/11a2b050d1b47aefa1d9fb0a4e3fc716/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/11a2b050d1b47aefa1d9fb0a4e3fc716/image.png)
 
 ### 2.18 工具对象Tool
 

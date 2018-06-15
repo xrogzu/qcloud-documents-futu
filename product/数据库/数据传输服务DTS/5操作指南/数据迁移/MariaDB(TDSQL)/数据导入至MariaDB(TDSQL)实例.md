@@ -6,13 +6,13 @@
 **迁移步骤如下：**
 ### 进入迁移工具页面
 数据库实例页面左侧导航栏中选择“MariaDB（TDSQL）>数据传输>创建任务”
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ad9b746593b9753f8c6c3c08b772181e/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ad9b746593b9753f8c6c3c08b772181e/image.png)
 
 输入任务名称、源库和目标 MariaDB（TDSQL）的信息。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56835f611f583.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56835f611f583.png)
 然后选择要迁移的数据库，创建并检查迁移任务信息。
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56835f91aec32.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56835f91aec32.png)
 **数据迁移**：将选中数据库中的数据导出，然后在 MariaDB（TDSQL）中导入。
 **增量同步**：在进行数据导出导入后，设置 MariaDB（TDSQL）为源库的备库，进行主备增量同步。
 
@@ -21,12 +21,12 @@
 - 通过：表示校验完全通过。
 - 警告：表示校验不通过，迁移过程中或迁移后可能影响数据库正常运行但不影响迁移任务的执行。
 - 失败：表示校验不通过，无法进行迁移。如果校验失败，请根据出错的校验项，检查并修改迁移任务信息，然后重试校验。失败原因请参考：“校验失败说明”。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56837a4d5ead6.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56837a4d5ead6.png)
 
 ### 启动迁移
 在校验通过后，您可以启动迁移任务，如果您设定了迁移任务的定时时间，则迁移任务会在设定的时间开始排队并执行，如果没有设置定时任务，则迁移任务会立即执行。
 迁移启动后，您可以在迁移任务下看到对应的迁移进度信息。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/0702e3c516ac9233a1862e3a24917f8b/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/0702e3c516ac9233a1862e3a24917f8b/image.png)
 注：由于系统设计限制，一次性提交或排队多个迁移任务将按排队时间串行执行。
 
 ### 增量同步
@@ -35,7 +35,7 @@
 
 ### 中止迁移
 在迁移过程中，如果您需要停止迁移，可以单击右侧【撤销】按钮。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/204b77ef95a0ea1f38212a2f78d7de12/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/204b77ef95a0ea1f38212a2f78d7de12/image.png)
 注意：再次启动可能导致校验失败或任务失败，您可能需要手动清空目标库内的数据，才能再次启动迁移任务。
 
 ## 通过第三方工具迁入

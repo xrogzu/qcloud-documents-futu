@@ -69,9 +69,9 @@ ImSDK支持winxp及win7系统。
 
 会话：ImSDK中会话(Conversation)分为两种，一种是C2C会话，表示单聊情况自己与对方建立的对话，读取消息和发送消息都是通过会话完成；另一种是群会话，表示群聊情况下，群内成员组成的会话，群会话内发送消息群成员都可接收到。
 如下图所示，一个会话表示与一个好友的对话： 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/8c96e0282d1f32b7bcf197043eddef6c/image.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/8c96e0282d1f32b7bcf197043eddef6c/image.jpg)
 **消息：**ImSDK中消息(Message)表示要发送给对方的内容，消息包括若干属性，如是否自己已读，是否已经发送成功，发送人帐号，消息产生时间等；一条消息由若干Elem组合而成，每种Elem可以是文本、图片、表情等等，消息支持多种Elem组合发送。 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/34bf753940ed435ec8f916a419398b75/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/34bf753940ed435ec8f916a419398b75/image.png)
 群组Id：群组Id唯一标识一个群，由后台生成，创建群组时返回。 
 
 ### 2.1 ImSDK接口简介 

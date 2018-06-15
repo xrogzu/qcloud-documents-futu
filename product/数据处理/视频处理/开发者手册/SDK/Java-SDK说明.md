@@ -17,7 +17,7 @@
 或者直接在github下载zip包。<br>
 2.	导入项目<br>
 在IDE中导入jar包（如果代码不支持，可以直接复制代码文件）<br>
-<img src="http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/jieruwanxiang-22.jpg" alt="jieruwanxiang-22.jpg"><br><br>
+<img src="http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/jieruwanxiang-22.jpg" alt="jieruwanxiang-22.jpg"><br><br>
 3.	参照api说明和sdk中提供的demo，开发代码。<br>
 </p>
 

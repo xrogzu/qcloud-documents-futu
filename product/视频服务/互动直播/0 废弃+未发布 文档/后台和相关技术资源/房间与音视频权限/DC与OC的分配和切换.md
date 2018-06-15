@@ -8,7 +8,7 @@
 对于一个App的终端实例来说，什么情况下会接入DC、什么情况下会接入OC呢？分配原则简单来说只有一句话：“有上行音视频数据权限的实例会分配DC、没有上行音视频数据权限的实例分配OC”。具体地，在调用SDK进入房间接口EnterRoom()的时候，其参数EnterRoomParam.auth_bits和
 EnterRoomParam.auth_buffer用于设置该实例在房间内的权限，具体权限字段如下图所示：
 
-![用户权限位说明](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56cdd6a958dff.png)
+![用户权限位说明](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56cdd6a958dff.png)
 
 EnterRoomParam.auth_bits是权限位的明文形式，EnterRoomParam.auth_buffer是权限位的密文形式。可以只使用权限位的明文形式；而一旦申请开启了加密秘钥，则权限位密文必填，且后台会校验明文和密文的内容是否对应以及密文的有效期等，业务的逻辑后台也要及时更新App中的密文避免过期。需要注意的是，密文形式由于应用场景过少所有暂时没有开放使用，请尽量使用明文形式。
 
@@ -21,10 +21,10 @@ PS：后台对单个房间接入DC的用户数量有一个上限保护。例如�
 - 用户位于DC，权限从有到无（将AUTH_BITS_SEND_AUDIO/AUTH_BITS_SEND_VEDIO/AUTH_BITS_SEND_SUB全设置为0）
 在此情况下，音视频后台会下发重定向指令，将终端实例重定向到OC。典型的场景是，老师叫一个学生回答问题，回答结束之后取消了该学生上行音视频的权限，学生此时会被重定向到OC（该重定向操作对App和用户是透明的，切换过程通常很快）
 
-	![权限从有到无的变更导致切换示意图](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56cdd763b0628.png)
+	![权限从有到无的变更导致切换示意图](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56cdd763b0628.png)
 
 - 用户位于DC，权限从无到有：不存在这种情况
 - 用户位于OC，权限从有到无：在此情况下SDK不会有任何动作
 - 用户位于OC，权限从无到有（将AUTH_BITS_SEND_AUDIO/AUTH_BITS_SEND_VEDIO/AUTH_BITS_SEND_SUB其中一个置为非0），在此情况下，音视频后台会下发重定向指令，将终端实例重定向到DC
 
-	![权限从无到有的变更导致切换示意图](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56cdd789c7ee8.png)
+	![权限从无到有的变更导致切换示意图](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56cdd789c7ee8.png)

@@ -1,10 +1,10 @@
 本地主机 ping 不通实例可能由于目标服务器的设置不正确、域名没有正确解析、链路故障等等问题引起。在确保本地网络正常（可以正常 ping 通其他网站）的前提下，下文将就如何进行排查进行详细的说明：
 ## 一. 确认实例是否有公网 IP
 实例必须具备公网 IP 才能跟 Internet 上的其他计算机相互访问。实例没有公网 IP，内网 IP 外部是无法直接 ping 通的。可以在 [控制台实例详情页](https://console.tce.fsphere.cn/cvm/index) 查看公网 IP 的信息，如下图。如无公网 IP 可以绑定弹性公网 IP。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ab9932f698e4727a431a164d61c3e934/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ab9932f698e4727a431a164d61c3e934/image.png)
 ## 二. 安全组设置确认
 安全组是一个虚拟防火墙，可以控制关联实例的入站流量和出站流量。安全组的规则可以指定协议、端口、策略等等。由于 ping 使用的是 ICMP 协议，这里要注意实例关联的安全组是否允许 ICMP。实例使用的安全组以及详细的入站和出站规则可以在实例详情页的安全组 tab 查看。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/0788ebb34a8fe09b3258ed5af254e75d/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/0788ebb34a8fe09b3258ed5af254e75d/image.png)
 ## 三. 系统设置检查
 ### Linux 内核参数和防火墙设置检查
 Linux 系统是否允许 ping 由内核和防火墙设置两个共同决定，任何一个禁止，都会造成 ping 包“Request timeout”。
@@ -13,21 +13,21 @@ icmp_echo_ignore_all 代表系统是否忽略所有的 ICMP Echo 请求，1 禁�
 ```
 cat /proc/sys/net/ipv4/icmp_echo_ignore_all
 ```
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/34a48b2e128d7b9b6ca6e34f1ff789a0/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/34a48b2e128d7b9b6ca6e34f1ff789a0/image.png)
 可以使用 echo 命令进行修改：
 ```
 echo "1" >/proc/sys/net/ipv4/icmp_echo_ignore_all
 ```
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4e1de32f519bda6f88b4d34a9872dbdb/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/4e1de32f519bda6f88b4d34a9872dbdb/image.png)
 
 #### 防火墙设置
 使用** iptables -L** 查看当前服务器的防火墙规则，查看 ICMP 对应规则，看是否被禁止。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b212bcfb8a1587156768fcc8de0140ae/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b212bcfb8a1587156768fcc8de0140ae/image.png)
 ### Windows 防火墙设置
 控制面板 > Windows 防火墙设置 > 高级设置 > 查看 ICMP 有关的出入站规则，是否被禁止。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/e5e6a914dbdaf1f0dab5e89440d7662e/image.png)
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/247440c6c79697133685cbf16544d2cc/image.png)
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/87214a5efc12560e51aa15c10d8040c7/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e5e6a914dbdaf1f0dab5e89440d7662e/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/247440c6c79697133685cbf16544d2cc/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/87214a5efc12560e51aa15c10d8040c7/image.png)
 
 ## 四. 域名是否备案
 如果是可以 ping 通公网 IP，而域名 ping 不通，此时可能是域名没有备案，或者域名解析的问题。

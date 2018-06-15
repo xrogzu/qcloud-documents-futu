@@ -14,13 +14,13 @@
 - 投递间隔时间：指定投递的时间间隔，**支持1分钟至1小时**。假设您设置投递时间间隔为5分钟，那么意味着您的日志数据将每五分钟产生一个文件存储至COS存储桶。日志数据将在半小时之内投递至您的存储桶。
 - 投递文件大小：指定在该投递时间间隔中**未压缩的投递文件**上限，意味着在该时间间隔中，日志文件最大将为您设置的值，超过该上限，将被分成多个日志文件，上限支持**100MB 到 10GB**。
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/8d1f42f4657568290c95d79c4d6b2469/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8d1f42f4657568290c95d79c4d6b2469/image.png)
 
 ### 高级配置
 
 日志投递还支持您根据日志内容进行过滤投递，您可以打开高级选项进行配置。您可以指定一个key，对该键值所对应的值进行正则提取，并设定提取出的部分需要匹配的值。只有当日志数据匹配您的配置后，该日志可以投递。没有匹配的日志不进行投递。如下图所示，指定 action 字段，该字段为 write 时，日志进行投递。投递过滤规则最多支持 5 条。
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/98cf7e06c8883c55d7b61c7e81612083/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/98cf7e06c8883c55d7b61c7e81612083/image.png)
 
 ### 开启/关闭投递任务
 

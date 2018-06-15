@@ -16,34 +16,34 @@ Win 2012 进入磁盘管理的路径为：【开始】-【服务器管理】-【
 
 点击【开始】按钮：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1ae00cc2f5.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1ae00cc2f5.jpg)
 
 点击【服务器管理】：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1ae17e6f48.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1ae17e6f48.jpg)
 
 点击【工具】-【计算机管理】：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1aed3a67b3.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1aed3a67b3.jpg)
 
 点击【磁盘管理】：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1af025f7e1.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1af025f7e1.jpg)
 
 如下图所示：在磁盘1上右键点击，选择【联机】：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b00b8935c.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b00b8935c.jpg)
 
 若磁盘上已经有数据（即不为空白磁盘情况下），用户可忽略下面的操作。对一个非空磁盘进行重新格式化或分区将<font color="red">清除所有原有数据</font>
 
 ### （可选）格式化磁盘
 右键点击，选择【初始化磁盘】：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b057ada88.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b057ada88.jpg)
 
 根据分区方式的不同，选择【GPT】或【MBR】，点击【确定】按钮：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b0a1cd741.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b0a1cd741.jpg)
 
 > **注意：**
 > 磁盘大于 2TB 时仅支持 GPT 分区形式。若您不确定磁盘后续扩容是否会超过该值，则建议您选择 GPT 分区；若您确定磁盘大小不会超过该值，则建议您选择 MBR 分区以获得更好的兼容性。
@@ -51,33 +51,33 @@ Win 2012 进入磁盘管理的路径为：【开始】-【服务器管理】-【
 ### （可选）对磁盘分区
 在未分配的空间处右击，选择【新建简单卷】：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b0bead71b.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b0bead71b.jpg)
 
 在弹出的“新建简单卷向导”窗口中，点击【下一步】：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b0fae959f.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b0fae959f.jpg)
 
 输入分区所需磁盘大小，点击【下一步】：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b1de673fb.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b1de673fb.jpg)
 
 输入驱动器号，点击【下一步】：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b2f078870.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b2f078870.jpg)
 
 选择文件系统，格式化分区，点击【下一步】：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b32b1846e.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b32b1846e.jpg)
 
 完成新建简单卷，点击【完成】：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b37e6e5f2.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b37e6e5f2.jpg)
 
 查看新分区：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b39fb404d.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b39fb404d.jpg)
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b3a3e4dd4.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b3a3e4dd4.jpg)
 
 
 ## Windows2008磁盘分区和格式化
@@ -85,43 +85,43 @@ Win 2012 进入磁盘管理的路径为：【开始】-【服务器管理】-【
 Windows 2008 进入磁盘管理方法与 Windows 2012 不同，通过【服务器管理】-【存储】-【磁盘管理】的路径进入磁盘管理。
 
 点击【服务器管理】：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b5c4cd2ad.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b5c4cd2ad.jpg)
 
 点击【存储】-【磁盘管理】：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b6b60f2fd.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b6b60f2fd.jpg)
 
 “磁盘1”初始情况下未联机，右键点击”磁盘1”, 在弹出的菜单里点击【联机】：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b71f7e7d4.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b71f7e7d4.jpg)
 
 ### （可选）格式化磁盘
 再次右键点击”磁盘1”, 在弹出的菜单里点击”初始化磁盘”：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b75941a79.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b75941a79.jpg)
 
 选择GPT的初始化方式，点击【确定】按钮：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b89cb0675.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b89cb0675.jpg)
 注：磁盘大于2TB时一定要选择GPT分区形式。
 
 ### （可选）对磁盘分区
 右键点击“磁盘1”后未分配的区域，在弹出的快捷菜单中选择【新建简单卷】：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b91f2445b.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b91f2445b.jpg)
 
 根据向导提示进行操作，输入分区磁盘的大小，点击【下一步】：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b93ab1e4a.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b93ab1e4a.jpg)
 
 选择文件系统，格式化分区，点击【下一步】：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b95a7f09a.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b95a7f09a.jpg)
 
 完成新建简单卷，点击【完成】按钮：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b9829f98e.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b9829f98e.jpg)
 
 显示正在格式化：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b99be5831.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b99be5831.jpg)
 
 在计算机界面可以看到新分区的数据盘：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b1b9b953e21.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b1b9b953e21.jpg)
 
 >注：请勿将基本硬盘转换到动态硬盘，倘若因此操作造成数据丢失，我们将不承担责任。
 
@@ -133,7 +133,7 @@ Windows 2008 进入磁盘管理方法与 Windows 2012 不同，通过【服务�
 diskpart
 san policy=onlineall
 ```
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/cfb2f1d6d9b99c6786db612f343df525/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/cfb2f1d6d9b99c6786db612f343df525/image.png)
 
 操作后，当此弹性云硬盘重新挂载到 Windows 云服务器上后，如果弹性云硬盘包含有效的文件系统，用户则可以无需操作直接使用此弹性云硬盘了。
 
@@ -143,7 +143,7 @@ san policy=onlineall
 在 Windows 系统下如果用户希望指定数据盘快照生产出来的云硬盘能够自动挂载至新的云服务器实例，指定的自定义镜像和数据盘快照必须满足以下要求：
 
 - 自定义镜像中的 SAN 策略为：`onlineAll`。云平台目前提供的 Windows 公有镜像已默认进行相关设置，但仍建议用户在制作自定义镜像前检查下此配置，检查方法如下：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/74e490afd81bd7ad9fc9590565b48a80/image.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/74e490afd81bd7ad9fc9590565b48a80/image.jpg)
 
 - 数据盘在制作快照前必须已经被格式化为 `ntfs` 或 `fat32` 格式。
 

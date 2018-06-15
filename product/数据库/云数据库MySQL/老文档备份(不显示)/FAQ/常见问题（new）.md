@@ -185,9 +185,9 @@ mysql -h IP -P 端口号 -u root -p 云数据库密码
 
 通过phpMyAdmin登录云数据库后，点击上面菜单中的“变量”，在下面的变量列表中，点击需要修改的变量对应的值，对其进行修改。
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/faq_cdb_1.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/faq_cdb_1.png)
 
-更多请参考[云数据库可以修改的配置.](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/cdb_user_modify_var.xls) 
+更多请参考[云数据库可以修改的配置.](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/cdb_user_modify_var.xls) 
 
 ## 22 云数据库的连接数有限制吗？
 详见：[云数据库链接数限制](/doc/product/236/使用限制#2-连接数限制)
@@ -297,25 +297,25 @@ tencentroot是云数据库的内部系统管理帐户。为确保云数据库的
 
 1 登录云平台，进入管理中心，点击“云产品”模块的“云数据库”，进入云数据库“管理视图”页面。
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/cdb_login1.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/cdb_login1.png)
 
 2 找到待重置密码的云数据库实例，在实例后点击“配置”按钮。
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/cdb_passwdrs.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/cdb_passwdrs.png)
 
 
 3 在云数据库管理页面，点击密码后的“忘记密码”。
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/cdb_fpasswdrs.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/cdb_fpasswdrs.png)
 
 4 在忘记密码页面，输入验证码后，点击“我要修改密码”按钮，重置密码邮件将会发送到页面中显示的电子邮箱，如下图所示：
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/cdb_fpasswdrs2.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/cdb_fpasswdrs2.png)
 
 5 登录页面中显示的电子邮箱，打开邮件中的链接，进入重置密码页面
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/cdb_email.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/cdb_email.png)
 
 6 在重置密码页面，输入新密码及验证码后，点击“确定修改”，完成云数据库的密码重置。
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/cdb_passwdrs2.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/cdb_passwdrs2.png)

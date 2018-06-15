@@ -21,4 +21,4 @@
 
 对于 `COPY`，`ADD` 等涉及源路径的命令，源路径应该写成相对于 *构建目录* 的 *相对路径*。
 
-[pic1]:http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/33d587e49512bbee6ebc19d2f1961f94/pic1.png
+[pic1]:http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/33d587e49512bbee6ebc19d2f1961f94/pic1.png

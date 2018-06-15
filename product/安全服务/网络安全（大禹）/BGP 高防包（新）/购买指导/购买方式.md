@@ -10,15 +10,15 @@ BGP 高防包只能绑定同一大区的云平台设备。开放购买的地域�
 ## 购买步骤
 1、客户可在[控制台](https://buy.tce.fsphere.cn/buy/bgp_sp)上直接购买 BGP 高防服务包，该产品的计费方式为预付费。进入  BGP  高防服务包购买页面：https://buy.tce.fsphere.cn/buy/bgp_sp 
 2、选择高防服务包所在的地域。
-![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/52e7d6c60fa896d0813bfc84fdfd61de.png)
+![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/52e7d6c60fa896d0813bfc84fdfd61de.png)
 3、选择高防服务包的防护峰值。
-![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/47ebdbc1c83efdbf0742034edbed2426.png)
+![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/47ebdbc1c83efdbf0742034edbed2426.png)
 4、选择购买个数和购买时长，是否自动续费。
 **特别提醒**：购买 6 至 9 个月，打  88  折，购买 1 年打  8.3  折，购买  2  年打  7  折，购买  3  年打  5  折。
-![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/e1db51a3a58eb309fba1e35536125735.png)
+![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/e1db51a3a58eb309fba1e35536125735.png)
 5、选择开启弹性防护峰值。
-![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/a065429b53e668a0fd713e49d2ef6f5c.png)
+![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/a065429b53e668a0fd713e49d2ef6f5c.png)
 6、单击 “ 立即支付 ” 按钮，进入支付页面。
-![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/1b3405ce55624341a28426c27e019c11.png)
+![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/1b3405ce55624341a28426c27e019c11.png)
 7、核对信息无误后单击确认购买即可完成支付。
-![](http://imgcache.tce.fsphere.cn/static/main.qcloudimg.com/raw/b3bd342a261d34ea0b2e4c8f2d2a2ed9.png)
+![](http://imgcache.tce.fsphere.cn/image/main.qcloudimg.com/raw/b3bd342a261d34ea0b2e4c8f2d2a2ed9.png)

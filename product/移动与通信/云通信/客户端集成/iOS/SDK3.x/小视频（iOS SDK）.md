@@ -27,7 +27,7 @@
 
 说明：使用小视频存储功能需要在控制台开通点播服务
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/7830ff8639567e4a9d60923349bf5a58/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7830ff8639567e4a9d60923349bf5a58/image.png)
 
 ## 2. 录制小视频
 

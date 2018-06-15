@@ -3,7 +3,7 @@
 
 ## 2 基本API调用流程
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/9732bfc1f2b2adb4995c59329a7ead52/1.png)  
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/9732bfc1f2b2adb4995c59329a7ead52/1.png)  
 **流程说明**  
 1.实现`IGcloudVoiceNotify`回调类。  
 2.调用`GetVoiceEngine`获取`IGcloudVoiceEngine`对象。  

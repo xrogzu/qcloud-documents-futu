@@ -52,7 +52,7 @@ TIMConversation * grp_conversation = [[TIMManager sharedInstance] getConversatio
 通过 TIMManager 获取会话 TIMConversation后，可发送消息和获取会话缓存消息； 
 ImSDK中消息的解释可参阅（1.2.1. ImSDK对象简介)。 
 ImSDK中的消息由TIMMessage表达， 一个TIMMessage 由多个 TIMElem 组成，每个TIMElem可以是文本和图片，也就是说每一条消息可包含多个文本和多张图片。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/7226ab79d4294cc53980c888892f5c6d/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/7226ab79d4294cc53980c888892f5c6d/image.png)
 发消息通过 TIMConversation 的成员 sendMessage 实现，有两种方式实现，一种使用闭包，另一种调用方实现protocol回调： 
 
 **原型：**

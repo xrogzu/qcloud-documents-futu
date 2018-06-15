@@ -8,7 +8,7 @@
 
 - **协议的支持**
  通常使用的点播协议如下，现在比较流行的是HLS(以“http”打头，以“.m3u8”结尾)的点播地址：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/4b42a00bb7ce2f58f362f35397734177/image.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/4b42a00bb7ce2f58f362f35397734177/image.jpg)
 
 ## 特别说明
 视频云 SDK  <font color='red'>**不会对**</font> 播放地址的来源做限制，即您可以用它来播放云平台或非云平台的播放地址。但视频云 SDK 中的播放器只支持 FLV 、RTMP 和 HLS（m3u8）三种格式的直播地址，以及 MP4、 HLS（m3u8）和 FLV 三种格式的点播地址。
@@ -34,7 +34,7 @@ TXVodPlayer *_txVodPlayer = [[TXVodPlayer alloc] init];
 
 如果您要调整渲染画面的大小，只需要调整你所常见的 view 的大小和位置即可，SDK 会让视频画面跟着您的 view 的大小和位置进行实时的调整。
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/75b41bd0e9d8a6c2ec8406dc706de503/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/75b41bd0e9d8a6c2ec8406dc706de503/image.png)
  
 > **如何做动画？**
 > 针对view做动画是比较自由的，不过请注意此处动画所修改的目标属性应该是 <font color='red'>transform</font> 属性而不是 frame 属性。
@@ -61,7 +61,7 @@ p.fileId = @"4564972819220421305";
 ```
 在[点播视频管理](http://console.tce.fsphere.cn/video/videolist) 找到对应的文件。点开后在右侧视频详情中，可以看到appId和fileId。
 
-![视频管理](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/fcad44c3392b229f3a53d5f8b2c52961/image.png)
+![视频管理](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/fcad44c3392b229f3a53d5f8b2c52961/image.png)
 
 通过fileId方式播放，播放器会向后台请求真实的播放地址。如果此时网络异常或fileId不存在，则会收到`PLAY_ERR_GET_PLAYINFO_FAIL`事件，反之收到`PLAY_EVT_GET_PLAYINFO_SUCC`表示请求成功。
 
@@ -86,7 +86,7 @@ p.fileId = @"4564972819220421305";
 | HOME_ORIENTATION_LEFT | home在左边 | 
 | HOME_ORIENTATION_UP | home在上面 | 
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/ef948faaf1d62e8ae69e3fe94ab433dc/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/ef948faaf1d62e8ae69e3fe94ab433dc/image.png)
 
 
 ### step 5: 播放控制
@@ -111,12 +111,12 @@ p.fileId = @"4564972819220421305";
 ### step 7: 屏幕截图
 通过调用 **snapshot** 您可以截取当前视频为一帧画面，此功能只会截取当前直播流的视频画面，如果您需要截取当前的整个 UI 界面，请调用 iOS 的系统 API 来实现。
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/f63830d29c16ce90d8bdc7440623b0be/image.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/f63830d29c16ce90d8bdc7440623b0be/image.jpg)
 
 ### step 8: 变速播放
 点播播放器支持变速播放，通过接口`setRate`设置点播播放速率来完成，支持快速与慢速播放，如0.5X、1.0X、1.2X、2X等。
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/8666305d62167cfb7c1e670d14fbd689/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8666305d62167cfb7c1e670d14fbd689/image.png)
 
  ```objectivec
 //设置1.2倍速播放
@@ -159,7 +159,7 @@ _config.maxCacheItems = 10;
 
 这就是视频播放中无缝切换的背后技术支撑，您可以使用 TXVodPlayer 中的 isAutoPlay 开关来实现这个功能，具体做法如下：
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/7331417ebbdfe6306fe96f4b76c8d0ad/image.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7331417ebbdfe6306fe96f4b76c8d0ad/image.jpg)
 
 ```objectivec
 // 播放视频A: 如果将 isAutoPlay 设置为 YES， 那么 startPlay 调用会立刻开始视频的加载和播放
@@ -222,7 +222,7 @@ NSArray *bitrates = [_txVodPlayer supportedBitrates]; //获取多码率数组
 
 您可以为 TXVodPlayer 对象绑定一个 **TXVodPlayListener** 监听器，进度通知会通过 **PLAY_EVT_PLAY_PROGRESS** 事件回调到您的应用程序，该事件的附加信息中即包含上述两个进度指标。
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6ac5e2fe87e642e6c2e6342d72464f4a/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6ac5e2fe87e642e6c2e6342d72464f4a/image.png)
 
 ```objectivec
 -(void) onPlayEvent:(int)EvtID withParam:(NSDictionary*)param {

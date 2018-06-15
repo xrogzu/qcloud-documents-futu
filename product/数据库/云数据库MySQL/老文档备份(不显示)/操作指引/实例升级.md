@@ -1,6 +1,6 @@
 ### 如何自助升级云数据库实例规格
 登录云数据库的管理控制台后，可通过“升级”操作升级指定实例的实例规格。
-![升级](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/d7b59861436817bcc9a0be795c49b1ec/image.png)
+![升级](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/d7b59861436817bcc9a0be795c49b1ec/image.png)
 
 ### 如何计算费用
 用户自助升级数据库实例时，系统将计算实例规格间的差价，并从用户的账户中扣除差价，若账户余额不足则需要先进行充值。升级后将按照新的实例规格进行计费。

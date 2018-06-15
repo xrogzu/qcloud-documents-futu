@@ -14,9 +14,9 @@
 
 3. 通过折线图右下角的滑块，可拖动调节折线图大小。支持用户自定义图表在面板中的位置与面积占比。
 
-4. 点击图表的![6](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/68e7b4bfa5775b1b4c53157f0a85eb79/image.png)按钮，将通过弹窗提供监控视图的大图展示功能。弹窗布满整个屏幕，为用户进一步查看细节数据提供了便利。
+4. 点击图表的![6](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/68e7b4bfa5775b1b4c53157f0a85eb79/image.png)按钮，将通过弹窗提供监控视图的大图展示功能。弹窗布满整个屏幕，为用户进一步查看细节数据提供了便利。
 
-   ![5](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2b47c7488f0cb61d2f4c424a2f798323/image.png)
+   ![5](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2b47c7488f0cb61d2f4c424a2f798323/image.png)
 
 
 
@@ -41,4 +41,4 @@
 
 通过面板右上角的刷新按钮与下拉框，用户可自行调整刷新频率或进行视图刷新。
 
-![4](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/66e2cb98a8916f48468a79673179e822/image.png)
+![4](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/66e2cb98a8916f48468a79673179e822/image.png)

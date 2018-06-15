@@ -2,7 +2,7 @@
 
 本节主要介绍如何集成ImSDK。
 
-官网体验demo请直接访问：[云通信web demo](http://imgcache.tce.fsphere.cn/static/avc.qcloud.com/demo/webim/index.html)
+官网体验demo请直接访问：[云通信web demo](http://imgcache.tce.fsphere.cn/image/avc.qcloud.com/demo/webim/index.html)
 
 demo运行指引请访问：[demo指引](http://tce.fsphere.cn/doc/product/269/DEMO%E6%8C%87%E5%BC%95)
 
@@ -18,7 +18,7 @@ sdk/json2.js
 其中json2.js提供了json的序列化和反序列化方法，可以将一个json对象转换成json字符串，也可以将一个json字符串转换成一个json对象。webim.js就是webim sdk库，提供了聊天，群组管理，资料管理，关系链（好友，黑名单）管理功能。
 
 Demo目录结构如下：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/91348025ca0c8d2487c9e2fef4c7ec43/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/91348025ca0c8d2487c9e2fef4c7ec43/image.png)
 
 Demo 主要JS文件功能说明如下：
 
@@ -149,11 +149,11 @@ Demo 支持 IE 8+ ( windows XP / Vista 除外)，Chrome 7+，FireFox 3.6+，Oper
 
 如下图所示，一个会话表示与一个好友的对话：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/a7718fe7aecbcb4a29c6c112640a98d1/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/a7718fe7aecbcb4a29c6c112640a98d1/image.png)
 
 下图为群聊天会话：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/f9c516615c9917881c2b5842968ed9fd/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/f9c516615c9917881c2b5842968ed9fd/image.png)
 
 消息：ImSDK中消息(webim.Msg)表示要发送给对方的内容，消息包括若干属性，如自己是否为发送者，发送人帐号，消息产生时间等；一条消息由若干Elem组合而成，每种Elem可以是文本、表情，图片等，消息支持多种Elem组合发送。
 
@@ -737,12 +737,12 @@ webim.Msg.Elem.MemberInfo.GroupInfo(userId,shutupTime)
 ### 2.17 表情对象Emotions
 
 webim.Emotions是表情对象，键值对形式，key是表情index，value包括了表情标识字符串和表情数据（可以是base64编码或者地址）。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/28b535381f62f87d5b8464b819a5bcd1/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/28b535381f62f87d5b8464b819a5bcd1/image.png)
 
 ### 2.18 表情数据索引对象EmotionDataIndexs
 
 webim.EmotionDataIndexs是表情标识字符串和index的映射关系对象，键值对形式，key是表情的标识字符串，value是表情index，主要用于发表情消息时，需要将消息文本中的表情识别出来，并转换成对应的索引index传给后台接口。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/11a2b050d1b47aefa1d9fb0a4e3fc716/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/11a2b050d1b47aefa1d9fb0a4e3fc716/image.png)
 
 ### 2.19 工具对象Tool
 

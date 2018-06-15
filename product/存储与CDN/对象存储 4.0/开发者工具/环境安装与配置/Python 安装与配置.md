@@ -7,10 +7,10 @@
 下载好 Python 安装包后双击 Python 安装包，按照默认提示，一步步进行安装。
 ### 3. 环境变量配置
 安装完成后，右键单击【计算机】>单击【属性】>【高级系统设置】>【环境变量】>【系统变量(S)】 找到 “Path” （没有就新建），并在 “变量值” 末尾添加 Python 的安装路径：`;C:\Python27`（请更改为您的安装路径），单击【确定】保存。
-![161709](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b5784ed03d0f2fd07195c9c3ae1e5075/image.png)
+![161709](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b5784ed03d0f2fd07195c9c3ae1e5075/image.png)
 ### 4. 测试配置是否成功
 单击【开始】（或快捷键：Win+R）>【运行】（输入 `cmd`）>【确定】（或者按 Enter 键），在弹出的窗口中输入命令 Python 并回车。出现以下信息，说明 Python 2.7 已经安装配置好：
-![152355](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/026d7738b234171b285a98f0e751038a/image.png)
+![152355](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/026d7738b234171b285a98f0e751038a/image.png)
 ## Linux
 ### 1. 查看 Python 版本 
 Linux 的 yum 自带 Python，首先查看默认 Python 版本
@@ -48,7 +48,7 @@ ln -s /usr/local/bin/python2.7 /usr/bin/python
 python
 ```
 出现以下信息，说明 Python 2.7 已经安装配置好：
-![112046](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/0eb560566c1f67e302e75b1dcb515d98/image.png)
+![112046](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/0eb560566c1f67e302e75b1dcb515d98/image.png)
 
 > <font color="#0000cc">**注意：** </font>
 如果出现权限的问题，建议在命令前添加 sudo 尝试解决。

@@ -1,7 +1,7 @@
 请用户按照以下步骤来测试刚刚创建的`DownloadImage`函数。
 
 ## 使用 COS 上传文件测试
-1. 登录云平台控制台，导航至【对象存储服务】，在 Bucket 列表中选择第一步中创建的`TestBucket`Bucket，点击【上传文件】按钮，上传一张[示例图片:testimage.jpeg](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/e683e8627510ec92344329c5219c1939/testimage.jpeg)（您可将此示例图片下载到本地并用作测试）。
+1. 登录云平台控制台，导航至【对象存储服务】，在 Bucket 列表中选择第一步中创建的`TestBucket`Bucket，点击【上传文件】按钮，上传一张[示例图片:testimage.jpeg](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e683e8627510ec92344329c5219c1939/testimage.jpeg)（您可将此示例图片下载到本地并用作测试）。
 
 2. 导航至【无服务器云函数】，选择刚刚创建的`DownloadImage`。
 

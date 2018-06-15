@@ -23,7 +23,7 @@
 解压后将 tac_services_configurations.plist 文件集成进项目中。其中有一个  tac_services_configurations_unpackage.plist 文件，请将该文件放到您工程的根目录下面(**切记不要将改文件添加进工程中**)。 添加好配置文件后，继续点击【下一步】。
 
 
-![](http://imgcache.tce.fsphere.cn/static/ws1.sinaimg.cn/large/006tNc79gy1forbnw3ijyj31bi11wnch.jpg)
+![](http://imgcache.tce.fsphere.cn/image/ws1.sinaimg.cn/large/006tNc79gy1forbnw3ijyj31bi11wnch.jpg)
 
 > 切记**不要**将文件 `tac_service_configurations_unpackage.plist` 添加进工程，文件中包含了不可泄露的机密信息，请不要打包到 apk 文件中，MobileLine SDK 也会对此进行检查，防止由于您误打包造成的机密信息泄露。
 
@@ -97,7 +97,7 @@ pod 'TACCrash'
 1. 在构建之前运行的脚本，该类型的脚本会修改一些程序的配置信息，比如在 Info.plist 里面增加 qqwallet 的 scheme 回调。
 2. 在构建之后运行的脚本，该类型的脚本在执行结束后做一些动作，比如 Crash 符号表上报。
 
-![](http://imgcache.tce.fsphere.cn/static/ws1.sinaimg.cn/large/006tNc79ly1fnttw83xayj317i0ro44j.jpg)
+![](http://imgcache.tce.fsphere.cn/image/ws1.sinaimg.cn/large/006tNc79ly1fnttw83xayj317i0ro44j.jpg)
 
 请按照以下步骤来添加脚本：
 

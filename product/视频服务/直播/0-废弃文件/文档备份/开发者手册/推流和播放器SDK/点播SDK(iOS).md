@@ -9,7 +9,7 @@
 
 - **FLV**: Adobe公司所推的标准，目前直播平台最常用的封装格式，在PC端有FLASH的强力支持，但在移动终端只有APP实现播放器才有可能支持（或者使用本播放器），大部分手机端浏览器均不支持。目前腾讯视频云的直播录制，采用的就是FLV视频格式。
 
-![vod](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tencent_cloud_flv_online_vod.jpg)
+![vod](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tencent_cloud_flv_online_vod.jpg)
 目前我们的在线点播还只支持**FLV**，7月份以前的版本中会继续增加MP4，HLS 等其它格式的各种点播文件支持。
 
 -----------------------------------------------------------------------------------------------------------------
@@ -51,7 +51,7 @@ NSString *vodUrl = @"http://2527.vod.myqcloud.com/xxx.flv";
 
 ### step 4: 画面调整
 如果你希望调整画面的显示方式，SDK也提供了多种选择：
-![enter image description here](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/player_demo_render_mode.jpg)
+![enter image description here](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/player_demo_render_mode.jpg)
 
 #### setRenderMode
 * RENDER_MODE_FULL_FILL_SCREEN  - 将图像等比例铺满整个屏幕，多余部分裁剪掉，此模式下画面不留黑边

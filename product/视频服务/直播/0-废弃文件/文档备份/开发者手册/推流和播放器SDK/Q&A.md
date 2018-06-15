@@ -10,14 +10,14 @@
 - **RTMP**：RTMP协议比较全能，既可以用来推送又可以用来直播，其核心理念是将大块的视频帧和音频帧“剁碎”，然后以小数据包的形式在互联网上进行传输，而且支持加密，因此隐私性相对比较理想，但拆包组包的过程比较复杂，所以在海量并发时也容易出现一些不可预期的稳定性问题。
 - **FLV**：FLV协议由Adobe公司主推，格式极其简单，只是在大块的视频帧和音视频头部加入一些标记头信息，由于这种极致的简洁，在延迟表现和大规模并发方面都很成熟。唯一的不足就是在手机浏览器上的支持非常有限，但是用作手机端APP直播协议却异常合适。
 - **HLS**：苹果推出的解决方案，将视频分成5-10秒的视频小分片，然后用m3u8索引表进行管理，由于客户端下载到的视频都是5-10秒的完整数据，故视频的流畅性很好，但也同样引入了很大的延迟（HLS的一般延迟在10-30s左右）。相比于FLV， HLS在iPhone和大部分android手机浏览器上的支持非常给力，所以常用于QQ和微信朋友圈的URL分享。
-![live_video_protocol](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/live_video_protocol.jpg)
+![live_video_protocol](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/live_video_protocol.jpg)
 
 #### 常见的点播协议有哪些？
 目前常见的点播格式有三种：MP4、HLS和FLV。
 -  **MP4**: 比较经典的文件格式，在移动终端和PC浏览器上的支持度都很好（在IOS和大部分Android设备上，都可以使用系统浏览器进行播放，在PC上可以使用FLASH控件进行播放）。但是MP4的视频文件格式比较复杂，所以处理成本高，而且由于索引表复杂度高，导致时长稍大（比如半小时）的MP4文件在线播放时加载速度会很慢。
 - **HLS**: 苹果公司力推的标准，在移动终端的浏览器上的支持度较好，但IE的支持情况依赖FLASH的二次开发工作（建议使用腾讯视频云的FLASH播放器控件）。其精简的m3u8的索引结构可以规避MP4的索引慢问题，如果是用于点播，是非常不错的选择。
 - **FLV**: Adobe公司所推的标准，目前直播平台最常用的封装格式，在PC端有FLASH的强力支持，但在移动终端只有APP实现播放器才有可能支持（或者使用本播放器），大部分手机端浏览器均不支持。目前腾讯视频云的直播录制，采用的就是FLV视频格式。
-![vod_video_protocol](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/vod_video_protocol.jpg)
+![vod_video_protocol](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/vod_video_protocol.jpg)
 
 #### 常见的推流协议有哪些？
 虽然RTMP在直播领域不是特别流行，但是在推流服务，也就是主播->服务器这个方向上，RTMP则居于主导地位，目前国内的视频云服务都是以RTMP为主要推流协议。由于腾讯视频云SDK第一个功能模块就是主播推流，所以也被称为是RTMP SDK。
@@ -36,7 +36,7 @@
 #### 如何降低延迟并减少画面卡顿？
 这里说的**延迟**是主播 -> 观众的时间延迟，而**卡顿**指的是出现500ms以上的播放停滞。
 如果是在完美的网络环境下，可以做到超低延迟下没有卡顿，但现实是国内的网络环境并不完美，数据在经过互联网传输时必然会有抖动和丢包，从而对播放端的流畅播放产生影响。
-![tx_live_service_lag](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tx_live_service_lag.jpg)
+![tx_live_service_lag](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/tx_live_service_lag.jpg)
 
 因此，为了缓解这些不稳定因素，云服务和终端APP都需要引入一些缓冲，但缓冲的加入就不可避免地引入了延迟。
 所以，**延迟和流畅是一架天平的两端**，如果过分强调降低延迟，就会导致轻微的网络波动即产生明显的播放端卡顿。反推之，如果过分强调流畅，就意味着引入大量的延迟，一个典型的案例就是HLS协议，通过引入10-30秒的延迟来实现流畅的播放体验。
@@ -63,18 +63,18 @@
 IOS工程请务必检查一下工程中"Other Linker Flags"是否包含-all_load，如有请去掉。
 
 如果命名冲突源自其它模块，请联系我们，基于先来后到的原则，我们更改我们的函数命名是情理之中的。
-![txc_rtmp_sdk_duplicated_symbol](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/txc_rtmp_sdk_duplicated_symbol.jpg)
+![txc_rtmp_sdk_duplicated_symbol](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/txc_rtmp_sdk_duplicated_symbol.jpg)
 
 #### Android运行必现程序崩溃（CRASH）
 一般都是混淆导致的，请注意**com.tencent 包下的文件不要做混淆**，因为有jni封装，混淆会导致java无法定位到期望的接口函数。
 
 #### 找不到函数定义（Undefined Symbols  ）
 一般是工程配置问题，尤其是IOS下分多种指令架构，armv7, arm64, x86模拟器等等，另外检查下IOS工程的Link Binary With Libraries的配置，我们的SDK需要依赖的库如下（请参考demo工程的配置）：
-![txc_rtmp_sdk_link_lib](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/6605e78efb384799b9b4e1c6a5a7aac6/image.jpg)
+![txc_rtmp_sdk_link_lib](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/6605e78efb384799b9b4e1c6a5a7aac6/image.jpg)
 如果出现如下错误：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/8424405ffd2e666c481c1792d8296172/image.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/8424405ffd2e666c481c1792d8296172/image.jpg)
 请检查工程的c++库的配置：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/07665b7aa7f6495417bb8e2f850f3afa/image.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/07665b7aa7f6495417bb8e2f850f3afa/image.jpg)
 
 #### 画面渲染异常（OpenGL ES冲突）
 指集成视频云SDK之后，客户原APP的UI渲染界面表现异常（且原工程中有使用cocos2d或者OpenGL ES）
@@ -93,7 +93,7 @@ IOS工程请务必检查一下工程中"Other Linker Flags"是否包含-all_load
 
 
 #### 直播时出现花屏或者绿屏
-![screen_broken_vs_green](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/screen_broken_vs_green.jpg)
+![screen_broken_vs_green](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/screen_broken_vs_green.jpg)
 
 花屏和绿屏出现的原因多种多样，但一般而言，花屏主要是p帧丢失或者损坏导致的，绿屏则主要是i帧损坏或者sps pps信息错误引发的。如果您发现在播放端出现绿屏，可以参考如下攻略进行排查：
 

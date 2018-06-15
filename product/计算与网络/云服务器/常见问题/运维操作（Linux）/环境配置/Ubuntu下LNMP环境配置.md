@@ -19,7 +19,7 @@ Saving to: `index.html'
 
 3. 浏览器中测试 Nginx 服务是否正常运行。访问 Ubuntu 云服务器公网 IP。
 若服务正常，显示结果如下。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/fce31b900d308c4a5d57b1d316574a58/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/fce31b900d308c4a5d57b1d316574a58/image.png)
 
 ## 安装配置 MySQL
 1. 安装 MySQL。输入命令：`sudo apt-get –y install MySQL-server mysql-client php7.1-mysql` 。
@@ -50,12 +50,12 @@ listen = 127.0.0.1:9000 ; 可监听上边的 sock 方式，若使用 ip:port 时
 2. 启动 PHP-FPM。输入命令启动 PHP-FPM 服务：`sudo /etc/init.d/php7.1-fpm start` 。
 
 3. 输入命令查看 PHP-FPM 默认配置：`sudo netstat -tunpl | grep php-fpm`，如下图。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b01de8b9657.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b01de8b9657.png)
 以上结果表明 PHP-FPM 默认配置的监听端口为 9000，只需修改配置，将 PHP 解析的请求转发到 127.0.0.0:9000 处理即可。
 
 4. 修改 Nginx 配置。输入修改命令：`sudo vim /etc/nginx/sites-available/default` 。
 找到下面的内容。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56b01e58b221e.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56b01e58b221e.png)
 在配置文件的后面，写入如下内容：
 ```
 location ~ \.php$ {

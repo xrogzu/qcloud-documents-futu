@@ -14,7 +14,7 @@
 
 
 ## 流程图示
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/e90548bcf95bb5c51b4a9f97ac015084/API.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e90548bcf95bb5c51b4a9f97ac015084/API.png)
 
 更多产品鉴权流程：[登录鉴权概览](http://tce.fsphere.cn/document/product/655/13663)
 

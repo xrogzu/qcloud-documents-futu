@@ -7,7 +7,7 @@ http://tce.fsphere.cn/product/im.html
 http://avc.tce.fsphere.cn/demo/webim/biggroup/mobile/index.html
 
 直播聊天室demo二维码：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/a188f7fd653c8237b362a7adea1f63b1/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/a188f7fd653c8237b362a7adea1f63b1/image.png)
 
 通用demo地址：
 http://avc.tce.fsphere.cn/demo/webim/index.html
@@ -70,14 +70,14 @@ C:\Users\peakerdong>"D:\Program Files\Apache24\bin\httpd.exe" -k install -n apac
 其中，Errors reported here must be corrected before the service can be started.意思是，若该句话后面有错误信息，则表示服务安装失败，需要先改正错误。若没有，则成功。
 
 在安装目录中，找到D:\Program Files\Apache24\bin\ApacheMonitor.exe可执行文件，双击运行，桌面右下角会出现图标，双击打开窗口界面，会看到如图所示：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/02ef4d509e5579661953a9cc3dc4ee59/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/02ef4d509e5579661953a9cc3dc4ee59/image.png)
 
 点击左侧start，启动apache服务。
 
 打开浏览器，输入访问 `http://localhost`
 如果你设置的端口是8080，则访问地址是`http://localhost:8080/`
 出现以下界面，表示apahce启动成功。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/1a051fa9cbedf08e55a979f732e824ef/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/1a051fa9cbedf08e55a979f732e824ef/image.png)
 
 ## 3 运行demo
 
@@ -131,18 +131,18 @@ var avChatRoomId = '@TGS#aJIPTVAEE';
 `http://localhost:8080/webim/biggroup/mobile/index.html`
 
 效果如下：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/9994fb0d0f4073a77f5766a7abd5283d/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/9994fb0d0f4073a77f5766a7abd5283d/image.png)
 
 模拟手机访问，按F12，点击下图箭头所指的手机图标：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/e71c925af3ea9d2e04ca0dbbea86fcee/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/e71c925af3ea9d2e04ca0dbbea86fcee/image.png)
 
 点击下方评论或点赞按钮，会跳转到tls登录界面，直接点击游客登录，会跳回到首页：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/c604fbde4569278532eebc6d5eb7ebc7/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/c604fbde4569278532eebc6d5eb7ebc7/image.png)
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/1f39be07a839ff47bd13a08a58b64647/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/1f39be07a839ff47bd13a08a58b64647/image.png)
 
 登录之后，可以评论，点赞：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/aa37dcc2c32aa47c57f107bd0ea8785c/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/aa37dcc2c32aa47c57f107bd0ea8785c/image.png)
 
 ### 3.3 运行demo（独立模式）
 

@@ -13,7 +13,7 @@
 3. 到 (控制台密钥管理)[https://console.qcloud.com/capi] 获取您的项目 SecretId 和 SecretKey
 4. 配置 CORS 规则，配置例子如下图：
 
-![cors](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2e7791e9274ce3ebf8b25bbeafcd7b45/image.png)
+![cors](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2e7791e9274ce3ebf8b25bbeafcd7b45/image.png)
     
 ### 二、计算签名
 

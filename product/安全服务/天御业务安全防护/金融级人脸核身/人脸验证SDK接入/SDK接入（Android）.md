@@ -3,12 +3,12 @@
 SDK 需要用到相机/录音/读取手机信息权限，在 android6.0 以上系统，sdk 对其做了权限的运行时检测。但是由于 android 6.0 以下系统 android 并没有运行时权限，检测权限只能靠开关相机/麦克风进行。考虑到 sdk 的使用时间很短，快速频繁开关相机/麦克风可能会导致手机抛出异常，故 sdk 内对 android 6.0 以下手机没有做权限的检测。为了进一步提高用户体验，在 android6.0 以下系统上，我们建议合作方在拉起 sdk 前，帮助 sdk 做相机/麦克风/读取手机信息权限检测，提示用户确认打开了这三项权限后再进行刷脸，可以使整个刷脸体验更快更好。
 **1.2 CPU 平台设置**
 目前 SDK 只支持 armeabi-v7a 平台，为了防止在其他 cpu 平台上 sdk crash，我们建议在您的 app 的 build.gradle 里加上 abiFilter，如下图中红框所示：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/61fab389aae7630adf751ec997dbdb16/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/61fab389aae7630adf751ec997dbdb16/image.png)
 
 ### 2.接入配置
 云刷脸 SDK（WbCloudFaceVerify）最低支持到** Android API 14: Android 4.0(ICS)**，请在构建项目时注意。
 刷脸 SDK 将以 AAR 文件的形式提供，包括**代码包（WbCloudFaceVerifySdk）和资源包（WbCloudFaceRes）**两个部分，缺一不可。其中代码包分为动作活体和数字活体两个模式，资源包分为黑色皮肤和白色皮肤(sdk皮肤的设定，除了接入对应的 aar，还需要设定相关代码。详见[ SDK 样式选择](http://tce.fsphere.cn/document/product/295/10140#6..E4.B8.AA.E6.80.A7.E5.8C.96.E5.8F.82.E6.95.B0.E8.AE.BE.E7.BD.AE)。默认黑色皮肤，无需格外设置)，接入方可自由选择组合四个模式。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/0d1fb1b5512b25f4efda0cd89fb33ddb/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/0d1fb1b5512b25f4efda0cd89fb33ddb/image.png)
 另外刷脸 SDK 同时需要依赖**云公共组件 WbCloudNormal**，同样也是以 AAR 文件的形式提供。
 需要添加下面文档中所示的依赖(将提供的 aar 文件加入到 app 工程的`'libs'`文件夹下面,
 并且在** build.gradle **中添加下面的配置:

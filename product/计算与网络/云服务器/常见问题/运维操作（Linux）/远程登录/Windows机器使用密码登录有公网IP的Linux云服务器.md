@@ -24,7 +24,7 @@ ubuntu：ubuntu
 - Connect type：选择“SSH”。
 
 全部输入完后，点击“Open”，创建一个新对话。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56a5d38a4ffbc.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a5d38a4ffbc.png)
 
 在Putty会话窗口中， 输入管理员帐号，按回车键。
 >管理员帐号：
@@ -32,13 +32,13 @@ SUSE/CentOS/Debian：root
 ubuntu：ubuntu 
 
 再输入第一步中获取的登录密码，回车完成登录过程。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56a5d47b8b5da.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a5d47b8b5da.png)
 
 
 ## 4. 使用SecureCRT连接Linux云服务器
 启动SecureCRT客户端，点击菜单栏“文件”->“连接”，打开“连接”对话框，点击对话框上的“新建会话”按钮，打开新建会话向导，协议选择“SSH2”，如下图所示：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56a2104a85e65.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a2104a85e65.png)
 
 点击“下一步”，在会话向导中进行如下配置：
 
@@ -52,21 +52,21 @@ Windows：Administrator
 ubuntu：ubuntu 
 
 如下图所示：
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56a212155843e.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a212155843e.png)
 
 点击“下一步”，确定该会话的名字（默认为之前输入的云服务器公网IP），点击“完成”，即创建了1个会话。 
 
 在“连接”窗口，右键点击新建的会话，选择“属性”后，在弹出的“会话选项”中，取消勾选“公钥”，如下图所示：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56a592adc21f0.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a592adc21f0.png)
 
 这里不对公钥进行鉴权，因此需要取消勾选“公钥”。
 
 在“连接”窗口的会话列表中，可以看到之前创建的会话，选中后，点击“连接”按钮，即开始连接Linux云服务器。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56a5933ce992f.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a5933ce992f.png)
 
 在弹出的输入密码对话框中，输入密码，密码为管理员账号的密码。点击“确定”，即完成登录。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56a5935421274.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a5935421274.png)
 
 点击菜单“选项”->“会话选项”->“终端”，打开终端设置对话框，设置发送协议，可在网络环境正常的情况下空闲时保持会话不断开。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56a5944e4604e.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56a5944e4604e.png)

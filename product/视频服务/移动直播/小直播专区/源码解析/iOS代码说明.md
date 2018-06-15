@@ -1,6 +1,6 @@
 ## 1.工程结构
 [下载](http://tce.fsphere.cn/document/product/454/7873)小直播代码后，您将看到TCLVBIMDemo.xcworkspace文件，这是小直播的Xcode工程工作区，用于管理小直播的代码工程和依赖的第三方开源类库（位于Pods目录下），如果您需要编译或浏览小直播相关代码，请打开此文件，请勿直接打开小直播的工程文件TCLVBIMDemo.xcodeproj。打开TCLVBIMDemo.xcworkspace后，您将看到如下的工程目录结构：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/8673bf53392e34a9f38d8a5a8625e8eb/image.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/8673bf53392e34a9f38d8a5a8625e8eb/image.jpg)
 
 |工程目录 | 说明 | 
 |---------|---------|
@@ -15,9 +15,9 @@
 ## 2.编译运行
 下载代码后，打开**TCLVBIMDemo.xcworkspace**工程文件（请勿直接打开小直播的工程文件TCLVBIMDemo.xcodeproj），由于小直播目前还不支持模拟器调试，只能在真机调试，所以您需要按照如下步骤配置工程的证书：
 **Step1:配置bundle id及签名证书**
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/e2c29a0daa9dbba958c970fadc0a3f09/image.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/e2c29a0daa9dbba958c970fadc0a3f09/image.jpg)
 **Step2:配置完签名后，还需要配置App Groups**
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/cd7f2559857e8248efa08551e80e8c05/image.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/cd7f2559857e8248efa08551e80e8c05/image.jpg)
 **Step3:配置其他TARGETS**
 按照Step1和Step2配置另外2个targets：TCLVBIMDemoUpload和TCLVBIMDemoUploadUI，这2个targets是用于replaykit方式的录屏推流，如果您不需要这个功能，可以删除这2个targets
 
@@ -73,10 +73,10 @@
 - 主播端可以展示观众列表，当有观众进入，退出房间时候，观众列表会刷新，主播也会收到观众进入或则退出房间消息
 
 #### 推流时序图
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/6fb00666a6a1cdea732fbddccc5fc786/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/6fb00666a6a1cdea732fbddccc5fc786/image.png)
 
 #### UI层级结构
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/df03a372dfdb1fe5ca8a8675dc9e7dcb/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/df03a372dfdb1fe5ca8a8675dc9e7dcb/image.png)
 
 #### 相关代码
 - Logic:
@@ -92,7 +92,7 @@
 - 观众端可以展示主播信息，观众列表，当有观众进入，退出房间时候，观众列表会刷新，同时消息列表也会展示其他观众进入，退出房间的消息。
 
 #### 播放时序图
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/fb9f9002c2d973d069bb9c1568037e26/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/fb9f9002c2d973d069bb9c1568037e26/image.png)
 
 #### UI层级结构
 请参考推流模块的UI层级结构
@@ -157,7 +157,7 @@
 - 主播端开始直播后，连麦观众向主播发起连麦请求，主播同意连麦请求后，连麦观众和主播分别通过对方的播放地址拉取视频数据并展示，后台对主播和连麦观众的推流数据进行混流，第三方观众看到的直接是混流后的视频
 
 #### 时序图
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/1b80501829fd5528bf41d4c9a84aed2b/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1b80501829fd5528bf41d4c9a84aed2b/image.png)
 
 #### 相关代码
 - Logic:

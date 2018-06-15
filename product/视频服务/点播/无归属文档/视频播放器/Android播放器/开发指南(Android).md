@@ -35,7 +35,7 @@ NSString *vodUrl = @"http://2527.vod.myqcloud.com/xxx.mp4";
 
 ### step 5: 画面调整
 如果你希望调整画面的显示方式，SDK也提供了多种选择：
-![enter image description here](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/player_demo_render_mode.jpg)
+![enter image description here](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/player_demo_render_mode.jpg)
 
 ##### setRenderMode
 * RENDER_MODE_FULL_FILL_SCREEN  - 将图像等比例铺满整个屏幕，多余部分裁剪掉，此模式下画面不留黑边

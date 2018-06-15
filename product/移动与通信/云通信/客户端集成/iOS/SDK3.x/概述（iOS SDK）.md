@@ -45,7 +45,7 @@ ImSDK.framework 支持iOS 7.0 及以上系统。
 
 说明：使用小视频存储功能需要在控制台开通点播服务
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/7830ff8639567e4a9d60923349bf5a58/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7830ff8639567e4a9d60923349bf5a58/image.png)
 
 ### 1.3 创建应用
 
@@ -90,7 +90,7 @@ IMSDKBugly.framework
 
 如下图所示，一个会话表示与一个好友的对话：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/6a12c1ea947e7b36a7abe25e55c33608/image.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/6a12c1ea947e7b36a7abe25e55c33608/image.jpg)
 
 消息：ImSDK中消息(Message)表示要发送给对方的内容，消息包括若干属性，如是否自己已读，是否已经发送成功，发送人帐号，消息产生时间等；一条消息由若干Elem组合而成，每种Elem可以是文本、图片、表情等等，消息支持多种Elem组合发送。
 

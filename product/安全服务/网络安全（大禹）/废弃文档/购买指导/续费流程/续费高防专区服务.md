@@ -1,4 +1,4 @@
 进入管理中心→云安全控制台→点击“安全服务详情”→DDoS高级防护，点击高级防护服务列表中的 “续费”功能
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56c587054d65c.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56c587054d65c.jpg)
 进入续费的二次确认框，选择您希望续费的时长，点击“确认续费”并完成支付即可。
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img56c5874c0dff7.jpg)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img56c5874c0dff7.jpg)

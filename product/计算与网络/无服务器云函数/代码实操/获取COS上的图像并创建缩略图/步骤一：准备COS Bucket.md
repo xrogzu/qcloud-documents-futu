@@ -12,5 +12,5 @@
 
 4) 按照相同的方式创建目标 Bucket `mybucketresized`
 
-5) 在源 Bucket（即mybucket）中，上传任意一个图片文件，本示例中使用了一个 [HappyFace.png](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/eae5118ed07d95ac2837f000f1ab96e5/HappyFace.png) 的图片作为演示。（在实际关联 COS 前手动调用函数进行测试验证时，您要将包含该文件的示例数据传递给 SCF 函数，且 SCF 函数将根据该数据寻找相应的文件。因此您需要先创建此示例对象。）
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/2f0c6645ff3b8097a4791e758facf4a7/image.png)
+5) 在源 Bucket（即mybucket）中，上传任意一个图片文件，本示例中使用了一个 [HappyFace.png](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/eae5118ed07d95ac2837f000f1ab96e5/HappyFace.png) 的图片作为演示。（在实际关联 COS 前手动调用函数进行测试验证时，您要将包含该文件的示例数据传递给 SCF 函数，且 SCF 函数将根据该数据寻找相应的文件。因此您需要先创建此示例对象。）
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/2f0c6645ff3b8097a4791e758facf4a7/image.png)

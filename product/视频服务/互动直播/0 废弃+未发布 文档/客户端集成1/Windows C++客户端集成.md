@@ -78,15 +78,15 @@ QAVSDKDemo.exe的存放目录。其中的ConfigInfo.ini文件存放了demo所使
 
 这边假设SDK存放在D:\QAVSDK目录下，并将新建的VS2010工程存放在D:\QAVSDKDemoProj目录下。如下图所示。
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-1.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-1.png)
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-2.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-2.png)
 
 **a)新建VS2010工程**
 
 打开VS2010，新建一个MFC Applicatin工程，工程名为QAVSDKDemo，存放在D:\QAVSDKDemoProj\目录下。如下图所示。
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-3.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-3.png)
 
 **b)修改工程配置**
 
@@ -102,11 +102,11 @@ QAVSDKDemo.exe的存放目录。其中的ConfigInfo.ini文件存放了demo所使
 
 如下图所示。
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-4.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-4.png)
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-5.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-5.png)
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-6.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-6.png)
 
 
 
@@ -114,7 +114,7 @@ QAVSDKDemo.exe的存放目录。其中的ConfigInfo.ini文件存放了demo所使
 
 写代码时，为了使用SDK所提供接口，需要在代码中引用SDK的头文件及命名空间，如下：
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-7.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-7.png)
 
 然后，就可以开始使用SDK进行开发了。具体如何使用SDK所提供的每个接口，请参考我们提供的demo源程序及相关文档，在这边就不做细说了。
 
@@ -122,7 +122,7 @@ QAVSDKDemo.exe的存放目录。其中的ConfigInfo.ini文件存放了demo所使
 
 运行时，可执行程序需要用到SDK的动态库dll文件和音视频参数配置文件，请将D:\QAVSDK\bin\目录下Debug版或Release版的所有dll文件和配置文件复制到可执行程序所在目录，即可运行它。如下图所示。 
 
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-8.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/WindowsC++kehuduanjicheng-8.png)
 
 ## 3 开发者文档
 

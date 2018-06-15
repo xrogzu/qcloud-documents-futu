@@ -2,15 +2,15 @@
 
 进入 COS 管理控制台，点击 Object 所在的 Bucket，在 Object 列表右侧，点击 **Object 信息** ：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/4c1ef7bce00a3cbbb1766ead6ecca90f/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/4c1ef7bce00a3cbbb1766ead6ecca90f/image.png)
 
 此时会弹出 Object 信息窗口，点击下载按钮可直接下载 Object ：
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/6e65706222e5ad2ff66315544c2b14b6/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/6e65706222e5ad2ff66315544c2b14b6/image.png)
 
 您也可以复制 URL 地址粘贴至浏览器下载；
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/f57187461509be7a104b2d311839f106/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/f57187461509be7a104b2d311839f106/image.png)
 
 若资源所属 Bucket 的属性为私有读写，此处复制的地址后会自动计算签名添加后缀，签名生成方法详情请参考 [签名算法](/doc/api/264/5993) 。
 

@@ -2,17 +2,17 @@
 
 当前回源设置支持源站 IP 为电信、移动、联通、长宽的 IP 段，并有其他运营商支持不断新增中。
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/img5697c84160bd9.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/img5697c84160bd9.png)
 
 ## 配置说明
 
 进入 COS 管理控制台，左侧选择 Bucket列表，进入 Bucket 列表页面。选择需要配置回源的 Bucket，点击进入文件列表后，顶部切换选项卡 **基础配置** ：
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/dbddd755f6b782d8f9857d6e0feb9806/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/dbddd755f6b782d8f9857d6e0feb9806/image.png)
 
 找到 **回源配置** 点击 **编辑** 按钮：
 
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/b8717b14f1e94c920679655df98cc693/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/b8717b14f1e94c920679655df98cc693/image.png)
 
 功能状态：用户设置回源状态为开启后，必须填入需要回源的域名或者 IP 地址。
 

@@ -2,7 +2,7 @@
 
 如下图中，展示一条用户主动退群的提示消息： 
 
-![](http://imgcache.tce.fsphere.cn/static/mccdn.qcloud.com/static/img/26477a470aaa4149480fad643efea12d/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mccdn.qcloud.com/static/img/26477a470aaa4149480fad643efea12d/image.png)
 
 群提示消息类型定义如下： 
 

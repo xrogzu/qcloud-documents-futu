@@ -528,12 +528,12 @@ SysBench0.5
 8. 标准版和单机版在相同的实例规格下，性能表现一致 
 
 ### 3.5 性能曲线
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-4.png)
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-5.png)
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-6.png)
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-7.png)
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-8.png)
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-9.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-4.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-5.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-6.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-7.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-8.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-9.png)
 
 ## 4标准版性能说明
 ### 4.1 测试工具
@@ -639,6 +639,6 @@ SysBench0.5
 8. 标准版和单机版在相同的实例规格下，性能表现一致 
 
 ### 4.5 性能曲线
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-1.png)
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-2.png)
-![](http://imgcache.tce.fsphere.cn/static/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-3.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-1.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-2.png)
+![](http://imgcache.tce.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/yunshujukugebanbenxingnengshuoming-3.png)

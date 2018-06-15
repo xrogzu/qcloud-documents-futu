@@ -5,7 +5,7 @@ WinSCP 是一个在 Windows 环境下使用 SSH 的开源图形化 SFTP 客户�
 	- [官方下载](http://winscp.net/eng/docs/lang:chs) 
 	- [太平洋下载中心下载](http://dl.pconline.com.cn/html_2/1/86/id=7244&pn=0.html)
 2. 安装完成后启动 WinSCP，界面如下。按图示填写信息并登录。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/98d96ee1c3b65a3d94e99bb447c8a294/22.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/98d96ee1c3b65a3d94e99bb447c8a294/22.png)
 ** 字段填写说明：**
  - 协议：选填 SFTP 或者 SCP 均可。
  - 主机名：云服务器的公网 IP。登录 [云服务器控制台](https://console.tce.fsphere.cn/cvm) 即可查看对应云服务器的公网 IP。
@@ -17,4 +17,4 @@ WinSCP 是一个在 Windows 环境下使用 SSH 的开源图形化 SFTP 客户�
 3. 信息填写完毕之后单击 **登录**，界面如下:
 ![](//mccdn.qcloud.com/img56b0272d4ed3a.png)
 4. 登录成功之后，鼠标选中左侧本地文件，拖拽到右侧的远程站点，即可将文件上传到 Linux 云服务器。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/397117dd956265d42b12f6bf9cacb296/23.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/397117dd956265d42b12f6bf9cacb296/23.png)

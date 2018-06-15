@@ -6,7 +6,7 @@
 
 ## 2. 独享集群数据库的架构
 独享集群于公有云多租户的方案可以用下图表示:
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/7e89269ea6998d9da3947050212528ea/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/7e89269ea6998d9da3947050212528ea/image.png)
 独享集群享用云数据库的全部能力，但在部署架构上有如下区别：
 - 数据库服务器：承载数据库的物理主机，是您使用数据库的主要部分，您将完全独占。
 -	云平台综合运营管理系统：部署在云平台更高等级的管理网络中，是您提供灵活的运维能力的基础，您将与其他用户共享。
@@ -23,10 +23,10 @@
 	- 选择机型与主从架构。目前支持一主多从架构，不同从机数量代表可用性不同，一主一从理论可用性为 99.95%，一主二从理论可用性为 99.99% 以上。
 	- 选择购买组数，多组设备可以组成一个集群，进而为集群提供更多冗余资源，确保可用性。
 2. 在 [集群列表页](https://cdt.tce.fsphere.cn/excluster/page/lists) 查看、管理独享集群详情，单击【操作】 > 【分配实例】，即可在独享集群上分配数据库实例。
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/1a0829726ad5e7662e394c11c1604519/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/1a0829726ad5e7662e394c11c1604519/image.png)
 3. 进入 MySQL/TDSQL 实例列表页，查看刚分配的数据库实例，将 [实例初始化](http://tce.fsphere.cn/document/product/236/3128) 后即可正常使用。
 如下图所示，标志为【主实例（独享）】均为独享集群分配的实例：
-![](http://imgcache.tce.fsphere.cn/static/mc.qcloudimg.com/static/img/33ff4d302883b8d5f450f7ec9ddda2e2/image.png)
+![](http://imgcache.tce.fsphere.cn/image/mc.qcloudimg.com/static/img/33ff4d302883b8d5f450f7ec9ddda2e2/image.png)
 
 ## 4. 常见问题
 
