@@ -124,7 +124,7 @@
 - **CreateCbsStorages ：**创建云硬盘。
 - **AttachCbsStorages ：**挂载指定的弹性云盘到指定的云主机上。
 - **DetachCbsStorages ：**解挂指定的弹性云盘。
-- **ModifyCbsStorageAttributes ：**修改指定云硬盘的名称或项目 ID。
+- **ModifyCbsStorageAttributes ：**修改指定云硬盘的名称。
 - **DescribeCbsStorages ：**查询云硬盘的详细信息性。
 - **DescribeInstancesCbsNum ：**查询云主机已挂载的弹性云盘数量和可挂载的弹性云盘的总数。
 - **ResizeCbsStorage ：**扩容指定的弹性云盘。
