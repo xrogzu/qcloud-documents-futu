@@ -3,7 +3,7 @@
 > **注**：由于搜索引擎 IP 更新较为频繁，云平台 CDN 仅能确保能识别绝大多数的搜索引擎 IP。
 
 ## 配置指引
-登录 [CDN 控制台](http://console.tce.fsphere.cn/cdn)，选择左侧菜单栏的【域名管理】，单击您所要编辑的域名右侧的【管理】。
+登录 [CDN 控制台](http://console.tcecqpoc.fsphere.cn/cdn)，选择左侧菜单栏的【域名管理】，单击您所要编辑的域名右侧的【管理】。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1f2cb594cd614b62b589cb20a20ed362/basic-config-1.png)
 单击【高级配置】，您可以看到 **SEO 优化配置** 模块。默认情况下，搜索引擎自动回源为关闭状态。**注意**：SEO 优化配置功能只在域名接入方式为 **自有源** 时可使用。开启 SEO 优化配置功能后，若域名有多个源站地址，则默认回源地址为添加的第一个源站地址：![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/2c3b24b0034fc5a7caeaf872c489fc18/seo-config-1.png)
 

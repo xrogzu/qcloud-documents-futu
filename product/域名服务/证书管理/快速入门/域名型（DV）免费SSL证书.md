@@ -7,12 +7,12 @@
 2) 填写资料完成注册。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/663e6b293d35f1d39eff4e3cca1b5ac7/1.png)
 
-3) 完成[实名认证](http://console.tce.fsphere.cn/developer/auth)，方可继续申请证书。
+3) 完成[实名认证](http://console.tcecqpoc.fsphere.cn/developer/auth)，方可继续申请证书。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b4f85ccb5ec8a9eb58040eeacfafc9d6/2.png)
 
 ## 2. 申请免费证书
 
-1) 进入[SSL证书管理控制台](http://console.tce.fsphere.cn/ssl)，点击【申请证书】。
+1) 进入[SSL证书管理控制台](http://console.tcecqpoc.fsphere.cn/ssl)，点击【申请证书】。
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/2363dce283c66901c4662f48784661e7/3.png)
 

@@ -70,7 +70,7 @@ NAT 网关主要有以下几点关键特性：
 ### 快速入门
 您需要完成以下两个步骤，您可以通过 NAT 网关访问 Internet：
 #### 第一步：创建NAT网关
-1. 登录 [云平台控制台](http://console.tce.fsphere.cn/)，选择【私有网络】选项卡，选择【NAT 网关】。
+1. 登录 [云平台控制台](http://console.tcecqpoc.fsphere.cn/)，选择【私有网络】选项卡，选择【NAT 网关】。
 2. 点击左上角【新建】按钮，在弹出框中依次输入或确定以下参数：
  - 网关名称
  - 网关类型（网关类型创建后可更改）
@@ -81,7 +81,7 @@ NAT 网关主要有以下几点关键特性：
 
 
 #### 第二步：配置相关子网所关联的路由表
-1. 登录 [云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)。选择【路由表】。
+1. 登录 [云平台控制台](http://console.tcecqpoc.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tcecqpoc.fsphere.cn/vpc/vpc?rid=8)。选择【路由表】。
 2. 在路由表列表中，点击需要访问 Internet 的子网所关联的路由表 ID 进入路由表详情页，在路由策略中点击【编辑】按钮。
 3. 点击新增一行，填入目的端，下一跳类型选择【NAT 网关】，并选择已创建的 NAT 网关 ID。
 4. 点击【确定】按钮。完成以上配置后，关联此路由表的子网内的云主机访问 Intenet 的流量将指向 NAT 网关。
@@ -89,7 +89,7 @@ NAT 网关主要有以下几点关键特性：
 
 ### 新建端口转发规则
 端口转发表是 NAT 网关上的一张配置表，用于配置 NAT 网关上的 DNAT 功能，可将 VPC 内的云主机的[内网 IP，协议，端口]映射成[外网 IP，协议，端口]，使得云主机上的服务可被外网访问。
-1. 登录 [云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)。选择【NAT 网关】。
+1. 登录 [云平台控制台](http://console.tcecqpoc.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tcecqpoc.fsphere.cn/vpc/vpc?rid=8)。选择【NAT 网关】。
 2. 在 NAT 网关列表页中点击需要修改的 NAT 网关 ID 进入详情页，选择【端口转发】
 3. 点击【新建】，选择协议、外部IP端口、及内部 IP 端口。
 
@@ -100,7 +100,7 @@ NAT 网关主要有以下几点关键特性：
 
 ### 查询端口转发规则
 
-1. 登录 [云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)。选择【NAT 网关】。
+1. 登录 [云平台控制台](http://console.tcecqpoc.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tcecqpoc.fsphere.cn/vpc/vpc?rid=8)。选择【NAT 网关】。
 2. 在 NAT 网关列表页中点击需要查询的 NAT 网关 ID 进入详情页，选择【端口转发】
 3. 在搜索框内，选择协议\IP\端口 ，填写相关属性值后，即可查询相关端口转发规则。
 
@@ -108,30 +108,30 @@ NAT 网关主要有以下几点关键特性：
 
 ### 修改 NAT 网关配置
 NAT 网关创建后，可以对其属性进行修改。
-1. 登录 [云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)。选择【NAT 网关】。
+1. 登录 [云平台控制台](http://console.tcecqpoc.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tcecqpoc.fsphere.cn/vpc/vpc?rid=8)。选择【NAT 网关】。
 2. 在 NAT 网关列表页中点击需要修改的 NAT 网关 ID 进入详情页，在详情页您可以完成以下属性的修改：
  - 修改 NAT 网关的自定义名称
  - 更改 NAT 网关的规格，规格更改后实时设定，实时生效（变更规格不会中断原网络连接）
 
 ### 管理 NAT 网关的弹性 IP
-1. 	登录 [云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)，选择【NAT 网关】。
+1. 	登录 [云平台控制台](http://console.tcecqpoc.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tcecqpoc.fsphere.cn/vpc/vpc?rid=8)，选择【NAT 网关】。
 2. 在 NAT 网关列表中点击 ID 进入 NAT 网关详情页。
 3. 在关联弹性 IP 表中，你可以选择【新增】弹性 IP或者【解绑】弹性 IP。
 
 ### 查看 NAT 网关监控信息
-1.	登录 [云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)，选择【NAT 网关】。
+1.	登录 [云平台控制台](http://console.tcecqpoc.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tcecqpoc.fsphere.cn/vpc/vpc?rid=8)，选择【NAT 网关】。
 2. 在 NAT 网关列表页，点击需要查看的 NAT 网关条目中的监控按钮，即可查看该 NAT 网关的监控信息。
 （或）在 NAT 网关列表页，点击需要查看的 NAT 网关 ID 进入详情页，点击监控选项卡查看该 NAT 网关的监控信息。
 
 ### 设置告警
-1.	登录 [云平台控制台](http://console.tce.fsphere.cn/)点击顶部导航条【云产品】-【监控与管理】-[【云监控】](http://console.tce.fsphere.cn/monitor/overview)，选择左导航栏内的【我的告警】-[【告警策略】](http://console.tce.fsphere.cn/monitor/policylist)，点击：新增告警策略。
+1.	登录 [云平台控制台](http://console.tcecqpoc.fsphere.cn/)点击顶部导航条【云产品】-【监控与管理】-[【云监控】](http://console.tcecqpoc.fsphere.cn/monitor/overview)，选择左导航栏内的【我的告警】-[【告警策略】](http://console.tcecqpoc.fsphere.cn/monitor/policylist)，点击：新增告警策略。
 2.	填写告警策略名称，在策略类型中选择【NAT 网关】，然后添加告警触发条件。
 3.	**关联告警对象**：选择告警接收组，保存后即可在告警策略列表中查看已设置的告警策略。
 4.	**查看告警信息**：告警条件被触发后，您将接受到短信/邮件/站内信等通知，同时可以在左导航【我的告警】-【告警列表】中查看。有关告警的更多信息，请参考  [创建告警](http://tcecqpoc.fsphere.cn/doc/product/248/1073)。
 
 ### 删除 NAT 网关
 用户可以在不需要 NAT 网关时随时将其删除，删除时会将含有此 NAT 网关的路由表的相关路由策略一并删除，Internet 转发请求将立即中断，请提前做好网络中断准备。
-1.	登录 [云平台控制台](http://console.tce.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=8)，选择【NAT 网关】。
+1.	登录 [云平台控制台](http://console.tcecqpoc.fsphere.cn/)点击导航条【私有网络】，进入 [私有网络控制台](http://console.tcecqpoc.fsphere.cn/vpc/vpc?rid=8)，选择【NAT 网关】。
 2. 选中需要删除的 NAT 网关，点击【删除】按钮并确认即可完成删除。
 
 

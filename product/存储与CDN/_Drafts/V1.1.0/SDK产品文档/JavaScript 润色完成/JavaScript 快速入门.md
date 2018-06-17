@@ -7,8 +7,8 @@
 ### 开发准备
 
 1. 首先，JS SDk 需要浏览器支持基本的 HTML5 特性，以便支持 ajax 上传文件和计算文件 md5 值。
-2. 到 [COS 对象存储控制台](http://console.tce.fsphere.cn/cos4) 创建存储桶，得到 Bucket（存储桶名称） 和 Region（地域名称）。
-3. 到 [控制台密钥管理](http://console.tce.fsphere.cn/capi) 获取您的项目 SecretId 和 SecretKey。
+2. 到 [COS 对象存储控制台](http://console.tcecqpoc.fsphere.cn/cos4) 创建存储桶，得到 Bucket（存储桶名称） 和 Region（地域名称）。
+3. 到 [控制台密钥管理](http://console.tcecqpoc.fsphere.cn/capi) 获取您的项目 SecretId 和 SecretKey。
 4. 配置 CORS 规则，配置例子如下图：
 ![cors](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/2e7791e9274ce3ebf8b25bbeafcd7b45/image.png)
 

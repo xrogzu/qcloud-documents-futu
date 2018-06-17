@@ -27,7 +27,7 @@ svn checkout https://cdn.yun.qq.com/1251991073
 
 #### 3 创建Bucket
 
-登陆 [COS控制台](http://console.tce.fsphere.cn/cos)，若未开通，请点击开通COS对象存储服务，在左侧点击【Bucket列表】：
+登陆 [COS控制台](http://console.tcecqpoc.fsphere.cn/cos)，若未开通，请点击开通COS对象存储服务，在左侧点击【Bucket列表】：
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b87d5d718cf5c7e8b6d93cd2acc78783/cos-1.png)
 
 点击页面上【创建Bucket】按钮，填充如下项：
@@ -61,7 +61,7 @@ http://1251991073.cdn.myqcloud.com/1251991073/image/1.png
 http://1251991073-1251991073.costj.myqcloud.com/image/1.png
 ```
 
-您可以在[CDN控制台](http://console.tce.fsphere.cn/cdn) 查看该域名的流量带宽实时统计、分析数据：
+您可以在[CDN控制台](http://console.tcecqpoc.fsphere.cn/cdn) 查看该域名的流量带宽实时统计、分析数据：
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/97fab7ced01a83251798c55539d17991/cos-4.png)
 
 COS加速域名在CDN控制台上能够进行配置管理、查看统计分析数据、日志下载、刷新预热等功能。

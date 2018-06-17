@@ -1,7 +1,7 @@
 在此部分中，将创建一个函数来实现博客文章的 API 响应，并通过控制台调用来测试函数。
 
 ## 创建 blogArticle 云函数
-1 . 登录[无服务器云函数控制台](http://console.tce.fsphere.cn/scf)，在【广州】地域下单击【新建】按钮。
+1 . 登录[无服务器云函数控制台](http://console.tcecqpoc.fsphere.cn/scf)，在【广州】地域下单击【新建】按钮。
 
 2 . 进入函数配置部分，函数名称填写`blogArticle`，剩余项保持默认，点击【下一步】。
 

@@ -3,4 +3,4 @@
 ### 可购买区域
 云平台华南地区（广州）、华东地区（上海），此产品暂未上线，敬请期待。
 ### 购买步骤
-1.工单提交地址：http://console.tce.fsphere.cn/ticket
+1.工单提交地址：http://console.tcecqpoc.fsphere.cn/ticket

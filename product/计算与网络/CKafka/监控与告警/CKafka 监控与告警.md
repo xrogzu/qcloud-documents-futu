@@ -5,7 +5,7 @@
 CKafka在自身的控制台页面提供改了单独的监控数据读取选项卡。
 CKafka提供两种维度的监控——实例维度和Topic维度。监控页面可查看到CKafka实例和Topic的生产流量、消费流量、消息堆积量等监控数据，并可任意调整查看的时间段。
 
-1. 登录 [CKafka控制台](http://console.tce.fsphere.cn/ckafka)  。
+1. 登录 [CKafka控制台](http://console.tcecqpoc.fsphere.cn/ckafka)  。
 
 2. 列表中，单击要查看的实例 ID / Topic ID，进入详情页。
 

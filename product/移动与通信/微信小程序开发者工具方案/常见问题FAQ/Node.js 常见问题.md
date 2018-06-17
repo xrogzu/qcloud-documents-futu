@@ -44,15 +44,15 @@
 
 ## 如何查看后台日志
 
-进入[云平台小程序控制台](http://console.tce.fsphere.cn/lav2)，点击“日志下载”即可下载 Node.js 输出的日志。
+进入[云平台小程序控制台](http://console.tcecqpoc.fsphere.cn/lav2)，点击“日志下载”即可下载 Node.js 输出的日志。
 
 ## 如何修改数据库密码
 
-进入[云平台小程序控制台](http://console.tce.fsphere.cn/lav2)，点击“重置密码”，输入原密码（默认密码为小程序的 AppID）和新密码，点击确定即可修改 MySQL 数据库密码。
+进入[云平台小程序控制台](http://console.tcecqpoc.fsphere.cn/lav2)，点击“重置密码”，输入原密码（默认密码为小程序的 AppID）和新密码，点击确定即可修改 MySQL 数据库密码。
 
 ## 如何新建和修改数据库的库表
 
-进入[云平台小程序控制台](http://console.tce.fsphere.cn/lav2)，点击“phpMyAdmin”按钮打开 phpMyAdmin 登录界面，输入用户名（默认为 `root`）和密码（默认密码为小程序的 AppID）点击登录即可登录进图形化数据库操作界面。
+进入[云平台小程序控制台](http://console.tcecqpoc.fsphere.cn/lav2)，点击“phpMyAdmin”按钮打开 phpMyAdmin 登录界面，输入用户名（默认为 `root`）和密码（默认密码为小程序的 AppID）点击登录即可登录进图形化数据库操作界面。
 
 ![phpMyAdmin](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/0b17ef0178c71463d65b3f883a3f1f2b/3.png)
 
@@ -158,7 +158,7 @@ const CONF = {
     serverHost: 'localhost',
     tunnelServerUrl: '',
     tunnelSignatureKey: '27fb7d1c161b7ca52d73cce0f1d833f9f5b5ec89',
-  	// 云平台相关配置可以查看云 API 秘钥控制台：http://console.tce.fsphere.cn/capi
+  	// 云平台相关配置可以查看云 API 秘钥控制台：http://console.tcecqpoc.fsphere.cn/capi
     qcloudAppId: '您的云平台 AppID',
     qcloudSecretId: '您的云平台 SecretId',
     qcloudSecretKey: '您的云平台 SecretKey',

@@ -11,7 +11,7 @@
 
 ## 1. 调整配置方法
 ### 通过控制台升级实例配置
-1. 登录 [云平台控制台](http://console.tce.fsphere.cn/) ，单击【云产品】下拉选择【关系型数据库】，选择 MySQL【实例列表】进入 CDB for MySQL 列表页。
+1. 登录 [云平台控制台](http://console.tcecqpoc.fsphere.cn/) ，单击【云产品】下拉选择【关系型数据库】，选择 MySQL【实例列表】进入 CDB for MySQL 列表页。
 
 2. 找到需要调整的实例右侧操作栏，单击【更多】-【调整配置】。
 

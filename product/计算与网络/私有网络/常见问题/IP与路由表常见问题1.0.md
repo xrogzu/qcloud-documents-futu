@@ -10,7 +10,7 @@ NAT 网关，点击查看 <a href="http://tcecqpoc.fsphere.cn/doc/product/215/49
 
 ## 4. 如何修改云主机内网 IP？
 云主机主网卡的主内网 IP 支持修改，辅助网卡的主内网 IP 不支持修改，操作步骤如下：
-（1）进入 <a href="http://console.tce.fsphere.cn/cvm/" target="_blank">云服务器控制台</a>，点击左导航栏的云主机，进入云主机列表页。
+（1）进入 <a href="http://console.tcecqpoc.fsphere.cn/cvm/" target="_blank">云服务器控制台</a>，点击左导航栏的云主机，进入云主机列表页。
 （2）点击云主机 ID，进入云主机详情页，点击上方 tab：弹性网卡。
 （3）点击修改主 IP。
 （4）填入新的 IP，并保存即可。

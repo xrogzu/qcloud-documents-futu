@@ -27,7 +27,7 @@ WEB SDK直播视频格式支持：
 ### Step 1：开通服务
 注册云平台帐号，并开通**直播**服务
 ### Step 2：创建频道
-进入直播管理控制台并创建直播频道<br>[直播视频管理](http://console.tce.fsphere.cn/live)
+进入直播管理控制台并创建直播频道<br>[直播视频管理](http://console.tcecqpoc.fsphere.cn/live)
 ### Step 3：获取ID
 您可以在直播管理控制台查找到直播频道并对该频道进行管理。在控制界面您可以找到app_id。在**基础设置**中，可以查询到该频道的频道id。
 

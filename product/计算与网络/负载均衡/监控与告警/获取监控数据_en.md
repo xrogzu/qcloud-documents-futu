@@ -4,7 +4,7 @@ You can view the monitoring data of cloud load balancer in the following ways:
 
 ## Cloud Load Balance Console
 
-1) Log in to [Cloud Load Balance Console](http://console.tce.fsphere.cn/loadbalance) and click corresponding cloud load balancer instance ID to enter the details page of cloud load balancer.
+1) Log in to [Cloud Load Balance Console](http://console.tcecqpoc.fsphere.cn/loadbalance) and click corresponding cloud load balancer instance ID to enter the details page of cloud load balancer.
 
 2) Click "Listener Monitor" tab to check the monitoring data of current cloud load balancer instance.
 
@@ -12,7 +12,7 @@ You can view the monitoring data of cloud load balancer in the following ways:
 
 ## Cloud Monitor Console
 
-Log in to [Cloud Monitor Console](http://console.tce.fsphere.cn/monitor/overview), click "Cloud Product Monitoring" -> "Cloud Load Balance", click the ID of **public network application/public network (with static IP)/private network** cloud load balancer instance to enter the details page of monitor to check the monitoring data of the cloud load balancer instance.
+Log in to [Cloud Monitor Console](http://console.tcecqpoc.fsphere.cn/monitor/overview), click "Cloud Product Monitoring" -> "Cloud Load Balance", click the ID of **public network application/public network (with static IP)/private network** cloud load balancer instance to enter the details page of monitor to check the monitoring data of the cloud load balancer instance.
 
 ## API Method
 

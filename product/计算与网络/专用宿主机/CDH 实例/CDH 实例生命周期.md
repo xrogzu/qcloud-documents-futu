@@ -34,7 +34,7 @@ CDH实例只支持包年包月计费方式，包年包月期间无法主动销�
 
 ### CDH 实例续费
 
-- 打开[专用宿主机CDH控制台](http://console.tce.fsphere.cn/cvm/cdh)。
+- 打开[专用宿主机CDH控制台](http://console.tcecqpoc.fsphere.cn/cvm/cdh)。
 - 对需要续费的包年包月CDH实例，在右侧操作栏中，点击【续费】。
 - 在云主机续费弹出框中，选择需要续费的时间，点击【确定】。
 - 进行支付后即完成了对CDH实例的续费操作。

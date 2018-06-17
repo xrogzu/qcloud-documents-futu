@@ -3,8 +3,8 @@
 
 <span id="前期准备"></span>
 ## 一、前期准备
-1. 登录  [COS 控制台](http://console.tce.fsphere.cn/cos4) 并创建存储桶，得到 Bucket（存储桶名称） 和 Region（地域名称）。
-2. 登录 [控制台密钥管理](http://console.tce.fsphere.cn/cam/capi) 获取您的项目 SecretId 和 SecretKey。
+1. 登录  [COS 控制台](http://console.tcecqpoc.fsphere.cn/cos4) 并创建存储桶，得到 Bucket（存储桶名称） 和 Region（地域名称）。
+2. 登录 [控制台密钥管理](http://console.tcecqpoc.fsphere.cn/cam/capi) 获取您的项目 SecretId 和 SecretKey。
 3. 在 COS 控制台，进入新建的存储桶，单击【基础配置】，配置 CORS 规则，配置示例如下图：
 ![cors](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/2e7791e9274ce3ebf8b25bbeafcd7b45/image.png)
 

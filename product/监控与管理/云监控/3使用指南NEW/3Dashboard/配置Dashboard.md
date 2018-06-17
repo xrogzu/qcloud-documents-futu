@@ -9,7 +9,7 @@
 
 ###  创建监控面板
 
-1. 登录云平台云监控控制台 [Dashbaord](http://console.tce.fsphere.cn/monitor/dashboard) 页面。
+1. 登录云平台云监控控制台 [Dashbaord](http://console.tcecqpoc.fsphere.cn/monitor/dashboard) 页面。
 2. 单击【+】图标，即新建监控面板按钮。
 3. 自定义监控面板名称，单击【确定】后完成创建面板。
    ![3](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/389f555ee1ffb844fb00f8c61822c38b/image.png)

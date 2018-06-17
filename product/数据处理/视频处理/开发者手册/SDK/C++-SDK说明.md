@@ -78,7 +78,7 @@ g++ -o sample sample.cpp -I ./include/ -L. -L../uvs-cpp-sdk/lib/ -luvsdk -lcurl 
 </td><td> String
 </td><td> 否
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -124,7 +124,7 @@ sign = Auth::appSign_once(path, bucketName);
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -209,7 +209,7 @@ video.dump_res();
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -279,7 +279,7 @@ video.dump_res();
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -371,7 +371,7 @@ video.dump_res();
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -434,7 +434,7 @@ const int order = 0, const string &amp;context = "");<br>
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -654,7 +654,7 @@ video.dump_res();
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> prefix
@@ -886,7 +886,7 @@ const string &amp;bizAttr = "", const string &amp;title = "",const string &amp;d
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> dstPath
@@ -1022,7 +1022,7 @@ const string &amp;title = "",const string &amp;desc = "",const string &amp;magic
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> dstPath
@@ -1161,7 +1161,7 @@ video.dump_res();
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -1254,7 +1254,7 @@ video.dump_res();
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -1415,7 +1415,7 @@ video.dump_res();
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path

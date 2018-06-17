@@ -95,8 +95,8 @@ done
 
 > <font color="#0000cc">**注意：** </font>
 配置文件中含有 COS 的几个属性：
-- fs.cos.userinfo.appid 属性： 填写您使用的 云平台账户的 APPID。可通过 [控制台-账号信息](http://console.tce.fsphere.cn/developer) 查看。
-- fs.cos.userinfo.secretId/secretKey 属性：填写您账户的API 密钥信息。可通过 [云 API 密钥 控制台](http://console.tce.fsphere.cn/capi) 查看。
+- fs.cos.userinfo.appid 属性： 填写您使用的 云平台账户的 APPID。可通过 [控制台-账号信息](http://console.tcecqpoc.fsphere.cn/developer) 查看。
+- fs.cos.userinfo.secretId/secretKey 属性：填写您账户的API 密钥信息。可通过 [云 API 密钥 控制台](http://console.tcecqpoc.fsphere.cn/capi) 查看。
 - fs.cosn.impl 为 cosn 的实现类，固定为 org.apache.hadoop.fs.cosnative.NativeCosFileSystem。
 - fs.cos.buffer.dir 请设置一个实际存在的目录，运行过程中产生的临时文件会暂时放于此处。
 - fs.cos.userinfo.region 请填写您的地域信息，枚举值为 [历史版本地域列表](http://tcecqpoc.fsphere.cn/document/product/436/7777) 中的地域简称，如 sh, gz, sgp 等。

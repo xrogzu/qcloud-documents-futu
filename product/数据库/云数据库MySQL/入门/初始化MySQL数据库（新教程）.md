@@ -1,5 +1,5 @@
  在此步骤中，我们将对已经购买的 MySQL 数据库执行初始化操作。
- 1. 在 [云平台控制台](http://console.tce.fsphere.cn/) 的左上角，单击【云产品】菜单下的【关系型数据库】，进入数据库产品页面。
+ 1. 在 [云平台控制台](http://console.tcecqpoc.fsphere.cn/) 的左上角，单击【云产品】菜单下的【关系型数据库】，进入数据库产品页面。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/511cad3621447b36d204b87bf83bb09f/image.png)
  2. 在关系型数据库页面中，单击【MySQL】下的【实例列表】，找到目标地域（此例中以广州为例）中要操作的状态为“**未初始化**” MySQL 数据库实例。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/bc6f4a538ac4bf614e3a270338a7be4c/image.png)

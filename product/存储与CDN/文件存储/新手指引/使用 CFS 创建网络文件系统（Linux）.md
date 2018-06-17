@@ -47,7 +47,7 @@
 <span id="1"></span>
 ## 二、创建文件系统及挂载点
 
-1. 进入云平台 [控制台](http://console.tce.fsphere.cn/)，单击【云产品】>【存储】>【文件存储】，即可进入 CFS 控制台。
+1. 进入云平台 [控制台](http://console.tcecqpoc.fsphere.cn/)，单击【云产品】>【存储】>【文件存储】，即可进入 CFS 控制台。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/4fee6ea61cfba11927f6891527237610/image.png)
 
 2. 在云平台 CFS 控制台，单击【新建】，弹出创建文件系统弹窗。在创建文件系统弹窗中填写相关信息，确认无误后，单击【确定】即可创建文件系统。
@@ -194,9 +194,9 @@ umount /local/test
 
 ## 五、终止资源
 
-1. 终止云平台实例。进入云平台云服务器 [控制台](http://console.tce.fsphere.cn/cvm/index)，选中需要终止的实例，单击【更多】>【云主机状态】，可以选中【销毁】以终止 CVM 实例。
+1. 终止云平台实例。进入云平台云服务器 [控制台](http://console.tcecqpoc.fsphere.cn/cvm/index)，选中需要终止的实例，单击【更多】>【云主机状态】，可以选中【销毁】以终止 CVM 实例。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/76c588284e3b525702d748b5cd7b8b00/image.png)
-2. 终止文件系统。进入云平台文件存储 [控制台](http://console.tce.fsphere.cn/cfs)，选中需要终止的文件系统，单击【删除】并【确认】，即可删除文件系统。
+2. 终止文件系统。进入云平台文件存储 [控制台](http://console.tcecqpoc.fsphere.cn/cfs)，选中需要终止的文件系统，单击【删除】并【确认】，即可删除文件系统。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/28cade4807a283ffdcb1fc2a39a7ad88/image.png)
 
 

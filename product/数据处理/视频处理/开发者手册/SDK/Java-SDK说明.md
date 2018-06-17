@@ -6,7 +6,7 @@
 ### 1.1	前期准备
 
 <p>1.	sdk采用1.8版本的jdk开发， 推荐使用相同的版本。如果使用其他版本，建议不要直接导入jar包，自行编译为佳；<br>
-2.	通过<a href="http://console.tce.fsphere.cn/uvs/vproject" class="external text" title="http://console.tce.fsphere.cn/uvs/vproject" target="_blank" rel="nofollow">项目设置</a>获取appid，secret_id和secret_key；<br>
+2.	通过<a href="http://console.tcecqpoc.fsphere.cn/uvs/vproject" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vproject" target="_blank" rel="nofollow">项目设置</a>获取appid，secret_id和secret_key；<br>
 3.	Sdk开发采用netbeans，本文档以netbeans为例，其他IDE请适当调整。<br>
 </p>
 
@@ -70,7 +70,7 @@ String appSignOnce(int appId, String secretId, String secretKey, String resource
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> 开发者的授权secret_key，以上三项获取参见<a href="http://console.tce.fsphere.cn/uvs/vproject" class="external text" title="http://console.tce.fsphere.cn/uvs/vproject" target="_blank" rel="nofollow">项目设置</a>
+</td><td> 开发者的授权secret_key，以上三项获取参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vproject" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vproject" target="_blank" rel="nofollow">项目设置</a>
 </td></tr>
 <tr>
 <td> expired
@@ -84,7 +84,7 @@ String appSignOnce(int appId, String secretId, String secretKey, String resource
 </td><td> String
 </td><td> 否
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> resourcePath
@@ -126,7 +126,7 @@ String createFolder(String bucketName,String remotePath, String bizAttribute)<br
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath
@@ -205,7 +205,7 @@ String updateFolder(String bucketName, String remotePath, String bizAttribute) <
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath
@@ -269,7 +269,7 @@ String getFolderStat(String bucketName, String remotePath) <br>
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath
@@ -351,7 +351,7 @@ String deleteFolder(String bucketName, String remotePath) <br>
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath
@@ -408,7 +408,7 @@ String getFolderList(String bucketName, String remotePath, int num, String conte
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath
@@ -625,7 +625,7 @@ String getFolderList(String bucketName, String remotePath, String prefix, int nu
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath
@@ -850,7 +850,7 @@ String uploadFile(String bucketName, String remotePath,String localPath,String v
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath
@@ -979,7 +979,7 @@ String sliceUpload(String bucketName,String remotePath,String localPath,String v
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath
@@ -1113,7 +1113,7 @@ String updateFile(String bucketName, String remotePath, String videoCover, Strin
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath
@@ -1202,7 +1202,7 @@ String getFileStat(String bucketName, String remotePath) <br>
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath
@@ -1359,7 +1359,7 @@ String deleteFile(String bucketName, String remotePath)<br>
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath

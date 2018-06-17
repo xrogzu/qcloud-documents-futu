@@ -3,7 +3,7 @@
 ## 使用控制台将弹性云硬盘连接到实例
 目前支持对作为<font color="red">数据盘</font>的普通弹性云硬盘云盘进行挂载，不可挂载系统盘。
 
-1) 登录[云平台控制台](http://console.tce.fsphere.cn/)。
+1) 登录[云平台控制台](http://console.tcecqpoc.fsphere.cn/)。
 
 2) 进入【云服务器】-【云硬盘】选项卡。
 

@@ -5,7 +5,7 @@
 
 ## 一、创建 MariaDB 云数据库实例
 在此步骤中，您会使用云平台控制台创建 MariaDB 云数据库实例。
-1. 登录 [云数据库控制台](http://console.tce.fsphere.cn/cdb)。
+1. 登录 [云数据库控制台](http://console.tcecqpoc.fsphere.cn/cdb)。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/7f454c8f988ec22c4045b33c47571024/image.png)
 2. 在右侧导航栏选择需要创建的云数据库类型，单击【TDSQL（MariaDB）】>【实例列表】>【+新建】，进入 MariaDB 云数据库购买界面。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ffda5d7af5a406bd600b7732dd194928/image.png)
@@ -19,7 +19,7 @@
  - 购买数量和购买时长。
 
  ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/90a3065265c7be9af4151c97c9ee4658/image.png)
-4. 进入 [云数据库控制台](http://console.tce.fsphere.cn/cdb)，选择【TDSQL（MariaDB）】，查看刚才创建的云数据库实例。状态显示是 **未初始化**。
+4. 进入 [云数据库控制台](http://console.tcecqpoc.fsphere.cn/cdb)，选择【TDSQL（MariaDB）】，查看刚才创建的云数据库实例。状态显示是 **未初始化**。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a5f1f71b222633d6290287c0ab5b62b9/image.png)
 5. 单击【初始化】，弹出初始化配置窗口，进行云数据库初始化操作。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/3d916c037e6cd988dac8f69416c8c15d/image.png)

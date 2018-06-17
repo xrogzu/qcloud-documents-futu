@@ -11,7 +11,7 @@
 
 ### 一、创建集群自定义镜像
 基于一台集群中现有的机器制作镜像。关于创建自定义镜像的更多信息，请参考 [制作自定义镜像](/doc/product/213/4942)。
-1. 登录 [云主机控制台](http://console.tce.fsphere.cn/cvm/index) 。
+1. 登录 [云主机控制台](http://console.tcecqpoc.fsphere.cn/cvm/index) 。
 2. 在制作镜像前，需要关机实例。勾选需要关机的实例，单击上方【关机】。
 3. 在需要制作镜像的实例右侧单击【更多】，单击【制作镜像】。
 4. 在弹出框中，输入 **镜像名称** 和 **镜像描述**，单击【确定】提交创建。创建自定义镜像需要一定的时间，请耐心等待。
@@ -24,7 +24,7 @@
 
 扩容时弹性伸缩以 **启动配置** 为模板创建机器，因此需要事先通过 **启动配置** 指定地域、机型、镜像。
 
-1. 登录 [弹性伸缩控制台](http://console.tce.fsphere.cn/autoscaling/config)，单击导航条中的【启动配置】。
+1. 登录 [弹性伸缩控制台](http://console.tcecqpoc.fsphere.cn/autoscaling/config)，单击导航条中的【启动配置】。
 2. 选择项目和地域，这里需要选择您的 Web 应用所在的项目和地域。本项目选择“默认项目”和“华南地区（广州）”。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/653ebf516d940a90fd79728e5d319cdc/image.png)
 3. 选择机型。关于机型选择的更多信息，请参考 [推荐选型](http://tcecqpoc.fsphere.cn/act/recommended)。本项目选择系列 1 标准型 1 颗 CPU 1GB 内存。
@@ -37,7 +37,7 @@
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ee9caea59c347e581fb82c273407e28d/image.png)
 
 ### 三、创建伸缩组
-1. 在 [弹性伸缩控制台](http://console.tce.fsphere.cn/autoscaling)，单击【伸缩组】>【新建】，填写集群的相关管理信息。确认无误后，单击【下一步】。
+1. 在 [弹性伸缩控制台](http://console.tcecqpoc.fsphere.cn/autoscaling)，单击【伸缩组】>【新建】，填写集群的相关管理信息。确认无误后，单击【下一步】。
  - **名称**：伸缩组的名称。本项目以“应用服务器集群”为例。
  - **最小伸缩数**：集群服务器数量的下限。本项目填 0 即可。
  - **起始实例数**：伸缩组刚创建时，自动创建的机器数量。一般不会刚创建伸缩组就自动创建机器，建议这里填 0。
@@ -53,7 +53,7 @@
 
 ### 四、添加现有 CVM 实例进伸缩组
 
-1. 在 [弹性伸缩控制台](http://console.tce.fsphere.cn/autoscaling) 点击伸缩组名称，进入伸缩组管理页面，单击【关联云主机】>【添加云主机】。
+1. 在 [弹性伸缩控制台](http://console.tcecqpoc.fsphere.cn/autoscaling) 点击伸缩组名称，进入伸缩组管理页面，单击【关联云主机】>【添加云主机】。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/9063e98237388d8bfbbb72f267103a42/image.png)
 
 2. 在弹出的对话框中，选择集群已有的服务器加入伸缩组。非高峰时期，建议退还集群中未充分利用的服务器以节约成本。

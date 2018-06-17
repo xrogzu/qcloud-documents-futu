@@ -1,7 +1,7 @@
 ## 1 iOS 接入
 
 ### 1.1 SDK 获取
-登录云平台控制台, 下载地址：[iOS SDK](http://console.tce.fsphere.cn/ino/sdk).
+登录云平台控制台, 下载地址：[iOS SDK](http://console.tcecqpoc.fsphere.cn/ino/sdk).
 
 ### 1.2 SDK 配置
 #### 1.2.1 安装包结构

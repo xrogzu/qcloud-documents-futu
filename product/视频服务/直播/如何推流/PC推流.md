@@ -16,11 +16,11 @@ PC直播流程非常简单，主要步骤：
 
 ## 1. 直播前准备
 - 在云平台开通云直播服务
-如果您尚未开通，点击这里[申请开通](http://console.tce.fsphere.cn/live)云直播服务。
+如果您尚未开通，点击这里[申请开通](http://console.tcecqpoc.fsphere.cn/live)云直播服务。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/f45715687e787ee9a8e18154d1e13b92/image.png)
 
 ### 1.2 生成推流地址
-如何您尚未准备好**推流地址**，点击这里[接入管理 >> 直播码接入 >>推流生成器](http://console.tce.fsphere.cn/live)生成一个**推流地址**和三个播放地址。
+如何您尚未准备好**推流地址**，点击这里[接入管理 >> 直播码接入 >>推流生成器](http://console.tcecqpoc.fsphere.cn/live)生成一个**推流地址**和三个播放地址。
 
 其中，域名为 **livepush.myqcloud.com** 的即为推流地址：
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/98b9b659be67a9ac32384b606ace943f/image.png)

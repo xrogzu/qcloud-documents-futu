@@ -5,7 +5,7 @@
 3. 在 CVM 中[下载 Node.js](https://nodejs.org/en/download/)。
 
 ## 安装驱动
-进入[云平台控制台](http://console.tce.fsphere.cn/cvm/index)，登录刚刚购买的 CVM ，在左下角【开始】处单击右键，再单击【命令提示符】， 打开 cmd 命令行，进入 nodejs 根目录。
+进入[云平台控制台](http://console.tcecqpoc.fsphere.cn/cvm/index)，登录刚刚购买的 CVM ，在左下角【开始】处单击右键，再单击【命令提示符】， 打开 cmd 命令行，进入 nodejs 根目录。
 ```
 cd C:\Program Files\nodejs
 ```

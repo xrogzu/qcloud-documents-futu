@@ -5,7 +5,7 @@
 		+ 谷歌已经停止信任沃通WoSign和StartCom，[查看详情](https://security.googleblog.com/2016/10/distrusting-wosign-and-startcom.html)；
 		+ 苹果已经停止信任沃通，[查看详情](https://support.apple.com/en-us/HT204132)；
 		+ Mozilla发布的针对沃通的13项调查报告：[查看详情](https://docs.google.com/document/d/1C6BlmbeQfn4a9zydVi2UvjBGv6szuSB4sMYUcVrR8vQ/preview#)。
-	+ 您可以申请云平台提供的免费证书，或在云平台上购买证书，[点击前往](http://console.tce.fsphere.cn/ssl)。
+	+ 您可以申请云平台提供的免费证书，或在云平台上购买证书，[点击前往](http://console.tcecqpoc.fsphere.cn/ssl)。
 
 + HTTPS 支持哪些版本的SSL/TSL安全协议？
 	+ CDN HTTPS目前支持的 ssl\_protocols：TLSv1、TLSv1.1、TLSv1.2。

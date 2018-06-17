@@ -46,7 +46,7 @@ mysql -h hostname -u username -p
 <font color="red">**安全提示：**</font>外网访问需要开启数据库实例的外网地址，从而使您的数据库服务暴露在公网上，此操作可能导致数据库被入侵或攻击。
 请根据外网中主机的操作系统选择对应的登录方式。
 - **从 Windows 系统登录**
-  1. 在 [云平台控制台](http://console.tce.fsphere.cn/) 中，依次单击【云产品】>【关系型数据库】>【MySQL】>【实例列表】，选择状态为运行中的目标实例，点击【登录】。
+  1. 在 [云平台控制台](http://console.tcecqpoc.fsphere.cn/) 中，依次单击【云产品】>【关系型数据库】>【MySQL】>【实例列表】，选择状态为运行中的目标实例，点击【登录】。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/248ca91c3b13e3f249c752f43019ed1a/image.png)
   2. 在数据管理控制台的登录界面，帐号输入 root，密码为之前在初始化选项中配置的 root 账户的密码，点击【登录】来登录。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b5538d93dc27d99af6fed9f0e5c9b798/image.png)

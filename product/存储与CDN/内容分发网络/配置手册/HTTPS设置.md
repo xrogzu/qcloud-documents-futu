@@ -10,9 +10,9 @@
 
 云平台 CDN 目前支持两种方式部署证书。
 - 自有证书：将自有证书、私钥内容上传至 CDN 进行部署，全程加密传输，证书不落地，保障您的证书安全。
-- 云平台托管证书：您可以通过 [SSL 证书管理](http://console.tce.fsphere.cn/ssl)，将已有证书托管至云平台，以用于多个云产品，您也可以在该平台申请由亚洲诚信免费提供的第三方证书，将其直接部署至 CDN。
+- 云平台托管证书：您可以通过 [SSL 证书管理](http://console.tcecqpoc.fsphere.cn/ssl)，将已有证书托管至云平台，以用于多个云产品，您也可以在该平台申请由亚洲诚信免费提供的第三方证书，将其直接部署至 CDN。
 
-登录[CDN控制台](http://console.tce.fsphere.cn/cdn)，单击左侧导航栏的 【域名管理】 进入 **域名管理** 页面。单击域名右侧【管理】按钮，进入管理页面：
+登录[CDN控制台](http://console.tcecqpoc.fsphere.cn/cdn)，单击左侧导航栏的 【域名管理】 进入 **域名管理** 页面。单击域名右侧【管理】按钮，进入管理页面：
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/667013013f17c055f0cb3cec4580c4ef.png)
 单击 【高级配置】，找到 **HTTPS 配置** 模块。单击【前往配置】，跳转至 **证书管理** 页面配置证书。配置流程请参阅 [证书管理](http://tcecqpoc.fsphere.cn/document/product/228/6303)。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/1efff7b5b6909863e0849ae6cf9f65a7.png)

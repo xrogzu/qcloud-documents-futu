@@ -20,7 +20,7 @@
 ### Step 1：开通服务
 在 [云平台官网](http://tcecqpoc.fsphere.cn/) 注册云平台帐号，并开通**直播**服务。
 ### Step 2：创建频道
-进入 [直播管理控制台](http://console.tce.fsphere.cn/live) 并创建直播频道。
+进入 [直播管理控制台](http://console.tcecqpoc.fsphere.cn/live) 并创建直播频道。
 ### Step 3：获取 ID
 您可以在直播管理控制台查找到直播频道并对该频道进行管理，在控制界面您可以找到 app_id，单击该直播频道可以在【基础设置】查询到该频道的频道 ID。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ac00be44d369a9fa6bc5a93c2b837527/image.png)

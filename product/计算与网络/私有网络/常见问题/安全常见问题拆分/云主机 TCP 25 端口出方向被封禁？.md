@@ -9,4 +9,4 @@
 
 我们诚挚地推荐您使用企业邮箱（exmail.qq.com）代替云上的 SMTP 邮件服务，来提高业务的整体安全性。如果您一定要保留云上的 SMTP 服务，请优先在云主机内安装相关安全工具，如 [云镜](http://tcecqpoc.fsphere.cn/document/product/296/9927)，进行相风险控制。
 > **注意：**
-如果您发起解封申请，云平台将默认您已确认并承诺：保证 TCP 25 端口仅用来连接第三方的 SMTP 服务器，并从第三方的 SMTP 服务器向外发邮件。如发现您使用申请的 IP 直接通过 SMTP 发送邮件，云平台有权永久性封禁 TCP 25 端口，并不再提供解封服务，如有其它问题，请提 [工单申请](http://console.tce.fsphere.cn/workorder/category/create?level1_id=6&level2_id=7&level1_name=%E8%AE%A1%E7%AE%97%E4%B8%8E%E7%BD%91%E7%BB%9C&level2_name=%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%20CVM)。
+如果您发起解封申请，云平台将默认您已确认并承诺：保证 TCP 25 端口仅用来连接第三方的 SMTP 服务器，并从第三方的 SMTP 服务器向外发邮件。如发现您使用申请的 IP 直接通过 SMTP 发送邮件，云平台有权永久性封禁 TCP 25 端口，并不再提供解封服务，如有其它问题，请提 [工单申请](http://console.tcecqpoc.fsphere.cn/workorder/category/create?level1_id=6&level2_id=7&level1_name=%E8%AE%A1%E7%AE%97%E4%B8%8E%E7%BD%91%E7%BB%9C&level2_name=%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%20CVM)。

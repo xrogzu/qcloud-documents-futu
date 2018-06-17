@@ -1,5 +1,5 @@
 ## 1. 如何自助升级云数据库实例规格
-登录云数据库的 [管理控制台](http://console.tce.fsphere.cn/cdb) 后，可通过【升级】操作升级指定实例的实例规格。
+登录云数据库的 [管理控制台](http://console.tcecqpoc.fsphere.cn/cdb) 后，可通过【升级】操作升级指定实例的实例规格。
 ![升级][image-1]
 ## 2. 实例可维护时间
 对每个实例允许设置实例的可维护时间，维护最常涉及对数据库实例的变更操作（如实例规格升级，数据库版本升级等），对数据库的可维护时间建议设置在业务低峰期。
@@ -35,6 +35,6 @@
 4. **在升级过程中，请尽量避免修改MySQL的全局参数、实例名称、用户密码等操作。**
 
 [image-1]:	//mccdn.qcloud.com/static/img/d7b59861436817bcc9a0be795c49b1ec/image.png
-[image-2]:  //mc.qcloudimg.com/static/img/da7f29b04e72c26bac1ddaeaf1d90eed/1.png
-[image-3]:  //mc.qcloudimg.com/static/img/bbdebbe19bd1ef5e85d997d5de6a2e06/2.png
-[image-4]:  //mc.qcloudimg.com/static/img/bf9bb0a92ba480690c86080161a3c9bc/3.png
+[image-2]:  http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/da7f29b04e72c26bac1ddaeaf1d90eed/1.png
+[image-3]:  http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/bbdebbe19bd1ef5e85d997d5de6a2e06/2.png
+[image-4]:  http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/bf9bb0a92ba480690c86080161a3c9bc/3.png

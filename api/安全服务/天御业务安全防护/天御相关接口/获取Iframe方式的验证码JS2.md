@@ -62,4 +62,4 @@ https://csec.api.qcloud.com/v2/index.php?Action=CaptchaIframeQuery
 }
 ```
 ## 5. 样例代码
-[样例代码](http://console.tce.fsphere.cn/tianyu/guide/service/Captcha)
+[样例代码](http://console.tcecqpoc.fsphere.cn/tianyu/guide/service/Captcha)

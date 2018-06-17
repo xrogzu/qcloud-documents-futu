@@ -56,7 +56,7 @@ Bucket 作为整个 FTP Server 的根目录，Bucket 下面可以建立若干个
 [COS_ACCOUNT]
 cos_secretid = XXXXXX
 cos_secretkey = XXXXXX
-# SecretId 和 SecretKey 可以在以下地址获取：http://console.tce.fsphere.cn/cam/capi
+# SecretId 和 SecretKey 可以在以下地址获取：http://console.tcecqpoc.fsphere.cn/cam/capi
 cos_bucket = BucketName-appid
 # 要操作的bucket，bucket的格式为：bucektname-appid组成。示例：cos_bucket = mybucket-125888888888。
 cos_region = ap-xxx
@@ -116,4 +116,4 @@ FTP Server 默认支持 200 GB 以内的单文件上传，但是不建议用户�
 #### 如果上传的文件超过最大限制，会怎么样？
 当实际上传的单文件大小超过了配置文件中的限制，系统会返回一个 IOError 的异常，并且在日志中标注错误信息。
 
-#### 其他问题，请 [提交工单](http://console.tce.fsphere.cn/workorder/category)，并在工单上附上完整的`cos_v5.log`日志，便于我们进一步排查和解决问题。
+#### 其他问题，请 [提交工单](http://console.tcecqpoc.fsphere.cn/workorder/category)，并在工单上附上完整的`cos_v5.log`日志，便于我们进一步排查和解决问题。

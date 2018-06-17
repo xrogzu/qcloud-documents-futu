@@ -58,9 +58,9 @@
    更多内容请参考 [登录密码](/doc/product/213/6093) 。
    
 ### 查看站内信及云服务器信息
-完成云服务器的购买和创建后，云服务器的实例名称、公网 IP 地址、内网 IP 地址、登录名、初始登录密码等信息都将以 [站内信](https://console.tce.fsphere.cn/message) 的方式发送到账户上。
+完成云服务器的购买和创建后，云服务器的实例名称、公网 IP 地址、内网 IP 地址、登录名、初始登录密码等信息都将以 [站内信](http://console.tcecqpoc.fsphere.cn/message) 的方式发送到账户上。
 
- 1. 登录 [云服务器控制台](https://console.tce.fsphere.cn/cvm) 。登录后即可看到公网 IP 地址、内网 IP 地址等信息。
+ 1. 登录 [云服务器控制台](http://console.tcecqpoc.fsphere.cn/cvm) 。登录后即可看到公网 IP 地址、内网 IP 地址等信息。
 
  2. 单击右上角【站内信】。
 

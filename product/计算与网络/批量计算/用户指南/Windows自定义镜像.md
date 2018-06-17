@@ -25,7 +25,7 @@
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/e939a39dcebe0c7449c7dacdb33e52ea/s2.png)
 
-这个 ID 就是你的自定义镜像 ID，你可以随时到 [镜像控制台](http://console.tce.fsphere.cn/cvm/image) 来查看
+这个 ID 就是你的自定义镜像 ID，你可以随时到 [镜像控制台](http://console.tcecqpoc.fsphere.cn/cvm/image) 来查看
 
 ### 4. 使用自定义镜像提交测试作业
 

@@ -62,13 +62,13 @@
 ### 开通直播服务
 
 #### 1. 申请开通视频直播服务
-进入 [直播管理控制台](http://console.tce.fsphere.cn/live)，如果服务还没有开通，则会有如下提示:
+进入 [直播管理控制台](http://console.tcecqpoc.fsphere.cn/live)，如果服务还没有开通，则会有如下提示:
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/c40ff3b85b3ad9c0cb03170948d93555/image.png)
 点击申请开通，之后会进入云平台人工审核阶段，审核通过后即可开通。
 
 
 #### 2. 配置直播码
-直播服务开通后，进入【直播控制台】>【直播码接入】>【接入配置】(http://console.tce.fsphere.cn/live/livecodemanage) 完成相关配置，即可开启直播码服务：
+直播服务开通后，进入【直播控制台】>【直播码接入】>【接入配置】(http://console.tcecqpoc.fsphere.cn/live/livecodemanage) 完成相关配置，即可开启直播码服务：
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/32158e398ab9543b5ac3acf5f04aa86e/image.png)
 点击【确定接入】按钮即可。
 
@@ -78,7 +78,7 @@
 
 ### 开通云通信服务
 #### 1 申请开通云通讯服务
-进入[云通讯管理控制台](http://console.tce.fsphere.cn/avc)，如果还没有服务，直接点击**直接开通云通讯**按钮即可。新认证的云平台账号，云通讯的应用列表是空的，如下图：
+进入[云通讯管理控制台](http://console.tcecqpoc.fsphere.cn/avc)，如果还没有服务，直接点击**直接开通云通讯**按钮即可。新认证的云平台账号，云通讯的应用列表是空的，如下图：
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/c033ddba671a514c7b160e1c99a08b55/image.png)
 
 点击**创建应用接入**按钮创建一个新的应用接入，即您要接入云平台IM通讯服务的App的名字，我们的测试应用名称叫做“RTMPRoom演示”，如下图所示：

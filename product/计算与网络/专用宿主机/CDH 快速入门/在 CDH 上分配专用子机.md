@@ -1,6 +1,6 @@
 ## 1. 进入子机分配页面
 
-1. 打开[专用宿主机 CDH 控制台](http://console.tce.fsphere.cn/cvm/cdh)。
+1. 打开[专用宿主机 CDH 控制台](http://console.tcecqpoc.fsphere.cn/cvm/cdh)。
 2. 勾选列表中的宿主机，点击上方【分配云主机】。
 
 ## 2. 选择宿主机

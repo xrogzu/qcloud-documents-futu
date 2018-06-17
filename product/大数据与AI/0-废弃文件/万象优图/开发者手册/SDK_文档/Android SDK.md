@@ -6,7 +6,7 @@
 1. SDK支持Android 2.2及以上版本的手机系统；
 2. 手机必须要有网络（GPRS、3G或Wifi网络等）；
 3. 手机可以没有存储空间，但会使部分功能无法正常工作；
-4. 在[云平台图片空间](http://console.tce.fsphere.cn/image/bucket)页面上添加空间，获取项目ID（APPID）。
+4. 在[云平台图片空间](http://console.tcecqpoc.fsphere.cn/image/bucket)页面上添加空间，获取项目ID（APPID）。
 ### 1.2 导入SDK
 #### 1.2.1 下载Android SDK
 Android SDK的下载地址为：[Android SDK](/doc/product/275/SDK下载#1.-android-sdk)。

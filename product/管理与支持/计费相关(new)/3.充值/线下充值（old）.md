@@ -6,11 +6,11 @@
 
 ### 进入充值页面进行充值
 
-登录云平台账号，点击【立即充值】，进入[充值](http://console.tce.fsphere.cn/account/recharge)页面。
+登录云平台账号，点击【立即充值】，进入[充值](http://console.tcecqpoc.fsphere.cn/account/recharge)页面。
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b2fd2d8e3e75569bcfb3b9e96c512600/%7B0D2F7EBB-FF3B-4F4B-815A-3A26FFA41A12%7D.png)
 
-在[充值](http://console.tce.fsphere.cn/account/recharge)页面，填入充值金额（1-9999999范围内的整数），点击【立即支付】按钮。
+在[充值](http://console.tcecqpoc.fsphere.cn/account/recharge)页面，填入充值金额（1-9999999范围内的整数），点击【立即支付】按钮。
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/75fd27de8bde245469929461b898a5e1/%7B50253966-67D6-47A7-A396-F1B74F94B43D%7D.png)
 

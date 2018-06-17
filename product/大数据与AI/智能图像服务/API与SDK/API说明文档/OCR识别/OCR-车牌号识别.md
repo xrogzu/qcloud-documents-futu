@@ -29,7 +29,7 @@
 
 | 参数名   | 必选 | 类型     | 参数说明                                  |
 | ----- | ---- | ------ | ------------------------------------- |
-| appid | 是   | String | 接入项目的唯一标识，可在 [账号信息](http://console.tce.fsphere.cn/developer) 或 [云 API 密钥](http://console.tce.fsphere.cn/cam/capi) 中查看。                                  |
+| appid | 是   | String | 接入项目的唯一标识，可在 [账号信息](http://console.tcecqpoc.fsphere.cn/developer) 或 [云 API 密钥](http://console.tcecqpoc.fsphere.cn/cam/capi) 中查看。                                  |
 | image | 否   | String | 使用base64编码的二进制图片数据                    |
 | url   | 否   | String | 图片的url, image和url只提供一个即可,如果都提供,只使用url |
 

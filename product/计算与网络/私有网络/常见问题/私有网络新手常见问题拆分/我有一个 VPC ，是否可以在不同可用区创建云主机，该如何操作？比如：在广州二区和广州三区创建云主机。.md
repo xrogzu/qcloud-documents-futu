@@ -4,4 +4,4 @@
 
 在不同可用区创建云主机具体操作步骤如下：
 1. 在该 VPC 下的**不同**可用区 <a href="http://tcecqpoc.fsphere.cn/doc/product/215/4927#.E6.96.B0.E5.A2.9E.E5.AD.90.E7.BD.91" target="_blank">创建子网</a>。
-2. 创建云主机。在 <a href="http://console.tce.fsphere.cn/vpc/subnet" target="_blank">子网控制台</a> 内购买云主机 / 在 <a href="http://tcecqpoc.fsphere.cn/product/cvm.html" target="_blank">云主机介绍页</a> 购买网络配置中选择**不同可用区**的子网。
+2. 创建云主机。在 <a href="http://console.tcecqpoc.fsphere.cn/vpc/subnet" target="_blank">子网控制台</a> 内购买云主机 / 在 <a href="http://tcecqpoc.fsphere.cn/product/cvm.html" target="_blank">云主机介绍页</a> 购买网络配置中选择**不同可用区**的子网。

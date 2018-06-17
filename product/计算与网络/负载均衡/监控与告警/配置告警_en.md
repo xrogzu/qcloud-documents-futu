@@ -6,7 +6,7 @@ You can take precautionary or remedial measures in a timely manner when an alarm
 
 The specific procedure is as follows:
 
-1. Log in to [Tencent Cloud Console](http://console.tce.fsphere.cn/), click "Cloud Monitoring" -> "My Alarms" tab, and then click "Alarm Policy" menu.
+1. Log in to [Tencent Cloud Console](http://console.tcecqpoc.fsphere.cn/), click "Cloud Monitoring" -> "My Alarms" tab, and then click "Alarm Policy" menu.
 
 2. Click "Add Alarm Policy" button on the alarm policy list page.
 
@@ -16,12 +16,12 @@ For example, if the metric is `number of inbound packets`, the comparison relati
 
 
 ## Associate with an Object
-1. Log in to [Tencent Cloud Console](http://console.tce.fsphere.cn/), click "Cloud Monitoring" -> "My Alarms" tab, and then click "Alarm Policy" menu.
+1. Log in to [Tencent Cloud Console](http://console.tcecqpoc.fsphere.cn/), click "Cloud Monitoring" -> "My Alarms" tab, and then click "Alarm Policy" menu.
 
 2. On the alarm policy list page, click the newly created alarm policy to enter the detail page, and click "Add Association" button and select the product you want to monitor (here select cloud load balancer in the list for cloud load balancer monitoring), then click "Apply" button.
 
 ## Set Alarm Receivers
-1. Log in to [Tencent Cloud Console](http://console.tce.fsphere.cn/), click "Cloud Monitoring" -> "My Alarms" tab, and then click "Alarm Policy" menu.
+1. Log in to [Tencent Cloud Console](http://console.tcecqpoc.fsphere.cn/), click "Cloud Monitoring" -> "My Alarms" tab, and then click "Alarm Policy" menu.
 
 2. Click the created alarm policy to enter the detail page, then click "Manage alarm receiving group" button, and check the user groups that need to be notified.
 

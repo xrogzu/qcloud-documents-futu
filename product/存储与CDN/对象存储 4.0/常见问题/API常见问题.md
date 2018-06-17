@@ -22,7 +22,7 @@ V4 版本的 JSON API 接口即从 2016 年 9 月起用户接入 COS 使用的 A
 同属一套架构，性能上无差异。
 <span id="Q4"></span>
 #### 4. XML API 与 JSON API 的密钥是否通用？
-相互通用， 密钥可通过 [云 API 密钥控制台](http://console.tce.fsphere.cn/capi) 查看。
+相互通用， 密钥可通过 [云 API 密钥控制台](http://console.tcecqpoc.fsphere.cn/capi) 查看。
 <span id="Q5"></span>
 #### 5. XML API 与 JSON API 的签名是否通用？
 相互不通用，XML API 和 JSON API 各自有各自的签名方式。详情请参考：

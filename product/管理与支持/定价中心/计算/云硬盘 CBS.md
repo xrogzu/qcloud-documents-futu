@@ -152,12 +152,12 @@
 我们提供以下两种方式供您购买云硬盘：
 
 - **通用购买渠道**：
-登录[云硬盘控制台](http://console.tce.fsphere.cn/cvm/cbs)，点击![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/acaf7d7ec8c66cd55ab9dd1be3319dfb/image.png)即可开始购买。
+登录[云硬盘控制台](http://console.tcecqpoc.fsphere.cn/cvm/cbs)，点击![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/acaf7d7ec8c66cd55ab9dd1be3319dfb/image.png)即可开始购买。
 
 
 - **使用快照快速购买**：
 如果您需要在新创建的磁盘中保留数据盘快照数据，则可以选择这种方式。
-登录[快照控制台](http://console.tce.fsphere.cn/cvm/snapshot)，在您要基于的快照后，点击【新建云硬盘】即可开始购买。
+登录[快照控制台](http://console.tcecqpoc.fsphere.cn/cvm/snapshot)，在您要基于的快照后，点击【新建云硬盘】即可开始购买。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/475d66590b426a60c862b9d20373a552/image.png)
    > 注：新购买的磁盘容量可大于等于快照大小。
 

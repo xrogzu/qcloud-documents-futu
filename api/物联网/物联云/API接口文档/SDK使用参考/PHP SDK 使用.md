@@ -14,7 +14,7 @@
 - 参数 SecretId、SecretKey 通过类 TXIoTCloudClient 中 setSecurityCredential() 接口进行设置。
 
 ### 获取云 API 密钥(SecretId、SecretKey)
-- 登入 [控制台](http://console.tce.fsphere.cn/iotcloud) 后，进入 [云API密钥](http://console.tce.fsphere.cn/cam/capi)
+- 登入 [控制台](http://console.tcecqpoc.fsphere.cn/iotcloud) 后，进入 [云API密钥](http://console.tcecqpoc.fsphere.cn/cam/capi)
 
 ![云API密钥](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/62352850496e6184f6a74f496f8d8638/miyao1.png)
 

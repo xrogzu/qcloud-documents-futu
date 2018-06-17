@@ -3,8 +3,8 @@
 ## 环境准备
 
 1. 云平台PHP SDK适用于PHP 5.3及以上版本。
-2. [获取安全凭证](http://console.tce.fsphere.cn/capi)。在第一次使用云API之前，用户首先需要在云平台控制台上申请安全凭证，安全凭证包括 SecretId 和 SecretKey, SecretId 是用于标识 API 调用者的身份，SecretKey是用于加密签名字符串和服务器端验证签名字符串的密钥。SecretKey 必须严格保管，避免泄露。
-3. 到[云平台控制台](http://console.tce.fsphere.cn/)开通相应产品。
+2. [获取安全凭证](http://console.tcecqpoc.fsphere.cn/capi)。在第一次使用云API之前，用户首先需要在云平台控制台上申请安全凭证，安全凭证包括 SecretId 和 SecretKey, SecretId 是用于标识 API 调用者的身份，SecretKey是用于加密签名字符串和服务器端验证签名字符串的密钥。SecretKey 必须严格保管，避免泄露。
+3. 到[云平台控制台](http://console.tcecqpoc.fsphere.cn/)开通相应产品。
 
 ## SDK获取与安装
 

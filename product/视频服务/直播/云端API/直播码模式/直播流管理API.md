@@ -39,7 +39,7 @@
 所有直播码相关的云端 API 都采用了同一种安全检查机制， **t + sign 校验**：
 - **t（过期时间）**：如果一个API请求或者通知中的 t 值所规定的时间已经过期，则可以判定这个请求或者通知为无效的，这样做可以防止网络重放攻击。t 的格式为UNIX时间戳，即从1970年1月1日（UTC/GMT的午夜）开始所经过的秒数。
 
-- **sign（安全签名）**:  <font color='blue'>sign = MD5(key + t) </font>，即把加密key 和 t 进行字符串拼接后，计算一下md5值。这里的key即CGI调用key，您在云平台直播管理[控制台](http://console.tce.fsphere.cn/live/livecodemanage) 中可以进行设置：
+- **sign（安全签名）**:  <font color='blue'>sign = MD5(key + t) </font>，即把加密key 和 t 进行字符串拼接后，计算一下md5值。这里的key即CGI调用key，您在云平台直播管理[控制台](http://console.tcecqpoc.fsphere.cn/live/livecodemanage) 中可以进行设置：
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/e5034b47cead66be46b1f81a1fea8274/image.png)
 

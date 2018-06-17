@@ -15,5 +15,5 @@
 - 可用区中断
 - 主数据库实例故障
 
-[1]:	http://console.tce.fsphere.cn/
-[2]:	http://console.tce.fsphere.cn/cdb/
+[1]:	http://console.tcecqpoc.fsphere.cn/
+[2]:	http://console.tcecqpoc.fsphere.cn/cdb/

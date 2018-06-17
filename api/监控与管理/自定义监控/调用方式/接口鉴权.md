@@ -5,12 +5,12 @@
 ## 1. 申请安全凭证
 第一次使用云API的用户必须先申请安全凭证才可使用。
 
-1) 登录[云平台管理中心控制台](http://console.tce.fsphere.cn/)。
+1) 登录[云平台管理中心控制台](http://console.tcecqpoc.fsphere.cn/)。
 
 2) 点击【云产品】，选择【监控与管理】栏下的【云API密钥】，进入云API密钥管理页面。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/img568f5fb824757.png)
 
-3) 在[云API访问密钥管理](http://console.tce.fsphere.cn/capi)页面，点击【新建】即可以创建SecretId, 每个帐号最多可以创建两个SecretId。
+3) 在[云API访问密钥管理](http://console.tcecqpoc.fsphere.cn/capi)页面，点击【新建】即可以创建SecretId, 每个帐号最多可以创建两个SecretId。
 
 ## 2. 生成签名串
 假设上一步申请的 SecretId 和 SecretKey 分别是：

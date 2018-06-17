@@ -25,7 +25,7 @@ cd loglistener/tools;
 ./install.sh $(SecretId) $(SecretKey) $(region)
 ```
 
-注：这里的 SecretId 与 SecretKey为您[云api秘钥](http://console.tce.fsphere.cn/cam/capi)中的 SecretId 与 SecretKey。我们建议您使用协作者秘钥，使用前请注意授权协作者对日志服务有读写权限。region 为您所使用的**日志服务区域而非您的机器所处的区域**。服务区域编码如下：
+注：这里的 SecretId 与 SecretKey为您[云api秘钥](http://console.tcecqpoc.fsphere.cn/cam/capi)中的 SecretId 与 SecretKey。我们建议您使用协作者秘钥，使用前请注意授权协作者对日志服务有读写权限。region 为您所使用的**日志服务区域而非您的机器所处的区域**。服务区域编码如下：
 
 ```
 shanghai - 上海

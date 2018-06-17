@@ -4,7 +4,7 @@
 ## 一、数据准备 ##
 用户在测试前，需提前把测试中使用的源数据文件上传至云平台双螺旋。文件上传指引如下：
 ### 1.1 开通双螺旋权限 ###
-双螺旋目前处于内测申请阶段，您可通过 [内测申请页面](http://tcecqpoc.fsphere.cn/act/apply/helix) 提交开通申请，若您的账号已获取使用资格，请直接进入 [双螺旋控制台](http://console.tce.fsphere.cn/helix) 开始使用。
+双螺旋目前处于内测申请阶段，您可通过 [内测申请页面](http://tcecqpoc.fsphere.cn/act/apply/helix) 提交开通申请，若您的账号已获取使用资格，请直接进入 [双螺旋控制台](http://console.tcecqpoc.fsphere.cn/helix) 开始使用。
 
 ### 1.2 新建项目 ###
 项目是双螺旋中的基本单元，用户上传的数据和创建的作业，都会归属到具体的项目。
@@ -33,9 +33,9 @@ COS 提供以下工具，您可按照自身需求使用：
  - 点击下载 [COSCMD 工具](https://github.com/tencentyun/coscmd)，使用指引参考 [COSCMD 工具使用说明](/document/product/436/10976)。其中重点配置信息说明如下：
 ![COSCMD工具配置信息](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/cb4a6d9006514cbc54e71fe6db395064/image.png)
      1. **secret_id** 和 **secret_key**
-指用户的云 API 密钥，可从云 API 密钥控制台的 API 密钥菜单中获取。若还没有云 API 密钥，用户可在控制台上新建。点此进入 [云 API 密钥控制台](http://console.tce.fsphere.cn/capi)。
+指用户的云 API 密钥，可从云 API 密钥控制台的 API 密钥菜单中获取。若还没有云 API 密钥，用户可在控制台上新建。点此进入 [云 API 密钥控制台](http://console.tcecqpoc.fsphere.cn/capi)。
      2. **APPID**
-指用户在云平台的标识，可通过 [云平台控制台](http://console.tce.fsphere.cn/) 【账号信息】查看 APPID。
+指用户在云平台的标识，可通过 [云平台控制台](http://console.tcecqpoc.fsphere.cn/) 【账号信息】查看 APPID。
      3. **Bucket**
 指对象存储的存储桶名称，此处使用系统分配的项目关联 Bucket，获取方式见步骤 1.2。
      4. **Region**
@@ -47,7 +47,7 @@ COS 提供以下工具，您可按照自身需求使用：
  - 点击下载 [本地同步工具](https://github.com/tencentyun/cos_sync_tools_v5 "COS同步工具")，使用指引参考 [本地同步工具使用说明](/document/product/436/7133 "本地同步工具使用说明")。其中重点配置信息说明如下：
 ![同步工具配置信息](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/fcafb9aa397b49c39b720430d27f2350/image.png)
      1. **secret_id** 和 **secret_key**
-指用户的云 API 密钥，可从云 API 密钥控制台的 API 密钥菜单中获取。若还没有云 API 密钥，用户可在控制台上新建。点此进入 [云 API 密钥控制台](http://console.tce.fsphere.cn/capi)。
+指用户的云 API 密钥，可从云 API 密钥控制台的 API 密钥菜单中获取。若还没有云 API 密钥，用户可在控制台上新建。点此进入 [云 API 密钥控制台](http://console.tcecqpoc.fsphere.cn/capi)。
      2. **Bucket**
 指对象存储的存储桶名称，此处使用系统分配的项目关联 Bucket，获取方式见步骤 1.2。
      3. **Region**

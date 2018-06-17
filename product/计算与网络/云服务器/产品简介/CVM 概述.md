@@ -27,7 +27,7 @@
 
 - [**地域和可用区**](/doc/product/213/6091)：实例和其他资源的启动位置。
 
-- [**云控制台**](https://console.tce.fsphere.cn)：基于 Web 的用户界面。
+- [**云控制台**](http://console.tcecqpoc.fsphere.cn)：基于 Web 的用户界面。
 
 
 ## 相关服务
@@ -38,16 +38,16 @@
 
 - 您可以在云上部署关系数据库，也可以使用云数据库。更多信息，请参考[云数据库MySQL](https://tce.fsphere.cn/doc/product/236)。
 
-- 您可以编写代码调用云 API 访问云产品和服务，更多信息，请参考[云 API 文档](https://tce.fsphere.cn/document/api)。
+- 您可以编写代码调用云 API 访问云产品和服务，更多信息，请参考[云 API 文档](http://tcecqpoc.fsphere.cn/document/api)。
 
 ## 使用 CVM
 
- CVM 提供基于 Web 的用户界面，即控制台，如果您已注册云平台账户，您可以直接登录 [ CVM 控制台](https://console.tce.fsphere.cn/cvm)，对您的 CVM 进行操作。
+ CVM 提供基于 Web 的用户界面，即控制台，如果您已注册云平台账户，您可以直接登录 [ CVM 控制台](http://console.tcecqpoc.fsphere.cn/cvm)，对您的 CVM 进行操作。
 
- CVM 也提供了 API 接口方便您管理云服务器 CVM，有关 CVM API 操作的更多信息，请参阅 [API 文档](https://tce.fsphere.cn/document/api/213/568)。
+ CVM 也提供了 API 接口方便您管理云服务器 CVM，有关 CVM API 操作的更多信息，请参阅 [API 文档](http://tcecqpoc.fsphere.cn/document/api/213/568)。
 
 您可以使用 SDK（支持 PHP/Python/Java/.NET/Node.js）编程或使用云平台命令行工具调用 CVM API，具体请参考：
 
-- [使用 SDK >>](https://tce.fsphere.cn/document/developer-resource)
+- [使用 SDK >>](http://tcecqpoc.fsphere.cn/document/developer-resource)
 
-- [使用命令行工具 >>](https://tce.fsphere.cn/document/product/440/6317)
+- [使用命令行工具 >>](http://tcecqpoc.fsphere.cn/document/product/440/6317)

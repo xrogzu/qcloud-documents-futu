@@ -54,7 +54,7 @@ dependencies {
 
 #### 1. 下载服务资源压缩包。
 
-下载请点击[应用云 payment 服务资源](http://console.tce.fsphere.cn/tac)，并解压。
+下载请点击[应用云 payment 服务资源](http://console.tcecqpoc.fsphere.cn/tac)，并解压。
 
 #### 2. 集成 jar 包。
 

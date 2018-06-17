@@ -1,14 +1,14 @@
 ## 1. 地域相关接口
 | 接口功能 | Action ID | 功能描述
 |---------|---------|---------|
-| 查询地域列表 | [DescribeRegions](https://tce.fsphere.cn/document/product/213/9456) | 用于查询地域信息。
-| 查询可用区列表 | [DescribeZones](https://tce.fsphere.cn/document/product/213/9455) | 用于查询可用区信息。
+| 查询地域列表 | [DescribeRegions](http://tcecqpoc.fsphere.cn/document/product/213/9456) | 用于查询地域信息。
+| 查询可用区列表 | [DescribeZones](http://tcecqpoc.fsphere.cn/document/product/213/9455) | 用于查询可用区信息。
 ## 2. 实例相关接口
 | 接口功能 | Action ID | 功能描述
 |---------|---------|---------|
 | 查看实例列表 | [DescribeInstances](/document/api/213/9388) |  用于获取一个或多个实例的详细信息。
 | 查看实例状态列表 | [DescribeInstancesStatus](/document/api/213/9389) |  用于查询一个或多个实例的状态。
-| 查询实例机型列表 | [DescribeInstanceTypeConfigs](https://tce.fsphere.cn/document/product/213/9391) | 用于查询实例机型配置。
+| 查询实例机型列表 | [DescribeInstanceTypeConfigs](http://tcecqpoc.fsphere.cn/document/product/213/9391) | 用于查询实例机型配置。
 | 创建实例 | [RunInstances](/document/api/213/9384) | 用于创建一台或多台指定配置的实例。
 | 创建实例询价 | [InquiryPriceRunInstances](/document/api/213/9385) | 用于创建实例询价。
 | 启动实例 | [StartInstances](/document/api/213/9386) | 用于启动一个或者多个实例。
@@ -38,14 +38,14 @@
 ## 4. 弹性公网IP相关接口
 | 接口功能 | Action ID | 功能描述
 |---------|---------|---------|
-| 查询弹性公网IP列表 | [DescribeAddresses](https://tce.fsphere.cn/document/product/213/11663)|  用于查询一个或多个弹性公网IP（简称 EIP）的详细信息.
-| 查询弹性公网IP配额 | [DescribeAddressQuota](https://tce.fsphere.cn/document/product/213/11664) | 用于查询账户的弹性公网IP（简称 EIP）在当前地域的配额信息。
-| 修改弹性公网IP属性 | [ModifyAddressAttribute](https://tce.fsphere.cn/document/product/213/11660) | 用于修改弹性公网IP（简称 EIP）的名称。
-| 创建弹性公网IP | [AllocateAddresses](https://tce.fsphere.cn/document/product/213/11661) | 用于申请一个或多个弹性公网IP（简称 EIP）。
-| 释放弹性公网IP | [ReleaseAddresses](https://tce.fsphere.cn/document/product/213/11667) | 用于释放一个或多个弹性公网IP（简称 EIP）。
-| 绑定弹性公网IP | [AssociateAddress](https://tce.fsphere.cn/document/product/213/11665) | 用于将弹性公网IP（简称 EIP）绑定到实例或弹性网卡的指定内网 IP 上。
-| 解绑定弹性公网IP | [DisassociateAddress](https://tce.fsphere.cn/document/product/213/11666) | 用于解绑弹性公网IP（简称 EIP）。
-| 普通IP转弹性IP | [TransformAddress](https://tce.fsphere.cn/document/product/213/11662) | 用于将实例的普通公网 IP 转换为弹性公网IP（简称 EIP）。
+| 查询弹性公网IP列表 | [DescribeAddresses](http://tcecqpoc.fsphere.cn/document/product/213/11663)|  用于查询一个或多个弹性公网IP（简称 EIP）的详细信息.
+| 查询弹性公网IP配额 | [DescribeAddressQuota](http://tcecqpoc.fsphere.cn/document/product/213/11664) | 用于查询账户的弹性公网IP（简称 EIP）在当前地域的配额信息。
+| 修改弹性公网IP属性 | [ModifyAddressAttribute](http://tcecqpoc.fsphere.cn/document/product/213/11660) | 用于修改弹性公网IP（简称 EIP）的名称。
+| 创建弹性公网IP | [AllocateAddresses](http://tcecqpoc.fsphere.cn/document/product/213/11661) | 用于申请一个或多个弹性公网IP（简称 EIP）。
+| 释放弹性公网IP | [ReleaseAddresses](http://tcecqpoc.fsphere.cn/document/product/213/11667) | 用于释放一个或多个弹性公网IP（简称 EIP）。
+| 绑定弹性公网IP | [AssociateAddress](http://tcecqpoc.fsphere.cn/document/product/213/11665) | 用于将弹性公网IP（简称 EIP）绑定到实例或弹性网卡的指定内网 IP 上。
+| 解绑定弹性公网IP | [DisassociateAddress](http://tcecqpoc.fsphere.cn/document/product/213/11666) | 用于解绑弹性公网IP（简称 EIP）。
+| 普通IP转弹性IP | [TransformAddress](http://tcecqpoc.fsphere.cn/document/product/213/11662) | 用于将实例的普通公网 IP 转换为弹性公网IP（简称 EIP）。
 
 ## 5. 密钥相关接口
 | 接口功能 | Action ID | 功能描述

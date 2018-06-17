@@ -32,7 +32,7 @@
 
 | 参数        | 是否必选 | 类型        | 说明             |
 | --------- | ---- | --------- | -------------- |
-| appid     | 必选   | string    | 接入项目的唯一标识，可在 [账号信息](http://console.tce.fsphere.cn/developer) 或 [云 API 密钥](http://console.tce.fsphere.cn/cam/capi) 中查看。           |
+| appid     | 必选   | string    | 接入项目的唯一标识，可在 [账号信息](http://console.tcecqpoc.fsphere.cn/developer) 或 [云 API 密钥](http://console.tcecqpoc.fsphere.cn/cam/capi) 中查看。           |
 | bucket    | 必选   | string    | 图片空间           |
 | url_list  | 必选   | string 数组 | 图片 url 列表      |
 

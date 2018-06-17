@@ -199,7 +199,7 @@ $serverIp = "aai.qcloud.com";
 $serverPort = 80;
 
 $appid = YOUR_APPID;
-// 获取secretId 和 secretKey -> http://console.tce.fsphere.cn/capi
+// 获取secretId 和 secretKey -> http://console.tcecqpoc.fsphere.cn/capi
 $secret_id = 'YOUR_SECRET_ID';
 $secret_key = 'YOUR_SECRET_KEY';
 

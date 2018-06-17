@@ -340,5 +340,5 @@ COS迁移工具是有状态的，已经迁移成功的会记录在db目录下，
 6. 其他问题
 
 
-    请重新运行迁移工具，若仍然失败的，请将配置信息(秘钥信息请隐藏)与log目录打包后[提交工单](http://console.tce.fsphere.cn/workorder/category)。
+    请重新运行迁移工具，若仍然失败的，请将配置信息(秘钥信息请隐藏)与log目录打包后[提交工单](http://console.tcecqpoc.fsphere.cn/workorder/category)。
   

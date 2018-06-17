@@ -4,7 +4,7 @@
 
 #### 1 创建Bucket
 
-登陆 [COS控制台](http://console.tce.fsphere.cn/cos)，若未开通，请点击开通COS对象存储服务，在左侧点击【Bucket列表】：
+登陆 [COS控制台](http://console.tcecqpoc.fsphere.cn/cos)，若未开通，请点击开通COS对象存储服务，在左侧点击【Bucket列表】：
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b87d5d718cf5c7e8b6d93cd2acc78783/cos-1.png)
 
 点击页面上【创建Bucket】按钮，填充如下项：

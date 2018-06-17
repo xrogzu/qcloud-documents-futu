@@ -9,7 +9,7 @@ WordPress 是使用 PHP 语言开发的博客平台。用户可以在支持 PHP 
 如果之前没有创建集群，您需要先创建集群。有关如何创建集群的详细信息，参见 [集群的基本操作](/doc/product/457/9091)。
 
 ## 操作步骤
-1. 登录 [云容器服务控制台](http://console.tce.fsphere.cn/ccs) 。
+1. 登录 [云容器服务控制台](http://console.tcecqpoc.fsphere.cn/ccs) 。
 2. 单击左侧导航栏中的【服务】，单击服务列表页的【+ 新建】。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/11f7f75d7b051a815da8bfe1e744a8e8/image.png)
 3.  设置服务的基本信息。

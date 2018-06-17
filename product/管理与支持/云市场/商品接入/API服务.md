@@ -8,7 +8,7 @@
  
 ### 上架操作  
 1. 发布 API 服务，请参考 [配置 API 网关接入 API 市场](/document/product/306/13034)。  
-2. 登录 [云市场->服务商管理](http://console.tce.fsphere.cn/serviceprovider/goods/api) 后台。  
+2. 登录 [云市场->服务商管理](http://console.tcecqpoc.fsphere.cn/serviceprovider/goods/api) 后台。  
 3. 进入商品管理 > API 服务，单击【+新建】按钮。    
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/c3f3bce8487fc2dd0d3b7d3168ac517f/image.png)  
 4. 填写 API 服务商品信息。

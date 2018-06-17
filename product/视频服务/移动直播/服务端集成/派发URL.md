@@ -21,7 +21,7 @@
 防盗链签名，防止攻击者伪造您的后台生成推流URL，计算方法参考[防盗链签名的计算](http://tcecqpoc.fsphere.cn/document/product/454/9875)。
 
 - **示例代码**
-[直播控制台>>直播码接入>>推流生成器](http://console.tce.fsphere.cn/live/livecodemanage)页面下半部分有示例代码（PHP和Java两个版本）演示如何生成防盗链地址。
+[直播控制台>>直播码接入>>推流生成器](http://console.tcecqpoc.fsphere.cn/live/livecodemanage)页面下半部分有示例代码（PHP和Java两个版本）演示如何生成防盗链地址。
 
 ### 播放URL的组成
 播放URL的拼接跟推流URL一样简单，只是需要把子域名从 **livepush** 改成 **<font color='red'>liveplay</font>**：
@@ -41,9 +41,9 @@
 
 ### 防盗链签名的计算？
 #### step1 ： 交换KEY
-首先，您需要在 [直播控制台](http://console.tce.fsphere.cn/live/livecodemanage) 设置一个**加密密钥**，该密钥用于在您的服务器上计算防盗链签名，由于云平台跟您持有同样的密钥，所以您生成的防盗链签名，云平台可以进行合法性确认。
+首先，您需要在 [直播控制台](http://console.tcecqpoc.fsphere.cn/live/livecodemanage) 设置一个**加密密钥**，该密钥用于在您的服务器上计算防盗链签名，由于云平台跟您持有同样的密钥，所以您生成的防盗链签名，云平台可以进行合法性确认。
 
-密钥分为**推流防盗链KEY**和**播放防盗链KEY**，前者用于生成推流防盗链URL，后者用于生成播放防盗链URL。目前在  [直播控制台](http://console.tce.fsphere.cn/live/livecodemanage) 上可以自助配置推流防盗链KEY，如下图：
+密钥分为**推流防盗链KEY**和**播放防盗链KEY**，前者用于生成推流防盗链URL，后者用于生成播放防盗链URL。目前在  [直播控制台](http://console.tcecqpoc.fsphere.cn/live/livecodemanage) 上可以自助配置推流防盗链KEY，如下图：
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/6be1d875f1120a16d3692c60bb4485a9/image.png)
  >  **播放防盗链不支持自助配置**
  >   
@@ -71,7 +71,7 @@
 rtmp://8888.livepush.myqcloud.com/live/8888_test001?txSecret=xxx&txTime=5C2A3CFF
 </td></tr></table>
 	
-> [直播控制台>>直播码接入>>推流生成器](http://console.tce.fsphere.cn/live/livecodemanage) 页面下半部分有示例代码（PHP和Java两个版本）演示如何生成防盗链地址。
+> [直播控制台>>直播码接入>>推流生成器](http://console.tcecqpoc.fsphere.cn/live/livecodemanage) 页面下半部分有示例代码（PHP和Java两个版本）演示如何生成防盗链地址。
 
 
 

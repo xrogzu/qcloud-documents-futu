@@ -1,4 +1,4 @@
-CDN 为后付费产品，需要通过实名认证。新用户登陆 [CDN 控制台](http://console.tce.fsphere.cn/cdn) 可以看到实名认证指引，点击【前往认证】：
+CDN 为后付费产品，需要通过实名认证。新用户登陆 [CDN 控制台](http://console.tcecqpoc.fsphere.cn/cdn) 可以看到实名认证指引，点击【前往认证】：
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/f3f533ced611121c7cbe90d2117dd4c9/image.jpg)
 
 您可以提交工单咨询实名认证进度。
@@ -15,7 +15,7 @@ CDN 为后付费产品，需要通过实名认证。新用户登陆 [CDN 控制�
 您也可以选择多种方式进行企业实名认证：
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/904675155e5a64ce42c0884587f57d8d/image.jpg)
 
-您也可以通过进入 [个人中心](http://console.tce.fsphere.cn/developer) ，点击【实名认证】进行：
+您也可以通过进入 [个人中心](http://console.tcecqpoc.fsphere.cn/developer) ，点击【实名认证】进行：
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/94ba2e042edfedaab33e4e655da3d60d/image.png)
 
 

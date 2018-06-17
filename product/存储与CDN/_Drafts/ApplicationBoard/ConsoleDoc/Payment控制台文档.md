@@ -9,7 +9,7 @@
 
 **1. 进入渠道管理页**
 
-登录 [控制台](http://console.tce.fsphere.cn/tac)，然后点击左侧导航【我的米大师】，然后在上方导航栏中点击【渠道管理】。
+登录 [控制台](http://console.tcecqpoc.fsphere.cn/tac)，然后点击左侧导航【我的米大师】，然后在上方导航栏中点击【渠道管理】。
 
 ![](http://tacimg-1253960454.cosgz.myqcloud.com/guides/payment/console_payment_1_.png?raw=true)
 

@@ -72,7 +72,7 @@ service sshd status
 
 ## 配置 Nginx 和 HTTPS
 
-完成以上准备工作，就要开始配置 Nginx 和 HTTPS 了，首先需要申请一个 SSL 证书，可以到云平台[申请免费的 SSL 证书](http://console.tce.fsphere.cn/ssl?apply=1)，申请成功之后下载证书，并把压缩包中 Nginx 目录下的证书文件通过 SFTP 上传到服务器的 `/data/release/nginx` 目录，如果没有这个目录则新建：
+完成以上准备工作，就要开始配置 Nginx 和 HTTPS 了，首先需要申请一个 SSL 证书，可以到云平台[申请免费的 SSL 证书](http://console.tcecqpoc.fsphere.cn/ssl?apply=1)，申请成功之后下载证书，并把压缩包中 Nginx 目录下的证书文件通过 SFTP 上传到服务器的 `/data/release/nginx` 目录，如果没有这个目录则新建：
 
 <img width="409" alt="ssl" src="http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/fa4cba0bc508457040ff0ccf5052ba21/WX20171128-121407%402x.png">
 
@@ -197,7 +197,7 @@ $config = [
     'serverHost' => 'wx.wafersolution.com',
     'tunnelServerUrl' => 'http://tunnel.ws.qcloud.la',
     'tunnelSignatureKey' => '27fb7d1c161b7ca52d73cce0f1d833f9f5b5ec89',
-  	// 云平台相关配置可以查看云 API 秘钥控制台：http://console.tce.fsphere.cn/capi
+  	// 云平台相关配置可以查看云 API 秘钥控制台：http://console.tcecqpoc.fsphere.cn/capi
     'qcloudAppId' => 1200000000,// 必须是数字
     'qcloudSecretId' => '你的云平台 SecretId',
     'qcloudSecretKey' => '你的云平台 SecretKey',
@@ -209,7 +209,7 @@ $config = [
 
 <img width="378" alt="server" src="https://user-images.githubusercontent.com/3380894/29507314-1bc9cc52-8682-11e7-8820-c8bb9bead907.png">
 
-接着对数据库进行初始化，进入[云数据库](http://console.tce.fsphere.cn/cdb)控制台，点击要使用的云数据库进去，再点击右上角【登录数据库】按钮。在弹出的页面中输入数据库账号密码进入数据库管理控制台，点击菜单栏的【返回 PMA】，在界面中点击左侧栏中的【新建】，输入数据库名为 `cAuth`，排序规则为 `utf8mb4_unicode_ci`，点击【创建】创建数据库：
+接着对数据库进行初始化，进入[云数据库](http://console.tcecqpoc.fsphere.cn/cdb)控制台，点击要使用的云数据库进去，再点击右上角【登录数据库】按钮。在弹出的页面中输入数据库账号密码进入数据库管理控制台，点击菜单栏的【返回 PMA】，在界面中点击左侧栏中的【新建】，输入数据库名为 `cAuth`，排序规则为 `utf8mb4_unicode_ci`，点击【创建】创建数据库：
 
 <img width="1192" alt="pma" src="https://user-images.githubusercontent.com/3380894/29507971-27c68e8e-8685-11e7-91f3-bf384fc6b545.png">
 

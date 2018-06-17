@@ -1,5 +1,5 @@
 ## 控制台迁移数据
-1. 通过 [云数据库数据控制台](http://console.tce.fsphere.cn/cdb) 下载备份文件。（详见：下载备份文件）
+1. 通过 [云数据库数据控制台](http://console.tcecqpoc.fsphere.cn/cdb) 下载备份文件。（详见：下载备份文件）
 2. 还原数据库时，可以通过 MySQL 命令行工具进行还原，方式如下：
 ```
 shell > mysql -h hostname -P port -u username -p < bak_pathname
@@ -9,7 +9,7 @@ shell > mysql -h hostname -P port -u username -p < bak_pathname
 其中，bak_pathname 为备份文件的完整路径名。
 
 ### Windows 迁移数据库
-1. 以 db_blog 这个数据库为例。进入 [云数据库数据控制台](http://console.tce.fsphere.cn/cdb) 找到需要导出数据的实例，单击【管理】 > 【备份管理】进入备份管理页面，在【备份列表】中找到需要下载的备份文件，单击【下载】 > 【部分下载】。
+1. 以 db_blog 这个数据库为例。进入 [云数据库数据控制台](http://console.tcecqpoc.fsphere.cn/cdb) 找到需要导出数据的实例，单击【管理】 > 【备份管理】进入备份管理页面，在【备份列表】中找到需要下载的备份文件，单击【下载】 > 【部分下载】。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/067a823712584842fc983ab34fa79b55/image.png)
 ![][image-7]
 2. 选中需要导出的数据库，单击【下一步】。

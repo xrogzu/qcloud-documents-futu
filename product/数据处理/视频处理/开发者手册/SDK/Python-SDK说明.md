@@ -4,7 +4,7 @@
 
 ### 1.1	前期准备
 <p>1.	sdk采用Python2.7开发， 推荐使用相同的版本。如果使用其他版本，建议不要直接导入，自行调试为佳；<br>
-2.	通过<a href="http://console.tce.fsphere.cn/uvs/vproject" class="external text" title="http://console.tce.fsphere.cn/uvs/vproject" target="_blank" rel="nofollow">项目设置</a>获取appid，secret_id和secret_key；<br>
+2.	通过<a href="http://console.tcecqpoc.fsphere.cn/uvs/vproject" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vproject" target="_blank" rel="nofollow">项目设置</a>获取appid，secret_id和secret_key；<br>
 </p>
 
 ### 1.2	导入SDK
@@ -82,7 +82,7 @@ def sign_once(self, bucket, fileid)
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> 开发者的授权secret_key，以上两项获取参见<a href="http://console.tce.fsphere.cn/uvs/vproject" class="external text" title="http://console.tce.fsphere.cn/uvs/vproject" target="_blank" rel="nofollow">项目设置</a>
+</td><td> 开发者的授权secret_key，以上两项获取参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vproject" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vproject" target="_blank" rel="nofollow">项目设置</a>
 </td></tr>
 <tr>
 <td> expired
@@ -96,7 +96,7 @@ def sign_once(self, bucket, fileid)
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> fileid
@@ -145,7 +145,7 @@ def createFolder(self, bucket, path, bizattr='')
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -228,7 +228,7 @@ def updateFolder(self, bucket, path, bizattr)
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -296,7 +296,7 @@ def statFolder(self, bucket, path)
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -387,7 +387,7 @@ def deleteFolder(self, bucket, path)
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -449,7 +449,7 @@ def list(self, bucket, path, num=20, pattern='eListBoth', order=0, context='')
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -668,7 +668,7 @@ def prefixSearch(self, bucket, path, prefix='', num=20, pattern='eListBoth', ord
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -895,7 +895,7 @@ def upload(self, filepath, bucket, dstpath, videoCover=None, title=None, desc=No
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> dstpath
@@ -1019,7 +1019,7 @@ def upload_slice(self, filepath, bucket, dstpath, title=None, desc=None, bizattr
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> dstpath
@@ -1164,7 +1164,7 @@ def updateFile(self, bucket, path, videoCover=None, title=None, desc=None, bizat
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -1257,7 +1257,7 @@ def statFile(self, bucket, path)
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -1418,7 +1418,7 @@ def deleteFile(self, bucket, path)
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path

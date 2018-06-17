@@ -1,4 +1,4 @@
-1. 登录[云平台控制台](http://console.tce.fsphere.cn/)，点击顶部【私有网络】选项，左侧选择【安全】-【网络ACL】选项卡。
+1. 登录[云平台控制台](http://console.tcecqpoc.fsphere.cn/)，点击顶部【私有网络】选项，左侧选择【安全】-【网络ACL】选项卡。
 
 2. 点击要修改的网络ACL ID，进入网络ACL详情页。
 

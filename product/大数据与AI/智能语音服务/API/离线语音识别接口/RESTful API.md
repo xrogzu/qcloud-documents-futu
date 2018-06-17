@@ -176,7 +176,7 @@ http://aai.qcloud.com/asr/v1/<appid>?engine_model_type=0
 ```php
 <?php
 $appid = YOUR_APPID ;
-// http://console.tce.fsphere.cn/capi
+// http://console.tcecqpoc.fsphere.cn/capi
 // 从该页面获取 APPID 的 SecretId 和 SecretKey
 $secretid ='YOUR_SECRET_ID';
 $secretkey = 'YOUR_SECRET_KEY';

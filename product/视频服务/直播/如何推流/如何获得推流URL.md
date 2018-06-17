@@ -1,5 +1,5 @@
 ## 1.快速获得地址
-如果您是想要生成一组URL用于测试，那您只需要打开[直播控制台>>直播码接入>>推流生成器](http://console.tce.fsphere.cn/live/livecodemanage)，点击**生成推流地址**按钮，即可生成一个推流URL和三种不同播放协议的播放URL。
+如果您是想要生成一组URL用于测试，那您只需要打开[直播控制台>>直播码接入>>推流生成器](http://console.tcecqpoc.fsphere.cn/live/livecodemanage)，点击**生成推流地址**按钮，即可生成一个推流URL和三种不同播放协议的播放URL。
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/98b9b659be67a9ac32384b606ace943f/image.png)
 
@@ -23,7 +23,7 @@
 防盗链签名，防止攻击者伪造您的后台生成推流URL，计算方法参考[防盗链的计算](#.E9.98.B2.E7.9B.97.E9.93.BE.E7.9A.84.E8.AE.A1.E7.AE.97.EF.BC.9F)。
 
 - **示例代码**
-[直播控制台>>直播码接入>>推流生成器](http://console.tce.fsphere.cn/live/livecodemanage)页面下半部分有示例代码（PHP和Java两个版本）演示如何生成防盗链地址。
+[直播控制台>>直播码接入>>推流生成器](http://console.tcecqpoc.fsphere.cn/live/livecodemanage)页面下半部分有示例代码（PHP和Java两个版本）演示如何生成防盗链地址。
 
 ### 2.2播放URL
 播放URL的拼接跟推流URL一样简单，只是需要把子域名从 **livepush** 改成 **liveplay**：
@@ -41,7 +41,7 @@
 - **step1 ： 交换秘钥**
 首先，您需要在官网的控制台，协商一个**加密密钥**，这个加密密钥用于在您的服务器上生成防盗链签名，由于云平台跟您持有同样的密钥，所以您生成的防盗链签名，云平台是可以进行解密确认的。
 
- 加密秘钥分为**推流防盗链KEY**和**播放防盗链KEY**，前者用于生成推流防盗链URL，后者用于生成播放防盗链URL。目前在[直播管理控制台](http://console.tce.fsphere.cn/live)上可以自助配置推流防盗链KEY，如下图：
+ 加密秘钥分为**推流防盗链KEY**和**播放防盗链KEY**，前者用于生成推流防盗链URL，后者用于生成播放防盗链URL。目前在[直播管理控制台](http://console.tcecqpoc.fsphere.cn/live)上可以自助配置推流防盗链KEY，如下图：
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/6be1d875f1120a16d3692c60bb4485a9/image.png)
  >  **默认不开播放防盗链**
  >   
@@ -61,4 +61,4 @@ txSecret的生成方法是 = **MD5(KEY+ stream_id + txTime)**，这里的 **KEY*
   现在我们有了推流（或者播放）URL，有了用来告知云平台该URL过期时间的txTime，有了只有云平台才能解密并且验证的txSecret，就可以拼合成一个防盗链的安全URL了。
 	
 ### 3.3示例代码
-[直播控制台>>直播码接入>>推流生成器](http://console.tce.fsphere.cn/live/livecodemanage)页面下半部分有示例代码（PHP和Java两个版本）演示如何生成防盗链地址。
+[直播控制台>>直播码接入>>推流生成器](http://console.tcecqpoc.fsphere.cn/live/livecodemanage)页面下半部分有示例代码（PHP和Java两个版本）演示如何生成防盗链地址。

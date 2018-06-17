@@ -9,7 +9,7 @@
 
 ##  开发者创建游戏应用
 ### 创建应用
-1. 开发者注册完成后，在 [云平台控制台](http://console.tce.fsphere.cn/) 依次单击【云产品】>【手游社交组件】按钮，进入服务管理页面。
+1. 开发者注册完成后，在 [云平台控制台](http://console.tcecqpoc.fsphere.cn/) 依次单击【云产品】>【手游社交组件】按钮，进入服务管理页面。
 2. 单击【新建游戏】，填写游戏的名称、项目、分类和开发信息， 如下图所示：
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/5c9e2291237a39a96ee065b6fadacb57/image.png)
 3. 信息填写正确并提交后，即表示应用创建成功。

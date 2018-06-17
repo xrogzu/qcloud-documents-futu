@@ -4,7 +4,7 @@
 
 ### 配置查看
 
-登录 [CDN 控制台](http://console.tce.fsphere.cn/cdn)，选择左侧菜单栏的【域名管理】，单击您所要编辑的域名右侧的【管理】。
+登录 [CDN 控制台](http://console.tcecqpoc.fsphere.cn/cdn)，选择左侧菜单栏的【域名管理】，单击您所要编辑的域名右侧的【管理】。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1f2cb594cd614b62b589cb20a20ed362/basic-config-1.png)
 单击【访问控制】，您可以看到 **IP 访问限频配置** 模块：
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b5a89c0c1f2913015a1f129918414f70/ipf-config-1.png)默认情况下，IP 访问限频配置为关闭状态。

@@ -1,5 +1,5 @@
 ## 1. 什么是代金券
-代金券是可抵扣费用的优惠券，登录云平台官网，在 费用中心 - [代金券管理](http://console.tce.fsphere.cn/account/voucher) 页面中可查看用户账户下的代金券情况。
+代金券是可抵扣费用的优惠券，登录云平台官网，在 费用中心 - [代金券管理](http://console.tcecqpoc.fsphere.cn/account/voucher) 页面中可查看用户账户下的代金券情况。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1521a0c1596a18cbf450f8c1b380f372/image.png)
 
 ## 2. 如何使用代金券
@@ -57,7 +57,7 @@
 
 **兑换流程**
 
-（1）登录云平台官网，在费用中心-[代金券管理](http://console.tce.fsphere.cn/account/voucher)页面中点击“兑换代金券”。
+（1）登录云平台官网，在费用中心-[代金券管理](http://console.tcecqpoc.fsphere.cn/account/voucher)页面中点击“兑换代金券”。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/eeca08b8ba05d430af5773592729149f/image.png)
 
 （2）弹出兑换代金券窗口

@@ -6,7 +6,7 @@
 
 <p><b>前期准备</b><br>
 1.	sdk依赖C# 4.0版本及以上， 推荐使用相同的版本。<br>
-2.	通过<a href="http://console.tce.fsphere.cn/uvs/vproject" class="external text" title="http://console.tce.fsphere.cn/uvs/vproject" target="_blank" rel="nofollow">项目设置</a>获取appid，bucket，secret_id和secret_key；<br>
+2.	通过<a href="http://console.tcecqpoc.fsphere.cn/uvs/vproject" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vproject" target="_blank" rel="nofollow">项目设置</a>获取appid，bucket，secret_id和secret_key；<br>
 </p>
 
 ### 1.2	获取SDK
@@ -67,7 +67,7 @@
 </td><td> string
 </td><td> 是
 </td><td> 无
-</td><td> Secret Key，以上三项通过<a href="http://console.tce.fsphere.cn/uvs/vproject" class="external text" title="http://console.tce.fsphere.cn/uvs/vproject" target="_blank" rel="nofollow">项目设置</a>获取
+</td><td> Secret Key，以上三项通过<a href="http://console.tcecqpoc.fsphere.cn/uvs/vproject" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vproject" target="_blank" rel="nofollow">项目设置</a>获取
 </td></tr>
 <tr>
 <td> expired
@@ -81,7 +81,7 @@
 </td><td> string
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath
@@ -125,7 +125,7 @@ var sign = Sign.SignatureOnce(appId, secretId, secretKey, (remotePath.StartsWith
 </td><td> string
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath
@@ -205,7 +205,7 @@ var result = video.CreateFolder("myBucket", "/sdk/");
 </td><td> string
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath
@@ -269,7 +269,7 @@ var result = video.UpdateFolder("myBucket", "/sdk/", "test folder");
 </td><td> string
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath
@@ -357,7 +357,7 @@ var result = video.GetFolderStat("myBucket", "/sdk/");
 </td><td> string
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath
@@ -415,7 +415,7 @@ var result = video.DeleteFolder("myBucket", "/sdk/");
 </td><td> string
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath
@@ -639,7 +639,7 @@ var result = video.GetFolderList("myBucket", "/", 20, "", 0, FolderPattern.Both)
 </td><td> string
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath
@@ -769,7 +769,7 @@ public string SliceUploadFile(string bucketName, string remotePath, string local
 </td><td> string
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath
@@ -903,7 +903,7 @@ var result = video.SliceUploadFile("myBucket", "/test.mp4", "F:\\test.mp4", 512 
 </td><td> string
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath
@@ -992,7 +992,7 @@ result = video.UpdateFile("myBucket", "/sdk/xx.mp4", "test file");
 </td><td> string
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath
@@ -1149,7 +1149,7 @@ var result = video.GetFileStat("myBucket", "/sdk/xx.mp4");
 </td><td> string
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> remotePath

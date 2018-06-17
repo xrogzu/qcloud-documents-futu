@@ -6,7 +6,7 @@
 
 
 ### 1、访问入口
-请访问[用户与权限控制台](http://console.tce.fsphere.cn/cam)
+请访问[用户与权限控制台](http://console.tcecqpoc.fsphere.cn/cam)
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/bc95b9e687ddb4c8eba5481f04af3e7a/image.png)
 
 ### 2、用户管理的作用
@@ -19,7 +19,7 @@
 > 【用户管理】即是对组织架构中员工管理的抽象。
 
 ### 3、如何新建子用户
-step1:访问[用户与权限控制台](http://console.tce.fsphere.cn/cam)，并点击【新建用户】
+step1:访问[用户与权限控制台](http://console.tcecqpoc.fsphere.cn/cam)，并点击【新建用户】
 
 step2:如果该用户需要登录云平台控制台或者调用云API，则需要选择【允许该用户登录云平台】、并填写【QQ帐号】作为登录凭证
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/717db35eae2332917a152eb69e8b4339/image.png)

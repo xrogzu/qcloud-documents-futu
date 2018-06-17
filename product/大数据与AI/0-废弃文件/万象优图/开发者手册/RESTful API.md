@@ -9,8 +9,8 @@
 
 | 概念     | 解释                                       |
 | ------ | ---------------------------------------- |
-| appid  | 接入万象优图创建空间时,系统生成的唯一项目ID, 用于唯一标识接入项目, 申请链接: [图片空间](http://console.tce.fsphere.cn/image/bucket) |
-| bucket | 开发者添加的空间名称，参见[图片空间](http://console.tce.fsphere.cn/image/bucket) |
+| appid  | 接入万象优图创建空间时,系统生成的唯一项目ID, 用于唯一标识接入项目, 申请链接: [图片空间](http://console.tcecqpoc.fsphere.cn/image/bucket) |
+| bucket | 开发者添加的空间名称，参见[图片空间](http://console.tcecqpoc.fsphere.cn/image/bucket) |
 | userid | 即将废弃字段，请使用默认值“0”                         |
 | fileid | 资源存储的唯一标识                                |
 

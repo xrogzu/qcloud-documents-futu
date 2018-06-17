@@ -87,7 +87,7 @@ if (isset($_GET['type'])) {
     $type = 'upload';
 }
 
-//以下bucket，projectId信息请到http://console.tce.fsphere.cn/image/bucket获取,并替换为自己的项目信息
+//以下bucket，projectId信息请到http://console.tcecqpoc.fsphere.cn/image/bucket获取,并替换为自己的项目信息
 $bucket = 'test0706';     // 空间名称
 $projectId = '10000037';  // 项目ID
 $userid = 0;              // 用户ID 可以自定义 默认为0
@@ -139,7 +139,7 @@ git clone https://github.com/tencentyun/php-sdk.git tencentyun
 
 require 'tencentyun/include.php';
 
-//以下bucket，projectId信息请到http://console.tce.fsphere.cn/image/bucket获取,并替换为自己的项目信息
+//以下bucket，projectId信息请到http://console.tcecqpoc.fsphere.cn/image/bucket获取,并替换为自己的项目信息
 $bucket = 'test0706';     // 空间名称
 $projectId = '10000037';  // 项目ID
 $userid = 0;              // 用户ID 可以自定义 默认为0

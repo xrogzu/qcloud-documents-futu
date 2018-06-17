@@ -13,7 +13,7 @@ CKafka 配置消息类型有两个选项：“设备上报消息”和“设备�
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/afc789d04115761b738ddce25243911c.png)
 
 ### 配置推送实例
-选择需要推送的实例。若当前帐号没有实例，可前往 [CKafka](http://console.tce.fsphere.cn/ckafka) 购买和创建实例。创建成功后消息队列页面就会展示订阅的详细信息，用户也可以在该页面修改订阅的消息类型、修改实例类型，如下图红框部分所示。
+选择需要推送的实例。若当前帐号没有实例，可前往 [CKafka](http://console.tcecqpoc.fsphere.cn/ckafka) 购买和创建实例。创建成功后消息队列页面就会展示订阅的详细信息，用户也可以在该页面修改订阅的消息类型、修改实例类型，如下图红框部分所示。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/9c9ab874b0619095bb6a4925ef355aec.png)
 
 ## CKafka 接收消息的 SDK 介绍

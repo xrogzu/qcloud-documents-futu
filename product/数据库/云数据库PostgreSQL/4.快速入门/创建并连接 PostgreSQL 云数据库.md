@@ -5,7 +5,7 @@
 
 ## 一、创建 PostgreSQL 云数据库实例
 在此步骤中，您会使用云平台控制台创建 PostgreSQL 云数据库实例。
-1. 登录 [云数据库控制台](http://console.tce.fsphere.cn/cdb)。
+1. 登录 [云数据库控制台](http://console.tcecqpoc.fsphere.cn/cdb)。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/7f454c8f988ec22c4045b33c47571024/image.png)
 2. 在右侧导航栏选择需要创建的云数据库类型，这里选择【PostgreSQL】。单击【+新建】，进入 PostgreSQL 云数据库购买界面。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/f57f66cceeca480952916d836f7908a5/image.png)
@@ -17,7 +17,7 @@
  - 实例规格和所需的硬盘。
  - 购买数量和购买时长。
  ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/90a26e59a3f499409592b1389dc976bb/image.png)
-4. 进入 [云数据库控制台](http://console.tce.fsphere.cn/cdb)，选择【PostgreSQL】，查看刚才创建的云数据库实例。状态显示是 **待初始化**。
+4. 进入 [云数据库控制台](http://console.tcecqpoc.fsphere.cn/cdb)，选择【PostgreSQL】，查看刚才创建的云数据库实例。状态显示是 **待初始化**。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/e0fbab1eb77b29a8eae650ec8224a3eb/image.png)
 5. 单击【初始化】，弹出初始化配置窗口，进行云数据库初始化操作。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d745d2fc8bc465594da63c5cf9be46f6/image.png)

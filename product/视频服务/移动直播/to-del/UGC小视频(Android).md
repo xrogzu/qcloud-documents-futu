@@ -120,7 +120,7 @@ void onRecordComplete(TXRecordResult result);
 要把刚才生成的 MP4 发布到云平台视频分发 CDN 上，就需要 **SecretID** 和 **Signature**，它的作用类似用户名和密码一样来确保您的云存储服务安全，避免您的流量和存储空间被其它攻击者盗用。
 
 - **SecretID （密钥ID）**
-你可以在 [云 API 密钥](http://console.tce.fsphere.cn/capi) 管理里获取或者创建一个 SecretID，如下图红框标注部分：
+你可以在 [云 API 密钥](http://console.tcecqpoc.fsphere.cn/capi) 管理里获取或者创建一个 SecretID，如下图红框标注部分：
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/23f95aaa97adf3eeae3bf90470fe5122/image.png)
 
 - **Signature（上传签名）**

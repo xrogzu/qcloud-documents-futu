@@ -3,7 +3,7 @@
 1. 创建一个 TXLivePush 对象（目前该对象只能被单例使用）
 2. 使用 startPreivew 接口函数用来预览摄像头画面。
 3. 使用 setVideoQuality 接口函数设置画质级别，普通直播可以设置为 VIDEO_QUALITY_HIGH_DEFINITION 
-3. 使用 startPush 接口函数用来推流，推流 URL 可以在开通云平台 [直播](http://console.tce.fsphere.cn/live) 服务后获取。
+3. 使用 startPush 接口函数用来推流，推流 URL 可以在开通云平台 [直播](http://console.tcecqpoc.fsphere.cn/live) 服务后获取。
 4. 美颜滤镜、水印图标、切后台的垫片推流、背景音乐、耳返混响 等等一系列高级功能，推荐大家关注我们的 [官方文档](http://tcecqpoc.fsphere.cn/document/product/454/7879)。
 
 ## 直播点播

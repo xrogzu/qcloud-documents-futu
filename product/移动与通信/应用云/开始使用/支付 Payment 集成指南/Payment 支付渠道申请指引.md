@@ -41,7 +41,7 @@ Payment 支持微信支付和手 Q 支付的 [APP 支付](http://kf.qq.com/faq/1
 
 ### 第七步：配置渠道信息
 
-打开之前在 [MobileLine 平台](http://console.tce.fsphere.cn/tac)上创建的应用，单击【我的米大师】>【渠道管理】，然后单击【开通微信支付】：
+打开之前在 [MobileLine 平台](http://console.tcecqpoc.fsphere.cn/tac)上创建的应用，单击【我的米大师】>【渠道管理】，然后单击【开通微信支付】：
 
 ![](http://tac-android-libs-1253960454.cosgz.myqcloud.com/resources/payment_add_wechat_pay.png?raw=true)
 
@@ -118,7 +118,7 @@ Payment 支持微信支付和手 Q 支付的 [APP 支付](http://kf.qq.com/faq/1
 
 ### 第九步：配置渠道信息
 
-打开之前在 [MobileLine 平台](http://console.tce.fsphere.cn/tac)上创建的应用，单击【我的米大师】>【渠道管理】，然后单击【开通 QQ 钱包支付】：
+打开之前在 [MobileLine 平台](http://console.tcecqpoc.fsphere.cn/tac)上创建的应用，单击【我的米大师】>【渠道管理】，然后单击【开通 QQ 钱包支付】：
 
 ![](http://tac-android-libs-1253960454.cosgz.myqcloud.com/resources/payment_new_qq_pay.png)
 

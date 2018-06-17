@@ -3,7 +3,7 @@
 您可以通过使用 CAM （Cloud Access Management，访问管理）策略让用户拥有在 CVM （Cloud Virtual Machine，云服务器）控制台中查看和使用特定资源的权限。该部分的示例能够使用户使用控制台的特定部分的策略。
 ### CVM 的全读写策略
 如果您想让用户拥有创建和管理 CVM 实例的权限，您可以对该用户使用名称为：QcloudCVMFullAccess 的策略。
-您可以进入 [策略管理界面](https://console.tce.fsphere.cn/cam/policy)，并在右边的全部服务中选择【云服务器】，就可以在图中位置找到该策略。
+您可以进入 [策略管理界面](http://console.tcecqpoc.fsphere.cn/cam/policy)，并在右边的全部服务中选择【云服务器】，就可以在图中位置找到该策略。
 
 
 策略语法如下：
@@ -48,7 +48,7 @@
 
 >建议：请配置 CVM 的只读策略。</font>
 
-您可以进入 [策略管理界面](https://console.tce.fsphere.cn/cam/policy)，并在右边的全部服务中选择【云服务器】，就可以在图中位置找到该策略。
+您可以进入 [策略管理界面](http://console.tcecqpoc.fsphere.cn/cam/policy)，并在右边的全部服务中选择【云服务器】，就可以在图中位置找到该策略。
 
 策略语法如下：
 
@@ -71,7 +71,7 @@
 
 ### CVM 相关资源的只读策略
 如果您想要让用户只拥有查询 CVM 实例及相关资源（VPC 、CLB）的权限，但不允许该用户拥有创建、删除、开关机等操作的权限，您可以对该用户使用名称为：QcloudCVMReadOnlyAccess 的策略。
-您可以进入 [策略管理界面](https://console.tce.fsphere.cn/cam/policy),并在右边的全部服务中选择【云服务器】，就可以在图中位置找到该策略。
+您可以进入 [策略管理界面](http://console.tcecqpoc.fsphere.cn/cam/policy),并在右边的全部服务中选择【云服务器】，就可以在图中位置找到该策略。
 
 策略语法如下：
 ```

@@ -184,7 +184,7 @@ REDIS_SLAVE_VERSION: v1
 
 接下来可以使用创建的模板，进行应用服务部署。关于如何使用应用模板进行应用部署可以参考[创建应用][10]。关于`Guestbook`这个应用模板具体部署应用的过程可以参考应用[模板示例-Guestbook应用][11]。
 
-  [1]: http://console.tce.fsphere.cn/ccs/template
+  [1]: http://console.tcecqpoc.fsphere.cn/ccs/template
   [2]: http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/0102424d765d3deab8a2b81bee485337/image.png
   [3]: http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/43d6a83add5684351d6ad5bbb3bef7b1/image.png
   [4]: http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/138339c3113312e63dc7ff401706c5c2/image.png

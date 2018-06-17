@@ -4,7 +4,7 @@
 ## 一、数据准备 ##
 用户在测试前，需提前把测试中使用的源数据文件上传至云平台双螺旋。文件上传指引如下：
 ### 1.1 开通双螺旋权限 ###
-双螺旋产品当前为受控开放，点此进入[产品控制台](http://console.tce.fsphere.cn/helix)。如您登录后可看见控制台操作界面，说明您的账号已经开通权限，请略过本步骤。如您暂无权限，请在控制台出现的内测申请页面（3秒自动跳转）上提交开通申请。
+双螺旋产品当前为受控开放，点此进入[产品控制台](http://console.tcecqpoc.fsphere.cn/helix)。如您登录后可看见控制台操作界面，说明您的账号已经开通权限，请略过本步骤。如您暂无权限，请在控制台出现的内测申请页面（3秒自动跳转）上提交开通申请。
 
 ![双螺旋控制台操作页面](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/5d6fe42b955323dbda84b521e07a95ef/image.png)
 
@@ -43,8 +43,8 @@
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/cb4a6d9006514cbc54e71fe6db395064/image.png)
 图6.COSCMD工具配置信息
 
-1. **secret_id**和**secret_key**，指用户的云API密钥，可从云API密钥控制台“API密钥”菜单中获取。若还没有云API密钥，用户可在控制台上新建。点此进入[云API密钥控制台](http://console.tce.fsphere.cn/capi "API密钥")
-2. **APPID**,指用户在云平台的标识，可通过 [云平台控制台](http://console.tce.fsphere.cn/) 【账号信息】查看 APPID。
+1. **secret_id**和**secret_key**，指用户的云API密钥，可从云API密钥控制台“API密钥”菜单中获取。若还没有云API密钥，用户可在控制台上新建。点此进入[云API密钥控制台](http://console.tcecqpoc.fsphere.cn/capi "API密钥")
+2. **APPID**,指用户在云平台的标识，可通过 [云平台控制台](http://console.tcecqpoc.fsphere.cn/) 【账号信息】查看 APPID。
 3. **Bucket**，指COS Bucket名称，此处使用系统分配的项目关联Bucket，获取方式见上文图4
 4. **Region**，指文件所属地域，此处固定为 ap-guangzhou
 
@@ -59,7 +59,7 @@
 
 图6.同步工具配置信息
 
-1. **secret_id**和**secret_key**，指用户的云API密钥，可从云API密钥控制台“API密钥”菜单中获取。若还没有云API密钥，用户可在控制台上新建。点此进入[云API密钥控制台](http://console.tce.fsphere.cn/capi "API密钥")
+1. **secret_id**和**secret_key**，指用户的云API密钥，可从云API密钥控制台“API密钥”菜单中获取。若还没有云API密钥，用户可在控制台上新建。点此进入[云API密钥控制台](http://console.tcecqpoc.fsphere.cn/capi "API密钥")
 2. **Bucket**，指COS Bucket名称，此处使用系统分配的项目关联Bucket，获取方式见上文图4
 3. **Region**，指文件所属地域，此处固定为 ap-guangzhou
 

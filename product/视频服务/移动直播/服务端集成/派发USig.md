@@ -23,7 +23,7 @@ UserSig是使用云平台通讯服务（[IM](http://tcecqpoc.fsphere.cn/product/
 
 ### step1：获取签发UserSig用的私钥
 
-进入云通讯 [管理控制台](http://console.tce.fsphere.cn/avc)，如果还没有开通服务，直接点击 **开通云通讯** 按钮即可。新开通的账号下，应用列表是空的，点击 **创建应用接入** 按钮创建一个新的应用：
+进入云通讯 [管理控制台](http://console.tcecqpoc.fsphere.cn/avc)，如果还没有开通服务，直接点击 **开通云通讯** 按钮即可。新开通的账号下，应用列表是空的，点击 **创建应用接入** 按钮创建一个新的应用：
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/897bff65af6202322a434b6fa3f8a0bd/image.png)
 
 点击 **确定** 按钮，之后就可以在应用列表中看到刚刚添加的项目了，如下图所示：

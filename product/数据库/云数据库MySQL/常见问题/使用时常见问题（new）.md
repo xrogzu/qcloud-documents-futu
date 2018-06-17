@@ -21,16 +21,16 @@ mysql -h IP -P 端口号 -u root -p 云数据库密码
 ```
 ERROR 1045(28000)：Access denied for user...
 ```
-当出现 `Access denied for user ‘xxx’@‘x.x.x.x’(using password:YES)` 的提示语时，表明密码不正确。请确认你输入的云数据库密码是否正确，如果重复输入正确密码后仍然报该错，则请通过 [提交工单](http://console.tce.fsphere.cn/workorder) 联系技术支持。 
+当出现 `Access denied for user ‘xxx’@‘x.x.x.x’(using password:YES)` 的提示语时，表明密码不正确。请确认你输入的云数据库密码是否正确，如果重复输入正确密码后仍然报该错，则请通过 [提交工单](http://console.tcecqpoc.fsphere.cn/workorder) 联系技术支持。 
 ```
 ERROR 1040(00000):Too many connections
 ```
 当出现 `ERROR 1040(00000):Too many connections` 的提示语时，表明云数据库实例当前最大连接数超过了限制。
-请检查程序，适当减少数据库的连接数。如果减少连接数后仍然报该错，则请通过 [提交工单](http://console.tce.fsphere.cn/workorder) 联系技术支持。 
+请检查程序，适当减少数据库的连接数。如果减少连接数后仍然报该错，则请通过 [提交工单](http://console.tcecqpoc.fsphere.cn/workorder) 联系技术支持。 
 ```
 ERROR 2003 (HY000): Can't connect to MySQL server...
 ```
-当出现 `ERROR 2003 (HY000): Can't connect to MySQL server on 'x.x.x.x' (111)` 的提示语时，表明云数据库地址不能连通，请确认您输入的云数据库的 IP、端口信息是否正确。如果重复输入正确信息后仍然报该错，则请通过 [提交工单](http://console.tce.fsphere.cn/workorder) 联系技术支持。
+当出现 `ERROR 2003 (HY000): Can't connect to MySQL server on 'x.x.x.x' (111)` 的提示语时，表明云数据库地址不能连通，请确认您输入的云数据库的 IP、端口信息是否正确。如果重复输入正确信息后仍然报该错，则请通过 [提交工单](http://console.tcecqpoc.fsphere.cn/workorder) 联系技术支持。
 
 ## 6. 云数据库适用于哪些业务场景
 MySQL 数据库适用的地方都可以使用云数据库。相比于自行搭建 MySQL，使用云数据库更加方便和可靠。
@@ -92,9 +92,9 @@ MySQL 实例的配置由云数据库统一管理，并支持部分参数的自�
 开发者可通过命令行和 phpMyAdmin 控制台，修改云数据库配置参数：
 
 1. 命令行方式
-以下变量可以单击“进入管理中心”，进入[总览页面](http://console.tce.fsphere.cn/)：
+以下变量可以单击“进入管理中心”，进入[总览页面](http://console.tcecqpoc.fsphere.cn/)：
 ![总览](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/e3b4a1474b5d47ded82b5f2c3b534caf/image.png)
-在”使用中的云产品“下拉菜单下单击“云数据库”，进入[MySQL-实例列表](http://console.tce.fsphere.cn/cdb)：
+在”使用中的云产品“下拉菜单下单击“云数据库”，进入[MySQL-实例列表](http://console.tcecqpoc.fsphere.cn/cdb)：
 ![管理](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ca4c7858bcf89a2d0fe97fdcd4754e42/image.png)
 单击管理列表下的参数设置，其中常见的 var\_name 包括如下变量：
 <table class="t">
@@ -147,10 +147,10 @@ MySQL 实例的配置由云数据库统一管理，并支持部分参数的自�
 
 ## 24. 云数据库的慢查询时间是多久？
 云数据库的慢查询时间（long\_query\_time）的默认值是 10 秒，用户可以自行修改，命令跟配置参数的命令行方式一样,详见[数据库MySQL](http://tcecqpoc.fsphere.cn/document/product/236)，在参数配置里可修改。
-点击“进入管理中心”，进入[总览页面](http://console.tce.fsphere.cn/)：
+点击“进入管理中心”，进入[总览页面](http://console.tcecqpoc.fsphere.cn/)：
 
 ![总览](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/33ad26ed6b2fde8caad10566c7e21206/image.png)
-在”使用中的云产品“下拉菜单下单击“云数据库”，进入[MySQL-实例列表](http://console.tce.fsphere.cn/cdb)：
+在”使用中的云产品“下拉菜单下单击“云数据库”，进入[MySQL-实例列表](http://console.tcecqpoc.fsphere.cn/cdb)：
 
 ![管理](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/0513c3baad993254f80fbd0be0825f96/image.png)
 
@@ -167,7 +167,7 @@ MySQL 实例的配置由云数据库统一管理，并支持部分参数的自�
 </tr></tbody></table>
 
 ## 25. 为什么查看云数据库中的中文数据时出现乱码？
-开发者将数据存储到云数据库中时，请先到 [云数据库的管理控制台](http://console.tce.fsphere.cn/cdb) 进入相应实例的【管理视图】页面查看该实例的默认字符集，在编写程序时，将 character\_set\_client、character\_set\_results、character\_set\_connection 设置为和云数据库实例相同的字符集。否则，如果存储的数据中有中文，会出现中文数据乱码的现象。
+开发者将数据存储到云数据库中时，请先到 [云数据库的管理控制台](http://console.tcecqpoc.fsphere.cn/cdb) 进入相应实例的【管理视图】页面查看该实例的默认字符集，在编写程序时，将 character\_set\_client、character\_set\_results、character\_set\_connection 设置为和云数据库实例相同的字符集。否则，如果存储的数据中有中文，会出现中文数据乱码的现象。
 例如：云数据库实例的默认字符集为 utf8，在编写程序连接数据库时，需要先执行以下语句，再将中文数据存储到云数据库。
 ```
 SET NAMES 'utf8';

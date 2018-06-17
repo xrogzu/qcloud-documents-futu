@@ -3,7 +3,7 @@
 ![快速入门](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/8fbd4b6fe3c5694b4d664b31d590fc4a/image.png)
 ### 创建 Anycast 型 EIP
 
-1. 登录 [EIP 控制台](http://console.tce.fsphere.cn/cvm/eip
+1. 登录 [EIP 控制台](http://console.tcecqpoc.fsphere.cn/cvm/eip
 )，单击 【申请】 按钮。
 
  ![p1](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a18a018f87701fd94182da23fb47188b/image.png)
@@ -14,7 +14,7 @@
  
 ### 绑定后端资源
 
-登录 [EIP 控制台](http://console.tce.fsphere.cn/cvm/eip
+登录 [EIP 控制台](http://console.tcecqpoc.fsphere.cn/cvm/eip
 ) 后，选择 【更多】>【绑定】，绑定指定的资源，本文档以 CVM 为例。
 
  ![p3](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/22bf3f0500051c8929c39e7c60151ee2/image.png)
@@ -27,6 +27,6 @@
 ### 变更 Anycast 弹性公网 IP 配置
 #### 调整带宽
 
-登录 [EIP 控制台](http://console.tce.fsphere.cn/cvm/eip )，在 EIP 列表中，选择要使用的 EIP，单击 【调整带宽】 即可。
+登录 [EIP 控制台](http://console.tcecqpoc.fsphere.cn/cvm/eip )，在 EIP 列表中，选择要使用的 EIP，单击 【调整带宽】 即可。
 
  ![p4](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/18b5b10ac608d096578495f3e0c69d73/image.png)

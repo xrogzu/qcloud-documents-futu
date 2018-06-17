@@ -48,7 +48,7 @@ fileId在一般是在视频上传后，由服务器返回：
 1. 客户端视频发布后，服务器会返回[fileId](http://tcecqpoc.fsphere.cn/document/product/584/9367#8..E5.8F.91.E5.B8.83.E7.BB.93.E6.9E.9C)到客户端
 2. 服务端视频上传，在[确认上传](http://tcecqpoc.fsphere.cn/document/product/266/9757)的通知中包含对应的fileId
 
-如果文件已存在云平台，则可以进入 [点播视频管理](http://console.tce.fsphere.cn/video/videolist) ，找到对应的文件。点开后在右侧视频详情中，可以看到appId和fileId。
+如果文件已存在云平台，则可以进入 [点播视频管理](http://console.tcecqpoc.fsphere.cn/video/videolist) ，找到对应的文件。点开后在右侧视频详情中，可以看到appId和fileId。
 
 ![视频管理](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/fcad44c3392b229f3a53d5f8b2c52961/image.png)
 

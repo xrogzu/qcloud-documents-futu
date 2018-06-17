@@ -89,8 +89,8 @@ CDB for MySQL 数据库支持控制台续费和续费管理中心续费两种方
 [image-5]:	http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1f4c68979c718e4a75734ca91f37c4ac/step5.png
 [image-6]:	http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a4403f63257ebe96b62867f22417d356/step6.png
 
-[1]:	http://console.tce.fsphere.cn/
-[2]:	http://console.tce.fsphere.cn/cdb
+[1]:	http://console.tcecqpoc.fsphere.cn/
+[2]:	http://console.tcecqpoc.fsphere.cn/cdb
 [3]:	http://tcecqpoc.fsphere.cn/document/product/378/3629
 [4]:	http://tcecqpoc.fsphere.cn/document/product/236/8458
 [5]:    http://tcecqpoc.fsphere.cn/document/product/213/5227
@@ -98,6 +98,6 @@ CDB for MySQL 数据库支持控制台续费和续费管理中心续费两种方
 [7]:	http://tcecqpoc.fsphere.cn/document/product/555/9618
 [8]:	http://tcecqpoc.fsphere.cn/document/product/555/9617
 [9]:    http://tcecqpoc.fsphere.cn/document/product/555/7437
-[10]:   http://console.tce.fsphere.cn/account/renewal
+[10]:   http://console.tcecqpoc.fsphere.cn/account/renewal
 [11]:   http://tcecqpoc.fsphere.cn/document/product/236/5158
 [12]:   https://buy.tce.fsphere.cn/calculator/cdb

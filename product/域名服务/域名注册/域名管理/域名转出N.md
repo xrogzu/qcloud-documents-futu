@@ -4,7 +4,7 @@
 - 请认真核对域名资料，转出密码将发送到您的域名信息邮箱里，请注意查收。
 
 ### 步骤一：登录管理控制台
-登录 [云平台控制台](http://console.tce.fsphere.cn/)，在【使用中的云产品】栏目内单击【域名管理】，即可看到您购买的所有域名信息列表。
+登录 [云平台控制台](http://console.tcecqpoc.fsphere.cn/)，在【使用中的云产品】栏目内单击【域名管理】，即可看到您购买的所有域名信息列表。
 ![打开域名管理中心](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/da4ba43894682972815e6deb5f040e50/image.png)
 ### 步骤二：获取域名转出密码
 在域名管理页面右侧，单击【操作】>【管理】，进入域名信息管理页面。

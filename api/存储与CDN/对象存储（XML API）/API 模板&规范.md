@@ -240,8 +240,8 @@ x-cos-request-id: NTg3ZjI0ZGRfNDQyMDRlXzNhZmRfMjRl
 9.  文中的“注意”有强调作用 ，所以“注意”要加粗换行，但注意的内容不加粗。如：
 
 ><font color="#0000cc">**注意：** </font>
-- 默认下载域名在创建好存储桶后，可通过 [对象存储控制台](http://console.tce.fsphere.cn/cos4) 的存储桶【域名管理】查看。
-- bucketname 是在创建存储桶时为存储桶命名的名称，可通过 [对象存储控制台](http://console.tce.fsphere.cn/cos4) 的存储桶【基础配置】查看。
+- 默认下载域名在创建好存储桶后，可通过 [对象存储控制台](http://console.tcecqpoc.fsphere.cn/cos4) 的存储桶【域名管理】查看。
+- bucketname 是在创建存储桶时为存储桶命名的名称，可通过 [对象存储控制台](http://console.tcecqpoc.fsphere.cn/cos4) 的存储桶【基础配置】查看。
 
 11.表格描述中不带符号结尾。如：
 

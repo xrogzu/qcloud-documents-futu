@@ -5,7 +5,7 @@
 ### 1.1	前期准备
 
 <p>1.	sdk采用Node.js v0.10.29版本开发， 推荐使用相同的版本。<br>
-2.	通过<a href="http://console.tce.fsphere.cn/uvs/vproject" class="external text" title="http://console.tce.fsphere.cn/uvs/vproject" target="_blank" rel="nofollow">项目设置</a>获取appid，secret_id和secret_key；<br>
+2.	通过<a href="http://console.tcecqpoc.fsphere.cn/uvs/vproject" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vproject" target="_blank" rel="nofollow">项目设置</a>获取appid，secret_id和secret_key；<br>
 </p>
 
 ### 1.2	导入SDK
@@ -78,7 +78,7 @@ function signOnce(bucket, fileid);
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> 开发者的授权secret_key，非传入参数，从conf.js中获取，使用前需初始化好conf，以上两项获取参见<a href="http://console.tce.fsphere.cn/uvs/vproject" class="external text" title="http://console.tce.fsphere.cn/uvs/vproject" target="_blank" rel="nofollow">项目设置</a>
+</td><td> 开发者的授权secret_key，非传入参数，从conf.js中获取，使用前需初始化好conf，以上两项获取参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vproject" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vproject" target="_blank" rel="nofollow">项目设置</a>
 </td></tr>
 <tr>
 <td> expired
@@ -92,7 +92,7 @@ function signOnce(bucket, fileid);
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> fileid
@@ -141,7 +141,7 @@ function createFolder(bucket, path, bizattr, callback);
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -233,7 +233,7 @@ function updateFolder(bucket, path, bizattr, callback);
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -310,7 +310,7 @@ function statFolder(bucket, path, callback);
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -405,7 +405,7 @@ function deleteFolder(bucket, path, callback);
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -475,7 +475,7 @@ function list(bucket, path, num, pattern, order, context, callback);
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -703,7 +703,7 @@ function prefixSearch(bucket, path, prefix, num, pattern, order, context, callba
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -940,7 +940,7 @@ function upload(filePath, bucket, dstpath, videocover, bizattr, title, desc, mag
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> dstpath
@@ -1079,7 +1079,7 @@ function upload_slice(filePath, bucket, dstpath, videocover, bizattr, title, des
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> dstpath
@@ -1232,7 +1232,7 @@ function updateFile(bucket, path, title, desc, bizattr, videocover, callback);
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -1333,7 +1333,7 @@ function statFile(bucket, path, callback);
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path
@@ -1502,7 +1502,7 @@ function deleteFile(bucket, path, callback);
 </td><td> String
 </td><td> 是
 </td><td> 无
-</td><td> bucket名称，bucket创建参见<a href="http://console.tce.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tce.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
+</td><td> bucket名称，bucket创建参见<a href="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" class="external text" title="http://console.tcecqpoc.fsphere.cn/uvs/vbucket" target="_blank" rel="nofollow">创建Bucket</a>
 </td></tr>
 <tr>
 <td> path

@@ -5,7 +5,7 @@
 ## 依赖环境
 1.  依赖环境：PHP 5.3.0 版本及以上
 2. 从 [云平台控制台](https://console.tce.fsphere.c) 开通相应产品，
-3. [获取 SecretID、SecretKey](http://console.tce.fsphere.cn/capi) 以及调用地址（endpoint），endpoint 一般形式为`*.api.qcloud.com`，如CVM 的调用地址为 `cvm.api.qcloud.com`，具体参考各产品说明。
+3. [获取 SecretID、SecretKey](http://console.tcecqpoc.fsphere.cn/capi) 以及调用地址（endpoint），endpoint 一般形式为`*.api.qcloud.com`，如CVM 的调用地址为 `cvm.api.qcloud.com`，具体参考各产品说明。
 4. 下载相关资料并做好相关文件配置。
 
 ## 获取安装

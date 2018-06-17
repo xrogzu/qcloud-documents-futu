@@ -1,4 +1,4 @@
-1) 登录[云平台控制台](http://console.tce.fsphere.cn/)，选择【私有网络】选项卡，选择【NAT网关】。
+1) 登录[云平台控制台](http://console.tcecqpoc.fsphere.cn/)，选择【私有网络】选项卡，选择【NAT网关】。
 
 2) 在NAT网关列表页，点击需要查看的NAT网关条目中的监控按钮，即可查看该NAT网关的监控信息。
 或：

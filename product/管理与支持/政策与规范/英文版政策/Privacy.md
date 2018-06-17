@@ -11,7 +11,7 @@ For further information regarding Tencent Cloud's data privacy and security prac
 
 (a)Please review the Tencent Cloud Privacy and Data Processing Policy – which sets out how we collect, store and process your content on Tencent Cloud. 
 
-(b)Please contact our Customer Support team via phone at +86 4009 100 100, or online at [http://console.tce.fsphere.cn/workorder](http://console.tce.fsphere.cn/workorder). We would be pleased to discuss with you how we maintain the privacy and security of your content and answer any questions or concerns you may have.
+(b)Please contact our Customer Support team via phone at +86 4009 100 100, or online at [http://console.tcecqpoc.fsphere.cn/workorder](http://console.tcecqpoc.fsphere.cn/workorder). We would be pleased to discuss with you how we maintain the privacy and security of your content and answer any questions or concerns you may have.
 
 ## 2.Who owns and controls your content?
 You do.  All content that you upload to Tencent Cloud remains yours, and you remain in control of it.

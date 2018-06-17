@@ -54,7 +54,7 @@ dependencies {
 
 #### 1. 下载服务资源压缩包。
 
-下载请点击[应用云 Storage 服务资源](http://console.tce.fsphere.cn/tac)，并解压。
+下载请点击[应用云 Storage 服务资源](http://console.tcecqpoc.fsphere.cn/tac)，并解压。
 
 #### 2. 集成 jar 包。
 
@@ -84,7 +84,7 @@ storageOptions.setCredentialProvider(new HttpRequest.Builder<String>()
 	.build());
 ```
 
-接口的通用返回格式请参考 [这里](http://console.tce.fsphere.cn/tac)。
+接口的通用返回格式请参考 [这里](http://console.tcecqpoc.fsphere.cn/tac)。
 
 ### 2.自己实现一个签名提供者
 

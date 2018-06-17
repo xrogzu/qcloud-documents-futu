@@ -7,8 +7,8 @@ COS服务的js sdk v4版本的GitHub下载地址： [https://github.com/tencenty
 ### 开发环境
 
 1. 使用SDK需要浏览器支持HTML 5
-2. 请您到http://console.tce.fsphere.cn/cos 获取您的项目ID(appid)，bucket，secret_id和secret_key。
-3. 请您到http://console.tce.fsphere.cn/cos 针对您要操作的bucket进行跨域（CORS）设置
+2. 请您到http://console.tcecqpoc.fsphere.cn/cos 获取您的项目ID(appid)，bucket，secret_id和secret_key。
+3. 请您到http://console.tcecqpoc.fsphere.cn/cos 针对您要操作的bucket进行跨域（CORS）设置
 （本版本SDK基于JSON API封装组成）
 
 ### SDK 配置

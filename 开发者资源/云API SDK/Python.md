@@ -8,7 +8,7 @@ qcloudapi-sdk-python 是为了让 Python 开发者能够在自己的代码里更
 见不同模块API的公共参数、API概览、错误码。如[云服务器API公共参数](http://tcecqpoc.fsphere.cn/document/api/213/6976)、[云服务器API概览](http://tcecqpoc.fsphere.cn/doc/api/229/API%E6%A6%82%E8%A7%88)、[云服务器API错误码](http://tcecqpoc.fsphere.cn/doc/api/229/%E9%94%99%E8%AF%AF%E7%A0%81)。
 
 ## 获取安全凭证
-[获取安全凭证](http://console.tce.fsphere.cn/capi)。在第一次使用云API之前，用户首先需要在云平台控制台上申请安全凭证，安全凭证包括 SecretId 和 SecretKey, SecretId 是用于标识 API 调用者的身份，SecretKey是用于加密签名字符串和服务器端验证签名字符串的密钥。SecretKey 必须严格保管，避免泄露。
+[获取安全凭证](http://console.tcecqpoc.fsphere.cn/capi)。在第一次使用云API之前，用户首先需要在云平台控制台上申请安全凭证，安全凭证包括 SecretId 和 SecretKey, SecretId 是用于标识 API 调用者的身份，SecretKey是用于加密签名字符串和服务器端验证签名字符串的密钥。SecretKey 必须严格保管，避免泄露。
 
 ## 示例
 

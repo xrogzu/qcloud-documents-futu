@@ -188,7 +188,7 @@ Password: csg123
 ```
 
 #### 为服务器增加磁盘
-购买完云服务器后，需要回到 [CVM 控制台](http://console.tce.fsphere.cn/cvm)。 在 CVM 控制台新建至少 2 块 10GB 以上的云硬盘并挂载到该主机上（网关正常运行至少需要 2 块以上磁盘，请根据业务需要选择缓存/上传缓冲磁盘/元数据磁盘大小，磁盘后期还可根据需要自行添加）。
+购买完云服务器后，需要回到 [CVM 控制台](http://console.tcecqpoc.fsphere.cn/cvm)。 在 CVM 控制台新建至少 2 块 10GB 以上的云硬盘并挂载到该主机上（网关正常运行至少需要 2 块以上磁盘，请根据业务需要选择缓存/上传缓冲磁盘/元数据磁盘大小，磁盘后期还可根据需要自行添加）。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/92c386037e4aeff1dfcf91a1d6fc6994/image.png)
 > <span style="color: red;"> **注意：**
 > 为了保障卷网关、磁带网关的读写性能，缓存磁盘的容量必须为上传缓冲磁盘容量的 1.5 倍以上。</span>

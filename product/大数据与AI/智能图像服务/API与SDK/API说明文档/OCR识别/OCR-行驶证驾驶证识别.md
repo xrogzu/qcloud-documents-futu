@@ -50,7 +50,7 @@
 
 | 参数名    | 是否必须 | 类型     | 说明                                       |
 | ------ | ---- | ------ | ---------------------------------------- |
-| appid  | 必须   | string | 接入项目的唯一标识，可在 [账号信息](http://console.tce.fsphere.cn/developer) 或 [云 API 密钥](http://console.tce.fsphere.cn/cam/capi) 中查看。                                      |
+| appid  | 必须   | string | 接入项目的唯一标识，可在 [账号信息](http://console.tcecqpoc.fsphere.cn/developer) 或 [云 API 密钥](http://console.tcecqpoc.fsphere.cn/cam/capi) 中查看。                                      |
 | bucket | 必须   | string | 空间名称                                     |
 | type   | 必选   | int    | 识别类型，0 表示行驶证，1 表示驾驶证识别                   |
 | image  | 可选   | binary | image 和 url 只提供一个即可                                 |

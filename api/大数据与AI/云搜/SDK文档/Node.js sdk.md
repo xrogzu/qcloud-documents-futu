@@ -1,7 +1,7 @@
  qcloudapi-sdk 是云平台 API 2.0 的 node.js SDK 工具包。
 
 ### 使用方法
-1. 使用之前请在云平台的 [云 API 控制台](http://console.tce.fsphere.cn/yunso/qcloud_open.cgi) 中创建自己的安全凭证(SecretId 和 SecretKey). SecretKey 要严格保管, 避免泄露。
+1. 使用之前请在云平台的 [云 API 控制台](http://console.tcecqpoc.fsphere.cn/yunso/qcloud_open.cgi) 中创建自己的安全凭证(SecretId 和 SecretKey). SecretKey 要严格保管, 避免泄露。
 2. 下载 SDK，放入到程序目录，使用方法请参考下面的例子。
 
 

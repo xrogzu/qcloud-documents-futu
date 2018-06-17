@@ -20,7 +20,7 @@
 部署Python 2.7版本，然后安装依赖库，依赖库见附件pythonlibs(安装方法:python setup.py install，最后安装requests)
 
 ### 2.2 获取云 API 密钥(SecretId、SecretKey)
-登入 [控制台](http://console.tce.fsphere.cn/iotcloud) 后，进入 [云API密钥](http://console.tce.fsphere.cn/cam/capi)
+登入 [控制台](http://console.tcecqpoc.fsphere.cn/iotcloud) 后，进入 [云API密钥](http://console.tcecqpoc.fsphere.cn/cam/capi)
 
 ![云API密钥](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/d7cbde91-5723-47f9-8c56-d0381bb3eb1b.png)
 

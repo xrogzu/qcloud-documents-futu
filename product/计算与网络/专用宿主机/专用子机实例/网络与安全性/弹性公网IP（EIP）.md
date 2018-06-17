@@ -47,7 +47,7 @@
 
 ## 申请弹性公网 IP
 
-1) 打开云服务器 [CVM 控制台](http://console.tce.fsphere.cn/cvm) 。
+1) 打开云服务器 [CVM 控制台](http://console.tcecqpoc.fsphere.cn/cvm) 。
 ​	
 2) 在导航窗格中，单击弹性公网 IP。
 
@@ -57,7 +57,7 @@
 
 ## 弹性公网 IP 绑定云产品
 
-1) 打开云服务器 [CVM 控制台](http://console.tce.fsphere.cn/cvm)。
+1) 打开云服务器 [CVM 控制台](http://console.tcecqpoc.fsphere.cn/cvm)。
 
 2) 在导航窗格中，单击弹性公网 IP。
 
@@ -67,7 +67,7 @@
 
 ## 弹性公网 IP 解绑云产品
 
-1) 打开云服务器 [CVM 控制台](http://console.tce.fsphere.cn/cvm) 。
+1) 打开云服务器 [CVM 控制台](http://console.tcecqpoc.fsphere.cn/cvm) 。
 
 2) 在导航窗格中，单击弹性公网IP。
 
@@ -78,7 +78,7 @@
 此时云产品实例可能会被分配新的公网 IP，具体细节将依据云资源的不同产生差异，以实际情况为准。
 
 ## 释放弹性公网 IP
-1) 打开云服务器 [CVM 控制台](http://console.tce.fsphere.cn/cvm) 。
+1) 打开云服务器 [CVM 控制台](http://console.tcecqpoc.fsphere.cn/cvm) 。
 
 2) 在导航窗格中，单击弹性公网 IP。
 

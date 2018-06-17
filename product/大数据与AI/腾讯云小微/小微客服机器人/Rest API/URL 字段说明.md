@@ -26,6 +26,6 @@ appid=$appid
 
 ### APPID 获取方式
 如果您还没有云平台账号，您需要先注册云平台账号；
-如果您已有云平台账号，登录云平台小微机器人 [控制台](http://console.tce.fsphere.cn/prophet/prophetlist/) 就能看到APPID 信息和业务 SDK_ID 信息了。
+如果您已有云平台账号，登录云平台小微机器人 [控制台](http://console.tcecqpoc.fsphere.cn/prophet/prophetlist/) 就能看到APPID 信息和业务 SDK_ID 信息了。
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/49f6d25112eacb7373a1f850629a4ec1/image.png)

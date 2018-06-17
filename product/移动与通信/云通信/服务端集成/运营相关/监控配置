@@ -3,7 +3,7 @@
 [云监控基本概念](http://tcecqpoc.fsphere.cn/doc/product/248/968)
 
 ## 2. 告警查询
-入口在【云监控】-【我的告警】-【告警列表】。[链接>>](http://console.tce.fsphere.cn/monitor/policylist)
+入口在【云监控】-【我的告警】-【告警列表】。[链接>>](http://console.tcecqpoc.fsphere.cn/monitor/policylist)
 告警列表展示发生过的基础告警信息。查看基础告警监控指标。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d09da8713d2c411fcaf1434a157a8166/image.jpg)
 

@@ -74,7 +74,7 @@ CVM 定价主要包括 CVM 实例价格，磁盘价格，网络价格。
 
 ## 购买按量计费CVM实例限制
 
-1) 购买按量计费云服务器前，请前往<a href="http://console.tce.fsphere.cn/developer">用户中心</a>进行资质认证。未进行资质认证的用户将不能购买按量计费的云服务器。</font>
+1) 购买按量计费云服务器前，请前往<a href="http://console.tcecqpoc.fsphere.cn/developer">用户中心</a>进行资质认证。未进行资质认证的用户将不能购买按量计费的云服务器。</font>
 
 2) 购买按量计费CVM实例时，以下特性均<font color="red">不支持</font>：
 - 代理商代付

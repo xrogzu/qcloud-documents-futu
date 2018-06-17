@@ -5,7 +5,7 @@
 ## 依赖环境
 1.  依赖环境：Python 2.6 到 3.6 版本
 2. 从 [云平台控制台](https://console.tce.fsphere.c) 开通相应产品，
-3. [获取 SecretID、SecretKey](http://console.tce.fsphere.cn/capi) 具体参考各产品说明。
+3. [获取 SecretID、SecretKey](http://console.tcecqpoc.fsphere.cn/capi) 具体参考各产品说明。
 4. 下载相关资料并做好相关文件配置。
 
 ## 获取安装

@@ -82,7 +82,7 @@ v1: digest: sha256:38b194feeee09abf8ee45e7abca82b9fe494b18b953c771ce8ebefa387107
 2. 一个创建好的集群。有关如何创建集群的详细信息，参见 [新建集群](http://tcecqpoc.fsphere.cn/document/product/457/9091) 。
 
 ### 操作步骤
-1) 登录 [容器服务控制台](http://console.tce.fsphere.cn/ccs) 。
+1) 登录 [容器服务控制台](http://console.tcecqpoc.fsphere.cn/ccs) 。
 2) 单击左侧导航栏中的【服务】，单击服务列表页的【+ 新建】。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/11f7f75d7b051a815da8bfe1e744a8e8/image.png)
 3) 设置服务的基本信息。

@@ -23,7 +23,7 @@
 | ---------- | ---- | ------ | ---------------------------------------- |
 | startDate  | 是    | String | 查询开始时间（日）                                |
 | endDate    | 是    | String | 查询结束时间（日）                                |
-| projects.n | 是    | String | 项目ID，[查看项目ID](http://console.tce.fsphere.cn/project) |
+| projects.n | 是    | String | 项目ID，[查看项目ID](http://console.tcecqpoc.fsphere.cn/project) |
 | hosts.n    | 否    | String | 域名                                       |
 | statType   | 是    | String | "requests"：表示按请求数排序                      |
 

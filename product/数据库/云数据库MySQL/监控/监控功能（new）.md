@@ -80,7 +80,7 @@
 
 > 更多监控指标，敬请期待。
 
-[1]:	http://console.tce.fsphere.cn/
-[2]:	http://console.tce.fsphere.cn/cdb/ "云数据库控制台"
+[1]:	http://console.tcecqpoc.fsphere.cn/
+[2]:	http://console.tcecqpoc.fsphere.cn/cdb/ "云数据库控制台"
 [3]:	https://dev.mysql.com/doc/refman/5.6/en/ "查看MySQL官方指导"
 

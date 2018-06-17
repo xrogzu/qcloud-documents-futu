@@ -6,7 +6,7 @@
 
 | 概念     | 解释               |
 | ------ | ---------------- |
-| appid  | 项目 ID, 接入项目的唯一标识，可在 [账号信息](http://console.tce.fsphere.cn/developer) 或 [云 API 密钥](http://console.tce.fsphere.cn/cam/capi) 中查看 |
+| appid  | 项目 ID, 接入项目的唯一标识，可在 [账号信息](http://console.tcecqpoc.fsphere.cn/developer) 或 [云 API 密钥](http://console.tcecqpoc.fsphere.cn/cam/capi) 中查看 |
 
 ## 调用 URL
 支持 http 和 https 两种协议：
@@ -36,8 +36,8 @@ https://aiconsole.tce.fsphere.cn/fuseapi/face
 
 | 参数名    | 是否必须 | 类型     | 说明    |
 | ------ | ---- | ------ | ------- |
-| appid  | 必须   | string | 项目 ID，可在 [账号信息](http://console.tce.fsphere.cn/developer) 查看   |
-| uin    | 必须   | string | 账号 ID，可在 [账号信息](http://console.tce.fsphere.cn/developer) 查看|
+| appid  | 必须   | string | 项目 ID，可在 [账号信息](http://console.tcecqpoc.fsphere.cn/developer) 查看   |
+| uin    | 必须   | string | 账号 ID，可在 [账号信息](http://console.tcecqpoc.fsphere.cn/developer) 查看|
 | project_id    | 必须   | string | 活动 ID |
 | model_id    | 必须   | string | 素材 ID |
 | img_data    | 必须   | string | 图片 base64 数据 |

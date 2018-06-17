@@ -59,7 +59,7 @@
 ![应用nginx示例-016.png][13]
 
   [1]: http://tcecqpoc.fsphere.cn/document/product/457/11945
-  [2]: http://console.tce.fsphere.cn/ccs/application
+  [2]: http://console.tcecqpoc.fsphere.cn/ccs/application
   [3]: http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b69a1f01ddfb2abc05512e324865b8b3/image.png
   [4]: http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/27eda4339af5b2d86959287a4192e783/image.png
   [5]: http://tcecqpoc.fsphere.cn/document/product/457/12199

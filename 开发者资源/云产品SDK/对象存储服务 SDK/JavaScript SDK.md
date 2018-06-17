@@ -37,7 +37,7 @@ public static function appSign($expired, $bucketName)
 | **参数名**    | **类型** | **是否必填** | **默认值** | **参数描述**                                 |
 | ---------- | ------ | -------- | ------- | ---------------------------------------- |
 | expired    | long   | 否        | 无       | 过期时间，Unix时间戳                             |
-| bucketName | String | 否        | 无       | bucket名称，bucket创建参见[创建Bucket](http://console.tce.fsphere.cn/cos) |
+| bucketName | String | 否        | 无       | bucket名称，bucket创建参见[创建Bucket](http://console.tcecqpoc.fsphere.cn/cos) |
 
 #### 返回结果说明
 
@@ -55,7 +55,7 @@ public static function appSign_once($path, $bucketName)
 
 | **参数名**    | **类型** | **是否必填** | **默认值** | **参数描述**                                 |
 | ---------- | ------ | -------- | ------- | ---------------------------------------- |
-| bucketName | String | 否        | 无       | bucket名称，bucket创建参见[创建Bucket](http://console.tce.fsphere.cn/cos) |
+| bucketName | String | 否        | 无       | bucket名称，bucket创建参见[创建Bucket](http://console.tcecqpoc.fsphere.cn/cos) |
 | path       | String | 是        | 无       | 文件路径，以斜杠开头，例如/filepath/filename，为文件在此bucketname下的全路径 |
 
 #### 返回结果说明

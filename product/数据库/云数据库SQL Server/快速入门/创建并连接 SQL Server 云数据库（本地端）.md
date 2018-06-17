@@ -7,7 +7,7 @@
 
 ## 一、创建 SQL Server 云数据库实例
 在此步骤中，您会使用云平台控制台创建数据库实例。
-1. 登录 [云数据库控制台](http://console.tce.fsphere.cn/cdb)。
+1. 登录 [云数据库控制台](http://console.tcecqpoc.fsphere.cn/cdb)。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/7f454c8f988ec22c4045b33c47571024/image.png)
 2. 在右侧导航栏选择需要创建的云数据库类型，这里选择【SQL Server】。单击【+新建】，进入云数据库 SQL Server 购买界面。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/798911fbe873e0a59de7d749b365c0ca/image.png)
@@ -19,7 +19,7 @@
  - 实例规格和所需的硬盘。
  - 购买数量和购买时长。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1630495ca9ca9001b4cdef32e1b85364/image.png)
-4. 进入 [云数据库控制台](http://console.tce.fsphere.cn/cdb)，选择【SQL Server】，查看刚才创建的云数据库实例。当运行状态显示 **运行中**，表示云数据库 SQL Server 创建成功。
+4. 进入 [云数据库控制台](http://console.tcecqpoc.fsphere.cn/cdb)，选择【SQL Server】，查看刚才创建的云数据库实例。当运行状态显示 **运行中**，表示云数据库 SQL Server 创建成功。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/eedd98d6992bdb6e06d25d8380365e89/image.png)
 5. 在 SQL Server 云数据库管理界面，单击【管理】，进入 SQL Server 云数据库实例详情页。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/aeb4d8c1b053c4ea9dbb6f5a9a48fc4d/image.png)

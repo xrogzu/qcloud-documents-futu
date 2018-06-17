@@ -20,5 +20,5 @@ CDB for MySQL 5.6/5.7 主从同步基于 GTID 实现，默认仅支持 InnoDB �
 更详细的切换时间设置说明请查看：[升级数据库规格中的切换时间说明部分](http://tcecqpoc.fsphere.cn/document/product/236/7271)。
 ![][image-2]
 
-[image-1]:	//mc.qcloudimg.com/static/img/30eb65a62102eea61a48422a404df814/4.png
-[image-2]:	//mc.qcloudimg.com/static/img/a4b395e9a85a4a289b016cf2ae1c4a14/5.png
+[image-1]:	http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/30eb65a62102eea61a48422a404df814/4.png
+[image-2]:	http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a4b395e9a85a4a289b016cf2ae1c4a14/5.png

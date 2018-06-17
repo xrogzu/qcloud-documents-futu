@@ -7,7 +7,7 @@
 
 选取相应的COS中bucket，则请求日志会自动在bucket下创建lb-id为名称的文件夹进行存储。选取完成后，点击bucket地址可以直接跳转到日志下载页面。
 
-如您没有创建对象存储的bucket，请在[新建bucket](http://console.tce.fsphere.cn/cos4/bucket)后选取相应的存储位置。
+如您没有创建对象存储的bucket，请在[新建bucket](http://console.tcecqpoc.fsphere.cn/cos4/bucket)后选取相应的存储位置。
 
 ### 产品限制和费用计算
 - 当前日志聚合粒度为1小时

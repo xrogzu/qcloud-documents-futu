@@ -13,4 +13,4 @@ GitHub 地址如下：
 
 ## SDK 使用注意事项
 
-使用 SDK 前至少要获取 [secretId](http://console.tce.fsphere.cn/capi)， [secretkey](http://console.tce.fsphere.cn/capi) 作为请求合法性的唯一条件。
+使用 SDK 前至少要获取 [secretId](http://console.tcecqpoc.fsphere.cn/capi)， [secretkey](http://console.tcecqpoc.fsphere.cn/capi) 作为请求合法性的唯一条件。

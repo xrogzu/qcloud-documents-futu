@@ -1,5 +1,5 @@
 ## 快速获得URL
-如果您是想要生成一组URL用于测试，那您只需要打开[直播控制台>>直播码接入>>推流生成器](http://console.tce.fsphere.cn/live/livecodemanage)，点击 **生成推流地址** 按钮，即可生成一个推流URL和三种不同播放协议的播放URL。
+如果您是想要生成一组URL用于测试，那您只需要打开[直播控制台>>直播码接入>>推流生成器](http://console.tcecqpoc.fsphere.cn/live/livecodemanage)，点击 **生成推流地址** 按钮，即可生成一个推流URL和三种不同播放协议的播放URL。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/cc7c9364fab232a94025b4ee1a2ac3d8/image.png)
 
 使用我们的 Demo [视频云工具包](http://tcecqpoc.fsphere.cn/document/product/454/6555#DE) 中的 **RTMP 推流** 和 **直播播放器** 功能，可以快速测试推流 URL 和播放 URL 的有效性。

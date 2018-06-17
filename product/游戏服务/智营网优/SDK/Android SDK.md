@@ -1,7 +1,7 @@
 ## 1 接入流程/开发准备
 
 ### 1.1 SDK 获取
-登录云平台控制台,下载地址：[Android SDK](http://console.tce.fsphere.cn/ino/sdk).
+登录云平台控制台,下载地址：[Android SDK](http://console.tcecqpoc.fsphere.cn/ino/sdk).
 
 ### 1.2 SDK 配置
 将下列文件导入到项目中：

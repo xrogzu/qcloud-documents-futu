@@ -6,7 +6,7 @@
 | ------------- | ---------------------------------------- |
 | appid         | 接入视频处理时，生成为唯一id， 用于唯一标识接入业务， 获取地址: 密钥配置  |
 | Authorization | 签名，具体生成参见[鉴权签名方法](http://tcecqpoc.fsphere.cn/document/product/314/2290)。 |
-| bucket_name   | bucket名称，bucket创建参见[创建Bucket](http://console.tce.fsphere.cn/media/bucket) |
+| bucket_name   | bucket名称，bucket创建参见[创建Bucket](http://console.tcecqpoc.fsphere.cn/media/bucket) |
 
 ## 2	鉴权
 云平台•视频处理通过签名来验证请求的合法性。开发者通过将签名授权给客户端，使其具备上传下载及管理指定资源的能力。
@@ -727,7 +727,7 @@ E0MzMxNDU2MDAmdD0xNDI4NTcwMDMxJnI9MjkzODI3MTE2JnU9JmY9
 
 - SDK： https://github.com/QCloudCDN/CDN_API_SDK/tree/master/Qcloud_CDN_API
 
-- secretKey和secretId：http://console.tce.fsphere.cn/capi
+- secretKey和secretId：http://console.tcecqpoc.fsphere.cn/capi
 
 
 ## 4.1	视频转码结果查询接口(GetCtsInfo)

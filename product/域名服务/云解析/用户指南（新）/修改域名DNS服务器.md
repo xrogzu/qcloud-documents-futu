@@ -5,7 +5,7 @@
 
 ### 云平台注册域名修改 DNS
 如果域名在云平台注册，或者已转入云平台，可以通过以下步骤修改 DNS 服务器：
-1. 登录 [云平台控制台](http://console.tce.fsphere.cn/)，选择【云产品】>【域名与网站】>【域名管理】。
+1. 登录 [云平台控制台](http://console.tcecqpoc.fsphere.cn/)，选择【云产品】>【域名与网站】>【域名管理】。
 ![1](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/c2f4a6cb3572143b1fbaffb23bc58510/image.png)
 2. 选择相应域名，单击【管理】。
 ![2](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1dbc9f9c19eb5543fcde41577e817ff0/image.png)

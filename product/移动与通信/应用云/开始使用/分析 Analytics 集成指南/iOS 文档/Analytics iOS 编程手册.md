@@ -4,9 +4,9 @@
 
 在移动开发平台（MobileLine）控制台中关联您的应用
 
-1. 安装 [移动开发平台（MobileLine） SDK](http://console.tce.fsphere.cn/tac)。
-2. 在 [移动开发平台（MobileLine） 控制台](http://console.tce.fsphere.cn/tac)中，将您的应用添加到您的移动开发平台（MobileLine）项目中。
-3. 参考 [Analytics 配置文档](http://console.tce.fsphere.cn/tac)，配置并初始化  Analytics。
+1. 安装 [移动开发平台（MobileLine） SDK](http://console.tcecqpoc.fsphere.cn/tac)。
+2. 在 [移动开发平台（MobileLine） 控制台](http://console.tcecqpoc.fsphere.cn/tac)中，将您的应用添加到您的移动开发平台（MobileLine）项目中。
+3. 参考 [Analytics 配置文档](http://console.tcecqpoc.fsphere.cn/tac)，配置并初始化  Analytics。
 
 
 ### 记录事件

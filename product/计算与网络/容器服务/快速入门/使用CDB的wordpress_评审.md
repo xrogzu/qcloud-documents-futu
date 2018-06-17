@@ -9,7 +9,7 @@
 
 ## 创建 WordPress 服务
 ### 第一步：创建云数据库 CDB
-1) 登录 [私有网络控制台](http://console.tce.fsphere.cn/vpc/vpc?rid=1) 。
+1) 登录 [私有网络控制台](http://console.tcecqpoc.fsphere.cn/vpc/vpc?rid=1) 。
 2) 单击私有网络列表页的 ID/名称（如：vpc-xxxxx）。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/33830d9c88d9cb332b1ce148588cdbf5/image.png)
 3) 在私有网络详情页，选择数据库目录下的 **MySQL**，单击右侧【添加】。
@@ -31,7 +31,7 @@
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/c285fb82e354ba127cd0cce01804a197/image.png)
 
 ### 第二步：创建使用 CDB 的 WordPress 服务
-1) 登录 [容器服务控制台](http://console.tce.fsphere.cn/ccs) 。
+1) 登录 [容器服务控制台](http://console.tcecqpoc.fsphere.cn/ccs) 。
 2) 单击左侧导航栏中的【服务】，单击服务列表页的【+ 新建】。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/11f7f75d7b051a815da8bfe1e744a8e8/image.png)
 3) 设置服务的基本信息。

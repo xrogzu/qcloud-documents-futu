@@ -2,7 +2,7 @@
 >下载 云平台•优图人脸识别 [Android SDK](http://imgcache.tcecqpoc.fsphere.cn/image/imgcache.qq.com/qcloud/tianyan/QCloudFR_ANDROID_SDK1.0.zip)。
 >	SDK支持Android 2.2及以上版本的手机系统；
 	手机必须要有网络（GPRS、3G或Wifi网络等）；
-	在[云平台密钥管理页面](http://console.tce.fsphere.cn/capi/project)，为你的项目申请安全密钥
+	在[云平台密钥管理页面](http://console.tcecqpoc.fsphere.cn/capi/project)，为你的项目申请安全密钥
 
 ## 导入SDK
 >将下载的SDK libs下的youtu_sdk_android.jar拷贝到项目的libs下，并导入该包到项目中:

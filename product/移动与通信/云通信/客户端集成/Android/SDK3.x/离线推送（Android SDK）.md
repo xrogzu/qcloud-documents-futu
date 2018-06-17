@@ -580,7 +580,7 @@ iconID|要显示在提醒中的图标的资源 ID。
 
 ### 添加小米离线推送证书
 
-从云平台管理中心的 [云通信-应用列表](http://console.tce.fsphere.cn/avc) 进入相应应用的`应用配置`页面，在基本配置中根据指引添加 `Android 推送证书`。如何获得相应的推送证书可以参考 [Android 推送证书申请](/doc/product/269/5331) 。添加证书成功后，可以得到一个证书 ID，这里可以把这个 ID 记录下来，在后续环节中会使用到。
+从云平台管理中心的 [云通信-应用列表](http://console.tcecqpoc.fsphere.cn/avc) 进入相应应用的`应用配置`页面，在基本配置中根据指引添加 `Android 推送证书`。如何获得相应的推送证书可以参考 [Android 推送证书申请](/doc/product/269/5331) 。添加证书成功后，可以得到一个证书 ID，这里可以把这个 ID 记录下来，在后续环节中会使用到。
 
 ### 配置 AndroidManifest.xml 文件
 
@@ -821,7 +821,7 @@ TIMManager.getInstance().setOfflinePushToken(param);
 
 ### 添加华为离线推送证书
 
-从云平台管理中心的 [云通信-应用列表](http://console.tce.fsphere.cn/avc) 进入相应应用的`应用配置`页面，在基本配置中根据指引添加 `Android 推送证书`。如何获得相应的推送证书可以参考 [Android 推送证书申请](/doc/product/269/5331)。添加证书成功后，可以得到一个证书 ID，这里可以把这个 ID 记录下来，在后续环节中会使用到。
+从云平台管理中心的 [云通信-应用列表](http://console.tcecqpoc.fsphere.cn/avc) 进入相应应用的`应用配置`页面，在基本配置中根据指引添加 `Android 推送证书`。如何获得相应的推送证书可以参考 [Android 推送证书申请](/doc/product/269/5331)。添加证书成功后，可以得到一个证书 ID，这里可以把这个 ID 记录下来，在后续环节中会使用到。
 
 ### 配置 AndroidManifest.xml 文件
 
@@ -1057,7 +1057,7 @@ TIMManager.getInstance().setOfflinePushToken(param);
 
 ### 添加魅族离线推送证书
 
-从云平台管理中心的 [云通信-应用列表](http://console.tce.fsphere.cn/avc) 进入相应应用的`应用配置`页面，在基本配置中根据指引添加 `Android 推送证书`。如何获得相应的推送证书可以参考 [Android 推送证书申请](/doc/product/269/5331)。添加证书成功后，可以得到一个证书 ID，这里可以把这个 ID 记录下来，在后续环节中会使用到。
+从云平台管理中心的 [云通信-应用列表](http://console.tcecqpoc.fsphere.cn/avc) 进入相应应用的`应用配置`页面，在基本配置中根据指引添加 `Android 推送证书`。如何获得相应的推送证书可以参考 [Android 推送证书申请](/doc/product/269/5331)。添加证书成功后，可以得到一个证书 ID，这里可以把这个 ID 记录下来，在后续环节中会使用到。
 
 ### PushSDK 引用配置
 

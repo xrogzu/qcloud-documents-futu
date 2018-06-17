@@ -9,7 +9,7 @@
 
 -  SDK 支持 iOS 8.0 及以上版本的系统；
 -  手机必须要有网络（GPRS、3G 或 Wifi 网络等）；
--  从 [COS v4 控制台](http://console.tce.fsphere.cn/cos4/secret) 获取 APPID、SecretId、SecretKey。
+-  从 [COS v4 控制台](http://console.tcecqpoc.fsphere.cn/cos4/secret) 获取 APPID、SecretId、SecretKey。
 
 > 关于文章中出现的 SecretID、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](http://tcecqpoc.fsphere.cn/document/product/436/7751)
 
@@ -92,7 +92,7 @@ QCloudCOSXML/QCloudCOSXML.h
 
 #### 初始化示例
 
-下面用到的 APPID， SecretId， SecretKey 等可以从 [COS v4 控制台](http://console.tce.fsphere.cn/cos4/secret) 中获取。
+下面用到的 APPID， SecretId， SecretKey 等可以从 [COS v4 控制台](http://console.tcecqpoc.fsphere.cn/cos4/secret) 中获取。
 
 ```objective-c
 //AppDelegate.m
@@ -115,7 +115,7 @@ QCloudCOSXML/QCloudCOSXML.h
 ## 快速入门
 
 这里演示的上传和下载的基本流程，更多细节可以参考 [XML iOS  SDK Demo](https://github.com/tencentyun/qcloud-sdk-ios-samples)。具体每一个接口如何使用请参照 Demo 中提供的单元测试文件。
->**注意：**在进行这一步之前必须在 [云平台控制台](http://console.tce.fsphere.cn/cos4/secret) 上申请 COS 业务的 APPID。
+>**注意：**在进行这一步之前必须在 [云平台控制台](http://console.tcecqpoc.fsphere.cn/cos4/secret) 上申请 COS 业务的 APPID。
 
 ### STEP - 1 初始化
 

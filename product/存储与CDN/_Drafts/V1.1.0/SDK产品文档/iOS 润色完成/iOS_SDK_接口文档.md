@@ -54,7 +54,7 @@
 ## 快速入门
 
 这里演示的上传和下载的基本流程，更多细节可以参考 [XML iOS  SDK Demo](https://github.com/tencentyun/qcloud-sdk-ios-samples)。具体每一个接口如何使用请参照 Demo 中提供的单元测试文件。
->**注意：**在进行这一步之前必须在 [云平台控制台](http://console.tce.fsphere.cn/cos4/secret) 上申请 COS 业务的 APPID。
+>**注意：**在进行这一步之前必须在 [云平台控制台](http://console.tcecqpoc.fsphere.cn/cos4/secret) 上申请 COS 业务的 APPID。
 >
 
 ### STEP - 1 初始化

@@ -654,4 +654,4 @@ public Boolean isPrimary()
 ##### 抛出异常
 无
 
-[1]:	//mc.qcloudimg.com/static/archive/2a5032c6100b9cb3316f978bb32519e5/binlogsdk-2.6.0-release.jar.zip
+[1]:	http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/2a5032c6100b9cb3316f978bb32519e5/binlogsdk-2.6.0-release.jar.zip

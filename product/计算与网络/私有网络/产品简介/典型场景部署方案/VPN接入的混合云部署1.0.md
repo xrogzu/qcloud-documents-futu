@@ -6,7 +6,7 @@
 
 ## 应用场景
 VPN 连接（VPN Connections）是一款通过 IPsec 加密通道连接您的企业数据中心和云平台私有网络（VPC）的服务，提供安全、可靠的加密通信。
-目前 VPN 通道支持 IKE / IPesec  加密协议，最大支持 100M 带宽，如果您有特殊需求，我们也可以提供更符合您需求的定制化 VPN 接入服务,请填[工单申请](http://console.tce.fsphere.cn/workorder/category/create?level1_id=6&level2_id=168&level1_name=%E8%AE%A1%E7%AE%97%E4%B8%8E%E7%BD%91%E7%BB%9C&level2_name=%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%20VPC)。
+目前 VPN 通道支持 IKE / IPesec  加密协议，最大支持 100M 带宽，如果您有特殊需求，我们也可以提供更符合您需求的定制化 VPN 接入服务,请填[工单申请](http://console.tcecqpoc.fsphere.cn/workorder/category/create?level1_id=6&level2_id=168&level1_name=%E8%AE%A1%E7%AE%97%E4%B8%8E%E7%BD%91%E7%BB%9C&level2_name=%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%20VPC)。
 
 > <b>注意：</b>
 > 您需要为 VPN 通道占用的公网带宽付费，如果您的混合云互通带宽要求大于 200M，建议您选择情[专线接入的混合云](http://tcecqpoc.fsphere.cn/document/product/215/7543)部署方案。

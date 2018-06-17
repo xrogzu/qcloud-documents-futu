@@ -125,7 +125,7 @@ Page({
 
 ### step1: 开通相关云服务
 
-小程序音视频依赖云平台提供的直播（[LVB](http://console.tce.fsphere.cn/live)）和云通讯（[IM](http://console.tce.fsphere.cn/avc)）两项基础服务，您可以点击链接免费开通，其中云通讯服务开通即可使用，直播服务由于涉黄涉政风险较大，需要云平台人工审核开通。
+小程序音视频依赖云平台提供的直播（[LVB](http://console.tcecqpoc.fsphere.cn/live)）和云通讯（[IM](http://console.tcecqpoc.fsphere.cn/avc)）两项基础服务，您可以点击链接免费开通，其中云通讯服务开通即可使用，直播服务由于涉黄涉政风险较大，需要云平台人工审核开通。
 
 ### step2: 下载自定义组件源码
 
@@ -353,9 +353,9 @@ liveroom.respondJoinReq(true, aduience);
 | Android | [DOWNLOAD](http://tcecqpoc.fsphere.cn/document/product/454/7873#Android) | [API](http://tcecqpoc.fsphere.cn/document/product/454/14642) |
 
 ## 录制指引
-- step1： [开通](http://console.tce.fsphere.cn/video) 云平台点播服务。
+- step1： [开通](http://console.tcecqpoc.fsphere.cn/video) 云平台点播服务。
 
-- step2：进入[直播控制台](http://console.tce.fsphere.cn/live)（小程序音视频流媒体是基于直播服务构建的），在【接入管理>>接入配置>>直播录制】中，开启录制功能。（注意：这里说的录制费用是按并发收费的，不是每一路都收费）
+- step2：进入[直播控制台](http://console.tcecqpoc.fsphere.cn/live)（小程序音视频流媒体是基于直播服务构建的），在【接入管理>>接入配置>>直播录制】中，开启录制功能。（注意：这里说的录制费用是按并发收费的，不是每一路都收费）
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/6dfeba07c25151be7025dab0245398ff.jpg)
 
-- step3：在点播的[视频管理](http://console.tce.fsphere.cn/video/videolist)界面中，您可以看到这些录制的文件，您也可以通过点播服务的 REST API 获取到这些文件。
+- step3：在点播的[视频管理](http://console.tcecqpoc.fsphere.cn/video/videolist)界面中，您可以看到这些录制的文件，您也可以通过点播服务的 REST API 获取到这些文件。

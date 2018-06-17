@@ -16,4 +16,4 @@
 - 插件安装完毕后，推流到云平台默认会开启 QUIC 加速，如果是推流到其它云服务器，则继续使用标准 RTMP 协议进行推流。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/221ef0155c98b1ac9f9a27a59aa75e65.png)
 
-- 可以 [开通](http://console.tce.fsphere.cn/live) 云平台直播服务后，通过 [直播控制台>>直播码接入>>推流生成器](http://console.tce.fsphere.cn/live/livecodemanage) 获取云平台推流地址。
+- 可以 [开通](http://console.tcecqpoc.fsphere.cn/live) 云平台直播服务后，通过 [直播控制台>>直播码接入>>推流生成器](http://console.tcecqpoc.fsphere.cn/live/livecodemanage) 获取云平台推流地址。

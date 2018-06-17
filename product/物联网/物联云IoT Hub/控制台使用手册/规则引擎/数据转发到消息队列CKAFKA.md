@@ -5,7 +5,7 @@
 ![avatar](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/ae9179db06123982f14857891aeabb8a.png)
 
 ## 配置
-1. 登录 [规则引擎](http://console.tce.fsphere.cn/iotcloud/rules/rule) 控制台页面，点击所要配置的规则。
+1. 登录 [规则引擎](http://console.tcecqpoc.fsphere.cn/iotcloud/rules/rule) 控制台页面，点击所要配置的规则。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/a9c2bae6c4ab034a85e0fc516fdbac1a.png)
 2. 在规则详情页面，单击【添加行为】按钮。在弹出的“新增行为”窗口，选择行为“数据转发到消息队列（CKAFKA）”；依次选择 CKAFKA 实例和 Topic，点击【创建】即可。
 ![avatar](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/4fceb2948a725d5745c05345e7da240d.png) 
