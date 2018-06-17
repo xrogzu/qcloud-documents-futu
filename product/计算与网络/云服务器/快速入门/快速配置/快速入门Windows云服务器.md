@@ -3,8 +3,7 @@
 
 <div id="page1"></div>
 ## 步骤一：准备与选型
-### 注册云平台账号
-新用户需在云平台官网进行[【注册】](https://tce.fsphere.cn/register?s_url=https%3A%2F%2Ftce.fsphere.cn%2Fdocument%2Fproduct%2F213)，注册指引可参考 [如何注册云平台](/doc/product/378/9603) 。
+
 
 ### 确定云服务器所在地域及可用区
 地域选择原则：

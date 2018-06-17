@@ -5,7 +5,7 @@
 如果您想让用户拥有创建和管理 CVM 实例的权限，您可以对该用户使用名称为：QcloudCVMFullAccess 的策略。
 您可以进入 [策略管理界面](https://console.tce.fsphere.cn/cam/policy)，并在右边的全部服务中选择【云服务器】，就可以在图中位置找到该策略。
 
-![Alt text](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ac676b0e8f27c0759ad602c5fe383d3c/1500033749808.png)
+
 策略语法如下：
 
 ```
@@ -49,7 +49,6 @@
 >建议：请配置 CVM 的只读策略。</font>
 
 您可以进入 [策略管理界面](https://console.tce.fsphere.cn/cam/policy)，并在右边的全部服务中选择【云服务器】，就可以在图中位置找到该策略。
-![Alt text](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/c3a3537c24dde34054a590c3fe7eccc8/1500033727016.png)
 
 策略语法如下：
 
@@ -73,7 +72,7 @@
 ### CVM 相关资源的只读策略
 如果您想要让用户只拥有查询 CVM 实例及相关资源（VPC 、CLB）的权限，但不允许该用户拥有创建、删除、开关机等操作的权限，您可以对该用户使用名称为：QcloudCVMReadOnlyAccess 的策略。
 您可以进入 [策略管理界面](https://console.tce.fsphere.cn/cam/policy),并在右边的全部服务中选择【云服务器】，就可以在图中位置找到该策略。
-![Alt text](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/17c3e2be396ea544b7d4ca425e5049c5/1500033915369.png)
+
 策略语法如下：
 ```
 {
@@ -121,12 +120,12 @@
 
 如果您想要让用户能够查看 CVM 控制台中的云硬盘信息，创建云硬盘，使用云硬盘，可将以下操作添加到您策略中，然后将该策略关联到该用户。
 
-- **CreateCbsStorages ：**创建云硬盘。
-- **AttachCbsStorages ：**挂载指定的弹性云盘到指定的云主机上。
-- **DetachCbsStorages ：**解挂指定的弹性云盘。
-- **ModifyCbsStorageAttributes ：**修改指定云硬盘的名称。
-- **DescribeCbsStorages ：**查询云硬盘的详细信息性。
-- **DescribeInstancesCbsNum ：**查询云主机已挂载的弹性云盘数量和可挂载的弹性云盘的总数。
+- **CreateCbsStorages ：** 创建云硬盘。
+- **AttachCbsStorages ：** 挂载指定的弹性云盘到指定的云主机上。
+- **DetachCbsStorages ：** 解挂指定的弹性云盘。
+- **ModifyCbsStorageAttributes ：** 修改指定云硬盘的名称。
+- **DescribeCbsStorages ：** 查询云硬盘的详细信息性。
+- **DescribeInstancesCbsNum ：** 查询云主机已挂载的弹性云盘数量和可挂载的弹性云盘的总数。
 - **ResizeCbsStorage ：**扩容指定的弹性云盘。
 
 以下策略不允许用户修改云硬盘属性。

@@ -38,4 +38,3 @@ echo "1" >/proc/sys/net/ipv4/icmp_echo_ignore_all
 
 若上述步骤无法解决问题，请参考：
 - 域名 ping 不通，请检查您网站配置。
-- 公网 IP ping 不通，请附上实例的相关信息和双向 MTR 数据（从本地到云服务器以及云服务器到本地），[提交工单](https://console.tce.fsphere.cn/workorder/category) 联系工程师协助定位。MTR 的使用方法请参考 [服务器网络延迟和丢包处理](https://tce.fsphere.cn/document/product/213/14638)。
