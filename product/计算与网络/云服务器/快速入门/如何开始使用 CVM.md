@@ -9,7 +9,6 @@
 ## 进阶篇
 进阶篇助您在购买时，帮助您更好的选择适合您的云服务器：
 
-- 当您不知道如何挑选配置时，我们提供 [配置推荐](https://tce.fsphere.cn/act/recommended)，80%的云上用户首选配置，买服务器，听大家的。
 - 当您面对丰富多样的机型不知如何选择时，[云服务器机型选择](/doc/product/213/7153) 助您了解不同机型的适用场景和性能，帮助您选择适合您业务场景的机型。
 - 当您不清楚在何地配置时，[地域与可用区](/doc/product/213/6091) 助您了解地域与可用区的最优选择方案。
 
@@ -27,10 +26,6 @@
 5. 安装部署应用环境
 
 详细的操作指引请参考 [快速入门 Windows 云服务器](/doc/product/213/2764) 、[快速入门 Linux 云服务器](/doc/product/213/2936) 。
-
-### CVM 实验室
-1. [体验 CentOS 系统 CVM ](https://tce.fsphere.cn/developer/labs/lab/10078?utm_source=portal&utm_medium=docs&utm_campaign=cvm&utm_term=3687&utm_term=10078)
-2. [体验 Ubuntu 系统 CVM ](https://tce.fsphere.cn/developer/labs/lab/10081?utm_source=portal&utm_medium=docs&utm_campaign=cvm&utm_term=3687&utm_term=10081)
 
 
 ## 高阶篇

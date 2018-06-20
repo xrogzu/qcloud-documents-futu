@@ -5,7 +5,7 @@
 ## 前提条件
 
  1. 开始自定义配置前，您需完成[【快速入门 Windows 云服务器】](/doc/product/213/2764#.E6.AD.A5.E9.AA.A4.E4.B8.80.EF.BC.9A.E5.87.86.E5.A4.87.E4.B8.8E.E9.80.89.E5.9E.8B)文档中的步骤一。
- 2. 登录云平台官网，选择【云产品】-【计算与网络】-【云服务器】，单击【立即选购】按钮，进入 [云服务器购买页面](https://buy.tcecqpoc.fsphere.cn/buy/cvm) 。
+ 2. 登录云平台官网，选择【云产品】-【计算与网络】-【云服务器】，单击【立即选购】按钮，进入 [云服务器购买页面](http://buy.tcecqpoc.fsphere.cn/?tab=custom&devPayMode=hourly&regionId=50000019&zoneId=50190001&instanceType=S2.SMALL1&step=1&bandwidthType=TRAFFIC_POSTPAID_BY_HOUR) 。
  3. 单击【自定义配置】，进入自定义配置界面。
 
 <div id="page2"></div>
