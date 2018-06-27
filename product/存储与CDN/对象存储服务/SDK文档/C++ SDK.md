@@ -2,13 +2,13 @@
 
 ### SDK 获取
 
-对象存储服务的C++ SDK的下载地址： [https://github.com/tencentyun/cos-cpp-sdk/tree/3.3.0](https://github.com/tencentyun/cos-cpp-sdk/tree/3.3.0)
+对象存储服务的C++ SDK的下载地址： [http://github.com/tencentyun/cos-cpp-sdk/tree/3.3.0](http://github.com/tencentyun/cos-cpp-sdk/tree/3.3.0)
 
 ### 开发环境
 
 1. 安装openssl的库和头文件 [http://www.openssl.org/source/](http://www.openssl.org/source/) 
 2. 安装curl的库和头文件 [http://curl.haxx.se/download/curl-7.43.0.tar.gz](http://curl.haxx.se/download/curl-7.43.0.tar.gz) 
-3. 安装jsoncpp的库和头文件 [https://github.com/open-source-parsers/jsoncpp](https://github.com/open-source-parsers/jsoncpp) 
+3. 安装jsoncpp的库和头文件 [http://github.com/open-source-parsers/jsoncpp](http://github.com/open-source-parsers/jsoncpp) 
 4. 安装cmake工具 [http://www.cmake.org/download/](http://www.cmake.org/download/) 
 5. 从控制台获取APP ID、SecretID、SecretKey
 
@@ -49,7 +49,7 @@ g++ -o sample sample.cpp -I ./include/ -L. -L../cos-cpp-sdk/lib/ -lcosdk -lcurl 
 
 若需要 HTTPS 支持，修改 cos_api_defines 中kApiCosapiEndpoint  的值为：
 
-[https://web.file.myqcloud.com/files/v1/](https://web.file.myqcloud.com/files/v1/)
+[http://web.file.myqcloud.com/files/v1/](http://web.file.myqcloud.com/files/v1/)
 
 ## 生成签名
 

@@ -6,7 +6,7 @@ SubnetBindBmNatGateway 接口用于将全部IP类型的子网绑定到NAT网关
 ## 请求
 ### 请求示例
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?Action=SubnetBindBmNatGateway
+GET http://bmvpc.api.qcloud.com/v2/index.php?Action=SubnetBindBmNatGateway
     &<公共请求参数>
     &natId=<NAT网关ID>
     &unVpcId=<vpc网络ID>
@@ -55,7 +55,7 @@ GET https://bmvpc.api.qcloud.com/v2/index.php?Action=SubnetBindBmNatGateway
 ## 实际案例
 ### 输入
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?
+GET http://bmvpc.api.qcloud.com/v2/index.php?
 	Action=SubnetBindBmNatGateway
 	&SecretId=AKID1ub7R1JoyBF7nHqjk7IH8nGWaR6Yezwd
 	&Nonce=4557

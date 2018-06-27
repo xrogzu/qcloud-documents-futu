@@ -35,7 +35,7 @@
 输入
 
 ```
-  https://domain/v2/index.php?Action=GetAutoDelStrategy
+  http://domain/v2/index.php?Action=GetAutoDelStrategy
   &reponame=test/kube_test 
   &其它公共参数
 ```

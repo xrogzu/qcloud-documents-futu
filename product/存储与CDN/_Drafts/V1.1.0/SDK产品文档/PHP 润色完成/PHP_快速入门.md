@@ -1,8 +1,8 @@
 ## 开发准备
 ### SDK 获取
 #### 1. github
-对象存储服务的 XML PHP SDK 资源下载地址：[XML PHP SDK](https://github.com/tencentyun/cos-php-sdk-v5 ) 。
-演示示例 Demo 下载地址：[XML PHP SDK Demo](https://github.com/tencentyun/cos-php-sdk-v5/blob/master/sample.php) 。
+对象存储服务的 XML PHP SDK 资源下载地址：[XML PHP SDK](http://github.com/tencentyun/cos-php-sdk-v5 ) 。
+演示示例 Demo 下载地址：[XML PHP SDK Demo](http://github.com/tencentyun/cos-php-sdk-v5/blob/master/sample.php) 。
 
 #### 2. composer
 在项目目录下，新建一个 composer.json 的文件，内容如下：
@@ -19,7 +19,7 @@ composer install
 ```
 ## 快速入门 
 
-可参照 Demo 程序，详见 [XML PHP SDK Demo](https://github.com/tencentyun/cos-php-sdk-v5/blob/master/sample.php)。
+可参照 Demo 程序，详见 [XML PHP SDK Demo](http://github.com/tencentyun/cos-php-sdk-v5/blob/master/sample.php)。
 
 ### 配置文件
 ```php

@@ -40,11 +40,11 @@ PC直播流程非常简单，主要步骤：
 
 ### 1.4 安装推流软件
 - **OBS安装**
-去[OBS官网](https://obsproject.com/download)，下载相应的安装包，按照默认设置进行安装。OBS支持 Windows/Mac/Linux等系统。确认是Open Broadcaster Software。OBS也提供OBS Studio，不是本文介绍的软件。
+去[OBS官网](http://obsproject.com/download)，下载相应的安装包，按照默认设置进行安装。OBS支持 Windows/Mac/Linux等系统。确认是Open Broadcaster Software。OBS也提供OBS Studio，不是本文介绍的软件。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/dcbb929e364b1d8e80c04e326a756a26/image.png)
 
 - **XSplit安装**
-去[XSplit官网](https://www.xsplit.com/zh_cn/)，下载安装包，安装默认设置进行安装。
+去[XSplit官网](http://www.xsplit.com/zh_cn/)，下载安装包，安装默认设置进行安装。
 XSplit是收费的，如果银子不够的话，推荐用OBS（**Free**）。XSplit游戏直播有单独的安装包，非游戏直播推荐使用 BroadCaster。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/18c47cb7646e189acc168e6a5e8e4714/image.png)
 

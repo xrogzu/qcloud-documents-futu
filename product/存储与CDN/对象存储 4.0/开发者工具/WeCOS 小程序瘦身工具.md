@@ -10,8 +10,8 @@
 ## 准备工作
 1. 进入 [云平台官网](http://tcecqpoc.fsphere.cn/)，注册云平台账户，指引参考 [注册云平台](/doc/product/378/9603)。
 - 登录 [对象存储控制台](http://console.tcecqpoc.fsphere.cn/cos4)，开通对象存储服务，创建存储桶，指引参考 [创建存储桶](/doc/product/436/6232)
-- 通过 [GitHub 地址](https://github.com/tencentyun/wecos) 下载 WeCOS 工具。
-- 在 [Node.js 官网](https://nodejs.org/)下载环境并安装。
+- 通过 [GitHub 地址](http://github.com/tencentyun/wecos) 下载 WeCOS 工具。
+- 在 [Node.js 官网](http://nodejs.org/)下载环境并安装。
 
 ## 安装
 使用以下命令安装 WeCOS 工具：
@@ -78,7 +78,7 @@ wecos
 想为代码中的图片链接替换域名时，可通过配置 replaceHost targetHost 来实现。
 ```
   "replaceHost": "http://wx-12345678.myqcloud.com",
-  "targetHost": "https://example.com"
+  "targetHost": "http://example.com"
 ```
 #### 开启图片压缩
 图片上传到 COS 之后虽然大大减轻了程序包的大小，但如果图片自身体积过大导致访问延迟，也会影响到用户体验。
@@ -113,5 +113,5 @@ wecos({
 });
 ```
 ## 相关资源
-- [WeCOS-UGC-DEMO](https://github.com/tencentyun/wecos-ugc-upload-demo) —— 小程序用户资源上传 COS DEMO
-- [COS-AUTH](https://github.com/tencentyun/cos-auth) —— COS 鉴权服务器 DEMO
+- [WeCOS-UGC-DEMO](http://github.com/tencentyun/wecos-ugc-upload-demo) —— 小程序用户资源上传 COS DEMO
+- [COS-AUTH](http://github.com/tencentyun/cos-auth) —— COS 鉴权服务器 DEMO

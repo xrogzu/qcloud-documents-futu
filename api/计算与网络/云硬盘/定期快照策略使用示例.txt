@@ -17,7 +17,7 @@
 结合[公共请求参数](/document/product/240/8320)和接口请求参数，最终得到的请求形式如下：
 
 ```txt
-https://snapshot.api.qcloud.com/v2/index.php?
+http://snapshot.api.qcloud.com/v2/index.php?
 Action=CreateAutoSnapshotPolicy
 &policy.0.dayOfWeek.0=0
 &policy.0.dayOfWeek.1=1
@@ -63,7 +63,7 @@ Action=CreateAutoSnapshotPolicy
 结合[公共请求参数](/document/product/240/8320)和接口请求参数，最终得到的请求形式如下：
 
 ```txt
-https://snapshot.api.qcloud.com/v2/index.php?
+http://snapshot.api.qcloud.com/v2/index.php?
 &Action=UnbindAutoSnapshotPolicy
 &aspId=asp-7b1rkgie
 &storageIdList.0=disk-0vellibr

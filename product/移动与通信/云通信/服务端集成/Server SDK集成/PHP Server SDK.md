@@ -104,5 +104,5 @@ $ret = $api->comm_rest("group_open_http_svc", "group_get_group_member_info", $re
 
 您可通过如下两种方式下载： 
 1. [直接点击下载](http://share.weiyun.com/7528e49c4602425d88ce3b91ccde3b9b)； 
-2. 到[github](https://github.com/tencentyun/imsdk_restapi-php-sdk)下载。
+2. 到[github](http://github.com/tencentyun/imsdk_restapi-php-sdk)下载。
 

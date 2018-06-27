@@ -38,7 +38,7 @@ sdk/json2.js
 
 ```
 <!--TLS web sdk(只用于托管模式，独立模式不用引入)-->
-<script type="text/javascript" src="https://tls.qcloud.com/libs/api.min.js"></script>
+<script type="text/javascript" src="http://tls.qcloud.com/libs/api.min.js"></script>
 ```
 
 ### 1.3 函数调用顺序

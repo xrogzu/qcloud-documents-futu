@@ -8,7 +8,7 @@ ModifyBmSslVpnGwUser 用于修改黑石sslvpn网关用户密码。
 
 语法示例：
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=ModifyBmSslVpnGwUser
+GET http://bmvpc.api.qcloud.com/v2/index.php/?Action=ModifyBmSslVpnGwUser
     &<公共请求参数>
 	&vpnGwId=<sslvpn网关唯一ID>
     &userName=<sslvpn网关用户名>
@@ -54,7 +54,7 @@ GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=ModifyBmSslVpnGwUser
 ## 实际案例
 ### 请求
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?
+GET http://bmvpc.api.qcloud.com/v2/index.php?
 	Action=ModifyBmSslVpnGwUser
 	&SecretId=AKIDlfdHxN0ntSVt4KPH0xXWnGl21UUFNoO5
 	&Nonce=11362

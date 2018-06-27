@@ -61,7 +61,7 @@
 
 #### 请求参数
 <pre>
-  https://cvm.api.tce.fsphere.cn/v2/index.php?Action=AssociateAddress
+  http://cvm.api.tce.fsphere.cn/v2/index.php?Action=AssociateAddress
   &Version=2017-03-12
   &AddressId=eip-ek0cdz1g
   &InstanceId=ins-1bmpb9tu
@@ -85,7 +85,7 @@
 
 #### 请求参数
 <pre>
-  https://cvm.api.tce.fsphere.cn/v2/index.php?Action=AssociateAddress
+  http://cvm.api.tce.fsphere.cn/v2/index.php?Action=AssociateAddress
   &Version=2017-03-12
   &AddressId=eip-ek0cdz1g
   &NetworkInterfaceId=eni-8x55qvrh

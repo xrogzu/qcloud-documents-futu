@@ -28,7 +28,7 @@
 1. 登录到与此数据库实例属于同一个可用区的网络可达的CVM主机，关于登录CVM主机请查看<a href="http://tcecqpoc.fsphere.cn/document/product/213/2764" target="_blank">WIndows CVM入门</a>或<a href="http://tcecqpoc.fsphere.cn/document/product/213/2936" target="_blank">Linux CVM入门</a>。网络可达是指此CVM主机与MariaDB数据库实例都处于基础网络之中，或者处于同一个VPC中。
 2. 请根据CVM的操作系统选择推荐的连接方式。
  **-从Windows系统登录**
-1). 下载并安装MariadDB的客户端。此步骤中我们推荐您下载sqlyog，官网地址如下：https://www.webyog.com/ 。
+1). 下载并安装MariadDB的客户端。此步骤中我们推荐您下载sqlyog，官网地址如下：http://www.webyog.com/ 。
 2). 打开sqlyog，输入输入MariaDB数据库实例的内网IP和端口号，数据库帐号以及密码。
  - 我的SQL主机地址：此例中输入10.30.0.7。
  - 用户名：用前文中创建的用户名test123。
@@ -49,7 +49,7 @@
 请将hostname替换为目标MariaDB数据库实例的内网IP地址，将username替换为之前创建的用户test123，并在提示**Enter password：**后输入账户test123对应的密码。
 本例中hostname为10.30.0.7。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/f8dccff34309cfd332f600f1ceb35ff1/image.png)
-3). 在MySQL>提示符下可以发送SQL语句到要执行的MariaDB服务器，具体命令行请参考此网站：<https://dev.mysql.com/doc/refman/5.7/en/mysql-commands.html>  
+3). 在MySQL>提示符下可以发送SQL语句到要执行的MariaDB服务器，具体命令行请参考此网站：<http://dev.mysql.com/doc/refman/5.7/en/mysql-commands.html>  
 下图中以`show databases；`为例。
 ![](https:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/76b4346a84f7388ae263dc6c09220fc0/image.png)
 
@@ -67,7 +67,7 @@
 2. 登录到数据库
 
 **从Windows系统登录**  
-1). 下载一个MariaDB客户端并安装。此步骤中我们推荐您下载sqlyog，官网地址如下：	https://www.webyog.com/ 。  
+1). 下载一个MariaDB客户端并安装。此步骤中我们推荐您下载sqlyog，官网地址如下：	http://www.webyog.com/ 。  
 2). 打开sqlyog，输入输入MariaDB数据库实例的外网域名和端口号，数据库帐号以及密码。
  
  - 我的SQL主机地址：此例中输入tdsql-6gy3mopk.gz.cdb.myqcloud.com。
@@ -91,7 +91,7 @@ mysql -h hostname -P port -u username -p
 本例中hostname为tdsql-6gy3mopk.gz.cdb.myqcloud.com，port为114。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/230ca6d65526050e062c3f59186d4e6c/image.png)
 3). 在MySQL>提示符下可以发送SQL语句到要执行的MariaDB服务器，具体命令行请参考此网站：
-<https://dev.mysql.com/doc/refman/5.7/en/mysql-commands.html>  
+<http://dev.mysql.com/doc/refman/5.7/en/mysql-commands.html>  
 下图中以 `show databases；`为例。
 ![](https:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/76b4346a84f7388ae263dc6c09220fc0/image.png)
 

@@ -6,7 +6,7 @@
 #### github
 ```php
 #在github中获取代码
-https://github.com/tencentyun/cos-php-sdk-v5
+http://github.com/tencentyun/cos-php-sdk-v5
 ```
 #### composer
 ```php
@@ -19,7 +19,7 @@ https://github.com/tencentyun/cos-php-sdk-v5
 ```
 ## 快速入门 
 ```
-可参照Demo程序，详见https://github.com/tencentyun/cos-php-sdk-v5/blob/master/sample.php
+可参照Demo程序，详见http://github.com/tencentyun/cos-php-sdk-v5/blob/master/sample.php
 ```
 ### 配置文件
 ```php

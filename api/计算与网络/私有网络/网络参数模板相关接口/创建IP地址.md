@@ -56,7 +56,7 @@
 ## 5. 示例
 输入
 <pre>
-https://vpc.api.qcloud.com/v2/index.php?Action=CreateAddress
+http://vpc.api.qcloud.com/v2/index.php?Action=CreateAddress
 &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
 &addressName=CreateAddressTest&address.0=10.0.0.6&address.1=10.0.0.2/16&address.2=10.0.0.1-10.0.0.20
 </pre>

@@ -11,7 +11,7 @@
 
 `http://recognition.image.myqcloud.com/ocr/bizlicense`
 
-`https://recognition.image.myqcloud.com/ocr/bizlicense`
+`http://recognition.image.myqcloud.com/ocr/bizlicense`
 
 ## 请求方式
 

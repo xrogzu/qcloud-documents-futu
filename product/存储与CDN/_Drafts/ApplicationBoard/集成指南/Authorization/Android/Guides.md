@@ -109,7 +109,7 @@ weChatAuthProvider.signIn(activity, new QCloudResultListener<OAuth2Credentials>(
 ```
 
 在用户登录成功之后，通过authorization code 和 secret key 可以获取真正的 access token。出于安全的考虑，secret key不建议明文存放在客户端，所以建议把这个请求的过程放到后端服务器中进行。详细的接口可以参考：
-[微信接口说明](https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419317853&token=&lang=zh_CN)
+[微信接口说明](http://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419317853&token=&lang=zh_CN)
 
 ### 获取用户信息
 

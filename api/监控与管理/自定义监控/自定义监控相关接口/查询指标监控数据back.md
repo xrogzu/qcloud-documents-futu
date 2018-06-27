@@ -37,7 +37,7 @@ dimensions.n.value和dimensions.n.name的值对应，dimensions.n.value可由查
 ## 4. 示例
 输入
 <pre>
-https://monitor.api.qcloud.com/v2/index.php?Action=GetMonitorData
+http://monitor.api.qcloud.com/v2/index.php?Action=GetMonitorData
 &namespace=name1
 &metricName=metric1
 &dimensions.0.name=d1

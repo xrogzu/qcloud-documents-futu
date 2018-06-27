@@ -22,7 +22,7 @@
 <tr>
 <td> API入口
 </td><td> API调用的 WebService 入口
-</td><td> https://monitor.api.qcloud.com/v2/index.php<br> 
+</td><td> http://monitor.api.qcloud.com/v2/index.php<br> 
 </td></tr>
 <tr>
 <td> 公共参数

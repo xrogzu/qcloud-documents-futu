@@ -5,7 +5,7 @@
 用户发送国际短信专用接口。
 
 ### URL 示例
-`https://yun.tim.qq.com/v5/tlssmssvr/sendisms?sdkappid=xxxxx&random=xxxx`
+`http://yun.tim.qq.com/v5/tlssmssvr/sendisms?sdkappid=xxxxx&random=xxxx`
 
 **注**：sdkappid 请填写您在云平台上申请到的，random 请填成随机数。
 
@@ -35,7 +35,7 @@
 | params | 是   | array  | 模板参数，若模板没有参数，请提供为空数组                              |
 | sig    | 是   | string | App 凭证，具体计算方式见下注                                           |
 | sign   | 否   | string | 短信签名，如果使用默认签名，该字段可缺省                              |
-| tel    | 是   | string | 国际电话号码，格式依据 [e.164](https://en.wikipedia.org/wiki/E.164) 标准为: `+[国家码][手机号]` ，示例如：`+8613711112222`， 其中前面有一个 `+` 符号 ，`86` 为国家码，`13711112222` 为手机号。  |
+| tel    | 是   | string | 国际电话号码，格式依据 [e.164](http://en.wikipedia.org/wiki/E.164) 标准为: `+[国家码][手机号]` ，示例如：`+8613711112222`， 其中前面有一个 `+` 符号 ，`86` 为国家码，`13711112222` 为手机号。  |
 | time   | 是   | number | 请求发起时间，unix 时间戳（单位：秒），如果和系统时间相差超过 10 分钟则会返回失败    |
 | tpl_id | 是   | number | 模板 ID，在控制台审核通过的模板 ID ， |
 

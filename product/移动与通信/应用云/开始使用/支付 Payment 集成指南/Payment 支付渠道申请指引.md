@@ -7,11 +7,11 @@ Payment 支持微信支付和手 Q 支付的 [APP 支付](http://kf.qq.com/faq/1
 
 ## 配置微信支付
 
-您需要先在 [微信开放平台](https://open.weixin.qq.com) 和 [微信商户平台](https://pay.weixin.qq.com/index.php/core/home/login) 上申请好相关信息，然后才能给应用配置微信支付功能。下面将详细说明如何在 MobileLine 平台上配置 Payment 的微信支付渠道。
+您需要先在 [微信开放平台](http://open.weixin.qq.com) 和 [微信商户平台](http://pay.weixin.qq.com/index.php/core/home/login) 上申请好相关信息，然后才能给应用配置微信支付功能。下面将详细说明如何在 MobileLine 平台上配置 Payment 的微信支付渠道。
 
 ### 第一步：注册微信开放平台账号并进行认证
 
-登录 [微信开放平台](https://open.weixin.qq.com)，单击首页右上角的【注册】按钮，注册成为微信开放平台开发者。
+登录 [微信开放平台](http://open.weixin.qq.com)，单击首页右上角的【注册】按钮，注册成为微信开放平台开发者。
 
 ![](http://tac-android-libs-1253960454.cosgz.myqcloud.com/resources/payment_wechat_login.png)
 
@@ -35,9 +35,9 @@ Payment 支持微信支付和手 Q 支付的 [APP 支付](http://kf.qq.com/faq/1
 
 ### 第五步：开户成功，登录商户平台进行验证
 
-资料审核通过后，请登录联系人邮箱查收商户号和密码，并登录 [商户平台](https://pay.weixin.qq.com/index.php/core/home/login) 填写财付通备付金打的小额资金数额，完成账户验证（[查看验证方法](http://kf.qq.com/faq/161220mQjmYj161220n6jYN7.html)）。
+资料审核通过后，请登录联系人邮箱查收商户号和密码，并登录 [商户平台](http://pay.weixin.qq.com/index.php/core/home/login) 填写财付通备付金打的小额资金数额，完成账户验证（[查看验证方法](http://kf.qq.com/faq/161220mQjmYj161220n6jYN7.html)）。
 ### 第六步：在线签署协议
-本协议为线上电子协议（[点此提前预览协议内容](https://pay.weixin.qq.com/index.php/public/apply_sign/protocol)），签署后方可进行交易及资金结算，签署完立即生效。
+本协议为线上电子协议（[点此提前预览协议内容](http://pay.weixin.qq.com/index.php/public/apply_sign/protocol)），签署后方可进行交易及资金结算，签署完立即生效。
 
 ### 第七步：配置渠道信息
 
@@ -64,11 +64,11 @@ Payment 支持微信支付和手 Q 支付的 [APP 支付](http://kf.qq.com/faq/1
 
 ## 配置手 Q 支付
 
-您需要先在 [QQ 钱包商户平台](https://qpay.qq.com) 和 [腾讯开放平台](http://open.qq.com/) 上申请好相关信息，然后才能给应用配置 QQ 支付功能。下面将详细说明如何在 MobileLine 平台上配置 Payment 的手 Q 支付。
+您需要先在 [QQ 钱包商户平台](http://qpay.qq.com) 和 [腾讯开放平台](http://open.qq.com/) 上申请好相关信息，然后才能给应用配置 QQ 支付功能。下面将详细说明如何在 MobileLine 平台上配置 Payment 的手 Q 支付。
 
 ### 第一步：在 QQ 钱包上填写资料
 
-登录 [QQ 钱包商户平台](https://qpay.qq.com)，点击【立即接入】，然后按照指引填写相关资料，提交的资料将会在 3 ~ 5 个工作日内审核完成。资料提交后，QQ 钱包将会向商户银行账户汇一笔金额随机的验证款，以确认账户真实性。
+登录 [QQ 钱包商户平台](http://qpay.qq.com)，点击【立即接入】，然后按照指引填写相关资料，提交的资料将会在 3 ~ 5 个工作日内审核完成。资料提交后，QQ 钱包将会向商户银行账户汇一笔金额随机的验证款，以确认账户真实性。
 
 ![](http://tac-android-libs-1253960454.cosgz.myqcloud.com/resources/payment_qq_wallet_login.png?raw=true)
 
@@ -112,7 +112,7 @@ Payment 支持微信支付和手 Q 支付的 [APP 支付](http://kf.qq.com/faq/1
 ![](http://tac-android-libs-1253960454.cosgz.myqcloud.com/resources/payment_qq_new_app_2.png?raw=true)
 ### 第八步：在 QQ 钱包商户平台上添加应用
 
-登录 [QQ 钱包商户平台](https://qpay.qq.com)，单击【账户管理】>【开发配置】，然后单击【上传材料】按钮将之前在腾讯开放平台上创建的 App 添加到商户平台上，添加成功后，会在两个工作日内生效。
+登录 [QQ 钱包商户平台](http://qpay.qq.com)，单击【账户管理】>【开发配置】，然后单击【上传材料】按钮将之前在腾讯开放平台上创建的 App 添加到商户平台上，添加成功后，会在两个工作日内生效。
 
 ![](http://tac-android-libs-1253960454.cosgz.myqcloud.com/resources/payment_qq_add_app.png)
 

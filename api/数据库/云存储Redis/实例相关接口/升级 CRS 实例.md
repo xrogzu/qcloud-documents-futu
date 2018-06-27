@@ -43,7 +43,7 @@
 ## 5. 示例
 输入
 <pre>
-https://redis.api.qcloud.com/v2/index.php?Action=UpgradeRedis
+http://redis.api.qcloud.com/v2/index.php?Action=UpgradeRedis
 &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
 &redisId=crs-ifmymj41
 &memSize=2048

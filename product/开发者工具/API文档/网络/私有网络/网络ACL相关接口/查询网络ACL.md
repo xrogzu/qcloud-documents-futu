@@ -81,7 +81,7 @@
 输入
 ```
 
-  https://vpc.api.qcloud.com/v2/index.php?ActionDescribeAcl
+  http://vpc.api.qcloud.com/v2/index.php?ActionDescribeAcl
   &vpcIdvpc-7izaqk5h
   &COMMON_PARAMS
 

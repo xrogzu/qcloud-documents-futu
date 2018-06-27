@@ -7,7 +7,7 @@ EipAclBmApply 接口用于创建黑石弹性公网EIPACL。创建成功后，便
 ## 请求
 ### 请求示例
 ```
-GET https://bmeip.api.qcloud.com/v2/index.php?
+GET http://bmeip.api.qcloud.com/v2/index.php?
 	Action=EipAclBmApply
 	&<公共请求参数>
 	&aclName=<ACL名称>
@@ -73,7 +73,7 @@ data结构
 ### 输入
 
 ```
-GET https://bmeip.api.qcloud.com/v2/index.php?
+GET http://bmeip.api.qcloud.com/v2/index.php?
 	Action=EipBmApply
 	&SecretId=AKIDlfdHxN0ntSVt4KPH0xXWnGl21UUFNoO5
 	&Nonce=13716

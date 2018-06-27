@@ -2,7 +2,7 @@
 
 ### 相关资源
 
-[cos java sdk v4 github项目](https://github.com/tencentyun/cos-java-sdk-v4)
+[cos java sdk v4 github项目](http://github.com/tencentyun/cos-java-sdk-v4)
 
 [Java SDK本地下载](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/2549fea204187b28d05fb1ac470f49d4/cos-java-sdk-v4-master.zip)
 
@@ -27,7 +27,7 @@ pom.xml 添加依赖
 
 - 源码安装
 
-从[cos java sdk v4 github](https://github.com/tencentyun/cos-java-sdk-v4)下载源码
+从[cos java sdk v4 github](http://github.com/tencentyun/cos-java-sdk-v4)下载源码
 
 ### 卸载SDK
 
@@ -35,7 +35,7 @@ pom.xml 添加依赖
 
 ### 历史版本
 
-4.2版本是针对COS 4.X系统，接口与3.x的基本一致, 如果需要使用历史版本, 请参见[cos java sdk v3 github](https://github.com/tencentyun/cos-java-sdk/tree/master)
+4.2版本是针对COS 4.X系统，接口与3.x的基本一致, 如果需要使用历史版本, 请参见[cos java sdk v3 github](http://github.com/tencentyun/cos-java-sdk/tree/master)
 
 ## 生成客户端对象
 

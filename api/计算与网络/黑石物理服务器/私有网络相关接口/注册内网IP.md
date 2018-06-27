@@ -8,7 +8,7 @@ RegisterBatchIp 用于指定子网IP进行IP注册。
 
 ### 请求示例
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?Action=RegisterBatchIp
+GET http://bmvpc.api.qcloud.com/v2/index.php?Action=RegisterBatchIp
     &<公共请求参数>
     &unVpcId=<VPC网络唯一ID>
 	&unSubnetId=<子网唯一ID>
@@ -70,7 +70,7 @@ GET https://bmvpc.api.qcloud.com/v2/index.php?Action=RegisterBatchIp
 ## 实际案例
 ### 输入
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?
+GET http://bmvpc.api.qcloud.com/v2/index.php?
 	Action=RegisterBatchIp
 	&SecretId=AKIDlfdHxN0ntSVt4KPH0xXWnGl21UUFNoO5
     &Nonce=6791
@@ -100,7 +100,7 @@ GET https://bmvpc.api.qcloud.com/v2/index.php?
 
 ### 输入
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?
+GET http://bmvpc.api.qcloud.com/v2/index.php?
 	Action=RegisterBatchIp
 	&SecretId=AKIDlfdHxN0ntSVt4KPH0xXWnGl21UUFNoO5
     &Nonce=6791

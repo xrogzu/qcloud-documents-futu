@@ -1,8 +1,8 @@
 ## 1 环境及依赖
 
-环境: 在云平台CVM上安装对应的python [[下载地址](https://www.python.org/downloads/)]
+环境: 在云平台CVM上安装对应的python [[下载地址](http://www.python.org/downloads/)]
 
-依赖: 本例使用python-memcached 1.5.4版本, 在云平台CVM上安装此客户端 [[下载地址](https://pypi.python.org/pypi/python-memcached)]
+依赖: 本例使用python-memcached 1.5.4版本, 在云平台CVM上安装此客户端 [[下载地址](http://pypi.python.org/pypi/python-memcached)]
 
 ## 2 使用步骤
 

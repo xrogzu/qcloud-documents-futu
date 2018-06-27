@@ -30,7 +30,7 @@
  
 输入
 ```
-  https://domain/v2/index.php?Action=InquiryVpnPrice
+  http://domain/v2/index.php?Action=InquiryVpnPrice
   &<公共请求参数>
   &period=1
   &bandwidth=5

@@ -39,7 +39,7 @@ COS Migration是一个集成了有关COS数据迁移功能的一体化工具。�
 ## 使用方法
 ### 1. 获取工具
 
-下载链接：[cos Migration 工具](https://github.com/tencentyun/cos_migrate_tool_v5)
+下载链接：[cos Migration 工具](http://github.com/tencentyun/cos_migrate_tool_v5)
 
 ### 2. 解压缩工具包
  - Windows：
@@ -125,10 +125,10 @@ type表示迁移类型，用户根据迁移需求填写对应的标识。例如�
 
 | 名称 | 描述 |默认值|
 | ------| ------ |----- |
-| secretId| 用户的秘钥 secret_id(可在[https://console.qcloud.com/capi](https://console.qcloud.com/capi) 查看) |-|
-| secretKey| 用户的秘钥 secret_key(可在[https://console.qcloud.com/capi]( https://console.qcloud.com/capi) 查看)|-|
+| secretId| 用户的秘钥 secret_id(可在[http://console.qcloud.com/capi](http://console.qcloud.com/capi) 查看) |-|
+| secretKey| 用户的秘钥 secret_key(可在[http://console.qcloud.com/capi]( http://console.qcloud.com/capi) 查看)|-|
 | bucketName| 目的Bucket的名称, 合法命名规则为{name}-{appid}，即bucket名必须包含appid, 例如movie-1251000000|-|
-| region| 目的Bucket的region信息. COS地域的简称请参照[可用地域](https://www.qcloud.com/document/product/436/6224)|-|
+| region| 目的Bucket的region信息. COS地域的简称请参照[可用地域](http://www.qcloud.com/document/product/436/6224)|-|
 | storageClass|存储类型：Standard - 标准存储, Standard_IA - 低频存储 |Standard|
 | cosPath|要迁移到的cos路径, /表示迁移到bucket的根路径下, /aaa/bbb/表示要迁移到bucket的/aaa/bbb/下面, 如果/aaa/bbb/不存在,则会自动建立|/|
 | https| 是否使用HTTPS传输：on - 开启，off - 关闭(开启传输速度较慢，适用于对传输安全要求高的场景)|off|
@@ -257,10 +257,10 @@ type表示迁移类型，用户根据迁移需求填写对应的标识。例如�
 
 | 名称 | 描述 |
 | ------| ------ |
-|srcRegion|源bucket的region信息，请参照[可用地域](https://www.qcloud.com/document/product/436/6224)|
+|srcRegion|源bucket的region信息，请参照[可用地域](http://www.qcloud.com/document/product/436/6224)|
 |srcBucketName|源Bucket的名称, 合法命名规则为{name}-{appid}，即bucket名必须包含appid, 例如movie-1251000000|
-|srcSecretId|源bucket隶属的用户的秘钥 secret_id(可在[https://console.qcloud.com/capi](https://console.qcloud.com/capi) 查看)。如果是同一用户的数据，则srcSecretId和common中的secretId相同，否则是跨账号bucket拷贝，srcSecretId和common中的secretId不同 |
-|srcSecretKey|源bucket隶属的用户的秘钥 secret_key(可在[https://console.qcloud.com/capi](https://console.qcloud.com/capi) 查看)。如果是同一用户的数据，则srcSecretId和common中的secretId相同，否则是跨账号bucket拷贝，srcSecretId和common中的secretId不同|
+|srcSecretId|源bucket隶属的用户的秘钥 secret_id(可在[http://console.qcloud.com/capi](http://console.qcloud.com/capi) 查看)。如果是同一用户的数据，则srcSecretId和common中的secretId相同，否则是跨账号bucket拷贝，srcSecretId和common中的secretId不同 |
+|srcSecretKey|源bucket隶属的用户的秘钥 secret_key(可在[http://console.qcloud.com/capi](http://console.qcloud.com/capi) 查看)。如果是同一用户的数据，则srcSecretId和common中的secretId相同，否则是跨账号bucket拷贝，srcSecretId和common中的secretId不同|
 |srcCosPath|要迁移的cos路径，表示该路径下的文件要迁移至目标bucket|
 
 

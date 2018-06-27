@@ -12,7 +12,7 @@
 
 ### 1.2 Modify Configuration
 
-* [Code Download](https://github.com/zhaoyang21cn/SuiXinBoPHPServer/tree/StandaloneAuth). Deploy code into php directory.
+* [Code Download](http://github.com/zhaoyang21cn/SuiXinBoPHPServer/tree/StandaloneAuth). Deploy code into php directory.
 * Enter the database URL, username and password of MySQL in lib/db/DBConfig.php.
 * Change server/account/AccountLoginCmd.php into your ILVB SDKAPPPID.
 

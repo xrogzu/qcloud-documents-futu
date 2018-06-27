@@ -44,7 +44,7 @@
 
 ## 5. 示例
 <pre>
-https://redis.api.qcloud.com/v2/index.php?Action=RestoreInstance
+http://redis.api.qcloud.com/v2/index.php?Action=RestoreInstance
 &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
 &redisId=crs-izbob1wh
 &password=12D3E@!r5ed

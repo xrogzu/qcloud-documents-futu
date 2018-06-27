@@ -8,7 +8,7 @@
 关于登录 CVM 主机请查看 <a href="http://tcecqpoc.fsphere.cn/document/product/213/2783" target="_blank"> Windows CVM 入门</a> 或 <a href="http://tcecqpoc.fsphere.cn/document/product/213/2973" target="_blank">Linux CVM 入门 </a>。网络可达是指此 CVM 主机与 MySQL 数据库实例都处于基础网络之中，或者处于同一个 VPC 中。
 2. 请根据 CVM 的操作系统选择推荐的连接方式。
  - **从 Windows 系统登录**
-      1. 下载一个标准的 SQL 客户端。此步骤中我们推荐您下载 MySQL Workbench，这是 Windows 系统下较常见的 SQL 客户端。在 CVM 中打开 https://dev.mysql.com/downloads/workbench/ ，根据您的系统来下载适配版本的安装程序。
+      1. 下载一个标准的 SQL 客户端。此步骤中我们推荐您下载 MySQL Workbench，这是 Windows 系统下较常见的 SQL 客户端。在 CVM 中打开 http://dev.mysql.com/downloads/workbench/ ，根据您的系统来下载适配版本的安装程序。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/4d7e6c56f02aad86f232e5cdd8c0bb17/image.png)
       2. 界面上将提示【Login】, 【Sign Up】和【No, thanks, just start my download.】， 请选择【No, thanks, just start my download.】来快速下载。
 	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/7169ce063b1b41c58c48089bc2a61441/image.png)
@@ -38,7 +38,7 @@ mysql -h hostname -u username -p
 请将 hostname 替换为目标 MySQL 数据库实例的内网 IP 地址，将 username 替换为默认的用户名 root，并在提示 Enter password：后输出 root 账户对应的密码。
 	本例中 hostname 为10.66.238.24。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d1da9f59f0fff77ad2a8ff18e0b11e7c/image.png)
-     3. 在 MySQL > 提示符下可以发送 SQL 语句到要执行的 MySQL 服务器，具体命令行请参考此网站：https://dev.mysql.com/doc/refman/5.7/en/mysql-commands.html
+     3. 在 MySQL > 提示符下可以发送 SQL 语句到要执行的 MySQL 服务器，具体命令行请参考此网站：http://dev.mysql.com/doc/refman/5.7/en/mysql-commands.html
 下图中以`show databases;`为例：
 ![](https:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/76b4346a84f7388ae263dc6c09220fc0/image.png)
 
@@ -75,6 +75,6 @@ mysql -h hostname -P port -u username -p
 请将 hostname 替换为目标 MySQL 数据库实例的外网 IP 地址，将 port 替换为外网端口号将 username 替换为默认的外网访问用户名 cdb_outerroot，并在提示 **Enter password：** 后输出 cdb_outerroot 账户对应的密码。
 本例中 hostname 为 59281c4e4b511.gz.cdb.myqcloud.com，外网端口号为 15311。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/48df6390ccf7669d04403cd84b8b6fad/image.png)
- 6. 在 MySQL > 提示符下可以发送 SQL 语句到要执行的 MySQL 服务器，具体命令行请参考此网站：https://dev.mysql.com/doc/refman/5.7/en/mysql-commands.html
+ 6. 在 MySQL > 提示符下可以发送 SQL 语句到要执行的 MySQL 服务器，具体命令行请参考此网站：http://dev.mysql.com/doc/refman/5.7/en/mysql-commands.html
 下图中以`show databases;`为例。
 ![](https:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/76b4346a84f7388ae263dc6c09220fc0/image.png)

@@ -5,7 +5,7 @@
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/44989bcf85458672bb503e76d334e92d/ftp.png)
 
 ### 2. 下载 WordPress 安装包
-前往 [WordPress中文官网](https://cn.wordpress.org/) 下载最新版本的 WordPress 安装包。
+前往 [WordPress中文官网](http://cn.wordpress.org/) 下载最新版本的 WordPress 安装包。
 
 ### 3.	上传安装包
 通过 FTP 工具上传网站程序，具体可以参考 [FTP 工具使用说明](http://tcecqpoc.fsphere.cn/document/product/615/11181)。

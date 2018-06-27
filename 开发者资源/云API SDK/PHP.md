@@ -11,7 +11,7 @@
 可以通过以下方式获取PHP SDK:
 
 1. github
-[从 Github 访问 >>](https://github.com/QcloudApi/qcloudapi-sdk-php)
+[从 Github 访问 >>](http://github.com/QcloudApi/qcloudapi-sdk-php)
 
 2.直接下载
 [点击下载 PHP SDK >>](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/cd1857b4d9a9aeb0179e72a59f235c41/qcloudapi-sdk-php-master.zip)

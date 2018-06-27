@@ -2,7 +2,7 @@
 
 ### 相关资源
 
-[github项目](https://github.com/tencentyun/cos-java-sdk)
+[github项目](http://github.com/tencentyun/cos-java-sdk)
 
 ### 环境依赖
 
@@ -32,7 +32,7 @@ pom.xml 添加依赖
 
 ### 历史版本
 
-4.2版本是针对COS 4.X系统，接口与3.x的基本一致, 如果需要使用历史版本, 请参见[github](https://github.com/tencentyun/cos-java-sdk/tree/master)
+4.2版本是针对COS 4.X系统，接口与3.x的基本一致, 如果需要使用历史版本, 请参见[github](http://github.com/tencentyun/cos-java-sdk/tree/master)
 
 ## 文件操作
 

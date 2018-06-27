@@ -35,7 +35,7 @@ conversation = TIMManager.getInstance().getConversation(
 
 **消息发送：**通过 `TIMManager` 获取会话 `TIMConversation` 后，可发送消息和获取会话缓存消息。ImSDK 中消息的解释可参阅 [ImSDK对象简介](/doc/product/269/9227#2.1-imsdk.E5.AF.B9.E8.B1.A1.E7.AE.80.E4.BB.8B)。ImSDK 中的消息由 `TIMMessage` 表达， 一个 `TIMMessage` 由多个 `TIMElem` 组成，每个 `TIMElem` 可以是文本和图片，也就是说每一条消息可包含多个文本和多张图片。
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151013075817_75666.png)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151013075817_75666.png)
 
 发消息通过 `TIMConversation` 的方法 `sendMessage` 实现。
 

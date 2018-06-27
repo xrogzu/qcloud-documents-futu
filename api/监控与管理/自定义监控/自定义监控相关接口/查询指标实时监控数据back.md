@@ -39,7 +39,7 @@
 ## 4. 示例
 输入
 <pre>
-https://monitor.api.qcloud.com/v2/index.phpAction=GetMonitorRealtimeData
+http://monitor.api.qcloud.com/v2/index.phpAction=GetMonitorRealtimeData
 &namespace=name1
 &metricName=metric1
 &period=300

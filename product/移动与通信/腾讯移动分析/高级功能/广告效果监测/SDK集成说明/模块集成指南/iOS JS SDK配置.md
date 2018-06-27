@@ -5,7 +5,7 @@
 **2. 如果已安装 App ，直接打开(非必需，通过 Universal Links 技术 )**
 &emsp;&emsp;i. 首先你需要有一个https的域名，例如domain.com。
 &emsp;&emsp;ii. Uninversal Links 需要的 json 文件的【 apple-app-site-association 】，可以从MTA管理台生成。
-&emsp;&emsp;iii. 把apple-app-site-association上传到domain.com根目录(iOS系统会自动从https://domain.com/apple-app-site-association 进行访问)
+&emsp;&emsp;iii. 把apple-app-site-association上传到domain.com根目录(iOS系统会自动从http://domain.com/apple-app-site-association 进行访问)
 &emsp;&emsp;iiii. XCode的capabilities增加Domains的配置，例如applinks:domain.com
 **3.下载页面的修改**
 &emsp;&emsp;请参考MTA管理台中关于JS SDK的说明。

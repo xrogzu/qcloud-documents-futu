@@ -31,7 +31,7 @@
  
 输入
 <pre>
-  https://domain/v2/index.php?Action=CreateVpn
+  http://domain/v2/index.php?Action=CreateVpn
   &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
   &vpcId=gz_vpc_1111
 	&period=1

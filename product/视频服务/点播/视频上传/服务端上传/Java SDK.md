@@ -30,7 +30,7 @@
 
 为方便客户使用，可点击下载下面提供的链接，将下载的jar包导入项目中，即可使用：
 
-[点播Java SDK关联jar包](https://github.com/tencentyun/vod-java-sdk/raw/master/packages/vod-sdk-jar.zip)
+[点播Java SDK关联jar包](http://github.com/tencentyun/vod-java-sdk/raw/master/packages/vod-sdk-jar.zip)
 
 
 ##  简单视频上传

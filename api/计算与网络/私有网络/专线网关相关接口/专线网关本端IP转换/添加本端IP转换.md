@@ -46,7 +46,7 @@
 ## 5. 示例
 输入
 <pre>
-https://vpc.api.qcloud.com/v2/index.php?Action=CreateLocalIPTranslationNatRule
+http://vpc.api.qcloud.com/v2/index.php?Action=CreateLocalIPTranslationNatRule
 &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
 &vpcId=vpc-csnmo39l
 &directConnectGatewayId=dcg-mm01ughx

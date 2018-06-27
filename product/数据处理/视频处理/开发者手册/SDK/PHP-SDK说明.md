@@ -1,6 +1,6 @@
 ## 1	开发准备
 
-<p>1、微视频服务的PHP SDK的下载地址： <a href="https://github.com/tencentyun/uvs-php-sdk.git" class="external free" title="https://github.com/tencentyun/uvs-php-sdk.git" target="_blank" rel="nofollow">https://github.com/tencentyun/uvs-php-sdk.git</a> <br>
+<p>1、微视频服务的PHP SDK的下载地址： <a href="http://github.com/tencentyun/uvs-php-sdk.git" class="external free" title="http://github.com/tencentyun/uvs-php-sdk.git" target="_blank" rel="nofollow">http://github.com/tencentyun/uvs-php-sdk.git</a> <br>
 2、composer项目名： tencentyun/uvs-php-sdk
 </p>
 
@@ -26,7 +26,7 @@ use Qcloud_video\Video; <br>
 
 
 ### 1.3	https支持
-<p>修改conf.php中API_VIDEO_END_POINT的值为：<code>https://web.video.myqcloud.com/files/v1/</code> <br>
+<p>修改conf.php中API_VIDEO_END_POINT的值为：<code>http://web.video.myqcloud.com/files/v1/</code> <br>
 </p>
 
 ## 2	API详细说明

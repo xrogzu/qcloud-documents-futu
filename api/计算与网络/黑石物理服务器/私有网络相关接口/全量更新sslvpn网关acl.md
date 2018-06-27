@@ -8,7 +8,7 @@ ModifyBmSslVpnGwAcl 用于全量更新黑石sslvpn网关下的acl列表。 acl�
 
 语法示例：
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=ModifyBmSslVpnGwAcl
+GET http://bmvpc.api.qcloud.com/v2/index.php/?Action=ModifyBmSslVpnGwAcl
     &<公共请求参数>
     &unVpcId=<私有网络唯一ID>
 	&vpnGwId=<sslvpn网关唯一ID>
@@ -94,7 +94,7 @@ GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=ModifyBmSslVpnGwAcl
 ## 实际案例
 ### 请求
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?
+GET http://bmvpc.api.qcloud.com/v2/index.php?
 	Action=ModifyBmSslVpnGwAcl
 	&SecretId=AKIDlfdHxN0ntSVt4KPH0xXWnGl21UUFNoO5
 	&Nonce=11362

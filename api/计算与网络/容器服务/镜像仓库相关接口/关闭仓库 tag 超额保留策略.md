@@ -22,7 +22,7 @@
 输入
 
 ```
-  https://domain/v2/index.php?Action=CloseAutoDelStrategy
+  http://domain/v2/index.php?Action=CloseAutoDelStrategy
   &reponame=test/kube_test
   &其它公共参数
 ```

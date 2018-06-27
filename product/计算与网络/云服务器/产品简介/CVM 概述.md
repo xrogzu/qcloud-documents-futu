@@ -32,11 +32,11 @@
 
 ## 相关服务
 
-- 您可以使用负载均衡横跨多个云服务器实例自动分配来自客户端的请求流量。更多信息，请参考 [负载均衡产品文档](https://tce.fsphere.cn/doc/product/214)。
+- 您可以使用负载均衡横跨多个云服务器实例自动分配来自客户端的请求流量。更多信息，请参考 [负载均衡产品文档](http://tce.fsphere.cn/doc/product/214)。
 
-- 您可以使用云监控服务监控云服务器实例及其系统盘。更多信息，请参考 [云监控产品文档](https://tce.fsphere.cn/doc/product/248)。
+- 您可以使用云监控服务监控云服务器实例及其系统盘。更多信息，请参考 [云监控产品文档](http://tce.fsphere.cn/doc/product/248)。
 
-- 您可以在云上部署关系数据库，也可以使用云数据库。更多信息，请参考[云数据库MySQL](https://tce.fsphere.cn/doc/product/236)。
+- 您可以在云上部署关系数据库，也可以使用云数据库。更多信息，请参考[云数据库MySQL](http://tce.fsphere.cn/doc/product/236)。
 
 - 您可以编写代码调用云 API 访问云产品和服务，更多信息，请参考[云 API 文档](http://tcecqpoc.fsphere.cn/document/api)。
 

@@ -256,13 +256,13 @@ TIMUserStatusListenerImpl * impl = [[TIMUserStatusListenerImpl alloc] init];
 
 用户在线情况下的互踢情况如下图所示：
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151015021645_19906.png)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151015021645_19906.png)
 
 图示中，用户在设备1登录，保持在线状态下，该用户又在设备2登录，这时用户会在设备1上强制下线，收到onForceOffline回调。用户在设备1上收到回调后，提示用户，可继续调用login上线，强制设备2下线。这里是在线情况下互踢过程。
 
 用户离线状态互踢如下图所示：
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151015021702_68733.png)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151015021702_68733.png)
 
 用户在设备1登录，没有进行logout情况下进程退出（此时可接收iOS远程推送消息）。该用户在设备2登录，此时由于用户不在线，无法感知此事件，为了显式提醒用户，避免无感知的互踢，用户在设备1重新登录时，会返回（ERR_IMSDK_KICKED_BY_OTHERS：6208）错误码，表明之前被踢，是否需要把对方踢下线。如果需要，则再次调用login强制上线，设备2的登录的实例将会收到onForceOffline回调。
 

@@ -2,17 +2,17 @@
 
 ### 相关资源
 
-COS Python SDK V5 相关资源地址: [github项目](https://github.com/tencentyun/cos-python-sdk-v5)
+COS Python SDK V5 相关资源地址: [github项目](http://github.com/tencentyun/cos-python-sdk-v5)
 
-> COS Python SDK 相关资源地址: [github项目](https://github.com/tencentyun/cos-python-sdk-v5)
+> COS Python SDK 相关资源地址: [github项目](http://github.com/tencentyun/cos-python-sdk-v5)
 > by  vivianlei  // 无V5这一说。
 ### 环境依赖
 
 V5 版本 COS Python SDK 目前可以支持 Python2.6 与 Python2.7
 
 > 系统需先安装 Python 和 pip，支持python版本： 2.6 ， 2.7
-> 1. python 下载和安装：请根据所使用操作系统，从[python官网]（https://www.python.org/downloads/）下载对应版本，并安装。
-> 2. pip 下载和安装：请查看[pip官网](https://pip.pypa.io/en/stable/installing/) 
+> 1. python 下载和安装：请根据所使用操作系统，从[python官网]（http://www.python.org/downloads/）下载对应版本，并安装。
+> 2. pip 下载和安装：请查看[pip官网](http://pip.pypa.io/en/stable/installing/) 
 > by  vivianlei  // 1. 尽量简洁 2. 标题是环境依赖，描述是说明支持版本
 
 ### 安装SDK
@@ -25,7 +25,7 @@ V5 版本 COS Python SDK 目前可以支持 Python2.6 与 Python2.7
 
 - 手动安装
 
-        从[github项目](https://github.com/tencentyun/cos-python-sdk-v5)下载源码,通过setup手动安装：
+        从[github项目](http://github.com/tencentyun/cos-python-sdk-v5)下载源码,通过setup手动安装：
 
         python setup.py install
 
@@ -45,7 +45,7 @@ token = ''                  # 使用临时秘钥需要传入Token，默认为空
 config = CosConfig(Appid=appid, Access_id=secret_id, Access_key=secret_key, Region=region, Token=token)
 # 2.获取客户端对象
 client = CosS3Client(config)
-# 参照下文的API描述。或者参照Demo程序，详见https://github.com/tencentyun/cos-python-sdk-v5/blob/master/qcloud_cos/test.py
+# 参照下文的API描述。或者参照Demo程序，详见http://github.com/tencentyun/cos-python-sdk-v5/blob/master/qcloud_cos/test.py
 ```
 
 

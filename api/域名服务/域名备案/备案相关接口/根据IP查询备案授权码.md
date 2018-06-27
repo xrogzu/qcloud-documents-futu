@@ -50,7 +50,7 @@
  
 输入1
 ```
-  https://domain/v2/index.php?Action=DescribeLicenseKeyByIp
+  http://domain/v2/index.php?Action=DescribeLicenseKeyByIp
 	&type=host
 	&ip=xxx.xxx.xx.x
 ```

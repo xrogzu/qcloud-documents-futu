@@ -78,7 +78,7 @@ data.output 结构
 
 输入
 <pre>
-https://vpc.api.qcloud.com/v2/index.php?Action=ModifyAddressGroup
+http://vpc.api.qcloud.com/v2/index.php?Action=ModifyAddressGroup
 &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
 &addressGroupId=ipmg-a8ky2366&addressGroup.0=ipm-52ut9s88
 </pre>
@@ -97,7 +97,7 @@ https://vpc.api.qcloud.com/v2/index.php?Action=ModifyAddressGroup
 ### 步骤2：
 输入
 <pre>
-https://vpc.api.qcloud.com/v2/index.php?Action=DescribeNetTaskResult
+http://vpc.api.qcloud.com/v2/index.php?Action=DescribeNetTaskResult
 &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
 &taskId=297
 </pre>

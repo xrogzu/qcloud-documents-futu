@@ -1,16 +1,16 @@
 # JavaScript SDK快速入门
 
-云平台 COS JS SDK（[XML API](https://www.qcloud.com/document/product/436/7751)）
+云平台 COS JS SDK（[XML API](http://www.qcloud.com/document/product/436/7751)）
 
-[releases and changelog](https://github.com/tencentyun/cos-js-sdk-v5/releases)
+[releases and changelog](http://github.com/tencentyun/cos-js-sdk-v5/releases)
 
 ## get started
 
 ### 一、前期准备
 
 1. 首先，JS SDk 需要浏览器支持基本的 HTML5 特性，以便支持 ajax 上传文件和计算文件 md5 值。
-2. 到 (COS对象存储控制台)[https://console.qcloud.com/cos4] 创建存储桶，得到 Bucket（存储桶名称） 和 Region（地域名称）
-3. 到 (控制台密钥管理)[https://console.qcloud.com/capi] 获取您的项目 SecretId 和 SecretKey
+2. 到 (COS对象存储控制台)[http://console.qcloud.com/cos4] 创建存储桶，得到 Bucket（存储桶名称） 和 Region（地域名称）
+3. 到 (控制台密钥管理)[http://console.qcloud.com/capi] 获取您的项目 SecretId 和 SecretKey
 4. 配置 CORS 规则，配置例子如下图：
 
 ![cors](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/2e7791e9274ce3ebf8b25bbeafcd7b45/image.png)
@@ -19,7 +19,7 @@
 
 由于签名计算放在前端会暴露 SecretId 和 SecretKey，我们把签名计算过程放在后端实现，前段通过 ajax 向后端获取签名结果，正式部署时请再后端加一层自己网站本身的权限检验。
 
-这里提供 [PHP 和 NodeJS 的签名例子](https://github.com/tencentyun/cos-js-sdk-v5/blob/master/server/)，其他语言，请参照对应的 [XML SDK](http://tcecqpoc.fsphere.cn/document/product/436/6474)
+这里提供 [PHP 和 NodeJS 的签名例子](http://github.com/tencentyun/cos-js-sdk-v5/blob/master/server/)，其他语言，请参照对应的 [XML SDK](http://tcecqpoc.fsphere.cn/document/product/436/6474)
 
 ### 三、上传例子
 

@@ -44,7 +44,7 @@
 输入
 
 <pre>
-  https://cvm.api.qcloud.com/v2/index.php?Action=UpdateInstanceVpcConfig
+  http://cvm.api.qcloud.com/v2/index.php?Action=UpdateInstanceVpcConfig
   &instanceId=qcvm12345
   &vpcId=gz_vpc_1
   &subnetId=gz_subnet_1

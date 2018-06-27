@@ -42,7 +42,7 @@
  
 输入
 ```
-  https://vpc.api.qcloud.com/v2/index.php?Action=CreateNetworkAcl
+  http://vpc.api.qcloud.com/v2/index.php?Action=CreateNetworkAcl
   &<公共请求参数>
   &vpcId=gz_vpc_266
   &networkAclName=dgdgadgd

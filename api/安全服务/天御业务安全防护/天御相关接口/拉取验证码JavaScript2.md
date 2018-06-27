@@ -153,7 +153,7 @@
 输入
 
 <pre>
-https://domain/v2/index.php?Action=CaptchaQuery
+http://domain/v2/index.php?Action=CaptchaQuery
  &userIp=121.14.96.121
  &businessId=1
  &captchaType=1

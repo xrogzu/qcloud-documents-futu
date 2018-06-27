@@ -23,7 +23,7 @@
 输入
 
 ```
-  https://domain/v2/index.php?Action=BatchDeleteTag
+  http://domain/v2/index.php?Action=BatchDeleteTag
   &reponame=test/kube_test
   &tags.0="nginx_v1"
   &tags.1="nginx_v2"

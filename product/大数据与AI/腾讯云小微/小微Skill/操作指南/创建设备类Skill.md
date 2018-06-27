@@ -1,6 +1,6 @@
 ## 登录小微 Skill 控制台
 
-登录小微 Skill [控制台](https://xiaowei.qcloud.com/developer/skill-list)，单击右上角【新建技能】。
+登录小微 Skill [控制台](http://xiaowei.qcloud.com/developer/skill-list)，单击右上角【新建技能】。
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/93e4a3087be6cc3111d03bc8a3460730/image.png)
 

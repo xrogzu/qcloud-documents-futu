@@ -56,7 +56,7 @@ CosResult Operator(BaseReq, BaseResp)
 ```
 
 ### CosResult
-CosResult 封装了请求出错时返回的错误码和对应错误信息，详见 [错误码](https://www.qcloud.com/document/product/436/7730 "错误码")。
+CosResult 封装了请求出错时返回的错误码和对应错误信息，详见 [错误码](http://www.qcloud.com/document/product/436/7730 "错误码")。
 > **注意：**
 > SDK 内部封装的请求均会返回 CosResult 对象，每次调用完成后，均要使用 IsSucc() 成员函数判断本次调用是否成功。**
 

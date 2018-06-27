@@ -39,7 +39,7 @@
 ## 二、连接 PostgreSQL 云数据库实例
 当您的数据库实例初始化后，您可以使用任何标准的 SQL 客户端连接到该实例。本教程以 pgAdmin 为例进行说明。
 ### 1. 下载并安装 pgAdmin
-您可以从 [pgAdmin 的官方网站](https://www.pgadmin.org/download/) 下载并安装 pgAdmin。本教程以 pgAdmin4 为例进行说明。
+您可以从 [pgAdmin 的官方网站](http://www.pgadmin.org/download/) 下载并安装 pgAdmin。本教程以 pgAdmin4 为例进行说明。
 ### 2. 新建数据库连接
 安装好 pgAdmin4 后，打开客户端。右键单击【Servers】>【Create】>【Server】。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d858eff4877223e5e8749a0a0e3aa193/image.png)
@@ -63,4 +63,4 @@ select version()
 ## 三、删除 PostgreSQL 云数据库实例
 PostgreSQL 云数据库实例暂时不支持手动删除，到期后没有续费将会自动停止。
 
-[1]:https://msdn.microsoft.com/zh-cn/library/ms174173(v=sql.105).aspx
+[1]:http://msdn.microsoft.com/zh-cn/library/ms174173(v=sql.105).aspx

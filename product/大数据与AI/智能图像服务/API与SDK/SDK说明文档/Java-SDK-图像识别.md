@@ -1,5 +1,5 @@
 ## SDK获取
-智能图像的 Java SDK 下载地址：[Java-SDK-V2.0](https://github.com/tencentyun/image-java-sdk-v2.0)。
+智能图像的 Java SDK 下载地址：[Java-SDK-V2.0](http://github.com/tencentyun/image-java-sdk-v2.0)。
 
 ## 使用前准备​		
   1. 前往注册： [云平台账号注册](http://tcecqpoc.fsphere.cn/register) （详细指引见 [注册云平台](http://tcecqpoc.fsphere.cn/document/product/378/9603)）；

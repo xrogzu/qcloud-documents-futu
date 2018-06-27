@@ -238,14 +238,14 @@ Ids.0=10.12.243.21&amp;Ids.1=10.11.243.21&amp;Ids.2=10.12.243.21&amp;Id.3=10.13.
 <p>最终的请求 URL 的拼接规则为:</p>
 </div>
 <div class="paragraph">
-<p>https:// + 请求域名 + 请求路径 + ? + 请求参数串（包括公共参数和接口参数）</p>
+<p>http:// + 请求域名 + 请求路径 + ? + 请求参数串（包括公共参数和接口参数）</p>
 </div>
 <div class="paragraph">
 <p>假设用户想要查询广州地域的云服务器实例列表，则其请求链接的形式可能如下:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">GET https://cvm.api.qcloud.com/v2/index.php? <b class="conum">(1)</b>
+<pre class="highlight"><code class="language-bash" data-lang="bash">GET http://cvm.api.qcloud.com/v2/index.php? <b class="conum">(1)</b>
 
 Action=DescribeInstances
 &amp;SecretId=xxxxxxx
@@ -633,7 +633,7 @@ Action=DescribeInstances
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">GET https://cvm.api.qcloud.com/v2/index.php?
+<pre class="highlight"><code class="language-bash" data-lang="bash">GET http://cvm.api.qcloud.com/v2/index.php?
 &amp;Action=RunInstances
 &amp;Version=2017-03-20
 &amp;ImageId=img-lkxqa4kj
@@ -670,7 +670,7 @@ Action=DescribeInstances
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">GET https://cvm.api.qcloud.com/v2/index.php?
+<pre class="highlight"><code class="language-bash" data-lang="bash">GET http://cvm.api.qcloud.com/v2/index.php?
 &amp;Action=DescribeInstances
 &amp;Version=2017-03-20
 &amp;InstanceIds.0=ins-a19qoqqk
@@ -776,7 +776,7 @@ Action=DescribeInstances
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">https://cvm.api.qcloud.com/v2/index.php?
+<pre class="highlight"><code class="language-bash" data-lang="bash">http://cvm.api.qcloud.com/v2/index.php?
 &amp;Action=TerminateInstances
 &amp;Version=2017-03-20
 &amp;InstanceIds.0=ins-a19qoqqk

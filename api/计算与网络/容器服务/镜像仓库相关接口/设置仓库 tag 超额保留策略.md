@@ -24,7 +24,7 @@
 输入
 
 ```
-  https://domain/v2/index.php?Action=SetAutoDelStrategy
+  http://domain/v2/index.php?Action=SetAutoDelStrategy
   &reponame=test/kube_test
   &type=keep_last_nums
   &val=10 

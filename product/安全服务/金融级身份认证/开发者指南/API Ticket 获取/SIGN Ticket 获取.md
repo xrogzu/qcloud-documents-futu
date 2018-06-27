@@ -8,7 +8,7 @@
 ## 请求
 **请求 URL：** 
 ```
-https://idasc.webank.com/api/oauth2/api_ticket
+http://idasc.webank.com/api/oauth2/api_ticket
 ```
 **请求方法：GET**
 **请求参数：**
@@ -22,7 +22,7 @@ https://idasc.webank.com/api/oauth2/api_ticket
 
 **请求示例：**
 ```
-https://idasc.webank.com/api/oauth2/api_ticket?app_id=xxx&access_token=xxx&type=SIGN&version=1.0.0
+http://idasc.webank.com/api/oauth2/api_ticket?app_id=xxx&access_token=xxx&type=SIGN&version=1.0.0
 ```
 ## 响应
 **响应示例：**

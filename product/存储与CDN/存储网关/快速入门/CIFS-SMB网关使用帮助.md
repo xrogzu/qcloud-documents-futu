@@ -57,7 +57,7 @@
 网关支持运行于 VMware 及 CVM 的 Linux 下。如果您需要在本地环境中创建网关，请下载并部署网关 VM，然后激活网关。如果您需要在 CVM 实例上创建网关，请在 CVM 镜像市场中选中包含网关 VM 镜像并启动运行，然后激活网关。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/54779ae228dbc53e2480262c06fcc1a7/image.png)
 
-> **注："NFS 网关" 与 "CIFS/SMB 网关" 与 "卷网关" 共用 "[云平台存储网关（CSG）镜像 - 卷网关](https://market.tce.fsphere.cn/products/4276?productId=4276&_ga=1.138077944.992563734.1509872671#)"的镜像。**
+> **注："NFS 网关" 与 "CIFS/SMB 网关" 与 "卷网关" 共用 "[云平台存储网关（CSG）镜像 - 卷网关](http://market.tce.fsphere.cn/products/4276?productId=4276&_ga=1.138077944.992563734.1509872671#)"的镜像。**
 
 ### 在 VMware 上部署 CSG 网关
 在当前页面下载带有 VM 镜像的压缩包。
@@ -168,7 +168,7 @@
 若是从 CSG 的控制台跳转到 CVM 购买页，则此处仅需确认镜像为 CSG 镜像即可。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/f37783fc72d541b7e7e7f63d6434cf2f/image.png)
 
-若是直接购买 CVM，则需要选择 "服务市场" 选项，在弹出的窗口中搜索 "存储网关" 并选择所需要的网关类型。**注："NFS 网关" 与 "CIFS/SMB 网关" 与 "卷网关" 共用 "[云平台存储网关（CSG）镜像 - 卷网关](https://market.tce.fsphere.cn/products/4276?productId=4276&_ga=1.138077944.992563734.1509872671#)"的镜像。**
+若是直接购买 CVM，则需要选择 "服务市场" 选项，在弹出的窗口中搜索 "存储网关" 并选择所需要的网关类型。**注："NFS 网关" 与 "CIFS/SMB 网关" 与 "卷网关" 共用 "[云平台存储网关（CSG）镜像 - 卷网关](http://market.tce.fsphere.cn/products/4276?productId=4276&_ga=1.138077944.992563734.1509872671#)"的镜像。**
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d87443a2452c4ee76f05bea4b0d491df/image.png)
 说明：CSG 镜像包含的系统为 CentOS 7.2 版本。
 

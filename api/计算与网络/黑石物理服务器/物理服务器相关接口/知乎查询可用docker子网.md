@@ -8,7 +8,7 @@ ZhDockerSubnetAvailable接口给知乎专用的用来查询空闲可用的docker
 
 ### 请求示例
 ```
-https://bm.api.qcloud.com/v2/index.php?
+http://bm.api.qcloud.com/v2/index.php?
 	Action=ZhDockerSubnetAvailable
 	&<公共请求参数>
 	&unVpcId=<私有网络的ID>
@@ -74,7 +74,7 @@ data中对象结构
 ### 输入
 
 ```
-https://bm.api.qcloud.com/v2/index.php?
+http://bm.api.qcloud.com/v2/index.php?
 	Action=ZhDockerSubnetAvailable
 	&SecretId=AKID52SKw5uMEy3jhpMUBqSylEBJBby6E0KC
 	&Nonce=48476

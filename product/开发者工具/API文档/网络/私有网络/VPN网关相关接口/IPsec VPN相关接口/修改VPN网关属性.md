@@ -40,7 +40,7 @@
  
 输入
 ```
-  https://vpc.api.qcloud.com/v2/index.php?Action=ModifyVpnGw
+  http://vpc.api.qcloud.com/v2/index.php?Action=ModifyVpnGw
   &<公共请求参数>
   &vpcId=vpc-amhnnao5
   &vpnGwId=vpngw-dystbrkv

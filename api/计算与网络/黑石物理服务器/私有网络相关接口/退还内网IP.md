@@ -8,7 +8,7 @@ ReturnIps 用于释放黑石私有网络子网IP。
 
 ### 请求示例
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?Action=ReturnIps
+GET http://bmvpc.api.qcloud.com/v2/index.php?Action=ReturnIps
     &<公共请求参数>
     &unVpcId=<VPC网络唯一ID>
     &ips=<释放的IP数组>
@@ -51,7 +51,7 @@ GET https://bmvpc.api.qcloud.com/v2/index.php?Action=ReturnIps
 
 ### 输入
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?
+GET http://bmvpc.api.qcloud.com/v2/index.php?
 	Action=ReturnIps
 	&SecretId=AKIDlfdHxN0ntSVt4KPH0xXWnGl21UUFNoO5
     &Nonce=6791

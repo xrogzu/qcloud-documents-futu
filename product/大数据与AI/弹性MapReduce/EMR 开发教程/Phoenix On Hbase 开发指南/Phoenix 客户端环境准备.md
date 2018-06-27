@@ -2,7 +2,7 @@ Phoenix 查询引擎支持使用 SQL 进行 HBase 数据的查询，会将 SQL �
 
 EMR Phoenix 编译的是 4.8.1 版本，首先下载一个 phoenix-4.8.1-HBase-1.2 版本客户端
 
-- 下载 Phoenix 客户端[点击下载](https://archive.apache.org/dist/phoenix/apache-phoenix-4.8.1-HBase-1.2/bin/)
+- 下载 Phoenix 客户端[点击下载](http://archive.apache.org/dist/phoenix/apache-phoenix-4.8.1-HBase-1.2/bin/)
 
 - 客户端环境准备把下载好的客户端包拷贝并解压到 EMR 集群任意一个节点的任意一个目录下（推荐  Hadoop 主目录），进入解压后 Hbin 目录，拷贝 Hbase 配置文件 Hbase-site.xml 到此目录：
 

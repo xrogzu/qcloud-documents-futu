@@ -31,7 +31,7 @@ vod2.qcloud.com
 ### 请求示例
 
 ```
-https://vod2.qcloud.com/v2/index.php?Action=FinishUploadEx
+http://vod2.qcloud.com/v2/index.php?Action=FinishUploadEx
 &fileSha=b4a5c70c76e79e01ab3a5c306de3d9eedeadeca9
 &signature=IEmbRAPy5IgIAFnt7XPAToaY3RRzPUFLSURVZ
 ```

@@ -486,7 +486,7 @@ serviceException)  {
 
 | 成员变量名称 | 变量说明    |类型     | 
 | ---- | --------------  | ----------- |
-| listParts  | [请求成功返回的结果](https://www.qcloud.com/document/product/436/7747)     | ListParts             |
+| listParts  | [请求成功返回的结果](http://www.qcloud.com/document/product/436/7747)     | ListParts             |
 | httpCode  |[200, 300)之间请求成功， 否则请求失败| Int             |
 
 #### 示例

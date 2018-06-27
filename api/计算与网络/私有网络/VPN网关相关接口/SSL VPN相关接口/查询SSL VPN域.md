@@ -44,7 +44,7 @@ acl策略信息数组
  
 输入
 <pre>
-https://vpc.api.qcloud.com/v2/index.php?Action=DescribeSSLVpnDomain
+http://vpc.api.qcloud.com/v2/index.php?Action=DescribeSSLVpnDomain
 &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
 &vpcId=93
 &sslVpnId=vpngw-l2tlvgb9

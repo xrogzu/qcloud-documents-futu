@@ -4,7 +4,7 @@
 
 ### SDK获取
 
-对象存储服务 Python SDK下载地址：[github项目](https://github.com/tencentyun/cos-python-sdk/tree/3.3)
+对象存储服务 Python SDK下载地址：[github项目](http://github.com/tencentyun/cos-python-sdk/tree/3.3)
 
 ### 开发环境
 

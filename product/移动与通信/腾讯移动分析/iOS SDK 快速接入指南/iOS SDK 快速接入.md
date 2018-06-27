@@ -1,5 +1,5 @@
 本章节将帮助您快速接入使用的 MTA 统计功能，高级功能接入请参考 [高级功能接入](/document/product/549/14976)或者 [接口说明](/document/product/549/12859) MTA.h 以及 MTAConfig.h 头文件。
-使用 CocoaPods 的开发者可前往 [https://github.com/tegdata/mta](https://github.com/tegdata/mta)。
+使用 CocoaPods 的开发者可前往 [http://github.com/tegdata/mta](http://github.com/tegdata/mta)。
 
 ## 配置 Xcode 工程
 1. 前往[【SDK 下载中心】](http://mta.qq.com/mta/ctr_index/download)下载对应压缩包到本地；

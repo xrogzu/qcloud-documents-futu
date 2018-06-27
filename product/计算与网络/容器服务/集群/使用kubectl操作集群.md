@@ -1,6 +1,6 @@
 ### 安装kubectl工具
 
-如果您已经安装有kubectl工具，请忽略本步骤。详细安装kubectl过程参考[Installing and Setting up kubectl](https://kubernetes.io/docs/user-guide/prereqs/)
+如果您已经安装有kubectl工具，请忽略本步骤。详细安装kubectl过程参考[Installing and Setting up kubectl](http://kubernetes.io/docs/user-guide/prereqs/)
 
 下载kubectl（云主机内网下载）:
 >注：容器服务创建的云主机，默认已安装kubectl工具。
@@ -15,13 +15,13 @@ curl -LO http://mirrors.tencentyun.com/install/ccs/v1.4.6/windows/amd64/kubectl.
 下载kubectl（公网下载）:
 ```shell
 # OS X
-curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/darwin/amd64/kubectl
+curl -LO http://storage.googleapis.com/kubernetes-release/release/$(curl -s http://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/darwin/amd64/kubectl
 
 # Linux
-curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+curl -LO http://storage.googleapis.com/kubernetes-release/release/$(curl -s http://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
 
 # Windows
-curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/windows/amd64/kubectl.exe
+curl -LO http://storage.googleapis.com/kubernetes-release/release/$(curl -s http://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/windows/amd64/kubectl.exe
 ```
 
 添加执行权限
@@ -54,7 +54,7 @@ Client Version: version.Info{Major:"1", Minor:"5", GitVersion:"v1.5.2", GitCommi
 请求方法：
 kubectl 命令 -s "域名信息" --username=用户名 --password=密码 --certificate-authority=证书路径，如：
 ```shell
-kubectl get node -s "https://cls-66668888.ccs.tencent-cloud.com" --username=admin --password=6666o9oIB2gHD88882quIfLMy6666 --certificate-authority=/etc/kubernetes/cluster-ca.crt
+kubectl get node -s "http://cls-66668888.ccs.tencent-cloud.com" --username=admin --password=6666o9oIB2gHD88882quIfLMy6666 --certificate-authority=/etc/kubernetes/cluster-ca.crt
 ```
 
 #### 方法二： 修改kubectl配置文件 ， 长期有效
@@ -63,7 +63,7 @@ kubectl get node -s "https://cls-66668888.ccs.tencent-cloud.com" --username=admi
 设置kubectl配置,修改以下命令中的密码、证书信息
 ```shell
 kubectl config set-credentials default-admin --username=admin --password=6666o9oIB2gHD88882quIfLMy6666
-kubectl config set-cluster default-cluster --server=https://cls-66668888.ccs.tencent-cloud.com --certificate-authority=/etc/kubernetes/cluster-ca.crt
+kubectl config set-cluster default-cluster --server=http://cls-66668888.ccs.tencent-cloud.com --certificate-authority=/etc/kubernetes/cluster-ca.crt
 kubectl config set-context default-system --cluster=default-cluster --user=default-admin
 kubectl config use-context default-system
 

@@ -29,7 +29,7 @@
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/55b65132442aa62465730bc0b20a1c7b/image.png)
 
-点击下载[ iOS 版 Demo（App Store）](https://itunes.apple.com/cn/app/sui-xin-bo/id1037944078?mt=8)，或者扫描以下二维码。
+点击下载[ iOS 版 Demo（App Store）](http://itunes.apple.com/cn/app/sui-xin-bo/id1037944078?mt=8)，或者扫描以下二维码。
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/25abd38be30a88cdaf6eedb975be02e7/image.png)
 
@@ -42,10 +42,10 @@
 ### Demo 源码下载与代码导读
 
 - 下载 Android SDK
-	- [查看 GitHub Android 源码与导读 >>](https://github.com/zhaoyang21cn/Android_Suixinbo)
+	- [查看 GitHub Android 源码与导读 >>](http://github.com/zhaoyang21cn/Android_Suixinbo)
 	-	[点击下载 Android SDK >>](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/e8389820ad5dc3b40cf3dc689d3f5432/Android_Suixinbo-master.zip)
 - 下载 iOS SDK
-	- [查看 GitHub iOS 源码下载与导读 >>](https://github.com/zhaoyang21cn/iOS_Suixinbo)
+	- [查看 GitHub iOS 源码下载与导读 >>](http://github.com/zhaoyang21cn/iOS_Suixinbo)
 	- [点击下载 iOS SDK >>](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/8015331b15c58c29ce01d303fff00ee7/iOS_Suixinbo-master.zip)
 - [H5 源码下载与导读 >>](/doc/product/269/H5直播聊天室DEMO指引)
 

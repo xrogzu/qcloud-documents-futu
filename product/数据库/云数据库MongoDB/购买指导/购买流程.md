@@ -1,5 +1,5 @@
 ### 购买流程
-云平台数据库MongoDB可通过[官网直接购买](https://buy.tce.fsphere.cn/mongodb)
+云平台数据库MongoDB可通过[官网直接购买](http://buy.tce.fsphere.cn/mongodb)
 ![购买页](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/49cff441939104908bd65a7ef287d798/buymongo.png)
 
 ### 计费流程

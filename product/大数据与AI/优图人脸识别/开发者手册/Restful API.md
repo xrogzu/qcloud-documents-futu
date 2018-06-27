@@ -46,7 +46,7 @@
 1) 接口
 
 ```
-https://youtu.api.qcloud.com/youtu/api/detectface
+http://youtu.api.qcloud.com/youtu/api/detectface
 ```
 2) 描述：
 检测给定图片(Image)中的所有人脸(Face)的位置和相应的面部属性。位置包括(x, y,w, h)，面部属性包括性别(gender), 年龄(age), 表情(expression), 眼镜(glass)和姿态(pitch，roll，yaw)。
@@ -132,7 +132,7 @@ https://youtu.api.qcloud.com/youtu/api/detectface
 ### 人脸比对
 1) 接口
 ```
-https://youtu.api.qcloud.com/youtu/api/facecompare
+http://youtu.api.qcloud.com/youtu/api/facecompare
 ```
 2) 描述
 计算两个Face的相似性以及五官相似度。
@@ -194,7 +194,7 @@ https://youtu.api.qcloud.com/youtu/api/facecompare
 ### 人脸验证
 1) 接口
 ```
-https://youtu.api.qcloud.com/youtu/api/faceverify
+http://youtu.api.qcloud.com/youtu/api/faceverify
 ```
 2) 描述
 给定一个Face和一个Person，返回是否是同一个人的判断以及置信度。
@@ -251,7 +251,7 @@ https://youtu.api.qcloud.com/youtu/api/faceverify
 1) 接口
 
 ```
-https://youtu.api.qcloud.com/youtu/api/newperson
+http://youtu.api.qcloud.com/youtu/api/newperson
 ```
 2) 描述
 创建一个Person，并将Person放置到group_ids指定的组当中。
@@ -320,7 +320,7 @@ https://youtu.api.qcloud.com/youtu/api/newperson
 1) 接口
 
 ```
-https://youtu.api.qcloud.com/youtu/api/delperson
+http://youtu.api.qcloud.com/youtu/api/delperson
 ```
 
 2) 描述
@@ -374,7 +374,7 @@ https://youtu.api.qcloud.com/youtu/api/delperson
 ### 增加人脸
 1)接口
 ```
-https://youtu.api.qcloud.com/youtu/api/addface
+http://youtu.api.qcloud.com/youtu/api/addface
 ```
 2)描述
 >将一组Face加入到一个Person中。注意，一个Face只能被加入到一个Person中。
@@ -508,7 +508,7 @@ https://youtu.api.qcloud.com/youtu/api/addface
 ### 删除人脸
 1)接口
 ```
-https://youtu.api.qcloud.com/youtu/api/delface
+http://youtu.api.qcloud.com/youtu/api/delface
 ```
 2)描述
 >删除一个person下的face，包括特征，属性和face_id
@@ -589,7 +589,7 @@ https://youtu.api.qcloud.com/youtu/api/delface
 ### 设置信息
 1)接口
 ```
-https://youtu.api.qcloud.com/youtu/api/setinfo
+http://youtu.api.qcloud.com/youtu/api/setinfo
 ```
 2)描述
 >设置Person的name
@@ -716,7 +716,7 @@ https://youtu.api.qcloud.com/youtu/api/setinfo
 ### 获取信息
 1)接口
 ```
-https://youtu.api.qcloud.com/youtu/api/getinfo
+http://youtu.api.qcloud.com/youtu/api/getinfo
 ```
 2)描述
 >获取一个Person的信息, 包括name, id, tag, 相关的face, 以及groups等信息
@@ -856,7 +856,7 @@ https://youtu.api.qcloud.com/youtu/api/getinfo
 ### 组列表
 1)接口
 ```
-https://youtu.api.qcloud.com/youtu/api/getgroupids
+http://youtu.api.qcloud.com/youtu/api/getgroupids
 ```
 2)描述
 >获取一个AppId下所有group列表
@@ -952,7 +952,7 @@ https://youtu.api.qcloud.com/youtu/api/getgroupids
 ## 个体列表
 1)接口
 ```
-https://youtu.api.qcloud.com/youtu/api/getpersonids
+http://youtu.api.qcloud.com/youtu/api/getpersonids
 ```
 2)描述
 >获取一个组Group中所有person列表
@@ -1061,7 +1061,7 @@ https://youtu.api.qcloud.com/youtu/api/getpersonids
 
 1)接口
 ```
-https://youtu.api.qcloud.com/youtu/api/getfaceids
+http://youtu.api.qcloud.com/youtu/api/getfaceids
 ```
 2)描述
 >获取一个组person中所有face列表
@@ -1166,7 +1166,7 @@ https://youtu.api.qcloud.com/youtu/api/getfaceids
 ### 人脸信息
 1)接口
 ```
-https://youtu.api.qcloud.com/youtu/api/getfaceinfo
+http://youtu.api.qcloud.com/youtu/api/getfaceinfo
 ```
 2)描述
 >获取一个face的相关特征信息。

@@ -61,7 +61,7 @@
 ## 4. 示例
 输入
 ```
-https://cvm.api.qcloud.com/v2/index.php?Action=DescribeInstanceCbsInfo
+http://cvm.api.qcloud.com/v2/index.php?Action=DescribeInstanceCbsInfo
 &uInstanceIds.0=ins-1nr7zocq
 &uInstanceIds.1.ins-bviuv6oc=
 &COMMON_PARAMS

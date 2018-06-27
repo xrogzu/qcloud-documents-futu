@@ -56,7 +56,7 @@
 输入
 
 <pre>
- https://monitor.api.qcloud.com/v2/index.php?Action=DeleteMetric
+ http://monitor.api.qcloud.com/v2/index.php?Action=DeleteMetric
  &namespace=name1
  &metricName=metric1
  &<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>

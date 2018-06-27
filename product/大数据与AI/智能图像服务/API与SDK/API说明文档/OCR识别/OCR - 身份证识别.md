@@ -11,7 +11,7 @@
 
 `http://recognition.image.myqcloud.com/ocr/idcard`
 
-`https://recognition.image.myqcloud.com/ocr/idcard`
+`http://recognition.image.myqcloud.com/ocr/idcard`
 
 ## 请求头 header
 所有请求都要求含有以下头部信息：

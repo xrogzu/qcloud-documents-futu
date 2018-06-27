@@ -4,7 +4,7 @@
  - 更新AVSDK 1.9.5.12 (修复退房回调中stopContext异常)
  - ILiveSDK中添加setCaptureMode(配置是否需要悬浮窗权限)
 
-[更多版本](https://github.com/zhaoyang21cn/iLiveSDK_Android_Suixinbo/blob/master/doc/ILiveSDK/release%20note.md)
+[更多版本](http://github.com/zhaoyang21cn/iLiveSDK_Android_Suixinbo/blob/master/doc/ILiveSDK/release%20note.md)
 
 ## `iLiveSDK iOS V1.7.1.12078(2017-10-30)`
 * 修改上麦接口，将role参数改成option参数，方便相机和麦克风配置
@@ -17,19 +17,19 @@
 * 增加预览分辨率设置
 * 增加OpenAL.framework
 
-[更多版本](https://github.com/zhaoyang21cn/iLiveSDK_iOS_Suixinbo/blob/master/doc/ILiveSDK_ChangeList.md)
+[更多版本](http://github.com/zhaoyang21cn/iLiveSDK_iOS_Suixinbo/blob/master/doc/ILiveSDK_ChangeList.md)
 
 ## `iLiveSDK PC V1.7.0.0(2017-09-25)`
 * 升级到avsdk 1.9.5;
 * 支持大咖模式(先创建房间，主播和观众不分先后顺序加入房间
 
-[更多版本](https://github.com/zhaoyang21cn/iLiveSDK_PC_Suixinbo/blob/master/doc/iLiveSDK_ChangeList.md)
+[更多版本](http://github.com/zhaoyang21cn/iLiveSDK_PC_Suixinbo/blob/master/doc/iLiveSDK_ChangeList.md)
 
 ## `iLiveSDK IE V1.3.0.0(2017-09-25)`
 * SDK内部升级到avsdk 1.9.5;
 * 增加房间内直播质量回调接口;
 
-[更多版本](https://github.com/zhaoyang21cn/iLiveSDK_Web_Suixinbo/blob/master/doc/iLiveSDK_ChangeList.md)
+[更多版本](http://github.com/zhaoyang21cn/iLiveSDK_Web_Suixinbo/blob/master/doc/iLiveSDK_ChangeList.md)
 
 ## `iLiveSDK mac V1.7.0.11812(2017-09-25)`
 * 修复 被踢下线，再次登录时出现1003错误的问题
@@ -37,7 +37,7 @@
 * 增加内部关键日志打印
 * 增加极速模式
 
-[更多版本](https://github.com/zhaoyang21cn/iLiveSDK_Mac_Suixinbo/blob/master/doc/iLiveSDK_ChangeList.md)
+[更多版本](http://github.com/zhaoyang21cn/iLiveSDK_Mac_Suixinbo/blob/master/doc/iLiveSDK_ChangeList.md)
 
 # AVSDK 版本更新记录
 ## `AVSDK 1.9.5  2017-09-15`

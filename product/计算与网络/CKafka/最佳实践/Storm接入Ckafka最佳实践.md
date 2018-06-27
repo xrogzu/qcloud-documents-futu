@@ -154,7 +154,7 @@ public class KafkaProduceTopology {
 		//指定要将消息写入的topic
 		String topic = "storm-topology-test";
 	   	//设置producer属性
-	   	//函数参考：https://kafka.apache.org/0100/javadoc/index.html?org/apache/kafka/clients/consumer/KafkaConsumer.html
+	   	//函数参考：http://kafka.apache.org/0100/javadoc/index.html?org/apache/kafka/clients/consumer/KafkaConsumer.html
 	   	//属性参考：http://kafka.apache.org/0102/documentation.html
 	   	
 	   	Properties props = new Properties();
@@ -259,7 +259,7 @@ public class TridentKafkaProduceTopology {
 		String topic = "storm-trident-test";
 	   	
 	   	//设置producer属性
-	   	//函数参考：https://kafka.apache.org/0100/javadoc/index.html?org/apache/kafka/clients/consumer/KafkaConsumer.html
+	   	//函数参考：http://kafka.apache.org/0100/javadoc/index.html?org/apache/kafka/clients/consumer/KafkaConsumer.html
 	   	//属性参考：http://kafka.apache.org/0102/documentation.html
 	   	Properties props = new Properties();
 	   	props.put("bootstrap.servers", bootstrapServers);

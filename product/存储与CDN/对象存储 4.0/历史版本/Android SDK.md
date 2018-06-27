@@ -2,10 +2,10 @@
 
 ### SDK 获取
 
-对象存储服务的 Android SDK 的下载github地址:[Android SDK](https://github.com/tencentyun/cos_android_sdk/tree/master/COSLibs)。
+对象存储服务的 Android SDK 的下载github地址:[Android SDK](http://github.com/tencentyun/cos_android_sdk/tree/master/COSLibs)。
 对象存储服务的 [Android SDK 本地下载](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/7d016fa85b597d5b788477284545d6a7/cos_android_sdk-master.zip)。
 
-更多示例可参考Demo:[Android SDK Demo](https://github.com/tencentyun/cos_android_sdk/tree/master/Demo)。 
+更多示例可参考Demo:[Android SDK Demo](http://github.com/tencentyun/cos_android_sdk/tree/master/Demo)。 
 （本版本SDK基于JSON API封装组成）
 
 ### 开发准备
@@ -57,7 +57,7 @@ COSClientConfig config = new COSClientConfig();
 |   setSocketTimeout(int socketTimeout)    |                读取超时设置      （毫秒）          |
 | setMaxConnectionsCount(int maxConnectionsCount) |               并发数大小设置                |
 |   setMaxRetryCount(int maxRetryCount)    |               失败请求重试次数               |
-|   setHttpProtocol(String httpProtocol)   | 设置请求协议类型：默认为http请求，即"http://"; 若为https请求,则为 "https://" |
+|   setHttpProtocol(String httpProtocol)   | 设置请求协议类型：默认为http请求，即"http://"; 若为https请求,则为 "http://" |
 
 
 #### 实例化 COSClient

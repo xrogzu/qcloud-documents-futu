@@ -10,7 +10,7 @@
 
 ## 二、计算签名
 签名计算放在前端会暴露 SecretKey，因此我们把签名计算过程放在后端实现，前端通过 AJAX 向后端获取签名结果，正式部署时请在后端加一层您的网站本身的权限检验。
-指引参考 [PHP 和 Node.js 的签名示例](https://github.com/tencentyun/cos-js-sdk-v5/blob/master/server/)，其他语言请参照对应的 [XML SDK 文档](/doc/product/436/6474)。
+指引参考 [PHP 和 Node.js 的签名示例](http://github.com/tencentyun/cos-js-sdk-v5/blob/master/server/)，其他语言请参照对应的 [XML SDK 文档](/doc/product/436/6474)。
 
 ## 三、前端上传
 ### 方案 A：使用 AJAX 上传

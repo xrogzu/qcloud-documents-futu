@@ -33,7 +33,7 @@
  
 输入
 <pre>
-https://domain/v2/index.php?Action=DescribeVpnConnMonitor
+http://domain/v2/index.php?Action=DescribeVpnConnMonitor
 &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
 &vpcId=7
 &vpnGwId=8

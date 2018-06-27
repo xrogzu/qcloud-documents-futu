@@ -2,7 +2,7 @@
 ## 开发准备
 
 ### 相关资源
--[GitHub地址](https://github.com/tencentyun/kms-php-sdk.git) ,欢迎贡献代码以及反馈问题。
+-[GitHub地址](http://github.com/tencentyun/kms-php-sdk.git) ,欢迎贡献代码以及反馈问题。
 
 -[PHP sdk 本地下载]()
 ### 开发环境

@@ -31,13 +31,13 @@ UGC视频上传的整体流程分为如下两步：
 
 ## UGC视频上传签名生成
 
-点播UGC视频上传签名是一段经过[Base64](https://tools.ietf.org/html/rfc4648)编码的二进制串，其中包含的主要信息如下：
+点播UGC视频上传签名是一段经过[Base64](http://tools.ietf.org/html/rfc4648)编码的二进制串，其中包含的主要信息如下：
 
 1. 上传参数信息，包括：
     1. APP的SecretID；
     1. 视频的基本信息，例如视频名称、标签；
     1. 视频上传到点播之后的处理方式，例如是否进行转码、是否进行鉴黄等；
-1. 用SecretKey生成的[HMAC-SHA1](https://www.ietf.org/rfc/rfc2104.txt)签名，点播后台据此来校验UGC上传签名的合法性。
+1. 用SecretKey生成的[HMAC-SHA1](http://www.ietf.org/rfc/rfc2104.txt)签名，点播后台据此来校验UGC上传签名的合法性。
 
 ### 上传参数信息
 
@@ -89,13 +89,13 @@ s=[SecretID]&f=[FileName]&fs=[FileSha]&t=[currentTime]&e=[expiredTime]&r=[rand]&
 
 ### 将明文字符串转化为签名
 
-拼接好签名的明文字符串Original后，用已经获取的SecretKey对明文串进行[HMAC-SHA1](https://www.ietf.org/rfc/rfc2104.txt)加密，得到SignTmp：
+拼接好签名的明文字符串Original后，用已经获取的SecretKey对明文串进行[HMAC-SHA1](http://www.ietf.org/rfc/rfc2104.txt)加密，得到SignTmp：
 
 ```
 SignTmp = HMAC-SHA1(SecretKey, Original) 
 ```
 
-将密文串SignTmp放在明文串Origin前面，拼接后进行[Base64](https://tools.ietf.org/html/rfc4648)编码，得到最终的签名Sign：
+将密文串SignTmp放在明文串Origin前面，拼接后进行[Base64](http://tools.ietf.org/html/rfc4648)编码，得到最终的签名Sign：
 
 ```
 Sign = Base64(append(SignTmp, Original)) 

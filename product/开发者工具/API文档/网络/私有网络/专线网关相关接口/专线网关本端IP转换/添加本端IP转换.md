@@ -46,7 +46,7 @@
 ## 5. 示例
 输入
 ```
-https://vpc.api.qcloud.com/v2/index.php?Action=CreateLocalIPTranslationNatRule
+http://vpc.api.qcloud.com/v2/index.php?Action=CreateLocalIPTranslationNatRule
 &<公共请求参数>
 &vpcId=vpc-csnmo39l
 &directConnectGatewayId=dcg-mm01ughx

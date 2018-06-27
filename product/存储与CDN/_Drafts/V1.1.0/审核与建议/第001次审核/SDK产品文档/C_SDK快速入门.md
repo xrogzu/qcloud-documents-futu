@@ -2,7 +2,7 @@
 
 ### 相关资源
 
-[cos c sdk v5 github项目(to be updated)](https://github.com/tencentyun/cos-c-sdk-v5)
+[cos c sdk v5 github项目(to be updated)](http://github.com/tencentyun/cos-c-sdk-v5)
 
 [C SDK本地下载(to be updated)](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/2549fea204187b28d05fb1ac470f49d4/cos-c-sdk-v5-master.zip)
 
@@ -25,13 +25,13 @@ make install
 make
 make install
 ```
-3. apr（建议 1.5.2 及以上版本），点击[这里](https://apr.apache.org/download.cgi?spm=5176.doc32132.2.9.23MmBq&file=download.cgi)下载，典型安装方式如下：
+3. apr（建议 1.5.2 及以上版本），点击[这里](http://apr.apache.org/download.cgi?spm=5176.doc32132.2.9.23MmBq&file=download.cgi)下载，典型安装方式如下：
 ```bash
 ./configure
 make
 make install
 ```
-4. apr-util（建议 1.5.4 及以上版本），点击[这里](https://apr.apache.org/download.cgi?spm=5176.doc32132.2.10.23MmBq&file=download.cgi)下载，安装时需要指定—with-apr选项，典型安装方式如下：
+4. apr-util（建议 1.5.4 及以上版本），点击[这里](http://apr.apache.org/download.cgi?spm=5176.doc32132.2.10.23MmBq&file=download.cgi)下载，安装时需要指定—with-apr选项，典型安装方式如下：
 ```bash
 ./configure --with-apr=/your/apr/install/path
 make
@@ -48,7 +48,7 @@ sudo make install
 
 - 源码安装
 
-从[cos c sdk v5 github项目(to be updated)](https://github.com/tencentyun/cos-c-sdk-v5)下载源码，典型编译命令如下：
+从[cos c sdk v5 github项目(to be updated)](http://github.com/tencentyun/cos-c-sdk-v5)下载源码，典型编译命令如下：
 ```bash
 cmake .
 make

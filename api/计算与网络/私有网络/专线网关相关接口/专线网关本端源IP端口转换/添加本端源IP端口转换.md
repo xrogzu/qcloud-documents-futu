@@ -42,7 +42,7 @@
 ## 5. 示例
 输入
 <pre>
-https://vpc.api.qcloud.com/v2/index.php?Action=CreateLocalSourceIPPortTranslationNatRule
+http://vpc.api.qcloud.com/v2/index.php?Action=CreateLocalSourceIPPortTranslationNatRule
 &vpcId=vpc-csnmo39l
 &directConnectGatewayId=dcg-mm01ughx
 &localSourceIPPortTranslation.0.translationIPPool=183.12.63.0-183.12.63.20

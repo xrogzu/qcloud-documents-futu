@@ -18,11 +18,11 @@
 <repositories>
     <repository>
         <id>Eclipse Paho Repo</id>
-        <url>https://repo.eclipse.org/content/repositories/paho-releases/</url>
+        <url>http://repo.eclipse.org/content/repositories/paho-releases/</url>
     </repository>
     <repository>
         <id>snapshots-repo</id>
-        <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        <url>http://oss.sonatype.org/content/repositories/snapshots</url>
         <releases>
             <enabled>false</enabled>
         </releases>

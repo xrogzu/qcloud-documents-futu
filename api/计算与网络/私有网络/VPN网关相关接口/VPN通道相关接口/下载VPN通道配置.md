@@ -34,7 +34,7 @@
  
 输入
 <pre>
-  https://domain/v2/index.php?Action=GetVpnConnConfig
+  http://domain/v2/index.php?Action=GetVpnConnConfig
   &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
   &vpnConnId=2
 	&vendorname=cisco

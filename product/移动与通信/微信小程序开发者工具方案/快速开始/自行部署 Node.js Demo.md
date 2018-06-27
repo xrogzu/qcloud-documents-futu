@@ -30,14 +30,14 @@ nginx -v
 
 这个命令会显示 Nginx 的版本号，如果显示如下信息，则安装成功：
 
-<img width="253" alt="nginx" src="https://user-images.githubusercontent.com/3380894/29501809-e0dcde82-865d-11e7-9e94-16ca213439b8.png">
+<img width="253" alt="nginx" src="http://user-images.githubusercontent.com/3380894/29501809-e0dcde82-865d-11e7-9e94-16ca213439b8.png">
 
 ### 安装 Node.js
 
 Wafer 的 Demo 需要 7.6 以上版本的 Node.js 才能运行，目前最新版本为 8.x，`yum` 本身不提供 Node.js 的源，所以首先我们得切换源：
 
 ```bash
-curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -
+curl --silent --location http://rpm.nodesource.com/setup_8.x | sudo bash -
 ```
 
 接着就可以直接通过 `yum` 安装了：
@@ -54,7 +54,7 @@ node -v
 
 该命令会返回当前 Node.js 的版本号，如果你看到了版本号大于 7.6，则 Node.js 安装成功：
 
-<img width="248" alt="node" src="https://user-images.githubusercontent.com/3380894/29501810-e110fa32-865d-11e7-8916-772986a7bacb.png">
+<img width="248" alt="node" src="http://user-images.githubusercontent.com/3380894/29501810-e110fa32-865d-11e7-8916-772986a7bacb.png">
 
 ### 开启 SFTP
 
@@ -66,7 +66,7 @@ service sshd status
 
 看到输出的信息中有 `active (running)` 则表示 `sshd` 进程已经开启，可以通过 sftp 连接：
 
-<img width="570" alt="sshd" src="https://user-images.githubusercontent.com/3380894/29502647-196e5608-8664-11e7-9331-d172d6675d09.png">
+<img width="570" alt="sshd" src="http://user-images.githubusercontent.com/3380894/29502647-196e5608-8664-11e7-9331-d172d6675d09.png">
 
 接下来可以通过 FileZilla、Transmit 等 FTP 工具连接上服务器。
 
@@ -74,7 +74,7 @@ service sshd status
 
 完成以上准备工作，就要开始配置 Nginx 和 HTTPS 了，首先需要申请一个 SSL 证书，可以到云平台[申请免费的 SSL 证书](http://console.tcecqpoc.fsphere.cn/ssl?apply=1)，申请成功之后下载证书，并把压缩包中 Nginx 目录下的证书文件通过 SFTP 上传到服务器的 `/data/release/nginx` 目录，如果没有这个目录则新建：
 
-<img width="476" alt="ssl" src="https://user-images.githubusercontent.com/3380894/29503005-dc1cc412-8666-11e7-8dd3-29052d02554b.png">
+<img width="476" alt="ssl" src="http://user-images.githubusercontent.com/3380894/29503005-dc1cc412-8666-11e7-8dd3-29052d02554b.png">
 
 上传完证书以后，可以开始配置 Nginx，进入服务器的 `/etc/nginx/conf.d` 目录，新建一个 `weapp.conf` 文件，将文件拷贝到本地，打开编辑，写入如下配置（请将配置里 `wx.ijason.cc` 修改为你自己的域名，包括证书文件）：
 
@@ -88,7 +88,7 @@ server {
     listen      80;
     server_name wx.ijason.cc;
 
-    rewrite ^(.*)$ https://$server_name$1 permanent;
+    rewrite ^(.*)$ http://$server_name$1 permanent;
 }
 
 server {
@@ -124,21 +124,21 @@ nginx -t
 
 如果显示如下信息，则配置成功：
 
-<img width="474" alt="nginx-t" src="https://user-images.githubusercontent.com/3380894/29503573-46cfc9d6-866b-11e7-991f-35811dc431c7.png">
+<img width="474" alt="nginx-t" src="http://user-images.githubusercontent.com/3380894/29503573-46cfc9d6-866b-11e7-991f-35811dc431c7.png">
 
 配置成功之后，输入 `nginx` 回车，即可启动 Nginx。
 
 此时通过配置的域名访问服务器，会显示 Nginx 详情页：
 
-<img width="1439" alt="chrome1" src="https://user-images.githubusercontent.com/3380894/29503634-02a94754-866c-11e7-9d03-336bae5a90b7.png">
+<img width="1439" alt="chrome1" src="http://user-images.githubusercontent.com/3380894/29503634-02a94754-866c-11e7-9d03-336bae5a90b7.png">
 
 如果访问 `http://你的域名/weapp/a` 会自动跳转到 HTTPS 上，并显示 `502 Bad Gateway`，则表示配置成功：
 
-<img width="1439" alt="chrome2" src="https://user-images.githubusercontent.com/3380894/29503675-67beaaee-866c-11e7-8b29-6a2938329278.png">
+<img width="1439" alt="chrome2" src="http://user-images.githubusercontent.com/3380894/29503675-67beaaee-866c-11e7-8b29-6a2938329278.png">
 
 ### 上传 Demo 和启动
 
-到 [wafer2-quickstart](https://github.com/tencentyun/wafer2-quickstart) 仓库下载最新的 Demo 代码，修改 `server/config.js`：
+到 [wafer2-quickstart](http://github.com/tencentyun/wafer2-quickstart) 仓库下载最新的 Demo 代码，修改 `server/config.js`：
 
 ```javascript
 const CONF = {
@@ -205,11 +205,11 @@ module.exports = CONF
 
 接着将 `server` 目录下的所有文件都上传到 `/data/release/weapp` 目录下：
 
-<img width="378" alt="server" src="https://user-images.githubusercontent.com/3380894/29507314-1bc9cc52-8682-11e7-8820-c8bb9bead907.png">
+<img width="378" alt="server" src="http://user-images.githubusercontent.com/3380894/29507314-1bc9cc52-8682-11e7-8820-c8bb9bead907.png">
 
 使用 SSH 切换到代码目录：
 
-<img width="422" alt="cd" src="https://user-images.githubusercontent.com/3380894/29507384-65b91426-8682-11e7-8efc-157fc6124b7e.png">
+<img width="422" alt="cd" src="http://user-images.githubusercontent.com/3380894/29507384-65b91426-8682-11e7-8efc-157fc6124b7e.png">
 
 输入以下命令切换 `npm` 源到云平台镜像，防止官方镜像下载失败：
 
@@ -231,7 +231,7 @@ npm install
 
 接着对数据库进行初始化，进入[云数据库](http://console.tcecqpoc.fsphere.cn/cdb)控制台，点击要使用的云数据库进去，再点击右上角“登录数据库”按钮。在弹出的页面中输入数据库账号密码进入数据库管理控制台，点击菜单栏的“返回 PMA”，在界面中点击左侧栏中的“新建”，输入数据库名为 `cAuth`，排序规则为 `utf8mb4_unicode_ci`，点击“创建”创建数据库：
 
-<img width="1192" alt="pma" src="https://user-images.githubusercontent.com/3380894/29507971-27c68e8e-8685-11e7-91f3-bf384fc6b545.png">
+<img width="1192" alt="pma" src="http://user-images.githubusercontent.com/3380894/29507971-27c68e8e-8685-11e7-91f3-bf384fc6b545.png">
 
 接着返回 SSH，使用 Demo 代码里的 `tools/initdb.js` 工具初始化数据库：
 

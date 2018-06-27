@@ -22,7 +22,7 @@ end
 **- 方案二：** 使用pod官方的路径，支持选择版本号，比如 `pod 'TXLiteAVSDK_Smart', '3.9.2749'`
 
 ```
-source 'https://github.com/CocoaPods/Specs.git'
+source 'http://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 
 target 'test' do

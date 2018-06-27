@@ -24,11 +24,11 @@
 
 ```
 <pre>
-  https://cfs.test.api.qcloud.com/v2/index.php?Action=QueryCfsRule
+  http://cfs.test.api.qcloud.com/v2/index.php?Action=QueryCfsRule
   &Uin=2779000000
   &AppId=12500000000
   &PGroupId=pgroup-atutdqup
-  &<<a href="https://www.tce.fsphere.cn/doc/api/229/6976"> 公共请求参数 </a>>
+  &<<a href="http://www.tce.fsphere.cn/doc/api/229/6976"> 公共请求参数 </a>>
 </pre>
 ```
 

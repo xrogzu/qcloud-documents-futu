@@ -13,7 +13,7 @@
 
 http://aiconsole.tce.fsphere.cn/fuseapi/face
 
-https://aiconsole.tce.fsphere.cn/fuseapi/face
+http://aiconsole.tce.fsphere.cn/fuseapi/face
 
 
 ## 请求包 header

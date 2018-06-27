@@ -1,5 +1,5 @@
 ## 步骤一：登录弹性 MapReduce 控制台
-登录 [弹性 MapReduce](https://emr.qcloud.com) 管理控制台（确保已完成 [准备工作](http://tcecqpoc.fsphere.cn/document/product/589/10840?!preview&lang=cn)） 。
+登录 [弹性 MapReduce](http://emr.qcloud.com) 管理控制台（确保已完成 [准备工作](http://tcecqpoc.fsphere.cn/document/product/589/10840?!preview&lang=cn)） 。
 ## 步骤二：创建弹性 MapReduce 集群
 单击左上角【集群创建】按钮，开始创建集群。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/57a40ab2b18b3e9bed469f1bce52294b/image.png)

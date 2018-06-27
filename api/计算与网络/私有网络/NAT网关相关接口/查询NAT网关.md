@@ -53,7 +53,7 @@
 ## 5. 示例
 输入
 <pre>
-https://vpc.api.qcloud.com/v2/index.php?Action=DescribeNatGateway
+http://vpc.api.qcloud.com/v2/index.php?Action=DescribeNatGateway
 &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
 &vpcId=vpc-8e0ypm3z
 </pre>

@@ -26,7 +26,7 @@ vod.api.qcloud.com
 ### 请求示例
 
 ```
-https://vod.api.qcloud.com/v2/index.php?Action=DescribeRecordPlayInfo
+http://vod.api.qcloud.com/v2/index.php?Action=DescribeRecordPlayInfo
 &vid=1200_c5997fa0f77745a49824150da4e4a6cc
 &COMMON_PARAMS
 ```

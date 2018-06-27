@@ -5,8 +5,8 @@
 本章节主要讲述AVSDK和服务器端的整体集成流程，IM相关请前往[直播场景下的IM集成方案](/doc/product/269/%E7%9B%B4%E6%92%AD%E5%9C%BA%E6%99%AF%E4%B8%8B%E7%9A%84IM%E9%9B%86%E6%88%90%E6%96%B9%E6%A1%88)
 
 客户端集成可参见[集成文档](/doc/product/268/%E8%B0%83%E7%94%A8%E6%B5%81%E7%A8%8B%EF%BC%88Android%EF%BC%89)
-或参考集成Demo“随心播”（[Android下载](http://android.myapp.com/myapp/detail.htm?apkName=com.tencent.qcloud.suixinbo)、[iOS下载](https://itunes.apple.com/cn/app/sui-xin-bo/id1037944078?mt=8))
-Demo源码及源码导读可参见github（[Android源码](https://github.com/zhaoyang21cn/Android_Suixinbo)、 [iOS源码](https://github.com/zhaoyang21cn/iOS_Suixinbo)、 [服务端源码](https://github.com/zhaoyang21cn/SuiXinBoPHPServer) )
+或参考集成Demo“随心播”（[Android下载](http://android.myapp.com/myapp/detail.htm?apkName=com.tencent.qcloud.suixinbo)、[iOS下载](http://itunes.apple.com/cn/app/sui-xin-bo/id1037944078?mt=8))
+Demo源码及源码导读可参见github（[Android源码](http://github.com/zhaoyang21cn/Android_Suixinbo)、 [iOS源码](http://github.com/zhaoyang21cn/iOS_Suixinbo)、 [服务端源码](http://github.com/zhaoyang21cn/SuiXinBoPHPServer) )
 
 **！注意：一定要看随心播的源码导读**
 
@@ -95,7 +95,7 @@ AVSDK提供摄像头采集、编码、解码、美颜等一系列功能（下图
 ## 视频连麦
 连麦功能是云平台互动直播SDK在直播场景下推出的特色功能，可供主播和某一（多）观众进行视频连线，相互交流，其它的观众可看到主播和被邀请的观众的音视频画面（映客、聚美优品等App均实现了该功能）
 
-可下载随心播进行体验，并可参考随心播封装代码（[Android下载](http://android.myapp.com/myapp/detail.htm?apkName=com.tencent.qcloud.suixinbo)、[iOS下载](https://itunes.apple.com/cn/app/sui-xin-bo/id1037944078?mt=8))
+可下载随心播进行体验，并可参考随心播封装代码（[Android下载](http://android.myapp.com/myapp/detail.htm?apkName=com.tencent.qcloud.suixinbo)、[iOS下载](http://itunes.apple.com/cn/app/sui-xin-bo/id1037944078?mt=8))
 
 上麦的实现流程如下：
 ![邀请上麦](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/94595a0b1a426415c39b4e81e085c255/image.png)

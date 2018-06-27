@@ -126,7 +126,7 @@ dependencies {
 
 #### 1. 注册应用
 
-到 [微信开放平台](https://open.weixin.qq.com/cgi-bin/index?t=home/index&lang=zh_CN) 注册应用，并且获取应用登录能力。
+到 [微信开放平台](http://open.weixin.qq.com/cgi-bin/index?t=home/index&lang=zh_CN) 注册应用，并且获取应用登录能力。
 
 #### 2. 配置应用
 
@@ -148,7 +148,7 @@ dependencies {
 
 #### 1. 注册应用
 
-先要在 [QQ 互联平台](https://connect.qq.com/) 注册应用。
+先要在 [QQ 互联平台](http://connect.qq.com/) 注册应用。
 
 #### 2. 配置应用
 
@@ -194,6 +194,6 @@ qq支付没有远程依赖，只能从 [mqqopenpay.jar](http://tac-android-libs-
 
 然后真正的支付流程大概是这样的，
 
-![支付过程](https://tacimg-1253960454.cos.ap-guangzhou.myqcloud.com/guides/payment/payment%E6%95%B4%E4%BD%93%E6%B5%81%E7%A8%8B.png)
+![支付过程](http://tacimg-1253960454.cos.ap-guangzhou.myqcloud.com/guides/payment/payment%E6%95%B4%E4%BD%93%E6%B5%81%E7%A8%8B.png)
 
 具体的 API 调用可以参考下官方的 [编程指南](http://tcecqpoc.fsphere.cn/document/product/666/14594)。

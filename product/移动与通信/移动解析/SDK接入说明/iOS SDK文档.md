@@ -4,7 +4,7 @@
 
 您可以通过以下方式获取智营解析 iOS SDK：
 
-[从 Github 获取最新版本SDK >>](https://github.com/tencentyun/httpdns-ios-sdk)
+[从 Github 获取最新版本SDK >>](http://github.com/tencentyun/httpdns-ios-sdk)
 [点击下载 iOS SDK >>](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/9381e78fd2f0c26f3532b67a7579ff59/httpdns-ios-sdk-master.zip)
 
 注意：

@@ -90,7 +90,7 @@ statisticsType.m.statistics 和  statisticsType.m.period 填写时，为该指�
 输入
 
 <pre>
- https://monitor.api.qcloud.com/v2/index.php?Action=CreateMetric
+ http://monitor.api.qcloud.com/v2/index.php?Action=CreateMetric
  &namespace=name1
  &metricName=metric1
  &metricCname=metric_cn

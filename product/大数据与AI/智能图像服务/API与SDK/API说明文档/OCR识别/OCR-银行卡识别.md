@@ -13,7 +13,7 @@
 
 `http://recognition.image.myqcloud.com/ocr/bankcard`
 
-`https://recognition.image.myqcloud.com/ocr/bankcard`
+`http://recognition.image.myqcloud.com/ocr/bankcard`
 
 ## 请求方式
 

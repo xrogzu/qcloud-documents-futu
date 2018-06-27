@@ -34,7 +34,7 @@
  
 输入
 ```
-  https://domain/v2/index.php?Action=GetVpnConnConfig
+  http://domain/v2/index.php?Action=GetVpnConnConfig
   &<公共请求参数>
   &vpnConnId=2
 	&vendorname=cisco

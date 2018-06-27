@@ -1,5 +1,5 @@
 ## 说明
-DockerHub 提供了大量的镜像可用，详情可查看 [DockerHub 官网](https://hub.docker.com/)。
+DockerHub 提供了大量的镜像可用，详情可查看 [DockerHub 官网](http://hub.docker.com/)。
 
 Docker 容器的设计宗旨是让用户在相对独立的环境中运行独立的程序。
 
@@ -14,7 +14,7 @@ Docker 生成镜像目前有两种方式：
 
 
 ## Dockerfile 自动编译生成（推荐使用）
-以 Dockerhub 官方提供的 WordPress 为例，[转到 github 查看详情 >>](https://github.com/docker-library/wordpress/blob/7d40c4237f01892bb6dbc67d1a82f5b15f807ca1/php5.6/apache/Dockerfile)
+以 Dockerhub 官方提供的 WordPress 为例，[转到 github 查看详情 >>](http://github.com/docker-library/wordpress/blob/7d40c4237f01892bb6dbc67d1a82f5b15f807ca1/php5.6/apache/Dockerfile)
 
 其 Dockfile 源码如下：
 ```shell
@@ -26,7 +26,7 @@ RUN apt-get update && apt-get install -y libpng12-dev libjpeg-dev && rm -rf /var
 	&& docker-php-ext-install gd mysqli opcache
 
 # set recommended PHP.ini settings
-# see https://secure.php.net/manual/en/opcache.installation.php
+# see http://secure.php.net/manual/en/opcache.installation.php
 RUN { \
 		echo 'opcache.memory_consumption=128'; \
 		echo 'opcache.interned_strings_buffer=8'; \
@@ -44,7 +44,7 @@ ENV WORDPRESS_VERSION 4.6.1
 ENV WORDPRESS_SHA1 027e065d30a64720624a7404a1820e6c6fff1202
 
 RUN set -x \
-	&& curl -o wordpress.tar.gz -fSL "https://wordpress.org/wordpress-${WORDPRESS_VERSION}.tar.gz" \
+	&& curl -o wordpress.tar.gz -fSL "http://wordpress.org/wordpress-${WORDPRESS_VERSION}.tar.gz" \
 	&& echo "$WORDPRESS_SHA1 *wordpress.tar.gz" | sha1sum -c - \
 # upstream tarballs include ./wordpress/ so this gives us /usr/src/wordpress
 	&& tar -xzf wordpress.tar.gz -C /usr/src/ \

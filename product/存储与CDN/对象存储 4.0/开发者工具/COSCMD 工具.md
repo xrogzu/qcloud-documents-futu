@@ -10,7 +10,7 @@ Python 2.7
 环境安装与配置详细操作请参考 [Python 安装与配置](http://tcecqpoc.fsphere.cn/document/product/436/10866)。
 ## 下载与安装
 - **手动安装**
-下载链接：[GitHub 链接](https://github.com/tencentyun/coscmd.git)
+下载链接：[GitHub 链接](http://github.com/tencentyun/coscmd.git)
 在该项目根目录下使用如下命令安装：
 ```
 python setup.py install

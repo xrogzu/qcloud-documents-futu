@@ -30,7 +30,7 @@ vod.api.qcloud.com
 ### 请求示例一：时间偏移都为正数
 期望生成的目标文件为源文件的第2秒到第10秒的视频内容，请求示例如下：
 ```
-https://vod.api.qcloud.com/v2/index.php?Action=SimpleClipHls
+http://vod.api.qcloud.com/v2/index.php?Action=SimpleClipHls
 &srcFileId=16092504232103571364
 &newFileName=cutFileName
 &startTimeOffset=2
@@ -41,7 +41,7 @@ https://vod.api.qcloud.com/v2/index.php?Action=SimpleClipHls
 ### 请求示例二：时间偏移有负数
 期望生成的目标文件不包含源文件开始2秒和结束5秒的内容
 ```
-https://vod.api.qcloud.com/v2/index.php?Action=SimpleClipHls
+http://vod.api.qcloud.com/v2/index.php?Action=SimpleClipHls
 &srcFileId=16092504232103571364
 &newFileName=cutFileName
 &startTimeOffset=2

@@ -35,7 +35,7 @@
 > * 位于 `www.a.com` 域中的SWF文件要访问 `www.b.com` 的文件时，SWF首先会检查 `www.a.com `服务器根目录下是否有 crossdomain.xml 文件，如果没有，则访问不成功；若 crossdomain.xml 文件存在，且里边设置了允许 `www.a.com` 域访问，那么通信正常。
 > * 这里要区分 SWF 文件的域名和嵌入 SWF 文件的页面域名，crossdomain.xml 中配置的是 SWF 文件的域名。
 
-在 PC 端的现代浏览器使用 HTML5 播放 hls、flv 时，视频服务器需要配置跨域资源共享 [CORS](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS)。
+在 PC 端的现代浏览器使用 HTML5 播放 hls、flv 时，视频服务器需要配置跨域资源共享 [CORS](http://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS)。
 正常情况下云平台服务会自动配置这两项跨域策略，如遇到异常情况请联系客服。
 
 **解决方案：**视频存储服务器需要部署 corssdomain.xml 文件并配置正确的访问策略，以及开启 CORS 支持。
@@ -84,7 +84,7 @@ HLS加密视频的播放流程有别于常规视频，通常需要确保获取 K
 ### 视频激活播放后强制全屏
 **问题表现：**在点击视频激活播放后，直接全屏播放，通常出现在 Android iOS 的微信、手机 QQ、QQ 浏览器等浏览器中。
 
-**解决方案：**如需实现页面内（非全屏）播放，需要在 video 标签中加入 playinline 和 webkit-playinline 属性，云平台播放器默认会在`<Vdieo>`标签中加上 playinline 和 webkit-playinline 属性。iOS10+ 识别 playinline 属性，版本小于 10 的系统识别 webkit-playinline 属性。经测试，在 iOS Safari 中可以实现页面内（内联）播放。Android 端识别 webkit-playinline，但是由于 Android 的开放性，出现了许多定制浏览器，这些属性不一定生效，比如，在 TBS 内核的浏览器（包括不限于 Android：微信、手机 QQ，QQ 浏览器）中，可能需要使用同层播放器属性（ [接入文档](https://x5.tencent.com/tbs/guide/video.html) 、[使用说明](https://x5.tencent.com/tbs/guide/web/x5-video.html)），避免系统强制全屏视频。
+**解决方案：**如需实现页面内（非全屏）播放，需要在 video 标签中加入 playinline 和 webkit-playinline 属性，云平台播放器默认会在`<Vdieo>`标签中加上 playinline 和 webkit-playinline 属性。iOS10+ 识别 playinline 属性，版本小于 10 的系统识别 webkit-playinline 属性。经测试，在 iOS Safari 中可以实现页面内（内联）播放。Android 端识别 webkit-playinline，但是由于 Android 的开放性，出现了许多定制浏览器，这些属性不一定生效，比如，在 TBS 内核的浏览器（包括不限于 Android：微信、手机 QQ，QQ 浏览器）中，可能需要使用同层播放器属性（ [接入文档](http://x5.tencent.com/tbs/guide/video.html) 、[使用说明](http://x5.tencent.com/tbs/guide/web/x5-video.html)），避免系统强制全屏视频。
 
 如果已配置以上提到的属性仍会强制全屏，则通用解决方案无效，需要浏览器方厂商提供解决方案。
 

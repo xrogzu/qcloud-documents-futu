@@ -1,6 +1,6 @@
 ## 开发前准备
 ### 相关资源
-对象存储服务的 XML JAVA SDK 资源下载地址：[XML JAVA SDK](https://github.com/tencentyun/cos-java-sdk-v5)。
+对象存储服务的 XML JAVA SDK 资源下载地址：[XML JAVA SDK](http://github.com/tencentyun/cos-java-sdk-v5)。
 ### 环境依赖
 
 - SDK 支持 JDK 1.7, 1.8 及以上版本。
@@ -23,7 +23,7 @@
 ```
 
 - 源码安装
-从 [XML JAVA SDK](https://github.com/tencentyun/cos-java-sdk-v5) 下载源码，通过 maven 导入。比如 eclipse，依次选择 File->Import->maven->Existing Maven Projects。
+从 [XML JAVA SDK](http://github.com/tencentyun/cos-java-sdk-v5) 下载源码，通过 maven 导入。比如 eclipse，依次选择 File->Import->maven->Existing Maven Projects。
 
 ###  卸载 SDK
 卸载 SDK 的方式即删除 pom 依赖或源码。
@@ -37,7 +37,7 @@
 ```java
 // 1 初始化身份信息(appid, secretId, secretKey)
 COSCredentials cred = new BasicCOSCredentials("1250000", "AKIDXXXXXXXX", "1A2Z3YYYYYYYYYY");
-// 2 设置 bucket 的区域, COS 地域的简称请参照 https://www.qcloud.com/document/product/436/6224
+// 2 设置 bucket 的区域, COS 地域的简称请参照 http://www.qcloud.com/document/product/436/6224
 ClientConfig clientConfig = new ClientConfig(new Region("ap-beijing-1"));
 // 3 生成 cos 客户端
 COSClient cosClient = new COSClient(cred, clientConfig);

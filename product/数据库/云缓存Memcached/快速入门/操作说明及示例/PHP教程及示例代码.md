@@ -3,8 +3,8 @@
 
 依赖: 安装[[PHP-Memcache-3.0.6+](http://php.net/manual/zh/book.memcache.php)]或者[[PHP-Memcached-1.0.2+](http://php.net/manual/zh/book.memcached.php)]扩展.
 
-[[php-memcache GitHub源码](https://github.com/tricky/php-memcache)]
-[[php-memcached GitHub源码](https://github.com/php-memcached-dev/php-memcached)]
+[[php-memcache GitHub源码](http://github.com/tricky/php-memcache)]
+[[php-memcached GitHub源码](http://github.com/php-memcached-dev/php-memcached)]
 ## 2 使用步骤
 
 在云平台 CVM 上部署好 Apache+PHP 环境并安装好 PHP-Memcache 或者 PHP-Memcached 扩展.
@@ -13,7 +13,7 @@
 
 ## 3 代码示例 PHP-Memcache
 
-[[GitHub 代码参考]](https://github.com/tricky/php-memcache/blob/master/example.php)
+[[GitHub 代码参考]](http://github.com/tricky/php-memcache/blob/master/example.php)
 
 ```
 <?php
@@ -28,7 +28,7 @@ $cache->close();
 ```
 ## 4 代码示例 PHP-Memcached
 
-[[GitHub 代码参考]](https://github.com/php-memcached-dev/php-memcached/blob/master/server-example/test-server.php)
+[[GitHub 代码参考]](http://github.com/php-memcached-dev/php-memcached/blob/master/server-example/test-server.php)
 
 ```
 <?php

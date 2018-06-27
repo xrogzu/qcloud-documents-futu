@@ -1,6 +1,6 @@
 说明：本文档用来指导用户使用直播软件XSplit进行直播发布。
 1.	下载XSplit并注册帐号
-登录网站https://www.xsplit.com/download，下载XSplit，选择XSplit Broadcast进行下载
+登录网站http://www.xsplit.com/download，下载XSplit，选择XSplit Broadcast进行下载
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/XSplit-1.png)
 右上角点击注册帐号的接口，然后去邮箱激活。下载完成后，安装软件，打开软件，输入账号密码登录。在登录后会提示购买软件，等几秒后点击右下角Continue即可，若有更多功能需要，可以购买该软件。下图是登陆成功后的主界面。
 2.	添加直播资源

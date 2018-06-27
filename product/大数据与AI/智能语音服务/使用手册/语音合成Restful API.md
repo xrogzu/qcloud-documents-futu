@@ -19,7 +19,7 @@
 
 其中，URL 的结构为 ：
 ```
-https://aai.qcloud.com/tts/v1/<appid>?
+http://aai.qcloud.com/tts/v1/<appid>?
 projectid=xxx&
 sub_service_type=xxx&
 speech_format=xxx&
@@ -61,7 +61,7 @@ HTTPS  Headers 的结构如下：
 
 下列示例中，<箭头括号>表示必须替换为有效值的变量。请求 Host 与路径：
 ```
-https://aai.qcloud.com/tts/v1/<appid>?
+http://aai.qcloud.com/tts/v1/<appid>?
 ```
 请求参数： 
 ```

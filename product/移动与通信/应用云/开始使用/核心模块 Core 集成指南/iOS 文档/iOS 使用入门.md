@@ -18,7 +18,7 @@
 
 创建好应用后，您可以点击红框中的【tac\_services\_configurations.zip】来下载该应用的配置文件的压缩包：
 
-![](https://ws2.sinaimg.cn/large/006tNc79gy1fq0pubol92j31kw093gnw.jpg)
+![](http://ws2.sinaimg.cn/large/006tNc79gy1fq0pubol92j31kw093gnw.jpg)
 
 解压后将 tac_services_configurations.plist 文件集成进项目中。其中有一个  tac_services_configurations_unpackage.plist 文件，请将该文件放到您工程的根目录下面(**切记不要将改文件添加进工程中**)。 添加好配置文件后，继续点击【下一步】。
 
@@ -60,8 +60,8 @@ $ pod init
 并在您的 Podfile 文件中添加移动开发平台（MobileLine）的私有源：
 
 ~~~
-source "https://git.tce.fsphere.cn/qcloud_u/cocopoads-repo"
-source "https://github.com/CocoaPods/Specs"
+source "http://git.tce.fsphere.cn/qcloud_u/cocopoads-repo"
+source "http://github.com/CocoaPods/Specs"
 ~~~
 
 如果您想集成我们的各种服务，那么您只需要在 Podfile 中添加对应的服务依赖即可：
@@ -250,7 +250,7 @@ MobileLine iOS SDK 会自动帮您启动对应的服务，比如分析（Analyti
 
 ### 了解 MobileLine：
 
-- 查看 [MoblieLine 应用示例](https://github.com/tencentyun/qcloud-sdk-ios-samples/tree/master/MobileLineDemo)
+- 查看 [MoblieLine 应用示例](http://github.com/tencentyun/qcloud-sdk-ios-samples/tree/master/MobileLineDemo)
 
 ### 向您的应用添加 MobileLine 功能：
 

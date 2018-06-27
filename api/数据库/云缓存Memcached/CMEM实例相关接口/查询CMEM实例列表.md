@@ -66,7 +66,7 @@
  
 输入
 <pre>
-  https://cmem.api.qcloud.com/v2/index.php?Action=DescribeCmem
+  http://cmem.api.qcloud.com/v2/index.php?Action=DescribeCmem
   &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
   &limit=10
   &offset=0

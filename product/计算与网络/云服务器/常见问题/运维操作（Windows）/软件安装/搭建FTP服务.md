@@ -3,7 +3,7 @@
 
 ## 软件下载
  - FileZilla 客户端是一个快速可靠的、跨平台的 FTP 、 FTPS 和 SFTP 客户端。具有图形用户界面( GUI ) 和很多特性。易于使用，支持多种协议，本例使用 FileZilla 客户端进行配置演示和操作测试。
- - 登录云服务器，在浏览器中进入官网下载 FileZilla Server 。官方下载地址： `https://sourceforge.net/projects/filezilla/files/FileZilla%20Server/`
+ - 登录云服务器，在浏览器中进入官网下载 FileZilla Server 。官方下载地址： `http://sourceforge.net/projects/filezilla/files/FileZilla%20Server/`
 
 ## 安装配置
  1. 下载完成后启动安装程序，阅读许可协议，单击【I Agree】进入下一步安装；选择安装内容，默认安装标准即可，单击【Next】（其中 Source Code 是源代码，不需要勾选）。

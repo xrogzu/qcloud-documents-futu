@@ -8,7 +8,7 @@ DeleteBmSslVpnGw 用于删除黑石sslvpn网关。
 
 语法示例：
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=DeleteBmSslVpnGw
+GET http://bmvpc.api.qcloud.com/v2/index.php/?Action=DeleteBmSslVpnGw
     &<公共请求参数>
     &unVpcId=<私有网络唯一ID>
     &vpnGwId=<sslvpn网关唯一ID>
@@ -52,7 +52,7 @@ GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=DeleteBmSslVpnGw
 ## 实际案例
 ### 请求
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?
+GET http://bmvpc.api.qcloud.com/v2/index.php?
 	Action=DeleteBmSslVpnGw
 	&SecretId=AKIDlfdHxN0ntSVt4KPH0xXWnGl21UUFNoO5
 	&Nonce=11362

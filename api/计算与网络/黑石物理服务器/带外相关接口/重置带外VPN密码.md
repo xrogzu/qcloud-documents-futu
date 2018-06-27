@@ -11,7 +11,7 @@ SetOutBandVPNAuthPwd接口用于设置带外VPN认证用户密码。
 ## 请求
 ### 请求示例
 ```
-GET https://bmeip.api.qcloud.com/v2/index.php?
+GET http://bmeip.api.qcloud.com/v2/index.php?
 	&Action=SetOutBandVPNAuthPwd
 	&<公共请求参数>
 	&password=<vpn用户密码>
@@ -61,7 +61,7 @@ GET https://bmeip.api.qcloud.com/v2/index.php?
 
 ### 输入
 ```
-GET https://bm.api.qcloud.com/v2/index.php?
+GET http://bm.api.qcloud.com/v2/index.php?
 	Action=SetOutBandVPNAuthPwd
 	&SecretId=AKIDlfdHxN0ntSVt4KPH0xXWnGl21UUFNoO5
 	&Nonce=52684

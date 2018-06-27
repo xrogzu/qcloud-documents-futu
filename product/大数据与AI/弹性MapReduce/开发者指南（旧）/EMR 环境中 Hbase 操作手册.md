@@ -79,13 +79,13 @@ public static void createTable(String tableName, String[] familys) throws IOExce
   }
 }
 ```
-更多资料请参考 [Apache Hbase APIs](https://hbase.apache.org/book.html#_examples)。
+更多资料请参考 [Apache Hbase APIs](http://hbase.apache.org/book.html#_examples)。
 ### Hbase 和 MapReduce
-请参考 [Hbase and MapReduce](https://hbase.apache.org/book.html#mapreduce)。
+请参考 [Hbase and MapReduce](http://hbase.apache.org/book.html#mapreduce)。
 ### 通过 Phoenix 以 SQL 的形式访问 Hbase 集群
 下载 Phoenix 安装包：
 ```
-wget https://mirrors.tuna.tsinghua.edu.cn/apache/phoenix/
+wget http://mirrors.tuna.tsinghua.edu.cn/apache/phoenix/
       apache-phoenix-4.8.2-HBase-1.2/bin/
       apache-phoenix-4.8.2-HBase-1.2-bin.tar.gz
 ```

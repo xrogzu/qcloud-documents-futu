@@ -43,7 +43,7 @@
 输入
 
 ```
-https://wenzhi.api.qcloud.com/v2/index.php?
+http://wenzhi.api.qcloud.com/v2/index.php?
 	Action=TextSensitivity
 	&Nonce=345122
 	&Region=sz

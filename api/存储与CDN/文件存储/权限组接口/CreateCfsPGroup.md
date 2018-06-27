@@ -23,12 +23,12 @@
 
 ```
 <pre>
-  https://cfs.test.api.tce.fsphere.cn/v2/index.php?Action=CreateCfsPGroup&SecretId=1
+  http://cfs.test.api.tce.fsphere.cn/v2/index.php?Action=CreateCfsPGroup&SecretId=1
   &Uin=277000000
   &AppId=1250000000
   &Name=helloworld1112
   &DescInfo=justfortest11
-  &<<a href="https://www.tce.fsphere.cn/doc/api/229/6976"> 公共请求参数 </a>>
+  &<<a href="http://www.tce.fsphere.cn/doc/api/229/6976"> 公共请求参数 </a>>
 </pre>
 ```
 

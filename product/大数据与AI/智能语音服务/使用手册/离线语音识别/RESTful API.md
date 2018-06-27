@@ -15,7 +15,7 @@
 
 其中，URL 的结构为 ：
 ```
-https://aai.qcloud.com/asr/v1/appid?
+http://aai.qcloud.com/asr/v1/appid?
 projectid=xxx&
 sub_service_type=x&
 engine_model_type=x&
@@ -219,7 +219,7 @@ echo "sig_str: $sig_str\n";
 $signature = base64_encode(hash_hmac("sha1", $sig_str, $secretkey, TRUE));
 echo "signature: $signature\n";
 
-$req_url = "https://$req_url?$arg_str";
+$req_url = "http://$req_url?$arg_str";
 echo "curl -sv -H 'Authorization:$signature' '$req_url' -d ''\n";
 
 ```

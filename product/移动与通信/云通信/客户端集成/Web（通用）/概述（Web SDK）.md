@@ -24,7 +24,7 @@ Demo 主要JS文件功能说明如下：
 
 ```
 <!--TLS web sdk(只用于托管模式，独立模式不用引入)-->
-<script type="text/javascript" src="https://tls.qcloud.com/libs/api.min.js"></script>
+<script type="text/javascript" src="http://tls.qcloud.com/libs/api.min.js"></script>
 <!--用于获取文件MD5 js api(发送图片时用到)-->
 <script type="text/javascript" src="js/lib/md5/spark-md5.js"></script>
 <!--web im sdk-->
@@ -97,7 +97,7 @@ Demo 主要JS文件功能说明如下：
 此外，如果业务的帐号体系是托管模式，还需要引入TLS web sdk：
 ```
 <!--TLS web sdk(只用于托管模式，独立模式不用引入)-->
-<script type="text/javascript" src="https://tls.qcloud.com/libs/api.min.js"></script>
+<script type="text/javascript" src="http://tls.qcloud.com/libs/api.min.js"></script>
 ```
 
 **说明：**如果帐号采用的是独立模式，开发者需要在自己的服务器调用TLS API生成用户票据，然后调用ImSdk提供的接口进行相关操作。

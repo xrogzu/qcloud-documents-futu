@@ -58,7 +58,7 @@
 
 ## 5. 示例
 <pre>
-https://redis.api.qcloud.com/v2/index.php?Action=ModfiyRedisPassword
+http://redis.api.qcloud.com/v2/index.php?Action=ModfiyRedisPassword
 &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
 &redisId=crs-ifmymj41
 &oldPassword=49A2d!e@f12e

@@ -1067,7 +1067,7 @@ TIMManager.getInstance().setOfflinePushToken(param);
 >注：
 1. 收到离线消息时，默认通知标题为`a new message`。
 2. 魅族官方建议在Flyme OS 5.0以上设备上获得最佳效果。
-2. 此文档是根据魅族推送PushSDK3.6来编写的，可能不适用于后续的新版本推送SDK，新版本推送SDK的接入请直接参考[魅族官方接入文档](https://github.com/MEIZUPUSH/PushDemo)。
+2. 此文档是根据魅族推送PushSDK3.6来编写的，可能不适用于后续的新版本推送SDK，新版本推送SDK的接入请直接参考[魅族官方接入文档](http://github.com/MEIZUPUSH/PushDemo)。
 3. 如果不需要对华为设备做专门的离线推送适配，可以忽略此章节。
 
 
@@ -1087,7 +1087,7 @@ dependencies {
 }
 ```
 
-如果你需要使用jar,请参考 [Eclipse接入方式](https://comsince.github.io/2017/02/21/mzpushsdk-eclipse/)。
+如果你需要使用jar,请参考 [Eclipse接入方式](http://comsince.github.io/2017/02/21/mzpushsdk-eclipse/)。
 
 ### 6.3 兼容flyme5以下版本推送兼容配置
 

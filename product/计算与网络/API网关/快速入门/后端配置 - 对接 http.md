@@ -1,7 +1,7 @@
 配置说明：
 1）后端对接 http 时，需要选择您的后端类型为 http 或 https。
 
-2）输入后端地址，以 `http://` 或 `https://` 开头，不包括后面的路径，例如 `http://api.myservice.com` 或 `http://108.160.162.30`。
+2）输入后端地址，以 `http://` 或 `http://` 开头，不包括后面的路径，例如 `http://api.myservice.com` 或 `http://108.160.162.30`。
 
 3）输入后端路径以 / 开头，如 `/path` 或 `/path/{petid}`。
 

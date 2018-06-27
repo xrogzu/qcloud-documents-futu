@@ -1,10 +1,10 @@
 ## 开发准备
 ### SDK 获取
-对象存储服务的 XML JS SDK 资源下载地址：[XML Node.js SDK](https://github.com/tencentyun/cos-nodejs-sdk-v5) 。
-演示示例 Demo 下载地址：[XML Node.js SDK Demo](https://github.com/tencentyun/cos-nodejs-sdk-v5/tree/master/demo) 。
+对象存储服务的 XML JS SDK 资源下载地址：[XML Node.js SDK](http://github.com/tencentyun/cos-nodejs-sdk-v5) 。
+演示示例 Demo 下载地址：[XML Node.js SDK Demo](http://github.com/tencentyun/cos-nodejs-sdk-v5/tree/master/demo) 。
 
 ### npm 引入
-开发前需先安装环境依赖： [npm 地址](https://www.npmjs.com/package/cos-nodejs-sdk-v5)
+开发前需先安装环境依赖： [npm 地址](http://www.npmjs.com/package/cos-nodejs-sdk-v5)
  
 ```
 npm i cos-nodejs-sdk-v5 --save
@@ -45,6 +45,6 @@ cos.sliceUploadFile({
 ```
 
 ## 相关文档 
-更多例子请参阅 [XML Node.js SDK](https://github.com/tencentyun/cos-nodejs-sdk-v5) 。
+更多例子请参阅 [XML Node.js SDK](http://github.com/tencentyun/cos-nodejs-sdk-v5) 。
 完整接口文档请参阅 [Node.js SDK 接口文档](http://tcecqpoc.fsphere.cn/document/product/436/8629)。
 

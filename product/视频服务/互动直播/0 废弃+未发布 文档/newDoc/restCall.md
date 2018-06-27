@@ -24,8 +24,8 @@ URL的格式为：`/ver/servicename/command?parameter/`，其中`ver`为版本�
 
 ### 域名:
 
-测试环境为：<https://test.tim.qq.com/><br/>
-正式环境为：<https://openapi.tim.qq.com/>
+测试环境为：<http://test.tim.qq.com/><br/>
+正式环境为：<http://openapi.tim.qq.com/>
 
 ### Comand：
 
@@ -47,7 +47,7 @@ Parameter的格式为：`usersig=xxxx& identifier=xxxx&sdkappid=xxxx&random=xxxx
 
 ### 示例
 完整的url如下：<
-https://openapi.tim.qq.com/v3/openim/videorelay?usersig=xxxx&apn=1&identifier=xxxx&sdkappid=xxxx&random=xxxx&contenttype=json>
+http://openapi.tim.qq.com/v3/openim/videorelay?usersig=xxxx&apn=1&identifier=xxxx&sdkappid=xxxx&random=xxxx&contenttype=json>
 
 # 后台接口的内容定义
 

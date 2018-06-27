@@ -25,10 +25,10 @@
 
 ```
 <pre>
-  https://cfs.test.api.qcloud.com/v2/index.php?Action=QueryCfsPGroup
+  http://cfs.test.api.qcloud.com/v2/index.php?Action=QueryCfsPGroup
   &Uin=2770000000
   &AppId=1250000000
-  &<<a href="https://www.tce.fsphere.cn/doc/api/229/6976"> 公共请求参数 </a>>
+  &<<a href="http://www.tce.fsphere.cn/doc/api/229/6976"> 公共请求参数 </a>>
 </pre>
 ```
 

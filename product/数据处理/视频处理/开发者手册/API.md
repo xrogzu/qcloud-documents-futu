@@ -725,7 +725,7 @@ E0MzMxNDU2MDAmdD0xNDI4NTcwMDMxJnI9MjkzODI3MTE2JnU9JmY9
 
 - 签名方法：http://tcecqpoc.fsphere.cn/document/product/228/1725
 
-- SDK： https://github.com/QCloudCDN/CDN_API_SDK/tree/master/Qcloud_CDN_API
+- SDK： http://github.com/QCloudCDN/CDN_API_SDK/tree/master/Qcloud_CDN_API
 
 - secretKey和secretId：http://console.tcecqpoc.fsphere.cn/capi
 
@@ -840,7 +840,7 @@ E0MzMxNDU2MDAmdD0xNDI4NTcwMDMxJnI9MjkzODI3MTE2JnU9JmY9
 ### 请求示例
 
 ```shell
-https://cdn.api.tce.fsphere.cn/v2/index.php?Action=GetCtsInfo&SecretId=AKIDxUCsd01oB7BxxxxxxFihD8hlRhftKmXr&Nonce=44207&Timestamp=1480384094&Region=gz&vid=000628c22a4cfa9daac321c31d496393&Signature=njTouxSxxxxxxPjeGKr0ZG%2Fi%2FE%3D
+http://cdn.api.tce.fsphere.cn/v2/index.php?Action=GetCtsInfo&SecretId=AKIDxUCsd01oB7BxxxxxxFihD8hlRhftKmXr&Nonce=44207&Timestamp=1480384094&Region=gz&vid=000628c22a4cfa9daac321c31d496393&Signature=njTouxSxxxxxxPjeGKr0ZG%2Fi%2FE%3D
 ```
 
 ### 回包示例
@@ -1348,7 +1348,7 @@ https://cdn.api.tce.fsphere.cn/v2/index.php?Action=GetCtsInfo&SecretId=AKIDxUCsd
 ###  请求示例
 
 ```shell
-https://cdn.api.tce.fsphere.cn/v2/index.php?Action=GetCtsaudioInfo&SecretId=AKIDxUCsd01oB7BxxxxxxFihD8hlRhftKmXr&Nonce=44207&Timestamp=1480384094&Region=gz&vid=000628c22a4cfa9daac321c31d496393&Signature=njTouxSxxxxxxPjeGKr0ZG%2Fi%2FE%3D
+http://cdn.api.tce.fsphere.cn/v2/index.php?Action=GetCtsaudioInfo&SecretId=AKIDxUCsd01oB7BxxxxxxFihD8hlRhftKmXr&Nonce=44207&Timestamp=1480384094&Region=gz&vid=000628c22a4cfa9daac321c31d496393&Signature=njTouxSxxxxxxPjeGKr0ZG%2Fi%2FE%3D
 ```
 
 ###  回包示例
@@ -1595,7 +1595,7 @@ https://cdn.api.tce.fsphere.cn/v2/index.php?Action=GetCtsaudioInfo&SecretId=AKID
 ### 请求示例
 
 ```
-https://cdn.api.tce.fsphere.cn/v2/index.php?Action=AddCtsAudioTask&SecretId=1&Nonce=47825&Timestamp=1503372336&Region=sh&Uin=2418826573&AppId=1253125191&url=http%3A%2F%2Fonlinemusic-1253125191.cosgz.myqcloud.com%2F20170717%2FMaid.mp3&bucketName=onlinemusic&bucketRegion=gz&Signature=LXe8bGz%2BSULUuCo1XF8PjzxT1fI%3D
+http://cdn.api.tce.fsphere.cn/v2/index.php?Action=AddCtsAudioTask&SecretId=1&Nonce=47825&Timestamp=1503372336&Region=sh&Uin=2418826573&AppId=1253125191&url=http%3A%2F%2Fonlinemusic-1253125191.cosgz.myqcloud.com%2F20170717%2FMaid.mp3&bucketName=onlinemusic&bucketRegion=gz&Signature=LXe8bGz%2BSULUuCo1XF8PjzxT1fI%3D
 ```
 
 ### 回包示例

@@ -1,5 +1,5 @@
 ## 简介
-该指引是从 [小微硬件开放平台](https://xiaowei.qcloud.com/hardware.html) 申请到 pid 后到设备能正常进行语音识别请求的接入指引。
+该指引是从 [小微硬件开放平台](http://xiaowei.qcloud.com/hardware.html) 申请到 pid 后到设备能正常进行语音识别请求的接入指引。
 
 #### 方案简介
 为了提供更好的智能化设备体验，我们打造了集成云平台小微 AI 能力的语音方案。该方案的能力大致分为以下几个部分：
@@ -30,7 +30,7 @@
 
 接入大致分为以下几个步骤：
 
-*   从 [小微硬件开放平台](https://xiaowei.qcloud.com/hardware.html) 申请接入。
+*   从 [小微硬件开放平台](http://xiaowei.qcloud.com/hardware.html) 申请接入。
 *   下载小微设备端 SDK，我们在官网提供了最新的 [Android](http://tcecqpoc.fsphere.cn/document/product/645/14215) 和[Linux](http://tcecqpoc.fsphere.cn/document/product/645/14216)版本的 SDK。
 *   参考文档和 demo 实现功能并进行测试。
 *   提供体验设备，完成产品体验。
@@ -80,7 +80,7 @@
 
 ### 硬件开放平台申请接入流程
 
-开发者申请接入云平台小微硬件开放平台需要在 [官网](https://xiaowei.qcloud.com/hardware.html) 递交申请资料，进入云平台小微官网 -- 硬件开放开放 -- 点击【申请内测】：
+开发者申请接入云平台小微硬件开放平台需要在 [官网](http://xiaowei.qcloud.com/hardware.html) 递交申请资料，进入云平台小微官网 -- 硬件开放开放 -- 点击【申请内测】：
 
 [![image](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/申请内测.jpg)](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/申请内测.jpg)
 

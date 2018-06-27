@@ -1,7 +1,7 @@
 **运行前必备**：
 
 下载并安装redis-py
-https://github.com/andymccurdy/redis-py?spm=5176.730001.3.11.WvETSA
+http://github.com/andymccurdy/redis-py?spm=5176.730001.3.11.WvETSA
 
 **示例代码**：
 
@@ -21,7 +21,7 @@ pwd='password'
 #连接时通过password参数指定AUTH信息，由user,pwd通过":"拼接而成 
 r = redis.StrictRedis(host=host, port=port, password=user+':'+pwd) 
 
-#连接建立后就可以进行数据库操作，详情文档参考https://github.com/andymccurdy/redis-py 
+#连接建立后就可以进行数据库操作，详情文档参考http://github.com/andymccurdy/redis-py 
 r.set('name', 'python_test'); 
 print r.get('name')
 ```

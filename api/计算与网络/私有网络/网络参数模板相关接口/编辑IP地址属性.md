@@ -49,7 +49,7 @@
 ## 5. 示例
 输入
 <pre>
-https://vpc.api.qcloud.com/v2/index.php?Action=ModifyAddressAttribute
+http://vpc.api.qcloud.com/v2/index.php?Action=ModifyAddressAttribute
 &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
 &addressId=ipm-52ut9sxk&addressName=ModifyAddressAttribute
 </pre>

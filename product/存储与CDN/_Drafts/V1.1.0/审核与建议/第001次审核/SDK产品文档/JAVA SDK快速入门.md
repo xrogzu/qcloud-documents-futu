@@ -2,7 +2,7 @@
 
 ## 相关资源
 
-COS JAVA SDK GitHub地址 [github项目](https://github.com/tencentyun/cos-java-sdk-v5)
+COS JAVA SDK GitHub地址 [github项目](http://github.com/tencentyun/cos-java-sdk-v5)
 
 ## 环境依赖
 
@@ -26,7 +26,7 @@ pom.xml 添加依赖
 
 - 源码安装
 
-从[github](https://github.com/tencentyun/cos-java-sdk-v5)下载源码, 通过maven导入。比如eclipse，选择File->Import->maven->Existing Maven Projects
+从[github](http://github.com/tencentyun/cos-java-sdk-v5)下载源码, 通过maven导入。比如eclipse，选择File->Import->maven->Existing Maven Projects
 
 ## 卸载SDK
 
@@ -37,11 +37,11 @@ pom.xml 添加依赖
 ```java
 // 1 初始化身份信息
 COSCredentials cred = new BasicCOSCredentials("1250000", "AKIDXXXXXXXX", "1A2Z3YYYYYYYYYY");
-// 2 设置bucket的区域, COS地域的简称请参照 https://www.qcloud.com/document/product/436/6224
+// 2 设置bucket的区域, COS地域的简称请参照 http://www.qcloud.com/document/product/436/6224
 ClientConfig clientConfig = new ClientConfig(new Region("ap-beijing-1"));
 // 3 生成cos客户端
 COSClient cosClient = new COSClient(cred, clientConfig);
-// 操作API， 如下文所述.或者参照Demo(https://github.com/tencentyun/cos-java-sdk-v5/blob/master/src/main/java/com/qcloud/cos/demo/Demo.java)
+// 操作API， 如下文所述.或者参照Demo(http://github.com/tencentyun/cos-java-sdk-v5/blob/master/src/main/java/com/qcloud/cos/demo/Demo.java)
 ```
 
 # API 调动方法描述

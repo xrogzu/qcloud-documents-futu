@@ -2,10 +2,10 @@
 
 ### 相关资源
 
-COS服务的Node.js SDK v5版本的GitHub下载地址： [https://github.com/tencentyun/cos-nodejs-sdk-v5.git](https://github.com/tencentyun/cos-nodejs-sdk-v5.git) 
+COS服务的Node.js SDK v5版本的GitHub下载地址： [http://github.com/tencentyun/cos-nodejs-sdk-v5.git](http://github.com/tencentyun/cos-nodejs-sdk-v5.git) 
 （本版本SDK基于XML API封装组成）
 
-大部分接口的使用 demo 在这里： [demo](https://github.com/tencentyun/cos-nodejs-sdk-v5/blob/master/demo/demo.js)
+大部分接口的使用 demo 在这里： [demo](http://github.com/tencentyun/cos-nodejs-sdk-v5/blob/master/demo/demo.js)
 
 ### npm 引入
 

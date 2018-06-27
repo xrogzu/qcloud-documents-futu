@@ -29,7 +29,7 @@ data是实际数据返回，数据接口如下：
 
 输入
 <pre>
-  https://account.api.qcloud.com/v2/index.php?Action=GetAccountToken
+  http://account.api.qcloud.com/v2/index.php?Action=GetAccountToken
   &uin=9809876615
   &<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>
 </pre>

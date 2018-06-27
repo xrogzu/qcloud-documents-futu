@@ -19,7 +19,7 @@ cosdk fuse curl jsoncpp
 
 ### 获取程序包
 
-当前版本： COSFS-v3.3.0 [点击下载](https://github.com/tencentyun/cosfs-v3.3.0) 
+当前版本： COSFS-v3.3.0 [点击下载](http://github.com/tencentyun/cosfs-v3.3.0) 
 
 
 ### 编译

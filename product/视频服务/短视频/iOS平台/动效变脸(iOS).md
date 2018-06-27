@@ -94,9 +94,9 @@
 
 短视频中的示例代码是从后台下载动效资源，再统一解压到Resource目录。您可以在短视频代码中找到动效资源和动效缩略图的下载地址，格式如下
 
-> `https://st1.xiangji.qq.com/yunmaterials/{动效名}.zip`
+> `http://st1.xiangji.qq.com/yunmaterials/{动效名}.zip`
 >
-> `https://st1.xiangji.qq.com/yunmaterials/{动效名}.png`
+> `http://st1.xiangji.qq.com/yunmaterials/{动效名}.png`
 >
 
 强烈建议客户将动效资源放在自己的服务器上，以防短视频变动造成不必要的影响。

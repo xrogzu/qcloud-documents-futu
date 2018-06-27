@@ -1,7 +1,7 @@
 本文档为万象优图V2版本和V2加强版的Python SDK文档，V1版本的Python SDK文档参见 万象优图[Python SDK说明文档-V1](/doc/product/275/Python SDK_V1)。
 注意：各版本的SDK接口不能混用，具体版本说明请参照[版本说明](/doc/product/275/版本说明)。
 ## 1	开发准备
-万象优图服务的python sdk的下载地址： https://github.com/tencentyun/python-sdk
+万象优图服务的python sdk的下载地址： http://github.com/tencentyun/python-sdk
 ### 1.1	前期准备
 获取项目ID(appid)，bucket，secret_id和secret_key。
 ### 1.2	获取SDK

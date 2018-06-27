@@ -1,6 +1,6 @@
 ## 开发准备
 ### SDK 获取
-短信 C# SDK 在 Github 中的下载地址：[短信 C# SDK](https://github.com/qcloudsms/qcloudsms_csharp)。
+短信 C# SDK 在 Github 中的下载地址：[短信 C# SDK](http://github.com/qcloudsms/qcloudsms_csharp)。
 
 ### 开发准备
 **1. 申请 SDK AppID 以及 App Key：**
@@ -26,7 +26,7 @@
 </dependencies>
 ```
 
-或者参考 [nuget 官方网站](https://docs.microsoft.com/en-us/nuget/quickstart/use-a-package) 进行安装。 
+或者参考 [nuget 官方网站](http://docs.microsoft.com/en-us/nuget/quickstart/use-a-package) 进行安装。 
 
 ## 快速入门
 若您对接口存在疑问，可以查阅 [API 文档](http://tcecqpoc.fsphere.cn/document/product/382/13297)。

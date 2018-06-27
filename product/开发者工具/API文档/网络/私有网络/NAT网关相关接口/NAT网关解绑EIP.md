@@ -34,7 +34,7 @@
 ## 5. 示例
 输入
 ```
-https://vpc.api.qcloud.com/v2/index.php?Action=EipUnBindNatGateway
+http://vpc.api.qcloud.com/v2/index.php?Action=EipUnBindNatGateway
 &<公共请求参数>
 &natId=nat-8pbrkzh6
 &vpcId=vpc-ddf411

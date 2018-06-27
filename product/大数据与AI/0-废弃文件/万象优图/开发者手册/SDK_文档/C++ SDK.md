@@ -1,10 +1,10 @@
 ## 1	开发准备
-万象优图服务的C++ SDK的下载地址： https://github.com/tencentyun/cpp_sdk
+万象优图服务的C++ SDK的下载地址： http://github.com/tencentyun/cpp_sdk
 ### 1.1	前期准备
 前期准备
 1.	安装openssl的库和头文件 http://www.openssl.org/source/ 
 2.	安装curl的库和头文件 `http://curl.haxx.se/download/curl-7.43.0.tar.gz` 
-3.	安装jsoncpp的库和头文件 https://github.com/open-source-parsers/jsoncpp 
+3.	安装jsoncpp的库和头文件 http://github.com/open-source-parsers/jsoncpp 
 4.	安装cmake工具 http://www.cmake.org/download/ 
 注意：
 1. sdk中提供了curl和jsoncpp的库以及头文件，以上库编译好后替换掉sdk中相应的库和头文件即可，如果以上库已经安装到系统里，也可删除sdk中相应的库和头文件。

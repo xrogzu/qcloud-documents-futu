@@ -41,7 +41,7 @@
 输入
 ```
 
-  https://eip.api.qcloud.com/v2/index.php?
+  http://eip.api.qcloud.com/v2/index.php?
   &<公共请求参数>
   &eipIds.0=eip-gzc5rgr2
 

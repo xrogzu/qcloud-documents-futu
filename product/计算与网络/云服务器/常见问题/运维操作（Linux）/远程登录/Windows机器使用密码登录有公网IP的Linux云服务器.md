@@ -15,7 +15,7 @@ ubuntu：ubuntu
 
 建议使用SecureCRT、putty客户端进行登录。
 
-参考下载地址：https://www.chiark.greenend.org.uk/~sgtatham/putty/
+参考下载地址：http://www.chiark.greenend.org.uk/~sgtatham/putty/
 
 ## 3. 使用Putty连接Linux云服务器
 打开Putty客户端，在PuTTY Configuration 窗口中输入以下内容：

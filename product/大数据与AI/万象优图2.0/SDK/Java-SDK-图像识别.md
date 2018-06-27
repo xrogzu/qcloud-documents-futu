@@ -1,6 +1,6 @@
 ## 开发准备
 ### SDK获取
-万象优图的 java SDK 下载地址：[image-java-sdk-v2.0](https://github.com/tencentyun/image-java-sdk-v2.0)。
+万象优图的 java SDK 下载地址：[image-java-sdk-v2.0](http://github.com/tencentyun/image-java-sdk-v2.0)。
 
 ## 快速入门
 ### 在云平台申请业务的授权

@@ -9,7 +9,7 @@ DescribeDeviceClassRaid接口用来获取设备类型对应的RAID方式。(过�
 ### 请求示例
 
 ```
-https://bm.api.qcloud.com/v2/index.php?
+http://bm.api.qcloud.com/v2/index.php?
 	Action=DescribeDeviceClassRaid
 	&<公共请求参数>
 ```
@@ -161,7 +161,7 @@ RAID结构
 
 ### 输入
 ```
-https://bm.api.qcloud.com/v2/index.php?
+http://bm.api.qcloud.com/v2/index.php?
 	Action=DescribeDeviceClassRaid
 	&SecretId=AKID52SKw5uMEy3jhpMUBqSylEBJBby6E0KC
 	&Nonce=48476

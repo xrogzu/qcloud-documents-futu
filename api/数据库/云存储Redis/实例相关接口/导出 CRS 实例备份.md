@@ -43,7 +43,7 @@
 
 ## 5. 示例
 <pre>
-https://redis.api.qcloud.com/v2/index.php?Action=ExportRedisBackup
+http://redis.api.qcloud.com/v2/index.php?Action=ExportRedisBackup
 &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
 &redisId=crs-j30wibe7
 &backupId=3a07b27e-f744-11e6-babc-525400082493

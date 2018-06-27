@@ -39,7 +39,7 @@
 ## 5. 示例
 输入
 <pre>
-https://vpc.api.qcloud.com/v2/index.php?Action=DeleteLocalIPTranslationNatRule
+http://vpc.api.qcloud.com/v2/index.php?Action=DeleteLocalIPTranslationNatRule
 &vpcId=vpc-csnmo39l
 &directConnectGatewayId=dcg-mm01ughx
 &localIPTranslation.0.originalIP=10.100.10.2

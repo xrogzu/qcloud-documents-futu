@@ -6,7 +6,7 @@ SubnetUnBindBmNatGateway 接口用于将子网从NAT网关中解绑
 ## 请求
 ### 请求示例
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?Action=SubnetUnBindBmNatGateway
+GET http://bmvpc.api.qcloud.com/v2/index.php?Action=SubnetUnBindBmNatGateway
     &<公共请求参数>
     &natId=<NAT网关ID>
     &unVpcId=<vpc网络ID>
@@ -55,7 +55,7 @@ GET https://bmvpc.api.qcloud.com/v2/index.php?Action=SubnetUnBindBmNatGateway
 ## 实际案例
 ### 输入
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?
+GET http://bmvpc.api.qcloud.com/v2/index.php?
 	Action=SubnetUnBindBmNatGateway
 	&SecretId=AKID1ub7R1JoyBF7nHqjk7IH8nGWaR6Yezwd
 	&Nonce=4557

@@ -1,7 +1,7 @@
 ### 步骤一：注册云平台账号
 在申请弹性 MapReduce 集群之前，您需要一个云平台的账号。单击进入 [云平台注册页面](http://tcecqpoc.fsphere.cn/register)，详细指引请参考 [注册云平台](http://tcecqpoc.fsphere.cn/document/product/378/9603)。
 ### 步骤二：登录弹性 MapReduce 购买页
-在成功注册账号后，登录 [弹性 MapReduce](https://buy.tce.fsphere.cn/emr) 购买页。
+在成功注册账号后，登录 [弹性 MapReduce](http://buy.tce.fsphere.cn/emr) 购买页。
 ### 步骤三：创建弹性 MapReduce 集群
 在官网自助购买页面中，仅支持依赖于云主机（CVM）的 EMR 集群创建。如果您需要独享物理机的黑石 EMR 集群，请通过 [提交工单](http://console.tcecqpoc.fsphere.cn/workorder/category/create?level1_id=16&level2_id=200&level1_name=%E5%85%B6%E4%BB%96%E6%9C%8D%E5%8A%A1&level2_name=%E5%85%B6%E4%BB%96%E4%BA%91%E6%9C%8D%E5%8A%A1) 的方式联系我们。
 请按照以下指引填写集群创建信息：

@@ -252,7 +252,7 @@ http://imgcache.tcecqpoc.fsphere.cn/image/imgcache.qq.com/open/qcloud/video/vcpl
 ### 监听事件
 视频云的播放器是采用 H5 `<video>` 和 Flash 相结合的方式来进行视频播放，由于两种方式播放视频时触发的事件不尽相同，所以我们以 H5 `<video>` 的规范为准，对 Flash 的播放事件做了一定程度的转换，以实现播放事件命名的统一。
 
-[H5事件参考列表](https://www.w3.org/wiki/HTML/Elements/video#Media_Events)
+[H5事件参考列表](http://www.w3.org/wiki/HTML/Elements/video#Media_Events)
 [Flash事件参考列表](http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/events/NetStatusEvent.html)
 
 统一后的事件列表

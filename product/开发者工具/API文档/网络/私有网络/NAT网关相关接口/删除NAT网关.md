@@ -34,7 +34,7 @@
 ## 5. 示例
 输入
 ```
-https://vpc.api.qcloud.com/v2/index.php?Action=DeleteNatGateway
+http://vpc.api.qcloud.com/v2/index.php?Action=DeleteNatGateway
 &<公共请求参数>
 &vpcId=190
 &natId=nat-7t9nf3pu

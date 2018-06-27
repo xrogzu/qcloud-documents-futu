@@ -2,7 +2,7 @@
 
 本接口 (geturl) 用于获取手机用户的唯一标识值查询地址，该地址可以查询手机用户在运营商数据库的唯一标识值。
 
-接口请求域名：`https://qos.api.tce.fsphere.cn/qos`
+接口请求域名：`http://qos.api.tce.fsphere.cn/qos`
 
 * 请求方式：GET。
 
@@ -42,7 +42,7 @@
 输入
 
 <pre>
-https://qos.api.qcloud.com/qos?Action=geturl
+http://qos.api.qcloud.com/qos?Action=geturl
 &ReqType=1
 &GameId=8282828
 &SecretId=AKIDz8krbsJ5yKBZQpn74WFkmLPx3gnPhESA

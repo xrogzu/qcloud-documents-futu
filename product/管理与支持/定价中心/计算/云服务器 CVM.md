@@ -11,7 +11,7 @@ CVM 定价主要包括 CVM 实例价格，磁盘价格，网络价格。
 
 ### 包年包月
 
-本文档说明云服务器包年包月的价格规则，具体价格请点击 [CVM价格计算器](https://buy.tce.fsphere.cn/calculator/cvm) 进行测算。
+本文档说明云服务器包年包月的价格规则，具体价格请点击 [CVM价格计算器](http://buy.tce.fsphere.cn/calculator/cvm) 进行测算。
 
 【注意事项】
 
@@ -20,7 +20,7 @@ CVM 定价主要包括 CVM 实例价格，磁盘价格，网络价格。
 
 ### 按量计费
 
-本文档说明云服务器按量计费的价格规则，具体价格请点击 [CVM价格计算器](https://buy.tce.fsphere.cn/calculator/cvm?devPayMode=hourly) 进行测算。
+本文档说明云服务器按量计费的价格规则，具体价格请点击 [CVM价格计算器](http://buy.tce.fsphere.cn/calculator/cvm?devPayMode=hourly) 进行测算。
 
 2016年7月26日12时开始，CVM按量计费实行3级阶梯价，新购、原有规格CVM实例均参照新价格体系标准。了解云服务器CVM按量计费价格调整策略 请参见 [云服务器按量计费价格调整](http://tcecqpoc.fsphere.cn/event/unit-pricing.html) 。同时，**按照最新计费方式，CVM 按量计费实行3阶级梯价，用得越久，优惠就越大**，详情如下：
 

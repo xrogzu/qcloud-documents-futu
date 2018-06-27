@@ -39,7 +39,7 @@ data的内容
 ## 4. 示例
 输入
 <pre>
-https://monitor.api.qcloud.com/v2/index.phpAction=CreateAlarmRule
+http://monitor.api.qcloud.com/v2/index.phpAction=CreateAlarmRule
 &namespace=test
 &metricName=m1
 &dimensionNames.0=aaa

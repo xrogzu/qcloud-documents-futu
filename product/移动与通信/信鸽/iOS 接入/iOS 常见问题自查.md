@@ -18,7 +18,7 @@
 制作新的推送证书
 
 #### 文件大小为 0 kb，不能上传
-重新转换 pem 格式，信鸽证书制作教程：[https://v.qq.com/x/page/u0302fjna1h.html]() 。
+重新转换 pem 格式，信鸽证书制作教程：[http://v.qq.com/x/page/u0302fjna1h.html]() 。
 
 ### 终端出现"Error Domain=NSCocoaErrorDomain Code=3000 "未找到应用程序的“aps-environment”的授权字符串" UserInfo=0x16545fc0 {NSLocalizedDescription=未找到应用程序的“aps-environment”的授权字符串}"错误
 这是由于 App 证书没有推送权限引起的。请重新配置证书。

@@ -2,8 +2,8 @@
 
 ### 相关资源
 
-* [GitHub](https://github.com/tencentyun/cos-python-sdk-v4) GitHub项目地址，欢迎贡献代码以及反馈问题。
-* [PyPi](https://pypi.python.org/pypi/cos-python-sdk-v4) PyPi项目地址 
+* [GitHub](http://github.com/tencentyun/cos-python-sdk-v4) GitHub项目地址，欢迎贡献代码以及反馈问题。
+* [PyPi](http://pypi.python.org/pypi/cos-python-sdk-v4) PyPi项目地址 
 
 
 ### 环境依赖

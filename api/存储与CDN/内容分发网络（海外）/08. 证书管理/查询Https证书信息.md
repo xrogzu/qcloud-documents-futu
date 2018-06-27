@@ -62,7 +62,7 @@
 GET 请求需要将所有参数都加在 URL 后：
 
 ```
-https://cdn.api.qcloud.com/v2/index.php?
+http://cdn.api.qcloud.com/v2/index.php?
 Action=GetCertificates
 &SecretId=XXXXXXXXXXXXXXXXXXXXXXXXX
 &Timestamp=1462440051
@@ -76,7 +76,7 @@ Action=GetCertificates
 POST请求时，参数填充在HTTP Request-body 中，请求地址：
 
 ```
-https://cdn.api.qcloud.com/v2/index.php
+http://cdn.api.qcloud.com/v2/index.php
 ```
 
 参数支持 form-data、x-www-form-urlencoded 等格式，参数数组如下：

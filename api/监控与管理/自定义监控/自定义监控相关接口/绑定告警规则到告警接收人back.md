@@ -22,7 +22,7 @@
 ## 4. 示例
 输入
 <pre>
-https://monitor.api.qcloud.com/v2/index.php?Action=BindAlarmRuleReceivers
+http://monitor.api.qcloud.com/v2/index.php?Action=BindAlarmRuleReceivers
 &alarmRuleId=policy-eqzqq79naz
 &receiversId=1001
 &<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>

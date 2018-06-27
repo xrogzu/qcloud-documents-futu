@@ -61,7 +61,7 @@
 </itemizedlist>
 <simpara>也可以修改这些默认值以便修改根据您的需要来创建实例，这一点可以详细参考 <link xl:href="http://tcecqpoc.fsphere.cn/doc/api/229/1350">RunInstances</link>，它详尽的列出了每个可能的参数。</simpara>
 <simpara>除了两个请求之外，还需要增加公共请求参数，最终得到的请求形式如下：</simpara>
-<programlisting language="bash" linenumbering="unnumbered">GET https://cvm.api.qcloud.com/v2/index.php?
+<programlisting language="bash" linenumbering="unnumbered">GET http://cvm.api.qcloud.com/v2/index.php?
 &amp;Action=RunInstances
 &amp;Version=2017-03-20
 &amp;ImageId=img-lkxqa4kj
@@ -84,7 +84,7 @@
 <section xml:id="_查询实例">
 <title>查询实例</title>
 <simpara>当拥有了一个实例ID时，我们可以使用 <literal>DescribeInstances</literal> 查询这个实例的相关信息。</simpara>
-<programlisting language="bash" linenumbering="unnumbered">GET https://cvm.api.qcloud.com/v2/index.php?
+<programlisting language="bash" linenumbering="unnumbered">GET http://cvm.api.qcloud.com/v2/index.php?
 &amp;Action=DescribeInstances
 &amp;Version=2017-03-20
 &amp;InstanceIds.0=ins-a19qoqqk
@@ -174,7 +174,7 @@
 </tgroup>
 </informaltable>
 <simpara>结合公共请求参数和接口请求参数，最终得到的请求形式如下：</simpara>
-<programlisting language="bash" linenumbering="unnumbered">https://cvm.api.qcloud.com/v2/index.php?
+<programlisting language="bash" linenumbering="unnumbered">http://cvm.api.qcloud.com/v2/index.php?
 &amp;Action=TerminateInstances
 &amp;Version=2017-03-20
 &amp;InstanceIds.0=ins-a19qoqqk

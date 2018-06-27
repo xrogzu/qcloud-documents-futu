@@ -63,7 +63,7 @@ data 数组的结构：
 ## 5. 示例
 输入
 <pre>
-https://redis.api.qcloud.com/v2/index.php?Action=CreateRedis
+http://redis.api.qcloud.com/v2/index.php?Action=CreateRedis
 &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
 &zoneId=100002
 &typeId=1

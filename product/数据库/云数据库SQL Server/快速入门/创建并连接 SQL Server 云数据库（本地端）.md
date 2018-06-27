@@ -40,7 +40,7 @@
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/8a489ede3e8ae598a6530e77b9481eab/image.png)
 6. 在配置端口映射页面，配置相应参数。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/9f28013e62ccce956710eaca0c8fb699/image.png)
-7. 在本地下载并安装 [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)。更多有关 SQL Server Management Studio 的文档请参考微软官方文档 [使用 SQL Server Management Studio][1]。
+7. 在本地下载并安装 [SQL Server Management Studio](http://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)。更多有关 SQL Server Management Studio 的文档请参考微软官方文档 [使用 SQL Server Management Studio][1]。
 8. 在本地启动 SQL Server Management Studio。在 **Connect to server** 界面，填写相关信息连接云数据库。单击【Connect】，稍等几分钟后，SQL Server Management Studio 将连接到您的数据库实例。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1cac47c4fc515d30d2cb5a0ef0141e22/image.png)
  - Server type。选择 Database Engine。
@@ -63,4 +63,4 @@ select @@VERSION
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/fa68b790fe7a12e1c17bfde648ac6e98/image.png)
 3. SQL Server 云数据库实例暂时不支持手动删除，到期后没有续费将会自动停止。
 
-[1]:https://msdn.microsoft.com/zh-cn/library/ms174173(v=sql.105).aspx
+[1]:http://msdn.microsoft.com/zh-cn/library/ms174173(v=sql.105).aspx

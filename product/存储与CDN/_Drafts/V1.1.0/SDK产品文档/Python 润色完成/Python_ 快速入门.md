@@ -1,8 +1,8 @@
 ## 开发准备
 
 ### 相关资源
-对象存储服务的 XML Python SDK  资源下载地址： [XML Python SDK ](https://github.com/tencentyun/cos-python-sdk-v5)
-演示示例 Demo 下载地址：[XML Python Demo](https://github.com/tencentyun/cos-python-sdk-v5/blob/master/qcloud_cos/demo.py)
+对象存储服务的 XML Python SDK  资源下载地址： [XML Python SDK ](http://github.com/tencentyun/cos-python-sdk-v5)
+演示示例 Demo 下载地址：[XML Python Demo](http://github.com/tencentyun/cos-python-sdk-v5/blob/master/qcloud_cos/demo.py)
 
 ### 环境依赖
 
@@ -18,7 +18,7 @@
  pip install -U cos-python-sdk-v5
 ```
 - **手动安装**
- 从 [XML Python SDK](https://github.com/tencentyun/cos-python-sdk-v5) 下载源码，通过 setup 手动安装：
+ 从 [XML Python SDK](http://github.com/tencentyun/cos-python-sdk-v5) 下载源码，通过 setup 手动安装：
  ```
  python setup.py install
 ```
@@ -35,7 +35,7 @@ token = ''                  # 使用临时秘钥需要传入 Token，默认为�
 config = CosConfig(Appid=appid, Access_id=secret_id, Access_key=secret_key, Region=region, Token=token)
 # 2. 获取客户端对象
 client = CosS3Client(config)
-# 参照下文的描述。或者参照 Demo程序，详见 https://github.com/tencentyun/cos-python-sdk-v5/blob/master/qcloud_cos/demo.py
+# 参照下文的描述。或者参照 Demo程序，详见 http://github.com/tencentyun/cos-python-sdk-v5/blob/master/qcloud_cos/demo.py
 ```
 
 ## 简单上传

@@ -28,7 +28,7 @@
 
 #### 请求参数
 <pre>
-  https://eip.api.tce.fsphere.cn/v2/index.php?Action=DescribeAddressQuota
+  http://eip.api.tce.fsphere.cn/v2/index.php?Action=DescribeAddressQuota
   &Version=2017-03-12
   &<<a href="/document/api/213/11650">公共请求参数</a>>
 </pre>

@@ -1,1 +1,1 @@
-可通过[https://buy.qcloud.com/dcdb](https://buy.qcloud.com/dcdb)申请。
+可通过[http://buy.qcloud.com/dcdb](http://buy.qcloud.com/dcdb)申请。

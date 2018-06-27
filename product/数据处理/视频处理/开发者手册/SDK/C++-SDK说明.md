@@ -1,12 +1,12 @@
 ## 1	开发准备
-<p>对象存储服务的C++ SDK的下载地址： <a href="https://github.com/tencentyun/mvs-cpp-sdk" class="external free" title="https://github.com/tencentyun/mvs-cpp-sdk" target="_blank" rel="nofollow">https://github.com/tencentyun/mvs-cpp-sdk</a>
+<p>对象存储服务的C++ SDK的下载地址： <a href="http://github.com/tencentyun/mvs-cpp-sdk" class="external free" title="http://github.com/tencentyun/mvs-cpp-sdk" target="_blank" rel="nofollow">http://github.com/tencentyun/mvs-cpp-sdk</a>
 </p>
 
 ### 1.1	前期准备
 <p><b>前期准备</b><br>
 1.	安装openssl的库和头文件 <a href="http://www.openssl.org/source/" class="external free" title="http://www.openssl.org/source/" target="_blank" rel="nofollow">http://www.openssl.org/source/</a> <br>
-2.	安装curl的库和头文件 <a href="http://curl.haxx.se/download/curl-7.43.0.tar.gz" class="external free" title="http://curl.haxx.se/download/curl-7.43.0.tar.gz" target="_blank" rel="nofollow">https://curl.haxx.se/download.html</a> <br>
-3.	安装jsoncpp的库和头文件 <a href="https://github.com/open-source-parsers/jsoncpp" class="external free" title="https://github.com/open-source-parsers/jsoncpp" target="_blank" rel="nofollow">https://github.com/open-source-parsers/jsoncpp</a> <br>
+2.	安装curl的库和头文件 <a href="http://curl.haxx.se/download/curl-7.43.0.tar.gz" class="external free" title="http://curl.haxx.se/download/curl-7.43.0.tar.gz" target="_blank" rel="nofollow">http://curl.haxx.se/download.html</a> <br>
+3.	安装jsoncpp的库和头文件 <a href="http://github.com/open-source-parsers/jsoncpp" class="external free" title="http://github.com/open-source-parsers/jsoncpp" target="_blank" rel="nofollow">http://github.com/open-source-parsers/jsoncpp</a> <br>
 4.	安装cmake工具 <a href="http://www.cmake.org/download/" class="external free" title="http://www.cmake.org/download/" target="_blank" rel="nofollow">http://www.cmake.org/download/</a> <br>
 </p>
 
@@ -29,7 +29,7 @@ g++ -o sample sample.cpp -I ./include/ -L. -L../uvs-cpp-sdk/lib/ -luvsdk -lcurl 
 </p>
 
 ### 1.3	https支持
-<p>修改video.cpp中API_VIDEO_END_POINT的值为：<code>https://web.video.myqcloud.com/files/v1/</code> <br>
+<p>修改video.cpp中API_VIDEO_END_POINT的值为：<code>http://web.video.myqcloud.com/files/v1/</code> <br>
 </p>
 
 ## 2	API详细说明

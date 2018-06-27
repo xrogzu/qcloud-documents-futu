@@ -6,7 +6,7 @@ EipAclBmBind 接口用于为某个EIP关联ACL。
 ## 请求
 ### 请求示例
 ```
-GET https://bmeip.api.qcloud.com/v2/index.php?
+GET http://bmeip.api.qcloud.com/v2/index.php?
 	Action=EipAclBmBind
 	&<公共请求参数>
 	&eipAcl.0.eipId=<EIP实例ID>
@@ -65,7 +65,7 @@ eipAcl结构
  
 ### 输入
 ```
-GET https://bmeip.api.qcloud.com/v2/index.php?
+GET http://bmeip.api.qcloud.com/v2/index.php?
 	Action=EipAclBmBind
 	&SecretId=AKIDlfdHxN0ntSVt4KPH0xXWnGl21UUFNoO5
 	&Nonce=57333

@@ -3,14 +3,14 @@ Java-SDK说明文档-2.0.4
 注意：各版本的SDK接口不能混用，具体版本说明请参照[版本说明](/doc/product/275/版本说明)。
 
 ## 1	开发准备
-万象优图服务的java sdk的下载地址： https://github.com/tencentyun/java-sdk.git
+万象优图服务的java sdk的下载地址： http://github.com/tencentyun/java-sdk.git
 注意：本文档适用于2.0.4版本，不适用于2.1.0（版本号可参考github）
 ### 1.1	前期准备
 1.	请先申请万象的接入授权，才能正常使用java api sdk。万象的接入授权包括appid（项目ID），bucket，secret_id和secret_key，请先确保已经拿到这四项；
 2.	sdk开发采用netbeans，本文档以netbeans为例，其他IDE请适当调整。
 1.2	导入SDK
 1.	下载java sdk
-如果安装了git命令行，执行git clone https://github.com/tencentyun/java-sdk.git
+如果安装了git命令行，执行git clone http://github.com/tencentyun/java-sdk.git
 或者直接在github下载zip包。
 2.	导入项目
 在IDE中导入jar包（如果代码不支持，可以直接复制代码文件）

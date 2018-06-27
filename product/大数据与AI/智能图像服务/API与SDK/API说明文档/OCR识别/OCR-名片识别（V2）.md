@@ -16,7 +16,7 @@
 
 `http://recognition.image.myqcloud.com/ocr/businesscard`
 
-`https://recognition.image.myqcloud.com/ocr/businesscard`
+`http://recognition.image.myqcloud.com/ocr/businesscard`
 
 ## 请求方式
 

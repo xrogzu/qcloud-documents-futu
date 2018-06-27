@@ -4,10 +4,10 @@
 **建议安装环境**：Windows Server 2012 R2 标准版 64 位中文版；
 **推荐配置**：1 核 CPU，2GB 内存
 
-**软件官方下载地址**：https://download.microsoft.com/download/3/1/D/31D734E0-BFE8-4C33-A9DE-2392808ADEE6/SSMS-Setup-CHS.exe
+**软件官方下载地址**：http://download.microsoft.com/download/3/1/D/31D734E0-BFE8-4C33-A9DE-2392808ADEE6/SSMS-Setup-CHS.exe
 
 **软件官方使用说明**：微软官方文档
-https://msdn.microsoft.com/zh-cn/library/ms174173(v=sql.105).aspx
+http://msdn.microsoft.com/zh-cn/library/ms174173(v=sql.105).aspx
 
 ## 用户本地使用 SQL Server Management Studio
 考虑到数据的安全，目前 CDB for SQL Server 尚未开放实例的外网 IP，但有需求的用户可以利用 SSH2 的端口映射在外网连接实例，并对其进行配置和管理，操作步骤非常简单，可按照以下步骤操作：

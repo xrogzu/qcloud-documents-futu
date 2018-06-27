@@ -21,7 +21,7 @@
 ## 3. 输出参数
 | 参数名称 | 类型 | 描述 |
 |---------|---------|---------|
-| code | Int | 公共错误码, 0表示成功，其他值表示失败。详见错误码页面的<a href='https://www.qcloud.com/doc/api/372/%E9%94%99%E8%AF%AF%E7%A0%81#1.E3.80.81.E5.85.AC.E5.85.B1.E9.94.99.E8.AF.AF.E7.A0.81' title='公共错误码'>公共错误码</a>。|
+| code | Int | 公共错误码, 0表示成功，其他值表示失败。详见错误码页面的<a href='http://www.qcloud.com/doc/api/372/%E9%94%99%E8%AF%AF%E7%A0%81#1.E3.80.81.E5.85.AC.E5.85.B1.E9.94.99.E8.AF.AF.E7.A0.81' title='公共错误码'>公共错误码</a>。|
 | message | String | 模块错误信息描述，与接口相关。|
 | codeDesc | String | 业务侧错误码英文描述。成功时返回Success，错误时返回具体业务错误原因。 |
 | data | Array | 查询结果 |
@@ -54,8 +54,8 @@
 
 ## 5. 示例
 <pre>
-https://redis.api.qcloud.com/v2/index.php?Action=GetRedisPerformance
-&<<a href="https://www.qcloud.com/doc/api/229/6976">公共请求参数</a>>
+http://redis.api.qcloud.com/v2/index.php?Action=GetRedisPerformance
+&<<a href="http://www.qcloud.com/doc/api/229/6976">公共请求参数</a>>
 &redisId=crs-edevql5z
 &beginTime=2017-04-13 18:59:35
 &endTime=2017-04-13 19:59:35

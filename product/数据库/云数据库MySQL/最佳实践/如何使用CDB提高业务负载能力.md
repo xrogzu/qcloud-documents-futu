@@ -38,7 +38,7 @@ MySQL SYS Schema 默认包含在 MySQL 5.7 中，并提供摘要视图以回答�
 * InnoDB 原生分区：在 MySQL 5.7 InnoDB 中包含了对分区的原生支持。InnoDB 原生分区会降低负载，减少多达 90% 的内存需求。
 * InnoDB 缓存预热：现在，当 MySQL 重启时，InnoDB 自动保留您缓存池中最热的 25% 的数据。您再也不需要任何预加载或预热您数据缓存的工作，也不需要承担 MySQL 重启带来的性能损失。
 
-MySQL 5.7 更多优化和新特性可[查看MySQL官方资料](https://dev.mysql.com/doc/refman/5.7/en/mysql-nutshell.html)
+MySQL 5.7 更多优化和新特性可[查看MySQL官方资料](http://dev.mysql.com/doc/refman/5.7/en/mysql-nutshell.html)
 
 #### 1.2 选择实例规格(数据库内存)
 当前CDB for MySQL并未提供单独的CPU选项，CPU将根据内存规格按比例分配。您可以根据自己的业务特征购买相应的数据库规格，我们为每一种实例都做了详尽的标准化测试以为您提供选型时的性能参考。但需要注意的是，Sysbench标准化测试并不能代表所有的业务场景，建议您在将业务正式运行在CDB之前对数据库做一次压力测试，以便于更加了解CDB在您的业务场景下的性能表现。

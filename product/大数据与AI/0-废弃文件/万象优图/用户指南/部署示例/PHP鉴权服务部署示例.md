@@ -57,7 +57,7 @@ nginx -s reload
 
 ```
 cd /data/www/tencentyun/php
-  curl -sS https://getcomposer.org/installer | php
+  curl -sS http://getcomposer.org/installer | php
 ```
 2 为php项目指定依赖关系
 
@@ -129,7 +129,7 @@ switch ($type) {
 1 从github下载源码到php目录下的tencentyun目录
 
 ```
-git clone https://github.com/tencentyun/php-sdk.git tencentyun
+git clone http://github.com/tencentyun/php-sdk.git tencentyun
 ```
 2 将sdk集成到开发者代码，开发鉴权服务逻辑，这里以php目录下getsigninclude.php为例：
 注意：如果开发者想按照本示例做简单地测试，需要将下面代码中的相应字段替换为自己的项目信息，具体见注释。

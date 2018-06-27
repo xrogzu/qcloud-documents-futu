@@ -1,6 +1,6 @@
 **运行前必备**：
 
-使用客户端phpredis，下载和参考地址：https://github.com/phpredis/phpredis
+使用客户端phpredis，下载和参考地址：http://github.com/phpredis/phpredis
 
 **示例代码**：
 
@@ -22,7 +22,7 @@
     die($redis->getLastError());
   }
   
-  /**接下来可以愉快的开始操作redis实例，可以参考：https://github.com/phpredis/phpredis */
+  /**接下来可以愉快的开始操作redis实例，可以参考：http://github.com/phpredis/phpredis */
   
   //设置key
   if ($redis->set("redis", "tencent") == false) {

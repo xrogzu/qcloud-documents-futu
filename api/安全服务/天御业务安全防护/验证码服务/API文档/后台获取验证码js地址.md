@@ -150,7 +150,7 @@
 <p> 一个完整的请求需要两类请求参数：公共请求参数和接口请求参数。这里只列出了接口请求参数，并未列出公共请求参数，有关公共请求参数的说明可见<a href="http://tcecqpoc.fsphere.cn/document/product/295/7279"target="blank">公共请求参数</a>小节。
 ```
 请求示例 ：
-https://csec.api.qcloud.com/v2/index.php?Action=CaptchaIframeQuery
+http://csec.api.qcloud.com/v2/index.php?Action=CaptchaIframeQuery
 &<公共请求参数>
 &secretId=AKIDmQtAxYTAB2iBS8s2DCzazCD2g7OUq4Zw
 &captchaType=1
@@ -163,7 +163,7 @@ https://csec.api.qcloud.com/v2/index.php?Action=CaptchaIframeQuery
 {
 "code":0,
 "message":"No Error",
-"url":"https://captcha.guard.qcloud.com/template/TCapIframeApi.js?appid=1251001047&clientype=1&lang=2052&asig=-DhJtUkDwLzJpmIfAmasXFn1Y6zCkRQUn8WERrs4lVNmUDcuoDiYYLmoKqd-Ev77Eogpq97Dpb69_MrwGjWXKmTGg9y9iW7wjdriTu_y6WBN4qGsHn6VRk0W1hLB6ZWvqHqw2E5IFCRUcGrHBzMF7A**"
+"url":"http://captcha.guard.qcloud.com/template/TCapIframeApi.js?appid=1251001047&clientype=1&lang=2052&asig=-DhJtUkDwLzJpmIfAmasXFn1Y6zCkRQUn8WERrs4lVNmUDcuoDiYYLmoKqd-Ev77Eogpq97Dpb69_MrwGjWXKmTGg9y9iW7wjdriTu_y6WBN4qGsHn6VRk0W1hLB6ZWvqHqw2E5IFCRUcGrHBzMF7A**"
 }
 ```
 

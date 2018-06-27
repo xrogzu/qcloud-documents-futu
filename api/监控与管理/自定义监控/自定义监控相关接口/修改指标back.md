@@ -25,7 +25,7 @@
 ## 4. 示例
 输入
 <pre>
-https://monitor.api.qcloud.com/v2/index.php?Action=ModifyMetric
+http://monitor.api.qcloud.com/v2/index.php?Action=ModifyMetric
 &namespace=nm1
 &metricName=secret0
 &metricCname=修改后的指标

@@ -86,7 +86,7 @@ data.data 结构
 
 输入
 <pre>
-https://vpc.api.qcloud.com/v2/index.php?Action=DescribeAddressGroupInstances
+http://vpc.api.qcloud.com/v2/index.php?Action=DescribeAddressGroupInstances
 &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
 &addressGroupId=ipmg-i0836656
 </pre>
@@ -105,7 +105,7 @@ https://vpc.api.qcloud.com/v2/index.php?Action=DescribeAddressGroupInstances
 ### 步骤2：
 输入
 <pre>
-https://vpc.api.qcloud.com/v2/index.php?Action=DescribeNetTaskResult
+http://vpc.api.qcloud.com/v2/index.php?Action=DescribeNetTaskResult
 &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
 &taskId=297
 </pre>

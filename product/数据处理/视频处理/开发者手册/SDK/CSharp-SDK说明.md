@@ -1,5 +1,5 @@
 ## 1	开发准备
-<p>微视频服务的C# SDK的下载地址： <a href="https://github.com/tencentyun/mvs-dotnet-sdk" class="external free" title="https://github.com/tencentyun/mvs-dotnet-sdk" target="_blank" rel="nofollow">https://github.com/tencentyun/mvs-dotnet-sdk</a>
+<p>微视频服务的C# SDK的下载地址： <a href="http://github.com/tencentyun/mvs-dotnet-sdk" class="external free" title="http://github.com/tencentyun/mvs-dotnet-sdk" target="_blank" rel="nofollow">http://github.com/tencentyun/mvs-dotnet-sdk</a>
 </p>
 
 ### 1.1	前期准备

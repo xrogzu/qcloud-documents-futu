@@ -1,6 +1,6 @@
 ## 云数据库 MySQL 定价
 
-您可以点击 [云数据库 MySQL价格计算器](https://buy.tce.fsphere.cn/calculator/cdb) 来查看产品价格，估算资源成本，加入购买预算清单，更可实现一键购买。
+您可以点击 [云数据库 MySQL价格计算器](http://buy.tce.fsphere.cn/calculator/cdb) 来查看产品价格，估算资源成本，加入购买预算清单，更可实现一键购买。
 
 >**注意：**
 >为保证您获取价格准确性，请登录后查看。
@@ -100,4 +100,4 @@ CDB for MySQL 数据库支持控制台续费和续费管理中心续费两种方
 [9]:    http://tcecqpoc.fsphere.cn/document/product/555/7437
 [10]:   http://console.tcecqpoc.fsphere.cn/account/renewal
 [11]:   http://tcecqpoc.fsphere.cn/document/product/236/5158
-[12]:   https://buy.tce.fsphere.cn/calculator/cdb
+[12]:   http://buy.tce.fsphere.cn/calculator/cdb

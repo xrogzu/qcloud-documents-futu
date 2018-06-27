@@ -66,7 +66,7 @@
 请求示例如下：
 
 ```
-https://apigateway.api.qcloud.com/v2/index.php?
+http://apigateway.api.qcloud.com/v2/index.php?
 &<公共请求参数>
 &Action=CreateApi
 &serviceId=service-XX
@@ -114,7 +114,7 @@ https://apigateway.api.qcloud.com/v2/index.php?
 请求示例如下：
 
 ```
-https://apigateway.api.qcloud.com/v2/index.php?
+http://apigateway.api.qcloud.com/v2/index.php?
 &<公共请求参数>
 &Action=CreateApi
 &serviceId=service-XX
@@ -151,7 +151,7 @@ https://apigateway.api.qcloud.com/v2/index.php?
 请求示例如下：
 
 ```
-https://apigateway.api.qcloud.com/v2/index.php?
+http://apigateway.api.qcloud.com/v2/index.php?
 &<公共请求参数>
 &Action=CreateApi
 &serviceId=service-XX

@@ -25,7 +25,7 @@
 ## 4. 示例
 输入
 <pre>
-https://monitor.api.qcloud.com/v2/index.php?Action= BindAlarmRuleObjects
+http://monitor.api.qcloud.com/v2/index.php?Action= BindAlarmRuleObjects
 &alarmRuleId = policy-f3h1bxvcsb 
 &dimensions.0.name=name
 &dimensions.0.value=a1

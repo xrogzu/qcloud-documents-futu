@@ -48,7 +48,7 @@ EIP 过滤条件表
 
 #### 请求参数
 <pre>
-https://eip.api.tce.fsphere.cn/v2/index.php?Action=DescribeAddresses
+http://eip.api.tce.fsphere.cn/v2/index.php?Action=DescribeAddresses
 &Version=2017-03-12
 &AddressIds.1=eip-hxlqja90
 &<<a href="/document/api/213/11650">公共请求参数</a>>
@@ -84,7 +84,7 @@ https://eip.api.tce.fsphere.cn/v2/index.php?Action=DescribeAddresses
 
 #### 请求参数
 <pre>
-https://eip.api.tce.fsphere.cn/v2/index.php?Action=DescribeAddresses
+http://eip.api.tce.fsphere.cn/v2/index.php?Action=DescribeAddresses
 &Version=2017-03-12
 &Filters.1.Name=address-id
 &Filters.1.Values.1=eip-hxlqja90

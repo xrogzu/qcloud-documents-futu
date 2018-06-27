@@ -3,11 +3,11 @@
 ### 入口一
 1. 访问 [云平台主页](http://tcecqpoc.fsphere.cn/)，将鼠标依次移动至【产品】>【数据库】，单击【分布式数据库】进入产品主页。
 	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b1ff39c119f92b175276596afb46d94a/r1.png)
-2. 在产品主页上单击 [立即购买](https://buy.tce.fsphere.cn/dcdb)        进入购买界面。
+2. 在产品主页上单击 [立即购买](http://buy.tce.fsphere.cn/dcdb)        进入购买界面。
 	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d72b569da05fc5dda1b74b61efcecf62/r2.png)
 
 ### 入口二
-- 登录 [ DCDB 控制台](http://console.tcecqpoc.fsphere.cn/dcdb)，单击 [新建](https://buy.tce.fsphere.cn/dcdb) 进入购买界面。
+- 登录 [ DCDB 控制台](http://console.tcecqpoc.fsphere.cn/dcdb)，单击 [新建](http://buy.tce.fsphere.cn/dcdb) 进入购买界面。
 	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/0f6bc721d0d1f5afa480b3933def8ae5/r3.png)
 	
 ## 购买步骤

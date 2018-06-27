@@ -1,6 +1,6 @@
 ##  开发准备
 
-开发前请前往github下载最新版C-SDK：https://github.com/tencentyun/tencent-cloud-iotsuite-embedded-c.git
+开发前请前往github下载最新版C-SDK：http://github.com/tencentyun/tencent-cloud-iotsuite-embedded-c.git
 
 ## 开发环境
 

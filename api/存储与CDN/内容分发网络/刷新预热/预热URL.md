@@ -9,7 +9,7 @@
 **注意事项：**
 + 默认情况下，每一个账号每日可预热资源 1000条，每次最多可提交20条
 + 内测用户子账号可使用自有SecretId、SecretKey预热有权限的资源
-+ 提交的 URL 必须以 http:// 或 https:// 开头
++ 提交的 URL 必须以 http:// 或 http:// 开头
 + 提交的 URL 中域名的状态需要为【已启动】或【部署中】
 + 预热会导致回源带宽较高，请根据源站带宽来拆分提交预热任务
 + 调用频次限制为 10000次/分钟
@@ -60,7 +60,7 @@
 ### GET 请求
 GET 请求需要将所有参数都加在 URL 后：
 ```
-https://cdn.api.qcloud.com/v2/index.php?
+http://cdn.api.qcloud.com/v2/index.php?
 Action=CdnUrlPusher
 &SecretId=XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 &Timestamp=1462436277
@@ -75,7 +75,7 @@ Action=CdnUrlPusher
 POST请求时，参数填充在HTTP Requestbody中，请求地址：
 
 ```
-https://cdn.api.qcloud.com/v2/index.php
+http://cdn.api.qcloud.com/v2/index.php
 ```
 
 参数支持 formdata、xwwwformurlencoded 等格式，参数数组如下：

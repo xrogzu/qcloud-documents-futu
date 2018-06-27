@@ -18,7 +18,7 @@ CKafka 以实例的形式售卖，即**包年包月-预付费**的计费形式�
 - 计费单位为 元/月。
 - CKafka 公测期间，每种类型的实例均可享受超值优惠
 
-[点击购买](https://buy.tce.fsphere.cn/ckafka)
+[点击购买](http://buy.tce.fsphere.cn/ckafka)
 
 
 

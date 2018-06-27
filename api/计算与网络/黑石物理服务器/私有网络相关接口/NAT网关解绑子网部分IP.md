@@ -6,7 +6,7 @@ UnbindIpsToBmNatGateway 接口用于将子网的部分IP从NAT网关中解绑
 ## 请求
 ### 请求示例
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?Action=UnbindIpsToBmNatGateway
+GET http://bmvpc.api.qcloud.com/v2/index.php?Action=UnbindIpsToBmNatGateway
     &<公共请求参数>
     &natId=<NAT网关ID>
     &unVpcId=<vpc网络ID>
@@ -66,7 +66,7 @@ ips包含字段如下：
 ## 实际案例
 ### 输入
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?
+GET http://bmvpc.api.qcloud.com/v2/index.php?
 	Action=UnbindIpsToBmNatGateway
 	&SecretId=AKID1ub7R1JoyBF7nHqjk7IH8nGWaR6Yezwd
 	&Nonce=4557

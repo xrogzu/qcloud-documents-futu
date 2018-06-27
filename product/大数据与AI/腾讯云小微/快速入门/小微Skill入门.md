@@ -1,7 +1,7 @@
 ## 申请 Skill
-如果你还没有通过审核，请前往[Skill 开发申请](https://xiaowei.qcloud.com/skill.html)，并填写相关注册信息，提交开通申请。
+如果你还没有通过审核，请前往[Skill 开发申请](http://xiaowei.qcloud.com/skill.html)，并填写相关注册信息，提交开通申请。
 
-在配置使用小微 Skill 前，您需要先在产品介绍页 [Skill 开发申请](https://xiaowei.qcloud.com/skill.html) 实现信息注册，并开通小微 Skill 功能。 注册需要提供如下信息：
+在配置使用小微 Skill 前，您需要先在产品介绍页 [Skill 开发申请](http://xiaowei.qcloud.com/skill.html) 实现信息注册，并开通小微 Skill 功能。 注册需要提供如下信息：
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/219d9e375482004213e652ba77ef2545/image.png)
 
 1. **基本信息：**请确保信息准确无误，以免耽误后续审核的过程中的联系失败；

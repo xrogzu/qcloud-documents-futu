@@ -76,7 +76,7 @@ data.output 结构
 
 输入
 <pre>
-https://vpc.api.qcloud.com/v2/index.php?Action=ModifyAddress
+http://vpc.api.qcloud.com/v2/index.php?Action=ModifyAddress
 &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
 &addressId=ipm-52ut9887&address.0=192.168.1.1&address.1=10.53.0.1-10.53.0.66&address.2=172.66.0.0/16
 </pre>
@@ -95,7 +95,7 @@ https://vpc.api.qcloud.com/v2/index.php?Action=ModifyAddress
 ### 步骤2：
 输入
 <pre>
-https://vpc.api.qcloud.com/v2/index.php?Action=DescribeNetTaskResult
+http://vpc.api.qcloud.com/v2/index.php?Action=DescribeNetTaskResult
 &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
 &taskId=297
 </pre>

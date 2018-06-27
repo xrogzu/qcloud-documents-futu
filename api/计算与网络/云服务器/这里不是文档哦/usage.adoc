@@ -35,7 +35,7 @@ ________________________________________________________________________________
 
 [source,bash]
 ----
-GET https://cvm.api.qcloud.com/v2/index.php?
+GET http://cvm.api.qcloud.com/v2/index.php?
 &Action=RunInstances
 &Version=2017-03-20
 &ImageId=img-lkxqa4kj
@@ -70,7 +70,7 @@ GET https://cvm.api.qcloud.com/v2/index.php?
 
 [source,bash]
 ----
-GET https://cvm.api.qcloud.com/v2/index.php?
+GET http://cvm.api.qcloud.com/v2/index.php?
 &Action=DescribeInstances
 &Version=2017-03-20
 &InstanceIds.0=ins-a19qoqqk
@@ -149,7 +149,7 @@ GET https://cvm.api.qcloud.com/v2/index.php?
 
 [source,bash]
 ----
-https://cvm.api.qcloud.com/v2/index.php?
+http://cvm.api.qcloud.com/v2/index.php?
 &Action=TerminateInstances
 &Version=2017-03-20
 &InstanceIds.0=ins-a19qoqqk

@@ -2,7 +2,7 @@
 
 ### SDK 获取
 
-对象存储服务的Javascript SDK的下载地址： [https://github.com/tencentyun/cos-js-sdk](https://github.com/tencentyun/cos-js-sdk)
+对象存储服务的Javascript SDK的下载地址： [http://github.com/tencentyun/cos-js-sdk](http://github.com/tencentyun/cos-js-sdk)
 
 ###  开发环境
 

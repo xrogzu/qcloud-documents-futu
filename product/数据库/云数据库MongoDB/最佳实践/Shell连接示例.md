@@ -1,5 +1,5 @@
 ## shell连接MongoDB
-在云平台云服务器（CVM）中可用MongoDB提供的shell客户端（[查看安装文档](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-linux/)）连接云平台MongoDB服务进行数据管理，请注意使用最新版本的MongoDB客户端套件。
+在云平台云服务器（CVM）中可用MongoDB提供的shell客户端（[查看安装文档](http://docs.mongodb.com/manual/tutorial/install-mongodb-on-linux/)）连接云平台MongoDB服务进行数据管理，请注意使用最新版本的MongoDB客户端套件。
 
 ### 快速开始
 典型的连接命令如下：

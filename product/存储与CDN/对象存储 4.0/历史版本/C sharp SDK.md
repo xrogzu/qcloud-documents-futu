@@ -2,7 +2,7 @@
 
 ### 相关资源
 
-[C# SDK github项目下载地址](https://github.com/tencentyun/cos-donet-sdk-v4)
+[C# SDK github项目下载地址](http://github.com/tencentyun/cos-donet-sdk-v4)
 
 ### 开发准备
 

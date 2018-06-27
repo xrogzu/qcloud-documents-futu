@@ -30,7 +30,7 @@ sudo yum install automake gcc-c++ git libcurl-devel libxml2-devel fuse-devel mak
 此时，你需要来手动安装fuse版本，具体步骤
 ```
  # yum remove -y fuse-devel
-  # wget https://github.com/libfuse/libfuse/releases/download/fuse_2_9_4/fuse-2.8.4.tar.gz
+  # wget http://github.com/libfuse/libfuse/releases/download/fuse_2_9_4/fuse-2.8.4.tar.gz
   # tar -zxvf fuse-2.8.4.tar.gz
   # cd fuse-2.8.4
   # ./configure
@@ -46,12 +46,12 @@ sudo yum install automake gcc-c++ git libcurl-devel libxml2-devel fuse-devel mak
 
 ## 使用方法 
 ### 获取工具 
-Github 获取地址： [COSFS 工具](https://github.com/tencentyun/cosfs-v4.2.1)
+Github 获取地址： [COSFS 工具](http://github.com/tencentyun/cosfs-v4.2.1)
 
 ### 安装工具 
 您可以直接将下载的源码上传至指定目录，也可以使用 GitHub 下载到指定目录，下面以使用 GitHub 将源码目录下载到 `/usr/cosfs` 为例：
 ```
-git clone https://github.com/tencentyun/cosfs-v4.2.1 /usr/cosfs
+git clone http://github.com/tencentyun/cosfs-v4.2.1 /usr/cosfs
 ```
 进入到该目录，编译安装：
 ```
@@ -151,7 +151,7 @@ umount -l /mnt
 
    ```
      # yum remove -y fuse-devel
-     # wget https://github.com/libfuse/libfuse/releases/download/fuse_2_9_4/fuse-2.8.4.tar.gz
+     # wget http://github.com/libfuse/libfuse/releases/download/fuse_2_9_4/fuse-2.8.4.tar.gz
      # tar -zxvf fuse-2.8.4.tar.gz
      # cd fuse-2.8.4
      # ./configure
@@ -168,7 +168,7 @@ umount -l /mnt
 * 为什么cosfs在正常使用过程中，突然退出了，重新挂载显示"unable to access MOUNTPOINT /path/to/mountpoint: Transport endpoint is not connected"
 
   如果cosfs不是被强制Kill掉，那么检查机器上的fuse版本是否低于2.9.4，libfuse在低于2.9.4版本的情况下可能会导致cosfs异常退出。
-  建议更新fuse版本，或下载cosfs V1.0.2及以上版本。下载地址: https://github.com/tencentyun/cosfs/releases
+  建议更新fuse版本，或下载cosfs V1.0.2及以上版本。下载地址: http://github.com/tencentyun/cosfs/releases
 
 * 为什么通过cosfs上传的文件Content-Type全是"application/octet-stream"?
 

@@ -27,7 +27,7 @@
 ## 4. 示例
 输入
 ```
-https://cvm.api.qcloud.com/v2/index.php?Action=DescribeUserCvmOverview
+http://cvm.api.qcloud.com/v2/index.php?Action=DescribeUserCvmOverview
 &regionIdList.0=1
 &regionIdList.2=2
 &COMMON_PARAMS

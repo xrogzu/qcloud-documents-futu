@@ -1,6 +1,6 @@
 ## 业务咨询
 请参考其他友商的相关内容
-阿里：https://imwukong.com/#faq/0
+阿里：http://imwukong.com/#faq/0
 网易：http://dev.netease.im/docs?doc=faq
 
 ## 客户端集成

@@ -9,7 +9,7 @@
 >GPU 渲染型 GA2 现处于内测阶段，如需申请，请点击[这里](http://tcecqpoc.fsphere.cn/act/apply/ga2)
 
 ### 1. 登录购买页面
-[点击进入购买页面>>](https://buy.tce.fsphere.cn/cvm?regionId=8&zoneId=800002&generation=v2&deviceType=ga&tabIndex=1)
+[点击进入购买页面>>](http://buy.tce.fsphere.cn/cvm?regionId=8&zoneId=800002&generation=v2&deviceType=ga&tabIndex=1)
 
 ### 2. 选择地域与机型
 在这个步骤需要选择：

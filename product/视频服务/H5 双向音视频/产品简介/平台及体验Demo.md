@@ -28,4 +28,4 @@ function checkTBSVersion(ua) {
 ![tbs升级](http://docs-1253488539.picsh.myqcloud.com/tbs.png)
 2. 微信或者手 Q 扫码，进入 demo；
 ![扫码界面](http://docs-1253488539.picsh.myqcloud.com/demo.png)
-3. 用 pc 或者 mac 的 Chrome 打开 [体验地址](https://sxb.qcloud.com/quick/index.html)，体验音视频互通。
+3. 用 pc 或者 mac 的 Chrome 打开 [体验地址](http://sxb.qcloud.com/quick/index.html)，体验音视频互通。

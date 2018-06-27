@@ -29,7 +29,7 @@
 
 **商户号**
 
-商户号需要在根据您开通的支付渠道在 [微信商户平台](https://pay.weixin.qq.com/index.php/core/home/login) 或者 [QQ 钱包商户平台](https://qpay.qq.com) 上申请，申请的方式请参见 [这里](https://github.com/tencentyun/qcloud-documents/edit/master/product/%E7%A7%BB%E5%8A%A8%E4%B8%8E%E9%80%9A%E4%BF%A1/%E5%BA%94%E7%94%A8%E4%BA%91/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Payment%20%E6%94%AF%E4%BB%98%E6%B8%A0%E9%81%93%E9%85%8D%E7%BD%AE%E6%8C%87%E5%BC%95.md) 。
+商户号需要在根据您开通的支付渠道在 [微信商户平台](http://pay.weixin.qq.com/index.php/core/home/login) 或者 [QQ 钱包商户平台](http://qpay.qq.com) 上申请，申请的方式请参见 [这里](http://github.com/tencentyun/qcloud-documents/edit/master/product/%E7%A7%BB%E5%8A%A8%E4%B8%8E%E9%80%9A%E4%BF%A1/%E5%BA%94%E7%94%A8%E4%BA%91/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Payment%20%E6%94%AF%E4%BB%98%E6%B8%A0%E9%81%93%E9%85%8D%E7%BD%AE%E6%8C%87%E5%BC%95.md) 。
 
 **商户号密钥**
 
@@ -37,7 +37,7 @@
 
 **AppID**
 
-在开通支付前，您需要根据开通的渠道在 [微信开放平台](https://open.weixin.qq.com) 或者 [腾讯开放平台](http://open.qq.com/) 上注册，并创建一个应用，创建好应用后请将其 AppId 拷贝过来，同样可以参见 [这里](https://github.com/tencentyun/qcloud-documents/edit/master/product/%E7%A7%BB%E5%8A%A8%E4%B8%8E%E9%80%9A%E4%BF%A1/%E5%BA%94%E7%94%A8%E4%BA%91/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Payment%20%E6%94%AF%E4%BB%98%E6%B8%A0%E9%81%93%E9%85%8D%E7%BD%AE%E6%8C%87%E5%BC%95.md)。
+在开通支付前，您需要根据开通的渠道在 [微信开放平台](http://open.weixin.qq.com) 或者 [腾讯开放平台](http://open.qq.com/) 上注册，并创建一个应用，创建好应用后请将其 AppId 拷贝过来，同样可以参见 [这里](http://github.com/tencentyun/qcloud-documents/edit/master/product/%E7%A7%BB%E5%8A%A8%E4%B8%8E%E9%80%9A%E4%BF%A1/%E5%BA%94%E7%94%A8%E4%BA%91/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8/%E6%94%AF%E4%BB%98%20Payment%20%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Payment%20%E6%94%AF%E4%BB%98%E6%B8%A0%E9%81%93%E9%85%8D%E7%BD%AE%E6%8C%87%E5%BC%95.md)。
 
 **AppKey**
 

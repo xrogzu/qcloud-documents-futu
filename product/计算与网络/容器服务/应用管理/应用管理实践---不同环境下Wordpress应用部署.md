@@ -416,7 +416,7 @@ CPU_REQUEST: 400m
 
 这样基于同一个应用模板和不同环境下的配置信息，就将应用部署到了不同的环境。
 
-  [1]: https://baike.baidu.com/item/mariaDB/6466119?fr=aladdin
+  [1]: http://baike.baidu.com/item/mariaDB/6466119?fr=aladdin
   [2]: http://console.tcecqpoc.fsphere.cn/ccs/template
   [3]: http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/f72ada368e069275051bc9693f677b40/image.png
   [4]: http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d1f4c60ed9a58a3a0c7a4d5b454b5f4b/image.png

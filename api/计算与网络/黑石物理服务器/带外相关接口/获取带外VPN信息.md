@@ -7,7 +7,7 @@ GetOutBandVPNAuthInfo接口用来获取带外VPN认证信息。用户使用带�
 ## 请求
 ### 请求示例
 ```
-GET https://bmeip.api.qcloud.com/v2/index.php?
+GET http://bmeip.api.qcloud.com/v2/index.php?
 	&Action=GetOutBandVPNAuthInfo
 	&<公共请求参数>
 	&zoneId=<可用区zoneId>
@@ -70,7 +70,7 @@ data.authInfo实例结构
 
 ### 输入
 ```
-GET https://bm.api.qcloud.com/v2/index.php?
+GET http://bm.api.qcloud.com/v2/index.php?
 	Action=GetOutBandVPNAuthInfo
 	&SecretId=AKIDlfdHxN0ntSVt4KPH0xXWnGl21UUFNoO5
 	&Nonce=35342

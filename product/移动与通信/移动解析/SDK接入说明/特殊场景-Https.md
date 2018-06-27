@@ -32,7 +32,7 @@
     /*
      * 评估当前serverTrust是否可信任，
      * 官方建议在result = kSecTrustResultUnspecified 或 kSecTrustResultProceed
-     * 的情况下serverTrust可以被验证通过，https://developer.apple.com/library/ios/technotes/tn2232/_index.html
+     * 的情况下serverTrust可以被验证通过，http://developer.apple.com/library/ios/technotes/tn2232/_index.html
      * 关于SecTrustResultType的详细信息请参考SecTrust.h
      */
     SecTrustResultType result;

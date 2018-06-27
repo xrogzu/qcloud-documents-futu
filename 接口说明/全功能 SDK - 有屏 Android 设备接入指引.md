@@ -1,5 +1,5 @@
 ## 简介
-该指引是从[小微硬件开放平台](https://xiaowei.qcloud.com/hardware.html)申请到pid后到设备能正常进行语音识别请求的接入指引。
+该指引是从[小微硬件开放平台](http://xiaowei.qcloud.com/hardware.html)申请到pid后到设备能正常进行语音识别请求的接入指引。
 
 #### 方案简介
 为了提供更好的智能化设备体验，我们打造了集成云平台小微AI能力的语音方案。该方案的能力大致分为以下几个部分：
@@ -30,8 +30,8 @@
 
 接入大致分为以下几个步骤：
 
-*   从[小微硬件开放平台](https://xiaowei.qcloud.com/hardware.html)申请接入。
-*   下载小微设备端SDK，我们在官网提供了最新的[Android](https://xiaowei.qcloud.com/wiki/#AccessFlow_android_screen_device)和[Linux](https://xiaowei.qcloud.com/wiki/#APIDesc_linux_sdk_intergration)版本的SDK。
+*   从[小微硬件开放平台](http://xiaowei.qcloud.com/hardware.html)申请接入。
+*   下载小微设备端SDK，我们在官网提供了最新的[Android](http://xiaowei.qcloud.com/wiki/#AccessFlow_android_screen_device)和[Linux](http://xiaowei.qcloud.com/wiki/#APIDesc_linux_sdk_intergration)版本的SDK。
 *   参考文档和demo实现功能并进行测试。
 *   提供体验设备，完成产品体验。
 
@@ -80,7 +80,7 @@
 
 ### 硬件开放平台申请接入流程
 
-开发者申请接入云平台小微硬件开放平台需要在[官网](https://xiaowei.qcloud.com/hardware.html)递交申请资料，进入云平台小微官网--硬件开放开放--点击【申请内测】：
+开发者申请接入云平台小微硬件开放平台需要在[官网](http://xiaowei.qcloud.com/hardware.html)递交申请资料，进入云平台小微官网--硬件开放开放--点击【申请内测】：
 
 [![image](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/申请内测.jpg)](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/申请内测.jpg)
 
@@ -163,7 +163,7 @@ OTA能力配置中分为【正式环境】和【测试环境】两个部分，�
 当产品所有功能均开发完毕后需要将样机寄送至云平台小微团队进行测试审核，只有审核通过之后产品才可以正式认证上线。
 
 ## 实现指引
-下面说明中的部分名词 可以参考[基本名词解释](https://xiaowei.qcloud.com/wiki/#NoviceGuide_glossary)。
+下面说明中的部分名词 可以参考[基本名词解释](http://xiaowei.qcloud.com/wiki/#NoviceGuide_glossary)。
 
 #### 第一行代码——SDK登录
 
@@ -251,7 +251,7 @@ TXDeviceBaseManager.setOnBinderEventListener(new TXDeviceBaseManager.OnBinderEve
 
 #### 开启唤醒模块
 
-唤醒模块的介绍参照[唤醒模块说明](https://xiaowei.qcloud.com/wiki/#APIDesc_wakeup_api);
+唤醒模块的介绍参照[唤醒模块说明](http://xiaowei.qcloud.com/wiki/#APIDesc_wakeup_api);
 
 #### 语音请求
 
@@ -363,7 +363,7 @@ onState中会返回以下几种状态，在不同的状态可以进行不同的�
 | 20 | AI_AUDIO_STATE_MSGPROXY_STAT | 消息代收状态更新的通知 |
 | 21 | AI_AUDIO_STATE_MSG_SEND | 发送消息的状态通知 |
 
-对于有屏设备，需要关注AI_AUDIO_STATE_RESPONSE带下来的结构化数据，进行UI展示，具体参照[UI模板实现指引](https://xiaowei.qcloud.com/wiki/#AccessFlow_ui_template_impl)。
+对于有屏设备，需要关注AI_AUDIO_STATE_RESPONSE带下来的结构化数据，进行UI展示，具体参照[UI模板实现指引](http://xiaowei.qcloud.com/wiki/#AccessFlow_ui_template_impl)。
 
 当用户对设备进行唤醒后，应该开始进行语音请求：
 
@@ -405,7 +405,7 @@ TXAIAudioSDK.getInstance().setRecognizeEventListener(new TXAIAudioSDK.RecognizeE
 });
 ```
 
-至此，我们已经完成了一次语音请求，当后台返回需要播放的结果后，将使用SDK的播放控制进行播放，具体参照[播放控制说明](https://xiaowei.qcloud.com/wiki/#APIDesc_media_player_android);
+至此，我们已经完成了一次语音请求，当后台返回需要播放的结果后，将使用SDK的播放控制进行播放，具体参照[播放控制说明](http://xiaowei.qcloud.com/wiki/#APIDesc_media_player_android);
 
 #### TXAIAudioSDK的其他接口说明
 
@@ -429,20 +429,20 @@ TXAIAudioSDK.getInstance().setRecognizeEventListener(new TXAIAudioSDK.RecognizeE
 | setVideoEncDecMode | 设置硬软编解模式,这个标记只对Android4.4以上系统生效。 |
 | enableRealtimeWordslist | 开启关闭可见可达 |
 | setWordslist | 设置可见可达屏幕词表。 |
-| activeApp | 切换播放控制激活的场景，参照[播放控制说明](https://xiaowei.qcloud.com/wiki/#APIDesc_media_player_android)。 |
-| dataReport | 上报事件发生记录，参照[播放控制说明](https://xiaowei.qcloud.com/wiki/#APIDesc_media_player_android)。 |
-| fireClockEvent | 触发后台闹钟，参照[Skill 对接](https://xiaowei.qcloud.com/wiki/#Hardware_local_skill_alarm_clock)。 |
-| getMorePlayList | 加载更多播放列表元素，参照[UI模板实现指引](https://xiaowei.qcloud.com/wiki/#AccessFlow_ui_template_impl)。 |
-| getPlayDetailInfo | 加载更多播放列表元素，参照[UI模板实现指引](https://xiaowei.qcloud.com/wiki/#AccessFlow_ui_template_impl)。 |
-| setChatParam | 设置通话的参数，参照[音视频通话接入指引](https://xiaowei.qcloud.com/wiki/#AccessFlow_audio_video_chat_access)。 |
-| setFavorite | 收藏或取消收藏指定音乐，参照[UI模板实现指引](https://xiaowei.qcloud.com/wiki/#AccessFlow_ui_template_impl)。 |
-| setPlayerEventListener | 设置播放控制播放器事件监听，参照[UI模板实现指引](https://xiaowei.qcloud.com/wiki/#AccessFlow_ui_template_impl)。 |
-| setIPlayerManager | 设置播放控制的播放器，参照[播放控制说明](https://xiaowei.qcloud.com/wiki/#APIDesc_media_player_android)。 |
-| setPlayerCurrentState | 设置播放控制的播放器状态，参照[播放控制说明](https://xiaowei.qcloud.com/wiki/#APIDesc_media_player_android)。 |
-| setPlayByID | 设置当前播放的音乐元素，参照[UI模板实现指引](https://xiaowei.qcloud.com/wiki/#AccessFlow_ui_template_impl)。 |
-| getMsgInfo | 拉取消息详情接口，参照[UI模板实现指引](https://xiaowei.qcloud.com/wiki/#AccessFlow_ui_template_impl)。 |
-| setMsgCommand | 控制指定的消息，参照[UI模板实现指引](https://xiaowei.qcloud.com/wiki/#AccessFlow_ui_template_impl)。 |
-| startAudioVideoChat | 呼叫指定的用户，参照[音视频通话接入指引](https://xiaowei.qcloud.com/wiki/#AccessFlow_audio_video_chat_access)。 |
+| activeApp | 切换播放控制激活的场景，参照[播放控制说明](http://xiaowei.qcloud.com/wiki/#APIDesc_media_player_android)。 |
+| dataReport | 上报事件发生记录，参照[播放控制说明](http://xiaowei.qcloud.com/wiki/#APIDesc_media_player_android)。 |
+| fireClockEvent | 触发后台闹钟，参照[Skill 对接](http://xiaowei.qcloud.com/wiki/#Hardware_local_skill_alarm_clock)。 |
+| getMorePlayList | 加载更多播放列表元素，参照[UI模板实现指引](http://xiaowei.qcloud.com/wiki/#AccessFlow_ui_template_impl)。 |
+| getPlayDetailInfo | 加载更多播放列表元素，参照[UI模板实现指引](http://xiaowei.qcloud.com/wiki/#AccessFlow_ui_template_impl)。 |
+| setChatParam | 设置通话的参数，参照[音视频通话接入指引](http://xiaowei.qcloud.com/wiki/#AccessFlow_audio_video_chat_access)。 |
+| setFavorite | 收藏或取消收藏指定音乐，参照[UI模板实现指引](http://xiaowei.qcloud.com/wiki/#AccessFlow_ui_template_impl)。 |
+| setPlayerEventListener | 设置播放控制播放器事件监听，参照[UI模板实现指引](http://xiaowei.qcloud.com/wiki/#AccessFlow_ui_template_impl)。 |
+| setIPlayerManager | 设置播放控制的播放器，参照[播放控制说明](http://xiaowei.qcloud.com/wiki/#APIDesc_media_player_android)。 |
+| setPlayerCurrentState | 设置播放控制的播放器状态，参照[播放控制说明](http://xiaowei.qcloud.com/wiki/#APIDesc_media_player_android)。 |
+| setPlayByID | 设置当前播放的音乐元素，参照[UI模板实现指引](http://xiaowei.qcloud.com/wiki/#AccessFlow_ui_template_impl)。 |
+| getMsgInfo | 拉取消息详情接口，参照[UI模板实现指引](http://xiaowei.qcloud.com/wiki/#AccessFlow_ui_template_impl)。 |
+| setMsgCommand | 控制指定的消息，参照[UI模板实现指引](http://xiaowei.qcloud.com/wiki/#AccessFlow_ui_template_impl)。 |
+| startAudioVideoChat | 呼叫指定的用户，参照[音视频通话接入指引](http://xiaowei.qcloud.com/wiki/#AccessFlow_audio_video_chat_access)。 |
 | setWakeupUIDebugLogListener | 设置唤醒链路关键步骤监听 |
 | setLinkUIDebugLogListener | 设置请求链路关键步骤监听 |
 | setQuality | 设置资源的品质（目前用于音乐资源，0 流畅，1 标准，2 高，3 无损） |

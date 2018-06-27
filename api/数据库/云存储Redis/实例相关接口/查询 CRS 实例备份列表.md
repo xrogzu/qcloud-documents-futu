@@ -53,7 +53,7 @@
 
 ## 5. 示例
 <pre>
-https://redis.api.qcloud.com/v2/index.php?Action=GetRedisBackupList
+http://redis.api.qcloud.com/v2/index.php?Action=GetRedisBackupList
 &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
 &limit=10
 &offset=0

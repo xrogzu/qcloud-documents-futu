@@ -1,8 +1,8 @@
 以下详细介绍了在 Windows 系统中 Node.js 连接 MongoDB 的示例。
 ## 先决条件
-1. 在云平台[选购一台 CVM](https://buy.tce.fsphere.cn/cvm)，本文档以 Windows Server 2012 R2 版本为示例。
-2. 在云平台[选购 MongoDB](https://buy.tce.fsphere.cn/mongodb)。
-3. 在 CVM 中[下载 Node.js](https://nodejs.org/en/download/)。
+1. 在云平台[选购一台 CVM](http://buy.tce.fsphere.cn/cvm)，本文档以 Windows Server 2012 R2 版本为示例。
+2. 在云平台[选购 MongoDB](http://buy.tce.fsphere.cn/mongodb)。
+3. 在 CVM 中[下载 Node.js](http://nodejs.org/en/download/)。
 
 ## 安装驱动
 进入[云平台控制台](http://console.tcecqpoc.fsphere.cn/cvm/index)，登录刚刚购买的 CVM ，在左下角【开始】处单击右键，再单击【命令提示符】， 打开 cmd 命令行，进入 nodejs 根目录。

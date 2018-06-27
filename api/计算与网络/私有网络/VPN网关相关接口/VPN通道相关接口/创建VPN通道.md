@@ -74,7 +74,7 @@ IPsec配置详情
  
 输入
 <pre>
-  https://vpc.api.qcloud.com/v2/index.php?Action=AddVpnConnEx
+  http://vpc.api.qcloud.com/v2/index.php?Action=AddVpnConnEx
   &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
   &vpcId=vpc-amhnnao5
   &userGwId=cgw-e098slul

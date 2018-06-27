@@ -2,13 +2,13 @@
 ## 开发准备
 
 ### 相关资源
--[GitHub地址](https://github.com/tencentyun/kms-cpp-sdk.git) ,欢迎贡献代码以及反馈问题。
+-[GitHub地址](http://github.com/tencentyun/kms-cpp-sdk.git) ,欢迎贡献代码以及反馈问题。
 
 -[C++ sdk 本地下载]()
 ### 开发环境
 1. [安装openssl的库和头文件](http://www.openssl.org/source/)
-2. [安装libcurl](https://curl.haxx.se/download.html)
-3. [安装cmake工具](https://cmake.org/download/)
+2. [安装libcurl](http://curl.haxx.se/download.html)
+3. [安装cmake工具](http://cmake.org/download/)
 4. 从控制台获取APP ID, SecretID,SecretKey。
 
 
@@ -33,7 +33,7 @@ sample/kms_sample.cpp里面有常见的api例子，生成的kms_sample可以直�
 ``` 
     string secretId="xxxxxx;    #替换为用户的secretId
     string secretKey = "xxxxxx"; #替换为用户的secretKey
-    string endpoint = "https://kms-region.api.tencentyun.com"; # 替换为用户的region , 例如 sh 表示上海， gz表示广州，bj表示北京
+    string endpoint = "http://kms-region.api.tencentyun.com"; # 替换为用户的region , 例如 sh 表示上海， gz表示广州，bj表示北京
     KMSAccount account(endpoint,secretId,secretKey);
 ```
 ### 初始化客户端配置

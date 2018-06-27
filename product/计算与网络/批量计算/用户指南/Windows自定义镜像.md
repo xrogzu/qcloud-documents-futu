@@ -1,21 +1,21 @@
 ## 概要信息
 
-基于 Windows 系统的业务，需要从官方提供的 Windows Server 基础镜像来制作自定义镜像，官方镜像 [链接>>](https://market.tce.fsphere.cn/products/5310)，镜像 ID ``img-er9shcln``
+基于 Windows 系统的业务，需要从官方提供的 Windows Server 基础镜像来制作自定义镜像，官方镜像 [链接>>](http://market.tce.fsphere.cn/products/5310)，镜像 ID ``img-er9shcln``
 
 ## Windows 自定义镜像制作步骤
 
 ### 1. 通过官方基础镜像创建云主机
 
-进入[云主机购买页](https://buy.tce.fsphere.cn/cvm)。
+进入[云主机购买页](http://buy.tce.fsphere.cn/cvm)。
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/f4c62ba416032b20e17ff9ec3ed15e39/s3.png)
-[云市场链接地址>>](https://market.tce.fsphere.cn/products/5310)
+[云市场链接地址>>](http://market.tce.fsphere.cn/products/5310)
 
 选择镜像的时候，选择『服务市场』，在搜索栏里搜索『批量计算』，选择Windows Server 2012 的基础镜像（镜像 ID：img-er9shcln），后续存储、网络、其他设置根据提示选择，最后点击『立即购买』创建云主机。
 
 ### 2. 在云主机上安装业务需要的软件
 
-在 [云主机控制台](https://buy.tce.fsphere.cn/cvm) 查看刚才的创建的云主机信息，远程登录后将你的业务依赖的软件全部安装到该云主机上，并简单测试相关调用。
+在 [云主机控制台](http://buy.tce.fsphere.cn/cvm) 查看刚才的创建的云主机信息，远程登录后将你的业务依赖的软件全部安装到该云主机上，并简单测试相关调用。
 
 ### 3. 制作自定义镜像
 

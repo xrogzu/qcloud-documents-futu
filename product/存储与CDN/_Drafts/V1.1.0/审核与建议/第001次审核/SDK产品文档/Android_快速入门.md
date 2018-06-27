@@ -1,9 +1,9 @@
 ## 开发准备
 
 ### SDK 获取
-对象存储服务的 XML Android SDK 资源下载地址:[XML Android SDK](https://github.com/tencentyun/qcloud-sdk-android/releases).
+对象存储服务的 XML Android SDK 资源下载地址:[XML Android SDK](http://github.com/tencentyun/qcloud-sdk-android/releases).
 
-演示示例Demo下载地址:[XML Android SDK Demo](https://github.com/tencentyun/qcloud-sdk-android-samples).
+演示示例Demo下载地址:[XML Android SDK Demo](http://github.com/tencentyun/qcloud-sdk-android-samples).
 
 > <font size=4 color=red> 标准的maven等包管理工具的安装方式要给出来</font>
 > by stongdong
@@ -311,7 +311,7 @@ cosXmlService.getObjectAsync(getObjectRequest, new CosXmlResultListener() {
 > <font size=4 color=red> 写了本地签名的流程，如果使用CAM那套机制如何进行签名，要列出来，可参考ricken的最佳实践</font>
 > by stongdong
 
-若需要了解签名具体的生成过程请参照[签名流程](https://www.qcloud.com/document/product/436/7778).
+若需要了解签名具体的生成过程请参照[签名流程](http://www.qcloud.com/document/product/436/7778).
 
 在使用SDK时，SDK中已提供了签名获取类，只需要继承 BasicLifecycleCredentialProvider 类，并重写 fetchNewCredentials() 方法，从而获取secretId,secretKey, secretKey Duration.
 

@@ -2,10 +2,10 @@
 
 ### SDK 获取
 
-对象存储服务的 iOS SDK 地址：[iOS SDK](https://github.com/tencentyun/qcloud-sdk-ios.git)    
+对象存储服务的 iOS SDK 地址：[iOS SDK](http://github.com/tencentyun/qcloud-sdk-ios.git)    
 需要下载打包好的Framework格式的SDK可以从realease中选择需要的版本进行下载。
 
-更多示例可参考 Demo：[iOS Demo](https://github.com/tencentyun/qcloud-sdk-ios-samples.git)    
+更多示例可参考 Demo：[iOS Demo](http://github.com/tencentyun/qcloud-sdk-ios-samples.git)    
 （本版本 SDK 基于 XML API 封装组成）
 
 ### 开发准备

@@ -35,7 +35,7 @@
  
 输入
 ```
-  https://vpc.api.qcloud.com/v2/index.php?Action=CreateSubnetAclRule
+  http://vpc.api.qcloud.com/v2/index.php?Action=CreateSubnetAclRule
   &<公共请求参数>
   &vpcId=vpc-erxok83l
   &networkAclId=acl-e9dbyl8s

@@ -45,7 +45,7 @@ vod.api.qcloud.com
 ### 请求示例
 
 ```
-https://vod.api.qcloud.com/v2/index.php?Action=MultiPullVodFile
+http://vod.api.qcloud.com/v2/index.php?Action=MultiPullVodFile
 &pullset.0.url=http://www.demo.com/1.mp4
 &pullset.0.fileName=test
 &pullset.0.isTranscode=1

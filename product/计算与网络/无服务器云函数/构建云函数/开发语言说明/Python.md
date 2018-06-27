@@ -71,5 +71,5 @@ from qcloud_cos import UploadFileRequest
 ## Python 2 或 3？
 您可以在函数创建时，通过选择运行环境中的 `Python 2.7` 或 `Python 3.6` 选择您所期望使用的运行环境。
 
-您可以在[这里](https://wiki.python.org/moin/Python2orPython3)查看 Python 官方对 Python 2 或 Python 3 语言选择的建议。
+您可以在[这里](http://wiki.python.org/moin/Python2orPython3)查看 Python 官方对 Python 2 或 Python 3 语言选择的建议。
 

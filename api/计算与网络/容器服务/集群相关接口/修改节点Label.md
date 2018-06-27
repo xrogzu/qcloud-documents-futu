@@ -29,7 +29,7 @@ labels 参数详细说明：
 ## 4. 示例
 输入
 ```
-  https://domain/v2/index.php?Action=ModifyClusterNodeLabel
+  http://domain/v2/index.php?Action=ModifyClusterNodeLabel
   ------------基础参数----------
   &clusterId=cls-xxxxx
   &instanceId=ins-xxx

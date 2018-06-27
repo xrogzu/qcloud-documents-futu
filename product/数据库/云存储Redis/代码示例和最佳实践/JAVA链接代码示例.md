@@ -1,6 +1,6 @@
 **运行前必备**：
 
-使用客户端Jedis，下载和参考地址：https://github.com/xetorthio/jedis/wiki/Getting-started
+使用客户端Jedis，下载和参考地址：http://github.com/xetorthio/jedis/wiki/Getting-started
 
 **示例代码**：
 
@@ -21,7 +21,7 @@ public class HelloRedis {
             //鉴权
             jedis.auth(instanceid + ":" + password);
 
-            /**接下来可以愉快的开始操作redis实例，可以参考：https://github.com/xetorthio/jedis */
+            /**接下来可以愉快的开始操作redis实例，可以参考：http://github.com/xetorthio/jedis */
             //设置key
             jedis.set("redis", "tencent");
             System.out.println("set key redis suc, value is: tencent");

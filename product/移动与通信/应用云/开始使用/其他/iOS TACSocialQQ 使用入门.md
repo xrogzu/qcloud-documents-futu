@@ -13,12 +13,12 @@ TACSocialQQ 封装了 [TencentOpenAPI](http://wiki.connect.qq.com/ios_sdk%E7%8E%
 ### 1. 在您的项目中集成移动开发平台（MobileLine） SDK，并在您的 Podfile 文件中添加移动开发平台（MobileLine）的私有源：
  
 ~~~
-source "https://git.tce.fsphere.cn/qcloud_u/cocopoads-repo"
-source "https://github.com/CocoaPods/Specs"
+source "http://git.tce.fsphere.cn/qcloud_u/cocopoads-repo"
+source "http://github.com/CocoaPods/Specs"
 ~~~
 
 > **注意：**
-一定要添加 [CocoaPods](https://github.com/CocoaPods/Specs) 的原始源，否则会造成部分仓库找不到的问题。
+一定要添加 [CocoaPods](http://github.com/CocoaPods/Specs) 的原始源，否则会造成部分仓库找不到的问题。
 
 ### 2. 添加 TACSocialQQ 到您的 Podfile，您可以按照以下方法在 Podfile 中纳入一个 Pod：
  

@@ -1,5 +1,5 @@
 ## 1	开发准备
-<p>微视频服务的Node.js sdk的下载地址： <a href="https://github.com/tencentyun/mvs-nodejs-sdk.git" class="external free" title="https://github.com/tencentyun/mvs-nodejs-sdk.git" target="_blank" rel="nofollow">https://github.com/tencentyun/mvs-nodejs-sdk.git</a>
+<p>微视频服务的Node.js sdk的下载地址： <a href="http://github.com/tencentyun/mvs-nodejs-sdk.git" class="external free" title="http://github.com/tencentyun/mvs-nodejs-sdk.git" target="_blank" rel="nofollow">http://github.com/tencentyun/mvs-nodejs-sdk.git</a>
 </p>
 
 ### 1.1	前期准备
@@ -12,7 +12,7 @@
 
 <p>1.	下载Node.js sdk<br>
 方法一：执行 npm install qcloud_video 直接安装。<br>
-方法二：执行git clone <a href="https://github.com/tencentyun/mvs-nodejs-sdk.git" class="external free" title="https://github.com/tencentyun/mvs-nodejs-sdk.git" target="_blank" rel="nofollow">https://github.com/tencentyun/mvs-nodejs-sdk.git</a> 或者直接在github网站下载zip包。<br>
+方法二：执行git clone <a href="http://github.com/tencentyun/mvs-nodejs-sdk.git" class="external free" title="http://github.com/tencentyun/mvs-nodejs-sdk.git" target="_blank" rel="nofollow">http://github.com/tencentyun/mvs-nodejs-sdk.git</a> 或者直接在github网站下载zip包。<br>
 注意：sdk依赖formstream包，使用方法二需要自行安装此包。<br>
 2.	导入项目<br>
 在IDE中导入qcloud_video包<br>

@@ -36,7 +36,7 @@
 ## 5. 示例
 输入
 <pre>
-https://cdb.api.qcloud.com/v2/index.php?Action=GetCdbDataSyncTaskInfo
+http://cdb.api.qcloud.com/v2/index.php?Action=GetCdbDataSyncTaskInfo
 &<公共请求参数>
 &cdbInstanceId=cdb-c1nl9rpv
 </pre>

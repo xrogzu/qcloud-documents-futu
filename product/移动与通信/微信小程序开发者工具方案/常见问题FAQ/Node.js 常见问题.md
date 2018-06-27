@@ -32,7 +32,7 @@
 
 ## 如何远程调试后台代码
 
-云平台微信小程序解决方案 2.0 是基于 Node.js 开发的，提供远程调试功能，在微信开发者工具页面点击右上角“云平台”，在下拉菜单中选中“启动单步调试”，系统会自动重启远程服务，并使用 [inspect-brk 模式](https://nodejs.org/en/docs/inspector/)启动 Node.js App，接着开发者工具会打开调试窗口。
+云平台微信小程序解决方案 2.0 是基于 Node.js 开发的，提供远程调试功能，在微信开发者工具页面点击右上角“云平台”，在下拉菜单中选中“启动单步调试”，系统会自动重启远程服务，并使用 [inspect-brk 模式](http://nodejs.org/en/docs/inspector/)启动 Node.js App，接着开发者工具会打开调试窗口。
 
 ![Debug窗口](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/abd646218599ff3c0056ce99ee6fdbd7/1.png)
 
@@ -40,7 +40,7 @@
 
 ![给程序下断点并启动](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1731adeff8e3be435a4ba2213fef2ec9/2.png)
 
-更多关于 Node.js 远程调试的文档说明，可以查看 [Chrome 开发者工具官方文档](https://developers.google.cn/web/tools/chrome-devtools/?hl=zh-cn)。
+更多关于 Node.js 远程调试的文档说明，可以查看 [Chrome 开发者工具官方文档](http://developers.google.cn/web/tools/chrome-devtools/?hl=zh-cn)。
 
 ## 如何查看后台日志
 
@@ -56,7 +56,7 @@
 
 ![phpMyAdmin](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/0b17ef0178c71463d65b3f883a3f1f2b/3.png)
 
-点击右边列表的“新建”，即可新建数据库。点击任一一个数据库可以进行新建表等操作。phpMyAdmin 具体操作说明可以查看 [phpMyAdmin文档](https://docs.phpmyadmin.net/zh_CN/latest/)。
+点击右边列表的“新建”，即可新建数据库。点击任一一个数据库可以进行新建表等操作。phpMyAdmin 具体操作说明可以查看 [phpMyAdmin文档](http://docs.phpmyadmin.net/zh_CN/latest/)。
 
 > **注意：**
 >
@@ -92,7 +92,7 @@ module.exports = function (ctx, next) {
 router.get('/demo', controllers.demo)
 ```
 
-接着点击右上角的“云平台”按钮，选择“上传代码”，勾选“node_modules之外的代码”，点击确定即可上传代码，接着再次点击右上角的“云平台”按钮，选择“部署开发环境”，等到提示开发环境部署成功了之后，打开浏览器，访问 `https://云平台分配的域名/weapp/demo`，即可看到刚刚编写的返回，是一个 JSON 字符串：
+接着点击右上角的“云平台”按钮，选择“上传代码”，勾选“node_modules之外的代码”，点击确定即可上传代码，接着再次点击右上角的“云平台”按钮，选择“部署开发环境”，等到提示开发环境部署成功了之后，打开浏览器，访问 `http://云平台分配的域名/weapp/demo`，即可看到刚刚编写的返回，是一个 JSON 字符串：
 
 ```json
 {"code":0,"data":{"msg":"Hello World"}}

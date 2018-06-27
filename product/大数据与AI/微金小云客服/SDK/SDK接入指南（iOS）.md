@@ -1,4 +1,4 @@
-管理人员登录 [微金小云客服管理系统](https://ics.webank.com) ，在【系统管理】>【App 接入】单击 iOS SDK 接入说明，接入指引如下：
+管理人员登录 [微金小云客服管理系统](http://ics.webank.com) ，在【系统管理】>【App 接入】单击 iOS SDK 接入说明，接入指引如下：
 ![1](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/12192f1261eba091584e07ee1cef6f96/image.png)
 ### SDK 接入(iOS)
 接入前请先确保后台接入正常，接入配置为 iOS。

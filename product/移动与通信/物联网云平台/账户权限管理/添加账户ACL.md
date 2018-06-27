@@ -23,7 +23,7 @@ ret | String | 模块处理结果（OK）
 GET 请求需要将所有参数都加在 URL 后：
 
 ```
-https://iot.api.qcloud.com/v2/index.php?
+http://iot.api.qcloud.com/v2/index.php?
 Action=AddUserAcl
 &SecretId=XXXXXXXX
 &Nonce=60363
@@ -38,7 +38,7 @@ Action=AddUserAcl
 ```
 
 ### 4.2 POST请求
-POST请求时，参数填充在HTTP Request-body 中，请求地址：https://iot.api.qcloud.com/v2/index.php
+POST请求时，参数填充在HTTP Request-body 中，请求地址：http://iot.api.qcloud.com/v2/index.php
 
 参数支持 form-data、x-www-form-urlencoded 等格式，参数数组如下：
 ```

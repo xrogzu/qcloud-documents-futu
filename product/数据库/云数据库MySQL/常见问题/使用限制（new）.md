@@ -9,7 +9,7 @@
 云数据库最大连接数默认值为实例内存 1/5，且最大不超过 10240, 最小不低于 800。例如实例规格为 8000 MB 内存时，默认最大连接数为 8000/5=1600。用户可以根据需要自行调整 max_connections 的值。
 云数据库控制台可修改的 max_connections 最大为 10000，如需更大连接数，请提交工单申请，云平台会根据实例内存的使用情况审批。
 但是，连接数越多，消耗系统资源也越多。如果连接数超过实际系统的负载承受能力范围，必然影响系统服务质量。
-关于 max_connections 可以参考 [MySQL官方手册](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_max_connections)。 
+关于 max_connections 可以参考 [MySQL官方手册](http://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_max_connections)。 
 
 ## 3. 连接云数据库的 MySQL 客户端的版本限制
 
@@ -64,12 +64,12 @@ bool mysqli::set_charset(string charset);
 ```
 bool mysqli_set_charset(mysqli link, string charset);
 ```
-详细请参考 [MySQL 官方手册](https://dev.mysql.com/doc/connectors/en/apis-php-mysqli.set-charset.html)。 
+详细请参考 [MySQL 官方手册](http://dev.mysql.com/doc/connectors/en/apis-php-mysqli.set-charset.html)。 
 
 4. 对于 java 程序，可通过如下方式设置当前连接的字符集编码：
 ```
 jdbc:mysql://localhost:3306/dbname?useUnicode=true&characterEncoding=UTF-8
 ```
-详细请参考 [MySQL 官方手册](https://dev.mysql.com/doc/connectors/en/connector-j-reference-configuration-properties.html)。 
+详细请参考 [MySQL 官方手册](http://dev.mysql.com/doc/connectors/en/connector-j-reference-configuration-properties.html)。 
 
 

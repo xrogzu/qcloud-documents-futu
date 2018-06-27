@@ -25,7 +25,7 @@
 
 ## 1. AppStore 下载
 
-Demo在AppStore上名为“随心聊IM”，下载地址：https://itunes.apple.com/cn/app/sui-xin-liaoim/id1112479040?mt=8
+Demo在AppStore上名为“随心聊IM”，下载地址：http://itunes.apple.com/cn/app/sui-xin-liaoim/id1112479040?mt=8
 
 <img src="//mccdn.qcloud.com/static/img/71db8d792764f22984f8a644f879aa5a/image.png" width=320 />
 
@@ -36,7 +36,7 @@ Demo在AppStore上名为“随心聊IM”，下载地址：https://itunes.apple.
 工程路径：IM_iOS_SDK_x.x.x/samples/sample , 其中x.x.x是版本号。eg：IM_iOS_SDK_1.9.1/samples/sample
 使用最新版本的Xcode打开工程文件 TIMChat.xcodeproj 即可运行
 ### 2.1 从github下载
-从[github](https://github.com/zhaoyang21cn/iOS_Suixinliao)下载源码，所有配置与官网相同。
+从[github](http://github.com/zhaoyang21cn/iOS_Suixinliao)下载源码，所有配置与官网相同。
 
 注：若使用真机编译不过，请检查Bundle Identifier是否正确
 

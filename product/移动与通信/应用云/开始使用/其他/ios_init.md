@@ -25,8 +25,8 @@ MobileLine移动开发平台的 服务使用 CocoaPods 安装和管理依赖项�
 2. 打开 Podfile 并添加
 	
 	~~~
-	source "https://git.tce.fsphere.cn/qcloud_u/cocopoads-repo"
-	source "https://github.com/CocoaPods/Specs"
+	source "http://git.tce.fsphere.cn/qcloud_u/cocopoads-repo"
+	source "http://github.com/CocoaPods/Specs"
 	pod 'TACCore'
 	~~~
 

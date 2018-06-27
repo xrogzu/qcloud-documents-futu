@@ -30,7 +30,7 @@ COS 提供以下工具，您可按照自身需求使用：
 - **COSCMD 工具**
  - 有一定 Python 操作基础的用户，建议使用 COSCMD 工具。
 
- - 点击下载 [COSCMD 工具](https://github.com/tencentyun/coscmd)，使用指引参考 [COSCMD 工具使用说明](/document/product/436/10976)。其中重点配置信息说明如下：
+ - 点击下载 [COSCMD 工具](http://github.com/tencentyun/coscmd)，使用指引参考 [COSCMD 工具使用说明](/document/product/436/10976)。其中重点配置信息说明如下：
 ![COSCMD工具配置信息](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/cb4a6d9006514cbc54e71fe6db395064/image.png)
      1. **secret_id** 和 **secret_key**
 指用户的云 API 密钥，可从云 API 密钥控制台的 API 密钥菜单中获取。若还没有云 API 密钥，用户可在控制台上新建。点此进入 [云 API 密钥控制台](http://console.tcecqpoc.fsphere.cn/capi)。
@@ -44,7 +44,7 @@ COS 提供以下工具，您可按照自身需求使用：
 - **COS 本地同步工具**
  - 其他用户建议通过 COS 本地同步工具上传。
 
- - 点击下载 [本地同步工具](https://github.com/tencentyun/cos_sync_tools_v5 "COS同步工具")，使用指引参考 [本地同步工具使用说明](/document/product/436/7133 "本地同步工具使用说明")。其中重点配置信息说明如下：
+ - 点击下载 [本地同步工具](http://github.com/tencentyun/cos_sync_tools_v5 "COS同步工具")，使用指引参考 [本地同步工具使用说明](/document/product/436/7133 "本地同步工具使用说明")。其中重点配置信息说明如下：
 ![同步工具配置信息](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/fcafb9aa397b49c39b720430d27f2350/image.png)
      1. **secret_id** 和 **secret_key**
 指用户的云 API 密钥，可从云 API 密钥控制台的 API 密钥菜单中获取。若还没有云 API 密钥，用户可在控制台上新建。点此进入 [云 API 密钥控制台](http://console.tcecqpoc.fsphere.cn/capi)。

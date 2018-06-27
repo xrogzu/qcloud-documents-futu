@@ -13,7 +13,7 @@
 
 `http://recognition.image.myqcloud.com/ocr/drivinglicence` 
 
-`https://recognition.image.myqcloud.com/ocr/drivinglicence`
+`http://recognition.image.myqcloud.com/ocr/drivinglicence`
 
 ## 请求方式
 ### 请求头 header

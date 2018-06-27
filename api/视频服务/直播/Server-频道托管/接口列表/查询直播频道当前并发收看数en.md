@@ -58,7 +58,7 @@ If the value of channel ID is -1, the number of online users for all channels is
 
 Query based on a video ID
 Input
-<pre>`https://domain/v2/index.php?Action=DescribeLVBOnlineUsers`
+<pre>`http://domain/v2/index.php?Action=DescribeLVBOnlineUsers`
 &<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">Public Request Parameters</a>
 </pre>
 Output

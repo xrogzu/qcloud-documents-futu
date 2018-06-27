@@ -30,7 +30,7 @@
 
 ## 二、连接 SQL Server 云数据库实例（Windows 云服务器）
 1. 登陆云平台 Windows 云服务器。如果您还没有云平台 Windows 云服务器，请参考 [快速入门 Windows 云服务器](/doc/product/213/2764)。本教程以 Windows Server 2012 R2 标准版 64 位中文版为例。
-2. 在云平台 Windows 云服务器中下载并安装 [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)。更多有关 SQL Server Management Studio 的文档请参考微软官方文档 [使用 SQL Server Management Studio][1]。
+2. 在云平台 Windows 云服务器中下载并安装 [SQL Server Management Studio](http://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)。更多有关 SQL Server Management Studio 的文档请参考微软官方文档 [使用 SQL Server Management Studio][1]。
 3. 在 SQL Server 云数据库实例详情页，单击【实例详情】，查看 SQL Server 云数据库实例的内网 IP 及端口号。**该内网 IP 及端口号会在连接云数据库时使用。**
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/6dcf51fc839f1ea7c47c26609b711ede/image.png)
 4. 在 Windows 云服务器上启动 SQL Server Management Studio。在 **Connect to server** 界面，填写相关信息连接云数据库。单击【Connect】，稍等几分钟后，SQL Server Management Studio 将连接到您的数据库实例。
@@ -55,4 +55,4 @@ select @@VERSION
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/fa68b790fe7a12e1c17bfde648ac6e98/image.png)
 3. SQL Server 云数据库实例暂时不支持手动删除，到期后没有续费将会自动停止。
 
-[1]:https://msdn.microsoft.com/zh-cn/library/ms174173(v=sql.105).aspx
+[1]:http://msdn.microsoft.com/zh-cn/library/ms174173(v=sql.105).aspx

@@ -6,7 +6,7 @@ DescribeEipBm 接口用于查询ACL关联的EIP列表。
 ## 请求
 ### 请求示例
 ```
-GET https://bmeip.api.qcloud.com/v2/index.php?
+GET http://bmeip.api.qcloud.com/v2/index.php?
 	Action=DescribeEipBm
 	&<公共请求参数>
 	&aclId=<EIP实例ID>
@@ -112,7 +112,7 @@ Data结构
  
 ### 输入
 ```
-GET https://bmeip.api.qcloud.com/v2/index.php?
+GET http://bmeip.api.qcloud.com/v2/index.php?
 	Action=DescribeEipBm
 	&SecretId=AKIDlfdHxN0ntSVt4KPH0xXWnGl21UUFNoO5
 	&Nonce=57333

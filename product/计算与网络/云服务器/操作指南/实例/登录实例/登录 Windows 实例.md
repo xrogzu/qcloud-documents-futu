@@ -41,7 +41,7 @@
 
 ### 操作步骤
 1. 安装 rdesktop
- 	运行 `rdesktop` 命令检查系统是否已经安装，若未安装则请 [转到 github 下载最新安装包 >>](https://github.com/rdesktop/rdesktop/releases)
+ 	运行 `rdesktop` 命令检查系统是否已经安装，若未安装则请 [转到 github 下载最新安装包 >>](http://github.com/rdesktop/rdesktop/releases)
  	或 单击以下链接直接下载 v1.8.3版本：
  	[rdesktop-1.8.3.tar.gz](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/06483121ce067b537342687dd6a909d8/rdesktop-1.8.3.tar.gz)
  	[rdesktop-1.8.3.zip](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/24adfd7586f55bd96cd6714a6078a4df/rdesktop-1.8.3.zip)

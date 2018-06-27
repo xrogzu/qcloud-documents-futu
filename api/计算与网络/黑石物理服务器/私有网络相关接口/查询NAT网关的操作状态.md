@@ -8,7 +8,7 @@ QueryBmNatGatewayProductionStatus 接口用于查询操作黑石NAT网关任务�
 
 ### 请求示例
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=QueryBmNatGatewayProductionStatus
+GET http://bmvpc.api.qcloud.com/v2/index.php/?Action=QueryBmNatGatewayProductionStatus
     &<公共请求参数>
     &taskId=<NAT异步任务ID>
 ```
@@ -49,7 +49,7 @@ GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=QueryBmNatGatewayProductio
 
 ### 输入
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?	
+GET http://bmvpc.api.qcloud.com/v2/index.php?	
 	Action=QueryBmNatGatewayProductionStatus
 	&SecretId=AKID1ub7R1JoyBF7nHqjk7IH8nGWaR6Yezwd
 	&Nonce=56046

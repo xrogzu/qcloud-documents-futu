@@ -11,13 +11,13 @@
 
 ### 先来看下创建应用吧：
 
-![](https://tacimg-1253960454.cos.ap-guangzhou.myqcloud.com/guides/project/application_create.jpg)
+![](http://tacimg-1253960454.cos.ap-guangzhou.myqcloud.com/guides/project/application_create.jpg)
 
 一共分为注册应用、下载配置文件、添加 SDK、添加初始化代码 4 步，
 
 这里提示还是很清晰的。
 
-![](https://tacimg-1253960454.cos.ap-guangzhou.myqcloud.com/guides/project/application_guide.jpg)
+![](http://tacimg-1253960454.cos.ap-guangzhou.myqcloud.com/guides/project/application_guide.jpg)
 
 ### 移动分析：
 
@@ -27,11 +27,11 @@
 
 ### Crash 上报
 
-![](https://tacimg-1253960454.cos.ap-guangzhou.myqcloud.com/guides/crash/crash_overview.png)
+![](http://tacimg-1253960454.cos.ap-guangzhou.myqcloud.com/guides/crash/crash_overview.png)
 
 ### 消息推送
 
-![](https://tacimg-1253960454.cos.ap-guangzhou.myqcloud.com/guides/信鸽-创建推送-android-通知栏消息.png)
+![](http://tacimg-1253960454.cos.ap-guangzhou.myqcloud.com/guides/信鸽-创建推送-android-通知栏消息.png)
 
 ### 存储
 

@@ -1703,7 +1703,7 @@ void onGroupUpdate(TIMGroupCacheInfo groupCacheInfo);
 
 如下图中，展示一条修改群名的事件消息。
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151014031645_92316.jpg)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151014031645_92316.jpg)
 
 **`TIMGroupTipsElem` 成员方法：**    
 

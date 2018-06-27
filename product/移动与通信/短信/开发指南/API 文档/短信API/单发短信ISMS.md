@@ -5,7 +5,7 @@
 
 ### URL 示例
 
-`https://yun.tim.qq.com/v5/tlssmssvr/sendisms?sdkappid=xxxxx&random=xxxx`
+`http://yun.tim.qq.com/v5/tlssmssvr/sendisms?sdkappid=xxxxx&random=xxxx`
 
 **注**：sdkappid 请填写您在云平台上申请到的，random 请填成随机数。
 
@@ -29,7 +29,7 @@
 | extend | 否   | string | 短信码号扩展号，格式为纯数字串，其他格式无效。默认没有开通，开通请联系 [云平台短信技术支持](http://tcecqpoc.fsphere.cn/document/product/382/3773) |
 | msg    | 是   | string | 短信消息，utf8 编码，需要匹配审核通过的模板内容                                           |
 | sig    | 是   | string | App 凭证，具体计算方式见下注                                                              |
-| tel    | 是   | string | 国际电话号码，格式依据 [e.164](https://en.wikipedia.org/wiki/E.164) 标准为: `+[国家码][手机号]` ，示例如：`+8613711112222`， 其中前面有一个 `+` 符号 ，`86` 为国家码，`13711112222` 为手机号       |
+| tel    | 是   | string | 国际电话号码，格式依据 [e.164](http://en.wikipedia.org/wiki/E.164) 标准为: `+[国家码][手机号]` ，示例如：`+8613711112222`， 其中前面有一个 `+` 符号 ，`86` 为国家码，`13711112222` 为手机号       |
 | time   | 是   | number | 请求发起时间，unix 时间戳（单位：秒），如果和系统时间相差超过 10 分钟则会返回失败                       |
 | type   | 是   | number | 短信类型，Enum{0: 普通短信, 1: 营销短信}（注意：要按需填值，不然会影响到业务的正常使用） |
 

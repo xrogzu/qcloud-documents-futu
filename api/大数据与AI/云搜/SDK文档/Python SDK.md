@@ -77,4 +77,4 @@ qcloudapi-sdk-python 是为了让 Python 开发者能够在自己的代码里更
  ```
 
 ### 常见问题
-* 如果碰到 ImportError: No module named requests.auth 请安装 [request](https://github.com/kennethreitz/requests)。
+* 如果碰到 ImportError: No module named requests.auth 请安装 [request](http://github.com/kennethreitz/requests)。

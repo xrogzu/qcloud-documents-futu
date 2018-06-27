@@ -31,7 +31,7 @@
 
 接入大致分为以下几个步骤：
 
-*   从[小微硬件开放平台](https://xiaowei.qcloud.com/hardware.html)申请接入，具体可以参考[接入流程指引](/wiki/#hardware_product_intro)。
+*   从[小微硬件开放平台](http://xiaowei.qcloud.com/hardware.html)申请接入，具体可以参考[接入流程指引](/wiki/#hardware_product_intro)。
 *   下载小微设备端SDK，小微目前具备Android和Linux两个平台的SDK。[获取通道层SDK](/wiki/#APIDesc_tunnel_interface)
 *   参考文档和demo实现功能并进行测试。
 *   提供体验设备，完成产品体验。
@@ -82,7 +82,7 @@
 
 ### 硬件开放平台申请接入流程
 
-开发者申请接入云平台小微硬件开放平台需要在[官网](https://xiaowei.qcloud.com/hardware.html)递交申请资料，进入云平台小微官网--硬件开放开放--点击【申请内测】：
+开发者申请接入云平台小微硬件开放平台需要在[官网](http://xiaowei.qcloud.com/hardware.html)递交申请资料，进入云平台小微官网--硬件开放开放--点击【申请内测】：
 
 [![image](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/申请内测.jpg)](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/申请内测.jpg)
 

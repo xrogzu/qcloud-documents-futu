@@ -33,7 +33,7 @@
  
 输入
 ```
-https://domain/v2/index.php?Action=DescribeVpnConnMonitor
+http://domain/v2/index.php?Action=DescribeVpnConnMonitor
 &<公共请求参数>
 &vpcId=7
 &vpnGwId=8

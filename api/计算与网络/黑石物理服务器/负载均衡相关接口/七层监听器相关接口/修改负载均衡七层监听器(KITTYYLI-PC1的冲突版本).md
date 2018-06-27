@@ -55,8 +55,8 @@
 输入
 
 <pre>
-https://domain/v2/index.php?Action=ModifyBmForwardListener
-&<<a href="https://www.qcloud.com/document/product/386/6718">公共请求参数</a>>
+http://domain/v2/index.php?Action=ModifyBmForwardListener
+&<<a href="http://www.qcloud.com/document/product/386/6718">公共请求参数</a>>
 &loadBalancerId=lb-abcdefgh
 &listenerId=lbl-abcdefgh
 &listenerName=https-listener

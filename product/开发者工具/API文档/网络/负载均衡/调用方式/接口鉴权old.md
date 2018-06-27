@@ -102,7 +102,7 @@ HgIYOPcx5lN6gz8JsCFBNAWp2oQ=
 示例最终的请求 URL 为:
 
 ```
-https://cvm.api.qcloud.com/v2/index.php?Action=DescribeInstances
+http://cvm.api.qcloud.com/v2/index.php?Action=DescribeInstances
 &Nonce=345122
 &Region=gz
 &SecretId=AKIDz8krbsJ5yKBZQpn74WFkmLPx3gnPhESA

@@ -3,7 +3,7 @@
 
 ## 一、通过微信公众平台授权登录云平台
 
-打开 [微信公众平台](https://mp.weixin.qq.com) 注册并登录小程序，按如下步骤操作：
+打开 [微信公众平台](http://mp.weixin.qq.com) 注册并登录小程序，按如下步骤操作：
 
 1. 单击左侧菜单栏中的【设置】。
 2. 单击右侧 Tab 栏中的【开发者工具】。
@@ -115,7 +115,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 ## 四、安装微信小程序开发工具
 
-下载并安装最新版本的[微信开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)，使用小程序绑定的微信号扫码登录开发者工具。
+下载并安装最新版本的[微信开发者工具](http://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)，使用小程序绑定的微信号扫码登录开发者工具。
 
 ![微信开发者工具](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/4fd45bb5c74eed92b031fbebf8600bd2/1.png)
 
@@ -149,7 +149,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
   ![上传成功](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a78431b42d0edf0bddae0b85ef00d40f/7.png)
 
-7. 上传代码完成之后，点击右上角的【详情】按钮，接着选择【云平台状态】即可看到云平台自动分配给你的开发环境域名，完整复制（包括 `https://`）开发环境 request 域名，然后在编辑器中打开 `wxlite/config.js` 文件，将复制的域名填入 `url` 中并保存，保存之后编辑器会自动编译小程序，左边的模拟器窗口即可实时显示出客户端的 Demo：
+7. 上传代码完成之后，点击右上角的【详情】按钮，接着选择【云平台状态】即可看到云平台自动分配给你的开发环境域名，完整复制（包括 `http://`）开发环境 request 域名，然后在编辑器中打开 `wxlite/config.js` 文件，将复制的域名填入 `url` 中并保存，保存之后编辑器会自动编译小程序，左边的模拟器窗口即可实时显示出客户端的 Demo：
 
   ![查看开发域名](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/2d24e840b1fa5b36b4d767e5311ca7cc/wxliteconfigserver2.png)
 
@@ -165,7 +165,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## 常见问题 FAQ
 ##### 1. 运行出错如何排查？
- - 请修改`wxlite/config.js`中的url，使用默认的官方demo后台：https://lvb.qcloud.com ，直接运行小程序
+ - 请修改`wxlite/config.js`中的url，使用默认的官方demo后台：http://lvb.qcloud.com ，直接运行小程序
  - 请重新解压下载的demo直接运行小程序，默认就是官方demo后台
  - 请返回第二步检查开通的小程序类目是否正确，推拉流标签在小程序控制台是否开启
  - 使用官方demo后台运行可以，请参考此文档再重新部署一遍
@@ -178,13 +178,13 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   - 如有更多需求，或希望深度合作，可以提工单或客服电话（400-9100-100）联系我们。
   
 ##### 3. live-pusher、live-player标签使用及错误码参考
-  - [live-pusher&错误码](https://mp.weixin.qq.com/debug/wxadoc/dev/component/live-pusher.html)
-  - [live-player&错误码](https://mp.weixin.qq.com/debug/wxadoc/dev/component/live-player.html)
-  - [livePusherContext](https://mp.weixin.qq.com/debug/wxadoc/dev/api/api-live-pusher.html)
-  - [livePlayerContext](https://mp.weixin.qq.com/debug/wxadoc/dev/api/api-live-player.html)
+  - [live-pusher&错误码](http://mp.weixin.qq.com/debug/wxadoc/dev/component/live-pusher.html)
+  - [live-player&错误码](http://mp.weixin.qq.com/debug/wxadoc/dev/component/live-player.html)
+  - [livePusherContext](http://mp.weixin.qq.com/debug/wxadoc/dev/api/api-live-pusher.html)
+  - [livePlayerContext](http://mp.weixin.qq.com/debug/wxadoc/dev/api/api-live-player.html)
   
 ##### 4. 如果需要上线或者部署正式环境怎么办？
   - 请申请域名并做备案
   - 请将服务端代码部署到申请的服务器上
-  - 请将业务server域名及IM域名配置到小程序控制台request合法域名里面，其中IM域名为：https://webim.tim.qq.com
+  - 请将业务server域名及IM域名配置到小程序控制台request合法域名里面，其中IM域名为：http://webim.tim.qq.com
    

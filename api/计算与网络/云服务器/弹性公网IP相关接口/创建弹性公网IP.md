@@ -39,7 +39,7 @@
 #### 请求参数
 
 <pre>
-https://eip.api.tce.fsphere.cn/v2/index.php?Action=AllocateAddresses
+http://eip.api.tce.fsphere.cn/v2/index.php?Action=AllocateAddresses
 &Version=2017-03-12
 &AddressCount=1
 &<<a href="/document/api/213/11650">公共请求参数</a>>

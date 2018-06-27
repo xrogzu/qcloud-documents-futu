@@ -8,7 +8,7 @@
 
 + 默认情况下，每一个账号每日可刷新 URL 10000 条，每次最多可提交 1000 条
 + 全网 URL 刷新生效时间约为 5分钟
-+ 提交的 URL 必须以 http:// 或 https:// 开头
++ 提交的 URL 必须以 http:// 或 http:// 开头
 + 提交的 URL 中域名必须为该账号下已接入的加速域名
 + 提交的 URL 中域名的状态需要为【已启动】或【部署中】
 + 调用频次限制为 10000次/分钟
@@ -37,7 +37,7 @@ urls.0=http://www.abc.com/1.jpg&urls.1=http://www.abc.com/2.jpg
    https: //www.test.com/index.php?name=2
    ```
 
-   由于缓存时忽略参数，因此均刷新 URL：```https://www.test.com/index.php```。为节省配额，提交刷新任务时可不带参去重。
+   由于缓存时忽略参数，因此均刷新 URL：```http://www.test.com/index.php```。为节省配额，提交刷新任务时可不带参去重。
 
 2. 若域名关闭了过滤参数配置，此时提交如下 URL 进行刷新：
 
@@ -71,7 +71,7 @@ urls.0=http://www.abc.com/1.jpg&urls.1=http://www.abc.com/2.jpg
 
 ### 示例参数
 ```
-urls.0：https://www.test.com/1.jpg
+urls.0：http://www.test.com/1.jpg
 ```
 
 ### GET 请求
@@ -79,7 +79,7 @@ urls.0：https://www.test.com/1.jpg
 GET 请求需要将所有参数都加在 URL 后：
 
 ```
-https://cdn.api.qcloud.com/v2/index.php?
+http://cdn.api.qcloud.com/v2/index.php?
 Action=RefreshCdnUrl
 &SecretId=XXXXXXXXXXXXXXXXXX
 &Timestamp=1462521223
@@ -93,7 +93,7 @@ Action=RefreshCdnUrl
 POST请求时，参数填充在 HTTP Request-body 中，请求地址：
 
 ```
-https://cdn.api.qcloud.com/v2/index.php
+http://cdn.api.qcloud.com/v2/index.php
 ```
 
 参数支持 form-data、x-www-form-urlencoded 等格式，参数数组如下：
@@ -105,7 +105,7 @@ array (
   'Timestamp' => 1462864833,
   'Nonce' => 1149033341,
   'Signature' => 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-  'urls.0' => 'https://www.test.com/1.jpg'
+  'urls.0' => 'http://www.test.com/1.jpg'
 )
 ```
 <font color="red">当需要刷新的URL较多时，为避免GET请求长度超出限制，建议使用POST方式调用此接口。</font>

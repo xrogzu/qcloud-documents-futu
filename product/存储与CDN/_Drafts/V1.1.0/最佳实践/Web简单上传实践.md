@@ -4,8 +4,8 @@
 
 ## 一、前期准备
 
-1. 到 [COS对象存储控制台](https://console.qcloud.com/cos4) 创建存储桶，得到 Bucket（存储桶名称） 和 Region（地域名称）
-2. 到 [控制台密钥管理](https://console.qcloud.com/capi) 获取您的项目 SecretId 和 SecretKey
+1. 到 [COS对象存储控制台](http://console.qcloud.com/cos4) 创建存储桶，得到 Bucket（存储桶名称） 和 Region（地域名称）
+2. 到 [控制台密钥管理](http://console.qcloud.com/capi) 获取您的项目 SecretId 和 SecretKey
 3. 配置 CORS 规则，配置例子如下图：
 
 ![cors](https:cors.png)
@@ -14,7 +14,7 @@
 
 由于签名计算放在前端会暴露 SecretId 和 SecretKey，我们把签名计算过程放在后端实现，前段通过 ajax 向后端获取签名结果，正式部署时请再后端加一层自己网站本身的权限检验。
 
-这里提供 [PHP 和 NodeJS 的签名例子](https://github.com/tencentyun/cos-js-sdk-v5/blob/master/server/)，其他语言，请参照对应的 [XML SDK](http://tcecqpoc.fsphere.cn/document/product/436/6474)
+这里提供 [PHP 和 NodeJS 的签名例子](http://github.com/tencentyun/cos-js-sdk-v5/blob/master/server/)，其他语言，请参照对应的 [XML SDK](http://tcecqpoc.fsphere.cn/document/product/436/6474)
 
 ## 三、前端上传
 

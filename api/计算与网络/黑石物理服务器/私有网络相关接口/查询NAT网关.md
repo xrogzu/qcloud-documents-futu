@@ -7,7 +7,7 @@ DescribeBmNatGateway 接口用于查询租户创建的NAT网关列表信息，�
 
 ### 请求示例
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=DescribeBmNatGateway
+GET http://bmvpc.api.qcloud.com/v2/index.php/?Action=DescribeBmNatGateway
     &<公共请求参数>
     &natId=<NAT网关ID>
     &natName=<NAT网关名称>
@@ -102,7 +102,7 @@ data 数据结构如下：
 
 ### 输入
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?
+GET http://bmvpc.api.qcloud.com/v2/index.php?
 	Action=DescribeBmNatGateway
 	&SecretId=AKID1ub7R1JoyBF7nHqjk7IH8nGWaR6Yezwd
 	&Nonce=4557

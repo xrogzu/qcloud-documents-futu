@@ -39,7 +39,7 @@
  
 输入
 <pre>
-  https://vpc.api.qcloud.com/v2/index.php?Action=ModifyVpnGw
+  http://vpc.api.qcloud.com/v2/index.php?Action=ModifyVpnGw
   &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
   &vpcId=vpc-amhnnao5
   &vpnGwId=vpngw-dystbrkv

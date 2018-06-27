@@ -29,7 +29,7 @@ statisticsType.n.statistics 和  statisticsType.n.period 填写时，为该聚�
 ## 4. 示例
 输入
 <pre>
-https://monitor.api.qcloud.com/v2/index.phpAction=CreateMetricAggeration
+http://monitor.api.qcloud.com/v2/index.phpAction=CreateMetricAggeration
 &namespace=name1
 &metricName=zqmetric1
 &dimensionNames.0=d1

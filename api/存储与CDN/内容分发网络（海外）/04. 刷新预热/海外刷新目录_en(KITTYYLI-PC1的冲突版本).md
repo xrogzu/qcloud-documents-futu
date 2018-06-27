@@ -10,10 +10,10 @@ Domain name for API request: cdn.api.qcloud.com
 
 3) Up to 20 directories can be purged at one time.
 
-[Call Demo](https://www.qcloud.com/document/product/228/1734)
+[Call Demo](http://www.qcloud.com/document/product/228/1734)
 
 ## 2. Input Parameters
-The following request parameter list only provides API request parameters. Common request parameters need to be added when the API is called. See the [Common Request Parameters](https://www.qcloud.com/doc/api/231/4473) page for details. The Action field for this API is RefreshCdnOverSeaDir.
+The following request parameter list only provides API request parameters. Common request parameters need to be added when the API is called. See the [Common Request Parameters](http://www.qcloud.com/doc/api/231/4473) page for details. The Action field for this API is RefreshCdnOverSeaDir.
 
 | Parameter Name   | Required | Type     | Description                  |
 | ------ | ---- | ------ | ------------------- |
@@ -28,14 +28,14 @@ The following request parameter list only provides API request parameters. Commo
     dirs.0=http://www.test.com/abc/&dirs.1=http://www.test.com/def/
     ```
 
-+ URLs must start with "http://" or "https://".
++ URLs must start with "http://" or "http://".
 
 
 ## 3. Output Parameters
 
 | Parameter Name     | Type     | Description                                       |
 | -------- | ------ | ---------------------------------------- |
-| code     | Int    | Common error code; 0: Succeeded; other values: Failed. For more information, refer to [Common Error Codes](https://www.qcloud.com/doc/api/231/5078#1.-.E5.85.AC.E5.85.B1.E9.94.99.E8.AF.AF.E7.A0.81) on Error Code page.  |
+| code     | Int    | Common error code; 0: Succeeded; other values: Failed. For more information, refer to [Common Error Codes](http://www.qcloud.com/doc/api/231/5078#1.-.E5.85.AC.E5.85.B1.E9.94.99.E8.AF.AF.E7.A0.81) on Error Code page.  |
 | message  | String | Module error message description depending on API.                           |
 | codeDesc | String | Error message|
 | data     | Array  | Details will be described below                                  |
@@ -61,7 +61,7 @@ The following request parameter list only provides API request parameters. Commo
 All the parameters are required to be added after URL in GET request:
 
 ```
-https://cdn.api.qcloud.com/v2/index.php?
+http://cdn.api.qcloud.com/v2/index.php?
 Action=RefreshCdnOverSeaDir
 &SecretId=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 &Timestamp=1462521628
@@ -77,7 +77,7 @@ Action=RefreshCdnOverSeaDir
 In POST request, the parameters will be filled in HTTP Request-body. The request address is:
 
 ```
-https://cdn.api.qcloud.com/v2/index.php
+http://cdn.api.qcloud.com/v2/index.php
 ```
 
 Such formats of parameters as form-data, x-www-form-urlencoded are supported. The array of parameters is as follows:

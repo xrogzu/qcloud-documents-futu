@@ -23,7 +23,7 @@ acls | Array | 账户acl列表（topic，access）
 ### 4.1  GET请求
 GET 请求需要将所有参数都加在 URL 后：
 ```
-https://iot.api.qcloud.com/v2/index.php?
+http://iot.api.qcloud.com/v2/index.php?
 Action=GetUserAclList
 &SecretId=XXXXXXXX
 &Nonce=63035
@@ -36,7 +36,7 @@ Action=GetUserAclList
 ```
 
 ### 4.2 POST请求
-POST请求时，参数填充在HTTP Request-body 中，请求地址：https://iot.api.qcloud.com/v2/index.php
+POST请求时，参数填充在HTTP Request-body 中，请求地址：http://iot.api.qcloud.com/v2/index.php
 
 参数支持 form-data、x-www-form-urlencoded 等格式，参数数组如下：
 ```

@@ -36,7 +36,7 @@
 ### 请求示例
 
 ```
-  https://cfs.api.qcloud.com/v2/index.php?Action=QueryMountTarget
+  http://cfs.api.qcloud.com/v2/index.php?Action=QueryMountTarget
   &Region=bj
   &FileSystemId=cfs-h97kuqvr
   &<公共请求参数>

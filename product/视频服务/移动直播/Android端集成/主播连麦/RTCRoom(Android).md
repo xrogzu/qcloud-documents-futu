@@ -91,7 +91,7 @@ mRTCRoom.setRTCRoomListener(new IRTCRoomListener() {
 - 示例代码：
 
 ```
-final String DOMAIN = "https://room.qcloud.com/weapp/rtc_room ";
+final String DOMAIN = "http://room.qcloud.com/weapp/rtc_room ";
 LoginInfo loginInfo      = new LoginInfo();
 loginInfo.sdkAppID       = sdkAppID;
 loginInfo.userID         = userID;

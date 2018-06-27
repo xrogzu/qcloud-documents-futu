@@ -7,7 +7,7 @@ CreateBmNatGateway 接口用于创建黑石NAT网关，可针对CIDR方式、子
 ## 请求
 ### 请求示例
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=CreateBmNatGateway
+GET http://bmvpc.api.qcloud.com/v2/index.php/?Action=CreateBmNatGateway
     &<公共请求参数>
     &natName=<NAT网关名称>
     &unVpcId=<vpc网络ID>
@@ -83,7 +83,7 @@ ips包含字段如下：
 ## 实际案例
 ### 输入
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?
+GET http://bmvpc.api.qcloud.com/v2/index.php?
 	Action=CreateBmNatGateway
 	&SecretId=AKID1ub7R1JoyBF7nHqjk7IH8nGWaR6Yezwd
 	&Nonce=4557

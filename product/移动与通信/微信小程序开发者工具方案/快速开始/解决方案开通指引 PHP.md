@@ -1,6 +1,6 @@
 ### 一、通过微信公众平台授权登录云平台
 
-打开[微信公众平台](https://mp.weixin.qq.com)注册并登录小程序，按如下步骤操作：
+打开[微信公众平台](http://mp.weixin.qq.com)注册并登录小程序，按如下步骤操作：
 
 1. 单击左侧菜单栏中的【设置】。
 2. 单击右侧 Tab 栏中的【开发者工具】。
@@ -19,7 +19,7 @@
 
 ### 二、安装开发工具
 
-下载并安装最新版本的[微信开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)，使用小程序绑定的微信号扫码登录开发者工具。
+下载并安装最新版本的[微信开发者工具](http://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)，使用小程序绑定的微信号扫码登录开发者工具。
 
 ![微信开发者工具](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/4fd45bb5c74eed92b031fbebf8600bd2/1.png)
 
@@ -49,7 +49,7 @@
 
   ![查看开发域名](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/04a97a0551d28a25aa066352e74e0443/8.png)
 
-7. 完整复制（包括 `https://`）开发环境 request 域名，然后在编辑器中打开 `client/config.js` 文件，将复制的域名填入 `host` 中并保存，保存之后编辑器会自动编译小程序，左边的模拟器窗口即可实时显示出客户端的 Demo。
+7. 完整复制（包括 `http://`）开发环境 request 域名，然后在编辑器中打开 `client/config.js` 文件，将复制的域名填入 `host` 中并保存，保存之后编辑器会自动编译小程序，左边的模拟器窗口即可实时显示出客户端的 Demo。
 
   ![修改客户端配置](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/397c68210ef2113721608dd2506f8f12/9.png)
 

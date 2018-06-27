@@ -29,7 +29,7 @@ Logstash 数据处理可以分为三个阶段：inputs → filters → outputs�
 
 当前最新版本为 v5.1.8 ，其使用 0.10 版本的 consumer api 进行数据读取。
 
-具体参数配置可见：https://www.elastic.co/guide/en/logstash/current/plugins-inputs-kafka.html
+具体参数配置可见：http://www.elastic.co/guide/en/logstash/current/plugins-inputs-kafka.html
 #### outputs
 官网版本兼容性说明如下：
 
@@ -37,7 +37,7 @@ Logstash 数据处理可以分为三个阶段：inputs → filters → outputs�
 
 当前最新版本为 v5.1.7，其使用 0.10 版本的 producer api 进行数据生产。
 
-具体参数配置可见：https://www.elastic.co/guide/en/logstash/current/plugins-outputs-kafka.html
+具体参数配置可见：http://www.elastic.co/guide/en/logstash/current/plugins-outputs-kafka.html
 ### 准备工作
 - Java 版本：java 8
 - Logstash 版本：5.5.2 （August 17, 2017）
@@ -67,7 +67,7 @@ Logstash 数据处理可以分为三个阶段：inputs → filters → outputs�
 
 *可以看到刚才 topic 中的数据现在被消费出来*
 
-关于kafka作为output的配置更多参数请参考：https://www.elastic.co/guide/en/logstash/current/plugins-inputs-kafka.html#plugins-inputs-kafka-auto_offset_reset
+关于kafka作为output的配置更多参数请参考：http://www.elastic.co/guide/en/logstash/current/plugins-inputs-kafka.html#plugins-inputs-kafka-auto_offset_reset
 
 ### CKafka 作为 outputs 接入
 1. 执行 bin/logstash-plugin list，查看已经支持的插件是否含有 logstash-output-kafka
@@ -85,7 +85,7 @@ Logstash 数据处理可以分为三个阶段：inputs → filters → outputs�
 4. 校验刚刚的生产数据
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ae85758a90a497235a90511770f959d2/10.png)
 
-关于kafka作为output的配置更多参数请参考：https://www.elastic.co/guide/en/logstash/current/plugins-outputs-kafka.html
+关于kafka作为output的配置更多参数请参考：http://www.elastic.co/guide/en/logstash/current/plugins-outputs-kafka.html
 
 
 

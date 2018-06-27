@@ -1,6 +1,6 @@
 ## 开发准备
 ### SDK 获取
-短信 PHP SDK 在 Github 中的下载地址：[短信 PHP SDK](https://github.com/qcloudsms/qcloudsms_php)。
+短信 PHP SDK 在 Github 中的下载地址：[短信 PHP SDK](http://github.com/qcloudsms/qcloudsms_php)。
 
 ### 开发准备
 **1. 申请 SDK AppID 以及 App Key：**

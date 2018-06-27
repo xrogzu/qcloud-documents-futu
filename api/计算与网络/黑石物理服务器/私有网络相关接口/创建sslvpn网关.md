@@ -8,7 +8,7 @@ CreateBmSslVpnGw 用于创建黑石sslvpn网关，每VPC只限一个sslvpn网关
 
 语法示例：
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=CreateBmSslVpnGw
+GET http://bmvpc.api.qcloud.com/v2/index.php/?Action=CreateBmSslVpnGw
     &<公共请求参数>
     &unVpcId=<私有网络唯一ID>
     &vpnGwName=<sslvpn网关名称>
@@ -74,7 +74,7 @@ GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=CreateBmSslVpnGw
 ## 实际案例
 ### 请求
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?
+GET http://bmvpc.api.qcloud.com/v2/index.php?
 	Action=CreateBmSslVpnGw
 	&SecretId=AKIDlfdHxN0ntSVt4KPH0xXWnGl21UUFNoO5
 	&Nonce=11362

@@ -6,11 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.5">
 <title>请求方式</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
 /* Remove comment around @import statement below when using as a custom stylesheet */
-/*@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";*/
+/*@import "http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";*/
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
 audio,canvas,video{display:inline-block}
 audio:not([controls]){display:none;height:0}
@@ -448,14 +448,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>最终的请求 URL的拼接规则为:</p>
 </div>
 <div class="paragraph">
-<p>https:// + 请求域名 + 请求路径 + ? + 请求参数串（包括公共参数和接口参数）</p>
+<p>http:// + 请求域名 + 请求路径 + ? + 请求参数串（包括公共参数和接口参数）</p>
 </div>
 <div class="paragraph">
 <p>假设用户想要查询广州地域的云服务器实例列表，则其请求链接的形式可能如下:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">GET https://cvm.api.qcloud.com/v2/index.php? <b class="conum">(1)</b>
+<pre class="highlight"><code class="language-bash" data-lang="bash">GET http://cvm.api.qcloud.com/v2/index.php? <b class="conum">(1)</b>
 
 Action=DescribeInstances
 &amp;SecretId=xxxxxxx

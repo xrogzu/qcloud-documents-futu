@@ -81,7 +81,7 @@ eg: 2016-01-01 00:00:00
 
 Input 1
 <pre>
-https://domain/v2/index.php?Action=GetVodRecordFiles&channelId=9896125784085535840&startTime=2016-01-01+00%3A00%3A00&pageNum=1&pageSize=20
+http://domain/v2/index.php?Action=GetVodRecordFiles&channelId=9896125784085535840&startTime=2016-01-01+00%3A00%3A00&pageNum=1&pageSize=20
 
 </pre>
 

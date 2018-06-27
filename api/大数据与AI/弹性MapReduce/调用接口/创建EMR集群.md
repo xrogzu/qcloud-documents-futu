@@ -64,7 +64,7 @@
 在广州二区创建一个非高可用的集群,1一个master节点，2个core节点，master节点S1型4核16G，50G数据盘，core节点I1型4核16G，50G数据盘，task节点I1型4核16G，数据盘为空，emr版本1,安装hadoop-2.7.3,不集成cos
 
 <pre>
-  https://emr.api.qcloud.com/index.php?Action=EmrCreateCluster
+  http://emr.api.qcloud.com/index.php?Action=EmrCreateCluster
   &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
   &ZoneId=100002
   &SoftInfo.0=hadoop-2.7.3

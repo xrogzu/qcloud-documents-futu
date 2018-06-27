@@ -26,7 +26,7 @@
 
 ```
 <pre>
-  https://cfs.test.api.qcloud.com/v2/index.php?Action=CreateCfsRule&SecretId=1
+  http://cfs.test.api.qcloud.com/v2/index.php?Action=CreateCfsRule&SecretId=1
   Uin=27700000
   &AppId=1250000000
   &PGroupId=pgroup-atutdqup
@@ -34,7 +34,7 @@
   &UserPermission=root_squash
   &ClientIp=10.15.21.101
   &Priority=9
-  &<<a href="https://www.tce.fsphere.cn/doc/api/229/6976"> 公共请求参数 </a>>
+  &<<a href="http://www.tce.fsphere.cn/doc/api/229/6976"> 公共请求参数 </a>>
 </pre>
 ```
 

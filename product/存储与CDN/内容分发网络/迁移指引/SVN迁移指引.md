@@ -18,7 +18,7 @@ SVN手册：http://svndoc.iusesvn.com/
 1.选择要存储SVN文件的目录，cd进入该目录，执行svn checkout命令（CDN服务的SVN路径获取，详见：[CDN文件发布](http://tcecqpoc.fsphere.cn/doc/product/228/CDN%E6%96%87%E4%BB%B6%E5%8F%91%E5%B8%83)），拿云服务账号为1251991073的开发者举例，执行的命令如下所示：
 
 ```
-svn checkout https://cdn.yun.qq.com/1251991073
+svn checkout http://cdn.yun.qq.com/1251991073
 ```
 
 2.输入用户名和密码（即云服务账号和密码，详见：[CDN文件发布](http://tcecqpoc.fsphere.cn/doc/product/228/CDN%E6%96%87%E4%BB%B6%E5%8F%91%E5%B8%83)）。

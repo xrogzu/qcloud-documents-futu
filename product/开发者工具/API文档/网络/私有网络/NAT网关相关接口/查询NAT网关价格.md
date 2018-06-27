@@ -34,7 +34,7 @@ data结构
 ## 4. 示例
 输入
 ```
-https://vpc.api.qcloud.com/v2/index.php?Action=InquiryNatPrice
+http://vpc.api.qcloud.com/v2/index.php?Action=InquiryNatPrice
 &maxConcurrent=2000000
 &COMMON_PARAMS
 ```

@@ -10,7 +10,7 @@
 + 每一个账号每日封禁 URL 上限为 3000 条，每次最多可提交 100 条
 + 提交的 URL 中域名必须为该账号下已接入的加速域名
 + 提交的 URL 中域名的状态需要为【已启动】或【部署中】
-+ 提交的 URL 必须以 http:// 或 https:// 开头
++ 提交的 URL 必须以 http:// 或 http:// 开头
 + 同一条 URL 封禁、解封的时间间隔需要大于 15 分钟
 + 若 URL 本身不可访问，则不会触发封禁操作，也无法进行解封以及记录查看
 + 调用频次限制为 30次/分钟
@@ -52,7 +52,7 @@ urls.0=http://www.abc.com/1.jpg&urls.1=http://www.abc.com/2.jpg
 
 ### 示例参数
 ```
-urls.0：https://www.test.com/1.jpg
+urls.0：http://www.test.com/1.jpg
 ```
 
 ### GET 请求
@@ -60,7 +60,7 @@ urls.0：https://www.test.com/1.jpg
 GET 请求需要将所有参数都加在 URL 后：
 
 ```
-https://cdn.api.qcloud.com/v2/index.php?
+http://cdn.api.qcloud.com/v2/index.php?
 Action=ForbidBadUrl
 &SecretId=XXXXXXXXXXXXXXXXXX
 &Timestamp=1462521223
@@ -74,7 +74,7 @@ Action=ForbidBadUrl
 POST请求时，参数填充在 HTTP Request-body 中，请求地址：
 
 ```
-https://cdn.api.qcloud.com/v2/index.php
+http://cdn.api.qcloud.com/v2/index.php
 ```
 
 参数支持 form-data、x-www-form-urlencoded 等格式，参数数组如下：
@@ -86,7 +86,7 @@ array (
   'Timestamp' => 1462864833,
   'Nonce' => 1149033341,
   'Signature' => 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-  'urls.0' => 'https://www.test.com/1.jpg'
+  'urls.0' => 'http://www.test.com/1.jpg'
 )
 ```
 ### 结果示例
@@ -98,7 +98,7 @@ array (
     "codeDesc": "Success",
     "data": {
         "dealing_urls": [
-            "https://www.test.com/1.jpg"
+            "http://www.test.com/1.jpg"
         ]
     }
 }

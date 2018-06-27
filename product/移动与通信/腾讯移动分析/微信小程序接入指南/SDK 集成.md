@@ -1,6 +1,6 @@
 ### 接入说明
 1.注册应用后，按【SDK 配置说明】下载 SDK；
-2.在小程序开发设置中，将`https://pingtas.qq.com` 添加为可信域名；
+2.在小程序开发设置中，将`http://pingtas.qq.com` 添加为可信域名；
 3.将 SDK 放置入项目中，目录自定义，并在应用入口 app.js 中引入 SDK，例如：var mta= require('path/to/mta_analysis.js')；
 4.在应用入口 app.js 的 App.onLaunch 方法调用如下代码段，做统计信息初始化（可在【应用管理】选择配置并拷贝代码），以下为示例代码：
 

@@ -20,15 +20,15 @@ X-Client-Proto: https  （前端为 HTTPS 请求）
 ## 3. 入门配置
 
 
-假定用户需要配置网站 https://example.com 。开发者希望用户在浏览器中输入网址时，直接键入www.example.com 即可通过 HTTPS 协议安全访问。
+假定用户需要配置网站 http://example.com 。开发者希望用户在浏览器中输入网址时，直接键入www.example.com 即可通过 HTTPS 协议安全访问。
 
 此时用户输入的 www.example.com 请求转发流程如下：
 
 1. 该请求以 HTTP 协议传输，通过 VIP 访问负载均衡监听器的 80 端口，并被转发到后端云服务器的 8080 端口。
 
-2. 通过在云平台后端服务器的 nginx 上配置 rewrite 操作，该请求经过 8080 端口，并被重写到 https://example.com 页面。
+2. 通过在云平台后端服务器的 nginx 上配置 rewrite 操作，该请求经过 8080 端口，并被重写到 http://example.com 页面。
 
-3. 此时浏览器再次发送 https://example.com 请求到相应的 HTTPS 站点，该请求通过 VIP 访问负载均衡监听器的 443 端口，并被转发到后端云服务器的 80 端口。
+3. 此时浏览器再次发送 http://example.com 请求到相应的 HTTPS 站点，该请求通过 VIP 访问负载均衡监听器的 443 端口，并被转发到后端云服务器的 80 端口。
 
 至此，请求转发完成。
 
@@ -44,7 +44,7 @@ server {
 
 		#! customized_conf_begin;
 		client_max_body_size 200m;
-		rewrite ^/.(.*) https://$host/$1 redirect;
+		rewrite ^/.(.*) http://$host/$1 redirect;
 
 } 
 }
@@ -56,7 +56,7 @@ server {
 server { 	
   	listen	  80;
   	server_name    example.qcloud.com;
-  	return	  301 https://$server_name$request_uri;
+  	return	  301 http://$server_name$request_uri;
 }
 
 server {

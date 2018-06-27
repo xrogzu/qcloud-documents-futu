@@ -44,7 +44,7 @@
 输入
 <pre>
 
-  https://vpc.api.qcloud.com/v2/index.php?Action=AssociateVip
+  http://vpc.api.qcloud.com/v2/index.php?Action=AssociateVip
 	&<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
   &vpcId=vpc-2ari9m7h
 	&vipId=1

@@ -1,7 +1,7 @@
 ## 产品简介
-### [互动直播功能介绍](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/Introduction.md)
+### [互动直播功能介绍](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/Introduction.md)
 ### [应用场景](http://tcecqpoc.fsphere.cn/doc/product/268/3160)
-### [变更历史](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/History.md)
+### [变更历史](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/History.md)
 ## 开通与购买指导
 #### [如何开通](http://tcecqpoc.fsphere.cn/doc/product/268/4899)
 #### [价格说明](http://tcecqpoc.fsphere.cn/doc/product/268/5127)
@@ -13,25 +13,25 @@
 
 ## 集成开发
 ## 开发预备
-### [了解系统架构](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/Architecture.md)
-### [快速参数配置](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/fastConfig.md)
-### [准备后台接口](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/serverInit.md)
+### [了解系统架构](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/Architecture.md)
+### [快速参数配置](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/fastConfig.md)
+### [准备后台接口](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/serverInit.md)
 
 ## 终端集成
 ### Android端集成
-1. [下载代码](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/Android_ILiveSDK_BeforeHand.md)
-2. [直播接口](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/Android_ILiveSDK_Live.md)
-3. [互动消息和上麦接口](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/Android_ILiveSDK_Senior.md)
+1. [下载代码](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/Android_ILiveSDK_BeforeHand.md)
+2. [直播接口](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/Android_ILiveSDK_Live.md)
+3. [互动消息和上麦接口](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/Android_ILiveSDK_Senior.md)
 
 ### iOS端集成
-1. [下载代码](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/iOS_ILiveSDK_BeforeHand.md)
-2. [直播接口](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/iOS_ILiveSDK_Live.md)
-3. [互动消息和上麦接口](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/iOS_ILiveSDK_Interactive.md)
+1. [下载代码](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/iOS_ILiveSDK_BeforeHand.md)
+2. [直播接口](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/iOS_ILiveSDK_Live.md)
+3. [互动消息和上麦接口](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/iOS_ILiveSDK_Interactive.md)
 
 ### Mac端集成
-1. [下载代码](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/Mac_ILiveSDK_BeforeHand.md)
-2. [直播接口](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/Mac_ILiveSDK_Live.md)
-3. [互动消息和上麦接口](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/Mac_ILiveSDK_Interactive.md)
+1. [下载代码](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/Mac_ILiveSDK_BeforeHand.md)
+2. [直播接口](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/Mac_ILiveSDK_Live.md)
+3. [互动消息和上麦接口](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/Mac_ILiveSDK_Interactive.md)
 
 
 ### PC端集成
@@ -44,12 +44,12 @@
 2. [web消息互动](http://tcecqpoc.fsphere.cn/doc/product/269/1594)
 
 
-### [旁路直播](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/pushStream.md)
-### [录制](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/record.md)
+### [旁路直播](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/pushStream.md)
+### [录制](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/record.md)
 
 ## 重要概念
 
-### [DC与OC的分配和切换](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/ocdc.md)
+### [DC与OC的分配和切换](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/ocdc.md)
 
 ### 账号登录集成
 * [账号登录集成说明](http://tcecqpoc.fsphere.cn/doc/product/268/3328)
@@ -60,15 +60,15 @@
 
 
 ## 常见问题
-### [流控配置](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/spearConfig.md)
-### [质量监控](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/avmonitor.md)
-### [自定义音视频输入流](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/custominput.md)
-### [画面对焦](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/focus.md)
-### [画面旋转和裁剪](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/rotate.md)
-### [直播被中断事件的处理](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/breakEvent.md)
-### [在线人数](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/onlineMember.md)
-### [功能定制](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/custom.md)
-### [日志说明](https://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/log.md)
+### [流控配置](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/spearConfig.md)
+### [质量监控](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/avmonitor.md)
+### [自定义音视频输入流](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/custominput.md)
+### [画面对焦](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/focus.md)
+### [画面旋转和裁剪](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/rotate.md)
+### [直播被中断事件的处理](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/breakEvent.md)
+### [在线人数](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/onlineMember.md)
+### [功能定制](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/custom.md)
+### [日志说明](http://github.com/zhaoyang21cn/suixinbo_doc/blob/master/doc2/log.md)
 
 ##运营相关
 ###[微信支付证照要求](http://tcecqpoc.fsphere.cn/document/product/268/6048)

@@ -1,7 +1,7 @@
 本文档为万象优图V2版本和V2加强版的Nodejs SDK文档，旧版本（V1版本）的Nodejs SDK文档参见 万象优图[Nodejs SDK说明文档-V1](/doc/product/275/Nodejs SDK_V1)。
 注意：各版本的SDK接口不能混用，具体版本说明请参照[版本说明](/doc/product/275/版本说明)。
 ## 1	开发准备
-万象优图服务的nodejs sdk的下载地址： https://github.com/tencentyun/nodejs-sdk
+万象优图服务的nodejs sdk的下载地址： http://github.com/tencentyun/nodejs-sdk
 ### 1.1	前期准备
 1.	sdk依赖node 0.4.7版本及以上。
 2.	获取项目ID(appid)，bucket，secret_id和secret_key；

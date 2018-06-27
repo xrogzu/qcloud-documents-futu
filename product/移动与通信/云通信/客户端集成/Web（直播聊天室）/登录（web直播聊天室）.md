@@ -5,7 +5,7 @@ Demo集成了托管模式下的腾讯登录服务（Tencent Login Service，TLS�
 在index.html引入web 版TLS sdk，如： 
 
 ```
-<script type="text/javascript" src="https://tls.qcloud.com/libs/api.min.js"></script>
+<script type="text/javascript" src="http://tls.qcloud.com/libs/api.min.js"></script>
 ```
 
 然后在页面中调用`TLSHelper.getQuery('tmpsig')`，判断是否获取到了临时身份凭证，没有，则调用`TLSHelper.goLogin({sdkappid: loginInfo.sdkAppID,acctype: loginInfo.accountType,url: callBackUrl})`，跳转到tls登录页面，登录成功会跳转到回调地址callBackUrl。

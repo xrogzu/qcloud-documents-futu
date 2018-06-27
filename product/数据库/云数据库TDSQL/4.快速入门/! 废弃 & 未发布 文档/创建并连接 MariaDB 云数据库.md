@@ -63,7 +63,7 @@
 1. 登录到与此数据库实例属于同一个可用区的网络可达的 CVM 主机，关于登录 CVM 主机请查看 [快速入门 Windows 云服务器](/document/product/213/2764) 或 [快速入门 Linux 云服务器](/document/product/213/2936)。网络可达是指此 CVM 主机与 MariaDB 数据库实例都处于基础网络之中，或者处于同一个 VPC 中。
 2. 请根据 CVM 的操作系统选择推荐的连接方式。
 **从 Windows 系统登录**
-a. 下载并安装 MariadDB 的客户端。此步骤中我们推荐您使用 SQLyog，查看 [SQLyog 官网](https://www.webyog.com/) 以获得更多信息。
+a. 下载并安装 MariadDB 的客户端。此步骤中我们推荐您使用 SQLyog，查看 [SQLyog 官网](http://www.webyog.com/) 以获得更多信息。
 b. 打开 SQLyog，输入 MariaDB 数据库实例的内网 IP 和端口号，数据库帐号以及密码。
   - 我的 SQL 主机地址：本教程中输入 10.30.0.7。
   - 用户名：本教程中创建的用户名 test123。
@@ -86,7 +86,7 @@ mysql -h hostname -u username -p
 ```
 请将`hostname`替换为目标 MariaDB 数据库实例的内网 IP 地址，将`username`替换为本教程创建的用户`test123`，并在提示 **Enter password：** 后输入帐户 test123 对应的密码。本例中`hostname`为`10.30.0.7`。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/f8dccff34309cfd332f600f1ceb35ff1/image.png)
-c. 在 **MySQL>** 提示符下可以发送 SQL 语句到要执行的 MariaDB 服务器。关于 SQL 语句的更多信息请参考 [MySQL 官方文档](https://dev.mysql.com/doc/refman/5.7/en/mysql-commands.html)。
+c. 在 **MySQL>** 提示符下可以发送 SQL 语句到要执行的 MariaDB 服务器。关于 SQL 语句的更多信息请参考 [MySQL 官方文档](http://dev.mysql.com/doc/refman/5.7/en/mysql-commands.html)。
 例如执行以下命令，查看数据库基本信息。
 ```
 show databases;
@@ -105,7 +105,7 @@ c. 查看此数据库实例的外网地址。此例中，数据库的外网域�
 
 2. 登录到数据库
 **从Windows系统登录**
-a. 下载 MariaDB 客户端并安装。此步骤中我们推荐您使用 SQLyog，查看 [SQLyog 官网](https://www.webyog.com/) 以获得更多信息。
+a. 下载 MariaDB 客户端并安装。此步骤中我们推荐您使用 SQLyog，查看 [SQLyog 官网](http://www.webyog.com/) 以获得更多信息。
 b. 打开 SQLyog，输入 MariaDB 数据库实例的外网域名和端口号，数据库帐号以及密码。
   - 我的 SQL 主机地址：本教程中输入 tdsql-6gy3mopk.gz.cdb.myqcloud.com。
   - 用户名：本教程中创建的用户名 test123。
@@ -126,7 +126,7 @@ mysql -h hostname -P port -u username -p
 ```
 请将`hostname`替换为目标 MariaDB 数据库实例的外网 IP 地址，将`username`替换为本教程创建的用户`test123`，并在提示 **Enter password：** 后输入帐户 test123 对应的密码。本例中`hostname`为`tdsql-6gy3mopk.gz.cdb.myqcloud.com`，`port` 为 114。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/230ca6d65526050e062c3f59186d4e6c/image.png)
-c. 在 **MySQL>** 提示符下可以发送 SQL 语句到要执行的 MariaDB 服务器。关于 SQL 语句的更多信息请参考 [MySQL 官方文档](https://dev.mysql.com/doc/refman/5.7/en/mysql-commands.html)。
+c. 在 **MySQL>** 提示符下可以发送 SQL 语句到要执行的 MariaDB 服务器。关于 SQL 语句的更多信息请参考 [MySQL 官方文档](http://dev.mysql.com/doc/refman/5.7/en/mysql-commands.html)。
 例如执行以下命令，查看数据库基本信息。
 ```
 show databases;

@@ -47,7 +47,7 @@
 
 ## 示例 
 
->**GET** `https://{{url}}/?Action={{name}}`{%block sample_input%}
+>**GET** `http://{{url}}/?Action={{name}}`{%block sample_input%}
 {%endblock%}>>&[公共请求参数](/doc/api/229/6976)
 
 

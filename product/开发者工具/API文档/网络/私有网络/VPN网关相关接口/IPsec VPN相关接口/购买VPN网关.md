@@ -31,7 +31,7 @@
  
 输入
 ```
-  https://domain/v2/index.php?Action=CreateVpn
+  http://domain/v2/index.php?Action=CreateVpn
   &<公共请求参数>
   &vpcId=gz_vpc_1111
 	&period=1

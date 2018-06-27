@@ -301,7 +301,7 @@ riskType详细说明
 <br> 一个完整的请求需要两类请求参数：公共请求参数和接口请求参数。这里只列出了接口请求参数，并未列出公共请求参数，有关公共请求参数的说明可见[公共请求参数](http://tcecqpoc.fsphere.cn/document/product/295/7279)小节。
 ```
 请求示例 ：
-https://csec.api.qcloud.com/v2/index.php?
+http://csec.api.qcloud.com/v2/index.php?
 Action=LoginProtection
 &<公共请求参数>
 &secretId=AKIDmQtAxYTAB2iBS8s2DCzazCD2g7OUq4Zw

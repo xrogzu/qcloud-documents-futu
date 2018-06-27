@@ -11,7 +11,7 @@
 
 ### 2.2 请求URL 
 ```
-https://console.tim.qq.com/v4/group_open_http_svc/get_appid_group_list?usersig=xxx&identifier=admin&sdkappid=88888888&random=99999999&contenttype=json
+http://console.tim.qq.com/v4/group_open_http_svc/get_appid_group_list?usersig=xxx&identifier=admin&sdkappid=88888888&random=99999999&contenttype=json
 ```
 ### 2.3 请求参数 
 
@@ -127,7 +127,7 @@ JSON
 
 ### 3.1 Web调试工具 
 
-通过[REST API在线调试工具](https://avc.tce.fsphere.cn/im/APITester/APITester.html#v4/group_open_http_svc/get_appid_group_list)调试本接口。 
+通过[REST API在线调试工具](http://avc.tce.fsphere.cn/im/APITester/APITester.html#v4/group_open_http_svc/get_appid_group_list)调试本接口。 
 
 Server调试工具 
 

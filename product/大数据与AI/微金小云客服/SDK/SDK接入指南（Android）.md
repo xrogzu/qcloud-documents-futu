@@ -1,4 +1,4 @@
-管理人员登录 [微金小云客服管理系统](https://ics.webank.com) ，在【系统管理】>【App 接入】单击 Android SDK 接入说明，接入指引如下：
+管理人员登录 [微金小云客服管理系统](http://ics.webank.com) ，在【系统管理】>【App 接入】单击 Android SDK 接入说明，接入指引如下：
 ![1](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/e780a5c87f7dd26b80a4fad5ac05ae63/image.png)
 ### SDK 接入（Android）
 接入前请先确保后台接入正常，接入配置为 Android Studio。

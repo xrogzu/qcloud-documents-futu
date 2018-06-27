@@ -1,8 +1,8 @@
 ## 1. 接口描述
 
 功能：单条或者批量提交物料数据接口  
-测试接口： `https://sdtj.y.qq.com:8008/cre_test_upload`    
-正式接口： `https://sdtj.y.qq.com:8008/upload`  
+测试接口： `http://sdtj.y.qq.com:8008/cre_test_upload`    
+正式接口： `http://sdtj.y.qq.com:8008/upload`  
 请求方式：POST  
 
 ## 2. 输入参数  
@@ -223,7 +223,7 @@
      "lv2class":"2",
      "lv3class":"3",
      "rule_id":"200723",
-     "url":"https://www.qq.com",
+     "url":"http://www.qq.com",
      "vender":"腾讯",
      "geo":{
      	"latitude":"22.558220",

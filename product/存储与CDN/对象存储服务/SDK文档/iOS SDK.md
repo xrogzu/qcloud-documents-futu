@@ -2,9 +2,9 @@
 
 ### SDK 获取
 
-对象存储服务的 iOS SDK 的下载地址：[iOS SDK](https://github.com/tencentyun/COS_iOS_SDK.git)
+对象存储服务的 iOS SDK 的下载地址：[iOS SDK](http://github.com/tencentyun/COS_iOS_SDK.git)
 
-更多示例可参考Demo：[iOS Demo](https://github.com/tencentyun/COS_iOS_SDK.git)
+更多示例可参考Demo：[iOS Demo](http://github.com/tencentyun/COS_iOS_SDK.git)
 （本版本SDK基于JSON API封装组成）
 
 ### 开发准备
@@ -28,12 +28,12 @@ pod "QCloudCOSV4"
 
 ##### 使用静态库导入
 ```
-git clone https://github.com/tencentyun/COS_iOS_SDK.git
+git clone http://github.com/tencentyun/COS_iOS_SDK.git
 ```
 
 将目录**coslib**下面的文件拖入到工程中即可：
 
-![](https://ws3.sinaimg.cn/large/006tNc79gy1fgm77ref66j30l0094dgv.jpg)
+![](http://ws3.sinaimg.cn/large/006tNc79gy1fgm77ref66j30l0094dgv.jpg)
 
 
 将目录**coslib**下面的文件拖入到工程拖入工程目录，Xcode 会自动将其加入链接库列表中。

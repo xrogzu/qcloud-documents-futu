@@ -11,11 +11,11 @@
 可以通过以下方式获取JAVA SDK，开发者可以结合自身的情况，选择SDK源码、添加maven依赖项或者使用jar包。
 
 1. 获取源码
-[从 Github 访问 >>](https://github.com/QcloudApi/qcloudapi-sdk-java)
+[从 Github 访问 >>](http://github.com/QcloudApi/qcloudapi-sdk-java)
 [点击下载 Java SDK >>](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/72dbc1a82ad8e18dead2e6dc07acd5d7/qcloudapi-sdk-java-master.zip)
 
 2. maven
-详情请点击查看[maven依赖项](https://mvnrepository.com/artifact/com.qcloud/qcloud-java-sdk)，以2.0.1版本的JAVA SDK为例，只需在pom.xml添加以下依赖项即可：
+详情请点击查看[maven依赖项](http://mvnrepository.com/artifact/com.qcloud/qcloud-java-sdk)，以2.0.1版本的JAVA SDK为例，只需在pom.xml添加以下依赖项即可：
 ```
 <dependency>
   <groupId>com.qcloud</groupId>
@@ -25,7 +25,7 @@
 ```
 
 3. 获取jar包
-点击进入[jar包的版本列表](https://mvnrepository.com/artifact/com.qcloud/qcloud-java-sdk)，选择相应的版本，点击"Download (JAR)"下载jar包，再将jar包引用到你的项目即可。
+点击进入[jar包的版本列表](http://mvnrepository.com/artifact/com.qcloud/qcloud-java-sdk)，选择相应的版本，点击"Download (JAR)"下载jar包，再将jar包引用到你的项目即可。
 
 ## 示例
 

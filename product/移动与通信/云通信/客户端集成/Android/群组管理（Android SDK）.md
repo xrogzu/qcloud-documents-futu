@@ -1757,7 +1757,7 @@ void onGroupUpdate(TIMGroupCacheInfo groupCacheInfo);
 
 >注：聊天室（ChatRoom）和互动直播聊天室（AVChatRoom）类型的群组的群组事件消息不会通过**新消息通知**下发，只能通过注册群事件监听器对相应群事件进行监听。
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151014031645_92316.jpg)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151014031645_92316.jpg)
 
 **`TIMGroupTipsElem` 成员方法：**    
 

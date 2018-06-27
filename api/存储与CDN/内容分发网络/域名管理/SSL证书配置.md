@@ -51,7 +51,7 @@ privateKey：9Zs0K3FV+azvYI7eYYVqRd/ZvlyaI3ctzHnqVSuYk5UxELFobd5IQpUo9V5SviFQoBi
 ###  GET 请求
 GET 请求需要将所有参数都加在 URL 后（key=value形式，value需要进行URL encode）：
 ```
-https://cdn.api.qcloud.com/v2/index.php?
+http://cdn.api.qcloud.com/v2/index.php?
 Action=SetHttpsInfo
 &SecretId=XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 &Timestamp=1462436277
@@ -66,7 +66,7 @@ Action=SetHttpsInfo
 ### POST请求
 POST请求时，参数填充在HTTP Request body中，请求地址：
 ```
-https://cdn.api.qcloud.com/v2/index.php
+http://cdn.api.qcloud.com/v2/index.php
 ```
 参数支持 form-data等格式，参数数组如下：
 

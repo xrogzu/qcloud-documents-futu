@@ -61,9 +61,9 @@ tomcat可以直接下载安装，下载地址：http://tomcat.apache.org/ 。
 执行tomcat安装目录下bin内的startup.sh
 ## 3 下载java sdk
 在网络可用的情况下可以直接用git命令行下载。
-git clone https://github.com/tencentyun/java-sdk.git
+git clone http://github.com/tencentyun/java-sdk.git
 也可以直接在git网站下载，网址如下:
-https://github.com/tencentyun/java-sdk/archive/master.zip
+http://github.com/tencentyun/java-sdk/archive/master.zip
 ## 4 开发鉴权服务器逻辑
 本节介绍一个简单的鉴权服务器代码示例，开发者需要根据自身业务逻辑开发相应的代码。
 注意：如果开发者想根据此示例进行简单的测试，请将代码中相应的项目信息替换为自己项目的信息，具体见注释。

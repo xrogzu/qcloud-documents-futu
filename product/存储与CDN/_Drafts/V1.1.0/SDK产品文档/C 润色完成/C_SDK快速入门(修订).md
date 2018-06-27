@@ -1,11 +1,11 @@
 ## 开发准备
 ### 相关资源
 对象存储的 XML C SDK 资源下载地址：
-- [GitHub 项目（to be updated）](https://github.com/tencentyun/cos-c-sdk-v5)
+- [GitHub 项目（to be updated）](http://github.com/tencentyun/cos-c-sdk-v5)
 - [本地下载（to be updated）](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/2549fea204187b28d05fb1ac470f49d4/cos-c-sdk-v5-master.zip)
 
 演示示例 Demo 下载地址：
-- [XML C SDK Demo（to be updated）](https://github.com/tencentyun/cos-c-sdk-v5/cos_c_sdk_test/cos_demo.c)
+- [XML C SDK Demo（to be updated）](http://github.com/tencentyun/cos-c-sdk-v5/cos_c_sdk_test/cos_demo.c)
 
 ### 开发环境
 1. 安装 CMake 工具（建议 2.6.0 及以上版本），点击 [这里](http://www.cmake.org/download/) 下载，典型安装方式如下：
@@ -20,13 +20,13 @@ make install
 make
 make install
 ```
-3. 安装 apr（建议 1.5.2 及以上版本），点击 [这里](https://apr.apache.org/download.cgi?spm=5176.doc32132.2.9.23MmBq&file=download.cgi) 下载，典型安装方式如下：
+3. 安装 apr（建议 1.5.2 及以上版本），点击 [这里](http://apr.apache.org/download.cgi?spm=5176.doc32132.2.9.23MmBq&file=download.cgi) 下载，典型安装方式如下：
 ```bash
 ./configure
 make
 make install
 ```
-4. 安装 apr-util（建议 1.5.4 及以上版本），点击 [这里](https://apr.apache.org/download.cgi?spm=5176.doc32132.2.10.23MmBq&file=download.cgi) 下载，安装时需要指定— with-apr 选项，典型安装方式如下：
+4. 安装 apr-util（建议 1.5.4 及以上版本），点击 [这里](http://apr.apache.org/download.cgi?spm=5176.doc32132.2.10.23MmBq&file=download.cgi) 下载，安装时需要指定— with-apr 选项，典型安装方式如下：
 ```bash
 ./configure --with-apr=/your/apr/install/path
 make
@@ -40,7 +40,7 @@ sudo make install
 ```
 
 ### 安装 SDK
-源码安装。从 [GitHub](https://github.com/tencentyun/cos-c-sdk-v5) 下载源码，典型编译命令如下：
+源码安装。从 [GitHub](http://github.com/tencentyun/cos-c-sdk-v5) 下载源码，典型编译命令如下：
 ```bash
 cmake .
 make

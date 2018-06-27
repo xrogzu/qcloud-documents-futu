@@ -23,7 +23,7 @@
 ## 4. 示例
 输入
 <pre>
-https://monitor.api.qcloud.com/v2/index.php?Action=DeleteMetricAggeration
+http://monitor.api.qcloud.com/v2/index.php?Action=DeleteMetricAggeration
 &namespace=name1
 &metricName=zqmetric1
 &dimensionNames.0=d1

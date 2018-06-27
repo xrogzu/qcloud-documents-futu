@@ -1,8 +1,8 @@
 ## 1. 接口描述
 
 功能：单条或者批量提交用户行为数据  
-测试接口：`https://sdtj.y.qq.com:8008/cre_test_upload`
-正式接口：`https://sdtj.y.qq.com:8008/upload`   
+测试接口：`http://sdtj.y.qq.com:8008/cre_test_upload`
+正式接口：`http://sdtj.y.qq.com:8008/upload`   
 请求方式：POST  
 
 ## 2. 输入参数  
@@ -290,12 +290,12 @@
          }
        }     
       ],
-     "page_id":"https://www.xx.com/",
+     "page_id":"http://www.xx.com/",
      "network_type":"4G",
      "extend":{
        "ext1":"800456",
        "ext2":"123423",
-       "ext3":"https://www.yy.com"
+       "ext3":"http://www.yy.com"
      }
    }
  ]

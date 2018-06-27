@@ -3,13 +3,13 @@
 以下为 Linux 等类 UINX 系统使用手册，暂不支持 windows 系统。
 
 ### SDK 获取
-万象优图 C++ SDK 下载地址：[cpp-SDK-V2.0](https://github.com/tencentyun/image-cpp-sdk-v2.0) 。
+万象优图 C++ SDK 下载地址：[cpp-SDK-V2.0](http://github.com/tencentyun/image-cpp-sdk-v2.0) 。
 ### 开发准备
 依赖静态库: curl jsoncpp (在 lib 文件夹下)；
 依赖动态库: ssl crypto rtz (需要安装)；
 (1)安装 openssl 的库和头文件 [http://www.openssl.org/source/](http://www.openssl.org/source/) ；
-(2)安装 curl 的库和头文件 已修复：https://curl.haxx.se/download.html ；
-(3)安装 jsoncpp 的库和头文件 [https://github.com/open-source-parsers/jsoncpp](https://github.com/open-source-parsers/jsoncpp) ；
+(2)安装 curl 的库和头文件 已修复：http://curl.haxx.se/download.html ；
+(3)安装 jsoncpp 的库和头文件 [http://github.com/open-source-parsers/jsoncpp](http://github.com/open-source-parsers/jsoncpp) ；
 (4)安装 cmake 工具 [http://www.cmake.org/download/](http://www.cmake.org/download/) ；
 
 ### SDK 配置

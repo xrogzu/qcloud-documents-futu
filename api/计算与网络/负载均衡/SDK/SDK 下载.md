@@ -2,7 +2,7 @@
 
 GitHub 地址如下：
 
-- [Python SDK](https://github.com/tencentyun/clb-python-sdk)
+- [Python SDK](http://github.com/tencentyun/clb-python-sdk)
 
 
 下载地址如下：

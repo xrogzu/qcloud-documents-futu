@@ -109,4 +109,4 @@ $ret = $api->comm_rest("group_open_http_svc", "group_get_group_member_info", $re
 
 您可通过如下两种方式下载：
 直接[点击](http://share.weiyun.com/7528e49c4602425d88ce3b91ccde3b9b)下载；
-到[github](https://github.com/zhaoyang21cn/PhpServerSdk/)下载。
+到[github](http://github.com/zhaoyang21cn/PhpServerSdk/)下载。

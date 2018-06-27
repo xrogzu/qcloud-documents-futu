@@ -357,7 +357,7 @@ module.exports = (req, res) => {
 
 #### qcloud.message.checkSignature(signature, timestamp, nonce)
 
-客服消息签名校验接口，具体文档可以参考微信[接入指引](https://mp.weixin.qq.com/debug/wxadoc/dev/api/custommsg/callback_help.html)
+客服消息签名校验接口，具体文档可以参考微信[接入指引](http://mp.weixin.qq.com/debug/wxadoc/dev/api/custommsg/callback_help.html)
 
 **参数**
 
@@ -391,7 +391,7 @@ router.post('/message', (ctx, next) {
 
     /**
      * 解析微信发送过来的请求体
-     * 可查看微信文档：https://mp.weixin.qq.com/debug/wxadoc/dev/api/custommsg/receive.html#接收消息和事件
+     * 可查看微信文档：http://mp.weixin.qq.com/debug/wxadoc/dev/api/custommsg/receive.html#接收消息和事件
      */
     const body = ctx.request.body
 

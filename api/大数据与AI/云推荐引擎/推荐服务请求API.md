@@ -1,8 +1,8 @@
 ## 1. 接口描述
 
 功能：获取推荐结果   
-测试接口： `https://sdtj.y.qq.com:8008/test-query`    
-正式接口： `https://sdtj.y.qq.com:8008/query`  
+测试接口： `http://sdtj.y.qq.com:8008/test-query`    
+正式接口： `http://sdtj.y.qq.com:8008/query`  
 请求方式：POST  
 
 ## 2. 输入参数  

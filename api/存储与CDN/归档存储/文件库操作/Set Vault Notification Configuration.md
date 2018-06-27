@@ -17,11 +17,11 @@ Authorization: Auth
 ### 请求内容
 | 名称          | 描述                                       | 类型     | 必选   |
 | ----------- | ---------------------------------------- | ------ | ---- |
-| CallBackUrl | 回调的HTTP地址，地址必须以 http:// 或者 https:// 开头   | String | 是    |
+| CallBackUrl | 回调的HTTP地址，地址必须以 http:// 或者 http:// 开头   | String | 是    |
 | Event       | 可以配置一条或者多条回调触发的事件，枚举值：` ArchiveRetrievalCompleted`，`InventoryRetrievalCompleted`，`PushToCOSCompleted`和`PullFromCOSCompleted` | String | 是    |
 ```JSON
 {
-   "CallBackUrl": String,            // 必须以 http:// 或者 https:// 开头
+   "CallBackUrl": String,            // 必须以 http:// 或者 http:// 开头
    "Events":[String, ...] 
 }
 ```

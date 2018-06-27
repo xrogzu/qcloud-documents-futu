@@ -2,7 +2,7 @@
 ## 开发准备
 
 ### 相关资源
--[GitHub地址](https://github.com/tencentyun/kms-python-sdk) ,欢迎贡献代码以及反馈问题。
+-[GitHub地址](http://github.com/tencentyun/kms-python-sdk) ,欢迎贡献代码以及反馈问题。
 
 -[python sdk 本地下载]()
 ### 环境依赖
@@ -36,7 +36,7 @@ windows cmd
 ``` 
     secretId='xxxxxx'    #替换为用户的secretId
     secretKey = 'xxxxxx' #替换为用户的secretKey
-    endpoint = 'https://kms-region.api.tencentyun.com' # 替换为用户的region , 例如 sh 表示上海， gz表示广州，bj表示北京
+    endpoint = 'http://kms-region.api.tencentyun.com' # 替换为用户的region , 例如 sh 表示上海， gz表示广州，bj表示北京
     kms_account = KMSAccount(endpoint,secretId,secretKey)
 ```
 ### 初始化客户端配置

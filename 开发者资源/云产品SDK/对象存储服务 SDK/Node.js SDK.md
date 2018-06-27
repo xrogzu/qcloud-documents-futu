@@ -2,7 +2,7 @@
 
 ### SDK 获取
 
-COS服务的Node.js sdk的下载地址： [https://github.com/tencentyun/cos-nodejs-sdk.git](https://github.com/tencentyun/cos-nodejs-sdk.git)
+COS服务的Node.js sdk的下载地址： [http://github.com/tencentyun/cos-nodejs-sdk.git](http://github.com/tencentyun/cos-nodejs-sdk.git)
 
 ### 开发环境
 
@@ -17,7 +17,7 @@ COS服务的Node.js sdk的下载地址： [https://github.com/tencentyun/cos-nod
 + 执行 npm install qcloud_cos 直接安装。
 
 
-+ 执行git clone [https://github.com/tencentyun/cos-nodejs-sdk.git](https://github.com/tencentyun/cos-nodejs-sdk.git) 或者直接在github网站下载zip包
++ 执行git clone [http://github.com/tencentyun/cos-nodejs-sdk.git](http://github.com/tencentyun/cos-nodejs-sdk.git) 或者直接在github网站下载zip包
 
 注意：sdk依赖formstream包，使用方法二需要自行安装此包。
 

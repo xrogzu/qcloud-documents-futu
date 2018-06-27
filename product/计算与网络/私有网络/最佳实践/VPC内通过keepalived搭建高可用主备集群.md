@@ -269,7 +269,7 @@ vip.py：通过云 API 开发主备切换程序，通过调用内网 IP 迁移�
 	- yum install python-pip
 	- pip install qcloudapi-sdk-python
 - github 源码下载方式
-	- [转到 github 查看 Python SDK >>](https://github.com/QcloudApi/qcloudapi-sdk-python)
+	- [转到 github 查看 Python SDK >>](http://github.com/QcloudApi/qcloudapi-sdk-python)
 	- [点击下载 Python SDK >>](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/b61ee1ce734e7437530304152c20ee14/qcloudapi-sdk-python-master.zip)
 
 请仔细阅读其中`README.md`，并将 SDK 下载到`/etc/keepalived`目录中.
@@ -324,8 +324,8 @@ step4: 编辑好代码并保存在/etc/keepalived试用
 
 下载 SDK 源码直接使用方式：
 	安装好 Python 后执行如下步骤：
-step1: 下载 python-sdk: 网页操作https://github.com/QcloudApi/qcloudapi-sdk-python 
-	或 linux执行"wget https://github.com/QcloudApi/qcloudapi-sdk-python/archive/master.zip"；
+step1: 下载 python-sdk: 网页操作http://github.com/QcloudApi/qcloudapi-sdk-python 
+	或 linux执行"wget http://github.com/QcloudApi/qcloudapi-sdk-python/archive/master.zip"；
 step2: 将下载的 SDK 包放在 /etc/keepalived 并解压。修改解压后的文件夹名称为 src，并在 src 文件夹下创建名为__init__.py的空白文件；
 step3: 将以下 python 代码保存成 vip.py 放到 SDK 的 src 同级目录, 编辑好内容试用 。
 

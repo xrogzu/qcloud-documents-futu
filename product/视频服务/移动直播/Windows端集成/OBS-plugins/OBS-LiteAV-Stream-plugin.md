@@ -9,7 +9,7 @@
 
 ## 使用说明
 
-- 在 OBS Studio [官网](https://obsproject.com/)下载并安装 obs studio **20.0.0** 或以上版本。
+- 在 OBS Studio [官网](http://obsproject.com/)下载并安装 obs studio **20.0.0** 或以上版本。
 - 点击 [DOWNLOAD](http://liteavsdk-1252463788.cosgz.myqcloud.com/windows/OBS_Plugins/liteav-stream-plugin-setup.exe) 下载 QUIC 加速插件，该插件仅能安装在 **20.0.0** 或以上版本的 OBS Studio 上。 
  ![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/36db0828234c4094e20a2260d5f8c097.png)
 

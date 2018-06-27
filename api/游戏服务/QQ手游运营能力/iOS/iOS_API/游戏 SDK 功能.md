@@ -50,8 +50,8 @@ response 表示服务器返回的数据，如果是因为网络原因或者参�
 (void)onSendPublicAccountMessage:( UIButton *)sender {
 　　NSString * openIDS = @” [{\"type\":0,\"openid\":\"962f1d0f4cfcdc2981c51bcc0a630057\"}]”;
 　　NSString * openIDS = @” MSG_SHARE_FRIEND_DOUBLE”;
-　　NSString * previewURL = [NSURL URLWithString:@” https://egame.gtimg.cn/club/pgg/v2.0/img/index/icon.png”];
-　　NSString * redirectingURL = [NSURL URLWithString: @” https://egame.qq.com/”];
+　　NSString * previewURL = [NSURL URLWithString:@” http://egame.gtimg.cn/club/pgg/v2.0/img/index/icon.png”];
+　　NSString * redirectingURL = [NSURL URLWithString: @” http://egame.qq.com/”];
 　　 [_oauth sendPublicAccountMessageToQQOpenIDs:openIDS withMessageTag:messageTag WithPreviewImageURL:previewURL andRedirectingURL:redirectingURL];
 }
 ```

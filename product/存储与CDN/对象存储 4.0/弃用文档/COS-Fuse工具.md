@@ -24,7 +24,7 @@ cossdk fuse curl jsoncpp
 
 ### 获取程序包
 
-当前版本： COSFS-v4.2.0 [点击下载](https://github.com/tencentyun/cosfs-v4.2.0) 
+当前版本： COSFS-v4.2.0 [点击下载](http://github.com/tencentyun/cosfs-v4.2.0) 
 
 
 ### 编译

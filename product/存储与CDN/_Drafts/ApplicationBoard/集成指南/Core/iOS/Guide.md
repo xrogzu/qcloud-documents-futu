@@ -12,7 +12,7 @@
 
 如果您是设置一个新项目，则需要安装 SDK。您可能已经在创建 应用云 项目的过程中完成此步操作。
 
-我们**强烈建议**使用 CocoaPods 来安装相关的库。这样可以方便您后期**维护**和**即时**收到我们的**SDK更新**。您可以根据[安装说明](https://guides.cocoapods.org/using/getting-started.html#getting-started)来安装并使用 CocoaPods 。如果您不想使用 CocoaPods ，则可以按照**手工集成**的方式直接集成SDK框架。
+我们**强烈建议**使用 CocoaPods 来安装相关的库。这样可以方便您后期**维护**和**即时**收到我们的**SDK更新**。您可以根据[安装说明](http://guides.cocoapods.org/using/getting-started.html#getting-started)来安装并使用 CocoaPods 。如果您不想使用 CocoaPods ，则可以按照**手工集成**的方式直接集成SDK框架。
 
 如果您计划下载并运行某个快速入门实例，实例中会提供Xcode项目和Podfile。不过您还是需要安装 Pod 并下载 tac_services_configurations.json 文件。如果您希望将 应用云 库集成至自己的某个项目中，则需要为想要使用的库添加 Pod。
 
@@ -30,11 +30,11 @@ $ pod init
 并在您的 Podfile 文件中添加 应用云 的私有源
 
 ~~~
-source "https://git.tce.fsphere.cn/qcloud_u/cocopoads-repo"
-source "https://github.com/CocoaPods/Specs"
+source "http://git.tce.fsphere.cn/qcloud_u/cocopoads-repo"
+source "http://github.com/CocoaPods/Specs"
 ~~~
 
-> 注意一定要添加 https://github.com/CocoaPods/Specs 的原始源，否则会造成部分仓库找不到的问题
+> 注意一定要添加 http://github.com/CocoaPods/Specs 的原始源，否则会造成部分仓库找不到的问题
 
 ##### （3) 添加您想安装的 Pod。您可以按照以下方法在 Podfile 中纳入一个 Pod：
 

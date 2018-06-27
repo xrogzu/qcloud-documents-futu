@@ -51,7 +51,7 @@ Access-Control-Allow-Methods: POST
 
 REST API的URL格式如下： 
 ```
-https://console.tim.qq.com/$ver/$servicename/$command?sdkappid=$sdkappid&identifier=$identifier&usersig=$usersig&random=99999999&contenttype=json
+http://console.tim.qq.com/$ver/$servicename/$command?sdkappid=$sdkappid&identifier=$identifier&usersig=$usersig&random=99999999&contenttype=json
 ```
 其中各个参数的含义以及取值如下（参数名称及其取值均区分大小写）： 
 
@@ -124,7 +124,7 @@ REST API的应答包体也是JSON格式，其格式符合如下特征：
 
 ### 5.1 REST API调试工具 
 
-通过[REST API在线调试工具](https://avc.tce.fsphere.cn/im/APITester/APITester.html)调试本接口
+通过[REST API在线调试工具](http://avc.tce.fsphere.cn/im/APITester/APITester.html)调试本接口
 使用案例参见[这里](/doc/product/269/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E9%9B%86%E6%88%90%E6%8C%87%E5%BC%95#5.2-.E5.AF.BC.E5.85.A5.E8.B4.A6.E5.8F.B7.E5.88.B0.E4.BA.91.E9.80.9A.E4.BF.A1.EF.BC.88.E4.BD.BF.E7.94.A8.E4.BA.91.E9.80.9A.E8.AE.AFrest-api.E8.B0.83.E8.AF.95.E5.B7.A5.E5.85.B7.EF.BC.89)。 
 
 ### 5.2 Postman 
@@ -147,6 +147,6 @@ Postman是一款功能强大的网页调试与发送网页HTTP请求的Chrome插
 
 （1）IM后台REST接口设置的超时时间是3s，调用方设置的超时时间应该长于3s。
 （2）telnet yun.tim.qq.com 443 确认能否连接服务端口。
-（3）使用curl -G https://yun.tim.qq.com 简单测试确认能够收到响应。
+（3）使用curl -G http://yun.tim.qq.com 简单测试确认能够收到响应。
 （4）确认机器的dns server配置是内网dns server，还是公共dns server。如果是内网dns server，请确保dns server网络出口和本机器网络出口ip所在地域运营商一致。
 （5）建议业务调用方使用“长连接+连接池”模式。 

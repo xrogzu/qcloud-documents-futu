@@ -2,7 +2,7 @@
 
 ## Windows
 ### 1. 下载
-进入 [ Python 官网](https://www.python.org/downloads/) 选择合适的版本下载，本示例中我们选择下载 [Python 2.7.13](https://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64.msi) 版本。
+进入 [ Python 官网](http://www.python.org/downloads/) 选择合适的版本下载，本示例中我们选择下载 [Python 2.7.13](http://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64.msi) 版本。
 ### 2. 安装
 下载好 Python 安装包后双击 Python 安装包，按照默认提示，一步步进行安装。
 ### 3. 环境变量配置
@@ -27,7 +27,7 @@ yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel
 ```
 ### 3. 下载并解压 Python 2.7 
 ```
-wget https://www.python.org/ftp/python/2.7.12/Python-2.7.12.tar.xz
+wget http://www.python.org/ftp/python/2.7.12/Python-2.7.12.tar.xz
 tar xf Python-2.7.12.tar.xz
 ```
 ### 4. 编译与安装 Python

@@ -111,7 +111,7 @@
   根据上一步（9.4.1）中得到的数字签名，以POST请求为例构造请求URL，将数字签名加入到参数Signature中。
 	
   <div class="code">
- <pre> https://wenzhi.api.qcloud.com/v2/index.php?
+ <pre> http://wenzhi.api.qcloud.com/v2/index.php?
 	Action=ContentTranscode
 	&Nonce=345122
 	&Region=sz

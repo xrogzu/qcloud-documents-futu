@@ -123,7 +123,7 @@ MobileLine Android SDK 不会自动帮您启动服务，需要您自己手动启
 
 ### 了解 MobileLine：
 
-- 查看 [MoblieLine 应用示例](https://github.com/tencentyun/qcloud-sdk-android-samples/tree/master/QCloudTACSample)
+- 查看 [MoblieLine 应用示例](http://github.com/tencentyun/qcloud-sdk-android-samples/tree/master/QCloudTACSample)
 
 ### 向您的应用添加 MobileLine 功能：
 

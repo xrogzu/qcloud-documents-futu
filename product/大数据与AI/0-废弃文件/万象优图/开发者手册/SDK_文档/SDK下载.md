@@ -22,16 +22,16 @@
 ## 3. 服务器SDK
 服务器SDK的版本信息及具体内容详见相应的github。
 ### 3.1 Java SDK
-github地址：https://github.com/tencentyun/image-java-sdk
+github地址：http://github.com/tencentyun/image-java-sdk
 ### 3.2 PHP SDK
-github地址： https://github.com/tencentyun/image-php-sdk
+github地址： http://github.com/tencentyun/image-php-sdk
 ### 3.3 Python SDK
-github地址：https://github.com/tencentyun/image-python-sdk
+github地址：http://github.com/tencentyun/image-python-sdk
 ### 3.4 Nodejs SDK
-github地址：https://github.com/tencentyun/image-nodejs-sdk
+github地址：http://github.com/tencentyun/image-nodejs-sdk
 ### 3.5 Go SDK
-github地址：https://github.com/tencentyun/image-go-sdk
+github地址：http://github.com/tencentyun/image-go-sdk
 ### 3.6 C# SDK
-github地址：https://github.com/tencentyun/image-donet-sdk
+github地址：http://github.com/tencentyun/image-donet-sdk
 ### 3.7 C++ SDK
-github地址：https://github.com/tencentyun/image-cpp-sdk
+github地址：http://github.com/tencentyun/image-cpp-sdk

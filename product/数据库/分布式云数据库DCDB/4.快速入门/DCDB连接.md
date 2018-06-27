@@ -54,7 +54,7 @@
 ### WINDOWS JDBC驱动连接
 > DCDB 支持程序驱动连接，这里我们以 JAVA 使用 JDBC Driver for MySQL (Connector/J) 连接 DCDB 为示例。
 
-1. 首先在 MySQL 官网[下载](https://dev.mysql.com/downloads/connector/j/5.0.html)一个JDBC的jar包，将其导入 JAVA 引用的 Library 中。
+1. 首先在 MySQL 官网[下载](http://dev.mysql.com/downloads/connector/j/5.0.html)一个JDBC的jar包，将其导入 JAVA 引用的 Library 中。
 2. 调用 JDBC 代码如下：
 ```
 		public static final String url = "外网地址";
@@ -71,7 +71,7 @@
 > 注意：因为 DCDB 在分表和插入数据时需要标记 shardkey，所以无法用 JDBC 调用这些操作。
 
 ### LINUX 命令行连接
-以云平台服务器中 CentOS 7.2 64 位系统的 CVM 为例，关于云平台服务器的购买详情，可以参考[云服务器选购](https://buy.tce.fsphere.cn/cvm)。
+以云平台服务器中 CentOS 7.2 64 位系统的 CVM 为例，关于云平台服务器的购买详情，可以参考[云服务器选购](http://buy.tce.fsphere.cn/cvm)。
 
 1. 登录 LINUX 后，输入命令 `yum install mysql` ,利用 CentOS 自带的包管理软件 Yum 在云平台的镜像源中下载安装 MySQL 客户端。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/7f6a1f7a953cc38809fa069182481a22/image.png)

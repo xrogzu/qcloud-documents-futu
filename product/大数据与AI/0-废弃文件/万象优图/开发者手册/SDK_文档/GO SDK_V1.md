@@ -1,5 +1,5 @@
 ## 1	开发准备
-万象优图服务的Go sdk的下载地址：https://github.com/tencentyun/go-sdk.git
+万象优图服务的Go sdk的下载地址：http://github.com/tencentyun/go-sdk.git
 ### 1.1	前期准备
 1. 获取appid，secret_id和secret_key。
 

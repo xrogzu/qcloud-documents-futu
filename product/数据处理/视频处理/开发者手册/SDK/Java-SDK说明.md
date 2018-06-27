@@ -1,6 +1,6 @@
 ## 1	开发准备
 
-<p>微视频服务的java sdk的下载地址： <a href="https://github.com/tencentyun/mvs-java-sdk.git" class="external free" title="https://github.com/tencentyun/mvs-java-sdk.git" target="_blank" rel="nofollow">https://github.com/tencentyun/mvs-java-sdk.git</a>
+<p>微视频服务的java sdk的下载地址： <a href="http://github.com/tencentyun/mvs-java-sdk.git" class="external free" title="http://github.com/tencentyun/mvs-java-sdk.git" target="_blank" rel="nofollow">http://github.com/tencentyun/mvs-java-sdk.git</a>
 </p>
 
 ### 1.1	前期准备
@@ -13,7 +13,7 @@
 ### 1.2	导入SDK
 
 <p>1.	下载java sdk<br>
-如果安装了git命令行，执行git clone <a href="https://github.com/tencentyun/mvs-java-sdk.git" class="external free" title="https://github.com/tencentyun/mvs-java-sdk.git" target="_blank" rel="nofollow">https://github.com/tencentyun/mvs-java-sdk.git</a><br>
+如果安装了git命令行，执行git clone <a href="http://github.com/tencentyun/mvs-java-sdk.git" class="external free" title="http://github.com/tencentyun/mvs-java-sdk.git" target="_blank" rel="nofollow">http://github.com/tencentyun/mvs-java-sdk.git</a><br>
 或者直接在github下载zip包。<br>
 2.	导入项目<br>
 在IDE中导入jar包（如果代码不支持，可以直接复制代码文件）<br>
@@ -23,7 +23,7 @@
 
 ### 1.3	https支持
 
-<p>修改VideoCloud.java中VIDEO_CGI_URL的值为：<code>https://web.video.myqcloud.com/files/v1</code> <br>
+<p>修改VideoCloud.java中VIDEO_CGI_URL的值为：<code>http://web.video.myqcloud.com/files/v1</code> <br>
 </p>
 
 ## 2	API详细说明

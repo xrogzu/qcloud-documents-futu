@@ -4,7 +4,7 @@
 3.每次用户登录时必须重新获取 ticket。
 
 ### 2.Access Token 获取
-请求URL：**https://idasc.webank.com/api/oauth2/access_token **
+请求URL：**http://idasc.webank.com/api/oauth2/access_token **
 请求方法:GET
 请求参数：
 
@@ -16,7 +16,7 @@
 | version | 版本号 | 字符串 |20 |必填，默认值：1.0.0|
 
 请求示例：
-`https://idasc.webank.com/api/oauth2/access_token?app_id=xxx&secret=xxx&grant_type=client_credential&version=1.0.0`
+`http://idasc.webank.com/api/oauth2/access_token?app_id=xxx&secret=xxx&grant_type=client_credential&version=1.0.0`
 
 响应：
 ```

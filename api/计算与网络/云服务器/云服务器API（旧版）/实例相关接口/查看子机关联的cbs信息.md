@@ -61,7 +61,7 @@
 ## 4. 示例
 输入
 <pre>
-https://cvm.api.qcloud.com/v2/index.php?Action=DescribeInstanceCbsInfo
+http://cvm.api.qcloud.com/v2/index.php?Action=DescribeInstanceCbsInfo
 &uInstanceIds.0=ins-1nr7zocq
 &uInstanceIds.1.ins-bviuv6oc=
 &<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>

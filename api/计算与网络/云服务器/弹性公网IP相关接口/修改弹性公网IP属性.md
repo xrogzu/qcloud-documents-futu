@@ -39,7 +39,7 @@
 
 #### 请求参数
 <pre>
-https://eip.api.tce.fsphere.cn/v2/index.php?Action=ModifyAddressAttribute
+http://eip.api.tce.fsphere.cn/v2/index.php?Action=ModifyAddressAttribute
 &Version=2017-03-12
 &AddressId=eip-p2x6wxc0
 &AddressName=test_eip

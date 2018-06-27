@@ -99,7 +99,7 @@ vrrp_sync_group G1 {
 ### 步骤 6. 验证主备倒换时VIP及外网IP是否正常切换
 vip.py：通过云API开发主备切换程序，通过调用内网IP迁移的云API来进行IP地址的切换，以python为例：
 1) 下载 Python SDK
-- [转到 github 查看 Python SDK >>](https://github.com/QcloudApi/qcloudapi-sdk-python)
+- [转到 github 查看 Python SDK >>](http://github.com/QcloudApi/qcloudapi-sdk-python)
 - [点击下载 Python SDK >>](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/b61ee1ce734e7437530304152c20ee14/qcloudapi-sdk-python-master.zip)
 
 请仔细阅读其中README.md，并将sdk下载到/etc/keepalived目录中，如：
@@ -114,7 +114,7 @@ vip.py：通过云API开发主备切换程序，通过调用内网IP迁移的云
 # -*- coding: utf-8 -*-
 
 """
-step1: 下载python-sdk: https://github.com/QcloudApi/qcloudapi-sdk-python
+step1: 下载python-sdk: http://github.com/QcloudApi/qcloudapi-sdk-python
 step2: 将以下python代码保存成vip.py放到sdk的src同级目录,  具体参数参考: http://tcecqpoc.fsphere.cn/doc/api/245/1361
 """
 

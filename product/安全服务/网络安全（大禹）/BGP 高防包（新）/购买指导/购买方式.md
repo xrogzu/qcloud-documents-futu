@@ -8,7 +8,7 @@ BGP 高防包只能绑定同一大区的云平台设备。开放购买的地域�
 | 上海 | 10 - 100 Gbps | 10 - 200 Gbps |310 Gbps |
 **注：**上海地区通过白名单形式可提供最大  310 G 的防护能力，如有需要，请联系您的商务经理开通白名单。
 ## 购买步骤
-1、客户可在[控制台](https://buy.tce.fsphere.cn/buy/bgp_sp)上直接购买 BGP 高防服务包，该产品的计费方式为预付费。进入  BGP  高防服务包购买页面：https://buy.tce.fsphere.cn/buy/bgp_sp 
+1、客户可在[控制台](http://buy.tce.fsphere.cn/buy/bgp_sp)上直接购买 BGP 高防服务包，该产品的计费方式为预付费。进入  BGP  高防服务包购买页面：http://buy.tce.fsphere.cn/buy/bgp_sp 
 2、选择高防服务包所在的地域。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/52e7d6c60fa896d0813bfc84fdfd61de.png)
 3、选择高防服务包的防护峰值。

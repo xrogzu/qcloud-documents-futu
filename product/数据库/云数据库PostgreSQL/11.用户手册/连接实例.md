@@ -2,7 +2,7 @@
 
 ## 第一步
 （为了您的数据安全，目前仅提供了内网IP，因此您需要一个对应区域的云平台服务器）
-你可以从 https://www.pgadmin.org/download/ 下载和安装pgAdmin。
+你可以从 http://www.pgadmin.org/download/ 下载和安装pgAdmin。
 
 ## 第二步
 点击“文件”菜单，选择“添加服务器”。

@@ -37,7 +37,7 @@
  
 输入
 ```
-  https://vpc.api.qcloud.com/v2/index.php?Action=DeleteVpnConn
+  http://vpc.api.qcloud.com/v2/index.php?Action=DeleteVpnConn
   &<公共请求参数>
   &vpcId=vpc-03vihbk9
   &vpnGwId=vpngw-kfldykuz

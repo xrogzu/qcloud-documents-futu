@@ -37,7 +37,7 @@ nginx -v
 Wafer 的 Demo 需要 5.6 以上版本的 PHP 才能运行，目前最新版本为 7.x，`yum` 本身不提供 PHP 的源，所以首先我们得添加 remi 源：
 
 ```bash
-wget 'https://mirrors.tuna.tsinghua.edu.cn/remi/enterprise/remi.repo' -O /etc/yum.repos.d/remi.repo
+wget 'http://mirrors.tuna.tsinghua.edu.cn/remi/enterprise/remi.repo' -O /etc/yum.repos.d/remi.repo
 ```
 
 接着就可以直接通过 `yum` 安装了：
@@ -86,7 +86,7 @@ server {
     listen      80;
     server_name wx.wafersolution.com;
 
-    rewrite ^(.*)$ https://$server_name$1 permanent;
+    rewrite ^(.*)$ http://$server_name$1 permanent;
 }
 
 server {
@@ -139,7 +139,7 @@ nginx -t
 
 ## 上传 Demo 和启动
 
-到 [wafer2-quickstart-php](https://github.com/tencentyun/wafer2-quickstart-php) 仓库下载最新的 Demo 代码，修改 `server/config.php`：
+到 [wafer2-quickstart-php](http://github.com/tencentyun/wafer2-quickstart-php) 仓库下载最新的 Demo 代码，修改 `server/config.php`：
 
 ```javascript
 <?php
@@ -207,11 +207,11 @@ $config = [
 
 接着将 `server` 目录下的所有文件都上传到 `/data/release/php-demo` 目录下：
 
-<img width="378" alt="server" src="https://user-images.githubusercontent.com/3380894/29507314-1bc9cc52-8682-11e7-8820-c8bb9bead907.png">
+<img width="378" alt="server" src="http://user-images.githubusercontent.com/3380894/29507314-1bc9cc52-8682-11e7-8820-c8bb9bead907.png">
 
 接着对数据库进行初始化，进入[云数据库](http://console.tcecqpoc.fsphere.cn/cdb)控制台，点击要使用的云数据库进去，再点击右上角【登录数据库】按钮。在弹出的页面中输入数据库账号密码进入数据库管理控制台，点击菜单栏的【返回 PMA】，在界面中点击左侧栏中的【新建】，输入数据库名为 `cAuth`，排序规则为 `utf8mb4_unicode_ci`，点击【创建】创建数据库：
 
-<img width="1192" alt="pma" src="https://user-images.githubusercontent.com/3380894/29507971-27c68e8e-8685-11e7-91f3-bf384fc6b545.png">
+<img width="1192" alt="pma" src="http://user-images.githubusercontent.com/3380894/29507971-27c68e8e-8685-11e7-91f3-bf384fc6b545.png">
 
 接着点击左侧栏的【cAuth】数据库，再点击顶栏的【导入】，选择下载的代码中的 cAuth.sql 文件，点击【执行】即可完成导入：
 

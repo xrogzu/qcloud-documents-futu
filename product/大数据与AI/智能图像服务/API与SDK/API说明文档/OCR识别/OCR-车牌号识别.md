@@ -11,7 +11,7 @@
 
 `http://recognition.image.myqcloud.com/ocr/plate`
 
-`https://recognition.image.myqcloud.com/ocr/plate`
+`http://recognition.image.myqcloud.com/ocr/plate`
 
 ## 请求方式
 ### 请求头 header

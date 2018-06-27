@@ -14,7 +14,7 @@ MySQL 语句说明详见：[MySQL手册][4]。
 
 [1]:	http://tcecqpoc.fsphere.cn/document/product/213/2936
 [2]:	http://tcecqpoc.fsphere.cn/document/product/213/2975
-[3]:	https://dev.mysql.com/downloads/installer/
+[3]:	http://dev.mysql.com/downloads/installer/
 [4]:	http://dev.mysql.com/doc/
 
 [image-1]:	//mccdn.qcloud.com/img568127c27a3a6.png

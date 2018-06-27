@@ -2,7 +2,7 @@
 
 ## 相关资源
 
-COS JAVA SDK GitHub地址 [github项目](https://github.com/tencentyun/cos-java-sdk-v5)
+COS JAVA SDK GitHub地址 [github项目](http://github.com/tencentyun/cos-java-sdk-v5)
 
 ## 环境依赖
 
@@ -28,7 +28,7 @@ pom.xml 添加依赖
 
 - 源码安装
 
-从[github](https://github.com/tencentyun/cos-java-sdk-v5)下载源码, 通过maven导入。比如eclipse，选择File->Import->maven->Existing Maven Projects
+从[github](http://github.com/tencentyun/cos-java-sdk-v5)下载源码, 通过maven导入。比如eclipse，选择File->Import->maven->Existing Maven Projects
 
 > <font size=14 color=red> 使用Eclipse的方式需要详细描述.  by stongdong</font>
  
@@ -40,18 +40,18 @@ pom.xml 添加依赖
 # 快速入手
 
 
->  <font size=14 color=red> 拆成章节来描述吧，堆在一起不太容易理解. 可以参考：https://github.com/tencentyun/qcloud-documents/blob/master/product/%E5%AD%98%E5%82%A8%E4%B8%8ECDN/_Drafts/V1.1.0/SDK%E4%BA%A7%E5%93%81%E6%96%87%E6%A1%A3/iOS%20%E5%BE%85%E6%B6%A6%E8%89%B2/iOS_%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md  by stongdong</font>
+>  <font size=14 color=red> 拆成章节来描述吧，堆在一起不太容易理解. 可以参考：http://github.com/tencentyun/qcloud-documents/blob/master/product/%E5%AD%98%E5%82%A8%E4%B8%8ECDN/_Drafts/V1.1.0/SDK%E4%BA%A7%E5%93%81%E6%96%87%E6%A1%A3/iOS%20%E5%BE%85%E6%B6%A6%E8%89%B2/iOS_%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md  by stongdong</font>
  
  
 ```java
 // 1 初始化身份信息
 COSCredentials cred = new BasicCOSCredentials("1250000", "AKIDXXXXXXXX", "1A2Z3YYYYYYYYYY");
-// 2 设置bucket的区域, COS地域的简称请参照 https://www.qcloud.com/document/product/436/6224
+// 2 设置bucket的区域, COS地域的简称请参照 http://www.qcloud.com/document/product/436/6224
 ClientConfig clientConfig = new ClientConfig(new Region("ap-beijing-1"));
 // 3 生成cos客户端
 COSClient cosClient = new COSClient(cred, clientConfig);
 // 操作API， 每一种API详情请参照JAVA SDK API文档.
-// 或者参照Demo(https://github.com/tencentyun/cos-java-sdk-v5/blob/master/src/main/java/com/qcloud/cos/demo/Demo.java)
+// 或者参照Demo(http://github.com/tencentyun/cos-java-sdk-v5/blob/master/src/main/java/com/qcloud/cos/demo/Demo.java)
 
 String bucketName = "mybucket";
 

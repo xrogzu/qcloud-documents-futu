@@ -6,7 +6,7 @@ SwitchToTgwSharedCluster 接口用于突发情况下，TGW独占集群切换到T
 ## 请求
 ### 请求示例
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?Action=SwitchToTgwSharedCluster
+GET http://bmvpc.api.qcloud.com/v2/index.php?Action=SwitchToTgwSharedCluster
     &<公共请求参数>
     &unVpcId=<vpc网络ID>
 ```
@@ -54,7 +54,7 @@ data结构
 ## 实际案例
 ### 输入
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?
+GET http://bmvpc.api.qcloud.com/v2/index.php?
 	Action=SwitchToTgwSharedCluster
 	&SecretId=AKID1ub7R1JoyBF7nHqjk7IH8nGWaR6Yezwd
 	&Nonce=4557

@@ -65,7 +65,7 @@ CDN 流量计费采用 **月度阶梯累进** 计费方式，阶梯价格如下�
 	</tbody>
 </table>
 
-详细价格算法请参考[价格总览](http://tcecqpoc.fsphere.cn/doc/product/228/2949)，您也可以使用 [价格计算器](https://buy.tce.fsphere.cn/calculator/cdn) 估算价格。
+详细价格算法请参考[价格总览](http://tcecqpoc.fsphere.cn/doc/product/228/2949)，您也可以使用 [价格计算器](http://buy.tce.fsphere.cn/calculator/cdn) 估算价格。
 
 ## 流量包使用
 选择流量计费的客户，可以使用流量包抵扣，更多详情[点击查看](http://tcecqpoc.fsphere.cn/doc/product/228/2949)。

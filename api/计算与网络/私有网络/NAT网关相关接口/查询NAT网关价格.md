@@ -34,7 +34,7 @@ data结构
 ## 4. 示例
 输入
 <pre>
-https://vpc.api.qcloud.com/v2/index.php?Action=InquiryNatPrice
+http://vpc.api.qcloud.com/v2/index.php?Action=InquiryNatPrice
 &maxConcurrent=2000000
 &<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>
 </pre>

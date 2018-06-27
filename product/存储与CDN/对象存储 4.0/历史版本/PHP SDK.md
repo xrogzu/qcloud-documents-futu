@@ -2,7 +2,7 @@
 
 ### 相关资源
 
-[cos php sdk v4 github项目](https://github.com/tencentyun/cos-php-sdk-v4)（本版本SDK基于JSON API封装组成）
+[cos php sdk v4 github项目](http://github.com/tencentyun/cos-php-sdk-v4)（本版本SDK基于JSON API封装组成）
 
 
 ### 开发环境

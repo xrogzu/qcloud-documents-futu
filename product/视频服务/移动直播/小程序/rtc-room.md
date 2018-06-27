@@ -254,7 +254,7 @@ rtcroom.start();
         <view class="player-box" wx:for="{{members}}" wx:key="userID"> 
             <view class='poster'>
                 <cover-image class='set'
-			       src="https://miniprogram-1252463788.file.myqcloud.com/roomset_{{index + 2}}.png">
+			       src="http://miniprogram-1252463788.file.myqcloud.com/roomset_{{index + 2}}.png">
 				</cover-image>
             </view>
             <live-player

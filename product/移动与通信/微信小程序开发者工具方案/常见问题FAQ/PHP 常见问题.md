@@ -6,7 +6,7 @@
 
 ## 如何打印和下载日志
 
-Wafer2 针对 PHP 的开发情况专门优化了日志的下载，为了兼容，您必须将日志输出在 `application/logs` 目录下。同时，日志的文件名也必须遵循 `log-[YYYY]-[MM]-[DD].log` 模式，YYYY 为完整年份，MM 为完整月份数字，DD 为完整日期，例如：`log-2017-10-16.log`。具体的日志输出代码您可以参考 [SDK 內建的 Logger](https://github.com/tencentyun/wafer-php-server-sdk/blob/master/lib/Helper/Logger.php)。
+Wafer2 针对 PHP 的开发情况专门优化了日志的下载，为了兼容，您必须将日志输出在 `application/logs` 目录下。同时，日志的文件名也必须遵循 `log-[YYYY]-[MM]-[DD].log` 模式，YYYY 为完整年份，MM 为完整月份数字，DD 为完整日期，例如：`log-2017-10-16.log`。具体的日志输出代码您可以参考 [SDK 內建的 Logger](http://github.com/tencentyun/wafer-php-server-sdk/blob/master/lib/Helper/Logger.php)。
 
 您可以在[云平台小程序控制台](http://console.tcecqpoc.fsphere.cn/lav2/dev)下载日志，系统将会自动取**当天**最后 1000 条日志。
 
@@ -32,7 +32,7 @@ class Demo extends CI_Controller {
 }
 ```
 
-接着点击右上角的【云平台】按钮，选择【上传测试代码】，勾选【普通上传】，点击确定即可上传代码，等到提示开发环境部署成功了之后，打开浏览器，访问 `https://云平台分配的域名/weapp/demo`，即可看到刚刚编写的返回，是一个 JSON 字符串：
+接着点击右上角的【云平台】按钮，选择【上传测试代码】，勾选【普通上传】，点击确定即可上传代码，等到提示开发环境部署成功了之后，打开浏览器，访问 `http://云平台分配的域名/weapp/demo`，即可看到刚刚编写的返回，是一个 JSON 字符串：
 
 ```json
 {"code":0,"data":{"msg":"Hello World"}}
@@ -40,7 +40,7 @@ class Demo extends CI_Controller {
 
 ## 如何使用服务端 SDK 连接和操作数据库
 
-服务端 SDK 基于 PDO 进行了一下简单的封装，您可以直接使用 `QCloud_WeApp_SDK\Mysql` 命名空间，具体使用方法可以查看 [API 文档](https://github.com/tencentyun/wafer-php-server-sdk/blob/master/API.md)：
+服务端 SDK 基于 PDO 进行了一下简单的封装，您可以直接使用 `QCloud_WeApp_SDK\Mysql` 命名空间，具体使用方法可以查看 [API 文档](http://github.com/tencentyun/wafer-php-server-sdk/blob/master/API.md)：
 
 ```javascript
 use QCloud_WeApp_SDK\Mysql\Mysql as DB;
@@ -62,7 +62,7 @@ DB::insert('tableName', [
 }
 ```
 
-文件中的 `miniprogramRoot` 表示小程序端代码，`qcloudRoot` 表示服务器端代码。点击云平台相关操作（如上传测试代码）的时候，只会把 `qcloudRoot` 指向的目录下的代码上传到开发（或生产）环境。具体可以查看[微信开发者工具官方文档](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/edit.html#项目配置文件)。
+文件中的 `miniprogramRoot` 表示小程序端代码，`qcloudRoot` 表示服务器端代码。点击云平台相关操作（如上传测试代码）的时候，只会把 `qcloudRoot` 指向的目录下的代码上传到开发（或生产）环境。具体可以查看[微信开发者工具官方文档](http://mp.weixin.qq.com/debug/wxadoc/dev/devtools/edit.html#项目配置文件)。
 
 ## 如何连接上服务器
 

@@ -40,7 +40,7 @@ Access-Control-Allow-Origin 用于解决资源的跨域权限问题，域值定�
 配置 Access-Control-Allow-Origin，有以下限制条件：
 + 不支持泛域名，如 ```*.qq.com```
 + 仅可配置为“*”，或指定一个 URI
-+ 在配置指定域名时，需要加上 “http://” 或 “https://” 前缀
++ 在配置指定域名时，需要加上 “http://” 或 “http://” 前缀
 
 #### Access-Control-Allow-Methods 
 Access-Control-Allow-Methods 用于设置跨域允许的 HTTP 请求方法，可同时设置多个方法，如下：

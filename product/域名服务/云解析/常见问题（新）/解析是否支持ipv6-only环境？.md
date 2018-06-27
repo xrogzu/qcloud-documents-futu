@@ -19,7 +19,7 @@ $ dig dnspod.cn aaaa
 例如使用 IP 直接访问的问题、SDK 接口等升级兼容 IPv6。
 
 ### 搭建环境验证
-参考 [苹果官网文档](https://developer.apple.com/library/ios/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/UnderstandingandPreparingfortheIPv6Transition/UnderstandingandPreparingfortheIPv6Transition.html#//apple_ref/doc/uid/TP40010220-CH213-SW1) 搭建 IPv6-only 的热点，用 iPhone 连接热点测试。
+参考 [苹果官网文档](http://developer.apple.com/library/ios/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/UnderstandingandPreparingfortheIPv6Transition/UnderstandingandPreparingfortheIPv6Transition.html#//apple_ref/doc/uid/TP40010220-CH213-SW1) 搭建 IPv6-only 的热点，用 iPhone 连接热点测试。
 
 ### 其他建议
 如果确认自建 DNS64 环境测试完全正常，但提交 App Store 审核依然无法访问的话，排除 DNS 支持问题和访问服务器的接口问题，还有一个很重要的原因就是跨国网络质量的原因。

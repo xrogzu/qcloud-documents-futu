@@ -6,7 +6,7 @@
 - 在获取新的 api ticket，请注意返回的 expire_in 为此 ticket 的最大生存周期，最大为 3600S,具体以实际返回为准，如果 expire_in 大于 600,那么下次刷新时间为 expire_in – 600S; 如果返回的 expire_in 小于等于 600，那么下次取 ticket时需要立刻刷新。
 
 ### 2.获取 SIGN ticket
-请求 URL: https://idasc.webank.com/api/oauth2/api_ticket
+请求 URL: http://idasc.webank.com/api/oauth2/api_ticket
 请求方法:GET
 请求参数：
 
@@ -18,7 +18,7 @@
 | version | 版本号 | 字符串 |20 |必填 ，默认值：1.0.0|
 
 请求示例：
-https://idasc.webank.com/api/oauth2/api_ticket?app_id=xxx&access_token=xxx&type=SIGN&version=1.0.0
+http://idasc.webank.com/api/oauth2/api_ticket?app_id=xxx&access_token=xxx&type=SIGN&version=1.0.0
 响应：
 ```
 {

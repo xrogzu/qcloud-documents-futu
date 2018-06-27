@@ -96,5 +96,5 @@ api.init(function(err, data) {
 
 您可通过如下两种方式下载： 
 1. [直接点击下载](http://share.weiyun.com/3bf4fd92fa71cb61f3117f5740af016f)； 
-2. 到[github](https://github.com/tencentyun/imsdk_restapi-nodejs-sdk)下载。
+2. 到[github](http://github.com/tencentyun/imsdk_restapi-nodejs-sdk)下载。
 

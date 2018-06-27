@@ -5,7 +5,7 @@
 
 ### 2.获取 NONCE ticket
 ticket 用于对请求数据签名或加密。
-请求 URL: https://idasc.webank.com/api/oauth2/api_ticket
+请求 URL: http://idasc.webank.com/api/oauth2/api_ticket
 请求方法:GET
 请求参数：
 
@@ -18,7 +18,7 @@ ticket 用于对请求数据签名或加密。
 | user_id | 当前使用用户的唯一标识。<br>**注意合作伙伴必须保证 user_id 的全局唯一。** | 字符串 |30 |必填|
 
 请求示例：
-https://idasc.webank.com/api/oauth2/api_ticket?app_id=xxx&access_token=xxx&type=NONCE&version=1.0.0&user_id=xxx
+http://idasc.webank.com/api/oauth2/api_ticket?app_id=xxx&access_token=xxx&type=NONCE&version=1.0.0&user_id=xxx
 
 ```
 响应：

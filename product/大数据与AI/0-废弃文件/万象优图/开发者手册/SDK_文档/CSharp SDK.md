@@ -1,6 +1,6 @@
 本文档为万象优图V2加强版的C# SDK文档
 ## 1 开发准备
-万象优图的C# SDK的下载地址： https://github.com/tencentyun/pic-donet-sdk
+万象优图的C# SDK的下载地址： http://github.com/tencentyun/pic-donet-sdk
 前期准备
 1.	sdk依赖C# 4.0版本及以上， 推荐使用相同的版本。
 2.	获取项目ID(appid)，bucket，secret_id和secret_key；

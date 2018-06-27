@@ -6,9 +6,9 @@
 ## 用户身份获取
 我们支持使用 QQ / 微信登录来关联小微设备。
 
-如果您希望打通 QQ 账户，请到 [QQ 互联](https://connect.qq.com/) 完成基于 OAuth 的登录对接，拿到 openid/appid/accessToken。
+如果您希望打通 QQ 账户，请到 [QQ 互联](http://connect.qq.com/) 完成基于 OAuth 的登录对接，拿到 openid/appid/accessToken。
 
-如果您希望打通微信账户，请到 [微信开放平台](https://open.weixin.qq.com/) 完成同样的登录对接，拿到 openid/appid/accessToken。
+如果您希望打通微信账户，请到 [微信开放平台](http://open.weixin.qq.com/) 完成同样的登录对接，拿到 openid/appid/accessToken。
 
 获取用户身份后，如果希望减少用户重复登录的操作频率，可以参考以上两个平台，实现自动续期的逻辑，保证 accessToken 的可用状态。
 

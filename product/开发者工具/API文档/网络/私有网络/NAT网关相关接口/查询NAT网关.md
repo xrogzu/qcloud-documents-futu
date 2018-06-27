@@ -53,7 +53,7 @@
 ## 5. 示例
 输入
 ```
-https://vpc.api.qcloud.com/v2/index.php?Action=DescribeNatGateway
+http://vpc.api.qcloud.com/v2/index.php?Action=DescribeNatGateway
 &<公共请求参数>
 &vpcId=vpc-8e0ypm3z
 ```

@@ -114,7 +114,7 @@ MariaDB 执行inplace alter table后，show create table t1后发现运行结果
 
 >**未定义行为(undefined behavior)**的意思是，MySQL/Mariadb可以按照任意方式实现这种功能和行为，而且版本之间可能发生变化而不需要通知用户或者明确指出。MySQL和MariaDB对这些行为的实现可能产生相同的结果或者不同的结果。
 
->对于现在和未来版本的这类不同或者相同之处，TDSQL不会做任何结果保证，也不保证提供内核优化保证完全一致。未定义行为官方说明：https://mariadb.com/kb/en/mariadb/mariadb-vs-mysql-compatibility/
+>对于现在和未来版本的这类不同或者相同之处，TDSQL不会做任何结果保证，也不保证提供内核优化保证完全一致。未定义行为官方说明：http://mariadb.com/kb/en/mariadb/mariadb-vs-mysql-compatibility/
 
 
 #### 4.1 字符类型列与大小写无关的排序

@@ -69,7 +69,7 @@ IPsec配置详情
 输入
 ```
 
-  https://vpc.api.qcloud.com/v2/index.php?Action=ModifyVpnConnEx
+  http://vpc.api.qcloud.com/v2/index.php?Action=ModifyVpnConnEx
   &<公共请求参数>
   &vpcId=vpc-03vihbk9
   &vpnGwId=vpngw-kfldykuz

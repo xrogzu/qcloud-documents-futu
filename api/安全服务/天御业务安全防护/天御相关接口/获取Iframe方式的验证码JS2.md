@@ -33,7 +33,7 @@
 输入
 
 <pre>
-https://csec.api.qcloud.com/v2/index.php?Action=CaptchaIframeQuery
+http://csec.api.qcloud.com/v2/index.php?Action=CaptchaIframeQuery
 &accountType=4
 &appId=201293
 &associateAccount=373909726
@@ -58,7 +58,7 @@ https://csec.api.qcloud.com/v2/index.php?Action=CaptchaIframeQuery
 {
    "code":0,
    "message":"No Error",
-   "url":"https://captcha.guard.qcloud.com/template/TCapIframeApi.js?appid=1251001047&clientype=1&lang=2052&asig=-DhJtUkDwLzJpmIfAmasXFn1Y6zCkRQUn8WERrs4lVNmUDcuoDiYYLmoKqd-Ev77Eogpq97Dpb69_MrwGjWXKmTGg9y9iW7wjdriTu_y6WBN4qGsHn6VRk0W1hLB6ZWvqHqw2E5IFCRUcGrHBzMF7A**"
+   "url":"http://captcha.guard.qcloud.com/template/TCapIframeApi.js?appid=1251001047&clientype=1&lang=2052&asig=-DhJtUkDwLzJpmIfAmasXFn1Y6zCkRQUn8WERrs4lVNmUDcuoDiYYLmoKqd-Ev77Eogpq97Dpb69_MrwGjWXKmTGg9y9iW7wjdriTu_y6WBN4qGsHn6VRk0W1hLB6ZWvqHqw2E5IFCRUcGrHBzMF7A**"
 }
 ```
 ## 5. 样例代码

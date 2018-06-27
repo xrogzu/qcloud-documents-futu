@@ -23,9 +23,9 @@ TACAnalyticsEvent* event = [TACAnalyticsEvent eventWithIdentifier:@"demo-appear-
 [TACAnalyticsService trackEvent:event];
 ~~~
 然后在控制台上可以直接对应的结果（如新增用户数、页面追踪统计等）：
-![控制台结果](https://tacimg-1253960454.cos.ap-guangzhou.myqcloud.com/PR-manuscript/iOS/%E6%9F%A5%E7%9C%8B%E6%96%B0%E5%A2%9E%E7%94%A8%E6%88%B7.png)
+![控制台结果](http://tacimg-1253960454.cos.ap-guangzhou.myqcloud.com/PR-manuscript/iOS/%E6%9F%A5%E7%9C%8B%E6%96%B0%E5%A2%9E%E7%94%A8%E6%88%B7.png)
 又例如 Crash 上报的功能，无需拥有后台收集服务器，也无需自行去如何捕获和解析异常，该手机那些信息上报等等，只要集成以后，就可以拥有最完整的异常上报系统，对于所有 Crash 可以进行堆栈的跟踪和机型信息等分析，直接可以在控制台中看到效果：
-![Crash效果](https://tacimg-1253960454.cos.ap-guangzhou.myqcloud.com/PR-manuscript/iOS/Crash%E5%88%86%E6%9E%90.png)
+![Crash效果](http://tacimg-1253960454.cos.ap-guangzhou.myqcloud.com/PR-manuscript/iOS/Crash%E5%88%86%E6%9E%90.png)
 
 应用常用到的另一点是推送，集成 MobilieLine 的 推送模块以后可以直接在控制台对手机端进行推送，不用关心如何向苹果推送服务器交互的细节，也可以在自己没有搭建推送服务器的情况下进行推送。
 

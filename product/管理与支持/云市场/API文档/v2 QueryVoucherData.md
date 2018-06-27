@@ -32,7 +32,7 @@
 输入
 
 ```
- https://market.api.qcloud.com/v2/index.php?Action=QueryVoucherData
+ http://market.api.qcloud.com/v2/index.php?Action=QueryVoucherData
  &voucherCode=tkwbyeg8j2n6wi155j
  &COMMON_PARAMS
 ```

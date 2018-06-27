@@ -1,6 +1,6 @@
 # Android 应用使用云平台 MobileLine 的移动推送
 
-由于众所周知的原因，Google官方的 [FCM](https://firebase.google.com/docs/cloud-messaging/?hl=zh-cn) 在国内无法使用，再加上国内各种各样的定制化 ROM，我们不得不选择一款成熟的第三方平台做我们的推送服务。现在市场上的推送平台很多，比如极光推送、小米推送、阿里云推送、百度云推送等，由于自己的项目中使用的是云平台 MobileLine 的移动推送，所以我就简单介绍下使用 MobileLine 移动推送的流程。
+由于众所周知的原因，Google官方的 [FCM](http://firebase.google.com/docs/cloud-messaging/?hl=zh-cn) 在国内无法使用，再加上国内各种各样的定制化 ROM，我们不得不选择一款成熟的第三方平台做我们的推送服务。现在市场上的推送平台很多，比如极光推送、小米推送、阿里云推送、百度云推送等，由于自己的项目中使用的是云平台 MobileLine 的移动推送，所以我就简单介绍下使用 MobileLine 移动推送的流程。
 
 ## 腾讯移动推送（信鸽）
 

@@ -82,5 +82,5 @@
 
 [1]:	http://console.tcecqpoc.fsphere.cn/
 [2]:	http://console.tcecqpoc.fsphere.cn/cdb/ "云数据库控制台"
-[3]:	https://dev.mysql.com/doc/refman/5.6/en/ "查看MySQL官方指导"
+[3]:	http://dev.mysql.com/doc/refman/5.6/en/ "查看MySQL官方指导"
 

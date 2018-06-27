@@ -39,7 +39,7 @@
  
 输入
 <pre>
-https://vpc.api.qcloud.com/v2/index.php?Action=SetSSLVpnDomain
+http://vpc.api.qcloud.com/v2/index.php?Action=SetSSLVpnDomain
 &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
 &vpcId=vpc-39lpv32n
 &sslVpnId=vpngw-m1ue61hx

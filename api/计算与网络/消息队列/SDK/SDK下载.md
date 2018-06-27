@@ -4,16 +4,16 @@
 
 github地址如下：
 
-- [java sdk](https://github.com/tencentyun/cmq-java-sdk)
+- [java sdk](http://github.com/tencentyun/cmq-java-sdk)
 
 
-- [python sdk](https://github.com/tencentyun/cmq-python-sdk)
+- [python sdk](http://github.com/tencentyun/cmq-python-sdk)
 
 
-- [php sdk](https://github.com/tencentyun/cmq-php-sdk)
+- [php sdk](http://github.com/tencentyun/cmq-php-sdk)
 
 
-- [c++ sdk](https://github.com/tencentyun/cmq-cpp-sdk)
+- [c++ sdk](http://github.com/tencentyun/cmq-cpp-sdk)
 
 下载地址如下：
 

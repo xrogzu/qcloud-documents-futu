@@ -39,7 +39,7 @@
 ## 5. 示例
 输入
 ```
-https://vpc.api.qcloud.com/v2/index.php?Action=CreateNatGateway
+http://vpc.api.qcloud.com/v2/index.php?Action=CreateNatGateway
 &<公共请求参数>
 &natName=zhezhe
 &vpcId=314

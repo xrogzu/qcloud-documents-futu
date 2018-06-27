@@ -239,7 +239,7 @@ RiskDetail 类型说明
 
 ```
 请求示例 ：
-https://csec.api.qcloud.com/v2/index.php?Action=AntiFraud
+http://csec.api.qcloud.com/v2/index.php?Action=AntiFraud
 &<公共请求参数>
 &idNumber=1234567890
 &name=%E6%9D%A8%E7%BA%A2

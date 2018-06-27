@@ -7,7 +7,7 @@ ModifyEipAlias 接口用于更改弹性公网EIP的别名。用户通过该接�
 ## 请求
 ### 请求示例
 ```
-GET https://bmeip.api.qcloud.com/v2/index.php?
+GET http://bmeip.api.qcloud.com/v2/index.php?
 	Action=ModifyEipAlias
 	&<公共请求参数>
 	&eipId=<EIP实例ID>
@@ -52,7 +52,7 @@ GET https://bmeip.api.qcloud.com/v2/index.php?
  
 ### 输入
 ```
-GET https://bmeip.api.qcloud.com/v2/index.php?
+GET http://bmeip.api.qcloud.com/v2/index.php?
 	Action=ModifyEipAlias
 	&SecretId=AKIDlfdHxN0ntSVt4KPH0xXWnGl21UUFNoO5
 	&Nonce=28900

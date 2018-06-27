@@ -2,7 +2,7 @@ OpenSSL是用于安全通信的著名开源密码学工具包，包括主要的�
 
 #### 1. OpenSSL官网
 
-官方下载地址： https://www.openssl.org/source/
+官方下载地址： http://www.openssl.org/source/
 
 #### 2. Windows安装方法
 

@@ -2,7 +2,7 @@
 
 ### 相关资源
 
-[github项目地址](https://github.com/tencentyun/cos-cpp-sdk-v4)
+[github项目地址](http://github.com/tencentyun/cos-cpp-sdk-v4)
 
 [C++ SDK 本地下载](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/ebb45053fb35607c81359b48cd83a759/cos-cpp-sdk-v4-master.zip)
 
@@ -10,8 +10,8 @@
 ### 开发环境
 
 1. 安装openssl的库和头文件 [http://www.openssl.org/source/](http://www.openssl.org/source/) 
-2. 安装curl的库和头文件 https://curl.haxx.se/download.html
-3. 安装jsoncpp的库和头文件 [https://github.com/open-source-parsers/jsoncpp](https://github.com/open-source-parsers/jsoncpp) 
+2. 安装curl的库和头文件 http://curl.haxx.se/download.html
+3. 安装jsoncpp的库和头文件 [http://github.com/open-source-parsers/jsoncpp](http://github.com/open-source-parsers/jsoncpp) 
 4. 安装boost的库和头文件 [http://www.boost.org/](http://www.boost.org/) 
 5. 安装cmake工具 [http://www.cmake.org/download/](http://www.cmake.org/download/) 
 6. 从控制台获取APP ID、SecretID、SecretKey。

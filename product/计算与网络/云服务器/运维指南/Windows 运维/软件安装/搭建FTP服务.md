@@ -1,10 +1,10 @@
 
-本文档介绍在 Windows 云服务器上搭建 FTP 服务的操作。此处使用 FileZilla 为例介绍，您也可以通过获取服务市场镜像，免除了您安装配置的各种工作，具体详情请参见 [云市场](https://market.cloud.tencent.com/list?cid=64) 。
+本文档介绍在 Windows 云服务器上搭建 FTP 服务的操作。此处使用 FileZilla 为例介绍，您也可以通过获取服务市场镜像，免除了您安装配置的各种工作，具体详情请参见 [云市场](http://market.cloud.tencent.com/list?cid=64) 。
 
 ## 软件下载
  - FileZilla 是一个快速可靠的、跨平台的 FTP 、 FTPS 和 SFTP 软件。具有图形用户界面( GUI ) 和很多特性。易于使用，支持多种协议，本例使用 FileZilla 进行配置演示和操作测试。
- - 进入官网下载 FileZilla Server，官方下载地址： `https://sourceforge.net/projects/filezilla/files/FileZilla%20Server/`
- - 进入官网下载 FileZilla Client，官方下载地址： `https://sourceforge.net/projects/filezilla/files/FileZilla_Client/`
+ - 进入官网下载 FileZilla Server，官方下载地址： `http://sourceforge.net/projects/filezilla/files/FileZilla%20Server/`
+ - 进入官网下载 FileZilla Client，官方下载地址： `http://sourceforge.net/projects/filezilla/files/FileZilla_Client/`
 
 ## 安装配置
  1. 下载 FileZilla Server 后启动安装程序，阅读许可协议，单击【I Agree】进入下一步安装；选择安装内容，默认安装标准即可，单击【Next】（其中 Source Code 是源代码，不需要勾选）。

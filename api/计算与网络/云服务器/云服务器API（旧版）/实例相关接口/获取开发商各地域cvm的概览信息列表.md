@@ -27,7 +27,7 @@
 ## 4. 示例
 输入
 <pre>
-https://cvm.api.qcloud.com/v2/index.php?Action=DescribeUserCvmOverview
+http://cvm.api.qcloud.com/v2/index.php?Action=DescribeUserCvmOverview
 &regionIdList.0=1
 &regionIdList.2=2
 &<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>

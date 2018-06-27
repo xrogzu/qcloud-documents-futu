@@ -265,7 +265,7 @@ bool calc_RSASSA_PSS_2048_SHA256(const std::string &key,
 # 交易接口
 ## 刷卡支付
 ### 接口地址
-`https://pay.qcloud.com/cpay/micro_pay`
+`http://pay.qcloud.com/cpay/micro_pay`
 
 content\_type：application/json
 ### 输入参数
@@ -487,11 +487,11 @@ std::string gen_cloud_pay_micropay(
 使用了发送请求举例（使用libcurl实现）中的post函数
 */
 std::string response;
-post(request, "https://pay.qcloud.com/cpay/micro_pay", &response);
+post(request, "http://pay.qcloud.com/cpay/micro_pay", &response);
 ```
 ## 扫码支付
 ### 接口地址
-`https://pay.qcloud.com/cpay/scan_code_pay`
+`http://pay.qcloud.com/cpay/scan_code_pay`
 
 content_type：application/json
 ### 输入参数
@@ -705,7 +705,7 @@ std::string gen_cloud_pay_scan_code_pay(
 使用了发送请求举例（使用libcurl实现）中的post函数
 */
 std::string response;
-post(request, "https://pay.qcloud.com/cpay/scan_code_pay", &response);
+post(request, "http://pay.qcloud.com/cpay/scan_code_pay", &response);
 ```
 ## 撤销订单
 ### 特别说明
@@ -713,7 +713,7 @@ post(request, "https://pay.qcloud.com/cpay/scan_code_pay", &response);
 - **支付宝只有发生支付超时或者支付结果未知时可调用撤销**
 - **撤单的终端必须和发起支付的终端是同一个（为保证安全）**
 ### 接口地址
-`https://pay.qcloud.com/cpay/reverse`
+`http://pay.qcloud.com/cpay/reverse`
 
 content_type：application/json
 ### 输入参数
@@ -915,11 +915,11 @@ std::string gen_cloud_pay_reverse(
 使用了发送请求举例（使用libcurl实现）中的post函数
 */
 std::string response;
-post(request, "https://pay.qcloud.com/cpay/reverse", &response);
+post(request, "http://pay.qcloud.com/cpay/reverse", &response);
 ```
 ## 申请退款
 ### 接口地址
-`https://pay.qcloud.com/cpay/refund`
+`http://pay.qcloud.com/cpay/refund`
 
 content_type：application/json
 ### 输入参数
@@ -1143,11 +1143,11 @@ std::string gen_cloud_pay_refund(
 使用了发送请求举例（使用libcurl实现）中的post函数
 */
 std::string response;
-post(request, "https://pay.qcloud.com/cpay/refund", &response);
+post(request, "http://pay.qcloud.com/cpay/refund", &response);
 ```
 ## 关闭订单
 ### 接口地址
-`https://pay.qcloud.com/cpay/close_order`
+`http://pay.qcloud.com/cpay/close_order`
 
 content_type：application/json
 ### 输入参数
@@ -1357,11 +1357,11 @@ std::string gen_cloud_pay_close_order(
 使用了发送请求举例（使用libcurl实现）中的post函数
 */
 std::string response;
-post(request, "https://pay.qcloud.com/cpay/reverse", &response);
+post(request, "http://pay.qcloud.com/cpay/reverse", &response);
 ```
 ## 查询订单
 ### 接口地址
-`https://pay.qcloud.com/cpay/query_order`
+`http://pay.qcloud.com/cpay/query_order`
 
 content_type：application/json
 ### 输入参数
@@ -1583,11 +1583,11 @@ std::string gen_cloud_pay_query_order(
 使用了发送请求举例（使用libcurl实现）中的post函数
 */
 std::string response;
-post(request, "https://pay.qcloud.com/cpay/query_order", &response);
+post(request, "http://pay.qcloud.com/cpay/query_order", &response);
 ```
 ## 查询退款单
 ### 接口地址
-`https://pay.qcloud.com/cpay/query_refund_order`
+`http://pay.qcloud.com/cpay/query_refund_order`
 
 content_type：application/json
 ### 输入参数
@@ -1809,7 +1809,7 @@ std::string gen_cloud_pay_query_refund_order(
 使用了发送请求举例（使用libcurl实现）中的post函数
 */
 std::string response;
-post(request, "https://pay.qcloud.com/cpay/query_refund_order", &response);
+post(request, "http://pay.qcloud.com/cpay/query_refund_order", &response);
 ```
 ## 支付成功回调
 ### 接口地址
@@ -2019,7 +2019,7 @@ content_type：application/json
 
 ### 接口地址
 
-- `https://pay.qcloud.com/cpay/client_order_detail`
+- `http://pay.qcloud.com/cpay/client_order_detail`
 - `content_type：application/json`
 
 ### 输入参数
@@ -2118,7 +2118,7 @@ content_type：application/json
 # 门店接口
 ## 查询门店信息
 ### 接口地址
-`https://pay.qcloud.com/cpay/query_sub_mch_shop_info`
+`http://pay.qcloud.com/cpay/query_sub_mch_shop_info`
 
 content_type：application/json
 ### 输入参数
@@ -2321,12 +2321,12 @@ std::string gen_cloud_pay_query_sub_mch_shop_info(
 使用了发送请求举例（使用libcurl实现）中的post函数
 */
 std::string response;
-post(request, "https://pay.qcloud.com/cpay/query_sub_mch_shop_info", &response);
+post(request, "http://pay.qcloud.com/cpay/query_sub_mch_shop_info", &response);
 ```
 
 ## 查询子商户信息
 ### 接口地址
-`https://pay.qcloud.com/cpay/sdk_query_sub_mch_info`
+`http://pay.qcloud.com/cpay/sdk_query_sub_mch_info`
 
 content_type：application/json
 ### 输入参数
@@ -2533,7 +2533,7 @@ content_type：application/json
 # 监控上报接口
 ## 上报客户端接口监控信息
 ### 接口地址
-`https://pay.qcloud.com/cpay/upload_client_monitor_info`
+`http://pay.qcloud.com/cpay/upload_client_monitor_info`
 
 content_type：application/json
 ### 输入参数
@@ -2831,7 +2831,7 @@ std::string gen_cloud_pay_upload_client_monitor_info(
     client_int_result1["time_cost"] = 100;
     client_int_result1["start_time"] = 1505805297;
     client_int_result1["log_id"] = 73648593;
-    client_int_result1["domain_name"] = "https://pay.qcloud.com/cpay";
+    client_int_result1["domain_name"] = "http://pay.qcloud.com/cpay";
     client_int_results.append(client_int_result1);
     uncompressed_monitor_info["machine_info"] = machine_info;
     request_content["uncompressed_monitor_info"]  = uncompressed_monitor_info;
@@ -2861,11 +2861,11 @@ std::string gen_cloud_pay_upload_client_monitor_info(
 使用了发送请求举例（使用libcurl实现）中的post函数
 */
 std::string response;
-post(request, "https://pay.qcloud.com/cpay/upload_client_monitor_info", &response);
+post(request, "http://pay.qcloud.com/cpay/upload_client_monitor_info", &response);
 ```
 ## 上报客户端机器配置信息
 ### 接口地址
-`https://pay.qcloud.com/cpay/upload_client_conf_info`
+`http://pay.qcloud.com/cpay/upload_client_conf_info`
 
 content_type：application/json
 ### 输入参数
@@ -3076,7 +3076,7 @@ std::string gen_cloud_pay_upload_client_conf_info(
 使用了发送请求举例（使用libcurl实现）中的post函数
 */
 std::string response;
-post(request, "https://pay.qcloud.com/cpay/upload_client_conf_info", &response);
+post(request, "http://pay.qcloud.com/cpay/upload_client_conf_info", &response);
 ```
 # 公共数据结构
 ## 认证签名信息

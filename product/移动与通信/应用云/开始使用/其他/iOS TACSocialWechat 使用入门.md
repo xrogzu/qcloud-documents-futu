@@ -1,4 +1,4 @@
-TACSocialWechat 封装了 [libWeChatSDK](https://open.weixin.qq.com/) 微信开放平台的 SDK，您可以通过引入 TACSocialWechat 来引入微信开放平台能力。同时，TACSocialWechat 提供了更方便的该 SDK 集成方式，请不要重复引入 libWeChatSDK 。
+TACSocialWechat 封装了 [libWeChatSDK](http://open.weixin.qq.com/) 微信开放平台的 SDK，您可以通过引入 TACSocialWechat 来引入微信开放平台能力。同时，TACSocialWechat 提供了更方便的该 SDK 集成方式，请不要重复引入 libWeChatSDK 。
 
 ## 准备工作
 
@@ -12,12 +12,12 @@ TACSocialWechat 封装了 [libWeChatSDK](https://open.weixin.qq.com/) 微信开�
 
 ### 1. 在您的项目中集成移动开发平台（MobileLine） SDK，并在 Podfile 文件中添加移动开发平台（MobileLine）的私有源：
 ~~~
-source "https://git.tce.fsphere.cn/qcloud_u/cocopoads-repo"
-source "https://github.com/CocoaPods/Specs"
+source "http://git.tce.fsphere.cn/qcloud_u/cocopoads-repo"
+source "http://github.com/CocoaPods/Specs"
 ~~~
 
 > **注意：**
->一定要添加 [CocoaPods](https://github.com/CocoaPods/Specs) 的原始源，否则会造成部分仓库找不到的问题。
+>一定要添加 [CocoaPods](http://github.com/CocoaPods/Specs) 的原始源，否则会造成部分仓库找不到的问题。
 
 ### 2. 添加 TACSocialWechat 到您的 Podfile，您可以按照以下方法在 Podfile 中纳入一个 Pod：
  ~~~

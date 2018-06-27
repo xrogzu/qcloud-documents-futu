@@ -2,7 +2,7 @@
 
 ### 1. 下载并安装 ffmpeg
 通过使用 ffmpeg 工具 ，可以完成直播流的录制。
->您可以在 [ffmpeg官网](https://www.ffmpeg.org/) 下载并安装ffmpeg 工具 。
+>您可以在 [ffmpeg官网](http://www.ffmpeg.org/) 下载并安装ffmpeg 工具 。
 
 ``` shell
 wget http://www.ffmpeg.org/releases/ffmpeg-3.4.tar.gz

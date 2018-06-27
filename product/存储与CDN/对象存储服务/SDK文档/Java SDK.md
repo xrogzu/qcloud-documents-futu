@@ -2,7 +2,7 @@
 
 ### SDK获取
 
-对象存储服务 Java SDK下载地址：[github项目](https://github.com/tencentyun/cos-java-sdk)
+对象存储服务 Java SDK下载地址：[github项目](http://github.com/tencentyun/cos-java-sdk)
 
 ### 开发环境
 
@@ -24,11 +24,11 @@ pom.xml 添加依赖
 
 - 源码安装
 
-从[github](https://github.com/tencentyun/cos-java-sdk)下载源码
+从[github](http://github.com/tencentyun/cos-java-sdk)下载源码
 
 ### 卸载SDK
 
-删除pom依赖或[源码](https://github.com/tencentyun/cos-java-sdk/tree/master)
+删除pom依赖或[源码](http://github.com/tencentyun/cos-java-sdk/tree/master)
 
 ## 文件操作
 

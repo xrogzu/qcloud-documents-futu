@@ -93,7 +93,7 @@ data.n.address结构
 输入
 <pre>
 
-  https://vpc.api.qcloud.com/v2/index.php?Action=DescribeAddress
+  http://vpc.api.qcloud.com/v2/index.php?Action=DescribeAddress
   &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
   &addressId=k
 

@@ -116,7 +116,7 @@ mLiveRoom.setLiveRoomListener(new ILiveRoomListener() {
 - 示例代码：
 
 ```
-final String DOMAIN = "https://room.qcloud.com/weapp/live_room ";
+final String DOMAIN = "http://room.qcloud.com/weapp/live_room ";
 LoginInfo loginInfo      = new LoginInfo();
 loginInfo.sdkAppID       = sdkAppID;
 loginInfo.userID         = userID;

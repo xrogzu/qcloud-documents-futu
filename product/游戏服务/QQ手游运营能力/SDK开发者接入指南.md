@@ -1,7 +1,7 @@
 
 ## 开发者注册流程
 ### 登录账户
-在 [云平台官网](https://connect.qq.com/) 单击右上角【登录】按钮，使用 QQ 帐号登录，如下图所示：
+在 [云平台官网](http://connect.qq.com/) 单击右上角【登录】按钮，使用 QQ 帐号登录，如下图所示：
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/7c5f3a4cf3864c69481772833e7d14d0/image.png)
 > **注意：**
 > 开发者 QQ 号码注册完成后将不能变更，建议使用 **公司公共 QQ 号码** 而不是员工私人号码注册，避免员工离职等不必要的麻烦。

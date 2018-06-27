@@ -13,7 +13,7 @@ AttachCbsStorages 接口请求域名为：`cbs.api.qcloud.com`
 ## 请求
 语法示例
 ```
-https://cbs.api.qcloud.com/v2/index.php?
+http://cbs.api.qcloud.com/v2/index.php?
 <公共请求参数>
 &Action=AttachCbsStorages
 &storageIds.0=<storageId>
@@ -64,7 +64,7 @@ https://cbs.api.qcloud.com/v2/index.php?
 ## 实际示例
 ### 请求
 ```
-https://cbs.api.qcloud.com/v2/index.php?
+http://cbs.api.qcloud.com/v2/index.php?
 <公共请求参数>
 &Action=AttachCbsStorages
 &storageIds.0=disk-a2dbffgk

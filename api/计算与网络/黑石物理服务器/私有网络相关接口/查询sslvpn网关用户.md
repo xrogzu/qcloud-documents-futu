@@ -8,7 +8,7 @@ DescribeBmSshSslVpnUser 用于查询黑石sslvpn网关用户。
 
 语法示例：
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=DescribeBmSshSslVpnUser
+GET http://bmvpc.api.qcloud.com/v2/index.php/?Action=DescribeBmSshSslVpnUser
     &<公共请求参数>
 	&vpnGwId=<sslvpn网关唯一ID>
 ```
@@ -60,7 +60,7 @@ GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=DescribeBmSshSslVpnUser
 ## 实际案例
 ### 请求
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?
+GET http://bmvpc.api.qcloud.com/v2/index.php?
 	Action=DescribeBmSshSslVpnUser
 	&SecretId=AKIDlfdHxN0ntSVt4KPH0xXWnGl21UUFNoO5
 	&Nonce=11362

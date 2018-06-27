@@ -1,14 +1,14 @@
 ## 公共接口说明
 ### CGI 调用方法
 方法 1：`http://proxy.vip.qq.com/cgi-bin/QQConnect.fcgi `
-方法 2：`https://proxy.vip.qq.com/cgi-bin/QQConnect.fcgi`
+方法 2：`http://proxy.vip.qq.com/cgi-bin/QQConnect.fcgi`
 
 ### 公共请求参数
 
 | 参数 | 是否必须 | 含义 |
 |---------|---------|---------|
 | oauth_consumer_key | 是 | 申请 QQ 登录成功后，分配给应用的 appid |
-| openid | 是 | 用户的 ID，与 QQ 号码一一对应。<br>可通过调用`https://graph.qq.com/oauth2.0/me?access_token=YOUR_ACCESS_TOKEN`来获取。 |
+| openid | 是 | 用户的 ID，与 QQ 号码一一对应。<br>可通过调用`http://graph.qq.com/oauth2.0/me?access_token=YOUR_ACCESS_TOKEN`来获取。 |
 | access_token | 是 | 可通过使用 `Authorization_Code`获取。<br>access_token 有 3 个月有效期。 |
 | cmd | 是 | cgi 名称，此字段决定具体的接口功能 |
 | sign | 是 | 签名 |

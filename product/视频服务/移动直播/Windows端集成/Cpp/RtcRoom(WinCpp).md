@@ -120,7 +120,7 @@
 - 示例：
 
   ```c++
-  std::string serverDomain = "https://roomtest.qcloud.com/weapp/double_room";
+  std::string serverDomain = "http://roomtest.qcloud.com/weapp/double_room";
 
   m_authData.sdkAppID = sdkAppID;
   m_authData.accountType = accountType;

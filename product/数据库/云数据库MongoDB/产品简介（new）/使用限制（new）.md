@@ -27,7 +27,7 @@ mongodb://rwuser:password@10.66.77.88:27017/admin?authMechanism=MONGODB-CR
 
 ## 3 连接用户名
 
-目前只能使用默认用户“rwuser”，其角色为[readWriteAnyDatabase+dbAdmin](https://docs.mongodb.org/v3.0/reference/built-in-roles/)，也就是说您可以用此用户读写任意数据库，但是不具备高危操作的权限。
+目前只能使用默认用户“rwuser”，其角色为[readWriteAnyDatabase+dbAdmin](http://docs.mongodb.org/v3.0/reference/built-in-roles/)，也就是说您可以用此用户读写任意数据库，但是不具备高危操作的权限。
 即将支持用户自定义账号管理功能。
 
 

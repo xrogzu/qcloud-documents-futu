@@ -1,8 +1,8 @@
 为方便Python开发者调试和接入云API， 我们提供了基于Python的SDK。
 
-[从 Githb 访问 >>](https://github.com/QcloudApi/qcloudapi-sdk-python)
+[从 Githb 访问 >>](http://github.com/QcloudApi/qcloudapi-sdk-python)
 
-qcloudapi-sdk-python 是为了让 Python 开发者能够在自己的代码里更快捷方便的使用云平台的 API 而开发的 SDK 工具包。我们已经将其打包发布到 [pypi](https://pypi.python.org/pypi/qcloudapi-sdk-python/) ，您可以使用 pip 工具将 SDK 安装到本地，pip 工具在各操作系统的安装方式请参考[如何安装python环境和pip工具](http://tcecqpoc.fsphere.cn/doc/product/440/6181)。您也可以将其添加到项目的依赖列表中，或者使用 [git submodule](https://git-scm.com/docs/git-submodule) 功能将其直接置于您的项目中。
+qcloudapi-sdk-python 是为了让 Python 开发者能够在自己的代码里更快捷方便的使用云平台的 API 而开发的 SDK 工具包。我们已经将其打包发布到 [pypi](http://pypi.python.org/pypi/qcloudapi-sdk-python/) ，您可以使用 pip 工具将 SDK 安装到本地，pip 工具在各操作系统的安装方式请参考[如何安装python环境和pip工具](http://tcecqpoc.fsphere.cn/doc/product/440/6181)。您也可以将其添加到项目的依赖列表中，或者使用 [git submodule](http://git-scm.com/docs/git-submodule) 功能将其直接置于您的项目中。
 
 ## 资源
 见不同模块API的公共参数、API概览、错误码。如[云服务器API公共参数](http://tcecqpoc.fsphere.cn/document/api/213/6976)、[云服务器API概览](http://tcecqpoc.fsphere.cn/doc/api/229/API%E6%A6%82%E8%A7%88)、[云服务器API错误码](http://tcecqpoc.fsphere.cn/doc/api/229/%E9%94%99%E8%AF%AF%E7%A0%81)。
@@ -64,4 +64,4 @@ except Exception as e:
 ```
 
 ## 常见问题
-如果碰到ImportError: No module named requests.auth 请安装 requests([request说明](https://github.com/kennethreitz/requests))。
+如果碰到ImportError: No module named requests.auth 请安装 requests([request说明](http://github.com/kennethreitz/requests))。

@@ -54,7 +54,7 @@ ips：1.1.1.1,2.2.2.2
 ### GET 请求
 GET 请求需要将所有参数都加在 URL 后（逗号进行转码）：
 ```
-https://cdn.api.qcloud.com/v2/index.php?
+http://cdn.api.qcloud.com/v2/index.php?
 Action=QueryCdnIp
 &SecretId=XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 &Timestamp=1462436277
@@ -66,7 +66,7 @@ Action=QueryCdnIp
 ### POST请求
 POST请求时，参数填充在HTTP Request body中，请求地址：
 ```
-https://cdn.api.qcloud.com/v2/index.php
+http://cdn.api.qcloud.com/v2/index.php
 ```
 参数支持 formdata、xwwwformurlencoded 等格式，参数数组如下：
 

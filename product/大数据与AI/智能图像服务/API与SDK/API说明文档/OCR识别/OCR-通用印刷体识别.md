@@ -12,7 +12,7 @@
 
 `http://recognition.image.myqcloud.com/ocr/general`
 
-`https://recognition.image.myqcloud.com/ocr/general`
+`http://recognition.image.myqcloud.com/ocr/general`
 
 ## 请求方式
 

@@ -47,7 +47,7 @@ ruleList内容：
 ## 4. 示例
 输入
 <pre>
-https://monitor.api.qcloud.com/v2/index.php?Action=DescribeAlarmRuleByObject
+http://monitor.api.qcloud.com/v2/index.php?Action=DescribeAlarmRuleByObject
 &namespace=name1
 &metricName=metric0
 &dimensions.0.name=name

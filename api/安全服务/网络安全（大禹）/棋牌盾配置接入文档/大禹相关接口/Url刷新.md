@@ -26,7 +26,7 @@
 
 ## 4. 示例
 <pre>
-https://dayu.api.qcloud.com/v2/index.php?Action=RefreshDayuUrl
+http://dayu.api.qcloud.com/v2/index.php?Action=RefreshDayuUrl
 &<<a href="http://tcecqpoc.fsphere.cn/document/product/297/7291">公共请求参数</a>>
 &urls.0=http://www.qq.com/index.html
 </pre>

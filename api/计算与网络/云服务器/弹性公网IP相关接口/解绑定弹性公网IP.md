@@ -51,7 +51,7 @@
 
 #### 请求参数
 <pre>
-  https://cvm.api.tce.fsphere.cn/v2/index.php?Action=DisassociateAddress
+  http://cvm.api.tce.fsphere.cn/v2/index.php?Action=DisassociateAddress
   &Version=2017-03-12
   &AddressId=eip-ek0cdz1g
   &<<a href="/document/api/213/11650">公共请求参数</a>>
@@ -75,7 +75,7 @@
 
 #### 请求参数
 <pre>
-  https://cvm.api.tce.fsphere.cn/v2/index.php?Action=DisassociateAddress
+  http://cvm.api.tce.fsphere.cn/v2/index.php?Action=DisassociateAddress
   &Version=2017-03-12
   &AddressId=eip-ek0cdz1g
   &ReallocateNormalPublicIp=TRUE

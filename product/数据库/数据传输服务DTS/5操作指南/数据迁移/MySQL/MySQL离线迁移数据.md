@@ -43,7 +43,7 @@ shell > mysql -h hostname -P port -u username -p < bak_pathname
 shell > mysqldump [options] db_name [tbl_name ...] > bak_pathname
 ```
 其中，options 为导出选项，db_name 为数据库名称，tbl_name 为表名称，bak_pathname 为导出路径名。
-更多 mysqldump 导出数据说明，请参考 [MySQL官方手册](https://dev.mysql.com/doc/refman/5.6/en/mysqldump.html)。
+更多 mysqldump 导出数据说明，请参考 [MySQL官方手册](http://dev.mysql.com/doc/refman/5.6/en/mysqldump.html)。
 
 2. 还原数据库时，可以通过 MySQL 命令行工具进行还原，方式如下：
 ```

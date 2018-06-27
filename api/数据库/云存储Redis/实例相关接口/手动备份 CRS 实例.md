@@ -39,7 +39,7 @@
 
 ## 5. 示例
 <pre>
-https://redis.api.qcloud.com/v2/index.php?Action=ManualBackupInstance
+http://redis.api.qcloud.com/v2/index.php?Action=ManualBackupInstance
 &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
 &redisId=crs-izbob1wh
 &remark=test_api

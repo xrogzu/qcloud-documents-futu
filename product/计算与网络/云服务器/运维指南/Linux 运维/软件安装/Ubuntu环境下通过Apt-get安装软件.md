@@ -6,7 +6,7 @@
 ```
 sudo apt-get install 软件名称
 ```
-![](https://mc.qcloudimg.com/static/img/d03f55bba1690ff30532b73148ccc1e9/45.png)
+![](http://mc.qcloudimg.com/static/img/d03f55bba1690ff30532b73148ccc1e9/45.png)
 3. 确认软件信息无误后，键入`Y`进行安装，等待至软件安装完成即可。
 
 ### 查看已安装软件信息
@@ -16,4 +16,4 @@ sudo apt-get install 软件名称
 - 可通过命令` sudo dpkg -l 软件名 `查看软件包的版本信息。
 
 以 nginx 为例：
-![](https://mc.qcloudimg.com/static/img/8bbc99d7a31e8463da36f3dc2221c028/46.png)
+![](http://mc.qcloudimg.com/static/img/8bbc99d7a31e8463da36f3dc2221c028/46.png)

@@ -24,7 +24,7 @@
 ## 4. 示例
 输入
 ```
-https://cvm.api.qcloud.com/v2/index.php?Action=ModifyUserCvmOverview
+http://cvm.api.qcloud.com/v2/index.php?Action=ModifyUserCvmOverview
 &<公共请求参数>
 &cvmOverviews.0.regionId=1
 &cvmOverviews.0.newFlag=1

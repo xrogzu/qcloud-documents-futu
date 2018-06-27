@@ -2,7 +2,7 @@
 
 ## SDK 安装
 
-解决方案 [wafer2-quickstart](https://github.com/tencentyun/wafer2-quickstart) 已经集成并使用最新版的 SDK，需要快速了解的可以从 Demo 开始。
+解决方案 [wafer2-quickstart](http://github.com/tencentyun/wafer2-quickstart) 已经集成并使用最新版的 SDK，需要快速了解的可以从 Demo 开始。
 
 如果需要单独开始，本 SDK 已经发布为 npm 模块，可以直接安装到小程序目录中。
 
@@ -28,7 +28,7 @@ var qcloud = require('./node_modules/wafer2-client-sdk/index.js');
 var qcloud = require('./node_modules/wafer2-client-sdk/index.js');
 
 // 设置登录地址
-qcloud.setLoginUrl('https://199447.qcloud.la/weapp/login');
+qcloud.setLoginUrl('http://199447.qcloud.la/weapp/login');
 qcloud.login({
     success: function (userInfo) {
         console.log('登录成功', userInfo);
@@ -64,7 +64,7 @@ qcloud.request({
 
 ```js
 // 使用 login 参数之前，需要设置登录地址
-qcloud.setLoginUrl('https://199447.qcloud.la/login');
+qcloud.setLoginUrl('http://199447.qcloud.la/login');
 qcloud.request({
     login: true,
     url: 'http://199447.qcloud.la/user',
@@ -77,15 +77,15 @@ qcloud.request({
 });
 ```
 
-关于会话服务详细技术说明，请参考 [Wiki](https://github.com/tencentyun/wafer-solution/wiki/%E4%BC%9A%E8%AF%9D%E6%9C%8D%E5%8A%A1)。
+关于会话服务详细技术说明，请参考 [Wiki](http://github.com/tencentyun/wafer-solution/wiki/%E4%BC%9A%E8%AF%9D%E6%9C%8D%E5%8A%A1)。
 
 ## 信道服务
 
-[信道服务](https://github.com/tencentyun/wafer-solution/wiki/%E4%BF%A1%E9%81%93%E6%9C%8D%E5%8A%A1)小程序支持利用云平台的信道资源使用 WebSocket 服务。
+[信道服务](http://github.com/tencentyun/wafer-solution/wiki/%E4%BF%A1%E9%81%93%E6%9C%8D%E5%8A%A1)小程序支持利用云平台的信道资源使用 WebSocket 服务。
 
 ```js
 // 创建信道，需要给定后台服务地址
-var tunnel = this.tunnel = new qcloud.Tunnel('https://199447.qcloud.la/tunnel');
+var tunnel = this.tunnel = new qcloud.Tunnel('http://199447.qcloud.la/tunnel');
 
 // 监听信道内置消息，包括 connect/close/reconnecting/reconnect/error
 tunnel.on('connect', () => console.log('WebSocket 信道已连接'));
@@ -107,9 +107,9 @@ tunnel.close();
 
 信道服务同样需要业务服务器配合云端 SDK 支持，构造信道实例的时候需要提供业务服务器提供的信道服务地址。通过监听信道消息以及自定义消息来通过信道实现业务。
 
-关于信道使用的更完整实例，建议参考客户端 Demo 中的[三木聊天室应用源码](https://github.com/tencentyun/wafer-client-demo/blob/master/pages/chat/chat.js)。
+关于信道使用的更完整实例，建议参考客户端 Demo 中的[三木聊天室应用源码](http://github.com/tencentyun/wafer-client-demo/blob/master/pages/chat/chat.js)。
 
-关于信道服务详细技术说明，请参考 [Wiki](https://github.com/tencentyun/wafer-solution/wiki/%E4%BF%A1%E9%81%93%E6%9C%8D%E5%8A%A1)。
+关于信道服务详细技术说明，请参考 [Wiki](http://github.com/tencentyun/wafer-solution/wiki/%E4%BF%A1%E9%81%93%E6%9C%8D%E5%8A%A1)。
 
 ## API
 

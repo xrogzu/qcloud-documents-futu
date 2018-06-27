@@ -10,7 +10,7 @@ JDK 1.7 或1.8
 ## 配置及使用方法
 ### 配置方法
 1. 安装 Hadoop-2.7.2 及以上版本，具体安装步骤请参考 [Hadoop 安装与测试](/doc/product/436/10867)。
-2. 通过 [GitHub 地址](https://github.com/tencentyun/hdfs_to_cos_tools) 下载 HDFS TO COS 工具并解压缩。
+2. 通过 [GitHub 地址](http://github.com/tencentyun/hdfs_to_cos_tools) 下载 HDFS TO COS 工具并解压缩。
 3. 将要同步的 HDFS 集群的 core-site.xml 拷贝到 conf 文件夹中，其中 core-site.xml 中包含 NameNode 的配置信息。
 4. 编辑配置文件`cos_info.conf`， 存储桶（Bucket）、地域（Region）以及 API 密钥信息，其中存储桶的名字，由用户自定义字符串和系统生成appid数字串由中划线连接而成，如：mybucket-1250000000。
 5. 在命令行参数中指定配置文件位置， 默认位置 `conf/cos_info.conf`。

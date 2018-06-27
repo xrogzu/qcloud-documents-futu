@@ -4,7 +4,7 @@
 
 在开始使用应用云 Authorization 服务前，确保您已经完成：
 
- 1. [安装和配置SDK](https://github.com/tencentyun/qcloud-documents/blob/master/product/%E5%AD%98%E5%82%A8%E4%B8%8ECDN/_Drafts/ApplicationBoard/%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Core/Android/GettingStarted.md)
+ 1. [安装和配置SDK](http://github.com/tencentyun/qcloud-documents/blob/master/product/%E5%AD%98%E5%82%A8%E4%B8%8ECDN/_Drafts/ApplicationBoard/%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/Core/Android/GettingStarted.md)
 
 ## 添加 Authorization SDK
 
@@ -72,7 +72,7 @@ Authorization 服务使用默认参数即可，不需要额外配置。如果您
 
 ### 1. 注册应用
 
-如果您还没有在 [微信开放平台](https://open.weixin.qq.com/cgi-bin/index?t=home/index&lang=zh_CN) 注册您的应用，请先移步注册您的应用，并且获取应用登录能力。
+如果您还没有在 [微信开放平台](http://open.weixin.qq.com/cgi-bin/index?t=home/index&lang=zh_CN) 注册您的应用，请先移步注册您的应用，并且获取应用登录能力。
 
 ### 2. 配置应用
 
@@ -98,7 +98,7 @@ Authorization 服务使用默认参数即可，不需要额外配置。如果您
 
 #### 手动集成
 
-如果您是采用ant编译系统，请从[微信资源中心](https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419319167&lang=zh_CN) 下载最新的开发包，并拷贝到应用模块的 libs 文件夹下，然后添加到您的classpath中。#### 手动集成
+如果您是采用ant编译系统，请从[微信资源中心](http://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419319167&lang=zh_CN) 下载最新的开发包，并拷贝到应用模块的 libs 文件夹下，然后添加到您的classpath中。#### 手动集成
 
 然后，在您的 AndroidManifest.xml 文件中添加以下权限：
 
@@ -114,7 +114,7 @@ Authorization 服务使用默认参数即可，不需要额外配置。如果您
 
 ### 1. 注册应用
 
-如果您还没有在 [QQ互联平台](https://connect.qq.com/) 注册您的应用，请先移步注册您的应用。
+如果您还没有在 [QQ互联平台](http://connect.qq.com/) 注册您的应用，请先移步注册您的应用。
 
 ### 2. 配置应用
 

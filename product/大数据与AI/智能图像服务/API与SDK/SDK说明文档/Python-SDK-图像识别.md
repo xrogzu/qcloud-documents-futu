@@ -1,7 +1,7 @@
 ## 开发准备
 ### SDK 获取
 
-万象优图的 Python SDK 下载地址：[Python-SDK-V2.0](https://github.com/tencentyun/image-python-sdk-v2.0) 。
+万象优图的 Python SDK 下载地址：[Python-SDK-V2.0](http://github.com/tencentyun/image-python-sdk-v2.0) 。
 
 ### 开发准备
 **使用pip**

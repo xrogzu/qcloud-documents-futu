@@ -84,7 +84,7 @@ statisticsType.m.statistics和statisticsType.m.period成对出现，可以对该
 输入
 
 <pre>
- https://monitor.api.qcloud.com/v2/index.php?Action=CreateMetricStatisticsType
+ http://monitor.api.qcloud.com/v2/index.php?Action=CreateMetricStatisticsType
  &namespace=name1
  &metricName=zqmetric1
  &dimensionNames.0=d1

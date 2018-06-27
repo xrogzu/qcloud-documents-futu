@@ -102,4 +102,4 @@ ImSDK调用API需要遵循以下顺序，其余辅助方法需要在登录成功
 初始化 | TIMUnInit | 反初始化SDK
 	
 调用流程图：
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20150928023342_70933.png)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20150928023342_70933.png)

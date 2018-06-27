@@ -86,7 +86,7 @@ IPsec配置信息数组内容
  
 输入
 ```
-  https://vpc.api.qcloud.com/v2/index.php?Action=DescribeVpnConn
+  http://vpc.api.qcloud.com/v2/index.php?Action=DescribeVpnConn
   &<公共请求参数>
   &vpcId=vpc-erxok83l
 

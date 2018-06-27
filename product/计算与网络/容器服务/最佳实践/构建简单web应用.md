@@ -7,7 +7,7 @@
 
 1、前端服务，用于处理客户端的查询和写入请求。
 2、数据存储服务，使用redis，写入的数据存放到redis-master，读取操作访问的是redis-slave，redis-master和redis-slave通过主从复制来保持数据同步。
-该应用是kubernetes项目自带的例子，链接地址为 https://github.com/kubernetes/kubernetes/tree/release-1.6/examples/guestbook 。
+该应用是kubernetes项目自带的例子，链接地址为 http://github.com/kubernetes/kubernetes/tree/release-1.6/examples/guestbook 。
 
 ### 一、创建容器集群
 

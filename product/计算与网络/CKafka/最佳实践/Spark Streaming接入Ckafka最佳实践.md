@@ -80,7 +80,7 @@ object ProducerExample extends App {
 }
 ```
 有关更多ProducerRecord的用法可以查阅
-https://kafka.apache.org/0100/javadoc/org/apache/kafka/clients/producer/ProducerRecord.html
+http://kafka.apache.org/0100/javadoc/org/apache/kafka/clients/producer/ProducerRecord.html
 ### 从Ckafka消费
 #### DirectStream
 在`build.sbt`添加依赖
@@ -227,7 +227,7 @@ chmod u+x ./sbt_run.sh
 ```
 若能看到sbt版本说明可以正常运行
 #### 安装protobuf
-1. 下载[protobuf](https://github.com/google/protobuf/releases)相应版本
+1. 下载[protobuf](http://github.com/google/protobuf/releases)相应版本
 2. 解压后进入目录
 ```bash
 ./configure

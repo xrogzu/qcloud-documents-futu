@@ -8,7 +8,7 @@
 
 `http://recognition.image.myqcloud.com/ocr/waybill`
 
-`https://recognition.image.myqcloud.com/ocr/waybill`
+`http://recognition.image.myqcloud.com/ocr/waybill`
 
 ## 请求方式
 

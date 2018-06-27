@@ -34,7 +34,7 @@
 ## 5. 示例
 输入
 ```
-https://vpc.api.qcloud.com/v2/index.php?Action=UpgradeNatGateway
+http://vpc.api.qcloud.com/v2/index.php?Action=UpgradeNatGateway
 &<公共请求参数>
 &vpcId=314
 &natId=nat-et8e970y

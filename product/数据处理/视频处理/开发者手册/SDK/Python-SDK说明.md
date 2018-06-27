@@ -1,5 +1,5 @@
 ## 1	开发准备
-<p>微视频服务的Python2 sdk的下载地址： <a href="https://github.com/tencentyun/mvs-python-sdk.git" class="external free" title="https://github.com/tencentyun/mvs-python-sdk.git" target="_blank" rel="nofollow">https://github.com/tencentyun/mvs-python-sdk.git</a>
+<p>微视频服务的Python2 sdk的下载地址： <a href="http://github.com/tencentyun/mvs-python-sdk.git" class="external free" title="http://github.com/tencentyun/mvs-python-sdk.git" target="_blank" rel="nofollow">http://github.com/tencentyun/mvs-python-sdk.git</a>
 </p>
 
 ### 1.1	前期准备
@@ -10,7 +10,7 @@
 ### 1.2	导入SDK
 <p>1.	下载Python sdk<br>
 方法一：使用 pip install qcloud_video 安装<br>
-方法二：如果安装了git命令行，执行git clone <a href="https://github.com/tencentyun/mvs-python-sdk.git" class="external free" title="https://github.com/tencentyun/mvs-python-sdk.git" target="_blank" rel="nofollow">https://github.com/tencentyun/mvs-python-sdk.git</a> 或者直接在github下载zip包。<br>
+方法二：如果安装了git命令行，执行git clone <a href="http://github.com/tencentyun/mvs-python-sdk.git" class="external free" title="http://github.com/tencentyun/mvs-python-sdk.git" target="_blank" rel="nofollow">http://github.com/tencentyun/mvs-python-sdk.git</a> 或者直接在github下载zip包。<br>
 注意：SDK依赖requests包，使用方法二需自行安装。<br>
 2.	导入项目<br>
 在IDE中导入qcloud_video包<br>

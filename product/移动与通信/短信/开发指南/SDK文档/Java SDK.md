@@ -1,6 +1,6 @@
 ## 开发准备
 ### SDK 获取
-短信 Java SDK 在 Github 中的下载地址：[短信 Java SDK](https://github.com/qcloudsms/qcloudsms_java)。
+短信 Java SDK 在 Github 中的下载地址：[短信 Java SDK](http://github.com/qcloudsms/qcloudsms_java)。
 
 ### 开发准备
 **1. 申请 SDK AppID 以及 App Key：**
@@ -34,7 +34,7 @@ libraryDependencies += "com.github.qcloudsms" % "sms" % "0.9.2"
 ```
 
 - **其他方法**
-**方法1：** 将 [源代码	](https://github.com/qcloudsms/qcloudsms_java/tree/master/src) 直接引入到项目工程中。
+**方法1：** 将 [源代码	](http://github.com/qcloudsms/qcloudsms_java/tree/master/src) 直接引入到项目工程中。
 **方法2：**将 [JAR包]( http://central.maven.org/maven2/com/github/qcloudsms/sms/0.9.2/sms-0.9.2.jar) 直接引入到您的工程中。
 >**注意：**
 由于 qcloudsms 中需要使用以下四个依赖项目：

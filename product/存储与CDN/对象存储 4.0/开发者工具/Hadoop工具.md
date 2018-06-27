@@ -23,14 +23,14 @@ sudo apt-get install maven
 安装与配置请参考：[Windows 环境下 Maven 安装与环境变量配置](http://www.cnblogs.com/liuhongfeng/p/5057827.html) 
 
 ### 获取 cos-java-sdk
-下载地址：[cos-java-sdk](https://github.com/tencentyun/cos-java-sdk-hadoop-v4)
+下载地址：[cos-java-sdk](http://github.com/tencentyun/cos-java-sdk-hadoop-v4)
 
 进入存放路径，运行以下命令进行编译，获取 target 目录下的 cos_api-4.2.jar：
 ```
 mvn clean package -Dmaven.test.skip=true
 ```
 ### 获取 hadoop-cos 插件
-下载地址：[hadoop-cos 插件](https://github.com/tencentyun/hadoop-cosn-v4)
+下载地址：[hadoop-cos 插件](http://github.com/tencentyun/hadoop-cosn-v4)
 
 因为 cosn 依赖 SDK，请将上一步编译的 cos_api-4.2.jar 拷贝到 `src/main/resources` 下，然后运行以下命令进行编译，获取 target 目录下的 hadoop-cos-2.7.2.jar：
 ```

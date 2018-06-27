@@ -16,7 +16,7 @@
 1. 安装boost的库和头文件 [http://www.boost.org/](http://www.boost.org/)
 2. 安装cmake工具 [http://www.cmake.org/download/](http://www.cmake.org/download/)
 3. 安装openssl的库和头文件 http://www.openssl.org/source/  
-4. 安装Poco的库和头文件 [https://pocoproject.org/download/index.html](https://pocoproject.org/download/index.html)
+4. 安装Poco的库和头文件 [http://pocoproject.org/download/index.html](http://pocoproject.org/download/index.html)
 5. 从控制台获取APP ID、SecretID、SecretKey。
 
 
@@ -151,7 +151,7 @@ static std::string Sign(const std::string& secret_id,
 所有与Service/Bucket/Object相关的方法原型，均是如下形式`CosResult Operator(BaseReq, BaseResp)`。
 
 ### CosResult
- 封装了请求出错时返回的错误码和对应错误信息，详见[官网链接](https://www.qcloud.com/document/product/436/773 "错误码")。
+ 封装了请求出错时返回的错误码和对应错误信息，详见[官网链接](http://www.qcloud.com/document/product/436/773 "错误码")。
 **sdk内部封装的请求均会返回CosResult对象，每次调用完成后，均要使用IsSucc()成员函数判断本次调用是否成功。**
 
 #### 成员函数：
@@ -177,7 +177,7 @@ BaseReq、BaseResp 封装了请求和返回， 调用者只需要根据不同的
 
 对于Request，如无特殊说明，仅需要关注request的构造函数。
 对于Response，所有方法的response均有获取公共返回头部的成员函数。
-Response的公共成员函数如下， 具体字段含义见[公共返回头部](https://www.qcloud.com/document/product/436/7729 "公共返回头部")， 此处不再赘述：
+Response的公共成员函数如下， 具体字段含义见[公共返回头部](http://www.qcloud.com/document/product/436/7729 "公共返回头部")， 此处不再赘述：
 ```
 uint64_t GetContentLength();
 std::string GetContentType();
@@ -196,7 +196,7 @@ std::string GetXCosTraceId();
 
 #### 功能说明
 
-Get Bucket请求等同于List Object请求，可以列出该Bucekt下部分或者所有Object，发起该请求需要拥有Read权限。详见:https://www.qcloud.com/document/product/436/773
+Get Bucket请求等同于List Object请求，可以列出该Bucekt下部分或者所有Object，发起该请求需要拥有Read权限。详见:http://www.qcloud.com/document/product/436/773
 
 #### 方法原型
 

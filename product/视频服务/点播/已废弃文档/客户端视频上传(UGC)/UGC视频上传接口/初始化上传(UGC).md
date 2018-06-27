@@ -35,12 +35,12 @@ vod2.qcloud.com
 
 **fileSha的计算方法：**
 
-1. 采用[SHA-1散列算法](https://zh.wikipedia.org/wiki/SHA-1)计算整个视频文件的哈希值，得到160位(20字节)的二进制串；
+1. 采用[SHA-1散列算法](http://zh.wikipedia.org/wiki/SHA-1)计算整个视频文件的哈希值，得到160位(20字节)的二进制串；
 1. 对得到的二进制串进行十六进制编码，编码算法必须使用小写字母，即a-f，而不是A-F。
 
 ### 请求示例
 ```
-https://vod2.qcloud.com/v2/index.php?Action=InitUploadEx
+http://vod2.qcloud.com/v2/index.php?Action=InitUploadEx
 &fileSha=b4a5c70c76e79e01ab3a5c306de3d9eedeadeca9
 &fileSize=20350000
 &dataSize=1048576

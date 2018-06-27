@@ -6,7 +6,7 @@ A：MongoDB采用一种贪婪的策略会尽量分配可用的内存用作缓存
 
 ###  连接类
 **Q：实例的连接数规格是多少？是否支持升级连接数？**
-A：连接数规格参考：[连接限制说明](https://www.qcloud.com/document/product/240/622)，连接数和实例规格相关，可以通过升级规格以获取更大的连接数。
+A：连接数规格参考：[连接限制说明](http://www.qcloud.com/document/product/240/622)，连接数和实例规格相关，可以通过升级规格以获取更大的连接数。
 
 **Q：在php中，如何设置最大连接数？**
 A：
@@ -68,7 +68,7 @@ A：基于安全原因，不支持无密码访问
 
 
 **Q：mongodump无法导出数据**
-A：mongodump[使用参考](https://www.qcloud.com/document/product/240/5321)，mongodump工具建议使用3.2.10以上版本。
+A：mongodump[使用参考](http://www.qcloud.com/document/product/240/5321)，mongodump工具建议使用3.2.10以上版本。
 
 **Q：如何设置从库dump**
 A：mongodump的参数中设置--readPreference=secondaryPreferred
@@ -90,13 +90,13 @@ A：支持
 A：参见[云数据库MongoDB相比自建MongoDB的优势 ](http://www.qcloud.com/doc/product/240/%E4%BA%A7%E5%93%81%E4%BC%98%E5%8A%BF)
 
 **Q：云数据库MongoDB版支持哪些语言的客户端进行连接**
-A：云数据库MongoDB版针对客户端连接完全兼容MongoDB，只要是官方MongoDB版支持的客户端，云数据库全部支持。比如：C,C++,c#,java,node.js,python,php,perl等等，具体详情见官方链接，参见[https://docs.mongodb.org/ecosystem/drivers/](https://docs.mongodb.org/ecosystem/drivers/)
+A：云数据库MongoDB版针对客户端连接完全兼容MongoDB，只要是官方MongoDB版支持的客户端，云数据库全部支持。比如：C,C++,c#,java,node.js,python,php,perl等等，具体详情见官方链接，参见[http://docs.mongodb.org/ecosystem/drivers/](http://docs.mongodb.org/ecosystem/drivers/)
 
 **Q：在shell里怎么连接云平台MongoDB**
-A：参见[Shell连接示例](https://www.qcloud.com/doc/product/240/3978)
+A：参见[Shell连接示例](http://www.qcloud.com/doc/product/240/3978)
 
 **Q：业务程序里连接MongoDB的URI是什么样的**
-A：参见[连接示例](https://www.qcloud.com/doc/product/240/3563)
+A：参见[连接示例](http://www.qcloud.com/doc/product/240/3563)
 
 **Q：我应该选用哪个版本的驱动程序**
 A：尽量用最新版本的，比如PHP可以选择mongo-1.6及以上
@@ -120,7 +120,7 @@ A：目前所有实例均会每日自动备份，同时用户也可以发起手�
 A：由于备份数据保留5天，所以可以回档到5天内的时间点。特别说明的是回档时需要选择两次备份之间的时间点进行回档（如果您想回档的时间点后没有备份，请做一次手动备份即可选择该时间点）。另外，如果两次备份期间的数据操作导致oplog总流水超过实例容量的10%，则该两次备份之间的时间点不可回档。
 
 **Q：当前开放了哪些权限**
-A：当前只开放[RoleDBAdminAny和RoleReadWriteAny](https://docs.mongodb.org/v3.0/reference/built-in-roles/)两种角色的权限，暂时不开放root权限，后续会逐步放开一些权限，以及开放更多便捷实用的管理控制台功能来代替某些特殊权限的调用。
+A：当前只开放[RoleDBAdminAny和RoleReadWriteAny](http://docs.mongodb.org/v3.0/reference/built-in-roles/)两种角色的权限，暂时不开放root权限，后续会逐步放开一些权限，以及开放更多便捷实用的管理控制台功能来代替某些特殊权限的调用。
 
 **Q：数据导入到云平台MongoDB实例后，占用空间比自建的MongoDB小**
 A：可能原因是原始数据库长时间运行积累了大量的增删改操作，写操作时MongoDB出于性能考虑在空间分配时分配了大于实际数据的空间，删除数据后原空间没有被再次利用，综合下来导致整个数据库空间的空洞率较高，而导入数据时相当于做了一次类似磁盘整理的操作，使导入后的数据保存得相对紧凑，所以看起来数据变小了。
@@ -137,4 +137,4 @@ A：[参见BBS](http://bbs.qcloud.com/thread-17852-1-1.html)
 A：此时实例将处于封禁状态，该状态下不可写入数据，只能做读操作，尝试写入数据的连接将会被关闭。请及时关注自身业务发展和实例使用情况，当容量使用达到一定阈值时请适当扩容。
 
 **Q：连接断开或者出现“Remote server has closed the connection”信息怎么办？**
-A：首先参考[连接示例](https://www.qcloud.com/doc/product/240/3563)排除认证问题，如果能连上但是依然会出现这个问题那可能需要实现一个重连机制，请参考 [实现重连](https://www.qcloud.com/doc/product/240/4980)
+A：首先参考[连接示例](http://www.qcloud.com/doc/product/240/3563)排除认证问题，如果能连上但是依然会出现这个问题那可能需要实现一个重连机制，请参考 [实现重连](http://www.qcloud.com/doc/product/240/4980)

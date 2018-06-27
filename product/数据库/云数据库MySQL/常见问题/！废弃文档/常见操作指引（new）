@@ -9,7 +9,7 @@
 ```
  set global long_query_time = 1
 ```
-详情请参考 [MySQL官方手册](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_long_query_time)。
+详情请参考 [MySQL官方手册](http://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_long_query_time)。
 
 ## 3. 如何授权其他用户操作云数据库
 
@@ -71,7 +71,7 @@ cd mysql-proxy-0.8.4-linux-glibc2.3-x86-64bit/bin
 云数据库与 MySQL 数据库一样，默认字符集编码格式是：latin1，即 ISO-8859-1 编码格式。
 开发者可以通过【[云数据库的管理控制台](http://console.tcecqpoc.fsphere.cn/cdb)】 > 【管理】 > 【参数设置】修改 Server 端的数据库字符集。目前支持 latin1，gbk，utf8，utf8mb4 四种字符集设置。
 虽然云数据库支持默认字符集编码的设置，但我们还是建议您在创建表时，显式的指定表的编码，并在连接建立时指定连接的编码。这样，您的应用将会有更好的移植性。
-关于 MySQL 字符集的相关资源请参考  [MySQL官方手册](https://dev.mysql.com/doc/refman/5.7/en/charset.html)。
+关于 MySQL 字符集的相关资源请参考  [MySQL官方手册](http://dev.mysql.com/doc/refman/5.7/en/charset.html)。
 
 ## 6. 云数据库如何统计访问次数
 

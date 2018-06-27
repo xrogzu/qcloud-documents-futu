@@ -3,7 +3,7 @@
 欢迎使用云平台开发者工具套件（SDK）。为方便 Node.js 开发者调试和接入云平台产品 API，这里向您介绍适用于 Node.js 的云平台开发工具包，并提供首次使用开发工具包的简单示例。让您快速获取云平台 Node.js SDK 并开始调用。
 
 ## 依赖环境
-1. 从 [云平台控制台](https://console.tce.fsphere.c) 开通相应产品，
+1. 从 [云平台控制台](http://console.tce.fsphere.c) 开通相应产品，
 2. [获取 SecretID、SecretKey](http://console.tcecqpoc.fsphere.cn/capi) 具体参考各产品说明。
 3. 下载相关资料并做好相关文件配置。
 
@@ -11,7 +11,7 @@
 安装 Node.js SDK 前，先获取安全凭证。在第一次使用云 API 之前，用户首先需要在云平台控制台上申请安全凭证，安全凭证包括 SecretID 和 SecretKey, SecretID 是用于标识 API 调用者的身份，SecretKey 是用于加密签名字符串和服务器端验证签名字符串的密钥。SecretKey 必须严格保管，避免泄露。
 
 ### 通过 GitHub 获取源码安装
-打开云平台为您提供的 PHP SDK GitHub 地址，[获取 GitHub 资源 >>](https://github.com/CFETeam/qcloudapi-sdk)。
+打开云平台为您提供的 PHP SDK GitHub 地址，[获取 GitHub 资源 >>](http://github.com/CFETeam/qcloudapi-sdk)。
 1. 在 `qcloudapi-sdk`的 github 地址上下载源码
 2. 解压源码到您项目合适的位置
 3. 安装到项目：

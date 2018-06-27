@@ -29,7 +29,7 @@ arg.has%}是{%else%}否{%endif%}|{{arg.type}}|{{arg.desc}}|
 输入
 
 ```
-  https://{{domain_of_api}}/v2/index.php?Action={{name_of_api}}
+  http://{{domain_of_api}}/v2/index.php?Action={{name_of_api}}
     {%for arg in input_args_of_api%}{%if arg.has%}&{{arg.name}}={{arg.sample}}{%endif%}{%endfor%}
     &<公共请求参数>
 

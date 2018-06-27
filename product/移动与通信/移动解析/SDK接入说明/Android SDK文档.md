@@ -4,7 +4,7 @@
 
 您可以通过以下方式获取智营解析 Android SDK：
 
-[从 Github 获取最新版本SDK >>](https://github.com/tencentyun/httpdns-android-sdk)
+[从 Github 获取最新版本SDK >>](http://github.com/tencentyun/httpdns-android-sdk)
 [点击下载 Android SDK >>](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/86d55ba36f96092a82b20c762a5dce59/httpdns-android-sdk-master.zip)
 
 注意：

@@ -86,7 +86,7 @@ Amazon RDS 控制台
 
 Amazon RDS 控制台
 
-Amazon RDS 控制台是一个基于 web 的简易用户界面。通过 RDS 控制台，您几乎可以执行所有必需任务而无需编程。要访问 Amazon RDS 控制台，请登录 AWS 管理控制台并打开位于以下位置的 Amazon RDS 控制台：https://console.aws.amazon.com/rds/。
+Amazon RDS 控制台是一个基于 web 的简易用户界面。通过 RDS 控制台，您几乎可以执行所有必需任务而无需编程。要访问 Amazon RDS 控制台，请登录 AWS 管理控制台并打开位于以下位置的 Amazon RDS 控制台：http://console.aws.amazon.com/rds/。
 
 命令行界面
 

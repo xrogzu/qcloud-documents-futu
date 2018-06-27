@@ -2,7 +2,7 @@
 
 ### 相关资源
 
-[cos php sdk v4 github项目](https://github.com/tencentyun/cos-php-sdk-v4)
+[cos php sdk v4 github项目](http://github.com/tencentyun/cos-php-sdk-v4)
 
 ### 开发环境
 
@@ -26,7 +26,7 @@ Cosapi::setRegion('gz');
 若需要支持 HTTPS ，修改 conf.php 中的 API_COSAPI_END_POINT 的值为如下：
 
 ``` php
-const API_COSAPI_END_POINT = 'https://region.file.myqcloud.com/files/v2/';
+const API_COSAPI_END_POINT = 'http://region.file.myqcloud.com/files/v2/';
 ```
 
 ## 生成签名

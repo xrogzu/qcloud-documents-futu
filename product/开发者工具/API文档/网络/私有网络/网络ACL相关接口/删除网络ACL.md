@@ -34,7 +34,7 @@
  
 输入
 ```
-  https://vpc.api.qcloud.com/v2/index.php?Action=DeleteNetworkAcl
+  http://vpc.api.qcloud.com/v2/index.php?Action=DeleteNetworkAcl
   &<公共请求参数>
   &vpcId=vpc-erxok83l
   &networkAclId=acl-jk7weyp2

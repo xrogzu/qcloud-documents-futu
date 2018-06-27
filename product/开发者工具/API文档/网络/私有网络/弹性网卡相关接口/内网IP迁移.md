@@ -37,7 +37,7 @@
 ## 5. 示例
 输入
 ```
-https://vpc.api.qcloud.com/v2/index.php?Action=MigratePrivateIpAddress
+http://vpc.api.qcloud.com/v2/index.php?Action=MigratePrivateIpAddress
 &<公共请求参数>
 &vpcId=vpc-7t9nf3pu
 &privateIpAddress=10.0.0.6

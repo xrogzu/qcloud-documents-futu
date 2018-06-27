@@ -361,7 +361,7 @@ table td {
 
 <h2 id="Server">后台源码</h2>
 
-RoomService 是 [LiveRoom](http://tcecqpoc.fsphere.cn/document/product/454/14606) 和 [RTCRoom](http://tcecqpoc.fsphere.cn/document/product/454/14617) 的业务后台组件，用于实现房间管理、成员管理和状态同步等功能。您可以使用云平台已有的 RoomService 服务（`https://room.qcloud.com/weapp/live_room`），也可以下载如下源码，部署于自己的服务器上。 
+RoomService 是 [LiveRoom](http://tcecqpoc.fsphere.cn/document/product/454/14606) 和 [RTCRoom](http://tcecqpoc.fsphere.cn/document/product/454/14617) 的业务后台组件，用于实现房间管理、成员管理和状态同步等功能。您可以使用云平台已有的 RoomService 服务（`http://room.qcloud.com/weapp/live_room`），也可以下载如下源码，部署于自己的服务器上。 
 
 <table width="850px">
   <tr align="center">

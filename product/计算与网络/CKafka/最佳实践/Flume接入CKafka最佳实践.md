@@ -74,7 +74,7 @@ a1.sinks.k1.kafka.producer.acks = 1
 ```
 
 更详细的内容可以参考官网链接：
-https://flume.apache.org/FlumeUserGuide.html
+http://flume.apache.org/FlumeUserGuide.html
 
 ## Flume接入CKafka
 

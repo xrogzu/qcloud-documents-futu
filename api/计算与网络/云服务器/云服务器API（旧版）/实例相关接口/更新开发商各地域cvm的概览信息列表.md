@@ -26,7 +26,7 @@
 输入
 
 <pre>
-https://cvm.api.qcloud.com/v2/index.php?Action=ModifyUserCvmOverview
+http://cvm.api.qcloud.com/v2/index.php?Action=ModifyUserCvmOverview
 &<<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
 &cvmOverviews.0.regionId=1
 &cvmOverviews.0.newFlag=1

@@ -1,12 +1,12 @@
 ## 1	开发准备
-万象优图服务的php sdk的下载地址： https://github.com/tencentyun/php-sdk
+万象优图服务的php sdk的下载地址： http://github.com/tencentyun/php-sdk
 ### 1.1	前期准备
 前期准备
 1.	sdk依赖php 5.3.0版本及以上， 推荐使用相同的版本。
 2.	获取appid，secret_id和secret_key；
 ### 1.2	获取SDK
 1.	下载源码
-如果安装了git命令行，执行git clone https://github.com/tencentyun/php-sdk
+如果安装了git命令行，执行git clone http://github.com/tencentyun/php-sdk
 或者直接在github下载zip包。
 2.	使用composer管理包
 

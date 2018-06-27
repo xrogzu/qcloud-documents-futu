@@ -38,8 +38,8 @@ Parameter data is composed as follows:
 Input
 <pre>
 
-  https://eip.api.qcloud.com/v2/index.php?
-  &<<a href="https://www.qcloud.com/doc/api/229/6976">Common request parameters</a>>
+  http://eip.api.qcloud.com/v2/index.php?
+  &<<a href="http://www.qcloud.com/doc/api/229/6976">Common request parameters</a>>
   &Action=bmUnBindRs
   &instanceId=cpm-xxxxxx&eipId=eip-vvvvvvv
 

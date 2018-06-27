@@ -37,7 +37,7 @@
 
 #### 请求参数
 <pre>
-https://eip.api.tce.fsphere.cn/v2/index.php?Action=ReleaseAddresses
+http://eip.api.tce.fsphere.cn/v2/index.php?Action=ReleaseAddresses
 &Version=2017-03-12
 &AddressIds.1=eip-gzc5rgr2
 &<<a href="/document/api/213/11650">公共请求参数</a>>

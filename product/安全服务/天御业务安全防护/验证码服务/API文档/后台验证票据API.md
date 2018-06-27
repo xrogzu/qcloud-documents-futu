@@ -126,7 +126,7 @@
 <br> 一个完整的请求需要两类请求参数：公共请求参数和接口请求参数。这里只列出了接口请求参数，并未列出公共请求参数，有关公共请求参数的说明可见<a href="http://tcecqpoc.fsphere.cn/document/product/295/7279"target="blank">公共请求参数</a>小节。
 ```
 请求示例 ：
-https://csec.api.qcloud.com/v2/index.php?Action=CaptchaCheck
+http://csec.api.qcloud.com/v2/index.php?Action=CaptchaCheck
 &<公共请求参数>
 &ticket=1111
 &captchaType=1

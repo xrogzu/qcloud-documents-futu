@@ -1,6 +1,6 @@
 ## 编译
 
-请先下载最新版本设备端 C 语言 SDK [SDK下载](https://github.com/tencentyun/qcloud-iot-sdk-embedded-c/releases)
+请先下载最新版本设备端 C 语言 SDK [SDK下载](http://github.com/tencentyun/qcloud-iot-sdk-embedded-c/releases)
 
 解压之后，打开编译配置文件`make.settings`，根据需要编辑配置项
 

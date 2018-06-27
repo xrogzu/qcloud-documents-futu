@@ -11,13 +11,13 @@
 
 最终的请求 URL 的拼接规则为:
 
-https:// + 请求域名 + 请求路径 + ? + 请求参数串（包括公共参数和接口参数）
+http:// + 请求域名 + 请求路径 + ? + 请求参数串（包括公共参数和接口参数）
 
 假设用户想要查询广州地域的云服务器实例列表，则其请求链接的形式可能如下:
 
 [source,bash]
 ------ 
-GET https://cvm.api.qcloud.com/v2/index.php? <1>
+GET http://cvm.api.qcloud.com/v2/index.php? <1>
 
 Action=DescribeInstances 
 &SecretId=xxxxxxx

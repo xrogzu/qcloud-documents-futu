@@ -12,7 +12,7 @@
   <tr align="center">
     <td>iOS</td>
     <td>4.1</td>
-		<td><a href="https://itunes.apple.com/us/app/rtmp-tui-liu-jing-ling/id1152295397?l=zh&ls=1&mt=8
+		<td><a href="http://itunes.apple.com/us/app/rtmp-tui-liu-jing-ling/id1152295397?l=zh&ls=1&mt=8
 ">点击安装</a></td>
 		<td><img style="border:0; max-width:100%; height:auto; box-sizing:content-box; box-shadow: 0px 0px 0px #ccc; margin: 0px 0px 0px 0px;" src="http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b9c3da61900be18622b5cf5a3984ffa1/image.png" /></td>
   </tr>
@@ -38,7 +38,7 @@
   <tr align="center">
     <td>iOS</td>
     <td>4.1</td>
-		<td><a href="https://itunes.apple.com/cn/app/id1132521667?mt=8">点击安装</a></td>
+		<td><a href="http://itunes.apple.com/cn/app/id1132521667?mt=8">点击安装</a></td>
 		<td><img style="border:0; max-width:100%; height:auto; box-sizing:content-box; box-shadow: 0px 0px 0px #ccc; margin: 0px 0px 0px 0px;" src="http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/92f5be86a4f0f7f85e45ff5cc3688825/image.png" /></td>
   </tr>
   <tr align="center">

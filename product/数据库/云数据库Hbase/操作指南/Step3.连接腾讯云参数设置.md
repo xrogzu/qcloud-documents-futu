@@ -7,5 +7,5 @@ config.setBoolean("chbase.tencent.enable", true);
 config.set("yarn.chbase.tencent.instanceid", "chb-lpvsvdlr");
 
 提示：
-除增加以上代码，其余使用方式和社区版本Hbase一致；可以参考https://hbase.apache.org/ 的API文档；
+除增加以上代码，其余使用方式和社区版本Hbase一致；可以参考http://hbase.apache.org/ 的API文档；
 如您未设置以上参数，也可以正常连接社区版的Hbase。

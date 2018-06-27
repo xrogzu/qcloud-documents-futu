@@ -28,7 +28,7 @@
 ## 5. 示例
 输入
 ```
-https://vpc.api.qcloud.com/v2/index.php?Action=QueryNatGatewayProductionStatus
+http://vpc.api.qcloud.com/v2/index.php?Action=QueryNatGatewayProductionStatus
 &<公共请求参数>
 &billId=2160000000
 ```

@@ -6,7 +6,7 @@ EipAclBmDelete 接口用于删除当前账号下的弹性公网ACL。
 ## 请求
 ### 请求示例
 ```
-GET https://bmeip.api.qcloud.com/v2/index.php?
+GET http://bmeip.api.qcloud.com/v2/index.php?
 	Action=EipAclBmDelete
 	&<公共请求参数>
 	&aclId=<EIPACL实例ID>
@@ -49,7 +49,7 @@ GET https://bmeip.api.qcloud.com/v2/index.php?
  
 ### 输入
 ```
-GET https://bmeip.api.qcloud.com/v2/index.php?
+GET http://bmeip.api.qcloud.com/v2/index.php?
 	Action=EipAclBmDelete
 	&SecretId=AKIDlfdHxN0ntSVt4KPH0xXWnGl21UUFNoO5
 	&Nonce=57333

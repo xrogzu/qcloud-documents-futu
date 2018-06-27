@@ -3,7 +3,7 @@
 通常情况下 Windows 系统经常使用 SQL Server 数据库，但由于 SQL Server 属于收费产品需要您自行授权，也可购买 [云平台 SQL Server 数据库 CDB 实例](http://cloud.tencent.com/product/sqlserver.html) 。
 
 ## 步骤一：下载 MySQL 安装包
-&nbsp;&nbsp;&nbsp;在云服务器中打开浏览器，输入下载地址：https://dev.mysql.com/downloads/mysql/5.5.html#downloads
+&nbsp;&nbsp;&nbsp;在云服务器中打开浏览器，输入下载地址：http://dev.mysql.com/downloads/mysql/5.5.html#downloads
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](//mc.qcloudimg.com/static/img/b1da1513321247e0daf1163f529d4cd9/image.png)
 
 ## 步骤二：安装程序

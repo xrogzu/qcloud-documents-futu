@@ -1,7 +1,7 @@
 本文档为万象优图新版本（V2版本）的Android SDK文档，旧版本（V1版本）的GO SDK文档参见 万象优图[GO SDK说明文档-V1](/doc/product/275/GO SDK_V1)。
 注意：万象优图V1版本申请的APPID（空间名称签名标注有“APP”字样图标），只能使用V1版本的接口；V2版本添加的图片空间，只能使用V2版本的接口。
 ## 1	开发准备
-万象优图服务的Go sdk的下载地址：https://github.com/tencentyun/go-sdk.git
+万象优图服务的Go sdk的下载地址：http://github.com/tencentyun/go-sdk.git
 ### 1.1	前期准备
  通过图片空间获取appid（项目ID），secret_id和secret_key。
 ### 1.2	导入SDK

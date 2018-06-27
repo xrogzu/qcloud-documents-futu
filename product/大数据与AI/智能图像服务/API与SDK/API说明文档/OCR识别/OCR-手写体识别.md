@@ -11,7 +11,7 @@
 
 `http://recognition.image.myqcloud.com/ocr/handwriting`
 
-`https://recognition.image.myqcloud.com/ocr/handwriting`
+`http://recognition.image.myqcloud.com/ocr/handwriting`
 
 ## 请求方式
 

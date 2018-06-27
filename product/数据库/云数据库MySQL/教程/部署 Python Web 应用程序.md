@@ -126,4 +126,4 @@ DATABASES = {
 ```
 $python manage.py validate/check
 ```
-3. 测试通过即可进行数据库操作，有关更多的数据库操作请参考 [模型和数据库](https://docs.djangoproject.com/en/1.11/topics/db/)。
+3. 测试通过即可进行数据库操作，有关更多的数据库操作请参考 [模型和数据库](http://docs.djangoproject.com/en/1.11/topics/db/)。

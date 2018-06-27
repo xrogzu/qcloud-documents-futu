@@ -4,4 +4,4 @@
 <br>1. 等待平台解封，期间您可以通过内网地址访问您的服务器
 <br>2. 如需提前解封，您可以购买或升级 BGP 高防产品
 <br>2.1 已购买 BGP 高防产品的客户，建议您[升级产品](http://console.tcecqpoc.fsphere.cn/dayu/bgp)，提前解封
-<br>2.2 未购买 BGP 高防产品的客户，建议您[购买 BGP 高防产品](https://buy.tce.fsphere.cn/bgp_sp)，以保证您的业务正常进行
+<br>2.2 未购买 BGP 高防产品的客户，建议您[购买 BGP 高防产品](http://buy.tce.fsphere.cn/bgp_sp)，以保证您的业务正常进行

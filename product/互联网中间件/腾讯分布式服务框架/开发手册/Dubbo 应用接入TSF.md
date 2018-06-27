@@ -142,7 +142,7 @@
     </build>
 ~~~
 
-参考链接：[maven-shade-plugin 入门指南](https://www.jianshu.com/p/7a0e20b30401) 。
+参考链接：[maven-shade-plugin 入门指南](http://www.jianshu.com/p/7a0e20b30401) 。
 
 ##  部署应用
 参考 《TSF 操作手册》中 [应用部署](http://tcecqpoc.fsphere.cn/document/product/649/13686) 。

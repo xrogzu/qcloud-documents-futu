@@ -45,7 +45,7 @@
  
 输入
 ```
-https://vpc.api.qcloud.com/v2/index.php?Action=DescribeSSLVpn
+http://vpc.api.qcloud.com/v2/index.php?Action=DescribeSSLVpn
 &<公共请求参数>
 &openid=12345
 &openkey=12345

@@ -46,7 +46,7 @@ tag 字段详细说明：
 输入
 
 ```
-  https://domain/v2/index.php?Action=GetTagList
+  http://domain/v2/index.php?Action=GetTagList
   &reponame=test/kubetest  
   &offset=0
   &limit=20

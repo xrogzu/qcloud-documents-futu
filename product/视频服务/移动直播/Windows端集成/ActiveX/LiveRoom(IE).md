@@ -116,7 +116,7 @@ LiveRoom.setLiveRoomListener({
 ```
 LiveRoom.login({
     data: {
-        serverDomain: 'https://room.qcloud.com/weapp/live_room/',
+        serverDomain: 'http://room.qcloud.com/weapp/live_room/',
         userID: info.userID,
         sdkAppID: info.sdkAppID,
         accType: info.accType,

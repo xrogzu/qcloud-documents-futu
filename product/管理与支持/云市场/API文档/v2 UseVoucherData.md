@@ -36,7 +36,7 @@
 
 
 ```
- https://market.api.qcloud.com/v2/index.php?Action=UseVoucherData
+ http://market.api.qcloud.com/v2/index.php?Action=UseVoucherData
  &voucherCode=tkwbyeg8j2n6wi155j
  &COMMON_PARAMS
 ```

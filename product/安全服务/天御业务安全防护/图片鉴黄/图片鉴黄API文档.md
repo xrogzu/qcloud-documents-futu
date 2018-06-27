@@ -100,7 +100,7 @@
 <br> 一个完整的请求需要两类请求参数：公共请求参数和接口请求参数。这里只列出了接口请求参数，并未列出公共请求参数，有关公共请求参数的说明可见[公共请求参数](http://tcecqpoc.fsphere.cn/document/product/295/7279)小节。
 ```
 请求示例 ：
-https://csec.api.qcloud.com/v2/index.php?Action=FileDetection
+http://csec.api.qcloud.com/v2/index.php?Action=FileDetection
 &<公共请求参数>
 &fileName=helloworld.avi
 &fileUrl=http%3A%2F%2Fimg4.duitang.com%2Fuploads%2Fitem%2F201212%2F18%2F20121218162327_WMCC3.thumb.466_0.jpeg

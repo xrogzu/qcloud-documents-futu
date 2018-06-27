@@ -10,7 +10,7 @@
 ## 使用说明
 
 ### step1: 下载并安装 OBS-Studio 
-在 OBS Studio [官网](https://obsproject.com/)下载并安装 obs studio **20.0.0** 或以上版本。
+在 OBS Studio [官网](http://obsproject.com/)下载并安装 obs studio **20.0.0** 或以上版本。
 
 ### step2: 下载并安装 265 编码插件
 点击 [DOWNLOAD](http://liteavsdk-1252463788.cosgz.myqcloud.com/windows/OBS_Plugins/tx265-plugin-setup.exe) H.265 插件并安装，该插件仅能安装在 **20.0.0** 或以上版本的 OBS Studio 上。 
@@ -45,7 +45,7 @@ TX265-x265 HEVC Encoder    |x265实现的265软编
 
 **如何启用nvdia 265硬编:**
 1. Windows版本要求: Windows 7/8/10
-2. [查询显卡是否支持 NVENC H.265 (HEVC) ](https://developer.nvidia.com/video-encode-decode-gpu-support-matrix)
+2. [查询显卡是否支持 NVENC H.265 (HEVC) ](http://developer.nvidia.com/video-encode-decode-gpu-support-matrix)
 Desktop GPU: Geforce GTX 950系列或更高版本的显卡
 Laptop GPU: GTX 965M, 970M, 980M系列或更高版本的显卡
 3. 驱动版本高于378.66. [下载最新驱动程序](http://www.nvidia.com/drivers)
@@ -53,9 +53,9 @@ Laptop GPU: GTX 965M, 970M, 980M系列或更高版本的显卡
 **如何启用Intel 265硬编:**
 
 1. Windows版本要求: Windows 7/8/10
-2. [检查您的CPU型号是否支持 “Intel® Quick Sync video”](https://ark.intel.com/zh-cn/)
+2. [检查您的CPU型号是否支持 “Intel® Quick Sync video”](http://ark.intel.com/zh-cn/)
 Skylake或更高级的架构能很好的支持"Intel® Quick Sync video"
-3. [下载/安装最新的 “Intel® HD Graphics" 驱动程序](https://downloadcenter.intel.com/zh-cn/)
+3. [下载/安装最新的 “Intel® HD Graphics" 驱动程序](http://downloadcenter.intel.com/zh-cn/)
 4. ***双显卡用户要启用Intel 265硬编，需要在BIOS/CMOS设置下启用 “Internal Graphics”，把板载VGA或DVI接口(集成显卡)连接显示器***
 
 ### step4: 联系我们开启265播放

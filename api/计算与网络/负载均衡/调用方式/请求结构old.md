@@ -20,7 +20,7 @@
 <tr>
 <td> API 入口
 </td><td> API 调用的 WebService 入口
-</td><td> https://lb.api.qcloud.com/v2/index.php<br> 
+</td><td> http://lb.api.qcloud.com/v2/index.php<br> 
 </td></tr>
 <tr>
 <td> 公共参数

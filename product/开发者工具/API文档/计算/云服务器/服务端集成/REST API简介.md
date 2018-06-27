@@ -15,7 +15,7 @@ HTTP/1.1 200 OKServer: nginx/1.7.10Date: Fri, 09 Oct 2015 02:59:55 GMTContent-Le
 ## 调用方法 
 ### 请求URL 
 REST API的URL格式如下： 
-https://console.tim.qq.com/$ver/$servicename/$command?sdkappid=$sdkappid&identifier=$identifier&usersig=$usersig&contenttype=json
+http://console.tim.qq.com/$ver/$servicename/$command?sdkappid=$sdkappid&identifier=$identifier&usersig=$usersig&contenttype=json
 其中各个参数的含义以及取值如下（参数名称及其取值均区分大小写）： 
 
 | 参数  | 含义  | 取值  |
@@ -62,7 +62,7 @@ REST API的应答包体也是JSON格式，其格式符合如下特征：
 ## REST API调试工具 
 您可以通过如下几种工具来REST API的调试： 
 ### REST API调试工具 
-https://avc.qcloud.com/im/APITester/APITester.html
+http://avc.qcloud.com/im/APITester/APITester.html
 使用案例参见[这里](http://imgcache.tcecqpoc.fsphere.cn/image/avc.qcloud.com/wiki2.0/im/新手指引/服务端集成指引/服务端集成指引.html#articleContent/h2%3acontains%7b%E5%AF%BC%E5%85%A5%E8%B4%A6%E5%8F%B7%E5%88%B0%E4%BA%91%E9%80%9A%E4%BF%A1%EF%BC%88%E4%BD%BF%E7%94%A8%E4%BA%91%E9%80%9A%E8%AE%AFREST%20API%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7%EF%BC%89%7d)。 
 ### Postman 
 Postman是一款功能强大的网页调试与发送网页HTTP请求的Chrome插件。其使用案例参见[这里](http://imgcache.tcecqpoc.fsphere.cn/image/avc.qcloud.com/wiki2.0/im/新手指引/服务端集成指引/服务端集成指引.html#articleContent/h2%3acontains%7b%E4%B8%BA%E5%AF%BC%E5%85%A5%E7%9A%84%E8%AE%BE%E7%BD%AE%E8%B4%A6%E5%8F%B7%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%B5%84%E6%96%99%EF%BC%88%E4%BD%BF%E7%94%A8Postman%EF%BC%89%7d)。

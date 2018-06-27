@@ -52,25 +52,25 @@
 ### 3.1 Java SDK
 版本号：mvs-java-sdk v1.0.0
 发布时间：2015-07-31
-下载地址：https://github.com/tencentyun/mvs-java-sdk.git
+下载地址：http://github.com/tencentyun/mvs-java-sdk.git
 ### 3.2 PHP SDK
 版本号：mvs-php-sdk v1.0.0
 发布时间：2015-07-31
-下载地址：https://github.com/tencentyun/mvs-php-sdk.git
+下载地址：http://github.com/tencentyun/mvs-php-sdk.git
 ### 3.3 Python SDK
 版本号：mvs-python-sdk v1.0.0
 发布时间：2015-07-31
-下载地址：https://github.com/tencentyun/mvs-python-sdk.git
+下载地址：http://github.com/tencentyun/mvs-python-sdk.git
 ### 3.4 Nodejs SDK
 版本号：mvs-nodejs-sdk v1.0.0
 发布时间：2015-07-31
-下载地址：https://github.com/tencentyun/mvs-nodejs-sdk.git
+下载地址：http://github.com/tencentyun/mvs-nodejs-sdk.git
 ### 3.5 C++ SDK
 版本号：mvs-cpp-sdk v1.0.0
 发布时间：2015-08-03
-下载地址：https://github.com/tencentyun/mvs-cpp-sdk.git
+下载地址：http://github.com/tencentyun/mvs-cpp-sdk.git
 ### 3.6 C# SDK
 版本号：mvs-dotnet-sdk v1.0.0
 发布时间：2015-08-03
-下载地址：https://github.com/tencentyun/mvs-dotnet-sdk.git
+下载地址：http://github.com/tencentyun/mvs-dotnet-sdk.git
 

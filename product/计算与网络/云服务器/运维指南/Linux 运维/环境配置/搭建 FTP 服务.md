@@ -32,7 +32,7 @@ yum -y install  telnet
 telnet + 云服务器公网 IP + 21
 ```
 出现下图内容即表示已经启动。
-![](https://main.qcloudimg.com/raw/47ad66d7be133b6d69d60c3e5b719dbd.png)
+![](http://main.qcloudimg.com/raw/47ad66d7be133b6d69d60c3e5b719dbd.png)
 
 <span id = "jump">  </span>
 ## 步骤三：编辑 vsftpd 配置文件

@@ -1,8 +1,8 @@
 ## 开发准备
 
 ### SDK 获取
-对象存储服务的 XML Android SDK 资源下载地址：[XML Android SDK](https://github.com/tencentyun/qcloud-sdk-android/releases)。
-演示示例 Demo 下载地址：[XML Android SDK Demo](https://github.com/tencentyun/qcloud-sdk-android-samples)。
+对象存储服务的 XML Android SDK 资源下载地址：[XML Android SDK](http://github.com/tencentyun/qcloud-sdk-android/releases)。
+演示示例 Demo 下载地址：[XML Android SDK Demo](http://github.com/tencentyun/qcloud-sdk-android-samples)。
 
 ### 开发准备
 

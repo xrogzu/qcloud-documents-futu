@@ -97,7 +97,7 @@ http://tcecqpoc.fsphere.cn/doc/product/269/%E5%88%9B%E5%BB%BA%E7%BE%A4%E7%BB%84
 也可以使用在其他平台（android或者ios）上创建的直播聊天室id。
 
 restapi调试地址：
-`https://avc.tce.fsphere.cn/im/APITester/APITester.html`
+`http://avc.tce.fsphere.cn/im/APITester/APITester.html`
 
 ### 3.2 运行demo（托管模式）
 

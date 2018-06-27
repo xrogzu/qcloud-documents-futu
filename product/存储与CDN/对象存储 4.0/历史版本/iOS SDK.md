@@ -1,17 +1,17 @@
 ## 温馨提示
 请注意这是历史版本（V4，基于 JSON API 封装的 SDK），**已经不再推荐使用**。
 
-对于新接入SDK的用户，我们推荐使用最新的V5版本[基于 XML API 封装的 SDK](http://tcecqpoc.fsphere.cn/document/product/436/11280)。如果因为种种原因确实仍然需要需要使用基于 JSON API 封装的 SDK ,那么推荐使用我们基于历史版本重构后的[基于 JSON API 封装的 SDK](https://github.com/tencentyun/qcloud-sdk-ios/tree/master/QCloudNewCOSV4) 。
+对于新接入SDK的用户，我们推荐使用最新的V5版本[基于 XML API 封装的 SDK](http://tcecqpoc.fsphere.cn/document/product/436/11280)。如果因为种种原因确实仍然需要需要使用基于 JSON API 封装的 SDK ,那么推荐使用我们基于历史版本重构后的[基于 JSON API 封装的 SDK](http://github.com/tencentyun/qcloud-sdk-ios/tree/master/QCloudNewCOSV4) 。
 
 ## 开发准备
 
 ### SDK 获取
 
-对象存储服务的 iOS SDK 的下载地址：[iOS SDK](https://github.com/tencentyun/COS_iOS_SDK.git)
+对象存储服务的 iOS SDK 的下载地址：[iOS SDK](http://github.com/tencentyun/COS_iOS_SDK.git)
 
-[iOS SDK 本地下载]( https://github.com/tencentyun/COS_iOS_SDK/archive/master.zip)
+[iOS SDK 本地下载]( http://github.com/tencentyun/COS_iOS_SDK/archive/master.zip)
 
-更多示例可参考Demo：[iOS Demo](https://github.com/tencentyun/COS_iOS_SDK.git)
+更多示例可参考Demo：[iOS Demo](http://github.com/tencentyun/COS_iOS_SDK.git)
 （本版本SDK基于JSON API封装组成）
 
 ### 开发准备
@@ -35,12 +35,12 @@ pod "QCloudCOSV4"
 
 ##### 使用静态库导入
 ```
-git clone https://github.com/tencentyun/COS_iOS_SDK.git
+git clone http://github.com/tencentyun/COS_iOS_SDK.git
 ```
 
 将目录**coslib**下面的文件拖入到工程中即可：
 
-![](https://ws3.sinaimg.cn/large/006tNc79gy1fgm77ref66j30l0094dgv.jpg)
+![](http://ws3.sinaimg.cn/large/006tNc79gy1fgm77ref66j30l0094dgv.jpg)
 
 
 将目录**coslib**下面的文件拖入到工程拖入工程目录，Xcode 会自动将其加入链接库列表中。

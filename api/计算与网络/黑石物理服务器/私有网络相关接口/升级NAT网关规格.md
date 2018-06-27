@@ -7,7 +7,7 @@ UpgradeBmNatGateway 接口用于修改黑石NAT网关规格，可修改为小型
 
 ### 请求示例
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=UpgradeBmNatGateway
+GET http://bmvpc.api.qcloud.com/v2/index.php/?Action=UpgradeBmNatGateway
     &<公共请求参数>
     &natId=<NAT网关ID>
     &unVpcId=<vpc网络ID>
@@ -54,7 +54,7 @@ GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=UpgradeBmNatGateway
 
 ### 输入
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?
+GET http://bmvpc.api.qcloud.com/v2/index.php?
 	Action=UpgradeBmNatGateway
 	&SecretId=AKID1ub7R1JoyBF7nHqjk7IH8nGWaR6Yezwd
 	&Nonce=4557

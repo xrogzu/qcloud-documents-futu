@@ -1,4 +1,4 @@
-本文介绍两种C#客户端的使用方法, [[.NET memcached client library](http://sourceforge.net/projects/memcacheddotnet/)]和[[EnyimMemcached](https://github.com/enyim/EnyimMemcached)].
+本文介绍两种C#客户端的使用方法, [[.NET memcached client library](http://sourceforge.net/projects/memcacheddotnet/)]和[[EnyimMemcached](http://github.com/enyim/EnyimMemcached)].
 
 ## 1 使用.NET memcached client library
 

@@ -22,7 +22,7 @@
 ## 4. 示例
 输入
 <pre>
-https://monitor.api.qcloud.com/v2/index.php?Action=UnbindAlarmRuleObjects
+http://monitor.api.qcloud.com/v2/index.php?Action=UnbindAlarmRuleObjects
 & alarmRuleId = policy-f3h1bxvcsb 
 &dimensions.0.name=name
 &dimensions.0.value=a1

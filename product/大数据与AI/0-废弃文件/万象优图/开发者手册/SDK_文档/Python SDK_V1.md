@@ -1,10 +1,10 @@
 ## 1	开发准备
-万象优图服务的python sdk的下载地址： https://github.com/tencentyun/python-sdk
+万象优图服务的python sdk的下载地址： http://github.com/tencentyun/python-sdk
 ### 1.1	前期准备
 获取appid，secret_id和secret_key。
 ### 1.2	获取SDK
 1.	下载源码
-如果安装了git命令行，执行git clone https://github.com/tencentyun/python-sdk
+如果安装了git命令行，执行git clone http://github.com/tencentyun/python-sdk
 或者直接在github下载zip包。
 2.	使用pip管理包
 

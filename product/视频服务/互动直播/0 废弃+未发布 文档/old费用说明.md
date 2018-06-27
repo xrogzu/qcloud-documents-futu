@@ -125,7 +125,7 @@ B.附加能力费用(可选)
 
 ### 每月基础网络费用计算公式
 
-<iframe src="https://avc.qcloud.com/calculator/index.html" width=400px height=400px border=0 style=border:none></iframe>
+<iframe src="http://avc.qcloud.com/calculator/index.html" width=400px height=400px border=0 style=border:none></iframe>
 
 ## 注解：
 ### 月带宽峰值：

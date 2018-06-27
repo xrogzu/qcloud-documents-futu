@@ -37,7 +37,7 @@
 
 ```
 <pre>
-  https://cfs.api.qcloud.com/v2/index.php?Action=CreateCfsFileSystem
+  http://cfs.api.qcloud.com/v2/index.php?Action=CreateCfsFileSystem
   &Region=bj
   &ZoneId=800001
   &NetInterface=vpc
@@ -45,7 +45,7 @@
   &PGroupId=pgroupbasic
   &VpcId=3034
   &SubnetId=17884
-  &<<a href="https://www.tce.fsphere.cn/doc/api/229/6976"> 公共请求参数 </a>>
+  &<<a href="http://www.tce.fsphere.cn/doc/api/229/6976"> 公共请求参数 </a>>
 </pre>
 ```
 

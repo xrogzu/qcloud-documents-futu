@@ -15,11 +15,11 @@
 并在您的 Podfile 文件中添加 应用云 的私有源
 
 ~~~
-source "https://git.tce.fsphere.cn/qcloud_u/cocopoads-repo"
-source "https://github.com/CocoaPods/Specs"
+source "http://git.tce.fsphere.cn/qcloud_u/cocopoads-repo"
+source "http://github.com/CocoaPods/Specs"
 ~~~
 
-> 注意一定要添加 https://github.com/CocoaPods/Specs 的原始源，否则会造成部分仓库找不到的问题
+> 注意一定要添加 http://github.com/CocoaPods/Specs 的原始源，否则会造成部分仓库找不到的问题
 
 ##### （2) 添加 TACMessaging 到您的 Podfile。您可以按照以下方法在 Podfile 中纳入一个 Pod：
 

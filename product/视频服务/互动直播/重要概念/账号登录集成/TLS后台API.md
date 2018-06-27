@@ -29,7 +29,7 @@ Usage:
 
 下面是演示截图：
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151126140600_45285.png)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151126140600_45285.png)
 
 输出实际上是参数模板和示例。
 
@@ -61,11 +61,11 @@ Usage:
 
 下面是生成sig演示截图：
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151126140852_93229.png)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151126140852_93229.png)
 
 上面是生成sig，下面是校验sig：
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151126140903_32964.png)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151126140903_32964.png)
 
 下面解释下参数模板中参数的意义：
 
@@ -94,7 +94,7 @@ identifier：用户标识，即用户id
 
 下面的截图是我们开发时编译tls_licence_tools的命令行，由于是我们这边的开发环境，链接库的路径可以按照开发者自己的实际情况给出。
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151126141059_97182.png)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151126141059_97182.png)
 
 【特别注意】
 如果程序有多线程调用TLS后台API的用法，请在程序初始化时和结束时分别调用下面的接口：
@@ -127,7 +127,7 @@ javac -encoding utf-8 tls_sigcheck.java
 之前提到java接口目前使用的jni的方式，所以Demo.java调用了载入so的语句，开发者根据自己的存放jnisigcheck.so实际路径进行修改，在二进制包中预编译的jnisigcheck.so存放在lib/jni目录下。demo的使用方式请参考example/java/README。
 下面是演示截图：
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151126141635_23603.png)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151126141635_23603.png)
 
 【**多线程**】如果在 java 代码中使用了多线程的方式生成 usersig，请看[这里](http://bbs.qcloud.com/thread-22323-1-1.html)。
 
@@ -200,7 +200,7 @@ Usage:
 
 下面是演示截图：
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151126142633_17041.png)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151126142633_17041.png)
 
 输出实际上是参数模板和示例。
 
@@ -230,15 +230,15 @@ tls_licence_tools verify 公钥文件路径 sig的存放路径 sdkappid 用户id
 
 下面演示截图：
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151126142725_41827.png)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151126142725_41827.png)
 
 sig文件的内容如下图：
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151013124221_16540.png)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151013124221_16540.png)
 
 校验sig演示截图：
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151126142759_94666.png)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151126142759_94666.png)
 
 下面解释下参数模板中参数的意义：
 
@@ -270,9 +270,9 @@ windows下C++接口的使用方式我们采用vs2012来举例。
 
 需要链接的静态库是jsoncpp.lib、openssl目录下的libeay.lib、libtlsignature.lib和zlib目录下的zlibstat.lib，典型的编译配置如下：
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151013124457_90952.png)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151013124457_90952.png)
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151013124511_24769.png)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151013124511_24769.png)
 
 【特别注意】
 
@@ -305,11 +305,11 @@ javac -encoding utf-8 tls_sigcheck.java
 
 之前提到java接口使用的jni的方式，所以Demo.java调用了载入dll的语句，开发者根据自己的存放jnisigcheck.dll实际路径进行修改，预编译的jnisigcheck.dll存放在lib\jni目录下。demo的使用方式请参考example\java\README。下面是演示截图：
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151013124617_41874.png)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151013124617_41874.png)
 
 下面是运行结果，
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151126142954_16596.png)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151126142954_16596.png)
 
 【**多线程**】如果在 java 代码中使用了多线程的方式生成 usersig，请看[这里](http://bbs.qcloud.com/thread-22323-1-1.html)。
 
@@ -365,15 +365,15 @@ class sigcheck
 其中dllpath.DllPath指明了dll的路径，详细请参见example\cs\csdemo.cs。
 关于demo的使用方法参见example\cs\README。下面是演示截图：
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151013132403_75795.png)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151013132403_75795.png)
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151013132415_34994.png)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151013132415_34994.png)
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151013132427_96968.png)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151013132427_96968.png)
 
 下面是运行结果：
 
-![](https://avc.qcloud.com/wiki2.0/im/imgs/20151126143241_19273.png)
+![](http://avc.qcloud.com/wiki2.0/im/imgs/20151126143241_19273.png)
 
 >注意：如果选择Any CPU平台，请默认加载32位dll。
 

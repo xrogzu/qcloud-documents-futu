@@ -32,7 +32,7 @@ vod.api.qcloud.com
 
 ### 请求示例
 ```
-https://vod.api.qcloud.com/v2/index.php?Action=DescribeCdnStat&hosts.0=123.vod2.myqcloud.com&startDate=2017-03-20 00:00:00&endDate=2017-03-26:23:55:00&statType=flux
+http://vod.api.qcloud.com/v2/index.php?Action=DescribeCdnStat&hosts.0=123.vod2.myqcloud.com&startDate=2017-03-20 00:00:00&endDate=2017-03-26:23:55:00&statType=flux
 &hosts.0=123.vod2.myqcloud.com&COMMON_PARAMS
 ```
 ## 接口应答

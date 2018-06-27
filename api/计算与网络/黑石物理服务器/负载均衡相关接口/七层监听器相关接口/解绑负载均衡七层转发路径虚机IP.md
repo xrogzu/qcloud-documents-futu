@@ -9,7 +9,7 @@ UnbindBmL7LocationVmIp 提供了解绑黑石负载均衡七层转发路径虚机
 ### 请求示例
 
 ```
-GET https://bmlb.api.qcloud.com/v2/index.php?Action=UnbindBmL7LocationVmIp
+GET http://bmlb.api.qcloud.com/v2/index.php?Action=UnbindBmL7LocationVmIp
 	&<公共请求参数>
 	&loadBalancerId=<负载均衡实例ID>
 	&listenerId=<七层监听器实例ID>
@@ -76,7 +76,7 @@ vmList描述待绑定的主机信息，n为下标，vmList包含字段如下
 ### 输入
 
 ```
-GET https://bmlb.api.qcloud.com/v2/index.php?Action=UnbindBmL7LocationVmIp
+GET http://bmlb.api.qcloud.com/v2/index.php?Action=UnbindBmL7LocationVmIp
 	&SecretId=AKIDlfdHxN0ntSVt4KPH0xXWnGl21UUFNoO5
 	&Nonce=24763
 	&Timestamp=1507714922

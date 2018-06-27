@@ -120,7 +120,7 @@
  
 输入1
 <pre>
- https://domain/v2/index.php?Action=MultiPullVodFile
+ http://domain/v2/index.php?Action=MultiPullVodFile
  &pullset.1.url=http%3A%2F%2Fv.qq.com%2Fcover%2Ft%2Ftofg0ynqvcjac58.mp4 //url必须指向可下载的视频地址
  &pullset.1.fileName=test
  &pullset.1.isTranscode=1

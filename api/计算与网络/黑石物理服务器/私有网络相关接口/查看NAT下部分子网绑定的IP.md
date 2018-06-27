@@ -8,7 +8,7 @@ DescribeBmNatPartSubnetBindIps 接口用于查询黑石NAT网关部分子网下�
 
 ### 请求示例
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php/?Action=DescribeBmNatPartSubnetBindIps
+GET http://bmvpc.api.qcloud.com/v2/index.php/?Action=DescribeBmNatPartSubnetBindIps
     &<公共请求参数>
     &natId=<NAT网关ID>
     &unSubnetIds.n=<子网统一ID>
@@ -69,7 +69,7 @@ data 数据结构如下：
 
 ### 输入
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?
+GET http://bmvpc.api.qcloud.com/v2/index.php?
 	Action=DescribeBmNatPartSubnetBindIps
 	&SecretId=AKID1ub7R1JoyBF7nHqjk7IH8nGWaR6Yezwd
 	&Nonce=4557

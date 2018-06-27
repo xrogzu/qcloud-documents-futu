@@ -27,13 +27,13 @@
 * 只允许和在 MP 中配置好的域名进行通信，如果还没有域名，需要[注册一个](http://tcecqpoc.fsphere.cn/product/dm.html?utm_source=jiaocheng&utm_medium=domain2&utm_ca)。
 * 网络请求必须走 HTTPS 协议，所以你还需要为你的域名[申请一个证书](http://console.tcecqpoc.fsphere.cn/ssl?utm_source=jiaocheng&utm_medium=ssl2&utm_campaign=qcloud)。
 
-域名注册好之后，可以登录[微信公众平台](https://mp.weixin.qq.com)配置通信域名了。
+域名注册好之后，可以登录[微信公众平台](http://mp.weixin.qq.com)配置通信域名了。
 
 ![配置通信域名](http://easyimage-10028115.file.myqcloud.com/internal/tjzpgjrz.y5a.jpg)
 
 ### 2. 云主机和镜像部署
 
-剪刀石头布的服务器运行代码和配置已经打包成云平台 CVM 镜像，大家可以[直接使用](https://buy.tce.fsphere.cn/cvm?marketImgId=371&utm_source=jiaocheng&utm_medium=cvm2&utm_campaign=qcloud)。
+剪刀石头布的服务器运行代码和配置已经打包成云平台 CVM 镜像，大家可以[直接使用](http://buy.tce.fsphere.cn/cvm?marketImgId=371&utm_source=jiaocheng&utm_medium=cvm2&utm_campaign=qcloud)。
 
 > 云平台用户可以[免费领取礼包](http://tcecqpoc.fsphere.cn/act/event/yingyonghao.html#section-voucher)，体验云平台小程序解决方案。
 
@@ -145,7 +145,7 @@ socket.on('hi', packet => console.log('server say hi: ' + packet.message));
 socket.emit('hello', { from: 'techird' });
 ```
 
-如果想要使用微信原生的 API，那么在服务器端也可以直接使用 [ws](https://github.com/websockets/ws) 来实现 W3C 标准的接口。不过 SocketIO 支持多进程的特性，对于后续做横向扩张是很有帮助的。云平台在后面也会有计划推出支持大规模业务需求的 WebSocket 连接服务，减小业务的部署成本。
+如果想要使用微信原生的 API，那么在服务器端也可以直接使用 [ws](http://github.com/websockets/ws) 来实现 W3C 标准的接口。不过 SocketIO 支持多进程的特性，对于后续做横向扩张是很有帮助的。云平台在后面也会有计划推出支持大规模业务需求的 WebSocket 连接服务，减小业务的部署成本。
 
 ## 通信协议设计
 

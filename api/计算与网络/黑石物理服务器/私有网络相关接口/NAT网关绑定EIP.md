@@ -6,7 +6,7 @@ EipBindBmNatGateway 接口用于将EIP绑定到黑石NAT网关，NAT网关使用
 ## 请求
 ### 请求示例
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?Action=EipBindBmNatGateway
+GET http://bmvpc.api.qcloud.com/v2/index.php?Action=EipBindBmNatGateway
     &<公共请求参数>
     &natId=<NAT网关ID>
     &unVpcId=<vpc网络ID>
@@ -57,7 +57,7 @@ GET https://bmvpc.api.qcloud.com/v2/index.php?Action=EipBindBmNatGateway
 ## 实际案例
 ### 输入
 ```
-GET https://bmvpc.api.qcloud.com/v2/index.php?
+GET http://bmvpc.api.qcloud.com/v2/index.php?
 	Action=EipBindBmNatGateway
 	&SecretId=AKID1ub7R1JoyBF7nHqjk7IH8nGWaR6Yezwd
 	&Nonce=4557

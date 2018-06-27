@@ -32,7 +32,7 @@ vod.api.qcloud.com
 
 ### 请求示例
 ```
-https://vod.api.qcloud.com/v2/index.php?Action=GetCdnLogList&startDate=2017-08-01&endDate=2017-08-07&COMMON_PARAMS
+http://vod.api.qcloud.com/v2/index.php?Action=GetCdnLogList&startDate=2017-08-01&endDate=2017-08-07&COMMON_PARAMS
 ```
 
 ## 接口应答

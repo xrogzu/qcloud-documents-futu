@@ -421,4 +421,4 @@ $cosClient = Cos::getInstance();
 $cosClient->upload('mybucket', 'test.txt', 'Hello World')->toArray();
 ```
 
-更多关于 `Cos::getInstance()` 返回 COS 实例的 API，可以查看 [COS PHP SDK V5 文档](https://github.com/tencentyun/cos-php-sdk-v5)。
+更多关于 `Cos::getInstance()` 返回 COS 实例的 API，可以查看 [COS PHP SDK V5 文档](http://github.com/tencentyun/cos-php-sdk-v5)。

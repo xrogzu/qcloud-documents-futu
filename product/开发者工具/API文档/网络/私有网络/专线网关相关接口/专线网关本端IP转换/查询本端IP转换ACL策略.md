@@ -40,7 +40,7 @@
 ## 5. 示例
 输入
 ```
-https://vpc.api.qcloud.com/v2/index.php?Action=DescribeLocalIPTranslationAclRule
+http://vpc.api.qcloud.com/v2/index.php?Action=DescribeLocalIPTranslationAclRule
 &<公共请求参数>
 &vpcId=vpc-dfgg190
 &directConnectGatewayId=dcg-ddf14d

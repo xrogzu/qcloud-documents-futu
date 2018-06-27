@@ -1,4 +1,4 @@
-本文档主要介绍基本的 MR 任务操作（计算、查看任务日志等）、以及 MR 计算任务如何访问云平台对象存储上的数据，详细资料可以参考 [Apache Software Foundation](https://hadoop.apache.org/docs/r2.7.3/)。
+本文档主要介绍基本的 MR 任务操作（计算、查看任务日志等）、以及 MR 计算任务如何访问云平台对象存储上的数据，详细资料可以参考 [Apache Software Foundation](http://hadoop.apache.org/docs/r2.7.3/)。
 
 ## 命令行模式提交 MR 任务
 本次提交的任务为 wordcount 任务即统计单词个数，提前需要在集群中上传需要统计的文件。

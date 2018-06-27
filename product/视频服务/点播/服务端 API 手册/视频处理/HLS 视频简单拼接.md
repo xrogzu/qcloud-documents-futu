@@ -39,7 +39,7 @@ vod.api.qcloud.com
 
 ### 请求示例
 ```
-https://vod.api.qcloud.com/v2/index.php?Action=SimpleConcatHls
+http://vod.api.qcloud.com/v2/index.php?Action=SimpleConcatHls
 &srcFileList.0.fileId=16092504232103571364
 &srcFileList.1.fileId=16092504232103571365
 &name=testfile

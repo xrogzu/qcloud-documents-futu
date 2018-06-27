@@ -1,4 +1,4 @@
-目前，DCDB（MySQL 5.7内核）已支持 json 能力，更多细节，可以参考 mysql 官方的 json 文档[https://dev.mysql.com/doc/refman/5.7/en/json-function-reference.html]( https://dev.mysql.com/doc/refman/5.7/en/json-function-reference.html)
+目前，DCDB（MySQL 5.7内核）已支持 json 能力，更多细节，可以参考 mysql 官方的 json 文档[http://dev.mysql.com/doc/refman/5.7/en/json-function-reference.html]( http://dev.mysql.com/doc/refman/5.7/en/json-function-reference.html)
 
 ## DCDB 使用 JSON 注意事项
 1. json 字段不可以作为 shardkey（分表键）；
