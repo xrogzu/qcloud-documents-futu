@@ -1,4 +1,4 @@
-﻿## 基本概念
+## 基本概念
 网络访问控制列表（Access Control List，ACL）是一个子网级别无状态的可选安全层，用于控制进出子网的数据流，可以精确到协议和端口粒度。如下图所示，其规则与[安全组](http://tcecqpoc.fsphere.cn/doc/product/213/500)相似。但由于网络 ACL 无状态的特性，即使设置入站规则允许某些访问，如果没有设置相应的出站规则会导致无法响应访问。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/04de33187d40d6891f7e5c8da120fdc7/image.png)
 
@@ -103,11 +103,11 @@ ACL 规则是网络 ACL 的组成部分。当您在网络 ACL 中添加或删除
 
 | 接口功能 | Action ID | 功能描述 |
 |---------|---------|---------|
-| 创建VPC网络ACL | [CreateNetworkAcl](http://tcecqpoc.fsphere.cn/doc/api/245/%E5%88%9B%E5%BB%BAVPC%E7%BD%91%E7%BB%9CACL) | 创建安全防火墙。 |
-| 删除网络ACL | [DeleteNetworkAcl](http://tcecqpoc.fsphere.cn/doc/api/245/%E5%88%A0%E9%99%A4%E7%BD%91%E7%BB%9CACL) | 删除指定安全防火墙。 |
-| 修改网络ACL名称 | [ModifyNetworkAcl](http://tcecqpoc.fsphere.cn/doc/api/245/%E4%BF%AE%E6%94%B9%E7%BD%91%E7%BB%9CACL%E5%90%8D%E7%A7%B0) | 修改安全防火墙名称。 |
-| 查询网络ACL列表 | [DescribeNetworkAcl](http://tcecqpoc.fsphere.cn/doc/api/245/%E6%9F%A5%E8%AF%A2%E7%BD%91%E7%BB%9CACL%E5%88%97%E8%A1%A8) | 查询vpc安全防火墙列表。 |
-| 设置网络ACL规则 | [ModifyNetworkAclEntry](http://tcecqpoc.fsphere.cn/doc/api/245/%E8%AE%BE%E7%BD%AE%E7%BD%91%E7%BB%9CACL%E8%A7%84%E5%88%99) | 设置安全防火墙网络规则。 |
-| 网络ACL绑定子网 | [CreateSubnetAclRule](http://tcecqpoc.fsphere.cn/doc/api/245/%E7%BD%91%E7%BB%9CACL%E7%BB%91%E5%AE%9A%E5%AD%90%E7%BD%91) | 安全防火墙绑定子网。 |
-| 网络ACL解绑子网 | [DeteleSubnetAclRule](http://tcecqpoc.fsphere.cn/doc/api/245/%E7%BD%91%E7%BB%9CACL%E8%A7%A3%E7%BB%91%E5%AD%90%E7%BD%91) | 安全防火墙和子网解绑。 |
+| 创建VPC网络ACL | [CreateNetworkAcl](http://tcecqpoc.fsphere.cn/document/product/215/1437) | 创建安全防火墙。 |
+| 删除网络ACL | [DeleteNetworkAcl](http://tcecqpoc.fsphere.cn/document/product/215/1439) | 删除指定安全防火墙。 |
+| 修改网络ACL名称 | [ModifyNetworkAcl](http://tcecqpoc.fsphere.cn/document/product/215/1443) | 修改安全防火墙名称。 |
+| 查询网络ACL列表 | [DescribeNetworkAcl](http://tcecqpoc.fsphere.cn/document/product/215/1441) | 查询vpc安全防火墙列表。 |
+| 设置网络ACL规则 | [ModifyNetworkAclEntry](http://tcecqpoc.fsphere.cn/document/product/215/1444) | 设置安全防火墙网络规则。 |
+| 网络ACL绑定子网 | [CreateSubnetAclRule](http://tcecqpoc.fsphere.cn/document/product/215/1438) | 安全防火墙绑定子网。 |
+| 网络ACL解绑子网 | [DeteleSubnetAclRule](http://tcecqpoc.fsphere.cn/document/product/215/1442) | 安全防火墙和子网解绑。 |
 

@@ -185,11 +185,8 @@ VPN 通道提供告警功能：
 ### VPN 相关接口
 | 接口功能 | Action ID |  功能描述 |
 |---------|---------|---------|
-| 查询VPN网关价格 | [InquiryVpnPrice](http://tcecqpoc.fsphere.cn/doc/api/245/5104) | 查询VPN网关价格。 |
-| 购买VPN网关 | [CreateVpn](http://tcecqpoc.fsphere.cn/doc/api/245/5106) | 购买VPN网关。 |
 | 修改VPN网关属性 | [ModifyVpnGw](http://tcecqpoc.fsphere.cn/doc/api/245/5107) | 修改指定VPN网关信息，例如名称。|
 | 查询VPN网关列表 | [DescribeVpnGw](http://tcecqpoc.fsphere.cn/doc/api/245/5108) | 根据用户信息，如VPN网关ID，名称，查询对应VPN网关的信息。|
-| 续费VPN网关 | [RenewVpn](http://tcecqpoc.fsphere.cn/doc/api/245/5109) | 续费VPN网关。 |
 
 ### 对端网关相关接口
 | 接口功能 | Action ID |  功能描述 |
@@ -210,6 +207,6 @@ VPN 通道提供告警功能：
 | 修改VPN通道 | [ModifyVpnConn](http://tcecqpoc.fsphere.cn/doc/api/245/5112) | 修改指定VPN通道的信息，如名称。 |
 | 查询VPN通道列表 | [DescribeVpnConn](http://tcecqpoc.fsphere.cn/doc/api/245/5113) | 根据用户信息，如通道ID，名称，查询对应通道的信息。|
 | 下载VPN通道配置 | [GetVpnConnConfig](http://tcecqpoc.fsphere.cn/doc/api/245/5114) | 下载VPN通道配置，对通道配置做调整。 |
-| 获取VPN通道的监控数据 | [DescribeVpnConnMonitor](http://tcecqpoc.fsphere.cn/doc/api/245/5115) |  获取VPN通道的监控数据。 |
+| 获取VPN通道的监控数据 | [DescribeVpnConnMonitor](http://tcecqpoc.fsphere.cn/document/product/248/4667) |  获取VPN通道的监控数据。 |
 
 
