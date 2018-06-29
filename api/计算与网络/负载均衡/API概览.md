@@ -14,7 +14,7 @@
 ## 传统型负载均衡相关接口
 ### 传统型负载均衡监听器相关接口
 | 接口名 | Action | 功能描述 |
-|---------|---------|
+|---------|---------|---------|
 |  [创建负载均衡监听器](http://tcecqpoc.fsphere.cn/document/api/214/1255)  | CreateLoadBalancerListeners | 为用户指定的负载均衡实例创建负载均衡监听器。负载均衡监听器包含了客户要转发请求的协议，端口以及健康检查的策略。|
 | [获取负载均衡监听器列表](http://tcecqpoc.fsphere.cn/document/api/214/1260) | DescribeLoadBalancerListeners | 返回用户指定的负载均衡实例的监听器列表。包含监听器的唯一 ID，名字，端口健康检查策略等信息。|
 | [删除负载均衡监听器](http://tcecqpoc.fsphere.cn/document/api/214/1256)  | DeleteLoadBalancerListeners |  删除用户指定的负载均衡实例的一组监听器。|
@@ -22,7 +22,7 @@
 
 ### 传统型负载均衡后端服务器相关接口
 | 接口名 | Action| 功能描述 |
-|---------|---------|
+|---------|---------|---------|
 | [绑定后端服务器到负载均衡](http://tcecqpoc.fsphere.cn/document/api/214/1265) | RegisterInstancesWithLoadBalancer | 将用户指定的一组云服务器关联到用户指定的负载均衡实例上。|
 | [获取负载均衡绑定的后端服务器列表](http://tcecqpoc.fsphere.cn/document/api/214/1259) | DescribeLoadBalancerBackends | 获取用户输入的 *LoadBalanceId* 这个负载均衡实例上关联的云服务器列表。| 
 |  [修改负载均衡后端服务器权重](http://tcecqpoc.fsphere.cn/document/api/214/1264) | ModifyLoadBalancerBackends | 修改关联到负载均衡实例的一组 [云服务器的权重](http://tcecqpoc.fsphere.cn/doc/product/214/%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D#1.3.-.E5.90.8E.E7.AB.AF.E6.9C.8D.E5.8A.A1.E5.99.A8.E6.9D.83.E9.87.8D.E9.85.8D.E7.BD.AE)。
@@ -36,7 +36,7 @@
 
 ### 传统型负载均衡实例相关接口
 | 接口名 | Action | 功能描述 |
-|---------|---------|
+|---------|---------|---------|
 | [修改负载均衡属性信息](http://tcecqpoc.fsphere.cn/document/product/214/1263) | ModifyLoadBalancerAttributes |  修改用户指定的负载均衡实例的属性信息，包括负载均衡实例的名字等。|
 
 
@@ -45,12 +45,12 @@
 
 ### 应用型负载均衡实例相关接口
 | 接口名 | Action | 功能描述 |
-|---------|---------|
+|---------|---------|---------|
 |  [修改应用型型负载均衡的名称](http://tcecqpoc.fsphere.cn/document/product/214/10008) | ModifyForwardLBName | 修改应用型型负载均衡的名称。|
 
 ### 应用型负载均衡监听器相关接口
 | 接口名 | Action ID | 功能描述 |
-|---------|---------|
+|---------|---------|---------|
 | [查询应用型负载均衡监听器](http://tcecqpoc.fsphere.cn/document/product/214/9005) | DescribeForwardLBListeners | 查询应用型负载均衡监听器。|
 | [创建应用型负载均衡七层监听器](http://tcecqpoc.fsphere.cn/document/product/214/9000) | CreateForwardLBSeventhLayerListeners |创建应用型七层监听器。| 
 | [修改应用型负载均衡七层监听器属性](http://tcecqpoc.fsphere.cn/document/product/214/8997) | ModifyForwardLBSeventhListener |修改应用型负载均衡七层监听器属性。| 
@@ -60,7 +60,7 @@
 
 ### 应用型负载均衡转发规则相关接口
 | 接口名 | Action ID | 功能描述 |
-|---------|---------|
+|---------|---------|---------|
 | [创建应用型负载均衡七层监听器转发规则的能力](http://tcecqpoc.fsphere.cn/document/product/214/9011) | CreateForwardLBListenerRules |创建应用型负载均衡七层监听器转发规则的能力。|
 | [修改应用型负载均衡七层监听器下的域名](http://tcecqpoc.fsphere.cn/document/product/214/9007) | ModifyForwardLBRulesDomain | 修改应用型负载均衡七层监听器下的域名。|
 |[ 修改应用型负载均衡七层监听器转发规则的健康检查及转发路径](http://tcecqpoc.fsphere.cn/document/product/214/9008) | ModifyLoadBalancerRulesProbe |修改应用型负载均衡七层监听器转发规则的健康检查及转发路径。| 
@@ -68,13 +68,13 @@
 
 ### 应用型负载均衡健康检查相关接口
 | 接口名 | Action ID | 功能描述 |
-|---------|---------|
+|---------|---------|---------|
 | [查询应用型负载均衡实例的健康检查](http://tcecqpoc.fsphere.cn/document/product/214/8995) | DescribeForwardLBHealthStatus | 查询应用型负载均衡实例的健康检查。|
 
 
 ### 应用型负载均衡云服务器相关接口
 | 接口名 | Action ID | 功能描述 |
-|---------|---------|
+|---------|---------|---------|
 | [查询应用型负载均后端绑定的云服务器器列表](http://tcecqpoc.fsphere.cn/document/product/214/8987) | DescribeForwardLBBackends | 查询应用型负载均后端绑定的云服务器器列表。|
 | [绑定云服务器到应用型负载均衡七层监听器的转发规则](http://tcecqpoc.fsphere.cn/document/product/214/8988) | RegisterInstancesWithForwardLBSeventhListener | 绑定云服务器到应用型负载均衡七层监听器的转发规则。|
 | [解绑云服务器从应用型负载均衡七层监听器的转发规则](http://tcecqpoc.fsphere.cn/document/product/214/8991) | DeregisterInstancesFromForwardLB | 解绑云服务器从应用型负载均衡七层监听器的转发规则。|
@@ -88,7 +88,7 @@
 
 ### 应用型负载均衡重定向相关接口
 | 接口名 | Action ID | 功能描述 |
-|---------|---------|
+|---------|---------|---------|
 | [查询应用型负载均衡的重定向关系](http://tcecqpoc.fsphere.cn/document/product/214/9016) | DescribeRewrite | 查询应用型负载均衡的重定向关系。|
 |[ 删除应用型负载均衡的重定向关系 ](http://tcecqpoc.fsphere.cn/document/product/214/9014)| DeleteRewrite | 删除应用型负载均衡的重定向关系。|
 | [手动添加应用型负载均衡的重定向关系](http://tcecqpoc.fsphere.cn/document/product/214/9015) | ManualRewrite | 手动添加应用型负载均衡的重定向关系。|

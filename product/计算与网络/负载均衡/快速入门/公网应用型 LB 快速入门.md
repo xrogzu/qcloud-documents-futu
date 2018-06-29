@@ -2,29 +2,9 @@
 
 ## 1. 创建云主机，搭建nginx服务。
 
-### 1.1 购买云主机
-在云主机的[选购页面](http://buy.tce.fsphere.cn/cvm)选择适合自己的机型和镜像等，设置主机的初始密码，配置安全组（这里为了测试方便，可以先选择放通全部端口，后续再做限制）。另外，在购买云主机时注意开通公网流量，否则会导致后续关联LB后访问不通。
 
-![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1ee252e5b02350e91e9aeec6bbf47e9c/001.png)
-
-本次测试使用的云主机环境参数如下，共购买了两台：
->**主机信息**
-地域	广州
-可用区	广州三区
-主机计费模式	计量
-网络计费模式	计量
-所属网络	基础网络
-
->**机器配置**
-操作系统	CentOS 6.8 64位
-CPU	1核
-内存	2GB
-系统盘	20GB(云硬盘)	
-数据盘	380GB(高性能云硬盘)
-公网带宽	1Mbps
-
-### 1.2 搭建环境
-购买完成后，在云主机的详情页面，点击【登录】按钮，可以直接登录云主机，输入自己的用户名密码后，开始搭建nginx环境。这里采用了最简单的方式安装了nginx。如果需要安装最新版的nginx，可以去官网下载后上传解压安装。
+### 1.1 搭建环境
+在云主机的详情页面，点击【登录】按钮，可以直接登录云主机，输入自己的用户名密码后，开始搭建nginx环境。这里采用了最简单的方式安装了nginx。如果需要安装最新版的nginx，可以去官网下载后上传解压安装。
 安装nginx:
 ```
 yum -y install nginx  
@@ -65,7 +45,7 @@ mkdir image/
 cp -r index.html image/    # 对另一台云主机 可以将页面部署到text路径下
 ```
 
-### 1.3 验证服务
+### 1.2 验证服务
 此时，通过访问云服务器的公网ip+路径，如果可以显示出您部署好的页面的话，证明第一步的部署成功。
 CVM1 的/image页面
 
@@ -75,15 +55,10 @@ CVM2 的/text页面
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/9f063edb7307936199eb44ba72958e8a/004.png)
 
-## 2. 购买并配置公网应用型LB
+## 2. 配置公网应用型LB
 
-### 2.1 购买应用型负载均衡
-在负载均衡的[购买页](http://buy.tce.fsphere.cn/lb)选择应用型负载均衡。需要注意的是，选取某一地域的负载均衡后（如广州区域的LB），当前该负载均衡下只支持绑定同一地域、不同可用区的后端云服务器（支持绑定广州二区、广州三区的CVM）。创建完成后，即可体验应用型LB的丰富功能
-
-![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/bb98d1b01df00c7d64a9fa665bc81ed1/123.jpg)
-
-### 2.2 配置监听器、转发组和转发规则，绑定云主机
-购买完成后，在【LB详情】-【监听器管理】页面，可以查看该LB实例绑定的监听器信息，单击【新建】创建一个HTTP监听器
+### 2.1 配置监听器、转发组和转发规则，绑定云主机
+在【LB详情】-【监听器管理】页面，可以查看该LB实例绑定的监听器信息，单击【新建】创建一个HTTP监听器
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/847950e967c54f04d736f7cb7fac9c89/006.png)
 
@@ -91,7 +66,7 @@ CVM2 的/text页面
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/effd493443791f91e88a5cb661ab0809/008.png)
 
-创建完成后，可以看到该监听器下已经配置了www.example.com/image/的转发组和转发规则，接下来可以通过【绑定云主机】来选取我们刚才配置好服务的机器了。绑定云主机时，我们默认也监听了后端80端口。由于应用型负载均衡配置灵活，可以在同一监听器下绑定不同后端端口的云服务器。
+创建完成后，可以看到该监听器下已经配置了www.example.com/image/  的转发组和转发规则，接下来可以通过【绑定云主机】来选取我们刚才配置好服务的机器了。绑定云主机时，我们默认也监听了后端80端口。由于应用型负载均衡配置灵活，可以在同一监听器下绑定不同后端端口的云服务器。
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/7b48c5c5f1cd6c98605cadb6e99a1326/009.png)
 

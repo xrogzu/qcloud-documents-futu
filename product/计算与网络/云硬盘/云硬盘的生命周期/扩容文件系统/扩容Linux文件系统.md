@@ -22,29 +22,29 @@
 fdisk -l
 ```
 
-若结果如下两图所示（根据操作系统不同略有不同），则说明云服务器扩容前为GPT分区方式，后续操作请参见GPT分区云硬盘扩容后修改分区指南。
-![](//mccdn.qcloud.com/static/img/972969e3db92b65311211734690fe763/image.png)
-![](//mccdn.qcloud.com/static/img/2c1f4a40279d211a7b81bada7ed38280/image.png)
+若结果如下两图所示（根据操作系统不同略有不同），则说明云服务器扩容前为GPT分区方式，后续操作请参见GPT分区云硬盘扩容后修改分区指南。  
+![](//mccdn.qcloud.com/static/img/972969e3db92b65311211734690fe763/image.png)  
+![](//mccdn.qcloud.com/static/img/2c1f4a40279d211a7b81bada7ed38280/image.png)  
 
-若结果如下图所示（根据操作系统不同略有不同），则说明云服务器扩容前为MBR分区方式，后续操作请参见MBR分区云硬盘扩容后修改分区指南。
+若结果如下图所示（根据操作系统不同略有不同），则说明云服务器扩容前为MBR分区方式，后续操作请参见MBR分区云硬盘扩容后修改分区指南。  
 ![](//mccdn.qcloud.com/static/img/4d789ec2865a2895305f47f0513d4e2b/image.png)
 
 ## GPT分区云硬盘扩容后修改分区指引
 ### 新空间格式化成一个独立GPT分区
 #### 查看数据盘信息
-执行命令`parted 磁盘路径 print`命令来确认云硬盘的容量变化。如在过程中收到如下提示,请输入`Fix`：
+执行命令`parted 磁盘路径 print`命令来确认云硬盘的容量变化。如在过程中收到如下提示,请输入`Fix`：  
 
-![](//mccdn.qcloud.com/static/img/cf51cda9a12085f76949ab0d5dd0fbfc/image.png)
-![](//mccdn.qcloud.com/static/img/01a0a7a8fdfe6f05f2739f0326a74ef9/image.png)
+![](//mccdn.qcloud.com/static/img/cf51cda9a12085f76949ab0d5dd0fbfc/image.png)  
+![](//mccdn.qcloud.com/static/img/01a0a7a8fdfe6f05f2739f0326a74ef9/image.png)  
 这里扩容后的云硬盘大小为107GB，已有分区的大小为10.7GB。
 
 #### 卸载已挂载数据盘
 执行以下命令确认该云硬盘是否还有分区已挂载：
 
 ```
-mount | grep '磁盘路径' 
+mount | grep '磁盘路径'   
 ```
-![](//mccdn.qcloud.com/static/img/edc5bbd6834e1dd929ce0eb00acd53ca/image.png)
+![](//mccdn.qcloud.com/static/img/edc5bbd6834e1dd929ce0eb00acd53ca/image.png)  
 这里云硬盘上有一个分区(vdb1)挂载在/data上，需要将其解挂。
 
 使用以下命令解挂：
@@ -57,9 +57,9 @@ umount 挂载点
 
 > 注：要将云硬盘上所有分区的文件系统都解挂，如vdb1、vdb2......
 
-再次使用`mount | grep '/dev/vdb' `命令来确认此硬盘上所有分区的文件系统都已解挂。
+再次使用`mount | grep '/dev/vdb' `命令来确认此硬盘上所有分区的文件系统都已解挂。  
 
-![](//mccdn.qcloud.com/static/img/a2f6db45a94485785ea15e6ea950bcb8/image.png)
+![](//mccdn.qcloud.com/static/img/a2f6db45a94485785ea15e6ea950bcb8/image.png)  
 
 #### 数据盘分区 
 确认云硬盘所有分区均已卸载后，执行以下命令新建一个分区：
@@ -69,8 +69,8 @@ parted 磁盘路径
 ```
 这里输入`parted /dev/vdb`。
 
-接下来输入`print`来查看分区信息，记住已有分区的End值，以此值作为下一个分区的起始偏移值：
-![](//mccdn.qcloud.com/static/img/788ce125bba952f204ed6ee36dfb644d/image.png)
+接下来输入`print`来查看分区信息，记住已有分区的End值，以此值作为下一个分区的起始偏移值：  
+![](//mccdn.qcloud.com/static/img/788ce125bba952f204ed6ee36dfb644d/image.png)  
 
 接下来执行以下命令新建一个主分区，此分区将从已有分区的末尾开始，覆盖硬盘所有的新增空间。：
 
@@ -80,7 +80,7 @@ mkpart primary start end
 
 本例使用`mkpart primary 10.7GB 100% `
 
-再次执行`print`可发现新分区已经新建成功，键入`quit`即可可退出parted工具：
+再次执行`print`可发现新分区已经新建成功，键入`quit`即可可退出parted工具：  
 ![](//mccdn.qcloud.com/static/img/fc54fd4c05102ee91c648526d77d1b42/image.png)
 
 #### 格式化新建分区
@@ -94,7 +94,7 @@ mkfs.[fstype] [分区路径]
 
 ### 新空间增加到已有分区中(GPT分区格式)
 #### 查看数据盘信息
-执行命令`parted 磁盘路径 print`命令来确认云硬盘的容量变化。如在过程中收到如下提示,请输入`Fix`：
+执行命令`parted 磁盘路径 print`命令来确认云硬盘的容量变化。如在过程中收到如下提示,请输入`Fix`：  
 
 ![](//mccdn.qcloud.com/static/img/cf51cda9a12085f76949ab0d5dd0fbfc/image.png)
 ![](//mccdn.qcloud.com/static/img/01a0a7a8fdfe6f05f2739f0326a74ef9/image.png)
@@ -104,7 +104,7 @@ mkfs.[fstype] [分区路径]
 执行以下命令确认该云硬盘是否还有分区已挂载：
 
 ```
-mount | grep '磁盘路径' 
+mount | grep '磁盘路径'   
 ```
 ![](//mccdn.qcloud.com/static/img/edc5bbd6834e1dd929ce0eb00acd53ca/image.png)
 这里云硬盘上有一个分区(vdb1)挂载在/data上，需要将其解挂。
@@ -119,7 +119,7 @@ umount 挂载点
 
 > 注：要将云硬盘上所有分区的文件系统都解挂，如vdb1、vdb2......
 
-再次使用`mount | grep '/dev/vdb' `命令来确认此硬盘上所有分区的文件系统都已解挂。
+再次使用`mount | grep '/dev/vdb' `命令来确认此硬盘上所有分区的文件系统都已解挂。  
 
 ![](//mccdn.qcloud.com/static/img/a2f6db45a94485785ea15e6ea950bcb8/image.png)
 
@@ -130,7 +130,7 @@ umount 挂载点
 parted [磁盘路径]
 ```
 
-接下来输入`unit s`，将显示和操纵单位变成sector（默认为GB），输入`print`来查看分区信息，记住已有分区的Start值。删除分区并新建后，Start值必须与这个相同，否则数据将会丢失。
+接下来输入`unit s`，将显示和操纵单位变成sector（默认为GB），输入`print`来查看分区信息，记住已有分区的Start值。删除分区并新建后，Start值必须与这个相同，否则数据将会丢失。  
 ![](//mccdn.qcloud.com/static/img/67ba54c1d9d63c307d4b8a157b70c722/image.png)
 
 执行以下命令删除原有分区：
@@ -139,15 +139,15 @@ parted [磁盘路径]
 rm [分区Number]
 ```
 
-由上图可知云硬盘上有一个分区，Number号为“1”，执行`rm 1`结果如下图：
+由上图可知云硬盘上有一个分区，Number号为“1”，执行`rm 1`结果如下图：  
 ![](//mccdn.qcloud.com/static/img/3384eeada87ce75695e0e55125109eff/image.png)
 
 输入`mkpart primary [原分区起始扇区] 100%`新建一个主分区。本例中使用`mkpart primary 2048s 100%`，此主分区从第2048个扇区开始（必须与删除之前的分区一致），100%表示此分区到磁盘的最末尾。
 
-如果出现如图状态请输入Ignore：
+如果出现如图状态请输入Ignore：  
 ![](//mccdn.qcloud.com/static/img/c45966e20dc856817c65fd6b81155e4a/image.png)
 
-再次输入`print`可发现新分区已经新建成功，输入`quit`即可退出parted工具：
+再次输入`print`可发现新分区已经新建成功，输入`quit`即可退出parted工具：  
 ![](//mccdn.qcloud.com/static/img/cb1af5adaf6c89d066077c43fd428a38/image.png)
 
 #### 检查扩容后分区的文件系统
@@ -156,14 +156,14 @@ rm [分区Number]
 ```
 e2fsck -f 分区路径
 ```
-前述步骤中本例已新建了分区1，使用`e2fsck -f /dev/vdb1`进行操作。结果如下：
+前述步骤中本例已新建了分区1，使用`e2fsck -f /dev/vdb1`进行操作。结果如下：  
 ![](//mccdn.qcloud.com/static/img/307f7a0c98eea05ca1d4560fe4e96f57/image.png)
 
 #### 扩容文件系统
 执行以下命令进行分区上文件系统的扩容操作：
 
 ```
-resize2fs 分区路径
+resize2fs 分区路径  
 ```
 ![](//mccdn.qcloud.com/static/img/57d66da9b5020324703498dbef0b12f9/image.png)
 
@@ -174,7 +174,7 @@ resize2fs 分区路径
 mount 分区路径 挂载点
 ```
 
-这里通过`mount /dev/vdb1 /data`命令手动挂载新分区，并使用`df -h`命令查看，出现以下信息说明挂载成功，即可以查看到数据盘了。
+这里通过`mount /dev/vdb1 /data`命令手动挂载新分区，并使用`df -h`命令查看，出现以下信息说明挂载成功，即可以查看到数据盘了。  
 ![](//mccdn.qcloud.com/static/img/a2bd04c79e8383745689e19033a0daaa/image.png)
 
 ## MBR分区云硬盘扩容后修改分区指引
@@ -188,9 +188,9 @@ MBR分区的云硬盘进行扩容后，您可以选择：
 
 ### 新空间格式化成一个独立分区
 #### 查看数据盘信息
-执行命令`df -h`查看已挂载的数据盘分区信息，以及命令`fdisk -l`查看数据盘扩容后未分区的信息：
-![](//mccdn.qcloud.com/static/img/0a450dfaa9cfc7b2c7fdc04861f0e754/image.png)
-![](//mccdn.qcloud.com/static/img/594671a1215dee3036b7940892438f62/image.png)
+执行命令`df -h`查看已挂载的数据盘分区信息，以及命令`fdisk -l`查看数据盘扩容后未分区的信息：  
+![](//mccdn.qcloud.com/static/img/0a450dfaa9cfc7b2c7fdc04861f0e754/image.png)  
+![](//mccdn.qcloud.com/static/img/594671a1215dee3036b7940892438f62/image.png)  
 
 #### 卸载所有已挂载的分区
 执行以下命令卸载所有已挂载的分区：
@@ -207,7 +207,7 @@ umount 挂载点
 ```
 fdisk [硬盘路径]
 ```
-本例使用`fdisk /dev/xvdc`命令，按照界面的提示依次输入”p”(查看现有分区信息)、“n”(新建分区)、“p”(新建主分区)、“2”(新建第2个主分区)，两次回车(使用默认配置)，输入“w”(保存分区表)，开始分区：
+本例使用`fdisk /dev/xvdc`命令，按照界面的提示依次输入”p”(查看现有分区信息)、“n”(新建分区)、“p”(新建主分区)、“2”(新建第2个主分区)，两次回车(使用默认配置)，输入“w”(保存分区表)，开始分区：  
 ![](//mccdn.qcloud.com/static/img/8c35d6f4dfb367e74edc27ce6822c317/image.png)
 这里是以创建1个分区为例，用户也可以根据自己的需求创建多个分区。
 
@@ -217,13 +217,13 @@ fdisk [硬盘路径]
 ```
 fdisk -l
 ```
-
+  
 ![](//mccdn.qcloud.com/static/img/e04e924d62317bc2c605c8abaac394f5/image.png)
 这里新的分区xvdc2已经创建完成。
 
 #### 格式化新分区并创建文件系统
 在进行分区格式化时，用户可以自行决定文件系统的格式，如ext2、ext3等。这里以“ext3”为例，使用命令`mkfs.ext3 /dev/xvdc2`对新分区进行格式化。 
-
+  
 ![](//mccdn.qcloud.com/static/img/074e23eaa580495f96fb532b688d2d68/image.png)
 
 #### 挂载新分区
@@ -238,7 +238,7 @@ mkdir 新挂载点
 mount 新分区路径 新挂载点
 ```
 
-这里使用命令`mkdir /data1`创建data1目录，再通过`mount /dev/xvdc2 /data1`命令手动挂载新分区后，用`df -h`命令查看，出现以下信息说明挂载成功，即可以查看到数据盘了：
+这里使用命令`mkdir /data1`创建data1目录，再通过`mount /dev/xvdc2 /data1`命令手动挂载新分区后，用`df -h`命令查看，出现以下信息说明挂载成功，即可以查看到数据盘了：  
 ![](//mccdn.qcloud.com/static/img/7b749a4bb6e7c8267c9354e1590c35d4/image.png)
 
 #### 添加新分区信息
@@ -246,8 +246,8 @@ mount 新分区路径 新挂载点
 
 执行以下命令添加信息：
 `echo '/dev/xvdc2 /data1 ext3 defaults 0 0' >> /etc/fstab`
-
-执行`cat /etc/fstab`命令查看，出现以下信息表示添加分区信息成功：
+  
+执行`cat /etc/fstab`命令查看，出现以下信息表示添加分区信息成功：  
 ![](//mccdn.qcloud.com/static/img/f0b5c14bf08fd3629ddf6d9b1ae01ffc/image.png)
 
 ### 将新空间增加到已有分区空间中
@@ -266,7 +266,7 @@ mount 新分区路径 新挂载点
 ```
 umount 挂载点
 ```
-
+  
 ![](//mccdn.qcloud.com/static/img/c0acc05057941681627a5fd34979d194/image.jpg)
 
 #### 下载一键扩容工具
@@ -282,7 +282,7 @@ wget -O /tmp/devresize.py http://mirrors.tencentyun.com/install/virts/devresize.
 python /tmp/devresize.py 硬盘路径
 ```
 请注意，这里硬盘路径是需要扩容的云硬盘，而不是分区名。若您的文件系统在vdb1上，则应执行`python /tmp/devresize.py  /dev/vdb`
-
+  
 ![](//mccdn.qcloud.com/static/img/c7617b90578192d64d19f02325f00ffb/image.jpg)
 
 若输出“The filesystem on /dev/vdb1 is now XXXXX blocks long.“则表示扩容成功。
@@ -306,7 +306,7 @@ mount 分区路径 挂载点
 df -h
 ```
 
-这里通过`mount /dev/vdb1 /data`命令手动挂载扩容后的分区(如果原先是没有分区的，执行`mount /dev/vdb /data`)，用`df -h`命令查看，出现以下信息说明挂载成功，即可以查看到数据盘了:
+这里通过`mount /dev/vdb1 /data`命令手动挂载扩容后的分区(如果原先是没有分区的，执行`mount /dev/vdb /data`)，用`df -h`命令查看，出现以下信息说明挂载成功，即可以查看到数据盘了:  
 
 ![](//mccdn.qcloud.com/static/img/2367f3e70cd0c3c1bef665cc47c1c3bc/image.jpg)
 再执行`ll /data`命令，可以查看到，扩容后原分区的数据没有丢失，新增加的存储空间已经扩容到文件系统中。
