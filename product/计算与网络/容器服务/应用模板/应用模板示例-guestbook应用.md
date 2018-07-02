@@ -1,28 +1,28 @@
-﻿Guestbook留言板是一个比较典型的web应用服务，由一个frontend前端服务和redis-master和redis-slave两个后端存储服务组成。用户通过web前端提交数据，写入到redis-master上，然后通过读取同步到redis-slave上的数据展示给用户。
+Guestbook留言板是一个比较典型的web应用服务，由一个frontend前端服务和redis-master和redis-slave两个后端存储服务组成。用户通过web前端提交数据，写入到redis-master上，然后通过读取同步到redis-slave上的数据展示给用户。
 
 为了实现快速的在不同集群或者集群的不同namespace中部署Guestbook应用，可以先将Gustbook部署相关的配置保存到应用模板中，然后使用应用模板快速部署对应的应用。
 
-本示例将介绍如何将创建Gustbook的应用模板。
+本示例将介绍如何将创建Gustbook的应用模板。  
 
 ## 步骤一: 创建应用模板
 
-在[应用模板][1]列表中，点击新建按钮。
+在[应用模板][1]列表中，点击新建按钮。  
 
-![001-新建应用模板.png-39.8kB][2]
+![001-新建应用模板.png-39.8kB][2]  
 
 ## 步骤二: 编辑应用模板
 
-**2.1 填写应用模板名称**
+**2.1 填写应用模板名称**  
 
-![应用模板gustbook示例-001.png-15.9kB][3]
+![应用模板gustbook示例-001.png-15.9kB][3]  
 
 **2.2 创建frontend服务**
 
-(1) 点击图中`新增空服务`按钮，新增一个服务。服务名称设置为frontend。
+(1) 点击图中`新增空服务`按钮，新增一个服务。服务名称设置为frontend。  
 
-![应用模板gustbook示例-002.png-25.9kB][4]
+![应用模板gustbook示例-002.png-25.9kB][4]  
 
-(2) 在模板内容的编辑框中，填写`frontend`服务的模板内容。可以直接拷贝下面的内容导编辑框中。
+(2) 在模板内容的编辑框中，填写`frontend`服务的模板内容。可以直接拷贝下面的内容导编辑框中。  
 
 ```
 apiVersion: extensions/v1beta1

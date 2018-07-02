@@ -16,14 +16,14 @@ Content-Type: application/xml
 Content-MD5: MD5
 Authorization: Auth String
 
-<XML 文件>
+<XML file>
 ```
 > Authorization: Auth String (详细参见 [访问控制](http://tcecqpoc.fsphere.cn/document/product/436/7778) 章节)
 
 ### 请求行
 ~~~
 PUT /?cors HTTP/1.1
-~~~ 
+~~~
 该 API 接口接受 PUT 请求。
 ### 请求头
 

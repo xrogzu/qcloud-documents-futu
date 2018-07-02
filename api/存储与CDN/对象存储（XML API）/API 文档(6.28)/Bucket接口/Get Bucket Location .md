@@ -47,7 +47,7 @@ GET /?location HTTP/1.1
 
 |节点名称（关键字）|父节点|描述|类型|
 |:---|:-- |:--|:--|
-| LocationConstraint |无| 说明 Bucket 所在地域，枚举值参见 [可用地域](http://tcecqpoc.fsphere.cn/document/product/436/6224) 文档，如：ap-beijing, ap-hongkong, eu-frankfurt 等 | String |
+| LocationConstraint |无| "":表示默认地域 | String |
 
 ## 实际案例
 
@@ -69,6 +69,6 @@ Date: Wed, 18 Oct 2014 22:32:00 GMT
 Server: tencent-cos
 x-cos-request-id: NTg4MDg0NzlfNDYyMDRlXzM0OWFfZjFk
 
-<LocationConstraint>cos.ap-beijing</LocationConstraint>
+<LocationConstraint></LocationConstraint>
 ```
 

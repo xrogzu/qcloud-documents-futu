@@ -1,5 +1,5 @@
 ## 功能描述
-Get Object 接口请求可以在 COS 的 Bucket 中将一个文件（Object）下载至本地。该操作需要请求者对目标 Object 具有读权限或目标 Object 对所有人都开放了读权限（公有读）。
+GET Object 接口请求可以在 COS 的存储桶中将一个对象下载至本地。该操作需要请求者对存储桶有读取权限。 
 
 ## 请求
 
@@ -55,13 +55,6 @@ GET /<ObjectName>?response-content-type=ContentType&response-content-language=Co
 | If-Match            | 当 ETag 与指定的内容一致，才返回文件。否则返回 412 (precondition failed) | String | 否    |
 | If-None-Match       | 当 ETag 与指定的内容不一致，才返回文件。否则返回 304 (not modified) | String | 否    |
 
-
-**说明**
-
-如果If-None-Match 与 If-Modified-Since同时携带，If-None-Match 不匹配，If-Modified-Since匹配，则返回304 Not Modified
-
-如果If-Match 与 If-Unmodified-Since同时携带，If-Match 匹配，If-Unmodified-Since 不匹配，则返回200 OK
-
 ### 请求体
 该请求的请求体为空。
 
@@ -77,17 +70,6 @@ GET /<ObjectName>?response-content-type=ContentType&response-content-language=Co
 | :------------------ | :--------------------------------------- | :----- |
 | x-cos-meta- *       | 用户自定义的元数据                                | String |
 | x-cos-object-type   | 用来表示 object 是否可以被追加上传，枚举值：normal 或者 appendable | String |
-| x-cos-storage-class | Object 的存储级别，枚举值：STANDARD，STANDARD_IA，NEARLINE | String |
-
-**服务端加密相关响应**
-
-如果在上传时指定使用了服务端加密，响应头部将会包含如下信息：
-
-| 名称                           | 描述                                       | 类型     |
-| ---------------------------- | ---------------------------------------- | ------ |
-| x-cos-server-side-encryption | 指定将对象启用服务端加密的方式。<br/>使用 COS 主密钥加密：AES256 | String |
-
-*注意：如果对象使用了启用了服务端加密，获取数据时云平台 COS 将会自动执行解密并返回解密后的数据。发送 GET/HEAD Object 请求时，无需带入 `x-cos-server-side-encryption` 头部，否则请求将返回 `400 BadRequest` 错误。*
 
 ### 响应体
 
@@ -118,7 +100,6 @@ ETag: "9a4802d5c99dafe1c04da0a8e7e166bf"
 Last-Modified: Wed, 28 Oct 2014 20:30:00 GMT
 x-cos-object-type: normal
 x-cos-request-id: NTg3NzQ3ZmVfYmRjMzVfMzE5N182NzczMQ==
-x-cos-storage-class: STANDARD
 
 [Object]
 ```
@@ -146,7 +127,6 @@ ETag: "9a4802d5c99dafe1c04da0a8e7e166bf"
 Last-Modified: Wed, 28 Oct 2014 20:30:00 GMT
 x-cos-object-type: normal
 x-cos-request-id: NTg3NzQ3ZmVfYmRjMzVfMzE5N182NzczMQ==
-x-cos-storage-class: STANDARD
 
 [Object]
 ```

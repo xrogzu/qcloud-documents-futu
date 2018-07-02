@@ -66,14 +66,6 @@ PUT /ObjectName?partNumber=PartNumber&uploadId=UploadId HTTP/1.1
 ### 响应头
 #### 公共响应头 
 该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](http://tcecqpoc.fsphere.cn/document/product/436/7729) 章节。
-#### 特有响应头
-**服务端加密相关响应**
-
-如果在上传时指定使用了服务端加密，响应头部将会包含如下信息：
-
-| 名称                           | 描述                                       | 类型     |
-| ---------------------------- | ---------------------------------------- | ------ |
-| x-cos-server-side-encryption | 指定将对象启用服务端加密的方式。<br/>使用 COS 主密钥加密：AES256 | String |
 
 ### 响应体
 该响应的响应体为空。

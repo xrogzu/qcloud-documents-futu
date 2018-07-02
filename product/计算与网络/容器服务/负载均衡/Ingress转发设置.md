@@ -7,8 +7,8 @@
 
 Ingress类型目前支持应用型LB, 应用型LB后端容器节点需打开对应的端口，公网访问和VPC内访问默认已开启主机端口， 仅在集群内访问的服务默认不开启主机端口，但如果设置为ingress后端服务将会自动开启主机端口，不启用访问方式的服务不支持设置Ingress,
 
-您可以灵活的使用Ingress来设置您的服务的访问方式。服务的访问方式与Ingress不冲突，您可以通过使用两种方式，如下图：
-![Alt text][roledemo]
+您可以灵活的使用Ingress来设置您的服务的访问方式。服务的访问方式与Ingress不冲突，您可以通过使用两种方式，如下图：  
+![Alt text][roledemo]  
 
 ### 域名通配符说明
 域名配置规则, 需同时满足公网应用型负载均衡域名规则和kubernetes的ingress域名规则：
@@ -24,20 +24,20 @@ Ingress类型目前支持应用型LB, 应用型LB后端容器节点需打开对�
 - hello 服务：监听80端口，入口文件位于/path_hello/index.html
 - bye 服务：监听80端口，入口文件位于/path_bye/index.html
 
-在Ingress页面创建Ingress(已有Ingress可跳过该步骤)
-![Alt text][create]
+在Ingress页面创建Ingress(已有Ingress可跳过该步骤)  
+![Alt text][create]  
 
-将自有域名解析到该负载均衡器的VIP，详细见[域名解析帮助文档](http://tcecqpoc.fsphere.cn/document/product/302/3446)。
+将自有域名解析到该负载均衡器的VIP。
 本示例www.qcloudccs.com解析到示例负载均衡。
 
-设置Ingress转发规则:
+设置Ingress转发规则:  
 
-![Alt text][set]
+![Alt text][set]  
 
-测试访问：
+测试访问：  
 
-![Alt text](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/4160d18aad9fd9d0da7b69cabce9f2f9/%7BEF8EA5D8-4859-4008-9E3C-B98E7E25AAAF%7D.png)
-![Alt text](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/47d9eca8fef9f7c492c4033d8080a0ae/%7B1700D9DE-417D-4F3E-8E9E-0883FA9A5C5C%7D.png)
+![Alt text](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/4160d18aad9fd9d0da7b69cabce9f2f9/%7BEF8EA5D8-4859-4008-9E3C-B98E7E25AAAF%7D.png)  
+![Alt text](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/47d9eca8fef9f7c492c4033d8080a0ae/%7B1700D9DE-417D-4F3E-8E9E-0883FA9A5C5C%7D.png)  
 
 
 

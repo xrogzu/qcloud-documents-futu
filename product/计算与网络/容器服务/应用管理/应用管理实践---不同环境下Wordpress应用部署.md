@@ -1,4 +1,4 @@
-﻿在Devops流程中，往往包含多个环境，例如包含：开发(Dev)，测试(Test/beta)，预发布（pre-product）， 生产环境(product)。在不同环境中都需要对应用进行部署。
+在Devops流程中，往往包含多个环境，例如包含：开发(Dev)，测试(Test/beta)，预发布（pre-product）， 生产环境(product)。在不同环境中都需要对应用进行部署。
 
 WordPress是一个内容管理平台，是世界上建立博客和网站最流行的网络发布平台之一，可以让用户轻松地发布，管理和组织各种内容到目标的网站上。在本示例中我们将通过wordpress部署的例子，介绍如何通过`Namespace`命名空间对不同环境进行隔离，通过应用模板+配置实现不同环境下应用的部署。
 
@@ -13,13 +13,13 @@ WordPress是一个内容管理平台，是世界上建立博客和网站最流�
 
 ### 新建wordpress应用模板
 
-在[应用模板列表][2]页面，点击`新建`按钮，新建一个应用模板。
+在[应用模板列表][2]页面，点击`新建`按钮，新建一个应用模板。  
 
-![应用管理wordpress-01.png-38.2kB][3]
+![应用管理wordpress-01.png-38.2kB][3]  
 
-在应用模板中，填写应用模板的名称`wordpress`。
+在应用模板中，填写应用模板的名称`wordpress`。  
 
-![应用管理wordpress-02.png-29.3kB][4]
+![应用管理wordpress-02.png-29.3kB][4]  
 
 ### 导入mariadb服务
 
@@ -27,9 +27,9 @@ WordPress是一个内容管理平台，是世界上建立博客和网站最流�
 
 **导入方法1： 通过控制台之间导入**
 
-点击`导入服务`按钮，在控制台填写服务对应参数
+点击`导入服务`按钮，在控制台填写服务对应参数  
 
-![应用管理wordpress-03.png-70.1kB][6]
+![应用管理wordpress-03.png-70.1kB][6]  
 
 设置服务的基本信息：
 1. 填写服务名称`mariadb`
@@ -66,9 +66,9 @@ MYSQL_ROOT_PASSWORD： root
 
 **导入方法2： 通过YAML文件导入**
 
-在应用模板页面，点击`+`按钮，新增一个服务。服务名称设置为`mariadb`
+在应用模板页面，点击`+`按钮，新增一个服务。服务名称设置为`mariadb`  
 
-![应用管理wordpress-06.png-39.1kB][11]
+![应用管理wordpress-06.png-39.1kB][11]  
 
 在模板内容编辑区域，将下面的YAML文本内容直接导入：
 
@@ -131,9 +131,9 @@ spec:
 status:
   loadBalancer: {}
 ```
-这里自动提取了`NAMESPACE`和`ReleaseCBS_mariadb_vol`作为配置项。并填写`NAMESPACE`配置项的值为`default`。`NAMESPACE`用来表示服务部署到集群的哪个命名空间，更多关于命名空间的说明可以参数[Namespace使用指引][12]。`ReleaseCBS_XXXX`为容器服务为使用Cbs云盘定义的变量，更多关于ReleaseCBS自定义变量的说明可以参考[自定义变量--ReleaseCBS][13]。
+这里自动提取了`NAMESPACE`和`ReleaseCBS_mariadb_vol`作为配置项。并填写`NAMESPACE`配置项的值为`default`。`NAMESPACE`用来表示服务部署到集群的哪个命名空间，更多关于命名空间的说明可以参数[Namespace使用指引][12]。`ReleaseCBS_XXXX`为容器服务为使用Cbs云盘定义的变量，更多关于ReleaseCBS自定义变量的说明可以参考[自定义变量--ReleaseCBS][13]。  
 
-![应用管理wordpress-07.png-50.7kB][14]
+![应用管理wordpress-07.png-50.7kB][14]  
 
 ### 导入wordpress服务
 
@@ -246,19 +246,19 @@ spec:
 status:
   loadBalancer: {}
 ```
-这里自动提取ReleaseCBS_wordpress_wordpress_persistent_storage作为配置项。`ReleaseCBS_XXXX`为容器服务为使用Cbs云盘定义的变量，更多关于ReleaseCBS自定义变量的说明可以参考[自定义变量--ReleaseCBS][21]
+这里自动提取ReleaseCBS_wordpress_wordpress_persistent_storage作为配置项。`ReleaseCBS_XXXX`为容器服务为使用Cbs云盘定义的变量，更多关于ReleaseCBS自定义变量的说明可以参考[自定义变量--ReleaseCBS][21]  
 
 ### 参数转换为配置项
 
-在不同环境中部署，可能会存在不同环境下参数一致的情况。这里在模板内容区域将CPU使用资源设置为变量，在不同环境下设置成不同的值。
-![wordpress][23]
+在不同环境中部署，可能会存在不同环境下参数一致的情况。这里在模板内容区域将CPU使用资源设置为变量，在不同环境下设置成不同的值。  
+![wordpress][23]  
 
-在这个示例中我们将CPU分配资源量和最大限制使用资源量设置为变量。分别用变量`CPU_LIMITS`和`CPU_REQUEST`表示。变量的形式符合`{{.}}`这样的形式。更多关于模板中变量的使用可以参考[变量设置][24]。
+在这个示例中我们将CPU分配资源量和最大限制使用资源量设置为变量。分别用变量`CPU_LIMITS`和`CPU_REQUEST`表示。变量的形式符合`{{.}}`这样的形式。更多关于模板中变量的使用可以参考[变量设置][24]。  
 这里自动提取变量`CPU_LIMITS`和`CPU_REQUEST`，设置`CPU_LIMITS`的默认值为200m,`CPU_REQUEST`为100m。(1m=0.001核)。
 
-点击`完成`后，保存模板信息。在[模板列表页][25]可以看到新创建的模板。
+点击`完成`后，保存模板信息。在[模板列表页][25]可以看到新创建的模板。  
 
-![应用管理wordpress-14.png-27.4kB][26]
+![应用管理wordpress-14.png-27.4kB][26]  
 
 ## 步骤二： 创建不同环境的命名空间
 
@@ -271,22 +271,22 @@ status:
 1. 在集群列表页中选择某集群的 ID/名称。
 2. 单击 Namespace 列表 ，单击【新建 Namespace 】。
 
-更多关于命名空间的操作，可以参考[Namespace使用指引][28]。
+更多关于命名空间的操作，可以参考[Namespace使用指引][28]。  
 
-![应用管理wordpress-23.png-31.1kB][29]
+![应用管理wordpress-23.png-31.1kB][29]  
 
-在本示例中，我们依次创建devnamespace,testnamespace,prenamespace,prodnamespace。
+在本示例中，我们依次创建devnamespace,testnamespace,prenamespace,prodnamespace。  
 
-![应用管理wordpress-24.png-33kB][30]
+![应用管理wordpress-24.png-33kB][30]  
 
 ## 步骤三： 创建不同环境的CBS盘
-由于[云硬盘][31]页面，选择对应的区域点击新建按钮，创建新的云硬盘。
+由于[云硬盘][31]页面，选择对应的区域点击新建按钮，创建新的云硬盘。  
 
-![应用管理wordpress-16.png-35.2kB][32]
+![应用管理wordpress-16.png-35.2kB][32]  
 
-填写对应的参数：
+填写对应的参数：  
 
-![应用管理wordpress-17.png-93.9kB][33]
+![应用管理wordpress-17.png-93.9kB][33]  
 
 设置的主要参数包括：
 1. 磁盘名称，例如： wordpress-dev
@@ -296,19 +296,18 @@ status:
 5. 选择磁盘数量，由于应用中两个服务各使用了一块磁盘，所以每个环境需要购买两块磁盘。
 6. 点击`完成`按钮，确认购买
 
-购买完成后，等待2~3分钟，可以看cbs盘的页面查看到对应的磁盘。
+购买完成后，等待2~3分钟，可以看cbs盘的页面查看到对应的磁盘。  
 
-![应用管理wordpress-18.png-76.3kB][34]
-
+![应用管理wordpress-18.png-76.3kB][34]  
+ 
 ## 步骤四： 创建不同环境的配置项
 
-在不同环境中，可以将不同环境的差异化信息通过配置项保存。在[配置项][35]页面，点击新建按钮，可以创建对应的配置文件。
+在不同环境中，可以将不同环境的差异化信息通过配置项保存。在[配置项][35]页面，点击新建按钮，可以创建对应的配置文件。  
+![应用管理wordpress-15.png-35.2kB][36]  
 
-![应用管理wordpress-15.png-35.2kB][36]
+**dev环境配置项：**  
 
-**dev环境配置项：**
-
-![应用管理wordpress-19.png-31.5kB][37]
+![应用管理wordpress-19.png-31.5kB][37]  
 
 ```
 NAMESPACE: devnamespace
@@ -318,9 +317,9 @@ CPU_LIMITS: 200m
 CPU_REQUEST: 100m
 ```
 
-**test环境配置项：**
+**test环境配置项：**  
 
-![应用管理wordpress-22.png-31.8kB][38]
+![应用管理wordpress-22.png-31.8kB][38]  
 
 ```
 NAMESPACE: testnamespace
@@ -330,9 +329,9 @@ CPU_LIMITS: 200m
 CPU_REQUEST: 100m
 ```
 
-**pre-product环境配置项：**
+**pre-product环境配置项：**  
 
-![应用管理wordpress-20.png-31.8kB][39]
+![应用管理wordpress-20.png-31.8kB][39]  
 
 ```
 NAMESPACE: prenamespace
@@ -341,9 +340,9 @@ ReleaseCBS_wordpress_wordpress_persistent_storage: disk-pxtmsa7b
 CPU_LIMITS: 200m
 CPU_REQUEST: 100m
 ```
-**product环境配置项：**
+**product环境配置项：**  
 
-![应用管理wordpress-22.png-31.8kB][40]
+![应用管理wordpress-22.png-31.8kB][40]  
 
 ```
 NAMESPACE: prodnamespace
@@ -361,9 +360,9 @@ CPU_REQUEST: 400m
 在[应用列表][41]选择创建了命名空间的集群。点击`新建`按钮。
 
 ### 选择应用对应的模板和配置
-在新建应用页面，选择对应的应用模板和配置项。
+在新建应用页面，选择对应的应用模板和配置项。  
 
-![应用管理wordpress-26.png-41.7kB][43]
+![应用管理wordpress-26.png-41.7kB][43]  
 
 应用名称： 设置为wordpress-dev
 应用描述:  开发环境应用
@@ -372,47 +371,47 @@ CPU_REQUEST: 400m
 模板选择:  选择`步骤一`中创建的应用模板
 配置项选择: 选择`步骤四`中创建的开发环境的配置项
 
-点击`下一步`，对应用中的模板内容进行再次编辑。由于我们已经在应用模板和配置项中完成了对应的设置，所以这里直接点击`完成`按钮，完成应用内容的编辑。
+点击`下一步`，对应用中的模板内容进行再次编辑。由于我们已经在应用模板和配置项中完成了对应的设置，所以这里直接点击`完成`按钮，完成应用内容的编辑。  
 
-![应用管理wordpress-27.png-39.5kB][44]
+![应用管理wordpress-27.png-39.5kB][44]  
 
 ### 查看应用状态
 
-在应用列表页面，可以查看到新创建的应用，只是此时应用还处于未部署状态。
+在应用列表页面，可以查看到新创建的应用，只是此时应用还处于未部署状态。  
 
-![应用管理wordpress-28.png-17.7kB][45]
+![应用管理wordpress-28.png-17.7kB][45]  
 
 ### 应用详情页面部署应用中的服务
 
-点击应用的名称，可以查看应用的详情。在应用的详情页面，可以对应用进行部署操作。
+点击应用的名称，可以查看应用的详情。在应用的详情页面，可以对应用进行部署操作。  
 
-![应用管理wordpress-29.png-30.5kB][46]
+![应用管理wordpress-29.png-30.5kB][46]  
 
 点击`部署`按钮完成应用中服务的部署。
 
 ### 查看服务的信息
 
-在完成部署后，应用中服务的状态变为`已部署`，服务的运行状态变为`运行中`。
+在完成部署后，应用中服务的状态变为`已部署`，服务的运行状态变为`运行中`。  
 
-![应用管理wordpress-30.png-37.4kB][47]
+![应用管理wordpress-30.png-37.4kB][47]  
 
-点击服务的名称，可以跳转到服务详细页面，可以查看更多服务的信息。
+点击服务的名称，可以跳转到服务详细页面，可以查看更多服务的信息。  
 
-![应用管理wordpress-31.png-48.7kB][48]
+![应用管理wordpress-31.png-48.7kB][48]  
 
 ### 访问服务测试
 
-使用wordpress中服务访问的外网IP和服务端口，可以发起对服务的访问。
+使用wordpress中服务访问的外网IP和服务端口，可以发起对服务的访问。  
 
-![应用管理wordpress-32.png-62kB][49]
+![应用管理wordpress-32.png-62kB][49]  
 
 这样就完成了dev(开发)环境的wordpress应用的部署。
 
 ### 应用部署到不同环境
 
-执行同样的步骤，在应用配置时选择不同环境下对应的配置。可以将应用部署到不同的环境。部署完成后，可以在应用列表查看应用的信息。
+执行同样的步骤，在应用配置时选择不同环境下对应的配置。可以将应用部署到不同的环境。部署完成后，可以在应用列表查看应用的信息。  
 
-![应用管理wordpress-33.png-28.9kB][50]
+![应用管理wordpress-33.png-28.9kB][50]  
 
 这样基于同一个应用模板和不同环境下的配置信息，就将应用部署到了不同的环境。
 

@@ -1,14 +1,5 @@
 ## 功能描述
-Put Object ACL 接口用来对某个 Bucket 中的某个的 Object 进行 ACL 表的配置，您可以通过 Header："x-cos-acl"，"x-cos-grant-read"，"x-cos-grant-write"，"x-cos-grant-full-control" 传入 ACL 信息，或者通过 Body 以 XML 格式传入 ACL 信息。
->**注意：**
->Header 和 Body 只能选择其中一种，否则响应返回会冲突。
->Put Object ACL 是一个覆盖操作，传入新的 ACL 将覆盖原有 ACL。
->只有 Bucket 持有者才有权操作。
-
-### 细节分析
-1. 既可以通过头部设置，也可以通过 xml body 设置，只使用一种方法。
-2. ACL策略数上限1000，建议用户不要每个上传文件都设置 ACL。
-3. 把文件夹设置成私有后，给该文件夹下的文件及文件夹设置公有属性，不会生效。
+PUT Object acl 接口用来对某个 Bucket 中的某个的 Object 进行 ACL 表的配置，您可以通过 Header:"x-cos-acl"，"x-cos-grant-read"，"x-cos-grant-write"，"x-cos-grant-full-control" 传入 ACL 信息，或者通过 Body 以 XML 格式传入 ACL 信息。 
 
 ## 请求
 
@@ -126,10 +117,10 @@ Container 节点 Grantee 的内容：<style  rel="stylesheet"> table th:nth-of-t
 
 |错误码|HTTP状态码|描述|
 |--|--|--|
-|InvalidDigest|400 Bad Request|用户带的 Content-MD5 和 COS 计算 body 的 Content-MD5 不一致|
-|MalformedXML|400 Bad Request|传入的 xml 格式有误，请跟 restful api 文档仔细比对|
-|InvalidArgument|400 Bad Request|参数错误，具体可以参考错误信息|
-|NoSuchKey|404 Not Found| Object 不存在|
+|SignatureDoesNotMatch|403 Bad Request|提供的签名不符合规则，返回该错误码|
+|MalformedXML|400 Bad Request|XML 格式不合法，请跟 Restful API 文档仔细比对|
+|InvalidRequest|400 Bad Request|请求不合法，如果错误描述中显示"header acl and body acl conflict"，那么表示不能头部和 body 都有 acl 参数。|
+|NoSuchBucket|404 Not Found| 如果试图添加的规则所在的 Bucket 不存在，返回该错误码 |
 
 获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看 [错误码](http://tcecqpoc.fsphere.cn/document/product/436/7730) 文档。
 ## 实际案例

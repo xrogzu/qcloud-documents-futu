@@ -1,9 +1,5 @@
 ## 功能描述
-Upload Part - Copy  请求实现将一个文件的分块内容从源路径复制到目标路径。通过指定 x-cos-copy-source 来指定源文件，x-cos-copy-source-range 指定字节范围。允许分块的大小为 5 MB - 5 GB。
-
->**注意：**
->如果目标文件和源文件不属于同一个园区，且目标文件分块会超过 5 GB, 那么需要使用分块上传或者分块拷贝的接口来复制文件。
->使用上传分块文件，必须先初始化分块上传。在初始化分块上传的响应中，会返回一个唯一的描述符（upload ID），您需要在分块上传请求中携带此 ID。
+Upload Part - Copy  请求实现将一个文件的分块内容从源路径复制到目标路径。通过指定 x-cos-copy-source 来指定源文件，x-cos-copy-source-range 指定字节范围（允许分块的大小为 5 MB - 5 GB）。
 
 ## 请求
 
@@ -64,14 +60,6 @@ PUT /destinationObject?partNumber=PartNumber&uploadId=UploadId  HTTP/1.1
 ### 响应头
 #### 公共响应头 
 该响应使用公共响应头，了解公共响应头详细请参见 [公共响应头部](http://tcecqpoc.fsphere.cn/document/product/436/7729) 章节。
-#### 特有响应头
-**服务端加密相关响应**
-
-如果在上传时指定使用了服务端加密，响应头部将会包含如下信息：
-
-| 名称                           | 描述                                       | 类型     |
-| ---------------------------- | ---------------------------------------- | ------ |
-| x-cos-server-side-encryption | 指定将对象启用服务端加密的方式。<br/>使用 COS 主密钥加密：AES256 | String |
 
 ### 响应体
 该响应体返回为 **application/xml** 数据，包含完整节点数据的内容展示如下：

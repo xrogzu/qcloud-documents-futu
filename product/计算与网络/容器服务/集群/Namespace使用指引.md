@@ -14,7 +14,7 @@ Kubernetes 集群在启动时会默认创建 `default` 和 `kube-system` 这两�
 ## Namespace 操作指引
 ### 创建 Namespace
 1. 登录 [容器服务控制台](http://console.tcecqpoc.fsphere.cn/ccs) 。
-2. 单击左侧导航栏中的 **集群** 。
+2. 单击左侧导航栏中的 **集群** 。  
 3. 在集群列表中单击集群的 **ID/名称**。
 ![](https:https:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/61849c3dd8141879ca64e52a7348a065/image.png)
 4. 点击 **Namespace 列表** ，单击【新建 Namespace 】。
@@ -26,7 +26,7 @@ Kubernetes 集群在启动时会默认创建 `default` 和 `kube-system` 这两�
 
 ### 查看 Namespace 列表
 1. 登录 [容器服务控制台](http://console.tcecqpoc.fsphere.cn/ccs) 。
-2. 单击左侧导航栏中的 **集群** 。
+2. 单击左侧导航栏中的 **集群** 。  
 3. 在集群列表中单击集群的 **ID/名称**。
 ![](https:https:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/61849c3dd8141879ca64e52a7348a065/image.png)
 4. 单击要查看集群的 ** Namespace 列表**。
@@ -34,14 +34,13 @@ Kubernetes 集群在启动时会默认创建 `default` 和 `kube-system` 这两�
 
 ### 使用 Namespace
 1. 创建服务时，选择对应的 Namespace。
-![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/0c7959a293de17fe5ceb3c34f3be8597/image.png)
-
+![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/0c7959a293de17fe5ceb3c34f3be8597/image.png)  
 2. 查询服务时，选择对应的 Namespace ，查看对应 Namespace 下的所有服务。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a2874127fc88b6deffe23710fe3b471b/image.png)
 
 ### 删除集群 Namespace
 1. 登录 [容器服务控制台](http://console.tcecqpoc.fsphere.cn/ccs) 。
-2. 单击左侧导航栏中的 **集群** 。
+2. 单击左侧导航栏中的 **集群** 。  
 3. 在集群列表中单击集群的 **ID/名称**。
 ![](https:https:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/61849c3dd8141879ca64e52a7348a065/image.png)
 4. 点击 **Namespace 列表** ，选择需删除的 Namespace，单击右侧【删除】。

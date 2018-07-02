@@ -1,5 +1,5 @@
 ## 功能描述
-Get Bucket ACL 接口用来获取 Bucket 的 ACL(access control list)， 即用户空间（Bucket）的访问权限控制列表。 此 API 接口只有 Bucket 的持有者有权限操作。
+Get Bucket ACL 接口用来获取 Bucket 的 ACL(access control list)， 即用户空间（Bucket）的访问权限控制列表。
 
 ## 请求
 
@@ -130,25 +130,20 @@ Date: Fri, 10 Mar 2016 09:45:46 GMT
 Server: tencent-cos
 x-cos-request-id: NTg3NzRiMjVfYmRjMzVfMTViMl82ZGZmNw==
 
-<AccessControlPolicy>
+<?xml version="1.0" encoding="utf-8"?>
+
+<AccessControlPolicy xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
   <Owner>
-    <ID>qcs::cam::uin/12345:uin/12345</ID>
-    <DisplayName>qcs::cam::uin/12345:uin/12345</DisplayName>
+    <ID>qcs::cam::uin/100004603005:uin/100004603005</ID>
+    <DisplayName>qcs::cam::uin/100004603005:uin/100004603005</DisplayName>
   </Owner>
   <AccessControlList>
     <Grant>
-      <Grantee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="RootAccount">
-        <ID>qcs::cam::uin/12345:uin/12345</ID>
-        <DisplayName>qcs::cam::uin/12345:uin/12345</DisplayName>
+      <Grantee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CanonicalUser">
+        <ID>qcs::cam::uin/100004603005:uin/100004603005</ID>
+        <DisplayName>qcs::cam::uin/100004603005:uin/100004603005</DisplayName>
       </Grantee>
       <Permission>FULL_CONTROL</Permission>
-    </Grant>
-    <Grant>
-      <Grantee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="RootAccount">
-        <ID>qcs::cam::uin/54321:uin/54321</ID>
-        <DisplayName>qcs::cam::anyone:anyone</DisplayName>
-      </Grantee>
-      <Permission>READ</Permission>
     </Grant>
   </AccessControlList>
 </AccessControlPolicy>

@@ -15,7 +15,7 @@ dimensions.1.value为私有网络ID
 
 ## 2. 输入参数
 
-以下请求参数列表仅列出了接口请求参数，正式调用时需要加上公共请求参数，见<a href="/doc/api/405/公共请求参数" title="公共请求参数">公共请求参数</a>页面。其中，此接口的Action字段为GetMonitorData。
+以下请求参数列表仅列出了接口请求参数，正式调用时需要加上公共请求参数，见<a href="http://tcecqpoc.fsphere.cn/document/product/213/4478" title="公共请求参数">公共请求参数</a>页面。其中，此接口的Action字段为GetMonitorData。
 
 ### 2.1输入参数
 
@@ -72,7 +72,7 @@ dimensions.1.value为私有网络ID
 
 <pre>
 http://monitor.api.qcloud.com/v2/index.php?
-&<a href="/doc/api/405/公共请求参数" title="公共请求参数">公共请求参数</a>
+&<a href="http://tcecqpoc.fsphere.cn/document/product/213/4478" title="公共请求参数">公共请求参数</a>
 &namespace=qce/nat_gateway
 &metricName=inpkg
 &dimensions.0.name=natId

@@ -1,5 +1,6 @@
 ## 功能描述
-Post Object 接口请求允许使用者用表单的形式将文件（Object）上传至指定 Bucket 中。该操作需要请求者对 Bucket 有 WRITE 权限。所有由 HTTP 头部携带的 API 参数，都使用表单字段请求。
+POST Object 接口请求允许使用者用表单的形式将文件（Object）上传至指定 Bucket 中。该操作需要请求者对 Bucket 有 WRITE 权限。所有由 HTTP 头部携带的 API 参数，都使用表单字段请求。 
+
 ### 细节分析
 1. 需要有 Bucket 的写权限；
 2. 如果试图添加的 Object 的同名文件已经存在，那么新上传的文件，将覆盖原来的文件，成功时返回 200 OK。
@@ -34,7 +35,6 @@ Form
 | success_action_redirect | 若设置优先生效，返回 303 并提供 Location 头部，在 URL 尾部加上 bucket={bucket}&key={key}&etag={%22etag%22} 参数 |String| 否|
 | success_action_status |可选 200，201，204 默认返回 204。若填写 success_action_redirect 则会略此设置。 |String| 否|
 | x-cos-meta- * | 自定义的信息，将作为 Object 元数据返回。大小限制 2K |String| 否|
-| x-cos-storage-class  | 设置 Object 的存储级别，枚举值：STANDARD，STANDARD_IA，NEARLINE，默认值：STANDARD |String| 否|
 | policy | Base64 编码。用于做请求检查，如果请求的内容和  Policy 指定的条件不符，返回 403 AccessDenied |String| 否|
 
 #### Policy
@@ -107,11 +107,11 @@ Container 节点 PostResponse 的内容：
 
 | 错误码                  |   HTTP 状态码                                      |    描述       |
 | ------------------- | --------------------------------------- | ------------------ |
-| InvalidDigest        |400 Bad Request     | 如果用户上传文件时携带 Content-MD5 头部，COS 会校验 body 的 Md5 和用户携带的 MD5 是否一致，如果不一致将返回 InvalidDigest | 
-| KeyTooLong           |400 Bad Request     | 上传文件时携带的以x-cos-meta开头的自定义头部，每个自定义头部的key和value加起来不能超过4k，否则返回 KeyTooLong 错误 | 
-| MissingContentLength | 411 Length Required |如果上传文件时，没有添加 Content-Length 头部，会返回该错误码     | 
-| NoSuchBucket         | 404 Not Found       |如果试图添加的 Object 所在的 Bucket 不存在，返回 404 Not Found 错误，错误码：NoSuchBucket | 
-| EntityTooLarge       | 400 Bad Request     |如果添加的文件长度超过5G，会返回 EntityTooLarge，并返回错误信息`“Your proposed upload exceeds the maximum allowed object size”` | 
+| InvalidDigest        |400 Bad Request     | 如果用户上传文件时携带 Content-MD5 头部，COS 会校验 body 的 Md5 和用户携带的 MD5 是否一致，如果不一致将返回 InvalidDigest |
+| KeyTooLong           |400 Bad Request     | 上传文件时携带的以x-cos-meta开头的自定义头部，每个自定义头部的key和value加起来不能超过4k，否则返回 KeyTooLong 错误 |
+| MissingContentLength | 411 Length Required |如果上传文件时，没有添加 Content-Length 头部，会返回该错误码     |
+| NoSuchBucket         | 404 Not Found       |如果试图添加的 Object 所在的 Bucket 不存在，返回 404 Not Found 错误，错误码：NoSuchBucket |
+| EntityTooLarge       | 400 Bad Request     |如果添加的文件长度超过5G，会返回 EntityTooLarge，并返回错误信息`“Your proposed upload exceeds the maximum allowed object size”` |
 | InvalidURI           | 400 Bad Request     | 对象 key 长度限制为 850，如果超过 850 会返回 InvalidURI       |
 
 获取更多关于 COS 的错误码的信息，或者产品所有的错误列表，请查看 [错误码](http://tcecqpoc.fsphere.cn/document/product/436/7730) 文档。

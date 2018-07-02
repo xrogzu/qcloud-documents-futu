@@ -1,9 +1,5 @@
 ## 功能描述 
-Put Object 接口为简单上传接口，可以将本地的小于 5 GB 的文件（Object）上传至指定 Bucket 中，大于 5 GB 的文件请使用分片接口上传（Upload Part）。该操作需要请求者对 Bucket 有 WRITE 权限。
-### 细节分析
-1. 需要有 Bucket 的写权限；
-2. 如果请求头的 Content-Length 值小于实际请求体（body）中传输的数据长度，COS 仍将成功创建文件，但 Object 大小只等于 Content-Length 中定义的大小，其他数据将被丢弃；
-3. 如果试图添加的 Object 的同名文件已经存在，那么新上传的文件，将覆盖原来的文件，成功时返回 200 OK。
+PUT Object 接口请求可以将本地的对象（Object）上传至指定存储桶中。该操作需要请求者对存储桶有写入权限。 
 
 ## 请求
 
@@ -49,7 +45,6 @@ PUT /<ObjectName> HTTP/1.1
 | Expect              | 当使用 Expect: 100-continue 时，在收到服务端确认后，才会发送请求内容 | String | 否    |
 | Expires             | RFC 2616 中定义的过期时间，将作为 Object 元数据保存       | String | 否    |
 | x-cos-meta- *       | 允许用户自定义的头部信息，将作为 Object 元数据返回。大小限制 2K    | String | 否    |
-| x-cos-storage-class | 设置 Object 的存储级别，枚举值：STANDARD，STANDARD_IA，NEARLINE，默认值：STANDARD | String | 否    |
 | Content-MD5         | RFC 1864 中定义对消息内容（不包括头部）计算 MD5 值获得 128 比特位数字，对该数字进行 base64 编码为一个消息的 Content-MD5 值。该请求头可用于检查数据是否与发送时一致。虽然该请求头是可选的，但我们建议使用该请求头进行端到端检查 | String | 否    |
 
 **权限相关头部**
@@ -62,14 +57,6 @@ PUT /<ObjectName> HTTP/1.1
 | x-cos-grant-read         | 赋予被授权者读的权限。格式：x-cos-grant-read: id=" ",id=" "；<br/>当需要给子账户授权时，id="qcs::cam::uin/&lt;OwnerUin&gt;:uin/&lt;SubUin&gt;"，<br/>当需要给根账户授权时，id="qcs::cam::uin/&lt;OwnerUin&gt;:uin/&lt;OwnerUin&gt;" | String | 否    |
 | x-cos-grant-write        | 赋予被授权者写的权限。格式：x-cos-grant-write: id=" ",id=" "；<br/>当需要给子账户授权时，id="qcs::cam::uin/&lt;OwnerUin&gt;:uin/&lt;SubUin&gt;"，<br/>当需要给根账户授权时，id="qcs::cam::uin/&lt;OwnerUin&gt;:uin/&lt;OwnerUin&gt;" | String | 否    |
 | x-cos-grant-full-control | 赋予被授权者读写权限。格式：x-cos-grant-full-control: id=" ",id=" "；<br/>当需要给子账户授权时，id="qcs::cam::uin/&lt;OwnerUin&gt;:uin/&lt;SubUin&gt;"，<br/>当需要给根账户授权时，id="qcs::cam::uin/&lt;OwnerUin&gt;:uin/&lt;OwnerUin&gt;" | String | 否    |
-
-**服务端加密相关头部**
-
-该请求操作指定云平台 COS 在数据存储时，应用数据加密的保护策略。云平台 COS 会帮助您在数据写入数据中心时自动加密，并在您取用该数据时自动解密。目前支持使用云平台 COS 主密钥对数据进行 AES-256 加密。如果您需要对数据启用服务端加密，则需传入以下头部：
-
-| 名称                           | 描述                                       | 类型     | 必选     |
-| ---------------------------- | ---------------------------------------- | ------ | ------ |
-| x-cos-server-side-encryption | 指定将对象启用服务端加密的方式。<br/>使用 COS 主密钥加密填写：AES256 | String | 如需加密，是 |
 
 ### 请求体
 
@@ -133,5 +120,4 @@ Content-Length: 0
 Date: Wed, 28 Oct 2015 20:32:00 GMT
 Etag: 020df6d63448ae38a1de7924a68ba1e2
 x-cos-request-id: NTg3ZGNjYTlfNDUyMDRlXzUyOTlfMjRj
-
 ```
