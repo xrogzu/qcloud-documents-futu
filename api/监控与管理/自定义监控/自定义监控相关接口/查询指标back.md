@@ -111,7 +111,7 @@
 <pre>
  http://domain/v2/index.php?Action=DescribeMetric
  &namespace=name1
- &<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>
+ &<a href="/doc/api/229/6976">公共请求参数</a>
 </pre>
 
 输出

@@ -121,7 +121,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## 五、下载 Demo 
 
-访问 [SDK+Demo](http://tcecqpoc.fsphere.cn/document/product/454/7873#XiaoChengXu)，获取小程序 Demo 和后台源码。
+访问 [SDK+Demo](/document/product/454/7873#XiaoChengXu)，获取小程序 Demo 和后台源码。
 
 ## 六、上传和部署代码
 
@@ -174,7 +174,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ##### 2. 运行小程序进入多人音视频看不到画面?
   - 请确认使用手机来运行，微信开发者工具内部的模拟器目前还不支持直接运行
   - 请确认小程序基础库版本 wx.getSystemInfo 可以查询到该信息，1.7.0 以上的基础库才支持音视频能力。
-  - 请确认小程序所属的类目，由于监管要求，并非所有类目的小程序都开发了音视频能力，已支持的类目请参考 [DOC](http://tcecqpoc.fsphere.cn/document/product/454/13037)。
+  - 请确认小程序所属的类目，由于监管要求，并非所有类目的小程序都开发了音视频能力，已支持的类目请参考 [DOC](/document/product/454/13037)。
   - 如有更多需求，或希望深度合作，可以提工单或客服电话（400-9100-100）联系我们。
   
 ##### 3. live-pusher、live-player标签使用及错误码参考

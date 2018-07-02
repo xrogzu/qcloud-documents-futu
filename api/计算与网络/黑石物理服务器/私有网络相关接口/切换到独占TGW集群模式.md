@@ -11,7 +11,7 @@ GET http://bmvpc.api.qcloud.com/v2/index.php?Action=SwitchToTgwExclusiveCluster
     &unVpcId=<vpc网络ID>
 ```
 ### 请求参数
-以下请求参数列表仅列出了接口请求参数，正式调用时需要加上公共请求参数，见<a href="http://tcecqpoc.fsphere.cn/document/api/386/6718" title="公共请求参数">公共请求参数</a>页面。其中，此接口的Action字段为SwitchToTgwExclusiveCluster。
+以下请求参数列表仅列出了接口请求参数，正式调用时需要加上公共请求参数，见<a href="/document/api/386/6718" title="公共请求参数">公共请求参数</a>页面。其中，此接口的Action字段为SwitchToTgwExclusiveCluster。
 
 | 参数名称 | 描述 | 类型 | 必选 |
 |---------|---------|---------|---------|
@@ -41,7 +41,7 @@ data结构
 
 | 参数名称   | 类型   | 描述                        |
 | ------ | ---- | ------------------------- |
-| taskId | Int  | 以taskId为key，对应的值为异步操作的ID。创建结果可调用<a href="http://tcecqpoc.fsphere.cn/document/product/386/9356" title="查询异步任务操作状态">查询异步任务操作状态</a>查询 |
+| taskId | Int  | 以taskId为key，对应的值为异步操作的ID。创建结果可调用<a href="/document/product/386/9356" title="查询异步任务操作状态">查询异步任务操作状态</a>查询 |
 
 ## 错误码
 | 错误码   | 英文提示                                    | 错误描述             |

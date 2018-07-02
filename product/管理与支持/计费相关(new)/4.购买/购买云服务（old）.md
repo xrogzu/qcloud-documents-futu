@@ -1,7 +1,7 @@
 
 本文档以购买云服务器 CVM 为示例。
 
-打开云平台官网[tce.fsphere.c](http://tcecqpoc.fsphere.cn/)登录您的账号。
+打开云平台官网[tce.fsphere.c](/)登录您的账号。
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d51b3731e513004796b196e9ae8e134b/image.png)
 

@@ -17,11 +17,11 @@
 
 <font color="orange">旧版接口 CdnPusherV2 仍可继续使用，差异点在于，旧版接口提交后获取 task_id 不唯一，需要结合时间区间查询，新版 CdnUrlPusher 返回 task_id 唯一，可直接使用 task_id 查询任务状态</font>
 
-[查看调用示例](http://tcecqpoc.fsphere.cn/document/product/228/1734)
+[查看调用示例](/document/product/228/1734)
 
 ## 入参说明
 
-以下请求参数列表仅列出了接口请求参数，正式调用时需要加上公共请求参数，见[公共请求参数](http://tcecqpoc.fsphere.cn/doc/api/231/4473)页面。其中，此接口的 Action 字段为 CdnUrlPusher 。
+以下请求参数列表仅列出了接口请求参数，正式调用时需要加上公共请求参数，见[公共请求参数](/doc/api/231/4473)页面。其中，此接口的 Action 字段为 CdnUrlPusher 。
 
 | 参数名称      | 是否必选 | 类型    | 描述                           |
 | --------- | ---- | ----- | ---------------------------- |
@@ -35,9 +35,9 @@
 ## 出参说明
 | 参数名称     | 类型     | 描述                                       |
 | -------- | ------ | ---------------------------------------- |
-| code     | Int    | 公共错误码，0表示成功，其他值表示失败。<br/>详见错误码页面[公共错误码](http://tcecqpoc.fsphere.cn/doc/api/231/5078#1.-.E5.85.AC.E5.85.B1.E9.94.99.E8.AF.AF.E7.A0.81)。 |
+| code     | Int    | 公共错误码，0表示成功，其他值表示失败。<br/>详见错误码页面[公共错误码](/doc/api/231/5078#1.-.E5.85.AC.E5.85.B1.E9.94.99.E8.AF.AF.E7.A0.81)。 |
 | message  | String | 模块错误信息描述，与接口相关。                          |
-| codeDesc | String | 英文错误信息，或业务侧错误码。详见错误码页面[业务错误码](http://tcecqpoc.fsphere.cn/document/product/228/5078#2.-.E6.A8.A1.E5.9D.97.E9.94.99.E8.AF.AF.E7.A0.81) |
+| codeDesc | String | 英文错误信息，或业务侧错误码。详见错误码页面[业务错误码](/document/product/228/5078#2.-.E6.A8.A1.E5.9D.97.E9.94.99.E8.AF.AF.E7.A0.81) |
 | data     | Object | 返回结果数据                                   |
 
 #### 详细说明

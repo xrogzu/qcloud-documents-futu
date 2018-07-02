@@ -27,7 +27,7 @@ GPU 云服务器支持四种镜像类型：公共镜像、自定义镜像、共�
 **注意：**
 **GPU 云服务器必须具备相应的 GPU 驱动才能正常运行。**
 
-- 如果您选择公有镜像安装，GPU 实例创建成功后，需要安装 GPU 驱动才可正常使用，相关驱动安装可参照 [安装 NVIDIA 驱动指引](http://tcecqpoc.fsphere.cn/document/product/560/8048)
+- 如果您选择公有镜像安装，GPU 实例创建成功后，需要安装 GPU 驱动才可正常使用，相关驱动安装可参照 [安装 NVIDIA 驱动指引](/document/product/560/8048)
 - 我们提供带有 GPU 驱动的服务市场镜像供您选择
  - 选择【服务市场】-【从服务市场选择】
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ee7d1e5401bbfa03c43a6990fd619949/image.png)

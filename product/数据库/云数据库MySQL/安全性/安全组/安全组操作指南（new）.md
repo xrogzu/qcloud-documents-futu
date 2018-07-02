@@ -12,7 +12,7 @@
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b1ca53ce95a6a908effec0cb71a81e57/image.png)
 
 ### 为云数据库配置安全组
-[安全组](http://tcecqpoc.fsphere.cn/doc/product/213/500) 是云平台提供的实例级别防火墙，可以对云数据库进行入/出流量控制。您可以在购买实例时绑定安全组，也可以购买实例后在控制台绑定安全组。
+[安全组](/doc/product/213/500) 是云平台提供的实例级别防火墙，可以对云数据库进行入/出流量控制。您可以在购买实例时绑定安全组，也可以购买实例后在控制台绑定安全组。
 >**注意：**
 目前安全组仅支持**私有网络云数据库**配置。
 

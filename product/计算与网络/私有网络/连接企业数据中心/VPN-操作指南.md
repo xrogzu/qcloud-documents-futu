@@ -64,7 +64,7 @@ VPN 通道提供告警功能：
 1)	登录 <a href="http://console.tcecqpoc.fsphere.cn/" target="_blank">云平台控制台</a> 点击顶部导航条【云产品】-【监控与管理】-<a href="http://console.tcecqpoc.fsphere.cn/monitor/overview" target="_blank">【云监控】</a>，选择左导航栏内的【我的告警】-<a href="http://console.tcecqpoc.fsphere.cn/monitor/policylist" target="_blank">【告警策略】</a>，点击：新增告警策略。
 2)	填写告警策略名称，在策略类型中选择【 VPN 通道】，然后添加告警触发条件。
 3)	**关联告警对象**：选择告警接收组，保存后即可在告警策略列表中查看已设置的告警策略。
-4)	**查看告警信息**：告警条件被触发后，您将接受到短信/邮件/站内信等通知，同时可以在左导航【我的告警】-【告警列表】中查看。有关告警的更多信息，请参考<a href="http://tcecqpoc.fsphere.cn/doc/product/248/1073" target="_blank">创建告警</a>。
+4)	**查看告警信息**：告警条件被触发后，您将接受到短信/邮件/站内信等通知，同时可以在左导航【我的告警】-【告警列表】中查看。有关告警的更多信息，请参考<a href="/doc/product/248/1073" target="_blank">创建告警</a>。
 
 ### 查看 VPN 网关详细信息
 1)	登录<a href="http://console.tcecqpoc.fsphere.cn/" target="_blank">云平台控制台</a>点击导航条【私有网络】，进入<a href="http://console.tcecqpoc.fsphere.cn/vpc/vpc?rid=8" target="_blank">私有网络控制台</a>。

@@ -14,10 +14,10 @@
 ## 准备工作
 
 - **获取开发包**
-[下载](http://tcecqpoc.fsphere.cn/document/product/454/7873) SDK 开发包，并按照[工程配置](http://tcecqpoc.fsphere.cn/document/product/454/7876)指引将 SDK 嵌入您的 APP 开发工程。
+[下载](/document/product/454/7873) SDK 开发包，并按照[工程配置](/document/product/454/7876)指引将 SDK 嵌入您的 APP 开发工程。
 
 - **获取测试URL**
-[开通](http://console.tcecqpoc.fsphere.cn/live)直播服务后，可以使用 [直播控制台>>直播码接入>>推流生成器](http://console.tcecqpoc.fsphere.cn/live/livecodemanage) 生成推流地址，详细信息可以参考 [获得推流播放URL](http://tcecqpoc.fsphere.cn/document/product/454/7915)。
+[开通](http://console.tcecqpoc.fsphere.cn/live)直播服务后，可以使用 [直播控制台>>直播码接入>>推流生成器](http://console.tcecqpoc.fsphere.cn/live/livecodemanage) 生成推流地址，详细信息可以参考 [获得推流播放URL](/document/product/454/7915)。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/64342b926e05da462a54b8ce4f8c526f/image.png)
 
 ## 代码对接
@@ -192,7 +192,7 @@ _config.watermarkPos = (CGPoint){10, 10};
 ### step 8: 本地录制
 使用 startRecord 接口可以启动本地录制，录制格式为 MP4，通过 videoPath 可以指定 MP4 文件的存放路径。
 - 录制过程中请勿动态切换分辨率和软硬编，可能导致生成的视频异常
-- 如果是云端录制，只需要在推流 URL 后面拼接 &record=mp4 即可，详情请参考[云端录制](http://tcecqpoc.fsphere.cn/document/product/454/7917)。
+- 如果是云端录制，只需要在推流 URL 后面拼接 &record=mp4 即可，详情请参考[云端录制](/document/product/454/7917)。
 - stopRecord 调用之后，录制出来的文件会通过 TXLiveRecordListener 通知出来。
 
 ```objectivec
@@ -294,7 +294,7 @@ SDK 1.6.1 开始支持背景混音，支持主播带耳机和不带耳机两种�
 
 | 接口 | 说明 |
 |:-------:|---------|
-| playBGM | 通过path传入一首歌曲，[小直播Demo](http://tcecqpoc.fsphere.cn/doc/api/258/6164)中我们是从iOS的本地媒体库中获取音乐文件 |
+| playBGM | 通过path传入一首歌曲，[小直播Demo](/doc/api/258/6164)中我们是从iOS的本地媒体库中获取音乐文件 |
 | stopBGM|停止播放背景音乐|
 | pauseBGM|暂停播放背景音乐|
 | resumeBGM|继续播放背景音乐|

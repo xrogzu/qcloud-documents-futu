@@ -45,7 +45,7 @@ WEB SDK直播视频格式支持：
 
 >注意事项：**<font color="red">播放页面需要挂ip或域名访问，如若直接打开本地静态页面将无法播放</font>**
 
-> 备注：另外可以通过服务端API获取频道ID和APPID，[参考文档链接](http://tcecqpoc.fsphere.cn/doc/api/258/4714)
+> 备注：另外可以通过服务端API获取频道ID和APPID，[参考文档链接](/doc/api/258/4714)
 
 
 ## API 基础使用方法

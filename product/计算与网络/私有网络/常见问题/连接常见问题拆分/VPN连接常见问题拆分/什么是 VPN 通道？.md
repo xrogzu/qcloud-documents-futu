@@ -10,4 +10,4 @@ VPN 通道的建立包括以下配置信息：
 - IKE配置（选填）
 - IPsec配置（选填）
 
-VPN 通道的详细信息请参考：[VPN 通道](http://tcecqpoc.fsphere.cn/document/product/215/4956#vpn.E9.80.9A.E9.81.93) 
+VPN 通道的详细信息请参考：[VPN 通道](/document/product/215/4956#vpn.E9.80.9A.E9.81.93) 

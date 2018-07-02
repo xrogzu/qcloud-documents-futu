@@ -1,7 +1,7 @@
 本文档旨在帮助大家了解如何快速创建一个容器集群内的 nginx 服务。
 
 ## 前提条件
-创建 nginx 服务的前提是您有创建好的集群。有关如何创建集群的详细信息，参见 [新建集群](http://tcecqpoc.fsphere.cn/document/product/457/9091) 。
+创建 nginx 服务的前提是您有创建好的集群。有关如何创建集群的详细信息，参见 [新建集群](/document/product/457/9091) 。
 
 ## 操作步骤
 1. 登录 [容器服务控制台](http://console.tcecqpoc.fsphere.cn/ccs) 。
@@ -38,4 +38,4 @@
 
 #### 更多 nginx 设置
 
-可查看 [使用容器服务来构建简单 web service ](http://tcecqpoc.fsphere.cn/community/article/223421)。
+可查看 [使用容器服务来构建简单 web service ](/community/article/223421)。

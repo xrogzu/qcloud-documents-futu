@@ -4,7 +4,7 @@
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/98b9b659be67a9ac32384b606ace943f/image.png)
 
 
-使用 [RTMP SDK DEMO](http://tcecqpoc.fsphere.cn/document/product/454/6555) 可以快速测试推流URL和播放URL的有效性。
+使用 [RTMP SDK DEMO](/document/product/454/6555) 可以快速测试推流URL和播放URL的有效性。
 
 
 ## 2.后台自动拼装

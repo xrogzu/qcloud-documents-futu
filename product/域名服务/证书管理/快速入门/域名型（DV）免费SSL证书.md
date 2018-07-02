@@ -23,7 +23,7 @@
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/cd4c29b2c97cfa9b250fb42631ed5642/5.png)
 
 ## 3. 完成域名身份验证
-提交申请后，需要完成域名身份验证方可获取证书，具体可参考[域名验证指引](http://tcecqpoc.fsphere.cn/document/product/400/4142)
+提交申请后，需要完成域名身份验证方可获取证书，具体可参考[域名验证指引](/document/product/400/4142)
 
 ## 4. 下载和部署
 完成域名审核后，颁发的证书可下载到本地，或者部署到云平台相关云服务。

@@ -22,7 +22,7 @@
 输入
 <pre>
 http://monitor.api.qcloud.com/v2/index.php?Action= UnbindAlarmRuleReceivers
-&alarmRuleId=policy-f3h1bxvcsb&<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>
+&alarmRuleId=policy-f3h1bxvcsb&<a href="/doc/api/229/6976">公共请求参数</a>
 </pre>
 输出
 ```

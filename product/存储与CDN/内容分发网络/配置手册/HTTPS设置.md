@@ -14,7 +14,7 @@
 
 登录[CDN控制台](http://console.tcecqpoc.fsphere.cn/cdn)，单击左侧导航栏的 【域名管理】 进入 **域名管理** 页面。单击域名右侧【管理】按钮，进入管理页面：
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/667013013f17c055f0cb3cec4580c4ef.png)
-单击 【高级配置】，找到 **HTTPS 配置** 模块。单击【前往配置】，跳转至 **证书管理** 页面配置证书。配置流程请参阅 [证书管理](http://tcecqpoc.fsphere.cn/document/product/228/6303)。
+单击 【高级配置】，找到 **HTTPS 配置** 模块。单击【前往配置】，跳转至 **证书管理** 页面配置证书。配置流程请参阅 [证书管理](/document/product/228/6303)。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/1efff7b5b6909863e0849ae6cf9f65a7.png)
 证书 **配置成功** 后，会出现【强制跳转 HTTPS】开关。开启后，即使用户发起 HTTP 请求，也会强制跳转为 HTTPS 请求进行访问：
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/8ccfdda9898a09a95d702e9162ff95d6.png)
@@ -22,4 +22,4 @@
 ## HTTP2.0 配置
 获得 HTTP2.0 内测资格的用户，在成功为域名配置了 HTTPS 证书后，可以开启 HTTP2.0。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/19b5892f7cf04b93e37f63eef75a94d8.png)
-了解更多 HTTP2.0 相关特性，请查阅 [HTTP2.0 的新特性](http://tcecqpoc.fsphere.cn/community/article/541321)。
+了解更多 HTTP2.0 相关特性，请查阅 [HTTP2.0 的新特性](/community/article/541321)。

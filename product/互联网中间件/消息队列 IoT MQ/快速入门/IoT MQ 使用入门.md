@@ -29,4 +29,4 @@
 
 > 注：
 > - 第三方 SDK 均可从 http://www.eclipse.org/paho/downloads.php 进行下载。
-> - 使用客户端连接 IoT MQ 服务器时，须发送 CONNECT 报文，且在 Connect 报文中需上传 username 和 password，其中 username 和 password 的计算详情参见[客户端签名计算](http://tcecqpoc.fsphere.cn/document/product/646/12661)。
+> - 使用客户端连接 IoT MQ 服务器时，须发送 CONNECT 报文，且在 Connect 报文中需上传 username 和 password，其中 username 和 password 的计算详情参见[客户端签名计算](/document/product/646/12661)。

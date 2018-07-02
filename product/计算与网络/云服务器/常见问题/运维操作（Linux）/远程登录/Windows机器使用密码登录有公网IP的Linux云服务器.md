@@ -20,7 +20,7 @@ ubuntu：ubuntu
 ## 3. 使用Putty连接Linux云服务器
 打开Putty客户端，在PuTTY Configuration 窗口中输入以下内容：
 - Host Name：云服务器的公网IP（登录[云控制台云服务器页面](http://console.tcecqpoc.fsphere.cn/cvm)，可在列表页及详情页中获取主机公网IP）。
-- Port：云服务器的端口，必须填22。（请确保云主机22端口已开放，详见查看[安全组](http://tcecqpoc.fsphere.cn/doc/product/213/%E5%AE%89%E5%85%A8%E7%BB%84%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97)及网络ACL）
+- Port：云服务器的端口，必须填22。（请确保云主机22端口已开放，详见查看[安全组](/doc/product/213/%E5%AE%89%E5%85%A8%E7%BB%84%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97)及网络ACL）
 - Connect type：选择“SSH”。
 
 全部输入完后，点击“Open”，创建一个新对话。
@@ -44,7 +44,7 @@ ubuntu：ubuntu
 
 1) 主机名：云服务器的公网IP（登录[云控制台云服务器页面](http://console.tcecqpoc.fsphere.cn/cvm)，可在列表页及详情页中获取主机公网IP）。
 
-2) 端口：云服务器的端口，必须填22。（请确保云主机22端口已开放，详见查看[安全组](http://tcecqpoc.fsphere.cn/doc/product/213/%E5%AE%89%E5%85%A8%E7%BB%84%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97)及网络ACL）
+2) 端口：云服务器的端口，必须填22。（请确保云主机22端口已开放，详见查看[安全组](/doc/product/213/%E5%AE%89%E5%85%A8%E7%BB%84%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97)及网络ACL）
 
 3) 用户名：输入管理员账号。
 SUSE/CentOS/Debian：root

@@ -8,7 +8,7 @@
 
 1. SDK需要浏览器支持HTML 5；
 2. SDK需要浏览器支持Flash；
-3. 从控制台获取APP ID、SecretID、SecretKey，详情参考[权限控制](http://tcecqpoc.fsphere.cn/doc/product/227/1897#2.1-.E8.8E.B7.E5.8F.96.E7.AD.BE.E5.90.8D.E6.89.80.E9.9C.80.E4.BF.A1.E6.81.AF) ；
+3. 从控制台获取APP ID、SecretID、SecretKey，详情参考[权限控制](/doc/product/227/1897#2.1-.E8.8E.B7.E5.8F.96.E7.AD.BE.E5.90.8D.E6.89.80.E9.9C.80.E4.BF.A1.E6.81.AF) ；
 
 ### SDK 配置
 

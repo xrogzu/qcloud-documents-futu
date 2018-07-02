@@ -1,11 +1,11 @@
 连接到 MySQL 数据库的方式有两种：
-- 内网访问：使用在同一个可用区的 CVM 来访问自动分配给数据库的内网地址。这种方式使用内网高速网络，延迟低。（注意：此台 CVM 需要与数据库同一地域下的基础网络中，或者同一个 VPC 中，关于 VPC 的更多信息请查看<a href="http://tcecqpoc.fsphere.cn/document/product/215/535" target="_blank"> VPC 概述</a>。）
+- 内网访问：使用在同一个可用区的 CVM 来访问自动分配给数据库的内网地址。这种方式使用内网高速网络，延迟低。（注意：此台 CVM 需要与数据库同一地域下的基础网络中，或者同一个 VPC 中，关于 VPC 的更多信息请查看<a href="/document/product/215/535" target="_blank"> VPC 概述</a>。）
 - 外网访问：借助外网账号，通过云平台控制台中的登录入口，登录到 phpMyAdmin 界面对数据库进行操作。
 
 <font color="red">**安全提示：**</font>外网访问需要开启数据库实例的外网地址，从而使您的数据库服务暴露在公网上，此操作可能导致数据库被入侵或攻击。建议您使用内网访问的方式来登录数据库。
 ## 内网访问
 1. 登录到与此数据库实例属于同一个可用区的网络可达的 CVM 主机。
-关于登录 CVM 主机请查看 <a href="http://tcecqpoc.fsphere.cn/document/product/213/2783" target="_blank"> Windows CVM 入门</a> 或 <a href="http://tcecqpoc.fsphere.cn/document/product/213/2973" target="_blank">Linux CVM 入门 </a>。网络可达是指此 CVM 主机与 MySQL 数据库实例都处于基础网络之中，或者处于同一个 VPC 中。
+关于登录 CVM 主机请查看 <a href="/document/product/213/2783" target="_blank"> Windows CVM 入门</a> 或 <a href="/document/product/213/2973" target="_blank">Linux CVM 入门 </a>。网络可达是指此 CVM 主机与 MySQL 数据库实例都处于基础网络之中，或者处于同一个 VPC 中。
 2. 请根据 CVM 的操作系统选择推荐的连接方式。
  - **从 Windows 系统登录**
       1. 下载一个标准的 SQL 客户端。此步骤中我们推荐您下载 MySQL Workbench，这是 Windows 系统下较常见的 SQL 客户端。在 CVM 中打开 http://dev.mysql.com/downloads/workbench/ ，根据您的系统来下载适配版本的安装程序。

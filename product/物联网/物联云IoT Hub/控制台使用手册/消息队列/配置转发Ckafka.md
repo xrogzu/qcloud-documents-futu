@@ -17,4 +17,4 @@ CKafka 配置消息类型有两个选项：“设备上报消息”和“设备�
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/9c9ab874b0619095bb6a4925ef355aec.png)
 
 ## CKafka 接收消息的 SDK 介绍
-消息队列的 SDK 使用可以参照消息队列提供的 [使用入门](http://tcecqpoc.fsphere.cn/document/product/597/10112)。
+消息队列的 SDK 使用可以参照消息队列提供的 [使用入门](/document/product/597/10112)。

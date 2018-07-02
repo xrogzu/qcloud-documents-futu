@@ -1,5 +1,5 @@
 您可以通过云平台数据库迁移工具将业务数据迁移到 CDB for MariaDB（TDSQL）中，迁移工具可以把同地域下不同类型的源数据库的数据迁移到 MariaDB（TDSQL）中，目前支持的源库类型有：<br>
-1. 源数据库来自在云平台基础网络中云服务自建的 MySQL 实例（即将支持 [VPC 网络](http://tcecqpoc.fsphere.cn/doc/product/215/%E4%BA%A7%E5%93%81%E6%A6%82%E8%BF%B0)）；<br>
+1. 源数据库来自在云平台基础网络中云服务自建的 MySQL 实例（即将支持 [VPC 网络](/doc/product/215/%E4%BA%A7%E5%93%81%E6%A6%82%E8%BF%B0)）；<br>
 2. 源数据库在云平台的 CDB for MySQL 实例；<br>
 3. 源数据库在另外一个 CDB for MariaDB（TDSQL）实例；
 

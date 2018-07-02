@@ -45,7 +45,7 @@ Delete Multiple Object接口用于批量删除对象。
 | MalformedXML   | 如果请求的key的个数，超过了1000，会返回 MalformedXML错误，同时返回“delete key size is greater than 1000” | 400 Bad Request |
 | InvalidDigest  | 携带的Content-MD5和服务端计算的请求body的不一致          | 400 Bad Request |
 
-获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](http://tcecqpoc.fsphere.cn/document/product/436/7730)
+获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](/document/product/436/7730)
 
 
 
@@ -72,7 +72,7 @@ Put Bucket Versioning接口用于开启bucket的版本管理功能
 | InvalidArgument | 如果开启版本管理的xml body为空，会返回 InvalidArgument  | 400 Bad Request |
 | InvalidDigest   | 1.携带的Content-MD5和服务端计算的请求body的不一致；<br>2.开启版本管理的状态只有Enabled和Suspended两个合法值，如果写了其他状态，会返回InvalidArgument | 400 Bad Request |
 
-获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](http://tcecqpoc.fsphere.cn/document/product/436/7730)
+获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](/document/product/436/7730)
 
 
 
@@ -112,7 +112,7 @@ List Multipart Uploads 接口用于列取正在上传还没有上传完成的分
 | :-------------- | :--------------------------------------- | :-------------- |
 | InvalidArgument | 1.max-uploads必须是整数，且值介于0~1000之间，否则返回InvalidArgument；2.encoding-type只能取值url，否则会返回InvalidArgument | 400 Bad Request |
 
-获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](http://tcecqpoc.fsphere.cn/document/product/436/7730)
+获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](/document/product/436/7730)
 
 ## Put Object
 
@@ -141,4 +141,4 @@ List Multipart Uploads 接口用于列取正在上传还没有上传完成的分
 | EntityTooLarge       | 如果添加的文件长度超过5G，会返回EntityTooLarge，并返回错误信息“Your proposed upload exceeds the maximum allowed object size” | 400 Bad Request     |
 | InvalidURI           | 对象key长度限制为850，如果超过850会返回InvalidURI       | 400 Bad Request     |
 
-获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](http://tcecqpoc.fsphere.cn/document/product/436/7730)
+获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](/document/product/436/7730)

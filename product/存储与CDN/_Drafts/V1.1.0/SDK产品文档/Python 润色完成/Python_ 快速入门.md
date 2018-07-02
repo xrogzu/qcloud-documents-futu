@@ -7,7 +7,7 @@
 ### 环境依赖
 
 对象存储服务的 XML Python SDK  目前可以支持 Python2.6 与 Python2.7。
-> 关于文章中出现的 SecretId、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](http://tcecqpoc.fsphere.cn/document/product/436/7751)
+> 关于文章中出现的 SecretId、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](/document/product/436/7751)
 
 ### 安装SDK
 

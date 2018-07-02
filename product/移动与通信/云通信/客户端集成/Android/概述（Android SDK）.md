@@ -7,7 +7,7 @@ ImSDK 支持 JDK 1.6 和 Android SDK version 14 以上系统。
 
 ### 下载 ImSDK
 
-点击下载 [ImSDK](http://tcecqpoc.fsphere.cn/product/im.html#sdk)，包含以下库文件：
+点击下载 [ImSDK](/product/im.html#sdk)，包含以下库文件：
 
 ```
 libs/bugly_1.3.0_imsdk_release.jar
@@ -120,7 +120,7 @@ libs/x86_64/libwtcrypto.so
 
 ### 集成 ImSDK
 
-将上述下载得到的 [ImSDK](http://tcecqpoc.fsphere.cn/product/im.html#sdk) 库文件复制到工程 `libs/` 文件夹下。
+将上述下载得到的 [ImSDK](/product/im.html#sdk) 库文件复制到工程 `libs/` 文件夹下。
 
 >注：
 >- 集成 ImSDK 1.9.0 以上的版本时，需要引用 Android SDK API LEVEL 23+ 版本的 android-support-v4.jar。
@@ -129,7 +129,7 @@ libs/x86_64/libwtcrypto.so
 
 ### 功能开发
 
-在工程中引入上述提及的 [ImSDK](http://tcecqpoc.fsphere.cn/product/im.html#sdk) 库文件，根据后续章节的开发指引进行功能的开发。其中函数调用顺序可参见 [调用顺序介绍](#.E8.B0.83.E7.94.A8.E9.A1.BA.E5.BA.8F.E4.BB.8B.E7.BB.8D)。
+在工程中引入上述提及的 [ImSDK](/product/im.html#sdk) 库文件，根据后续章节的开发指引进行功能的开发。其中函数调用顺序可参见 [调用顺序介绍](#.E8.B0.83.E7.94.A8.E9.A1.BA.E5.BA.8F.E4.BB.8B.E7.BB.8D)。
 
 ### 代码混淆规则
 

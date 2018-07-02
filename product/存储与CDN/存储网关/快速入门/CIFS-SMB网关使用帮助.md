@@ -11,7 +11,7 @@
 | 高 IO 版网关（高速上传、适合于有专线连接的情况） | 8 核 CPU、<br />64GB 内存、<br />400Mbps 带宽 |                    -                     |      无需配置磁盘      |
 > <span style="color: red;"> **注意：**
 > 如果系统低于最低机器配置要求，存储网关可能无法正常运行。</span>
-> 更多机器配置、磁盘及内存限制请参考 [系统限制及注意事项](http://tcecqpoc.fsphere.cn/document/product/581/9775)。
+> 更多机器配置、磁盘及内存限制请参考 [系统限制及注意事项](/document/product/581/9775)。
 
 2）登录存储网关控制台的机器（发起激活）必须与安装存储网关的机器（被激活）可以网络互通（内网/外网均可）；**如果使用的是 CVM 部署 CSG， 请使用 CVM 的外网 IP 进行激活**。
 
@@ -177,7 +177,7 @@
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/4e1de73e91cb3b4eab390e142d09af59/image.png)
 
 #### 设置服务器相关信息并购买机器
-为该存储网关设置主机名称及安全组。 端口开放需求请参考 [存储网关安全组要求](http://tcecqpoc.fsphere.cn/document/product/581/9775#.E7.BD.91.E7.BB.9C.E5.8F.8A.E7.BD.91.E5.85.B3.E5.AE.89.E5.85.A8.E7.BB.84)，设置完成后确认购买机器。
+为该存储网关设置主机名称及安全组。 端口开放需求请参考 [存储网关安全组要求](/document/product/581/9775#.E7.BD.91.E7.BB.9C.E5.8F.8A.E7.BD.91.E5.85.B3.E5.AE.89.E5.85.A8.E7.BB.84)，设置完成后确认购买机器。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/4cf0544a1d410861d032f05ba61b464e/image.png)
 > <p style="color: red;">说明：
 > 出于安全原因考虑，运行存储网关的云主机暂不提供 root 权限（即使此处配置了 root 也无效。请使用下面用户名/密码进行登录到存储网关主机并维护。<p>
@@ -227,7 +227,7 @@ Password: csg123
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/74499026483883fb7244b8bf391cefdc/image.png)
 > <p style="color: red;"> **注意：**
->  网关正常运行，**至少需要配置一个 "上传缓冲区" 和 一个 "缓存" 磁盘，且缓存磁盘容量必须是上传缓冲区容量的 1.5 倍及以上**。 若您没有在创建时为网关分配本地磁盘，网关将处于 "待配置" 状态，需要等待配置本地磁盘后才能正常运行，请参照 [管理磁盘配置](http://tcecqpoc.fsphere.cn/document/product/581/9485#.E7.AE.A1.E7.90.86.E6.9C.AC.E5.9C.B0.E7.A3.81.E7.9B.985) 进行配置。<p> 
+>  网关正常运行，**至少需要配置一个 "上传缓冲区" 和 一个 "缓存" 磁盘，且缓存磁盘容量必须是上传缓冲区容量的 1.5 倍及以上**。 若您没有在创建时为网关分配本地磁盘，网关将处于 "待配置" 状态，需要等待配置本地磁盘后才能正常运行，请参照 [管理磁盘配置](/document/product/581/9485#.E7.AE.A1.E7.90.86.E6.9C.AC.E5.9C.B0.E7.A3.81.E7.9B.985) 进行配置。<p> 
 
 ## 创建 CIFS/SMB 文件系统
 完成网关的创建之后，您需要为该网关分配云端的存储空间（即文件系统），用于存储用户上传的数据。
@@ -248,7 +248,7 @@ Password: csg123
 ## 使用 CIFS/SMB 文件系统
 创建文件系统后，请在其他服务器或客户端上按照如下指引进行配置，挂载该文件系统并使用。SMB 网关支持 CIFS、 SMB2.0 及 SMB 3.0。
 
-**注意：若在 CVM 上使用网关，建议将网关部署在各来访客户端的 VPC 下；如果在不同 VPC 时，请使用 [对等连接](http://tcecqpoc.fsphere.cn/document/product/215/5000) 方法实现网络互通。**
+**注意：若在 CVM 上使用网关，建议将网关部署在各来访客户端的 VPC 下；如果在不同 VPC 时，请使用 [对等连接](/document/product/215/5000) 方法实现网络互通。**
 
 ###  在 Windows 上使用 SMB 文件系统
 #### 创建 SMB 用户并分配权限

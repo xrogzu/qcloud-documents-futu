@@ -1,5 +1,5 @@
 ## 注意事项
-- **前置条件：请合作方确保 Access Token 已经正常获取，获取方式见 [Access Token 获取](http://tcecqpoc.fsphere.cn/document/product/655/13813)。**
+- **前置条件：请合作方确保 Access Token 已经正常获取，获取方式见 [Access Token 获取](/document/product/655/13813)。**
 - SIGN ticket 是合作方 **后台服务端业务请求** 生成签名鉴权参数之一，用于后台查询验证结果、调用其他业务服务等。
 - API ticket 的 SIGN 类型，其有效期最长为 3600S，此处 API ticket 必须缓存在磁盘，并定时刷新，刷新的机制如下：
  - 由于 API ticket 的生命周期依赖于 Access Token。最长为 3600S，故为了简单方便，建议 API ticket 的刷新机制与 Access Token 定时机制原理一致，严格按照每50分钟请求新的 API ticket，原 API ticket 1 小时 (3600S) 失效，期间两个 API ticket 都能使用。
@@ -16,7 +16,7 @@ http://idasc.webank.com/api/oauth2/api_ticket
 | 参数           | 说明                                       | 类型   | 长度（字节）    | 是否必填 |
 | ------------ | ---------------------------------------- | ---- | --------- | ---- |
 | app_id       | 云平台线下对接分配的 App ID                        | 字符串  | 云平台线下对接决定 | 是    |
-| access_token | 根据 [Access Token 获取](http://tcecqpoc.fsphere.cn/document/product/655/13813) 页面中的指引进行获取 | 字符串  | 云平台线下对接决定 | 是    |
+| access_token | 根据 [Access Token 获取](/document/product/655/13813) 页面中的指引进行获取 | 字符串  | 云平台线下对接决定 | 是    |
 | type         | ticket 类型，默认值：**SIGN** (必须大写)            | 字符串  | 20        | 是    |
 | version      | 版本号，默认值：1.0.0                            | 字符串  | 20        | 是    |
 

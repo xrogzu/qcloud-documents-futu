@@ -23,11 +23,11 @@
 - 网络：
 	- 私有网络、子网、路由表、网络 ACL、安全组、专线网关、VPN 通道、对端网关免费使用。
 	- 内网同地域免费。即不同子网中实例间通信，不需要支持带宽费用 ，同地域对等连接也免费。
-	- 使用公网的通信收费，点击查看[收费详情](http://tcecqpoc.fsphere.cn/document/product/213/10578)。
-	- NAT 网、VPN 网关、跨地域对等连接收费，点击查看[收费详情](http://tcecqpoc.fsphere.cn/document/product/215/3078)。
+	- 使用公网的通信收费，点击查看[收费详情](/document/product/213/10578)。
+	- NAT 网、VPN 网关、跨地域对等连接收费，点击查看[收费详情](/document/product/215/3078)。
 
 - 存储：
-	- 本地硬盘和云硬盘的价格，点击查查[收费详情](http://tcecqpoc.fsphere.cn/document/product/362/2413)。
+	- 本地硬盘和云硬盘的价格，点击查查[收费详情](/document/product/362/2413)。
 
 
 
@@ -37,7 +37,7 @@
 
 ### 使用时长
 
-- 如果选择包年包月的付费模式，购买时长越长成本越高，但不同的时长会有相应的折扣，点击查看[折扣详情](http://tcecqpoc.fsphere.cn/document/product/213/2176)。
+- 如果选择包年包月的付费模式，购买时长越长成本越高，但不同的时长会有相应的折扣，点击查看[折扣详情](/document/product/213/2176)。
 
 
 

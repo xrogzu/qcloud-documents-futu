@@ -63,7 +63,7 @@
 
 ```
 http://catapi.api.qcloud.com/v2/index.php?
-& <<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>
+& <<a href="/doc/api/229/6976">公共请求参数</a>>
 &Action=SimpleVerifyCatTask
 &catTypeName=http
 &period=5

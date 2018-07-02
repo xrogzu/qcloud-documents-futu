@@ -1,6 +1,6 @@
 ## 下载SDK
 
-您可以在云平台官网下载移动端 [直播SDK](http://tcecqpoc.fsphere.cn/doc/api/258/6172)，解压后得到一个`TXRTMPSDK.framework`。目前 SDK 所有功能都集成在这一framework中。
+您可以在云平台官网下载移动端 [直播SDK](/doc/api/258/6172)，解压后得到一个`TXRTMPSDK.framework`。目前 SDK 所有功能都集成在这一framework中。
 
 ## Xcode工程设置
 

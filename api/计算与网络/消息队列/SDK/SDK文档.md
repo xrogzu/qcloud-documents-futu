@@ -51,7 +51,7 @@ region 需要使用具体地域进行替换，有如下三个地区：gz(广州)
 添加jar包之后，目录如下：
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a025253000b587bc35eca6bc1904d81c/6.png)
 
-添加完毕后，就可以运行程序了。如果有错误返回，请参考官网[错误码说明](http://tcecqpoc.fsphere.cn/doc/api/431/5903)排查问题。
+添加完毕后，就可以运行程序了。如果有错误返回，请参考官网[错误码说明](/doc/api/431/5903)排查问题。
 
 ### 使用 CMQ JAVA SDK
 

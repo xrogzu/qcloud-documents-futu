@@ -1,5 +1,5 @@
 ## 一、开通网关权限
-目前 API 网关在内测阶段，您需要在 [API 网关](http://tcecqpoc.fsphere.cn/product/apigateway) 中点击【申请内测】开通 API 网关，或联系自己的客户经理直接申请开通。开通后，您就可以进入 API 网关的管理控制台进行配置了。
+目前 API 网关在内测阶段，您需要在 [API 网关](/product/apigateway) 中点击【申请内测】开通 API 网关，或联系自己的客户经理直接申请开通。开通后，您就可以进入 API 网关的管理控制台进行配置了。
 
 ## 二、服务创建
 1. 登陆 [云平台控制台](http://console.tcecqpoc.fsphere.cn/apigateway)。   

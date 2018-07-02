@@ -172,7 +172,7 @@ SDK_API int tx_ai_audio_update_device_alarm(char* voice_id, int opt_type, const 
 
 ## 定时播放 Skill
 
-定时播放 Skill 与闹钟 / 提醒 Skill 基本是一致的，唯一的区别是定时播放 Skill 到了用户设置的最近一次触发时间点后，您需要调用 `TXAIAudioSDK.getInstance().triggerTimingSkill()` 接口请求后台下发用户之前设置的播放资源，相应的播放资源将通过 `onState` 回调出来，请参考 [标准 UI 模板](http://tcecqpoc.fsphere.cn/document/product/645/14224) 中的说明。`TXAIAudioSDK.getInstance().triggerTimingSkill()` 接口定义说明如下所示：
+定时播放 Skill 与闹钟 / 提醒 Skill 基本是一致的，唯一的区别是定时播放 Skill 到了用户设置的最近一次触发时间点后，您需要调用 `TXAIAudioSDK.getInstance().triggerTimingSkill()` 接口请求后台下发用户之前设置的播放资源，相应的播放资源将通过 `onState` 回调出来，请参考 [标准 UI 模板](/document/product/645/14224) 中的说明。`TXAIAudioSDK.getInstance().triggerTimingSkill()` 接口定义说明如下所示：
 
 ```
 /**

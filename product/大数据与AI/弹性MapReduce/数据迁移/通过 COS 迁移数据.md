@@ -6,7 +6,7 @@
 
     1. 获取 COS 迁移工具
 
-        [点此](http://github.com/tencentyun/hdfs_to_cos_tools) 获取迁移工具，更多迁移工具请参考 [这里](http://tcecqpoc.fsphere.cn/document/product/436/6242)
+        [点此](http://github.com/tencentyun/hdfs_to_cos_tools) 获取迁移工具，更多迁移工具请参考 [这里](/document/product/436/6242)
 
     2. 工具配置
 

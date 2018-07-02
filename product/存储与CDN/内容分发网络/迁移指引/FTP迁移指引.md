@@ -32,7 +32,7 @@ CDN加速：选择【关闭】![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.q
 #### 2  同步资源
 
 利用COS本地同步工具，将资源同步至指定 bucket，使用方式可参考：
-http://tcecqpoc.fsphere.cn/document/product/436/7133
+/document/product/436/7133
 
 
 
@@ -40,5 +40,5 @@ http://tcecqpoc.fsphere.cn/document/product/436/7133
 
 请保证COS中的资源路径与原有FTP中资源路径一致，然后通过工单系统提交加速域名与要切换的COS bucket 域名，我们会协助您进行切换。
 
-切换成功后，所有资源均从COS中获取，文件管理操作可通过COS进行，更多COS使用指南可参考：http://tcecqpoc.fsphere.cn/document/product/436。
+切换成功后，所有资源均从COS中获取，文件管理操作可通过COS进行，更多COS使用指南可参考：/document/product/436。
 

@@ -3,7 +3,7 @@
 如果您想要通过 Windows 云服务器使用 SQL Server Management Studio（SSMS） 连接到 SQL Server 云数据库，请参考入门教程 [创建并连接 SQL Server 云数据库（Windows 云服务器端）](/document/product/238/11626)。
 
 > **注意：**
-> 在创建 SQL Server 云数据库实例之前，您必须拥有一个云平台帐户。如果您没有云平台帐户，请在 [注册页面](http://tcecqpoc.fsphere.cn/register) 填写相关信息注册云平台帐户。
+> 在创建 SQL Server 云数据库实例之前，您必须拥有一个云平台帐户。如果您没有云平台帐户，请在 [注册页面](/register) 填写相关信息注册云平台帐户。
 
 ## 一、创建 SQL Server 云数据库实例
 在此步骤中，您会使用云平台控制台创建数据库实例。

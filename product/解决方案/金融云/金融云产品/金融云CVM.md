@@ -5,4 +5,4 @@
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/e6eb23e413fa02f2f592b765d7171a81/image.png)
 
 ## 详细了解
-[金融云CVM](http://tcecqpoc.fsphere.cn/product/cvm.html)
+[金融云CVM](/product/cvm.html)

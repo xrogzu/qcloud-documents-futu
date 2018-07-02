@@ -1,5 +1,5 @@
 ## 简介
-[云平台 CDB for MySQL](http://tcecqpoc.fsphere.cn/product/cdb-overview) 支持用户创建一个或多个只读实例组成只读实例 RO 组，适用于用户的读写分离和一主多从应用场景，可显著提高用户数据库的读负载能力。
+[云平台 CDB for MySQL](/product/cdb-overview) 支持用户创建一个或多个只读实例组成只读实例 RO 组，适用于用户的读写分离和一主多从应用场景，可显著提高用户数据库的读负载能力。
 >**注意：**
 > - 创建只读实例之前需要先创建云数据库主实例。请参考云平台 CDB for MySQL 产品文档 [购买与续费](/doc/product/236/5160) 中的步骤新建云数据库主实例。
 > - 使用云平台 CBD for MySQL 之前，需要对数据库进行初始化。请参考云平台 CDB for MySQL 产品文档 [初始化 MySQL 数据库](/doc/product/236/3128) 中的步骤初始化 MySQL 数据库。

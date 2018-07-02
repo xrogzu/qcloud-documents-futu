@@ -2,8 +2,8 @@
 智能图像的 Java SDK 下载地址：[Java-SDK-V2.0](http://github.com/tencentyun/image-java-sdk-v2.0)。
 
 ## 使用前准备​		
-  1. 前往注册： [云平台账号注册](http://tcecqpoc.fsphere.cn/register) （详细指引见 [注册云平台](http://tcecqpoc.fsphere.cn/document/product/378/9603)）；
-  2. 取得存储桶名称 **BucketName**： 请前往 [创建存储桶](http://tcecqpoc.fsphere.cn/document/product/460/10637) ；
+  1. 前往注册： [云平台账号注册](/register) （详细指引见 [注册云平台](/document/product/378/9603)）；
+  2. 取得存储桶名称 **BucketName**： 请前往 [创建存储桶](/document/product/460/10637) ；
   3. 取得 **APPID**、**SecretId**、**SecretKey**：请前往 [云API密钥](http://console.tcecqpoc.fsphere.cn/cam/capi) ，点击“新建密钥”。
 
 ## 快速体验

@@ -19,7 +19,7 @@
 
 8) 使用<实例ID：用户密码>作为访问密码，可以正常访问实例
  
-  [查看代码示例](http://tcecqpoc.fsphere.cn/wiki/%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B)
+  [查看代码示例](/wiki/%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B)
 新建实例：
 	
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Resis-1.png)

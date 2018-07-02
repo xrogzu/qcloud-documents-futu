@@ -27,7 +27,7 @@ Put Bucket 接口请求可以在指定账号下创建一个 Bucket。该 API 接
 | BucketAlreadyExists |当请求创建的bucket已经存在，并且请求创建的用户就是拥有者| 409 Conflict|
 | InvalidBucketName |bucket的命名不规范 具体原因可参考message的描述|400 Bad Request|
 | InvalidRequest |bucket的命名不规范 具体原因可参考message的描述| 400 Bad Request|
-||如果bucket设置的ACL不正确，也会导致创建bucket失败，同时会返回“Failed to set access control authority for the bucket”的错误信息。具体错误原因，可根据返回的错误码参考[Put Bucket ACL](http://tcecqpoc.fsphere.cn/document/product/436/7737) 相关的文档||
+||如果bucket设置的ACL不正确，也会导致创建bucket失败，同时会返回“Failed to set access control authority for the bucket”的错误信息。具体错误原因，可根据返回的错误码参考[Put Bucket ACL](/document/product/436/7737) 相关的文档||
 
 > 如果该错误有多个错误信息请按照如下格式来书写：
 
@@ -35,4 +35,4 @@ Put Bucket 接口请求可以在指定账号下创建一个 Bucket。该 API 接
 |:--|:--|:--|
 | BucketAlreadyExists |1. 当请求创建的bucket已经存在，并且请求创建的用户就是拥有者 <br> 2. sdfsdfs| 409 Conflict|
 
-获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](http://tcecqpoc.fsphere.cn/document/product/436/7730)
+获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](/document/product/436/7730)

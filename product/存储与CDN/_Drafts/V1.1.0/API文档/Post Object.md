@@ -13,7 +13,7 @@ Headers
 Form
 ```
 
-> Signature (详细参见 [请求签名](http://tcecqpoc.fsphere.cn/document/product/436/7778) 章节)
+> Signature (详细参见 [请求签名](/document/product/436/7778) 章节)
 
 
 ### 请求头
@@ -30,8 +30,8 @@ Form
 
 |名称|描述|类型| 必选|
 |:---|:-- |:---|:-- |
-| acl |文件的权限，不填默认继承，详见[Put Object ACL](http://tcecqpoc.fsphere.cn/document/product/436/7748) |String| 否|
-| Cache-Control, Content-Type, Content-Disposition, Content-Encoding, Expires |RFC 2616 中定义的头部，详见[Put Object](http://tcecqpoc.fsphere.cn/document/product/436/7749) |String| 否|
+| acl |文件的权限，不填默认继承，详见[Put Object ACL](/document/product/436/7748) |String| 否|
+| Cache-Control, Content-Type, Content-Disposition, Content-Encoding, Expires |RFC 2616 中定义的头部，详见[Put Object](/document/product/436/7749) |String| 否|
 | file|文件内容，作为表单的最后一个字段 |String| 是|
 | key |上传后的文件名，使用${filename}则会进行替换。例如a/b/${filename}，上传文件a1.txt,那么最终的上传路径就是a/b/a1.txt |String| 是|
 | success_action_redirect | 若设置优先生效，返回 303 并提供 Location 头部，在 URL 尾部加上 bucket={bucket}&key={key}&etag={%22etag%22} 参数 |String| 否|
@@ -89,7 +89,7 @@ Form
 
 ### 响应头
 #### 公共响应头
-该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](http://tcecqpoc.fsphere.cn/document/product/436/7729) 章节。
+该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](/document/product/436/7729) 章节。
 #### 特有响应头
 该请求操作的响应头具体数据为：
 
@@ -123,7 +123,7 @@ Container 节点 PostResponse 的内容：
 | EntityTooLarge       | 400 Bad Request     |如果添加的文件长度超过5G，会返回 EntityTooLarge，并返回错误信息`“Your proposed upload exceeds the maximum allowed object size”` | 
 | InvalidURI           | 400 Bad Request     | 对象 key 长度限制为 850，如果超过 850 会返回 InvalidURI       |
 
-获取更多关于 COS 的错误码的信息，或者产品所有的错误列表，请查看 [错误码](http://tcecqpoc.fsphere.cn/document/product/436/7730) 文档。
+获取更多关于 COS 的错误码的信息，或者产品所有的错误列表，请查看 [错误码](/document/product/436/7730) 文档。
 
 ## 实际案例
 

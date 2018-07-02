@@ -15,11 +15,11 @@ CMQ 配置消息类型有两个选项：“设备上报消息”和“设备状�
 
 ## CMQ 接收消息的 SDK 介绍
 - 消息队列 CMQ 提供了如下两个接口从队列中 **读取消息**：
-	[ReceiveMessage](http://tcecqpoc.fsphere.cn/document/product/406/5839)：一次从队列中读取一条消息。
-	[BatchReceiveMessage](http://tcecqpoc.fsphere.cn/document/product/406/5924)：一次从队列中读取多条消息。
+	[ReceiveMessage](/document/product/406/5839)：一次从队列中读取一条消息。
+	[BatchReceiveMessage](/document/product/406/5924)：一次从队列中读取多条消息。
 	
 - 消息队列的消息在读取后，需主动 **删除消息** 才能把消息从消息队列中去掉：	
-	[DeleteMessage](http://tcecqpoc.fsphere.cn/document/api/406/5840)：从队列中删除一条消息。
-	[BatchDeleteMessage](http://tcecqpoc.fsphere.cn/document/api/406/5841)：从队列中删除多条消息，一次最多删除16条。
+	[DeleteMessage](/document/api/406/5840)：从队列中删除一条消息。
+	[BatchDeleteMessage](/document/api/406/5841)：从队列中删除多条消息，一次最多删除16条。
 	
-- 消息队列的 SDK demo 使用可以参照消息队列提供的 [SDK demo](http://tcecqpoc.fsphere.cn/document/product/406/6107)。
+- 消息队列的 SDK demo 使用可以参照消息队列提供的 [SDK demo](/document/product/406/6107)。

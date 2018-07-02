@@ -187,4 +187,4 @@ typedef NS_ENUM(NSInteger, WBOCRSDKType) {
 | 200101 | 用户取消操作    | 用户主动退出操作                            |
 | 200102 | 识别超时      | 用户在身份证正反面识别过程中超过设定的阈值（20S）无法识别，提示超时 |
 
-上一步：[SDK 启动](http://tcecqpoc.fsphere.cn/document/product/655/13846)
+上一步：[SDK 启动](/document/product/655/13846)

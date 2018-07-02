@@ -1,4 +1,4 @@
-1.  新用户需在云平台官网进行 [注册](http://tcecqpoc.fsphere.cn/register?s_url=https%3A%2F%2F.qcloud.com%2Fdocument%2Fproduct%2F213)  ，注册指引可参考 [如何注册云平台](http://tcecqpoc.fsphere.cn/document/product/378/9603)。
+1.  新用户需在云平台官网进行 [注册](/register?s_url=https%3A%2F%2F.qcloud.com%2Fdocument%2Fproduct%2F213)  ，注册指引可参考 [如何注册云平台](/document/product/378/9603)。
 2.  到【开发者工具】>【TAPD敏捷项目管理】产品介绍页上单击【免费注册】。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/fe775b7ce4d6aac38fc1cd4b14439aec/image.png)
 3. 授权访问 TAPD 注册页面。 

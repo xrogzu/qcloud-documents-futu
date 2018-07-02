@@ -1,6 +1,6 @@
 ## SDK信息
 
-您可以在云平台官网更新 [直播SDK](http://tcecqpoc.fsphere.cn/document/product/454/7873)，目前直播SDK有如下几下版本：
+您可以在云平台官网更新 [直播SDK](/document/product/454/7873)，目前直播SDK有如下几下版本：
 
 | 版本类型   | 功能                           |
 | ------ | ---------------------------- |

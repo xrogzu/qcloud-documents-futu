@@ -274,7 +274,7 @@ mLivePusher.stopCameraPreview(true);
 
 | 参数   | 类型           | 说明                                       |
 | ---- | ------------ | ---------------------------------------- |
-| url  | const String | 一个合法的推流地址，支持 rtmp 协议（URL 以 “rtmp://” 打头 ，云平台推流 URL 的获取方法见 [DOC]( http://tcecqpoc.fsphere.cn/document/product/454/7915 "云平台-推拉流地址Doc") ） |
+| url  | const String | 一个合法的推流地址，支持 rtmp 协议（URL 以 “rtmp://” 打头 ，云平台推流 URL 的获取方法见 [DOC]( /document/product/454/7915 "云平台-推拉流地址Doc") ） |
 
 - **示例代码** : 
 
@@ -953,7 +953,7 @@ mLivePusher.setConfig(mLivePushConfig);    // 重新设置 config
 
 接口详情：void setEyeScaleLevel(int level)
 
-设置大眼效果。[商用企业版](http://tcecqpoc.fsphere.cn/document/product/454/7873#Android) 调用该接口才能生效。
+设置大眼效果。[商用企业版](/document/product/454/7873#Android) 调用该接口才能生效。
 
 - **参数说明**
 
@@ -975,7 +975,7 @@ mLivePusher.setConfig(mLivePushConfig);    // 重新设置 config
 
 接口详情：void setFaceSlimLevel(int level)
 
-设置瘦脸效果。[商用企业版](http://tcecqpoc.fsphere.cn/document/product/454/7873#Android) 调用该接口才能生效。
+设置瘦脸效果。[商用企业版](/document/product/454/7873#Android) 调用该接口才能生效。
 
 - **参数说明**
 
@@ -1296,7 +1296,7 @@ mLivePlayer.setPlayListener(new ITXLivePlayListener() {
 
 | 参数   | 类型     | 说明                                       |
 | ---- | ------ | ---------------------------------------- |
-| url  | String | 一个合法的拉流地址，视频播放 URL（URL 以 “rtmp://” 打头 ，云平台拉流 URL 的获取方法见 [DOC]( http://tcecqpoc.fsphere.cn/document/product/454/7915 "云平台-推拉流地址Doc") ），我们建议使用 FLV 格式 |
+| url  | String | 一个合法的拉流地址，视频播放 URL（URL 以 “rtmp://” 打头 ，云平台拉流 URL 的获取方法见 [DOC]( /document/product/454/7915 "云平台-推拉流地址Doc") ），我们建议使用 FLV 格式 |
 | type | int    | 播放类型，参考 TXLivePlayer 中定义的播放类型枚举值         |
 
 - **示例代码** : 

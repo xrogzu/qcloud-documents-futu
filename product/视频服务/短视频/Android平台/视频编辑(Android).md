@@ -13,7 +13,7 @@
 - 图7是气泡字幕操作界面
 
 
-编译运行Demo体验，从资源下载处下载[Android完整版开发包](http://tcecqpoc.fsphere.cn/document/product/454/7873)，解压出来运行RTMPAndroidDemoSrc工程，在运行起来后的主界面中点选视频编辑即可选择视频进入进行编辑功能体验。
+编译运行Demo体验，从资源下载处下载[Android完整版开发包](/document/product/454/7873)，解压出来运行RTMPAndroidDemoSrc工程，在运行起来后的主界面中点选视频编辑即可选择视频进入进行编辑功能体验。
 
 ## 1 复用现有UI
 视频编辑具有比较复杂的交互逻辑，这也决定了其 UI 复杂度很高，所以我们比较推荐复用 SDK 开发包中的 UI 源码，使用时从Demo中拷贝以下文件夹到自己的工程:

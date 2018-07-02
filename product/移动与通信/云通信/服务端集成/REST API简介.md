@@ -2,7 +2,7 @@
 
 REST API是云平台提供给APP后台的HTTP管理接口，其主要目的在于为APP后台提供一个后台管理入口。目前云通信支持的REST API参见[REST API接口列表](/doc/product/269/REST%20API接口列表)。 
 
-除了REST API，APP[控制台](http://tcecqpoc.fsphere.cn/doc/product/269/%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D#3.10-.E6.8E.A7.E5.88.B6.E5.8F.B0)亦可实现简单的数据管理、单发/群发消息，开发者可以在控制台上进行简单的数据管理、查看及测试。相比之下，REST API接口较为原始，但管理能力却更为强大。
+除了REST API，APP[控制台](/doc/product/269/%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D#3.10-.E6.8E.A7.E5.88.B6.E5.8F.B0)亦可实现简单的数据管理、单发/群发消息，开发者可以在控制台上进行简单的数据管理、查看及测试。相比之下，REST API接口较为原始，但管理能力却更为强大。
 
 为了安全性，REST API仅提供HTTPS接口。
 
@@ -129,7 +129,7 @@ REST API的应答包体也是JSON格式，其格式符合如下特征：
 
 ### 5.2 Postman 
 
-Postman是一款功能强大的网页调试与发送网页HTTP请求的Chrome插件。其使用案例参见[这里](http://tcecqpoc.fsphere.cn/document/product/269/1510)。
+Postman是一款功能强大的网页调试与发送网页HTTP请求的Chrome插件。其使用案例参见[这里](/document/product/269/1510)。
 
 ### 5.3 PHP Server SDK中的调试工具 
 

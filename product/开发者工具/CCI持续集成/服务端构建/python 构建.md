@@ -3,7 +3,7 @@
 1. 进入 CCI 持续集成界面后，单击左侧菜单栏中的 【服务端构建】。单击 【新建】 按钮，新建服务端构建工程。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/4bd4637959f7a1ecebdaf52c50765a35/image.png)
 2. 进入新建工程后时，依次填写工程名称（必填）和工程描述（选填）。
-3. 依次选择代码仓库和分支，代码仓库和分支的创建请参考 [Tgit 代码托管文档](http://tcecqpoc.fsphere.cn/document/product/612)。
+3. 依次选择代码仓库和分支，代码仓库和分支的创建请参考 [Tgit 代码托管文档](/document/product/612)。
 4. **编程语言** 中单击 【 python 】 选项，**构建类型** 和 **构建环境** 会根据构建类型自动定位为【python】。
 5. **编译参数** `cmd` 表示用户自定义命令，由用户根据具体情况输入。
 >  **注意：**

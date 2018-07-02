@@ -18,7 +18,7 @@ GET http://bmvpc.api.qcloud.com/v2/index.php/?Action=DescribeBmSslVpnGwEx
 
 | 参数名称 | 必选  | 类型 | 描述 |
 |---------|---------|---------|---------|
-| unVpcId | 否 | string | 私有网络ID。 例如：vpc-kd7d06of，可通过<a href="http://tcecqpoc.fsphere.cn/document/api/386/6646" title="DescribeBmVpcEx">DescribeBmVpcEx</a>接口查询。|
+| unVpcId | 否 | string | 私有网络ID。 例如：vpc-kd7d06of，可通过<a href="/document/api/386/6646" title="DescribeBmVpcEx">DescribeBmVpcEx</a>接口查询。|
 | vpnGwId | 否 | string | 查询指定的sslvpn网关唯一ID， 如不存在返回空。 |
 | orderField | 否 | string | 按某个字段排序，目前仅支持createTime。 |
 | orderDirection | 否 | string | 排序顺序，升序（asc）或降序（desc），默认：asc。|
@@ -71,7 +71,7 @@ GET http://bmvpc.api.qcloud.com/v2/index.php/?Action=DescribeBmSslVpnGwEx
 | data.n.rxPeakLimit | int | 网关最大入带宽。|
 | data.n.createTime | string | 网关的创建时间，如 2018-01-02 00:00:23。|
 ## 错误码
-以下错误码表仅列出了该接口的业务逻辑错误码，更多公共错误码详见<a href="http://tcecqpoc.fsphere.cn/doc/api/245/4924" title="VPC错误码">VPC错误码</a>。
+以下错误码表仅列出了该接口的业务逻辑错误码，更多公共错误码详见<a href="/doc/api/245/4924" title="VPC错误码">VPC错误码</a>。
  
 | 错误代码 | 英文提示 | 错误描述 |
 |---------|---------|---------|

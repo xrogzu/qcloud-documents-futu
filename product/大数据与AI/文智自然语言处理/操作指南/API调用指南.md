@@ -1,1 +1,1 @@
-[参见《API文档/文智自然语言处理》](http://tcecqpoc.fsphere.cn/doc/api/307/%E7%AE%80%E4%BB%8B)
+[参见《API文档/文智自然语言处理》](/doc/api/307/%E7%AE%80%E4%BB%8B)

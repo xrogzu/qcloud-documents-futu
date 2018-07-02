@@ -5,7 +5,7 @@
 更多示例可以参考Demo：[Android SDK Demo](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/archive/6e5c11cd423409f50804410e47b04e9a/FaceIdDemo+.zip)。
 
 ### 开发准备
-- 开发者使用人脸识别功能前，需要先进行 [云平台账号注册](http://tcecqpoc.fsphere.cn/register)（详细指引请参考 [注册云平台](http://tcecqpoc.fsphere.cn/document/product/378/9603)），并 [创建存储桶](http://tcecqpoc.fsphere.cn/document/product/460/10637)，从而获得 APPID 、SecretId 和 SecretKey 等（获取 APPID 可参考 [域名管理](http://tcecqpoc.fsphere.cn/document/product/460/6937)）；
+- 开发者使用人脸识别功能前，需要先进行 [云平台账号注册](/register)（详细指引请参考 [注册云平台](/document/product/378/9603)），并 [创建存储桶](/document/product/460/10637)，从而获得 APPID 、SecretId 和 SecretKey 等（获取 APPID 可参考 [域名管理](/document/product/460/6937)）；
 - 手机必须要有网络（GPRS、3G 或 Wifi 等）；
 - 支持Android 4.0及其以上版本；
 

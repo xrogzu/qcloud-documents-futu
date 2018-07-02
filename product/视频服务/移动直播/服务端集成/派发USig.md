@@ -1,6 +1,6 @@
 ## 为何要派发?
 
-UserSig是使用云平台通讯服务（[IM](http://tcecqpoc.fsphere.cn/product/im)）所需的一种安全票据，所以如果您准备使用云平台 IM 服务实现聊天室功能，就需要您的后台工程师生成 UserSig 给返回给终端 APP；如果您已经有自己的 IM 解决方案（也就是已经有自己的聊天室了），可以免去这部分工作。
+UserSig是使用云平台通讯服务（[IM](/product/im)）所需的一种安全票据，所以如果您准备使用云平台 IM 服务实现聊天室功能，就需要您的后台工程师生成 UserSig 给返回给终端 APP；如果您已经有自己的 IM 解决方案（也就是已经有自己的聊天室了），可以免去这部分工作。
 
 ## 什么是UserSig?
 云平台 IM 的前身是 QQ 的即时通讯消息系统，我们将 QQ 的消息模块进行了抽离，变成了适合移动端接入的 IM SDK。将消息后台进行改造，使其脱离对 QQ 号码的绑定，构成了现在的 IM 云通讯后台。
@@ -43,10 +43,10 @@ UserSig是使用云平台通讯服务（[IM](http://tcecqpoc.fsphere.cn/product/
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b7d40f17068d9f6605bcac81e2891b5e/image.png)
 
 ### step3：集成生成代码
-阅读 [DOC](http://tcecqpoc.fsphere.cn/document/product/269/1510) 可以了解各个语言版本（Java、PHP、C++）的 UserSig 生成代码，之后可以将其集成到您的后台系统中。
+阅读 [DOC](/document/product/269/1510) 可以了解各个语言版本（Java、PHP、C++）的 UserSig 生成代码，之后可以将其集成到您的后台系统中。
 
 推荐的做法是将其集成到登录环节中，也就是在用户登录时，您的后台服务器除了返回之前应该返回的信息，还可以将 UserSig 也一并返回给您的 App。
 
 ## 如何使用 UserSig？
-如果您是后台研发工程师，剩下的工作就不需要您操心了，您可以通知您的同事（终端开发工程师）阅读 IM SDK 的接入文档（[iOS](http://tcecqpoc.fsphere.cn/document/product/269/9149) | [Android](http://tcecqpoc.fsphere.cn/document/product/269/9233)），完成后续接入工作。
+如果您是后台研发工程师，剩下的工作就不需要您操心了，您可以通知您的同事（终端开发工程师）阅读 IM SDK 的接入文档（[iOS](/document/product/269/9149) | [Android](/document/product/269/9233)），完成后续接入工作。
 

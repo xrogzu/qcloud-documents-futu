@@ -1,6 +1,6 @@
 ## OBS功能说明
 
-请先下载云平台改造的 [OBS Studio ](http://dldir1.qq.com/hudongzhibo/xiaozhibo/obs_distribute_question.zip) ，定制版 OBS 主要用于冲顶答题模式，具体技术文档可以参考 [直播答题（冲顶模式）](http://tcecqpoc.fsphere.cn/document/product/454/13863) 中的方案一。
+请先下载云平台改造的 [OBS Studio ](http://dldir1.qq.com/hudongzhibo/xiaozhibo/obs_distribute_question.zip) ，定制版 OBS 主要用于冲顶答题模式，具体技术文档可以参考 [直播答题（冲顶模式）](/document/product/454/13863) 中的方案一。
 
 **demo演示效果**
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/c33ead292783bd4061ef069665b78a38/capture.gif)
@@ -155,7 +155,7 @@ server=http://jww.qcloud.com/dabaa
 
 ## APP端如何接收题目？
 
-可以参考我们的接入文档（[iOS平台](http://tcecqpoc.fsphere.cn/document/product/454/7880#Message) | [Android平台](http://tcecqpoc.fsphere.cn/document/product/454/7886#Message)）
+可以参考我们的接入文档（[iOS平台](/document/product/454/7880#Message) | [Android平台](/document/product/454/7886#Message)）
 
 ## 题目放在音视频流里靠谱吗？
 

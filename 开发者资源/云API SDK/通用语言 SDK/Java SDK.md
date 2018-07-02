@@ -65,7 +65,7 @@ public class Demo {
    */
   /*
    * 示例：DescribeInstances 
-   * 的 API 文档地址：http://tcecqpoc.fsphere.cn/document/product/213/9388
+   * 的 API 文档地址：/document/product/213/9388
    */
   QcloudApiModuleCenter module = new QcloudApiModuleCenter(new Cvm(),
     config);

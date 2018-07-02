@@ -11,7 +11,7 @@
 -  手机必须要有网络（GPRS、3G 或 Wifi 网络等）；
 -  从 [COS v4 控制台](http://console.tcecqpoc.fsphere.cn/cos4/secret) 获取 APPID、SecretId、SecretKey。
 
-> 关于文章中出现的 SecretID、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](http://tcecqpoc.fsphere.cn/document/product/436/7751)
+> 关于文章中出现的 SecretID、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](/document/product/436/7751)
 
 ### SDK 配置
 #### SDK 导入

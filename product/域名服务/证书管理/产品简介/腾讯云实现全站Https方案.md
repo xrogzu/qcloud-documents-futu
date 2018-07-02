@@ -21,11 +21,11 @@
 
 ### 1.3 DNS验证域名身份
 
-证书默认支持手动DNS验证，验证方法可查看[详情](http://tcecqpoc.fsphere.cn/doc/product/400/4142#2.-.E6.89.8B.E5.8A.A8dns.E9.AA.8C.E8.AF.81)。
+证书默认支持手动DNS验证，验证方法可查看[详情](/doc/product/400/4142#2.-.E6.89.8B.E5.8A.A8dns.E9.AA.8C.E8.AF.81)。
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/2f90c6cdf51ec98ba0fd7a112a891e13/5.png)
 
-如果所申请域名已成功在 [云解析平台](http://console.tcecqpoc.fsphere.cn/cns/domains) 进行解析，可以支持自动DNS验证，验证方法可查看[详情](http://tcecqpoc.fsphere.cn/doc/product/400/4142#1.-.E8.87.AA.E5.8A.A8dns.E9.AA.8C.E8.AF.81)。
+如果所申请域名已成功在 [云解析平台](http://console.tcecqpoc.fsphere.cn/cns/domains) 进行解析，可以支持自动DNS验证，验证方法可查看[详情](/doc/product/400/4142#1.-.E8.87.AA.E5.8A.A8dns.E9.AA.8C.E8.AF.81)。
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/8c10bfb9fa50a520e0b8b45f3b7a9f74/6.png)
 
@@ -35,13 +35,13 @@
 
 ### 1.4 提交申请失败
 
-如遇到下图所示弹窗，是提交域名未通过CA机构安全审核，具体原因参考[安全审核失败原因](http://tcecqpoc.fsphere.cn/doc/product/400/5439)。
+如遇到下图所示弹窗，是提交域名未通过CA机构安全审核，具体原因参考[安全审核失败原因](/doc/product/400/5439)。
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/25451d24cf3c717454830a44925642ec/1.png)
 
 ## 2. 部署证书到负载均衡
 ### 2.1 选择证书
-首先成功申请获取证书（参考[如何免费申请域名型证书](http://tcecqpoc.fsphere.cn/document/product/400/6814)），或者选择上传的证书，展开【更多】操作，选择【部署到负载均衡】。
+首先成功申请获取证书（参考[如何免费申请域名型证书](/document/product/400/6814)），或者选择上传的证书，展开【更多】操作，选择【部署到负载均衡】。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/f63593c744fe88e386ce1157526b468f/1.png)
 
 ### 2.2 选择LB实例

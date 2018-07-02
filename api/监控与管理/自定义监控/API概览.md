@@ -37,11 +37,11 @@
 | [查询告警规则](/doc/api/255/查询告警规则)            | DescribeAlarmRuleList     | 查询指定命名空间，指标下的告警规则           |
 | [修改告警规则](/doc/api/255/修改告警规则)            | ModifyAlarmRule           | 修改规则中的部分信息                  |
 | [删除告警规则](/doc/api/255/删除告警规则)            | DeleteAlarmRule           | 依据alarmRuleId删除规则           |
-| [绑定告警规则到对象](http://tcecqpoc.fsphere.cn/document/api/397/4256) | BindAlarmRuleObjects      | 将对象绑定到告警规则,当上报数据之后，会产生对应的对象 |
+| [绑定告警规则到对象](/document/api/397/4256) | BindAlarmRuleObjects      | 将对象绑定到告警规则,当上报数据之后，会产生对应的对象 |
 | [查询告警规则绑定的对象](/doc/api/255/查询告警规则绑定的对象)  | DescribeAlarmRuleObjects  | 依据告警规则id查询绑定的对象             |
 | [查询对象绑定的告警规则](/doc/api/255/查询对象绑定的告警规则)  | DescribeAlarmRuleByObject | 依据对象的维度信息等，查询其对应的告警规则       |
 | [解绑告警规则和对象](/doc/api/255/解绑告警规则和对象)      | UnbindAlarmRuleObjects    | 依据告警规则id和对象维度信息将两者解绑        |
-| [绑定告警规则和告警接收人](http://tcecqpoc.fsphere.cn/document/api/397/4260) | BindAlarmRuleReceivers    | 依据告警规则id和接收组ID将两者绑定         |
+| [绑定告警规则和告警接收人](/document/api/397/4260) | BindAlarmRuleReceivers    | 依据告警规则id和接收组ID将两者绑定         |
 | [解绑告警规则和告警接收人](/doc/api/255/解绑告警规则和告警接收人) | UnbindAlarmRuleReceivers  | 依据告警规则id解绑规则绑定的接收人          |
 | [查询告警列表](/doc/api/255/查询告警列表)            | DescribeAlarmList         | 查询指定时间段内指定对象的告警             |
 

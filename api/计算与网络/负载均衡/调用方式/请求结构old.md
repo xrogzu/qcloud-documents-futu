@@ -25,14 +25,14 @@
 <tr>
 <td> 公共参数
 </td><td> 每个接口都包含的通用参数
-</td><td> 详见 <a href="http://tcecqpoc.fsphere.cn/document/product/214/1527" title="公共参数">公共参数</a> 页面
+</td><td> 详见 <a href="/document/product/214/1527" title="公共参数">公共参数</a> 页面
 </td></tr>
 <tr>
 <td> 指令名称
 </td><td> API 要执行的指令的名称，这里使用 Action 指定，<br>
 <p>例如 Action=CreateLoadBalancer
 </p>
-</td><td> 完整的指令请参见 <a href="http://tcecqpoc.fsphere.cn/document/product/214/889" title="API概览">API概览</a>
+</td><td> 完整的指令请参见 <a href="/document/product/214/889" title="API概览">API概览</a>
 </td></tr>
 <tr>
 <td> 指令参数

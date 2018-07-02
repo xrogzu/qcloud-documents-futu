@@ -5,7 +5,7 @@
 <img style="border:0; max-width:100%; height:auto; box-sizing:content-box; box-shadow: 0px 0px 0px #ccc; margin: 0px 0px 0px 0px;" src="http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/aacdf8cdfa825f64f34af9c3c3e4154e.jpg" />
 
 
-云平台基于 [**LiveRoom**](http://tcecqpoc.fsphere.cn/document/product/454/14606) 组件实现“直播 + 连麦”功能，它分成 Client 和 Server 两个部分（都是开源的），对接攻略请参考 [DOC](http://tcecqpoc.fsphere.cn/document/product/454/14606)，本文档主要是详细列出了 Client 端的 API 列表：
+云平台基于 [**LiveRoom**](/document/product/454/14606) 组件实现“直播 + 连麦”功能，它分成 Client 和 Server 两个部分（都是开源的），对接攻略请参考 [DOC](/document/product/454/14606)，本文档主要是详细列出了 Client 端的 API 列表：
 
 ## LiveRoom
 
@@ -90,8 +90,8 @@ self.liveRoom.delegate = self(回调监听者)
 
 | 参数       | 类型                  | 说明       |
 | -------- | ------------------- | -------- |
-| serverDomain | String | RoomService 的服务器地址，这部分可以参考 [DOC](http://tcecqpoc.fsphere.cn/document/product/454/14606#ClientFLOW)。 |
-| loginInfo | LoginInfo | 登录参数，这部分可以参考 [DOC](http://tcecqpoc.fsphere.cn/document/product/454/14606#ClientFLOW)。 |
+| serverDomain | String | RoomService 的服务器地址，这部分可以参考 [DOC](/document/product/454/14606#ClientFLOW)。 |
+| loginInfo | LoginInfo | 登录参数，这部分可以参考 [DOC](/document/product/454/14606#ClientFLOW)。 |
 | completion | ILoginCompletionHandler | 登录成功与否的回调 |
 
 - 示例代码：

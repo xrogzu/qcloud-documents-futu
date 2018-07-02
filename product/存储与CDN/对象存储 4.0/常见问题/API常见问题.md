@@ -26,8 +26,8 @@ V4 版本的 JSON API 接口即从 2016 年 9 月起用户接入 COS 使用的 A
 <span id="Q5"></span>
 #### 5. XML API 与 JSON API 的签名是否通用？
 相互不通用，XML API 和 JSON API 各自有各自的签名方式。详情请参考：
-- [JSON API 签名](http://tcecqpoc.fsphere.cn/document/product/436/6054)
-- [XML API 签名](http://tcecqpoc.fsphere.cn/document/product/436/7778)
+- [JSON API 签名](/document/product/436/6054)
+- [XML API 签名](/document/product/436/7778)
 
 <span id="Q6"></span>
 #### 6. XML API 与 JSON API 的签名鉴权相比有何区别？

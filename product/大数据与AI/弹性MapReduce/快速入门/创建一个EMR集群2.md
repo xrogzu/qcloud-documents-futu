@@ -1,5 +1,5 @@
 ### 步骤一：注册云平台账号
-在申请弹性 MapReduce 集群之前，您需要一个云平台的账号。单击进入 [云平台注册页面](http://tcecqpoc.fsphere.cn/register)，详细指引请参考 [注册云平台](http://tcecqpoc.fsphere.cn/document/product/378/9603)。
+在申请弹性 MapReduce 集群之前，您需要一个云平台的账号。单击进入 [云平台注册页面](/register)，详细指引请参考 [注册云平台](/document/product/378/9603)。
 ### 步骤二：登录弹性 MapReduce 购买页
 在成功注册账号后，登录 [弹性 MapReduce](http://buy.tce.fsphere.cn/emr) 购买页。
 ### 步骤三：创建弹性 MapReduce 集群
@@ -13,7 +13,7 @@
 #### 3. 选择产品版本及软件
 EMR 推荐了一些常用的 Hadoop 软件搭配，您也可以根据自身需求组合各软件。
 #### 4. 集群 HA（高可用）性
-选择 “启动高可用” 后，将会默认开启两个 Master 节点，至少 3 个 Core 节点，以及 3 个 Common 节点（节点类型说明请参见 [产品概述](http://tcecqpoc.fsphere.cn/document/product/589/10813)）。
+选择 “启动高可用” 后，将会默认开启两个 Master 节点，至少 3 个 Core 节点，以及 3 个 Common 节点（节点类型说明请参见 [产品概述](/document/product/589/10813)）。
 #### 5. 节点规格配置
 云平台 EMR 提供了多种节点规格，您可以根据业务需要自由选择节点类型、核数、内存、磁盘类型及大小。
 #### 6. 集群私有网络

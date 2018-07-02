@@ -1,6 +1,6 @@
 ## 1. 集成小视频扩展包
 
-从 [官网](http://tcecqpoc.fsphere.cn/product/im.html#sdk) 下载ImSDK开发包，小视频扩展包：IMUGCExt.framework、TXRTMPSDK.framework。各个包的说明如下：
+从 [官网](/product/im.html#sdk) 下载ImSDK开发包，小视频扩展包：IMUGCExt.framework、TXRTMPSDK.framework。各个包的说明如下：
 
 * IMUGCExt.framework		IM小视频UGC消息能力扩展包
   * 发送小视频消息 TIMUGCElem 功能
@@ -8,7 +8,7 @@
 * TXRTMPSDK.framework   小视频录制、编辑能力扩展包
   * 包含小视频录制功能
   * 包含小视频编辑功能
-  * 其他能力请参见[移动直播SDK文档](http://tcecqpoc.fsphere.cn/document/product/454/7876)
+  * 其他能力请参见[移动直播SDK文档](/document/product/454/7876)
   
 在工程中添加`TXRTMPSDK.framework`，同时还要添加以下系统依赖库
 
@@ -116,7 +116,7 @@ config.frontCamera    = YES;                     //是否前置摄像头，使�
 ```     
 
 ### 2.4 文件预览
-使用 [播放SDK](http://tcecqpoc.fsphere.cn/document/product/454/7880) 即可预览刚才生成的 MP4 文件，需要在调用 startPlay 时指定播放类型为 [PLAY_TYPE_LOCAL_VIDEO](http://tcecqpoc.fsphere.cn/document/product/454/7880#step-3.3A-.E5.90.AF.E5.8A.A8.E6.92.AD.E6.94.BE6) 。
+使用 [播放SDK](/document/product/454/7880) 即可预览刚才生成的 MP4 文件，需要在调用 startPlay 时指定播放类型为 [PLAY_TYPE_LOCAL_VIDEO](/document/product/454/7880#step-3.3A-.E5.90.AF.E5.8A.A8.E6.92.AD.E6.94.BE6) 。
 
 ## 3. 小视频消息
 

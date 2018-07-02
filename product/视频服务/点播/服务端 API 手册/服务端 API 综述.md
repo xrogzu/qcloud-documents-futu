@@ -5,17 +5,17 @@
 云点播服务端 API 的具体使用方法和云平台的[云 API][云 API] 相同。为了方便用户调用，云点播提供了 [服务端 API SDK][SDK] 供开发者使用。
 
 ### 请求结构
-* [请求结构简介](http://tcecqpoc.fsphere.cn/document/api/213/6975)
-* [公共请求参数](http://tcecqpoc.fsphere.cn/document/api/213/6976)
-* [接口请求参数](http://tcecqpoc.fsphere.cn/document/api/213/6977)
-* [最终请求形式](http://tcecqpoc.fsphere.cn/document/api/213/6978)
+* [请求结构简介](/document/api/213/6975)
+* [公共请求参数](/document/api/213/6976)
+* [接口请求参数](/document/api/213/6977)
+* [最终请求形式](/document/api/213/6978)
 
 ### 签名方法
-* [签名方法](http://tcecqpoc.fsphere.cn/document/api/213/6984)
+* [签名方法](/document/api/213/6984)
 
 ### 返回结果
-* [正确返回结果](http://tcecqpoc.fsphere.cn/document/api/213/6980)
-* [错误返回结果](http://tcecqpoc.fsphere.cn/document/api/213/6981)
+* [正确返回结果](/document/api/213/6980)
+* [错误返回结果](/document/api/213/6981)
 * [公共错误码][公共错误码]
 
 ### 云点播业务错误码
@@ -140,7 +140,7 @@
 |-49198 | 音视频转码，校验转码后文件： End of file|
 |-49199 | 音视频转码，校验转码后文件： seeking outside actual filesize|
 
-[云 API]: http://tcecqpoc.fsphere.cn/product/api "云 API"
-[公共错误码]: http://tcecqpoc.fsphere.cn/document/api/213/10146 "公共错误码"
-[SDK]: http://tcecqpoc.fsphere.cn/document/developer-resource "SDK"
+[云 API]: /product/api "云 API"
+[公共错误码]: /document/api/213/10146 "公共错误码"
+[SDK]: /document/developer-resource "SDK"
 

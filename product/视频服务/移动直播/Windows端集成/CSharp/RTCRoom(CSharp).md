@@ -2,7 +2,7 @@
 
 ## 双人视频
 
-下载[Windows SDK+Demo](http://tcecqpoc.fsphere.cn/document/product/454/7873#Windows) ，打开CustomServiceDemo.exe程序，首页包含3种模式，**[标准直播](http://tcecqpoc.fsphere.cn/document/product/454/13627)**、**双人视频**和**多人视频**。
+下载[Windows SDK+Demo](/document/product/454/7873#Windows) ，打开CustomServiceDemo.exe程序，首页包含3种模式，**[标准直播](/document/product/454/13627)**、**双人视频**和**多人视频**。
 
 双人视频通话的功能，双人视频用于体验双人实时视频通话功能，金融和保险等行业的客服进行一对一的视频沟通，这是比较常见的场景。
 
@@ -51,7 +51,7 @@
 
 ![时序图](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ea4e53c29ae574288aa71ff4e7b0a757/image.png)
 
-**step1：**A创建房间room-A，向业务服务器请求推流和拉流地址，获取 push-url-A 和低延时的 play-url-A，服务器分配 URL 的方法参考 [DOC](http://tcecqpoc.fsphere.cn/document/product/454/7915)
+**step1：**A创建房间room-A，向业务服务器请求推流和拉流地址，获取 push-url-A 和低延时的 play-url-A，服务器分配 URL 的方法参考 [DOC](/document/product/454/7915)
 
 **step2：**A创建TXPusher实例，推流的URL使用push-url-A ，通过setCallback接口监听推流事件
 

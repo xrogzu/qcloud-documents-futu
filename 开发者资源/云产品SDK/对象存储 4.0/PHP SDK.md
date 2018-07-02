@@ -106,7 +106,7 @@ public static function createFolder($bucketName, $path, $bizAttr = null);
 | ------- | ------ | ---- | ---------------------------------------- |
 | code    | Int    | 是    | 错误码，成功时为0                                |
 | message | String | 是    | 错误信息                                     |
-| data    | Array  | 否    | 返回数据，请参考[《Restful API 创建目录》](http://tcecqpoc.fsphere.cn/doc/product/227/3362) |
+| data    | Array  | 否    | 返回数据，请参考[《Restful API 创建目录》](/doc/product/227/3362) |
 
 #### 示例
 
@@ -170,7 +170,7 @@ public static function statFolder($bucketName, $path);
 | ------- | ------ | ---- | ---------------------------------------- |
 | code    | Int    | 是    | 错误码，成功时为0                                |
 | message | String | 是    | 错误信息                                     |
-| data    | Array  | 否    | 目录属性数据，请参考[《Restful API 目录查询》](http://tcecqpoc.fsphere.cn/doc/product/227/3367) |
+| data    | Array  | 否    | 目录属性数据，请参考[《Restful API 目录查询》](/doc/product/227/3367) |
 
 #### 示例
 
@@ -235,7 +235,7 @@ public static function listFolder($bucketName, $path, $num = 20, $pattern = 'eLi
 | ------- | ------ | ------ | ---------------------------------------- |
 | code    | Int    | 是      | API 错误码，成功时为0                            |
 | message | String | 是      | 错误信息                                     |
-| data    | Array  | 是      | 返回数据，请参考[《Restful API 目录列表》](http://tcecqpoc.fsphere.cn/doc/product/227/3364) |
+| data    | Array  | 是      | 返回数据，请参考[《Restful API 目录列表》](/doc/product/227/3364) |
 
 #### 示例
 
@@ -270,7 +270,7 @@ public static function prefixSearch($bucketName, $prefix, $num = 20, $pattern = 
 | ------- | ------ | ------ | ---------------------------------------- |
 | code    | Int    | 是      | 错误码，成功时为0                                |
 | message | String | 是      | API 错误信息                                 |
-| data    | Array  | 是      | 返回数据，请参考[《Restful API 目录列表》](http://tcecqpoc.fsphere.cn/doc/product/227/3364) |
+| data    | Array  | 是      | 返回数据，请参考[《Restful API 目录列表》](/doc/product/227/3364) |
 
 #### 示例
 
@@ -309,7 +309,7 @@ public static function upload($bucketName, $srcPath, $dstPath,
 | ------- | ------ | ---- | ---------------------------------------- |
 | code    | Int    | 是    | 错误码，成功时为0                                |
 | message | String | 是    | 错误信息                                     |
-| data    | Array  | 是    | 返回数据，请参考[《Restful API 创建文件》](http://tcecqpoc.fsphere.cn/doc/product/227/3377) |
+| data    | Array  | 是    | 返回数据，请参考[《Restful API 创建文件》](/doc/product/227/3377) |
 
 #### 示例
 
@@ -384,7 +384,7 @@ $result = Cosapi::update($bucketName, $dstPath, $bizAttr,$authority, $customer_h
 | ------- | ------ | ------ | ---------------------------------------- |
 | code    | Int    | 是      | 错误码，成功时为0                                |
 | message | String | 是      | 错误信息                                     |
-| data    | Array  | 是      | 文件属性数据，请参考[《Restful API 文件查询》](http://tcecqpoc.fsphere.cn/doc/product/227/3381) |
+| data    | Array  | 是      | 文件属性数据，请参考[《Restful API 文件查询》](/doc/product/227/3381) |
 
 #### 示例
 

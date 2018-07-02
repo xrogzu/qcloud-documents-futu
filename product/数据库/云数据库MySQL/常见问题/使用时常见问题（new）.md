@@ -2,11 +2,11 @@
 云数据库目前可以通过 phpMyAdmin 导入/导出 sql 数据文件。在导入上传的文件时，文件必须是 sql 文件或者压缩（tar、bz2、zip）后的 sql 文件，而且文件的大小不能超过 2 M。
 
 ## 2. 如何获知磁盘空间不足
-监控中心对云数据库的磁盘空间进行了监控，当云数据库的使用空间超过 90% 的时候就会触发短信和邮件告警，这里只需要在云监控中配置好对应的告警接收人（如何配置请参考[告警功能](http://tcecqpoc.fsphere.cn/document/product/236/8457)），当空间不足的时候就能收到告警。
+监控中心对云数据库的磁盘空间进行了监控，当云数据库的使用空间超过 90% 的时候就会触发短信和邮件告警，这里只需要在云监控中配置好对应的告警接收人（如何配置请参考[告警功能](/document/product/236/8457)），当空间不足的时候就能收到告警。
 
 ## 3. 使用云数据库前要做什么准备
 在使用云数据库前您需要考虑以下两个问题：
-1. 您的应用是否适合使用 DB？比如数据量小、访问量高、key-value 存储的场景就应该考虑使用内存级持久化存储服务 [【云缓存Memcached】](http://tcecqpoc.fsphere.cn/product/cmem)。
+1. 您的应用是否适合使用 DB？比如数据量小、访问量高、key-value 存储的场景就应该考虑使用内存级持久化存储服务 [【云缓存Memcached】](/product/cmem)。
 2. 您的数据库设计是否合理？比如有明显访问热点或者数据量过大的表，则应该考虑拆分成多个表。 
 
 ## 4. 云数据库的binlog保存时间是多久
@@ -51,13 +51,13 @@ MySQL 数据库适用的地方都可以使用云数据库。相比于自行搭�
 
 ## 9. 云数据库对数据量有什么限制？
 
-详见 <a href="http://tcecqpoc.fsphere.cn/document/product/236/7259#1-.E6.95.B0.E6.8D.AE.E9.87.8F.E9.99.90.E5.88.B61" target="_blank">云数据库数量限制</a>。
+详见 <a href="/document/product/236/7259#1-.E6.95.B0.E6.8D.AE.E9.87.8F.E9.99.90.E5.88.B61" target="_blank">云数据库数量限制</a>。
 
 ## 10. 使用云数据库的注意事项？
-详见 <a href="http://tcecqpoc.fsphere.cn/document/product/236/7259#7-.E6.93.8D.E4.BD.9C.E9.99.90.E5.88.B67" target="_blank">云数据库操作限制</a>。
+详见 <a href="/document/product/236/7259#7-.E6.93.8D.E4.BD.9C.E9.99.90.E5.88.B67" target="_blank">云数据库操作限制</a>。
 
 ## 11. 如何登录云数据库？
-开发人员通过 IP/Port 的方式就可以完全控制和管理 MySQL 实例，无需登录到服务器进行操作。可通过命令行或者云数据库管理台登录云数据库，详见 <a href="http://tcecqpoc.fsphere.cn/document/product/236/3130" target="_blank">访问MySQL数据库</a>。
+开发人员通过 IP/Port 的方式就可以完全控制和管理 MySQL 实例，无需登录到服务器进行操作。可通过命令行或者云数据库管理台登录云数据库，详见 <a href="/document/product/236/3130" target="_blank">访问MySQL数据库</a>。
 
 ## 12. 是否可以自助修改 MySQL 实例的配置？
 MySQL 实例的配置由云数据库统一管理，并支持部分参数的自助修改，详细请参考下面的问题 [如何修改云数据库配置参数](#change_parameter_21)。
@@ -76,13 +76,13 @@ MySQL 实例的配置由云数据库统一管理，并支持部分参数的自�
 
 ## 17. 云数据库的默认字符集编码能修改么？
 可以修改。
-默认字符集说明以及修改方法详见 <a href=http://tcecqpoc.fsphere.cn/document/product/236/7259#6-.E5.AD.97.E7.AC.A6.E9.9B.86.E8.AF.B4.E6.98.8E6"" target="_blank">云数据库使用限制</a>。
+默认字符集说明以及修改方法详见 <a href=/document/product/236/7259#6-.E5.AD.97.E7.AC.A6.E9.9B.86.E8.AF.B4.E6.98.8E6"" target="_blank">云数据库使用限制</a>。
 
 ## 18. 如何查看云数据库慢查询日志？
-可通过云数据库数据导出工具获取慢查询日志，详见 <a href="http://tcecqpoc.fsphere.cn/document/product/236/7274" target="_blank">下载备份文件</a>。
+可通过云数据库数据导出工具获取慢查询日志，详见 <a href="/document/product/236/7274" target="_blank">下载备份文件</a>。
 
 ## 19. 开发者自己如何备份数据？
-云数据库实例每天会进行全量备份，开发者也可以采用云数据库提供的多线程快速导入导出工具进行备份，详见[手动备份与恢复云数据库](http://tcecqpoc.fsphere.cn/document/product/236/7275)，或者通过 mysqldump 工具自己备份数据。
+云数据库实例每天会进行全量备份，开发者也可以采用云数据库提供的多线程快速导入导出工具进行备份，详见[手动备份与恢复云数据库](/document/product/236/7275)，或者通过 mysqldump 工具自己备份数据。
 
 ## 20. 如何申请云数据库实例 slave 只读权限开放/关闭？
 如果需要开放或关闭 slave 只读实例，请按照模版提交工单申请。
@@ -140,13 +140,13 @@ MySQL 实例的配置由云数据库统一管理，并支持部分参数的自�
 更多请参考 [云数据库可以修改的配置](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/doc/cdb_user_modify_var.xls)。
 
 ## 22. 云数据库的连接数有限制吗？
-详见 <a href="http://tcecqpoc.fsphere.cn/document/product/236/7259#2-.E8.BF.9E.E6.8E.A5.E6.95.B0.E9.99.90.E5.88.B62" target="_blank">云数据库链接数限制</a>。
+详见 <a href="/document/product/236/7259#2-.E8.BF.9E.E6.8E.A5.E6.95.B0.E9.99.90.E5.88.B62" target="_blank">云数据库链接数限制</a>。
 
 ## 23. 云数据库的binlog保存时间是多久？
-详见 <a href="http://tcecqpoc.fsphere.cn/document/product/236/7269#5-.E4.BA.91.E6.95.B0.E6.8D.AE.E5.BA.93.E7.9A.84binlog.E4.BF.9D.E5.AD.98.E6.97.B6.E9.97.B4.E8.AF.B4.E6.98.8E5" target="_blank">云数据库的binlog保存时间说明</a>。
+详见 <a href="/document/product/236/7269#5-.E4.BA.91.E6.95.B0.E6.8D.AE.E5.BA.93.E7.9A.84binlog.E4.BF.9D.E5.AD.98.E6.97.B6.E9.97.B4.E8.AF.B4.E6.98.8E5" target="_blank">云数据库的binlog保存时间说明</a>。
 
 ## 24. 云数据库的慢查询时间是多久？
-云数据库的慢查询时间（long\_query\_time）的默认值是 10 秒，用户可以自行修改，命令跟配置参数的命令行方式一样,详见[数据库MySQL](http://tcecqpoc.fsphere.cn/document/product/236)，在参数配置里可修改。
+云数据库的慢查询时间（long\_query\_time）的默认值是 10 秒，用户可以自行修改，命令跟配置参数的命令行方式一样,详见[数据库MySQL](/document/product/236)，在参数配置里可修改。
 点击“进入管理中心”，进入[总览页面](http://console.tcecqpoc.fsphere.cn/)：
 
 ![总览](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/33ad26ed6b2fde8caad10566c7e21206/image.png)

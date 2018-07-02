@@ -4,9 +4,9 @@
 
 <img style="border:0; max-width:100%; height:auto; box-sizing:content-box; box-shadow: 0px 0px 0px #ccc; margin: 0px 0px 0px 0px;" src="http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/2ea169fa766f84576b3055ea97e3c26b.jpg" />
 
-云平台基于 [**LiveRoom**](http://tcecqpoc.fsphere.cn/document/product/454/14606) 组件实现“直播 + 连麦”功能，它分成 Client 和 Server 两个部分（都是开源的），对接攻略请参考 [DOC](http://tcecqpoc.fsphere.cn/document/product/454/14606)，本文档主要是详细列出了 Client 端的 API 列表：
+云平台基于 [**LiveRoom**](/document/product/454/14606) 组件实现“直播 + 连麦”功能，它分成 Client 和 Server 两个部分（都是开源的），对接攻略请参考 [DOC](/document/product/454/14606)，本文档主要是详细列出了 Client 端的 API 列表：
 
-> 在云平台官网 [下载](http://tcecqpoc.fsphere.cn/document/product/454/7873#Windows) SDK 开发包，并下载 ActiveX 插件版本，zip 包中包含 LiveRoom 相关的 javascript 文件。
+> 在云平台官网 [下载](/document/product/454/7873#Windows) SDK 开发包，并下载 ActiveX 插件版本，zip 包中包含 LiveRoom 相关的 javascript 文件。
 
 <h2 id = "LiveRoom">LiveRoom接口列表</h2>
 
@@ -93,7 +93,7 @@ LiveRoom.setLiveRoomListener({
 <h3 id="login"> login </h3>
 
 - 接口定义：login(object):void
-- 接口说明：登录到 RoomService 后台，通过参数 serverDomain 可以指定是使用云平台的 RoomService 还是使用自建的 RoomService（具体可以参考 [DOC](http://tcecqpoc.fsphere.cn/document/product/454/14606#ClientFLOW)）。
+- 接口说明：登录到 RoomService 后台，通过参数 serverDomain 可以指定是使用云平台的 RoomService 还是使用自建的 RoomService（具体可以参考 [DOC](/document/product/454/14606#ClientFLOW)）。
 - 参数说明：
 
 ```

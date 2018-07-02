@@ -15,13 +15,13 @@ SVN手册：http://svndoc.iusesvn.com/
 
 连接SVN库并迁出数据到本地服务器上：
 
-1.选择要存储SVN文件的目录，cd进入该目录，执行svn checkout命令（CDN服务的SVN路径获取，详见：[CDN文件发布](http://tcecqpoc.fsphere.cn/doc/product/228/CDN%E6%96%87%E4%BB%B6%E5%8F%91%E5%B8%83)），拿云服务账号为1251991073的开发者举例，执行的命令如下所示：
+1.选择要存储SVN文件的目录，cd进入该目录，执行svn checkout命令（CDN服务的SVN路径获取，详见：[CDN文件发布](/doc/product/228/CDN%E6%96%87%E4%BB%B6%E5%8F%91%E5%B8%83)），拿云服务账号为1251991073的开发者举例，执行的命令如下所示：
 
 ```
 svn checkout http://cdn.yun.qq.com/1251991073
 ```
 
-2.输入用户名和密码（即云服务账号和密码，详见：[CDN文件发布](http://tcecqpoc.fsphere.cn/doc/product/228/CDN%E6%96%87%E4%BB%B6%E5%8F%91%E5%B8%83)）。
+2.输入用户名和密码（即云服务账号和密码，详见：[CDN文件发布](/doc/product/228/CDN%E6%96%87%E4%BB%B6%E5%8F%91%E5%B8%83)）。
 
 在您还没有上传任何文件到SVN库之前，这里checkout出来的只是目录，目录下没有文件（除了自动生成的.svn文件夹）。
 
@@ -45,7 +45,7 @@ svn checkout http://cdn.yun.qq.com/1251991073
 #### 4 同步资源
 
 利用COS本地同步工具，将本地资源同步至指定 bucket，使用方式可参考：
-http://tcecqpoc.fsphere.cn/document/product/436/7133
+/document/product/436/7133
 
 #### 5 资源URL变更
 
@@ -66,5 +66,5 @@ http://1251991073-1251991073.costj.myqcloud.com/image/1.png
 
 COS加速域名在CDN控制台上能够进行配置管理、查看统计分析数据、日志下载、刷新预热等功能。
 
-更多COS使用指南可参考：http://tcecqpoc.fsphere.cn/document/product/436
+更多COS使用指南可参考：/document/product/436
 

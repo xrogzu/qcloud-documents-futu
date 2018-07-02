@@ -18,7 +18,7 @@
 由于 MP4 和 HLS（m3u8）是目前在 PC 浏览器和手机浏览器上支持程度最广泛的格式，所以云平台的视频点播平台最终会把上传的视频发布为 MP4 和 HLS（m3u8） 格式。
 ## 准备工作
 ### step 1：开通服务
-在 [云平台官网](http://tcecqpoc.fsphere.cn/) 注册云平台帐号，然后开通**点播**服务。
+在 [云平台官网](/) 注册云平台帐号，然后开通**点播**服务。
 ### step 2：上传文件
 点播服务开通之后，进入 [点播视频管理](http://console.tcecqpoc.fsphere.cn/video/videolist) 就可以上传新的视频文件，如果您没有开通点播服务，则无法操作这一步骤。
 ### step 3：获取 fileID 与 appID
@@ -188,7 +188,7 @@ var player = TCPlayer('player-container-id', {
 > * 在浏览器劫持视频播放的情况下，设置的贴片将无法显示。
 
 ### Referer 防盗链
-开启流程请看 [Referer 防盗链说明文档](http://tcecqpoc.fsphere.cn/document/product/266/14046)
+开启流程请看 [Referer 防盗链说明文档](/document/product/266/14046)
 
 播放器初始化需增加参数如下：
 ```
@@ -210,7 +210,7 @@ var player = TCPlayer('player-container-id', {
 > * 播放器的 Flash swf 文件默认存放在 imgcache.qq.com 域名下。
 
 ### Key 防盗链
-开启流程请看 [Key 防盗链说明文档](http://tcecqpoc.fsphere.cn/document/product/266/14047)
+开启流程请看 [Key 防盗链说明文档](/document/product/266/14047)
 
 播放器初始化需增加参数如下：
 ```
@@ -222,14 +222,14 @@ var player = TCPlayer('player-container-id', {
      sign:''
    });
 ```
-参数 t、us、sign的具体含义请查看 [Key 防盗链说明文档](http://tcecqpoc.fsphere.cn/document/product/266/14047)
+参数 t、us、sign的具体含义请查看 [Key 防盗链说明文档](/document/product/266/14047)
 
 >**注意事项：**
-> * sign 的计算方法为：sign = md5(KEY+appId+fileId+t+us)，与 [Key 防盗链说明文档](http://tcecqpoc.fsphere.cn/document/product/266/14047)中的计算方式不同，其余参数一致。
+> * sign 的计算方法为：sign = md5(KEY+appId+fileId+t+us)，与 [Key 防盗链说明文档](/document/product/266/14047)中的计算方式不同，其余参数一致。
 > * 如果同时开启了 Referer 防盗链，在 Referer 防盗链配置的示例代码基础上增加参数即可。
 
 ### 试看功能
-使用试看功能需要先开启 Key 防盗链，开启流程请看 [Key 防盗链说明文档](http://tcecqpoc.fsphere.cn/document/product/266/14047)
+使用试看功能需要先开启 Key 防盗链，开启流程请看 [Key 防盗链说明文档](/document/product/266/14047)
 
 播放器初始化需增加参数如下：
 ```
@@ -242,14 +242,14 @@ var player = TCPlayer('player-container-id', {
      exper:''
    });
 ```
-参数 t、us、sign、exper 的具体含义请查看 [Key 防盗链说明文档](http://tcecqpoc.fsphere.cn/document/product/266/14047)
+参数 t、us、sign、exper 的具体含义请查看 [Key 防盗链说明文档](/document/product/266/14047)
 
 >**注意事项：**
-> * 带试看的 sign 计算方法为：sign = md5(KEY+appId+fileId+t+exper+us)，与 [Key 防盗链说明文档](http://tcecqpoc.fsphere.cn/document/product/266/14047)中的计算方式不同，其余参数一致。
+> * 带试看的 sign 计算方法为：sign = md5(KEY+appId+fileId+t+exper+us)，与 [Key 防盗链说明文档](/document/product/266/14047)中的计算方式不同，其余参数一致。
 > * 播放器播放的视频时长是 exper 参数指定的长度，与已往在播放端控制播放时长的试看功能不同，播放器不会获取完整的视频。
 
 ### HLS 加密播放
-开启流程请看[视频加密文档](http://tcecqpoc.fsphere.cn/document/product/266/9638)
+开启流程请看[视频加密文档](/document/product/266/9638)
 
 >**注意事项：**
 > * 如果播放页面或者Flash swf url 与解密秘钥服务器域名不一致，Key 服务器需要部署 corssdomain.xml 和 CORS（"跨域资源共享" Cross-origin resource sharing），允许 Flash 和 JavaScript 跨域获取解密秘钥。

@@ -5,7 +5,7 @@ HTTPS，是指超文本传输安全协议（Hypertext Transfer Protocol Secure�
 云平台 CDN 目前已经全面支持 HTTPS 配置。您可以上传自有证书进行部署，或前往 [证书管理](http://console.tcecqpoc.fsphere.cn/ssl ) 控制台申请由亚洲诚信免费提供的第三方证书。
 
 ### 3. 如何配置 HTTPS 证书？
-您可以在 CDN 控制台中配置 HTTPS 证书，详情请参阅 [HTTPS 配置](http://tcecqpoc.fsphere.cn/document/product/228/6295)。
+您可以在 CDN 控制台中配置 HTTPS 证书，详情请参阅 [HTTPS 配置](/document/product/228/6295)。
 
 ### 4. 源站的 HTTPS 证书更新了，CDN 上需要同步更新吗？
 由您的回源方式决定：

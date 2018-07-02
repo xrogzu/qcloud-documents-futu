@@ -2,7 +2,7 @@
 ![入门](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/13df5d31ad80a6cacb5bb9ee3366e639.png)
 ## 一、准备与选型
 1. 注册云平台账号
-新用户需在 [云平台官网](http://tcecqpoc.fsphere.cn/) 进行【注册】然后购买宙斯盾安全防护服务，详情可参见 [注册云平台](http://tcecqpoc.fsphere.cn/document/product/378/9603) 操作指引和宙斯盾安全防护 [购买指导]()。
+新用户需在 [云平台官网](/) 进行【注册】然后购买宙斯盾安全防护服务，详情可参见 [注册云平台](/document/product/378/9603) 操作指引和宙斯盾安全防护 [购买指导]()。
 2. 确定高防 IP 区域及网络
  - 区域选择原则
 DDoS 高防 IP 提供代理转发模式，请尽量选择靠近您源站服务器所在地理位置的区域。高防 IP 区域越靠近源站服务器，越能获得较小的访问时延和较高的访问速度。

@@ -21,7 +21,7 @@ Content-MD5: MD5
 
 Lifecycle configuration in the request body
 ```
-> Authorization: Auth String (详细参见 [请求签名](http://tcecqpoc.fsphere.cn/document/product/436/7778) 章节)
+> Authorization: Auth String (详细参见 [请求签名](/document/product/436/7778) 章节)
 
 ### 请求行
 
@@ -33,7 +33,7 @@ PUT /?lifecycle HTTP/1.1
 ### 请求头
 
 #### 公共头部
-该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](http://tcecqpoc.fsphere.cn/document/product/436/7728) 章节。<style  rel="stylesheet"> table th:nth-of-type(1) { width: 180px; }</style>
+该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](/document/product/436/7728) 章节。<style  rel="stylesheet"> table th:nth-of-type(1) { width: 180px; }</style>
 
 #### 非公共头部
 
@@ -136,7 +136,7 @@ x-cos-request-id: NTk4NTcwMDNfMjQ4OGY3MGFfNDI0Y181
 ### 响应头
 
 #### 公共响应头 
-该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](http://tcecqpoc.fsphere.cn/document/product/436/7729) 章节。
+该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](/document/product/436/7729) 章节。
 #### 特有响应头
 该响应无特殊的响应头。
 
@@ -154,7 +154,7 @@ x-cos-request-id: NTk4NTcwMDNfMjQ4OGY3MGFfNDI0Y181
 |InvalidArgument|400 Bad Reques|请求参数不合法，如果错误描述中显示"Rule ID must be unique. Found same ID for more than one rule"， 那么表示有多个 Rule 的 id 字段相同。|
 
 备注：具体的错误原因可参考返回的message进行排查。
-获取更多关于 COS 的错误码的信息，或者产品所有的错误列表，请查看 [错误码](http://tcecqpoc.fsphere.cn/document/product/436/7730) 文档。
+获取更多关于 COS 的错误码的信息，或者产品所有的错误列表，请查看 [错误码](/document/product/436/7730) 文档。
 
 ## 实际案例
 

@@ -139,7 +139,7 @@ HttpClent 实例使用 WnsService.getWnsHttpClient()来获取，然后使用Http
 >注意：
 >发送和接受数据大小限制为 512KB。
 >业务侧最好打印出 response.getFirstHeader  (WnsService.KEY_HTTP_RESULT)中的数据，以便于 bug 定位。
-**此模式下，sdk会自动将url设置为命令字，wns会统计每个命令字的成功率等信息，对应的，需要在控制台配置url域名对应的路由。路由配置请参考：[控制台说明](http://tcecqpoc.fsphere.cn/doc/product/276)。**
+**此模式下，sdk会自动将url设置为命令字，wns会统计每个命令字的成功率等信息，对应的，需要在控制台配置url域名对应的路由。路由配置请参考：[控制台说明](/doc/product/276)。**
 
 如下图所示：
 ```
@@ -203,7 +203,7 @@ private void sendHttpReq() {
 使用 wns.getWnsHttpUrl()获取 URL 实例
 >注意：
 发送和接受数据大小限制为 512KB。
-**此模式下，sdk 会自动将 url 设置为命令字，wns 会统计每个命令字的成功率等信息，对应的，需要在控制台配置 url 域名对应的路由。路由配置请参考：[控制台说明](http://tcecqpoc.fsphere.cn/doc/product/276)。**
+**此模式下，sdk 会自动将 url 设置为命令字，wns 会统计每个命令字的成功率等信息，对应的，需要在控制台配置 url 域名对应的路由。路由配置请参考：[控制台说明](/doc/product/276)。**
 
 ```
  //[必须] 定义 wns 的引用，从而使用其内部方法
@@ -270,7 +270,7 @@ private void sendHttpUrlConnReq(final String url)
 2. 命令字禁止使用“wnscloud”作为前缀。
 
 >注意：
->**cmd 必须是细化到接口，wns 会统计每个 cmd 的成功率等信息，对应的，需要在控制台配置模块 wnsdemo 对应的路由。路由配置请参考：[控制台说明](http://tcecqpoc.fsphere.cn/doc/product/276)。**
+>**cmd 必须是细化到接口，wns 会统计每个 cmd 的成功率等信息，对应的，需要在控制台配置模块 wnsdemo 对应的路由。路由配置请参考：[控制台说明](/doc/product/276)。**
 
 
 ```

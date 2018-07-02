@@ -13,7 +13,7 @@
     
     GCloud.IGCloud.Instance.Initialize(initinfo);
 
-Android平台请详细参考：[《Android平台操作指南》](http://tcecqpoc.fsphere.cn/document/product/595/10575)
+Android平台请详细参考：[《Android平台操作指南》](/document/product/595/10575)
 
 ## 2 Android程序更新
 

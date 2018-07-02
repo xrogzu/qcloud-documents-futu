@@ -49,7 +49,7 @@ GET http://bmvpc.api.qcloud.com/v2/index.php/?Action=DescribeBmSshSslVpnUser
 
 
 ## 错误码
-以下错误码表仅列出了该接口的业务逻辑错误码，更多公共错误码详见<a href="http://tcecqpoc.fsphere.cn/doc/api/245/4924" title="VPC错误码">VPC错误码</a>。
+以下错误码表仅列出了该接口的业务逻辑错误码，更多公共错误码详见<a href="/doc/api/245/4924" title="VPC错误码">VPC错误码</a>。
  
 | 错误代码 | 英文提示 | 错误描述 |
 |---------|---------|---------|

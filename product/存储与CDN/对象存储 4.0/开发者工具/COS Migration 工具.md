@@ -33,7 +33,7 @@ COS Migration是一个集成了有关COS数据迁移功能的一体化工具。�
  - Linux 或 Windows 环境
 
 ### 软件依赖
-- JDK1.7或以上, 有关JDK的安装与配置请参考[JAVA安装与配置](http://tcecqpoc.fsphere.cn/document/product/436/10865)
+- JDK1.7或以上, 有关JDK的安装与配置请参考[JAVA安装与配置](/document/product/436/10865)
 
 
 ## 使用方法

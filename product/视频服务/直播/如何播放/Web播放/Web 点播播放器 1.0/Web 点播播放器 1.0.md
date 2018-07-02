@@ -35,7 +35,7 @@ SDK 上传视频格式支持：
 ## 准备工作
 
 ### step 1：开通服务
-在 [云平台官网](http://tcecqpoc.fsphere.cn/) 注册云平台帐号，然后开通**点播**服务。
+在 [云平台官网](/) 注册云平台帐号，然后开通**点播**服务。
 
 ### step 2：上传文件
 点播服务开通之后，进入 [点播视频管理](http://console.tcecqpoc.fsphere.cn/video/videolist) 就可以上传新的视频文件，因为我们本篇文档主要介绍播放器的使用，所以这样做是为了让您先有个自己的在线视频地址，如果您没有开通点播服务，这个页面是进不去的。
@@ -246,7 +246,7 @@ qcVideo.Player(id, option, listener);
 | WMode                                                  | String  | window | Window 模式不支持其他页面元素覆盖在 Flash 播放器上面，如需要可以修改为 opaque 或其他 flash wmode 的参数值。<br>** 备注：该选项只对 PC 平台 Flash 播放器生效**                                                                  |
 | stretch_patch                                         | Boolean | false  | 设置为 true 时，支持将开始、暂停、结束时的图片贴片铺满播放器。                                                                                                                                    |
 | definition<span id="definition"></span> | Number  | 无     | 可以指定播放视频的清晰度，首先需要视频拥有改清晰度 可选值有： 10、20、30、40、210、220、230、240，具体对应哪种视频可以参考 [third_video](#third_video) 的参数说明。                                                                             |
-| videos                                                 | Array   | 无     | 开启防盗链后，可以通过设置 videos 的可访问的视频地址，支持播放器播放；清晰度类型通过 url 与后台查出的 url 前缀匹配得到，详情请查看 [防盗链功能使用指南](http://tcecqpoc.fsphere.cn/doc/product/266/2875)<br> 例如：[`http://xxx.myqcloud.com/xxxyy\_f220.m3u8?**sign**=xxx`，<br>...<br>]                                                                                                                                                                                               |
+| videos                                                 | Array   | 无     | 开启防盗链后，可以通过设置 videos 的可访问的视频地址，支持播放器播放；清晰度类型通过 url 与后台查出的 url 前缀匹配得到，详情请查看 [防盗链功能使用指南](/doc/product/266/2875)<br> 例如：[`http://xxx.myqcloud.com/xxxyy\_f220.m3u8?**sign**=xxx`，<br>...<br>]                                                                                                                                                                                               |
 | third_video <span id="third_video"></span>                  | Object  | 无     | 该选项只用于视频文件播放地址的情形<br>参数例子：{<br>‘duration’: 20 , //视频时长（单位秒），可选参数，没有传的情况下在视频加载 MetaData 后自动更新视频时长。<br>**注意：如果是播放 mp4，这个时长数据是必须的**<br>‘urls’ : { //(**至少包含一个地址，注意对应视频格式**)  <br>　　　10 : “mp4 手机视频地址”, <br>　　　20 :“mp4 标清视频地址”,<br>　　　30 : “mp4 高清视频地址”, <br>　　　40 : “mp4 超清视频地址”, <br>　　　210 : “hls 手机视频地址”, <br>　　　220 : “hls 标清视频地址”, <br>　　　230 :“hls 高清视频地址”, <br>　　　240 : “hls 超清视频地址” <br>　　}<br>}<br>**备注：如果在 Chrome 等 PC 浏览器中模拟移动设备，需要有 mp4 视频地址才可以播放**|
 
 **listener**：Object，可选参数，播放状态变化回调函数列表。
@@ -283,13 +283,13 @@ qcVideo.Player(id, option, listener);
 | 方法                                                          | 说明                                                                                                                 |
 |---------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | resize(width,height)                                          | 参数：width :int；height :int                                            <br>功能：设置当前播放器宽度高度                                         <br>返回：无                                                                                                              |
-| play(second)                                                  | 参数：second：int 单位秒                                                  <br>功能：开始播放，可以设置开始播放指定时间点 <br>返回：int [返回码](http://tcecqpoc.fsphere.cn/document/product/267/13506)<br>备注：在传视频地址播放的情况下，second 只能传 空值 或者 0                                                               |
-| pause()                                                       | 功能：暂停当前播放的视频 <br>返回：int [返回码](http://tcecqpoc.fsphere.cn/document/product/267/13506)                                                                                     |
-| resume()                                                      | 功能：恢复播放视频<br>返回：int [返回码](http://tcecqpoc.fsphere.cn/document/product/267/13506)                                                                                     |
-| setClarity(clarity)                                           | 参数：clarity：int 清晰度 取值范围 （1：”手机”，2：”标清”，3：”高清”，4：”超清”）<br>功能：更换视频清晰度 <br>返回：int [返回码](http://tcecqpoc.fsphere.cn/document/product/267/13506)                            <br>注意：clarity 指定的清晰度，请确保当前视频具备该清晰度，否则将按播放器默认规则选择一个清晰度播放                       |
-| changeVideo(opt)                                              | 参数： opt Object，包含将要播放的视频的基本信息和构造函数第二个参数基本一致，具体参考 [构造函数说明](#constructor)<br>功能：动态更换视频  <br>返回：int [返回码](http://tcecqpoc.fsphere.cn/document/product/267/13506) |
-| addBarrage(barrage) <span id="barrage"></span>| 参数：barrage：Array 弹幕信息   <br> \[{   <br>"type":"content", //消息类型，content:普通文本（**必选**）  <br>"content":"hello world", //文本消息 （**必选**）  <br>"time":"1.101",//单位秒 ，表示距离当前调用添加字幕的时间多久后，开始显示该条字幕（**必选**）   <br>"style": "C64B03;35",// 分号分割，第一项颜色值，第二项字体大小（可选） <br>"postion":"center" //固定位置 <br>center: 居中，bottom: 底部， up: 顶上 (可选) }, ... \]  <br>功能：添加弹幕     <br>返回：int [返回码](http://tcecqpoc.fsphere.cn/document/product/267/13506) <br> 备注：**弹幕仅在前端实现，后台功能请自行开发，该功能只在 PC Flash 播放器中生效**                                                                                |
-| closeBarrage()                                                | 功能：关闭弹幕，关闭后重新调用 addBarrage 可开启弹幕。 <br>返回：int [返回码](http://tcecqpoc.fsphere.cn/document/product/267/13506)  <br> 备注：**弹幕仅在前端实现，后台功能请自行开发，该功能只在 PC Flash 播放器中生效**                                        |
+| play(second)                                                  | 参数：second：int 单位秒                                                  <br>功能：开始播放，可以设置开始播放指定时间点 <br>返回：int [返回码](/document/product/267/13506)<br>备注：在传视频地址播放的情况下，second 只能传 空值 或者 0                                                               |
+| pause()                                                       | 功能：暂停当前播放的视频 <br>返回：int [返回码](/document/product/267/13506)                                                                                     |
+| resume()                                                      | 功能：恢复播放视频<br>返回：int [返回码](/document/product/267/13506)                                                                                     |
+| setClarity(clarity)                                           | 参数：clarity：int 清晰度 取值范围 （1：”手机”，2：”标清”，3：”高清”，4：”超清”）<br>功能：更换视频清晰度 <br>返回：int [返回码](/document/product/267/13506)                            <br>注意：clarity 指定的清晰度，请确保当前视频具备该清晰度，否则将按播放器默认规则选择一个清晰度播放                       |
+| changeVideo(opt)                                              | 参数： opt Object，包含将要播放的视频的基本信息和构造函数第二个参数基本一致，具体参考 [构造函数说明](#constructor)<br>功能：动态更换视频  <br>返回：int [返回码](/document/product/267/13506) |
+| addBarrage(barrage) <span id="barrage"></span>| 参数：barrage：Array 弹幕信息   <br> \[{   <br>"type":"content", //消息类型，content:普通文本（**必选**）  <br>"content":"hello world", //文本消息 （**必选**）  <br>"time":"1.101",//单位秒 ，表示距离当前调用添加字幕的时间多久后，开始显示该条字幕（**必选**）   <br>"style": "C64B03;35",// 分号分割，第一项颜色值，第二项字体大小（可选） <br>"postion":"center" //固定位置 <br>center: 居中，bottom: 底部， up: 顶上 (可选) }, ... \]  <br>功能：添加弹幕     <br>返回：int [返回码](/document/product/267/13506) <br> 备注：**弹幕仅在前端实现，后台功能请自行开发，该功能只在 PC Flash 播放器中生效**                                                                                |
+| closeBarrage()                                                | 功能：关闭弹幕，关闭后重新调用 addBarrage 可开启弹幕。 <br>返回：int [返回码](/document/product/267/13506)  <br> 备注：**弹幕仅在前端实现，后台功能请自行开发，该功能只在 PC Flash 播放器中生效**                                        |
 这些设置方法的统一返回码是：
   
 | 错误码<span id="errorcode"></span> | 含义 |

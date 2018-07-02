@@ -32,7 +32,7 @@ region 需要使用具体地域进行替换，有如下三个地区：gz(广州)
 
 
 #### Python SDK下载
-下载最新版[KMS SDK](http://tcecqpoc.fsphere.cn/document/product/573/8908)。
+下载最新版[KMS SDK](/document/product/573/8908)。
 
 ### 使用 KMS Python SDK
 

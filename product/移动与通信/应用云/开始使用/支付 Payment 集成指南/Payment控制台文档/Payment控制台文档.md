@@ -26,7 +26,7 @@
 
 ##### 商户号
 
-商户号需要在根据您开通的支付渠道在 [微信商户平台](http://pay.weixin.qq.com/index.php/core/home/login) 或者 [QQ 钱包商户平台](http://qpay.qq.com) 上申请，申请的方式请参见 [这里](http://tcecqpoc.fsphere.cn/document/product/666/14599) 。
+商户号需要在根据您开通的支付渠道在 [微信商户平台](http://pay.weixin.qq.com/index.php/core/home/login) 或者 [QQ 钱包商户平台](http://qpay.qq.com) 上申请，申请的方式请参见 [这里](/document/product/666/14599) 。
 
 ##### 商户号密钥
 
@@ -34,7 +34,7 @@
 
 ##### AppID
 
-在开通支付前，您需要根据开通的渠道在 [微信开放平台](http://open.weixin.qq.com) 或者 [腾讯开放平台](http://open.qq.com/) 上注册，并创建一个应用，创建好应用后请将其 AppId 拷贝过来，同样可以参见 [这里](http://tcecqpoc.fsphere.cn/document/product/666/14599)。
+在开通支付前，您需要根据开通的渠道在 [微信开放平台](http://open.weixin.qq.com) 或者 [腾讯开放平台](http://open.qq.com/) 上注册，并创建一个应用，创建好应用后请将其 AppId 拷贝过来，同样可以参见 [这里](/document/product/666/14599)。
 
 **AppKey**
 

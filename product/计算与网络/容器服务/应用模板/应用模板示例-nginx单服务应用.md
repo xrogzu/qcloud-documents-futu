@@ -123,5 +123,5 @@ status:
 [import]:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/3edab39e7f0dff61d121dc6b0cca6892/image.png
 [show]:http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/7d19bbccbcf86d5514d2f92562444bff/image.png
 
-[16]: http://tcecqpoc.fsphere.cn/document/product/457/11942
-[17]: http://tcecqpoc.fsphere.cn/document/product/457/11952
+[16]: /document/product/457/11942
+[17]: /document/product/457/11952

@@ -118,7 +118,7 @@ Page({
 
 ### step2: 下载自定义组件源码
 
-**&lt;rtc-room&gt;** 并非微信小程序原生提供的标签，而是一个自定义组件，所以您需要额外的代码来支持这个标签。点击 [小程序源码](http://tcecqpoc.fsphere.cn/document/product/454/7873#XiaoChengXu) 下载源码包，您可以在 `wxlite` 文件夹下获取到所需文件。
+**&lt;rtc-room&gt;** 并非微信小程序原生提供的标签，而是一个自定义组件，所以您需要额外的代码来支持这个标签。点击 [小程序源码](/document/product/454/7873#XiaoChengXu) 下载源码包，您可以在 `wxlite` 文件夹下获取到所需文件。
 
 ### step3: 登录房间服务（必需）
 
@@ -137,7 +137,7 @@ rtcroom.login({
 });
 ```
 
-参考 [DOC](http://tcecqpoc.fsphere.cn/document/product/454/14617#Server) 可以了解上面的这些参数应该怎么填写。
+参考 [DOC](/document/product/454/14617#Server) 可以了解上面的这些参数应该怎么填写。
 
 ### step4: 获取房间列表（可选）
 如果您不想自己实现房间列表，而是使用房间服务自带的房间列表，您可以通过调用 `/utils/rtcroom.js` 的 `getRoomList` 函数获取到列表信息。
@@ -305,15 +305,15 @@ rtcroom.start();
 @import "../templates/mytemplate/mytemplate.wxss";
 ```
 ## 其它平台
-**&lt;rtc-room&gt;** 也有 Windows、iOS、Android 等平台下的对等实现，您可以参考下表中的资料。同时， 阅读 [设计文档](http://tcecqpoc.fsphere.cn/document/product/454/14617)，您可以了解该解决方案的内部设计原理。
+**&lt;rtc-room&gt;** 也有 Windows、iOS、Android 等平台下的对等实现，您可以参考下表中的资料。同时， 阅读 [设计文档](/document/product/454/14617)，您可以了解该解决方案的内部设计原理。
 
 | 所属平台 | SDK下载 | 文档指引 |
 |:-------:|:-------:|:-------:|
-| Windows(C++) | [DOWNLOAD](http://tcecqpoc.fsphere.cn/document/product/454/7873#Windows) | [API](http://tcecqpoc.fsphere.cn/document/product/454/13672) |
-| Windows(C#) | [DOWNLOAD](http://tcecqpoc.fsphere.cn/document/product/454/7873#Windows) | [API](http://tcecqpoc.fsphere.cn/document/product/454/13641) |
-| IE浏览器 | [DOWNLOAD](http://tcecqpoc.fsphere.cn/document/product/454/7873#Windows) | [API](http://tcecqpoc.fsphere.cn/document/product/454/13651) |
-| iOS | [DOWNLOAD](http://tcecqpoc.fsphere.cn/document/product/454/7873#iOS) | [API](http://tcecqpoc.fsphere.cn/document/product/454/15156) |
-| Android | [DOWNLOAD](http://tcecqpoc.fsphere.cn/document/product/454/7873#Android) | [API](http://tcecqpoc.fsphere.cn/document/product/454/15026) |
+| Windows(C++) | [DOWNLOAD](/document/product/454/7873#Windows) | [API](/document/product/454/13672) |
+| Windows(C#) | [DOWNLOAD](/document/product/454/7873#Windows) | [API](/document/product/454/13641) |
+| IE浏览器 | [DOWNLOAD](/document/product/454/7873#Windows) | [API](/document/product/454/13651) |
+| iOS | [DOWNLOAD](/document/product/454/7873#iOS) | [API](/document/product/454/15156) |
+| Android | [DOWNLOAD](/document/product/454/7873#Android) | [API](/document/product/454/15026) |
 
 ## 录制指引
 - step1： [开通](http://console.tcecqpoc.fsphere.cn/video) 云平台点播服务。

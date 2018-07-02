@@ -1,7 +1,7 @@
 以下为购买 DCDB 实例的详细流程。
 ## 购买入口
 ### 入口一
-1. 访问 [云平台主页](http://tcecqpoc.fsphere.cn/)，将鼠标依次移动至【产品】>【数据库】，单击【分布式数据库】进入产品主页。
+1. 访问 [云平台主页](/)，将鼠标依次移动至【产品】>【数据库】，单击【分布式数据库】进入产品主页。
 	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b1ff39c119f92b175276596afb46d94a/r1.png)
 2. 在产品主页上单击 [立即购买](http://buy.tce.fsphere.cn/dcdb)        进入购买界面。
 	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d72b569da05fc5dda1b74b61efcecf62/r2.png)
@@ -12,7 +12,7 @@
 	
 ## 购买步骤
 > **注意：**
-> 处在不同地域的云产品网络无法互通。实例版本请参考 [实例版本文档](http://tcecqpoc.fsphere.cn/document/product/237/6918)。分片配置请参考 [分片配置文档](http://tcecqpoc.fsphere.cn/document/product/557/9347)。计费详情请参考 [产品价格文档](http://tcecqpoc.fsphere.cn/document/product/237/2034)。
+> 处在不同地域的云产品网络无法互通。实例版本请参考 [实例版本文档](/document/product/237/6918)。分片配置请参考 [分片配置文档](/document/product/557/9347)。计费详情请参考 [产品价格文档](/document/product/237/2034)。
 
 1. 在购买界面根据需求选择对应的地域、网络类型及分片配置，单击【立即购买】。
 	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/276167a188a20485323856cf5062ca04/r4.png)

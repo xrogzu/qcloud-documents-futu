@@ -2,8 +2,8 @@
 
 > **注意：**
 > 在创建 nginx 服务之前，您必须拥有:
-> 1. 一个云平台帐户。有关如何创建云平台帐户，请在 [注册页面](http://tcecqpoc.fsphere.cn/register) 填写相关信息注册云平台帐户。
-> 2. 一个创建好的集群。有关如何创建集群的详细信息，参见 [新建集群](http://tcecqpoc.fsphere.cn/document/product/457/9091) 。
+> 1. 一个云平台帐户。有关如何创建云平台帐户，请在 [注册页面](/register) 填写相关信息注册云平台帐户。
+> 2. 一个创建好的集群。有关如何创建集群的详细信息，参见 [新建集群](/document/product/457/9091) 。
 
 ## 创建 Nginx 服务
 1) 登录 [云容器服务控制台](http://console.tcecqpoc.fsphere.cn/ccs) 。
@@ -23,7 +23,7 @@
 版本（Tag）： latest 。容器服务会默认使用最新版本。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/247064bd27464737d06d02d846c2c227/image.png)
 5) 设置端口映射。将容器端口和服务端口都设置为 80 。
->**注意**：服务所在集群的安全组需要放通节点网络及容器网络，同时需要放通30000-32768端口，否则可能会出现容器服务无法使用问题。详情参见[容器服务安全组设置](http://tcecqpoc.fsphere.cn/document/product/457/9084)
+>**注意**：服务所在集群的安全组需要放通节点网络及容器网络，同时需要放通30000-32768端口，否则可能会出现容器服务无法使用问题。详情参见[容器服务安全组设置](/document/product/457/9084)
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a86f50da339892896871ab9408514433/image.png)
 6) 单击【创建服务】。完成 nginx 服务的创建。
@@ -41,5 +41,5 @@
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a3cbbc5c902bd162210a4615c0955f19/image.png)
 
 #### 更多 Nginx 设置
-可查看 [使用云容器服务来构建简单 web service ](http://tcecqpoc.fsphere.cn/community/article/223421)。
-若容器创建失败，可查看[事件常见问题](http://tcecqpoc.fsphere.cn/document/product/457/8187)。
+可查看 [使用云容器服务来构建简单 web service ](/community/article/223421)。
+若容器创建失败，可查看[事件常见问题](/document/product/457/8187)。

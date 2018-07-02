@@ -8,17 +8,17 @@
 
 | API                                | 功能介绍                                                   |
 |---------------------------------|--------------------------------------------------------------|
-| [Get_LiveStat](http://tcecqpoc.fsphere.cn/doc/api/258/6110)  | 统计信息查询 - 查询推流和播放相关信息|
-| [Get_LivePushStat](http://tcecqpoc.fsphere.cn/doc/api/258/6110) | 统计信息查询 - 查询推流相关信息|
-| [Get_LivePlayStat](http://tcecqpoc.fsphere.cn/doc/api/258/6110)  |  统计信息查询 - 查询播放相关信息 |
-| [Live_Channel_GetStatus](http://tcecqpoc.fsphere.cn/doc/api/258/5958) |  仅查询某条流的状态信息（旧版本接口） | 
-| [Live_Channel_SetStatus](http://tcecqpoc.fsphere.cn/doc/api/258/5959) | 对某条流实行**禁播**操作，主要用于鉴黄场景 | 
-| [Live_Tape_GetFilelist](http://tcecqpoc.fsphere.cn/doc/api/258/5960)| 查询某条流在直播过程中的**录制**文件列表 | 
-| [Live_Queue_Get](http://tcecqpoc.fsphere.cn/doc/api/258/5961)| 查询某条流在直播过程中的**截图**文件列表 | 
+| [Get_LiveStat](/doc/api/258/6110)  | 统计信息查询 - 查询推流和播放相关信息|
+| [Get_LivePushStat](/doc/api/258/6110) | 统计信息查询 - 查询推流相关信息|
+| [Get_LivePlayStat](/doc/api/258/6110)  |  统计信息查询 - 查询播放相关信息 |
+| [Live_Channel_GetStatus](/doc/api/258/5958) |  仅查询某条流的状态信息（旧版本接口） | 
+| [Live_Channel_SetStatus](/doc/api/258/5959) | 对某条流实行**禁播**操作，主要用于鉴黄场景 | 
+| [Live_Tape_GetFilelist](/doc/api/258/5960)| 查询某条流在直播过程中的**录制**文件列表 | 
+| [Live_Queue_Get](/doc/api/258/5961)| 查询某条流在直播过程中的**截图**文件列表 | 
 
 
 ### 被动通知
-[通知服务](http://tcecqpoc.fsphere.cn/doc/api/258/5957)，即云平台后台服务集群在一些关键事情发生时，以事件的形式主动通知客户服务器，需要客户提前到云平台注册接收事件通知的URL，目前支持的通知类型有：
+[通知服务](/doc/api/258/5957)，即云平台后台服务集群在一些关键事情发生时，以事件的形式主动通知客户服务器，需要客户提前到云平台注册接收事件通知的URL，目前支持的通知类型有：
  
 | 事件类型（event_type）   | 功能介绍                                                          |
 |:-------------------------------:|--------------------------------------------------------------|

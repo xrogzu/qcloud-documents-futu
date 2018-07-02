@@ -31,8 +31,8 @@
 
 接入大致分为以下几个步骤：
 
-*   从 [小微硬件开放平台](http://xiaowei.qcloud.com/hardware.html) 申请接入，具体可以参考[接入流程指引](http://tcecqpoc.fsphere.cn/document/product/645/12750)。
-*   下载小微设备端 SDK，小微目前具备 Android 和 Linux 两个平台的 SDK。[获取通道层 SDK](http://tcecqpoc.fsphere.cn/document/product/645/14249?)
+*   从 [小微硬件开放平台](http://xiaowei.qcloud.com/hardware.html) 申请接入，具体可以参考[接入流程指引](/document/product/645/12750)。
+*   下载小微设备端 SDK，小微目前具备 Android 和 Linux 两个平台的 SDK。[获取通道层 SDK](/document/product/645/14249?)
 *   参考文档和 demo 实现功能并进行测试。
 *   提供体验设备，完成产品体验。
 
@@ -168,7 +168,7 @@ OTA 能力配置中分为【正式环境】和【测试环境】两个部分，�
 
 我们提供 linux 和 Android 两个平台的 SDK，接下来对这两个平台的接入实现分别做说明。
 
-> 下面说明中的部分名词 可以参考 [名词解释](http://tcecqpoc.fsphere.cn/document/product/645/14217)。
+> 下面说明中的部分名词 可以参考 [名词解释](/document/product/645/14217)。
 
 ### 实现指引 - android
 
@@ -290,11 +290,11 @@ playid 为当前正在播放的资源 ID，appInfo 为当前资源对应的场�
 
 上文讲解了每个功能的对接，部分重要细节可能不够详细，对于部分方面的接入细节，我们准备了以下几篇文档，供参考：
 
-[多轮对话](http://tcecqpoc.fsphere.cn/document/product/645/14248)
+[多轮对话](/document/product/645/14248)
 
-[静音检测](http://tcecqpoc.fsphere.cn/document/product/645/14232)
+[静音检测](/document/product/645/14232)
 
-[状态上报](http://tcecqpoc.fsphere.cn/document/product/645/14225)
+[状态上报](/document/product/645/14225)
 
 ### 流程调试
 

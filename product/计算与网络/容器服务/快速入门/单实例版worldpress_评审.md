@@ -4,8 +4,8 @@ WordPress 是使用 PHP 语言开发的博客平台。用户可以在支持 PHP 
 
 >**注意：**
 >创建单实例版的 WordPress 仅供测试使用，该镜像中包含了 WordPress 所有的运行环境，直接拉取创建服务即可，但使用单实例版的 WordPress 不能保证数据的持久化存储，建议您使用自建的 MySQL 或使用数据库 CDB 来保存您的数据。详情请参考 [使用 CDB 的 WordPress](/doc/product/457/7447)。 在创建 WordPress 服务之前，您必须拥有:
-1. 一个帐户。有关如何创建帐户，请在 [注册页面](http://tcecqpoc.fsphere.cn/register) 填写相关信息注册帐户。
-2. 一个创建好的集群。有关如何创建集群的详细信息，参见 [新建集群](http://tcecqpoc.fsphere.cn/document/product/457/9091) 。
+1. 一个帐户。有关如何创建帐户，请在 [注册页面](/register) 填写相关信息注册帐户。
+2. 一个创建好的集群。有关如何创建集群的详细信息，参见 [新建集群](/document/product/457/9091) 。
 
 
 ## 创建 WordPress 服务
@@ -26,7 +26,7 @@ WordPress 是使用 PHP 语言开发的博客平台。用户可以在支持 PHP 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b5c035081625c15a1dcbdf0a3cabf6a7/image.png)
 
 5) 设置端口映射。将容器端口和服务端口都设置为 80 。
->**注意**：服务所在集群的安全组需要放通节点网络及容器网络，同时需要放通30000-32768端口，否则可能会出现容器服务无法使用问题。详情参见[容器服务安全组设置](http://tcecqpoc.fsphere.cn/document/product/457/9084)
+>**注意**：服务所在集群的安全组需要放通节点网络及容器网络，同时需要放通30000-32768端口，否则可能会出现容器服务无法使用问题。详情参见[容器服务安全组设置](/document/product/457/9084)
 
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a86f50da339892896871ab9408514433/image.png)
 
@@ -43,4 +43,4 @@ WordPress 是使用 PHP 语言开发的博客平台。用户可以在支持 PHP 
 2) 进入 WordPress 服务器的默认欢迎页。
 ![Alt text](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/c0132b35996db099c02af7f2cf747137/Image+023.png)
 
-若容器创建失败，可查看[事件常见问题](http://tcecqpoc.fsphere.cn/document/product/457/8187)。
+若容器创建失败，可查看[事件常见问题](/document/product/457/8187)。

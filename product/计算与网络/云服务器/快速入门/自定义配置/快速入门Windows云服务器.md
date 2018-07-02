@@ -4,7 +4,7 @@
 <div id="page1"></div>
 ## 步骤一：准备与选型
 ### 注册云平台账号
-新用户需在云平台官网进行[【注册】](http://tcecqpoc.fsphere.cn/register?s_url=https%3A%2F%2Ftce.fsphere.cn%2Fdocument%2Fproduct%2F213)，注册指引可参考 [如何注册云平台](/doc/product/378/9603) 。
+新用户需在云平台官网进行[【注册】](/register?s_url=https%3A%2F%2Ftce.fsphere.cn%2Fdocument%2Fproduct%2F213)，注册指引可参考 [如何注册云平台](/doc/product/378/9603) 。
 
 ### 确定云服务器所在地域及可用区
 地域选择原则：
@@ -16,7 +16,7 @@
 不同地域之间的云服务器不能通过内网互相通信（通信需经过公网）。
 
 ### 确定云服务器配置方案
-云平台提供如下推荐配置：[【推荐选型】](http://tcecqpoc.fsphere.cn/act/recommended)
+云平台提供如下推荐配置：[【推荐选型】](/act/recommended)
 - 入门型：适用于起步阶段的个人网站。如：个人博客等小型网站。
 - 基础型：适合有一定访问量的网站或应用。如：较大型企业官网、小型电商网站。
 - 普及型：适合常使用云计算等一定计算量的需求。如：门户网站、SaaS 软件、小型 App 。

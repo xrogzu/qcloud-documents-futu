@@ -2,9 +2,9 @@
 
 ## 步骤一：申请产品
 1. 登录云平台账号。
-若是新用户需在云平台官网进行[【注册】](http://tcecqpoc.fsphere.cn/register?s_url=https%3A%2F%2Ftce.fsphere.c%2Fdocument%2Fproduct%2F213)，注册指引可参考 [如何注册云平台](/doc/product/378/9603) 。
+若是新用户需在云平台官网进行[【注册】](/register?s_url=https%3A%2F%2Ftce.fsphere.c%2Fdocument%2Fproduct%2F213)，注册指引可参考 [如何注册云平台](/doc/product/378/9603) 。
 
-2. 到 [TGit 产品介绍页](http://tcecqpoc.fsphere.cn/product/TGit) 上单击【开通 DevMaster】
+2. 到 [TGit 产品介绍页](/product/TGit) 上单击【开通 DevMaster】
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b9c98c592a9362a463b9a5983ad76b7d/image.png)
 
 3. 跳转页面后，单击【公测申请】，然后跳转到 DevMaster 产品申请页，完成注册即可。

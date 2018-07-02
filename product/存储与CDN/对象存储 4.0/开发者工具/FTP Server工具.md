@@ -3,7 +3,7 @@ COS FTP Server 工具支持通过 FTP 协议直接操作 COS 中的对象和目�
 ### 系统环境
 操作系统：Linux，推荐使用云平台 CentOS 7 系列 CVM，暂不支持 Windows 系统。
 
-Python 解释器版本：Python 2.7，可参考 [Python 安装与配置](http://tcecqpoc.fsphere.cn/document/product/436/10866) 进行安装与配置。
+Python 解释器版本：Python 2.7，可参考 [Python 安装与配置](/document/product/436/10866) 进行安装与配置。
 
 依赖库：
 - requests
@@ -60,7 +60,7 @@ cos_secretkey = XXXXXX
 cos_bucket = BucketName-appid
 # 要操作的bucket，bucket的格式为：bucektname-appid组成。示例：cos_bucket = mybucket-125888888888。
 cos_region = ap-xxx
-# Bucket 所在的地域，目前支持的地域请参照【可用地域-适用于 XML API 部分】：http://tcecqpoc.fsphere.cn/document/product/436/6224
+# Bucket 所在的地域，目前支持的地域请参照【可用地域-适用于 XML API 部分】：/document/product/436/6224
 cos_user_home_dir = /home/cos_ftp/data
 # FTP Server 的工作目录。
 [FTP_ACCOUNT]

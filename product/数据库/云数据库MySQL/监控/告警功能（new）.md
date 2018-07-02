@@ -38,7 +38,7 @@
 2. 选择需要通知的用户组，单击【保存】，即可完成告警接收对象的设置。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/e33bb450c694a5672050ab70d0ad8b0a/image.png)
 
-[1]:	http://tcecqpoc.fsphere.cn/doc/product/248/1073
+[1]:	/doc/product/248/1073
 [2]:	http://console.tcecqpoc.fsphere.cn/
 [3]:	http://console.tcecqpoc.fsphere.cn/
 [4]:	http://console.tcecqpoc.fsphere.cn/

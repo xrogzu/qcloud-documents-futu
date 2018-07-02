@@ -25,7 +25,7 @@ make
 image_demo.cpp 里面有常见 API 的例子。生成的 image_demo 可直接运行，生成的静态库名称为：libimagesdk.a 。生成的 libimagesdk.a  放到用户自己的工程里 lib 路径下，include 目录拷贝到用户的工程的 include 路径下。
 ## 快速入门
 ### 在云平台申请业务的授权
-开发者使用前，需要先进行 [云平台账号注册](http://tcecqpoc.fsphere.cn/register)（详细指引请参考 [注册云平台](http://tcecqpoc.fsphere.cn/document/product/378/9603)），并 [创建存储桶](http://tcecqpoc.fsphere.cn/document/product/460/10637)，从而获得 APPID 、SecretId 和 SecretKey 等（获取 APPID 可参考 [域名管理](http://tcecqpoc.fsphere.cn/document/product/460/6937)）。
+开发者使用前，需要先进行 [云平台账号注册](/register)（详细指引请参考 [注册云平台](/document/product/378/9603)），并 [创建存储桶](/document/product/460/10637)，从而获得 APPID 、SecretId 和 SecretKey 等（获取 APPID 可参考 [域名管理](/document/product/460/6937)）。
 
 ### 创建对应操作类的对象
 如果要使用图片，需要创建图片操作类对象

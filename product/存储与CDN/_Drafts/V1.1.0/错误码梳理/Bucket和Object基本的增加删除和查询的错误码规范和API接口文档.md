@@ -21,7 +21,7 @@ Get Service 接口是用来获取请求者名下的所有存储空间列表（Bu
 
 
 备注：具体的错误原因可参考返回的message进行排查。
-获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](http://tcecqpoc.fsphere.cn/document/product/436/7730)
+获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](/document/product/436/7730)
 
 ## Put Bucket
 
@@ -51,10 +51,10 @@ Put Bucket 接口请求可以在指定账号下创建一个 Bucket。该 API 接
 | BucketAlreadyExists |当请求创建的bucket已经存在，并且请求创建的用户就是拥有者| 409 Conflict|
 | InvalidBucketName |bucket的命名不规范 具体原因可参考message的描述|400 Bad Request|
 | InvalidRequest |bucket的命名不规范 具体原因可参考message的描述| 400 Bad Request|
-||如果bucket设置的ACL不正确，也会导致创建bucket失败，同时会返回“Failed to set access control authority for the bucket”的错误信息。具体错误原因，可根据返回的错误码参考[Put Bucket ACL](http://tcecqpoc.fsphere.cn/document/product/436/7737) 相关的文档||
+||如果bucket设置的ACL不正确，也会导致创建bucket失败，同时会返回“Failed to set access control authority for the bucket”的错误信息。具体错误原因，可根据返回的错误码参考[Put Bucket ACL](/document/product/436/7737) 相关的文档||
 
 
-获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](http://tcecqpoc.fsphere.cn/document/product/436/7730)
+获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](/document/product/436/7730)
 
 
 ## DeleteBucket
@@ -77,7 +77,7 @@ Delete Bucket接口请求可以在指定账号下删除Bucket， 删除之前要
 |AccessDenied|删除Bucket同样需要携带签名，如果试图删除一个没有访问权限的Bucket，就会返回这个错误|403 Forbidden|
 |NoSuchBucket|如果删除一个不存在的Bucket，就回返回该错误|404 Not Found|
 
-获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](http://tcecqpoc.fsphere.cn/document/product/436/7730)
+获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](/document/product/436/7730)
 
 ## Get Bucket
 
@@ -106,7 +106,7 @@ Get Bucket请求等同于List Object请求，可以列出指定Bucket下的部�
 |InvalidArgument|如果max-keys大于1000，则会返回该错误|400 Bad Request|
 |InvalidURI|如果prefix、marker或者delimiter的参数不符合要求（必须小于1024），则会返回该错误|400 Bad Request|
 
-获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](http://tcecqpoc.fsphere.cn/document/product/436/7730)
+获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](/document/product/436/7730)
 
 ## Head Bucket
 
@@ -141,6 +141,6 @@ Head Object接口用于获取对应Object的meta信息。
 |:--|:--|:--|
 |SSEHeaderNotAllowed|如果头部携带x-cos-server-side-encryption的标头，就会返回该错误|400 Bad Request|
 
-获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](http://tcecqpoc.fsphere.cn/document/product/436/7730)
+获取更多关于COS的错误码的信息，或者产品所有的错误列表，请查看[错误码](/document/product/436/7730)
 
 

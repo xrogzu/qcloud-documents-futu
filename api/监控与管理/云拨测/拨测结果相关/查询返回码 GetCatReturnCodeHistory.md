@@ -63,7 +63,7 @@
 输入
 
 ```
-offset=0&limit=5 AخA http://catapi.api.qcloud.com/v2/index.php?& <<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>>&Action=GetCatReturnCodeHistory
+offset=0&limit=5 AخA http://catapi.api.qcloud.com/v2/index.php?& <<a href="/doc/api/229/6976">公共请求参数</a>>&Action=GetCatReturnCodeHistory
 &taskId=126531
 &beginTime=2017-05-25 00:00
 &endTime=2017-05-25 08:10

@@ -4,7 +4,7 @@
 
 ## 第一步：创建项目和应用（已完成请跳过）
 
-在使用我们的服务前，您必须先在 MobileLine 控制台上 [创建项目和应用](http://tcecqpoc.fsphere.cn/document/product/666/15345)。
+在使用我们的服务前，您必须先在 MobileLine 控制台上 [创建项目和应用](/document/product/666/15345)。
 
 ## 第二步：添加配置文件（已完成请跳过）
 
@@ -73,7 +73,7 @@ public class MyCustomApp extends Application {
 
 ### 配置签名服务
 
-Storage 服务需要一个有效的签名提供者来提供签名，配置签名服务请参见 [配置签名服务](http://tcecqpoc.fsphere.cn/document/product/666/15350)。
+Storage 服务需要一个有效的签名提供者来提供签名，配置签名服务请参见 [配置签名服务](/document/product/666/15350)。
 
 ### 启动服务
 

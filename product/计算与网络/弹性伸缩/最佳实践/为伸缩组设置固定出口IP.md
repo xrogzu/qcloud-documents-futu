@@ -26,7 +26,7 @@
 
 #### **1. 创建VPC**
 
-1. 登录[云平台控制台](http://console.tcecqpoc.fsphere.cn/)，点击导航条【私有网络】，或者进入云平台[私有网络介绍页中](http://tcecqpoc.fsphere.cn/product/vpc.html)的【立即体验】按钮，进入[私有网络控制台](http://console.tcecqpoc.fsphere.cn/vpc/)。
+1. 登录[云平台控制台](http://console.tcecqpoc.fsphere.cn/)，点击导航条【私有网络】，或者进入云平台[私有网络介绍页中](/product/vpc.html)的【立即体验】按钮，进入[私有网络控制台](http://console.tcecqpoc.fsphere.cn/vpc/)。
 
 2. 选择列表上方下拉框中的地域，点击【新建】创建私有网络，例如，选择地域“华北地区（北京）”。
 

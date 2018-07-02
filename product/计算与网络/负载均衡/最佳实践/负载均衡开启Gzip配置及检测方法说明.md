@@ -74,5 +74,5 @@ gzip_types：匹配MIME类型进行压缩，默认"text/html" 类型是会被压
 ```
 4 . 最后使用curl命令测试gzip是否成功开启
 ```
-curl -I -H "Accept-Encoding: gzip, deflate" "http://tcecqpoc.fsphere.cn/example/"
+curl -I -H "Accept-Encoding: gzip, deflate" "/example/"
 ```

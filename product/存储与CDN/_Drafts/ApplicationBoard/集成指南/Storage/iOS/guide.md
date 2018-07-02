@@ -96,7 +96,7 @@ TACStorage 后台为云平台COS服务，在使用COS服务的时候需要对请
     continueBlock(creator, nil);
 #else
 
-    //您需要配置自己的服务器，来获取CAM临时密钥。并通过临时密钥来创建权限Creator。具体可以参考：[快速搭建移动应用传输服务](http://tcecqpoc.fsphere.cn/document/product/436/9068)
+    //您需要配置自己的服务器，来获取CAM临时密钥。并通过临时密钥来创建权限Creator。具体可以参考：[快速搭建移动应用传输服务](/document/product/436/9068)
     void(^NetworkCall)(id response, NSError* error) = ^(id response, NSError* error) {
         if (error) {
             continueBlock(nil, error);

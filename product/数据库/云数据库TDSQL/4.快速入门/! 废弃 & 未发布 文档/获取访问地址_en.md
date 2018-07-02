@@ -15,5 +15,5 @@ You can obtain the public network access address of an instance on the Instance 
 > 
 > Public network access address can only be used for daily database management.
 > 
-> Public network traffic may be charged. For more information, please see [Product Prices](http://tcecqpoc.fsphere.cn/document/product/237/2034).
+> Public network traffic may be charged. For more information, please see [Product Prices](/document/product/237/2034).
 

@@ -43,7 +43,7 @@ CDB for MySQL 数据库支持控制台续费和续费管理中心续费两种方
 ![实例详情页续费][image-6]
 
 ### 续费管理中心续费
- 在 [续费管理页面][10] 提供实例的【批量资源续费】、【设置自动续费】、【设置统一到期日】、【取消不续费】等功能 ，详见 [续费管理](http://tcecqpoc.fsphere.cn/document/product/555/7454)。
+ 在 [续费管理页面][10] 提供实例的【批量资源续费】、【设置自动续费】、【设置统一到期日】、【取消不续费】等功能 ，详见 [续费管理](/document/product/555/7454)。
 
 ## 到期提醒
 
@@ -91,13 +91,13 @@ CDB for MySQL 数据库支持控制台续费和续费管理中心续费两种方
 
 [1]:	http://console.tcecqpoc.fsphere.cn/
 [2]:	http://console.tcecqpoc.fsphere.cn/cdb
-[3]:	http://tcecqpoc.fsphere.cn/document/product/378/3629
-[4]:	http://tcecqpoc.fsphere.cn/document/product/236/8458
-[5]:    http://tcecqpoc.fsphere.cn/document/product/213/5227
-[6]:    http://tcecqpoc.fsphere.cn/document/product/236/7913
-[7]:	http://tcecqpoc.fsphere.cn/document/product/555/9618
-[8]:	http://tcecqpoc.fsphere.cn/document/product/555/9617
-[9]:    http://tcecqpoc.fsphere.cn/document/product/555/7437
+[3]:	/document/product/378/3629
+[4]:	/document/product/236/8458
+[5]:    /document/product/213/5227
+[6]:    /document/product/236/7913
+[7]:	/document/product/555/9618
+[8]:	/document/product/555/9617
+[9]:    /document/product/555/7437
 [10]:   http://console.tcecqpoc.fsphere.cn/account/renewal
-[11]:   http://tcecqpoc.fsphere.cn/document/product/236/5158
+[11]:   /document/product/236/5158
 [12]:   http://buy.tce.fsphere.cn/calculator/cdb

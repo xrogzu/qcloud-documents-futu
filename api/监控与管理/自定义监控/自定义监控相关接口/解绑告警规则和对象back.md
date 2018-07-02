@@ -26,7 +26,7 @@ http://monitor.api.qcloud.com/v2/index.php?Action=UnbindAlarmRuleObjects
 & alarmRuleId = policy-f3h1bxvcsb 
 &dimensions.0.name=name
 &dimensions.0.value=a1
-&<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>
+&<a href="/doc/api/229/6976">公共请求参数</a>
 </pre>
 输出
 ```

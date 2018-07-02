@@ -1,6 +1,6 @@
 
 ## Step1. 准备工作
-## Step2. 设备注册及配置参考 [硬件开放平台快速入门](http://tcecqpoc.fsphere.cn/document/product/645/12750)
+## Step2. 设备注册及配置参考 [硬件开放平台快速入门](/document/product/645/12750)
 
 ## Step3. 硬件 SDK 对接
 
@@ -23,7 +23,7 @@
 
 ### 3.2 SDK 下载
 
-参考 [LinuxSDK 下载](http://tcecqpoc.fsphere.cn/document/product/645/14216)
+参考 [LinuxSDK 下载](/document/product/645/14216)
 
 ### 3.3 第一行代码
 
@@ -167,11 +167,11 @@ callback.on_state = on_ai_state;
 tx_ai_audio_service_start(&callback);
 ```
 
-**tx_ai_audio_configservice_with_player_callback** 设置语音输入和输出相关参数 tx_ai_audio_player 包括播放器创建、url 资源播放、播放器控制、tts 播放等部分， 详细说明请参考 [播放器接口说明](http://tcecqpoc.fsphere.cn/document/product/645/14222)
+**tx_ai_audio_configservice_with_player_callback** 设置语音输入和输出相关参数 tx_ai_audio_player 包括播放器创建、url 资源播放、播放器控制、tts 播放等部分， 详细说明请参考 [播放器接口说明](/document/product/645/14222)
 
 tx_ai_audio_encode_param 指定了语音输入格式、码率、采样率 须按照按照固定参数设置
 
-**tx_ai_audio_service_start** 开启语音服务 tx_ai_audio_callback 主要负责全局控制和状态回调， 详细说明请参考 [播放器接口说明](http://tcecqpoc.fsphere.cn/document/product/645/14222)
+**tx_ai_audio_service_start** 开启语音服务 tx_ai_audio_callback 主要负责全局控制和状态回调， 详细说明请参考 [播放器接口说明](/document/product/645/14222)
 
 到此为止， 已经完成了语音服务基本配置，接下去就可以往云端写入语音数据了
 
@@ -197,7 +197,7 @@ void on_ai_control(int ctlcode, int value) {
 tx_ai_audio_request_fill_data((void*)frames, frameCount * frameSize, frameCount * frameSize, 0);
 ```
 
-来填充语音数据，数据类型必须按照 tx_ai_audio_configservice_with_player_callback 设置的类型写入，更多该接口说明参考头文件或 [通道层接口说明](http://tcecqpoc.fsphere.cn/document/product/645/14249) 为了先完成流程接入， 可以从 pcm 文件读取源数据直接填充， 流程接入完成后可以接入[唤醒词](http://tcecqpoc.fsphere.cn/document/product/645/14220) 模块
+来填充语音数据，数据类型必须按照 tx_ai_audio_configservice_with_player_callback 设置的类型写入，更多该接口说明参考头文件或 [通道层接口说明](/document/product/645/14249) 为了先完成流程接入， 可以从 pcm 文件读取源数据直接填充， 流程接入完成后可以接入[唤醒词](/document/product/645/14220) 模块
 
 等待 tx_ai_audio_control_code_endrecord 事件触发 后 停止填充数据
 

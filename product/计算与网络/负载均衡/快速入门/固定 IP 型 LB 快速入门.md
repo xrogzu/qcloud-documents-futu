@@ -2,7 +2,7 @@
 
 ## 前提条件
 - 负载均衡只负责转发流量，不具备处理请求的能力。因此，您首先需要有用以处理用户请求的运行中的云服务器实例。本示例要求您只要具有两台云服务器实例，您也可以自行规划需要向多少云服务器转发请求。本例中已经在北京地域下创建了云服务器实例 `rs-1` 和 `rs-2`。
-- 本例以 HTTP 转发为例，云服务器上必须部署相应的 Web 服务器，如 Apache、Nginx、IIS等。为了验证结果，示例在 `rs-1` 上部署了Apache 并返回一个带有 “This is rs-1” 的 HTML，在 `rs-2` 上部署了Apache 并返回一个带有 “This is rs-2” 的 HTML。有关如何在云服务器上部署服务的更多内容，请参考 [Windows 安装配置 IIS 和 PHP](http://tcecqpoc.fsphere.cn/doc/product/213/2755) 及 [Linux 系统环境配置（CentOS）](http://tcecqpoc.fsphere.cn/doc/product/213/2125)。
+- 本例以 HTTP 转发为例，云服务器上必须部署相应的 Web 服务器，如 Apache、Nginx、IIS等。为了验证结果，示例在 `rs-1` 上部署了Apache 并返回一个带有 “This is rs-1” 的 HTML，在 `rs-2` 上部署了Apache 并返回一个带有 “This is rs-2” 的 HTML。有关如何在云服务器上部署服务的更多内容，请参考 [Windows 安装配置 IIS 和 PHP](/doc/product/213/2755) 及 [Linux 系统环境配置（CentOS）](/doc/product/213/2125)。
 
 > 注：示例中后端服务器部署的服务返回值不同，实际情况下，为保持所有用户均有一致体验，后端服务器上一般是部署完全相同的服务。
 

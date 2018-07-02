@@ -4,21 +4,21 @@
 
 | API                                | 功能介绍                                                   |
 |---------------------------------|--------------------------------------------------------------|
-| [Get_LiveStat](http://tcecqpoc.fsphere.cn/doc/api/258/6110)  | 统计信息查询 - 查询推流和播放相关信息|
-| [Get_LivePushStat](http://tcecqpoc.fsphere.cn/doc/api/258/6110) | 统计信息查询 - 查询推流相关信息|
-| [Get_LivePlayStat](http://tcecqpoc.fsphere.cn/doc/api/258/6110)  |  统计信息查询 - 查询播放相关信息 |
-| [Get_LivePushStatHistory](http://tcecqpoc.fsphere.cn/document/product/267/9579)|获取推流历史信息|
-| [Get_LivePlayStatHistory](http://tcecqpoc.fsphere.cn/document/product/267/9580)|获取播放统计历史信息|
-| [Live_Channel_GetStatus](http://tcecqpoc.fsphere.cn/doc/api/258/5958) |  仅查询某条流的状态信息（旧版本接口） | 
-| [Live_Channel_SetStatus](http://tcecqpoc.fsphere.cn/doc/api/258/5959) | 对某条流实行禁播操作，主要用于鉴黄场景 | 
-| [Live_Tape_GetFilelist](http://tcecqpoc.fsphere.cn/doc/api/258/5960)| 查询某条流在直播过程中的录制文件列表 | 
-| [Live_Queue_Get](http://tcecqpoc.fsphere.cn/doc/api/258/5961)| 查询某条流在直播过程中的截图文件列表 |
-| [Live_Channel_GetChannelList](http://tcecqpoc.fsphere.cn/document/product/267/7997)|查询频道列表|
-| [Live_Channel_GetLiveChannelList](http://tcecqpoc.fsphere.cn/document/product/267/8862)|查询直播中频道列表|
-| [mix_streamv2.start_mix_stream_advanced](http://tcecqpoc.fsphere.cn/document/product/267/8832)|云端混流操作接口|
-| [channel_manager](http://tcecqpoc.fsphere.cn/document/product/267/9500)|暂停并延迟恢复——可针对某路流禁止推流|
-| [Live_Tape_Start](http://tcecqpoc.fsphere.cn/document/product/267/9567)|创建录制任务——可实现定时录制任务或者实时视频录制|
-| [Live_Tape_Stop](http://tcecqpoc.fsphere.cn/document/product/267/9568)|结束录制任务|
+| [Get_LiveStat](/doc/api/258/6110)  | 统计信息查询 - 查询推流和播放相关信息|
+| [Get_LivePushStat](/doc/api/258/6110) | 统计信息查询 - 查询推流相关信息|
+| [Get_LivePlayStat](/doc/api/258/6110)  |  统计信息查询 - 查询播放相关信息 |
+| [Get_LivePushStatHistory](/document/product/267/9579)|获取推流历史信息|
+| [Get_LivePlayStatHistory](/document/product/267/9580)|获取播放统计历史信息|
+| [Live_Channel_GetStatus](/doc/api/258/5958) |  仅查询某条流的状态信息（旧版本接口） | 
+| [Live_Channel_SetStatus](/doc/api/258/5959) | 对某条流实行禁播操作，主要用于鉴黄场景 | 
+| [Live_Tape_GetFilelist](/doc/api/258/5960)| 查询某条流在直播过程中的录制文件列表 | 
+| [Live_Queue_Get](/doc/api/258/5961)| 查询某条流在直播过程中的截图文件列表 |
+| [Live_Channel_GetChannelList](/document/product/267/7997)|查询频道列表|
+| [Live_Channel_GetLiveChannelList](/document/product/267/8862)|查询直播中频道列表|
+| [mix_streamv2.start_mix_stream_advanced](/document/product/267/8832)|云端混流操作接口|
+| [channel_manager](/document/product/267/9500)|暂停并延迟恢复——可针对某路流禁止推流|
+| [Live_Tape_Start](/document/product/267/9567)|创建录制任务——可实现定时录制任务或者实时视频录制|
+| [Live_Tape_Stop](/document/product/267/9568)|结束录制任务|
 
 ### 错误码
 1.http 错误 
@@ -35,6 +35,6 @@
 | appid is invalid | appid 不合法，表示未开通该功能  | <br>|
 
 >**注意：**
->以上错误码针对本文 API 列表中的 API，不包括 [消息事件通知](http://tcecqpoc.fsphere.cn/document/product/267/5957)。
+>以上错误码针对本文 API 列表中的 API，不包括 [消息事件通知](/document/product/267/5957)。
 
  

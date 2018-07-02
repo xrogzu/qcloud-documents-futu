@@ -6,8 +6,8 @@
 
 | 手机平台 | 文档索引 |
 |:-------:|---------|
-| iOS 平台 | [【录制+发布】](http://tcecqpoc.fsphere.cn/document/product/584/9367) &nbsp; [【视频编辑】](http://tcecqpoc.fsphere.cn/document/product/584/9375) &nbsp; [【视频拼接】](http://tcecqpoc.fsphere.cn/document/product/584/9370) &nbsp; [【视频播放】](http://tcecqpoc.fsphere.cn/document/product/584/9372) | 
-| Android 平台 | [【录制+发布】](/document/product/584/9367) &nbsp; [【视频编辑】](http://tcecqpoc.fsphere.cn/document/product/584/9502) &nbsp; [【视频拼接】](http://tcecqpoc.fsphere.cn/document/product/584/9503) &nbsp; [【视频播放】](http://tcecqpoc.fsphere.cn/document/product/584/9373) | 
+| iOS 平台 | [【录制+发布】](/document/product/584/9367) &nbsp; [【视频编辑】](/document/product/584/9375) &nbsp; [【视频拼接】](/document/product/584/9370) &nbsp; [【视频播放】](/document/product/584/9372) | 
+| Android 平台 | [【录制+发布】](/document/product/584/9367) &nbsp; [【视频编辑】](/document/product/584/9502) &nbsp; [【视频拼接】](/document/product/584/9503) &nbsp; [【视频播放】](/document/product/584/9373) | 
 
 ## 下载地址
 
@@ -23,7 +23,7 @@
 
 - **付费版**
 
-付费版相较于标准版，增加了基于腾讯优图实验室专利技术的人脸特效功能，实现了大眼、瘦脸、动效贴纸等特效功能。由于采用了优图实验室的专利技术，该版本非免费提供，需要解压密码和授权 license才能运行，使用方法见 [特效功能](http://tcecqpoc.fsphere.cn/document/product/454/9018)。  
+付费版相较于标准版，增加了基于腾讯优图实验室专利技术的人脸特效功能，实现了大眼、瘦脸、动效贴纸等特效功能。由于采用了优图实验室的专利技术，该版本非免费提供，需要解压密码和授权 license才能运行，使用方法见 [特效功能](/document/product/454/9018)。  
 
 | 操作系统 | 版本说明|下载链接 |
 | :---------: |  ---- | :----: | 

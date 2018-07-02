@@ -1,5 +1,5 @@
 ## 初始化
-> 关于文章中出现的 SecretID、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](http://tcecqpoc.fsphere.cn/document/product/436/7751)
+> 关于文章中出现的 SecretID、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](/document/product/436/7751)
 
 在使用 SDK 的功能之前，需要导入一些必要的头文件和进行一些初始化工作。
 引入上传 SDK 的头文件 *QCloudCore/QCloudCore.h,     

@@ -66,4 +66,4 @@ mongoClient.connect(url, function(err, db) {
 以上为连接示例，后续您可自由编写代码部署应用程序。
 
 ## 相关说明
-云平台 MongoDB 默认提供了 “rwuser” 和 “mongouser” 两个用户名分别支持 “MONGODB-CR” 和 “SCRAM-SHA-1” 两种认证方式，对于这两种认证方式，连接 URL 需要做不同的处理，详情请参考[连接示例](http://tcecqpoc.fsphere.cn/document/product/240/3563)。
+云平台 MongoDB 默认提供了 “rwuser” 和 “mongouser” 两个用户名分别支持 “MONGODB-CR” 和 “SCRAM-SHA-1” 两种认证方式，对于这两种认证方式，连接 URL 需要做不同的处理，详情请参考[连接示例](/document/product/240/3563)。

@@ -25,7 +25,7 @@ public class Hello {
 
 ## 部署包上传
 
-可以通过 [使用 Gradle 创建 zip 部署包](http://tcecqpoc.fsphere.cn/document/product/583/12216) 和 [使用 Maven 创建 jar 部署包](http://tcecqpoc.fsphere.cn/document/product/583/12217) 这两种方式来创建zip或jar包。创建完成后，可通过控制台页面直接上传包（小于 10 M），或通过把部署包上传至 COS Bucket 后，在 SCF 控制台上通过指定部署包的 Bucket 和 Object 信息，完成部署包提交。
+可以通过 [使用 Gradle 创建 zip 部署包](/document/product/583/12216) 和 [使用 Maven 创建 jar 部署包](/document/product/583/12217) 这两种方式来创建zip或jar包。创建完成后，可通过控制台页面直接上传包（小于 10 M），或通过把部署包上传至 COS Bucket 后，在 SCF 控制台上通过指定部署包的 Bucket 和 Object 信息，完成部署包提交。
 
 ## 入参和返回
 

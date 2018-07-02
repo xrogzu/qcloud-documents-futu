@@ -1,4 +1,4 @@
-iOS SDK 支持发起 QQ 临时会话，获取指定 QQ 帐号在线状态。使用 WPA 功能需要设置 QQ 业务回调，请参考 [处理 QQ 业务的回调](http://tcecqpoc.fsphere.cn/document/product/630/11887)。
+iOS SDK 支持发起 QQ 临时会话，获取指定 QQ 帐号在线状态。使用 WPA 功能需要设置 QQ 业务回调，请参考 [处理 QQ 业务的回调](/document/product/630/11887)。
 
 
 ## 发起 QQ 临时会话

@@ -12,7 +12,7 @@
 			"description": "Object操作",
 			"externalDocs": {
 				"description": "了解更多关于对象存储object",
-				"url": "http://tcecqpoc.fsphere.cn/document/product/436"
+				"url": "/document/product/436"
 			}
 		},
 		{
@@ -20,7 +20,7 @@
 			"description": "Bucket操作",
 			"externalDocs": {
 				"description": "了解更多关于对象存储Bucket",
-				"url": "http://tcecqpoc.fsphere.cn/document/product/436"
+				"url": "/document/product/436"
 			}
 		}
 	],

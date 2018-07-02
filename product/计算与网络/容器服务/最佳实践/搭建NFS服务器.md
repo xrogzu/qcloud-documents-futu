@@ -1,9 +1,9 @@
-本文档主要介绍利用容器搭建 NFS 服务来共享 [CBS 云硬盘](http://tcecqpoc.fsphere.cn/document/product/362/2345) 的方法。
+本文档主要介绍利用容器搭建 NFS 服务来共享 [CBS 云硬盘](/document/product/362/2345) 的方法。
 
 NFS 是 Network File System 的简写，即网络文件系统。 通过使用 NFS ，用户和程序可以像访问本地文件一样访问远端系统上的文件。
 
 ### 前提条件
-如果您还未创建集群，您需要先创建集群。有关如何创建集群的详细信息，参见 [新建集群](http://tcecqpoc.fsphere.cn/document/product/457/9091)。
+如果您还未创建集群，您需要先创建集群。有关如何创建集群的详细信息，参见 [新建集群](/document/product/457/9091)。
 ### 操作步骤
 **第一步** ：新建服务
 在 [容器服务控制台](http://console.tcecqpoc.fsphere.cn/ccs) 页面，单击 **服务**，在服务列表页单击【新建】。

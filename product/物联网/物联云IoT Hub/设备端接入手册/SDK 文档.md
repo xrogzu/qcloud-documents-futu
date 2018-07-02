@@ -36,7 +36,7 @@ FEATURE_SDKTESTS_ENABLED        = n
 | FEATURE_SDKTESTS_ENABLED      | 是否编译测试代码                                                                        |
 
 ## 运行
-请参考[快速开始](http://tcecqpoc.fsphere.cn/document/product/634/11912)
+请参考[快速开始](/document/product/634/11912)
 
 ## C-SDK提供的功能API说明
 以下是V1.2.0版本C-SDK提供的功能和对应API，用于客户编写业务逻辑，更加详细详细的说明请查看src/sdk-impl/qcloud_iot_export.h及src/sdk-impl/exports/*.h中的注释

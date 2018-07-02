@@ -7,7 +7,7 @@ CAM 用户在进行敏感操作时需要进行二次验证，CAM 用户的 MFA �
 
 以下为 MFA 设置详细指引：
 ## 主账号开启 MFA
-主账号开启 MFA，以及相关设置指引请参考 [MFA 常见问题](http://tcecqpoc.fsphere.cn/document/product/378/12036)。
+主账号开启 MFA，以及相关设置指引请参考 [MFA 常见问题](/document/product/378/12036)。
 
 ## 为子用户开启 MFA
 

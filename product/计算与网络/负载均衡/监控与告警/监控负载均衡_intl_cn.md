@@ -25,4 +25,4 @@ For more information on monitor metrics and how to obtain the monitoring data of
 Open [Cloud Monitor Console](http://console.tcecqpoc.fsphere.cn/monitor/overview), click "Cloud Product Monitoring" - "Cloud Load Balance", click the ID of <font color="red>public network-based (with daily rate)</font> cloud load balancer instance to enter the details page of monitor to check the monitoring data of the cloud load balancer instance.
 
 ## Check the monitoring data of cloud load balancer instance through API
-Please refer to [API GetMonitorData](http://tcecqpoc.fsphere.cn/doc/api/405/4667#5.3-.E8.B4.9F.E8.BD.BD.E5.9D.87.E8.A1.A1).
+Please refer to [API GetMonitorData](/doc/api/405/4667#5.3-.E8.B4.9F.E8.BD.BD.E5.9D.87.E8.A1.A1).

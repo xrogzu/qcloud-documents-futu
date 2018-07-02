@@ -113,8 +113,8 @@
 
 | 参数         | 类型                | 描述                                                         |
 | ------------ | ------------------- | ------------------------------------------------------------ |
-| serverDomain | const std::string & | RoomService的URL地址，安全起见，建议访问https加密链接， 参考 [DOC](http://tcecqpoc.fsphere.cn/document/product/454/14606#ClientFLOW) |
-| authData     | const RTCAuthData & | RoomService提供的登录信息，包括IM相关的配置字段，在login成功后，获取到token字段，参考 [DOC](http://tcecqpoc.fsphere.cn/document/product/454/14606#ClientFLOW) |
+| serverDomain | const std::string & | RoomService的URL地址，安全起见，建议访问https加密链接， 参考 [DOC](/document/product/454/14606#ClientFLOW) |
+| authData     | const RTCAuthData & | RoomService提供的登录信息，包括IM相关的配置字段，在login成功后，获取到token字段，参考 [DOC](/document/product/454/14606#ClientFLOW) |
 | callback     | ILoginRTCCallback*  | ILoginRTCCallback 类型的代理指针，回调login的结果            |
 
 - 示例：

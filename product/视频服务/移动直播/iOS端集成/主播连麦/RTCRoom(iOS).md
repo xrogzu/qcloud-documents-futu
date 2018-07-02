@@ -60,8 +60,8 @@
 
 | 参数       | 类型                  | 说明       |
 | -------- | ------------------- | -------- |
-| serverDomain | NSString | RoomService 的服务器地址，这部分可以参考 [DOC](http://tcecqpoc.fsphere.cn/document/product/454/14606#ClientFLOW)。 |
-| loginInfo | LoginInfo | 登录参数，这部分可以参考 [DOC](http://tcecqpoc.fsphere.cn/document/product/454/14606#ClientFLOW)。 |
+| serverDomain | NSString | RoomService 的服务器地址，这部分可以参考 [DOC](/document/product/454/14606#ClientFLOW)。 |
+| loginInfo | LoginInfo | 登录参数，这部分可以参考 [DOC](/document/product/454/14606#ClientFLOW)。 |
 | completion | ILoginCompletionHandler | 登录成功与否的回调 |
 
 - 示例代码：

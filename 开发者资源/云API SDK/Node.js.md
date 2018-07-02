@@ -7,7 +7,7 @@ qcloudapi-sdk 是云平台 API 2.0 的 node.js SDK 工具包。
 
 ## 1. 资源
 
-见不同模块API的公共参数、API概览、错误码。如[云服务器API公共参数](http://tcecqpoc.fsphere.cn/document/api/213/6976)、[云服务器API概览](http://tcecqpoc.fsphere.cn/doc/api/229/API%E6%A6%82%E8%A7%88)、[云服务器API错误码](http://tcecqpoc.fsphere.cn/doc/api/229/%E9%94%99%E8%AF%AF%E7%A0%81)。
+见不同模块API的公共参数、API概览、错误码。如[云服务器API公共参数](/document/api/213/6976)、[云服务器API概览](/doc/api/229/API%E6%A6%82%E8%A7%88)、[云服务器API错误码](/doc/api/229/%E9%94%99%E8%AF%AF%E7%A0%81)。
 
 ## 2. 安装
 

@@ -1,6 +1,6 @@
 You can create alarms to send alarm messages to specified users once the alarms are triggered when the cloud load balancers' running statuses meet specific conditions. The created alarm determines whether an alarm-related notification needs to be triggered according to the comparison results between a monitored metric and a specific threshold at intervals.
 
-You can take precautionary or remedial measures in a timely manner when an alarm is set off by status changes of cloud products. Therefore, creating a reasonable alarm can help you improve robustness and reliability of your application. For more information on alarms, please see [Alarm Configurations](http://tcecqpoc.fsphere.cn/document/product/248/1073).
+You can take precautionary or remedial measures in a timely manner when an alarm is set off by status changes of cloud products. Therefore, creating a reasonable alarm can help you improve robustness and reliability of your application. For more information on alarms, please see [Alarm Configurations](/document/product/248/1073).
 
 ## Creating an Alarm Policy
 

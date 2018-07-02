@@ -115,7 +115,7 @@ XSplit是收费的，如果银子不够的话，推荐用OBS（**Free**）。XSp
 
 
 ### 3.2 RTMP DEMO 播放验证
-[下载](http://tcecqpoc.fsphere.cn/document/product/454/6555) RTMP DEMO，将播放地址用在线二维码[生成器](http://cli.im/)生成二维码后，即可扫码播放。
+[下载](/document/product/454/6555) RTMP DEMO，将播放地址用在线二维码[生成器](http://cli.im/)生成二维码后，即可扫码播放。
 
 ### 3.3 VLC 播放验证
 [VLC下载地址](http://www.videolan.org/vlc/)，安装按照默认设置即可。打开后点击**媒体菜单**，选择**打开网络串流**，填写播放地址，点击**播放**。

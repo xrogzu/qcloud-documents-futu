@@ -26,7 +26,7 @@ CTSDB 提供基于HTTP协议，以 JSON为数据交互格式的 RESTful API 供�
 - 低查询延时，高查询并发：优化常见的查询模式，通过索引等技术降低查询延时。通过缓存、routing 等技术提高查询并发。
 
 ### 基础网络CVM如何连上CTSDB？
-目前CTSDB只提供VPC网络的方式方式，如果您的CVM实例在基础网络，则可以通过基础网络与VPC互通操作来打通网络，连接CTSDB。具体操作请参考[链接](http://tcecqpoc.fsphere.cn/document/api/215/2098)
+目前CTSDB只提供VPC网络的方式方式，如果您的CVM实例在基础网络，则可以通过基础网络与VPC互通操作来打通网络，连接CTSDB。具体操作请参考[链接](/document/api/215/2098)
 
 
 

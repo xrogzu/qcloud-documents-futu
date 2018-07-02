@@ -1,7 +1,7 @@
 ### 步骤一：注册云平台账号
-在申请弹性 MapReduce 集群之前，您需要一个云平台的账号。点击进入 [云平台注册页面](http://tcecqpoc.fsphere.cn/register)，详细指引请参考 [注册云平台](http://tcecqpoc.fsphere.cn/document/product/378/9603)。
+在申请弹性 MapReduce 集群之前，您需要一个云平台的账号。点击进入 [云平台注册页面](/register)，详细指引请参考 [注册云平台](/document/product/378/9603)。
 ### 步骤二：登录弹性 MapReduce 控制台
-在成功注册账号后，登录 [弹性 MapReduc](http://tcecqpoc.fsphere.cn/login?s_url=http%3A%2F%2Fbuy.tce.fsphere.c%2Femr) 管理控制台。
+在成功注册账号后，登录 [弹性 MapReduc](/login?s_url=http%3A%2F%2Fbuy.tce.fsphere.c%2Femr) 管理控制台。
 ### 步骤二：创建弹性 MapReduce 集群
 单击左上角【创建集群】按钮，开始创建集群。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/57a40ab2b18b3e9bed469f1bce52294b/image.png)
@@ -21,7 +21,7 @@
 **添加集群点网络**
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/60fcf4621caccb709d2a6d07822a2114/image.png)
 >**注意：**
->如果无可添加网络，您需要去控制台 [新建私有网络](http://tcecqpoc.fsphere.cn/document/product/215/8113) 或者 [新建子网](http://tcecqpoc.fsphere.cn/document/product/215/8114)。
+>如果无可添加网络，您需要去控制台 [新建私有网络](/document/product/215/8113) 或者 [新建子网](/document/product/215/8114)。
 
 #### 3. 基础配置
 填写集群名称、SecretId、SecretKey，并选择是否开启 COS。

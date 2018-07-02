@@ -1,5 +1,5 @@
 ## 基本概念
-网络访问控制列表（Access Control List，ACL）是一个子网级别无状态的可选安全层，用于控制进出子网的数据流，可以精确到协议和端口粒度。如下图所示，其规则与[安全组](http://tcecqpoc.fsphere.cn/doc/product/213/500)相似。但由于网络 ACL 无状态的特性，即使设置入站规则允许某些访问，如果没有设置相应的出站规则会导致无法响应访问。
+网络访问控制列表（Access Control List，ACL）是一个子网级别无状态的可选安全层，用于控制进出子网的数据流，可以精确到协议和端口粒度。如下图所示，其规则与[安全组](/doc/product/213/500)相似。但由于网络 ACL 无状态的特性，即使设置入站规则允许某些访问，如果没有设置相应的出站规则会导致无法响应访问。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mccdn.qcloud.com/static/img/04de33187d40d6891f7e5c8da120fdc7/image.png)
 
 ## 使用场景
@@ -99,15 +99,15 @@ ACL 规则是网络 ACL 的组成部分。当您在网络 ACL 中添加或删除
 3)	若【删除】按钮置灰，则表示本网络 ACL 正与子网相关联，您需要先解除这些关联后才能进行删除操作。
  
 ## API 概览
-您可以使用 API 操作来设置和管理网络 ACL 相关接口，有关 VPC API的更多功能可以查看 [VPC 所有 API 概览](http://tcecqpoc.fsphere.cn/doc/api/245/909)。
+您可以使用 API 操作来设置和管理网络 ACL 相关接口，有关 VPC API的更多功能可以查看 [VPC 所有 API 概览](/doc/api/245/909)。
 
 | 接口功能 | Action ID | 功能描述 |
 |---------|---------|---------|
-| 创建VPC网络ACL | [CreateNetworkAcl](http://tcecqpoc.fsphere.cn/document/product/215/1437) | 创建安全防火墙。 |
-| 删除网络ACL | [DeleteNetworkAcl](http://tcecqpoc.fsphere.cn/document/product/215/1439) | 删除指定安全防火墙。 |
-| 修改网络ACL名称 | [ModifyNetworkAcl](http://tcecqpoc.fsphere.cn/document/product/215/1443) | 修改安全防火墙名称。 |
-| 查询网络ACL列表 | [DescribeNetworkAcl](http://tcecqpoc.fsphere.cn/document/product/215/1441) | 查询vpc安全防火墙列表。 |
-| 设置网络ACL规则 | [ModifyNetworkAclEntry](http://tcecqpoc.fsphere.cn/document/product/215/1444) | 设置安全防火墙网络规则。 |
-| 网络ACL绑定子网 | [CreateSubnetAclRule](http://tcecqpoc.fsphere.cn/document/product/215/1438) | 安全防火墙绑定子网。 |
-| 网络ACL解绑子网 | [DeteleSubnetAclRule](http://tcecqpoc.fsphere.cn/document/product/215/1442) | 安全防火墙和子网解绑。 |
+| 创建VPC网络ACL | [CreateNetworkAcl](/document/product/215/1437) | 创建安全防火墙。 |
+| 删除网络ACL | [DeleteNetworkAcl](/document/product/215/1439) | 删除指定安全防火墙。 |
+| 修改网络ACL名称 | [ModifyNetworkAcl](/document/product/215/1443) | 修改安全防火墙名称。 |
+| 查询网络ACL列表 | [DescribeNetworkAcl](/document/product/215/1441) | 查询vpc安全防火墙列表。 |
+| 设置网络ACL规则 | [ModifyNetworkAclEntry](/document/product/215/1444) | 设置安全防火墙网络规则。 |
+| 网络ACL绑定子网 | [CreateSubnetAclRule](/document/product/215/1438) | 安全防火墙绑定子网。 |
+| 网络ACL解绑子网 | [DeteleSubnetAclRule](/document/product/215/1442) | 安全防火墙和子网解绑。 |
 

@@ -191,5 +191,5 @@ REDIS_SLAVE_VERSION: v1
   [5]: http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/4283f6420c2d97c6d3e2da97b1f9b677/image.png
   [6]: http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/93f595d1d91ea5d7eeabedca4201a713/image.png
   [8]: http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/e8fcce18d38450eb9aaa23f4092077db/image.png
-  [10]: http://tcecqpoc.fsphere.cn/document/product/457/11942
-  [11]: http://tcecqpoc.fsphere.cn/document/product/457/11944
+  [10]: /document/product/457/11942
+  [11]: /document/product/457/11944

@@ -42,13 +42,13 @@
 <tr>
 <td> SecretId
 </td><td> String
-</td><td> 由云平台上申请的标识身份的SecretId和SecretKey, 其中SecretKey会用来生成Signature<br />具体参考<a href="http://tcecqpoc.fsphere.cn/doc/api/256/%E6%8E%A5%E5%8F%A3%E9%89%B4%E6%9D%83" title="接口鉴权">接口鉴权</a>页面
+</td><td> 由云平台上申请的标识身份的SecretId和SecretKey, 其中SecretKey会用来生成Signature<br />具体参考<a href="/doc/api/256/%E6%8E%A5%E5%8F%A3%E9%89%B4%E6%9D%83" title="接口鉴权">接口鉴权</a>页面
 </td><td> 是
 </td></tr>
 <tr>
 <td> Signature
 </td><td> String
-</td><td> 请求签名，用来验证此次请求的合法性, <br />具体参考<a href="http://tcecqpoc.fsphere.cn/doc/api/256/%E6%8E%A5%E5%8F%A3%E9%89%B4%E6%9D%83" title="接口鉴权">接口鉴权</a>页面
+</td><td> 请求签名，用来验证此次请求的合法性, <br />具体参考<a href="/doc/api/256/%E6%8E%A5%E5%8F%A3%E9%89%B4%E6%9D%83" title="接口鉴权">接口鉴权</a>页面
 </td><td> 是
 </td></tr></table>
 
@@ -57,7 +57,7 @@
 
 ### 1.3 接口鉴权
 
-接口鉴权方法详见[《云平台接口鉴权》](http://tcecqpoc.fsphere.cn/document/api/270/1992)
+接口鉴权方法详见[《云平台接口鉴权》](/document/api/270/1992)
 
 注意：在生成签名的过程中，需要将加密字符串中包含的“_”改写成“.”，从而加密产生签名。
 
@@ -121,7 +121,7 @@
 <tr>
 <td> message
 </td><td> String
-</td><td> 错误信息，错误码详情参见<a href="http://tcecqpoc.fsphere.cn/doc/api/256/%E9%94%99%E8%AF%AF%E7%A0%81" class="external text" title="//tce.fsphere.cn/doc/api/256/%E9%94%99%E8%AF%AF%E7%A0%81" target="_blank" rel="nofollow">错误码说明</a>
+</td><td> 错误信息，错误码详情参见<a href="/doc/api/256/%E9%94%99%E8%AF%AF%E7%A0%81" class="external text" title="//tce.fsphere.cn/doc/api/256/%E9%94%99%E8%AF%AF%E7%A0%81" target="_blank" rel="nofollow">错误码说明</a>
 </td></tr>
 <tr>
 <td> data
@@ -279,7 +279,7 @@
 </pre>
 </div>
 
-根据上述参数列表进行签名，得出的数字签名为：HgIYOPcx5lN6gz8JsCFBNAWp2oQ（示例），详细的数字签名的生成方法请参照：[《云平台接口鉴权》](http://tcecqpoc.fsphere.cn/document/api/270/1992)
+根据上述参数列表进行签名，得出的数字签名为：HgIYOPcx5lN6gz8JsCFBNAWp2oQ（示例），详细的数字签名的生成方法请参照：[《云平台接口鉴权》](/document/api/270/1992)
 注意：
 1）在生成签名的过程中，需要将加密字符串中包含的“_”改写成“.”，从而加密产生签名；
 2）鉴权时，需要将参数列表按key进行排序：字典序，同时大写在前。
@@ -592,7 +592,7 @@ Type=1：当前属性越大，排序越靠前；
 <tr>
 <td> message
 </td><td> String
-</td><td> 错误信息，错误码详情参见<a href="http://tcecqpoc.fsphere.cn/doc/api/256/%E9%94%99%E8%AF%AF%E7%A0%81" class="external text" title="http://tcecqpoc.fsphere.cn/doc/api/256/%E9%94%99%E8%AF%AF%E7%A0%81" target="_blank" rel="nofollow">错误码说明</a>
+</td><td> 错误信息，错误码详情参见<a href="/doc/api/256/%E9%94%99%E8%AF%AF%E7%A0%81" class="external text" title="/doc/api/256/%E9%94%99%E8%AF%AF%E7%A0%81" target="_blank" rel="nofollow">错误码说明</a>
 </td></tr>
 <tr>
 <td> echo

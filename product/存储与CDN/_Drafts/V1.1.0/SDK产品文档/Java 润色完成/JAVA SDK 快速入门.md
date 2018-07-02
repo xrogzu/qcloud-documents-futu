@@ -4,9 +4,9 @@
 ### 环境依赖
 
 - SDK 支持 JDK 1.7, 1.8 及以上版本。
-- JDK安装方式请参考 [JAVA 安装与配置](http://tcecqpoc.fsphere.cn/document/product/436/10865)
+- JDK安装方式请参考 [JAVA 安装与配置](/document/product/436/10865)
 
-> 关于文章中出现的 SecretId、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](http://tcecqpoc.fsphere.cn/document/product/436/7751)
+> 关于文章中出现的 SecretId、SecretKey、Bucket 等名称的含义和获取方式请参考：[COS 术语信息](/document/product/436/7751)
 
 ###  安装 SDK
 安装 SDK 的方式有两种：maven 安装和源码安装。

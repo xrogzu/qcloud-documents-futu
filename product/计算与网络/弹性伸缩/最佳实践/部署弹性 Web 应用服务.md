@@ -1,4 +1,4 @@
-本项目将指导您利用云平台 [弹性伸缩](http://tcecqpoc.fsphere.cn/product/as) 完成部署弹性 Web 应用服务。弹性伸缩帮助您以最合适的实例数量应对业务情况。当业务需求增加时，为您无缝地自动增加适量 CVM 实例；当业务需求下降时，为您自动减少不需要的 CVM 实例，提高设备利用率，为您节省部署和实例成本。
+本项目将指导您利用云平台 [弹性伸缩](/product/as) 完成部署弹性 Web 应用服务。弹性伸缩帮助您以最合适的实例数量应对业务情况。当业务需求增加时，为您无缝地自动增加适量 CVM 实例；当业务需求下降时，为您自动减少不需要的 CVM 实例，提高设备利用率，为您节省部署和实例成本。
 本项目适合集群式部署的网站/APP。本项目中的网站结构比较简单，只有应用服务器一个集群。复杂的网站，会有应用服务器集群、前端服务器集群、缓存服务器集群等，每个集群都可进行类似操作，每个集群对应一个伸缩组。
 **适用条件**
 - 网站使用集群的方式，且集群超过 1 台以上的服务器。
@@ -27,7 +27,7 @@
 1. 登录 [弹性伸缩控制台](http://console.tcecqpoc.fsphere.cn/autoscaling/config)，单击导航条中的【启动配置】。
 2. 选择项目和地域，这里需要选择您的 Web 应用所在的项目和地域。本项目选择“默认项目”和“华南地区（广州）”。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/653ebf516d940a90fd79728e5d319cdc/image.png)
-3. 选择机型。关于机型选择的更多信息，请参考 [推荐选型](http://tcecqpoc.fsphere.cn/act/recommended)。本项目选择系列 1 标准型 1 颗 CPU 1GB 内存。
+3. 选择机型。关于机型选择的更多信息，请参考 [推荐选型](/act/recommended)。本项目选择系列 1 标准型 1 颗 CPU 1GB 内存。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/301ed9b779010186705029631853a6ab/image.png)
 4. 选择镜像。在【自定义镜像】中，指定刚才您创建的镜像。本项目以“test”为例。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/192691062ce8fa93f2bbcd0f02af5bc2/image.png)

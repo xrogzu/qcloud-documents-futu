@@ -419,23 +419,23 @@ CPU_REQUEST: 400m
   [2]: http://console.tcecqpoc.fsphere.cn/ccs/template
   [3]: http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/f72ada368e069275051bc9693f677b40/image.png
   [4]: http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d1f4c60ed9a58a3a0c7a4d5b454b5f4b/image.png
-  [5]: http://tcecqpoc.fsphere.cn/document/product/457/12199
+  [5]: /document/product/457/12199
   [6]: http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/5b4226371374d94705cb273b6b2dc005/image.png
-  [8]: http://tcecqpoc.fsphere.cn/document/product/457/9112
-  [10]: http://tcecqpoc.fsphere.cn/document/product/457/9098
+  [8]: /document/product/457/9112
+  [10]: /document/product/457/9098
   [11]: http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1688a7e5da5a4363f98cf4b544777e9e/image.png
-  [12]: http://tcecqpoc.fsphere.cn/document/product/457/10177
-  [13]: http://tcecqpoc.fsphere.cn/document/product/457/11956#.E8.87.AA.E5.AE.9A.E4.B9.89.E5.8F.98.E9.87.8F--releasecbs
+  [12]: /document/product/457/10177
+  [13]: /document/product/457/11956#.E8.87.AA.E5.AE.9A.E4.B9.89.E5.8F.98.E9.87.8F--releasecbs
   [14]: http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/0f5702315684aefd9d8c69940815adfb/image.png
-  [17]: http://tcecqpoc.fsphere.cn/document/product/457/9112
-  [19]: http://tcecqpoc.fsphere.cn/document/product/457/9098
-  [21]: http://tcecqpoc.fsphere.cn/document/product/457/11956#.E8.87.AA.E5.AE.9A.E4.B9.89.E5.8F.98.E9.87.8F--releasecbs
+  [17]: /document/product/457/9112
+  [19]: /document/product/457/9098
+  [21]: /document/product/457/11956#.E8.87.AA.E5.AE.9A.E4.B9.89.E5.8F.98.E9.87.8F--releasecbs
   [23]: http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/3d8dfa525b98ec7fa486ff29f60492ec/image.png
-  [24]: http://tcecqpoc.fsphere.cn/document/product/457/11956
+  [24]: /document/product/457/11956
   [25]: http://console.tcecqpoc.fsphere.cn/ccs/template
   [26]: http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/d3a797c24d97677c0a9bbbbeaebd7d31/image.png
-  [27]: http://tcecqpoc.fsphere.cn/document/product/457/9091
-  [28]: http://tcecqpoc.fsphere.cn/document/product/457/10177
+  [27]: /document/product/457/9091
+  [28]: /document/product/457/10177
   [29]: http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/9c1f92253cdf0533edc335320c8ad5ec/image.png
   [30]: http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/124c953135374f32b98b7ee41c2babce/image.png
   [31]: http://console.tcecqpoc.fsphere.cn/cvm/cbs

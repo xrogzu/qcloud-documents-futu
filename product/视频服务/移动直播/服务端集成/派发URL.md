@@ -2,7 +2,7 @@
 
 直播推流需要推流 URL， 直播播放需要播放 URL，不管您的产品是想做单场次的活动直播，还是主播可以随时开播的直播平台，由后台派发 URL 都要比把 URL 写死在 APP 里要灵活的多。
 
-这里说的“派发”指的是：在 APP（主播端）准备推流（[iOS](http://tcecqpoc.fsphere.cn/document/product/454/7879) | [Android](http://tcecqpoc.fsphere.cn/document/product/454/7885)）时返回推流 URL 给 APP，在 APP（观众端）需要播放（[iOS](http://tcecqpoc.fsphere.cn/document/product/454/7880) | [Android](http://tcecqpoc.fsphere.cn/document/product/454/7886)）时返回播放 URL 给 APP。
+这里说的“派发”指的是：在 APP（主播端）准备推流（[iOS](/document/product/454/7879) | [Android](/document/product/454/7885)）时返回推流 URL 给 APP，在 APP（观众端）需要播放（[iOS](/document/product/454/7880) | [Android](/document/product/454/7886)）时返回播放 URL 给 APP。
 
 <h2 id="URL"> URL的组成？ </h2>
 
@@ -18,7 +18,7 @@
 何时该URL会过期，格式是十六进制的UNIX时间戳，比如 5867D600 代表 2017年1月1日0时0点0分过期。  我们的客户一般会将 txTime 设置为当前时间 24 小时以后过期，<font color='red'>过期时间不要太短</font>，当主播在直播过程中遭遇网络闪断时会重新恢复推流，如果过期时间太短，主播会因为推流 URL 过期而无法恢复推流。
 
 - **txSecret**
-防盗链签名，防止攻击者伪造您的后台生成推流URL，计算方法参考[防盗链签名的计算](http://tcecqpoc.fsphere.cn/document/product/454/9875)。
+防盗链签名，防止攻击者伪造您的后台生成推流URL，计算方法参考[防盗链签名的计算](/document/product/454/9875)。
 
 - **示例代码**
 [直播控制台>>直播码接入>>推流生成器](http://console.tcecqpoc.fsphere.cn/live/livecodemanage)页面下半部分有示例代码（PHP和Java两个版本）演示如何生成防盗链地址。

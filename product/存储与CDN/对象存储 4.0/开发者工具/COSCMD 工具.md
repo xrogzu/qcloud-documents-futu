@@ -7,7 +7,7 @@ Windows 或 Linux 系统
 Python 2.7 
 并装有最新版本的 pip
 #### 安装及配置
-环境安装与配置详细操作请参考 [Python 安装与配置](http://tcecqpoc.fsphere.cn/document/product/436/10866)。
+环境安装与配置详细操作请参考 [Python 安装与配置](/document/product/436/10866)。
 ## 下载与安装
 - **手动安装**
 下载链接：[GitHub 链接](http://github.com/tencentyun/coscmd.git)
@@ -84,10 +84,10 @@ coscmd config -a <secret_id> -s <secret_key> -b <bucket> -r <region> [-m <max_th
 
 | 名称         | 描述                                       | 有效值  |
 | :---------| :---------------------------------------- | :---- |
-| secret_id  | 必选参数，APPID 对应的密钥 ID，可从控制台获取，参考 [基本概念](http://tcecqpoc.fsphere.cn/doc/product/436/6225)。 | 字符串  |
-| secret_key | 必选参数，APPID 对应的密钥 Key，可从控制台获取，参考 [基本概念](http://tcecqpoc.fsphere.cn/doc/product/436/6225)。 | 字符串  |
-| bucket     | 必选参数，指定的存储桶名称，bucket的命名规则为{name}-{appid} ，参考 [创建存储桶](http://tcecqpoc.fsphere.cn/doc/product/436/6232)。 | 字符串  |
-| region     | 必选参数，存储桶所在地域。参考 [可用地域](http://tcecqpoc.fsphere.cn/doc/product/436/6224)。 | 字符串  |
+| secret_id  | 必选参数，APPID 对应的密钥 ID，可从控制台获取，参考 [基本概念](/doc/product/436/6225)。 | 字符串  |
+| secret_key | 必选参数，APPID 对应的密钥 Key，可从控制台获取，参考 [基本概念](/doc/product/436/6225)。 | 字符串  |
+| bucket     | 必选参数，指定的存储桶名称，bucket的命名规则为{name}-{appid} ，参考 [创建存储桶](/doc/product/436/6232)。 | 字符串  |
+| region     | 必选参数，存储桶所在地域。参考 [可用地域](/doc/product/436/6224)。 | 字符串  |
 | max_thread | 可选参数，多线程上传时的最大线程数（默认为 5），有效值：1~10         | 数字   |
 | parts_size | 可选参数，分块上传的单块大小（单位为 MB，默认为 1MB），有效值：1~10     | 数字   |
 

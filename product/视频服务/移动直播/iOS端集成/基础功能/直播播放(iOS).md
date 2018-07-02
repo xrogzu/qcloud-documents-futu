@@ -153,7 +153,7 @@ _txLivePlayer.recordDelegate = recordListener;
 ```
 - 录制的进度以时间为单位，由 TXVideoRecordListener 的 onRecordProgress 通知出来。
 - 录制好的文件以 MP4 文件的形式，由 TXVideoRecordListener 的 onRecordComplete 通知出来。
-- 视频的上传和发布由 TXUGCPublish 负责，具体使用方法可以参考 [短视频-文件发布](http://tcecqpoc.fsphere.cn/document/product/584/9367#6.-.E6.96.87.E4.BB.B6.E5.8F.91.E5.B8.8310)。
+- 视频的上传和发布由 TXUGCPublish 负责，具体使用方法可以参考 [短视频-文件发布](/document/product/584/9367#6.-.E6.96.87.E4.BB.B6.E5.8F.91.E5.B8.8310)。
 
 
 <h2 id="Delay">延时调节</h2>
@@ -189,7 +189,7 @@ _config.cacheTime              = 5;
 //设置完成之后再启动播放
 ```
 
-> 更多关于卡顿和延迟优化的技术知识，可以阅读[视频卡顿怎么办？](http://tcecqpoc.fsphere.cn/document/product/454/7946)
+> 更多关于卡顿和延迟优化的技术知识，可以阅读[视频卡顿怎么办？](/document/product/454/7946)
 
 <h2 id="RealTimePlay">超低延时播放</h2>
 支持 <font color='red'>**400ms**</font> 左右的超低延迟播放时云平台直播播放器的一个特点，它可以用于一些对时延要求极为苛刻的场景，比如**远程夹娃娃**或者**主播连麦**，等等，关于这个特性，您需要知道：
@@ -198,7 +198,7 @@ _config.cacheTime              = 5;
 该功能并不需要提前开通，但是要求直播流必须位于云平台，跨云商实现低延时链路的难度不仅仅是技术层面的。
 
 - **播放地址需要带防盗链**
-播放URL 不能用普通的 CDN URL， 必须要带防盗链签名，防盗链签名的计算方法见 [**txTime&txSecret**](http://tcecqpoc.fsphere.cn/document/product/454/9875)。
+播放URL 不能用普通的 CDN URL， 必须要带防盗链签名，防盗链签名的计算方法见 [**txTime&txSecret**](/document/product/454/9875)。
 
 - **播放类型需要指定ACC**
 在调用 startPlay 函数时，需要指定 type 为 <font color='red'>**PLAY_TYPE_LIVE_RTMP_ACC**</font>，SDK 会使用 RTMP-UDP 协议拉取直播流。
@@ -207,7 +207,7 @@ _config.cacheTime              = 5;
 目前最多同时<font color="red"> 10 路 </font>并发播放，设置这个限制的原因并非是技术能力限制，而是希望您只考虑在互动场景中使用（比如连麦时只给主播使用， 或者夹娃娃直播中只给操控娃娃机的玩家使用），避免因为盲目追求低延时而产生不必要的费用损失（低延迟线路的价格要贵于CDN线路）。
 
 - **Obs的延时是不达标的**
-推流端如果是 [TXLivePusher](http://tcecqpoc.fsphere.cn/document/product/454/7879)，请使用 [setVideoQuality](http://tcecqpoc.fsphere.cn/document/product/454/7879#step-4.3A-.E8.AE.BE.E5.AE.9A.E6.B8.85.E6.99.B0.E5.BA.A6) 将 `quality`  设置为 MAIN_PUBLISHER 或者 VIDEO_CHAT。如果是 Windows 端，请使用我们的 [Windows SDK](http://tcecqpoc.fsphere.cn/document/product/454/7873#Windows)， Obs 的推流端积压比较严重，是无法达到低延时效果的。
+推流端如果是 [TXLivePusher](/document/product/454/7879)，请使用 [setVideoQuality](/document/product/454/7879#step-4.3A-.E8.AE.BE.E5.AE.9A.E6.B8.85.E6.99.B0.E5.BA.A6) 将 `quality`  设置为 MAIN_PUBLISHER 或者 VIDEO_CHAT。如果是 Windows 端，请使用我们的 [Windows SDK](/document/product/454/7873#Windows)， Obs 的推流端积压比较严重，是无法达到低延时效果的。
 
 ## SDK事件监听
 你可以为 TXLivePlayer 对象绑定一个 **TXLivePlayListener**，之后SDK 的内部状态信息均会通过 onPlayEvent（事件通知） 和 onNetStatus（状态反馈）通知给您。

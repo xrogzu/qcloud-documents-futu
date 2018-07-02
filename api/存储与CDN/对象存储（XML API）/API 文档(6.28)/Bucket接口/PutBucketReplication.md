@@ -3,7 +3,7 @@
 Put Bucket Replication 请求用于向开启版本管理的存储桶添加 replication 配置。如果存储桶已经拥有 replication 配置，那么该请求会替换现有配置。
 
 >**注意：**
->使用该接口存储桶必须已经开启版本管理，版本管理详细请参见 [Put Bucket Versioning](http://tcecqpoc.fsphere.cn/document/product/436/8591)。
+>使用该接口存储桶必须已经开启版本管理，版本管理详细请参见 [Put Bucket Versioning](/document/product/436/8591)。
 
 ## 请求
 
@@ -18,7 +18,7 @@ Content-MD5: MD5
 Replication configuration XML in the body
 ```
 
-> Authorization: Auth String (详细参见 [请求签名](http://tcecqpoc.fsphere.cn/document/product/436/7778) 章节)
+> Authorization: Auth String (详细参见 [请求签名](/document/product/436/7778) 章节)
 
 ### 请求行
 
@@ -30,7 +30,7 @@ PUT /?replication HTTP/1.1
 ### 请求头
 
 #### 公共头部
-该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](http://tcecqpoc.fsphere.cn/document/product/436/7728) 章节。
+该请求操作的实现使用公共请求头,了解公共请求头详细请参见 [公共请求头部](/document/product/436/7728) 章节。
 
 | 名称               | 描述      | 类型     | 必选   |
 | ---------------- | ----------- | ------ | ---- |
@@ -74,7 +74,7 @@ PUT /?replication HTTP/1.1
 
 ### 响应头
 #### 公共响应头 
-该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](http://tcecqpoc.fsphere.cn/document/product/436/7729) 章节。
+该响应使用公共响应头,了解公共响应头详细请参见 [公共响应头部](/document/product/436/7729) 章节。
 #### 特有响应头
 该响应无特殊的响应头。
 

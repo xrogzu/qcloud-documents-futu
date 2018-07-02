@@ -1,5 +1,5 @@
 ### 1.申请开通权限
-在云平台官网上点击[URL安全](http://tcecqpoc.fsphere.cn/solution/wechat-url)
+在云平台官网上点击[URL安全](/solution/wechat-url)
 ![Image 什么](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/300d661d6b3578bb0720d0a37012b144/image.png)
 在URL安全页面点击立即申请按钮后，云平台会联系您开通权限。
 ![Image 什么](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/0b73905a0351444999f6a6a3c4912a21/image.png)

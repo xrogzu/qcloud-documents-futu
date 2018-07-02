@@ -2,7 +2,7 @@
 
 您可以在云平台官网下载点播播放器SDK
 
-> [http://tcecqpoc.fsphere.cn/doc/product/267/4821](http://tcecqpoc.fsphere.cn/doc/product/267/4821)
+> [/doc/product/267/4821](/doc/product/267/4821)
 
 解压SDK后，得到一个`TXRTMPSDK.framework`。目前RTMP SDK所有功能都集成在这一个framework中。
 

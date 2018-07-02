@@ -3,7 +3,7 @@
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/main.qcloudimg.com/raw/26e2bab63e6df5395036522b50b3cfd4.png)
 ## 一、准备与选型 
 1. 注册云平台账号
-新用户需在 [云平台官网](http://tcecqpoc.fsphere.cn/) 进行【注册】然后购买宙斯盾安全防护服务，详情可参见 [注册云平台](http://tcecqpoc.fsphere.cn/document/product/378/9603) 操作指引和宙斯盾安全防护 [购买指导]()。
+新用户需在 [云平台官网](/) 进行【注册】然后购买宙斯盾安全防护服务，详情可参见 [注册云平台](/document/product/378/9603) 操作指引和宙斯盾安全防护 [购买指导]()。
 2. 确定高防包区域
  - 区域选择原则
 DDoS 高防包只能为同区域的云平台公网 IP 提供高防服务，请务必选择与您云平台源站服务器同区域的高防包。

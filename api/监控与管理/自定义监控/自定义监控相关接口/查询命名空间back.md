@@ -48,7 +48,7 @@
 输入
 
 <pre>
- http://monitor.api.qcloud.com/v2/index.php?Action=DescribeNamespace&<a href="http://tcecqpoc.fsphere.cn/doc/api/229/6976">公共请求参数</a>
+ http://monitor.api.qcloud.com/v2/index.php?Action=DescribeNamespace&<a href="/doc/api/229/6976">公共请求参数</a>
 </pre>
 
 输出
