@@ -10,7 +10,7 @@
 | 参数名称 | 必选  | 类型 | 描述 |
 |---------|---------|---------|---------|
 | natName | 是 | string | NAT网关名称，支持1-25个中文、英文大小写的字母、数字和下划线分隔符。 |
-| vpcId | 是 | string | 私有网络ID或者统一ID，建议使用统一ID,可通过<a href="/doc/api/245/%E6%9F%A5%E8%AF%A2%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%E5%88%97%E8%A1%A8" title="DescribeVpcEx">DescribeVpcEx</a>接口查询。 |
+| vpcId | 是 | string | 私有网络ID或者统一ID，建议使用统一ID,可通过<a href="/document/api/215/1372" title="DescribeVpcEx">DescribeVpcEx</a>接口查询。 |
 | maxConcurrent | 是 | int | 网关并发连接上限，例如：1000000、3000000、10000000，具体支持数据请参见<a href="/doc/product/215/1682" title="网关说明" >私有网络网关说明</a>。 |
 | bandwidth | 否 | int | 网关最大外网出带宽(单位:Mbps), 默认: 100Mbps, 具体支持数据请参见<a href="/doc/product/215/1682" title="网关说明" >私有网络网关说明</a>。 |
 | assignedEipSet.n | 否 | string | 绑定网关的弹性IP数组, assignedEipSet和autoAllocEipNum至少传一个，例如：assignedEipSet.0=10.0.0.1 ，更多关于弹性IP的信息请参考<a href="" title="">弹性IP</a>。|
@@ -24,14 +24,14 @@
 |---------|---------|---------|
 | code | int | 错误码。0：成功, 其他值：失败|
 | message | string | 错误信息|
-| billId | string | 订单ID，创建结果可调用<a href="/doc/api/245/%e6%9f%a5%e8%af%a2NAT%e7%bd%91%e5%85%b3%e7%9a%84%e7%94%9f%e4%ba%a7%e7%8a%b6%e6%80%81?viewType=preview" title="查询NAT网关的生产状态">查询NAT网关的生产状态</a>查询 |
+| billId | string | 订单ID，创建结果可调用<a href="/document/product/215/4088" title="查询NAT网关的生产状态">查询NAT网关的生产状态</a>查询 |
 
- ## 4. 错误码表
+## 4. 错误码表
 以下错误码表仅列出了该接口的业务逻辑错误码，更多公共错误码详见<a href="/doc/api/245/4924" title="VPC错误码">VPC错误码</a>。
  
 | 错误码 | 描述 |
 |---------|---------|
-| InvalidVpc.NotFound | 无效的 VPC，VPC 资源不存在。请再次核实您输入的资源信息是否正确，可通过<a href="/doc/api/245/%E6%9F%A5%E8%AF%A2%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%E5%88%97%E8%A1%A8" title="DescribeVpcEx">DescribeVpcEx</a>接口查询 VPC |
+| InvalidVpc.NotFound | 无效的 VPC，VPC 资源不存在。请再次核实您输入的资源信息是否正确，可通过<a href="/document/api/215/1372" title="DescribeVpcEx">DescribeVpcEx</a>接口查询 VPC |
 | InvalidNatGatewayName | NAT 网关名称不合法。NAT 网关名称取值范围：1-60个中文、英文大小写的字母、数字和下划线分隔符 |
 | NatGatewayLimitExceeded | 创建的 NAT 网关数量超过上限。如果需要更多资源，请联系客服申请。更多VPC资源限制信息详见<a href="/doc/product/215/537" title="VPC使用限制">VPC使用限制</a> |
 

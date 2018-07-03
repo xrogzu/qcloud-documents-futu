@@ -19,7 +19,7 @@
 
 | 参数名称 | 类型 | 描述 |
 |---------|---------|---------|
-| code | int | 公共错误码。0表示成功，其他值表示失败。详见错误码页面的<a href="/doc/api/372/%E9%94%99%E8%AF%AF%E7%A0%81#1.E3.80.81.E5.85.AC.E5.85.B1.E9.94.99.E8.AF.AF.E7.A0.81" title="公共错误码">公共错误码</a>。|
+| code | int | 公共错误码。0表示成功，其他值表示失败。详见错误码页面的<a href="/document/api/215/4781" title="公共错误码">公共错误码</a>。|
 | message | String | 模块错误信息描述，与接口相关。|
 | data.n | Array | acl策略信息数组。 |
 | data.n.aclRuleId | Int | ACL规则ID，例如：25。 |
@@ -28,7 +28,7 @@
 | data.n.destinationCidr | String | 访问的目的IP，例如：10.0.0.2/16。 |
 | data.n.destinationPort | String | 访问的目的端口，例如：80-90。|
 
- ## 4. 错误码表
+## 4. 错误码表
   以下错误码表仅列出了该接口的业务逻辑错误码，更多公共错误码详见<a href="/doc/api/245/4924" title="VPC错误码">VPC错误码</a>。
  
 | 错误码 | 描述 |

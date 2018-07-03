@@ -11,7 +11,7 @@
 
 | 参数名称 | 是否必选  | 类型 | 描述 |
 |---------|---------|---------|---------|
-| vpcId | 否 | String | 私有网络ID值，可使用vpcId或unVpcId，建议使用unVpcId，例如：vpc-amhnnao5，可选项。可通过<a href="/doc/api/245/%E6%9F%A5%E8%AF%A2%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%E5%88%97%E8%A1%A8" title="DescribeVpcEx">DescribeVpcEx</a>接口查询。 |
+| vpcId | 否 | String | 私有网络ID值，可使用vpcId或unVpcId，建议使用unVpcId，例如：vpc-amhnnao5，可选项。可通过<a href="/document/api/215/1372" title="DescribeVpcEx">DescribeVpcEx</a>接口查询。 |
 | vpnGwId | 否 | String | 系统分配的VPN网关ID值，可使用vpnGwId或unVpnGwId，建议unVpnGwId，例如：vpngw-dystbrkv，可选项。 |
 | vpnGwName | 否 | String | vpn网关名称，支持模糊搜索。|
 | dealId | 否 | String | 购买VPN网关的订单号，可以按订单号查询购买的VPN网关信息。|
@@ -36,11 +36,8 @@
 | data.n.unVpnGwId | String | 系统分配的新的vpn网关ID，建议使用新ID，例如：vpngw-nhg87nmg。 |
 | data.n.vpnGwName | String | vpn网络名称。 |
 | data.n.bandwidth | Int | VPN网关带宽。 |
-| data.n.vpnGwStatus | Int |  VPN网关操作状态，0:待付款 1:付款错误 2:发货中 3:发货错误 4:销毁中 5:销毁错误 6:运行。 |
 | data.n.vpnGwAddress | String | VPN网关公网IP。 |
 | data.n.dealId | String | vpn网关生产订单ID。 |
-| data.n.isAutoRenewals | Int | 是否开启自动续费，1:开启，0:未开启。 |
-| data.n.expireTime | String | vpn网关到期时间，到期后vpn网关将被系统销毁，请及时续费，例如：2015-11-06 20:55:12。 |
 | data.n.createTime | String | vpn网关创建时间，例如：2015-11-06 20:55:12。 |
 
 ## 4. 错误码表
@@ -48,7 +45,7 @@
 
 | 错误码 | 描述 |
 |---------|---------|
-| InvalidVpc.NotFound | 无效的VPC。VPC资源不存在，请再次核实您输入的资源信息是否正确，可通过<a href="/doc/api/245/%E6%9F%A5%E8%AF%A2%E7%A7%81%E6%9C%89%E7%BD%91%E7%BB%9C%E5%88%97%E8%A1%A8" title="DescribeVpcEx">DescribeVpcEx</a>接口查询VPC 。|
+| InvalidVpc.NotFound | 无效的VPC。VPC资源不存在，请再次核实您输入的资源信息是否正确，可通过<a href="/document/api/215/1372" title="DescribeVpcEx">DescribeVpcEx</a>接口查询VPC 。|
 | InvalidVpnGw.NotFound | 无效的vpn网关。vpn网关资源不存在，请再次核实您输入的资源信息是否正确。 |
 
 ## 5. 示例

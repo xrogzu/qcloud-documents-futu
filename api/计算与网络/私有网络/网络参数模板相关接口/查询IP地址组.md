@@ -65,7 +65,7 @@ data.data.n.addressGroup结构
 <td> data.data.n.addressGroup.n <td> String <td> IP 地址组成员。
 </tbody></table>
 
- ## 4. 错误码表
+## 4. 错误码表
  <table class="t"><tbody><tr>
 <th><b>错误码数值</b></th>
 <th><b>原因</b></th>
