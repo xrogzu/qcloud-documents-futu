@@ -84,10 +84,10 @@ v1: digest: sha256:38b194feeee09abf8ee45e7abca82b9fe494b18b953c771ce8ebefa387107
 2. 单击左侧导航栏中的【服务】，在服务列表页单击【+新建】。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/11f7f75d7b051a815da8bfe1e744a8e8/image.png)
 3. 填写服务的基本信息。
- - **服务名称**：要创建的服务的名称。本例中，服务名称为 helloworld。
- - **所在地域**：建议您根据所在地理位置选择靠近的地域。
- - **运行集群**：选择合适的集群和 Namespace。
- - **服务描述**：服务的相关信息。该信息将显示在 **服务信息** 页面。
+ - **服务名称**：要创建的服务的名称。本例中，服务名称为 helloworld。  
+ - **所在地域**：建议您根据所在地理位置选择靠近的地域。  
+ - **运行集群**：选择合适的集群和 Namespace。  
+ - **服务描述**：服务的相关信息。该信息将显示在 **服务信息** 页面。  
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a09e01f2f54a5d68720d4078d21e7c46/image.png)
 4. 选择镜像。输入运行容器的名称，此处以 helloworld 为例。单击【选择镜像】 。
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/abb29fc594b5d87d7c475585b1dbe143/image.png)

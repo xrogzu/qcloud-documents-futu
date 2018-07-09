@@ -101,11 +101,11 @@ redis-cli -h IP地址 -p 端口 -a crs-bkuza6i3:abcd1234
 
 
 ###  其他限制
-1.与开源协议不一样，云平台 Redis 对于 pttl 等设置毫秒的过期时间，展示的最小单位为秒。
-2.与开源协议不一样，云平台 Redis 目前支持 string 类型 32MB 最大 value。
-3.除了 mset,mget 批量操作的时候不受限制之外，其他的批量操作，都要求这些批量的 key 都是在相同的 slot 中，否则会报错，提示 CROSSSLOT Keys in request don't hash to the same slot。
-4.当分片写满后，subscribe/psubscribe 需要占用一定内存，新增全新订阅会受到影响，不影响已订阅 channel 的 publish。
+1.与开源协议不一样，云平台 Redis 对于 pttl 等设置毫秒的过期时间，展示的最小单位为秒。<br>
+2.与开源协议不一样，云平台 Redis 目前支持 string 类型 32MB 最大 value。<br>
+3.除了 mset,mget 批量操作的时候不受限制之外，其他的批量操作，都要求这些批量的 key 都是在相同的 slot 中，否则会报错，提示 CROSSSLOT Keys in request don't hash to the same slot。<br>
+4.当分片写满后，subscribe/psubscribe 需要占用一定内存，新增全新订阅会受到影响，不影响已订阅 channel 的 publish。<br>
 
 ###  特殊说明
-1.目前集群版单个分片的大小默认是 4GB，因此建议不要单个 key 的 value 大小超过 4GB。
+1.目前集群版单个分片的大小默认是 4GB，因此建议不要单个 key 的 value 大小超过 4GB。<br>
 2.目前集群版提供的监控使集群维度的，shard 维度的监控敬请期待。

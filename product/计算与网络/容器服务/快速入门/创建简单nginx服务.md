@@ -8,9 +8,9 @@
 2. 单击左侧导航栏中的【服务】，在服务列表页单击【+新建】。  
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/11f7f75d7b051a815da8bfe1e744a8e8/image.png)  
 3. 填写服务的基本信息。
- - **服务名称**：要新建的服务名称，服务名称由小写字母、数字和 - 组成，且由小写字母开头，小写字母或数字结尾。本例中，服务名称为 nginx 。
- - **所在地域**：建议您根据所在地理位置选择靠近的地域。
- - **运行集群**：选择合适的集群和 Namespace 。
+ - **服务名称**：要新建的服务名称，服务名称由小写字母、数字和 - 组成，且由小写字母开头，小写字母或数字结尾。本例中，服务名称为 nginx 。  
+ - **所在地域**：建议您根据所在地理位置选择靠近的地域。  
+ - **运行集群**：选择合适的集群和 Namespace 。  
  - **服务描述**：服务的相关信息。该信息将显示在 **服务信息** 页面。  
  ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/abb593719ae3c4b7b3b3f79ce68b75a7/image.png)  
 4. 选择镜像。输入运行容器的名称，此处以 nginx 为例。单击【选择镜像】。  
@@ -35,7 +35,3 @@
  - 集群内的其他服务或容器可以直接通过服务名称访问。
 3. 进入 nginx 服务器的默认欢迎页。  
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a3cbbc5c902bd162210a4615c0955f19/image.png)  
-
-#### 更多 nginx 设置
-
-可查看 [使用容器服务来构建简单 web service ](/community/article/223421)。

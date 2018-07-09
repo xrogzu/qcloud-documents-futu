@@ -75,17 +75,17 @@ status:
 
 
 
-通过kubectl get services 获取外网访问地址, 在浏览器上输入该IP， 便可直接访问nginx服务。
-![Alt text][get]
-![Alt text][show]
+通过kubectl get services 获取外网访问地址, 在浏览器上输入该IP， 便可直接访问nginx服务。  
+![Alt text][get]  
+![Alt text][show]  
 
 ### kubectl logs
 在容器中打印容器的日志。
 ```shell
 // Return a snapshot of the logs from pod <pod-name>.
 $ kubectl logs <pod-name>
-```
-![Alt text][logs]
+```  
+![Alt text][logs]  
 
 
 

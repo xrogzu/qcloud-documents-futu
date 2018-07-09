@@ -36,12 +36,12 @@ Client Version: version.Info{Major:"1", Minor:"5", GitVersion:"v1.5.2", GitCommi
 ```
 
 ### 获取集群账号密码以及证书信息
-登录到容器服务CCS控制台，点击需要连接的集群，查看集群详情
-![Alt text](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b99b529c6e30983db14e6ec81605be27/Image+012.png)
+登录到容器服务CCS控制台，点击需要连接的集群，查看集群详情  
+![Alt text](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/b99b529c6e30983db14e6ec81605be27/image.png)
 
-点击集群凭证，查看用户名、密码和证书信息
+点击集群凭证，查看用户名、密码和证书信息  
 
-![Alt text](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1aac831641ccfc0b3becd0b38e2a9634/Image+014.png)
+![Alt text](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1aac831641ccfc0b3becd0b38e2a9634/image.png)
 
 复制或下载证书文件到本地
 

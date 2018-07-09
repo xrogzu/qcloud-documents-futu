@@ -45,5 +45,5 @@ client.get("redis", function (err, reply) {
 });
 ```
 
-**运行结果**：
+**运行结果**：<br>
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/NodeJS-1.jpg)

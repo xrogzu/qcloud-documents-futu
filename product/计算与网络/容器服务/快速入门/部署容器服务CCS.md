@@ -74,9 +74,9 @@
 ### 查看服务
 1. 单击左侧导航栏中的【服务】，单击服务列表页服务的【名称】，如 cfs1。  
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/9dcddd72ac2a2c955be166d23ed9dd12/image.png)  
-2. **实例列表**：实例由相关的一个或多个容器构成。可以进行更新实例数量和销毁实例操作。
-**服务信息**：显示了服务基本信息、配置信息和端口映射信息。
-**实例信息**：显示了实例的基本信息。
+2. **实例列表**：实例由相关的一个或多个容器构成。可以进行更新实例数量和销毁实例操作。  
+**服务信息**：显示了服务基本信息、配置信息和端口映射信息。  
+**实例信息**：显示了实例的基本信息。  
 **事件**：创建服务时会跳转至此页面，显示服务创建时流水事件。  
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/6e0f4e936465ac1895642a122e14737a/image.png)  
 
