@@ -7,6 +7,7 @@
 mongo 10.66.187.127:27017/admin -u mongouser -p thepasswordA1
 ```
 如图：
+
 ![典型的连接命令截图示例](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/ce6b26f8cd6b1cc2981bc0cd44f9d09d/shell_default.png)
 
 ### 多种认证方式的连接说明
@@ -14,7 +15,7 @@ mongo 10.66.187.127:27017/admin -u mongouser -p thepasswordA1
 对于这两种认证方式，shell命令的参数是不一样的，具体请看下文。
 
 ### SCRAM-SHA-1 认证（mongouser）
-**默认用户“mongouser”以及在控制台创建的所有新用户都使用SCRAM-SHA-1认证**，其shell连接参数与[快速开始](#.E5.BF.AB.E9.80.9F.E5.BC.80.E5.A7.8B)一节完全一样，无需添加额外参数，示例如下：
+**默认用户“mongouser”以及在控制台创建的所有新用户都使用SCRAM-SHA-1认证**，其shell连接参数与[快速开始]一节完全一样，无需添加额外参数，示例如下：
 ```
 mongo 10.66.187.127:27017/admin -u mongouser -p thepasswordA1
 ```

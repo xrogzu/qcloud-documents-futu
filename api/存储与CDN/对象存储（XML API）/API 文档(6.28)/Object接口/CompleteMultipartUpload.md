@@ -6,7 +6,7 @@ Complete Multipart Upload 接口请求用来实现完成整个分块上传。当
 当请求 Body 中的块信息没有按序号从小到大排列的时候，在调用该 API 时，会返回 400 InvalidPartOrder；
 当 UploadId 不存在的时候，在调用该 API 时，会返回 404 NoSuchUpload。
 ><font color="#0000cc">**注意：** </font>
->建议您及时完成分块上传或者舍弃分块上传，因为已上传但是未终止的块会占用存储空间进而产生存储费用。
+>建议您及时完成分块上传或者舍弃分块上传。
 
 ## 请求
 

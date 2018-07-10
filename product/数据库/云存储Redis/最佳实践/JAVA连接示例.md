@@ -40,5 +40,5 @@ public class HelloRedis {
 }
 ```
 
-**运行结果**：
+**运行结果**：<br>
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/JAVA-1.jpg)

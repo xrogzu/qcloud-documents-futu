@@ -79,5 +79,5 @@ func main() {
 	fmt.Println("The rank of player " + selectPlayer + " is " + strconv.Itoa(rank))
 }
 ```
-结果如下：
+结果如下：<br>
 ![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/f6743aeb0757050eb65db9b2c684c0a7/image.png)

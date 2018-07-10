@@ -1,20 +1,17 @@
 ## 1. 地域相关接口
 | 接口名 | Action Name | 功能描述 |
 |---------|---------|---------|
-|  | DescribeRedisZones | 查询redis的可用区列表 |
-|  | DescribeRedisProduct | 查询可实例的规格，比如最大容量、
+| [查询售卖可用区](/doc/api/260/4951) | DescribeRedisZones | 查询可以购买redis的可用区列表 |
+| [查询可售卖规格](/doc/api/260/4974) | DescribeRedisProduct | 查询可购买实例的规格，比如最大容量、可购买数量等 |
+
 
 ## 2. 实例相关接口
 
 | 接口名 | Action Name | 功能描述 |
 |---------|---------|---------|
-|  | InquiryRedisPrice | 查询创建实例 |
-| | CreateRedis | 按照指定的规格、网络等配置，创建redis实例， |
-|   | RenewRedis|  |
-| |
-|  UpgradeRedis | |
-| |
-| [ 
+| [创建实例](/doc/api/260/5325) | CreateRedis | 按照指定的规格、网络等配置，创建redis实例|
+| [升级实例](/doc/api/260/5328)| UpgradeRedis | 升级实例到指定的规格|
+| [查询订单详情](/doc/api/260/5329) | DescribeRedisDealDetail | 查询订单详细信息|
 | [查询 CRS 实例及实例列表](/doc/api/260/1384) | DescribeRedis |  按条件查询实例详情列表 | 
 | [修改CRS实例密码](/document/product/239/8405) | ModfiyRedisPassword | 修改实例密码|
 | [重置CRS实例密码](/document/product/239/1390) | ResetRedisPassword | 重置实例密码|

@@ -23,13 +23,13 @@
 | unVpcId | 否 | String | 私有网络ID，如果不传则默认选择基础网络，请使用[私有网络列表](/doc/api/245/1372) 查询 返回的unVpcId为准，如：vpc-kd7d06of|
 | subnetId | 否 | UInt | 历史原因，仍保留该参数，推荐使用下面参数unSubnetId。私有网络下的子网ID，如果设置了 vpcId，则 subnetId 必填。|
 | unSubnetId | 否 | String | 基础网络下， subnetId无效； vpc子网下，取值以查询[查询子网列表](/document/product/215/1371) 返回的unSubnetId为准，如：subnet-3lzrkspo|
-| projectId | 否 | UInt | 项目id，取值以用户账户>用户账户相关接口查询>[项目列表](/doc/api/403/4400)返回的projectId为准|
+| projectId | 否 | UInt | 项目id，取值以用户账户>用户账户相关接口查询>项目列表返回的projectId为准|
 
 
 ## 3. 输出参数
 | 参数名称 | 类型 | 描述 |
 |---------|---------|---------|
-| code | Int | 公共错误码, 0表示成功，其他值表示失败。详见错误码页面的<a href='/doc/api/372/%E9%94%99%E8%AF%AF%E7%A0%81#1.E3.80.81.E5.85.AC.E5.85.B1.E9.94.99.E8.AF.AF.E7.A0.81' title='公共错误码'>公共错误码</a>。|
+| code | Int | 公共错误码, 0表示成功，其他值表示失败。详见错误码页面的<a href='/document/api/239/1757' title='公共错误码'>公共错误码</a>。|
 | message | String | 错误信息描述, 成功时，该值为空 |
 | codeDesc | String | 业务侧错误码英文描述。成功时返回Success，错误时返回具体业务错误原因。 |
 | data | Array |返回的订单数组|
