@@ -125,7 +125,6 @@ Content-Type: application/xml
 Content-Length: 19935
 Connection: keep-alive
 Date: Thu, 12 Jan 2016 19:12:22 GMT
-Server: tencent-cos
 x-cos-request-id: NThjMjA1NGFfNTViMjM1XzI0NWRfMjA4OGIx
 
 <ListAllMyBucketsResult>

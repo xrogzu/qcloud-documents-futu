@@ -165,7 +165,6 @@ HTTP/1.1 200 OK
 Content-Type: application/xml
 Content-Length: 1203
 Date: Wed, 18 Jan 2015 21:32:00 GMT
-Server: tencent-cos
 x-cos-request-id: NTg3ZjI0ZGRfNDQyMDRlXzNhZmRfMjRl
 
 <ListMultipartUploadsResult>

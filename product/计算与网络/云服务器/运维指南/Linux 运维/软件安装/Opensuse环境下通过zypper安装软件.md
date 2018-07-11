@@ -95,6 +95,6 @@ rpm -q
 rpm -ql nginx
 rpm -q nginx
 ```
-结果如下（实际的版本可能和此版本不一致，请以实际查询到的版本为准）：  
-![](//mccdn.qcloud.com/img56af4cc4d0c52.png)  
-![](//mccdn.qcloud.com/img56af4ccb0d033.png)  
+结果如下（实际的版本可能和此版本不一致，请以实际查询到的版本为准）：
+![](//mccdn.qcloud.com/img56af4cc4d0c52.png)
+![](//mccdn.qcloud.com/img56af4ccb0d033.png)
