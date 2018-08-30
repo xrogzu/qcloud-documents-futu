@@ -37,7 +37,9 @@
 查看站内信请见下一步骤。
  
 <div id="Inter-Page">  </div>
+
 ## 步骤三：登录 Windows 云服务器
+
 本部分操作介绍登录 Windows 云服务器的常用方法，不同情况下可以使用不同的登录方式，此处介绍控制台登录，更多登录方式请见   [登录 Windows 实例](/doc/product/213/5435) 。
 
 ### 前提条件
@@ -58,6 +60,7 @@
 
 
 <div id="page4"></div>
+
 ## 步骤四：格式化与分区数据盘
 
 这里以 Windows 2012 R2 为例进行格式化说明。
@@ -94,13 +97,13 @@
  3. 输入分区所需磁盘大小，单击【下一步】：
 	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/05c8d1425a0208597b1d2c75a9c811b6/image.png)
 
- 4. 输入驱动器号，单击【下一步】：
+ 4. 输入驱动器号，单击【下一步】：  
 	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/737ed569049ad617715efb06fe44e7b2/image.png)
 
  5. 选择文件系统，格式化分区，单击【下一步】：
 	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/896cb3f2705fb9fcd04c236b8fb9ec59/image.png)
 
- 6. 完成新建简单卷，单击【完成】：
+ 6. 完成新建简单卷，单击【完成】：  
 	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1e257b9c76d80f30b34f612496b8007b/image.png)
 
  7. 在【开始】中打开【这台电脑】，查看新分区：
