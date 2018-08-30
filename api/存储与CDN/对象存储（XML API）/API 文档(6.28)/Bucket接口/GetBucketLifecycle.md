@@ -67,6 +67,7 @@ HTTP/1.1 200 OK
 Content-Type: application/xml
 Content-Length: 312
 Date: Wed, 16 Aug 2017 12:23:54 GMT
+Server: tencent-cos
 x-cos-request-id: NTk5NDM5NWFfMjQ4OGY3Xzc3NGRfMjA=
 
 <LifecycleConfiguration>

@@ -2,8 +2,8 @@
 本接口(CreatePeerIPTranslationNatRule)用于添加专线网关对端IP转换。
 接口请求域名：<font style='color:red'>vpc.api.qcloud.com </font>
 
-1) 专线对端原始IP映射为新 IP，并以新IP 与连接的私有网络进行网络互访，只能NAT类型网关才支持。
-2) 转换后IP不能在VPC网段内。
+1) 专线对端原始IP映射为新 IP，并以新IP 与连接的私有网络进行网络互访，只能NAT类型网关才支持。<br/>
+2) 转换后IP不能在VPC网段内。<br/>
 3) 同一个NAT网关下的对端IP转换规则原始IP不能重复，转换后IP也不能重复。
 
 

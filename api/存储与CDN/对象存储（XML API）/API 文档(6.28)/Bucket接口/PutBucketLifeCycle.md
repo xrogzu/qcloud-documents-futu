@@ -129,6 +129,7 @@ HTTP/1.1 200 OK
 Content-Type: application/xml
 Date: Sat, 05 Aug 2017 07:13:50 GMT
 Content-Length: 0
+Server: tencent-cos
 x-cos-request-id: NTk4NTcwMDNfMjQ4OGY3MGFfNDI0Y181
 ```
 
@@ -198,5 +199,6 @@ HTTP/1.1 200 OK
 Content-Type: application/xml
 Content-Length: 0
 Date: Wed, 16 Aug 2017 11:59:33 GMT
+Server: tencent-cos
 x-cos-request-id: NTk5NDMzYTRfMjQ4OGY3Xzc3NGRfMWY=
 ```

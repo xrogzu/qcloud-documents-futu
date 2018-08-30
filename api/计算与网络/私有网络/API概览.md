@@ -42,35 +42,17 @@
 | 网络ACL解绑子网 | [DeteleSubnetAclRule](/doc/api/245/%E7%BD%91%E7%BB%9CACL%E8%A7%A3%E7%BB%91%E5%AD%90%E7%BD%91) | 安全防火墙和子网解绑。 |
 
 
-## 5. VPN相关接口
-| 接口功能 | Action ID |  功能描述 |
-|---------|---------|---------|
-| 购买VPN网关 | [CreateVpn](/doc/api/245/5106) | 购买vpn网关。 |
-| 修改VPN网关属性 | [ModifyVpnGw](/doc/api/245/5107) | 修改指定vpn网关信息，例如名称。|
-| 查询VPN网关列表 | [DescribeVpnGw](/doc/api/245/5108) | 根据用户信息，如vpn网关ID，名称，查询对应vpn网关的信息。|
-
-## 6. 对端网关相关接口
+## 5. 对端网关相关接口
 | 接口功能 | Action ID |  功能描述 |
 |---------|---------|---------|
 | 创建对端网关 | [AddUserGw](/doc/api/245/5116) | 创建要连接的对端网关。 |
 | 删除对端网关 | [DeleteUserGw](/doc/api/245/5117) | 删除指定对端网关。 |
 | 修改对端网关名称 | [ModifyUserGw](/doc/api/245/5118) | 修改对端网关名称。 |
 | 查询对端网关列表 | [DescribeUserGw](/doc/api/245/5119) | 根据用户信息，如对端网关ID，名称，查询对应对端网关的信息。|
-| 获取可支持的对端网关厂商信息 | [DescribeUserGwVendor](/doc/api/245/5120) | 查询云平台vpn网关可支持的对端网关厂商信息。 |
 
 
-## 7. VPN通道相关接口
-| 接口功能 | Action ID |  功能描述 |
-|---------|---------|---------|
-| 创建VPN通道 | [AddVpnConnEx](/doc/api/245/5110) | 创建vpn加密通道，将vpc接入其他网络资源。 |
-| 删除VPN通道 | [DeleteVpnConn](/doc/api/245/5111) | 删除指定vpn通道。|
-| 修改VPN通道 | [ModifyVpnConnEx](/doc/api/245/5112) | 修改指定vpn通道的信息，如名称。 |
-| 查询VPN通道列表 | [DescribeVpnConn](/doc/api/245/5113) | 根据用户信息，如通道ID，名称，查询对应通道的信息。|
-| 下载VPN通道配置 | [GetVpnConnConfig](/doc/api/245/5114) | 下载vpn通道配置，对通道配置做调整。 |
-| 获取VPN通道的监控数据 | [DescribeVpnConnMonitor](/doc/api/245/5115) |  获取VPN通道的监控数据。 |
 
-
-## 8. 对等连接
+## 6. 对等连接
 | 接口功能 | Action ID |  功能描述 |
 |---------|---------|---------|
 | 创建同地域对等连接 | [CreateVpcPeeringConnection](/doc/api/245/2107) | 创建同地域对等连接。 |
@@ -87,7 +69,7 @@
 | 启用跨地域过期对等连接 | [EnableVpcPeeringConnectionEx](/doc/api/245/4808) | 启用跨地域过期对等连接。 |
 | 查询对等连接 | [DescribeVpcPeeringConnections](/doc/api/245/2101) | 查询对等连接。 |
 
-## 8. 专线网关相关接口
+## 7. 专线网关相关接口
 | 接口功能 | Action ID |  功能描述 |
 |---------|---------|---------|
 | 创建专线网关 | [CreateDirectConnectGateway](/doc/api/245/4824) | 创建专线网关。 |
@@ -119,7 +101,7 @@
 | 修改本端IP端口转换 acl策略 | [ModifyLocalSourceIPPortTranslationAclRule](/doc/api/245/5213) | 修改本端IP端口转换 acl策略。 |
 | 查询本端IP端口转换 acl策略 | [DescribeLocalSourceIPPortTranslationAclRule](/doc/api/245/5214) | 查询本端IP端口转换 acl策略。 |
 
-## 10. NAT网关相关接口
+## 8. NAT网关相关接口
 | 接口功能 | Action ID |  功能描述 |
 |---------|---------|---------|
 | 创建NAT网关 | [CreateNatGateway](/doc/api/245/4094) |  创建NAT网关。 |
@@ -131,7 +113,7 @@
 | NAT网关解绑EIP | [EipUnBindNatGateway](/doc/api/245/4092) | NAT网关解绑EIP。 |
 | 升级NAT网关规格 | [UpgradeNatGateway](/doc/api/245/4090) | 升级NAT网关规格。 |
 
-## 11. 弹性网卡相关接口
+## 9. 弹性网卡相关接口
 | 接口功能 | Action ID |  功能描述 |
 |---------|---------|---------|
 | 创建弹性网卡 | [CreateNetworkInterface](/doc/api/245/4811) |  创建弹性网卡。 |
