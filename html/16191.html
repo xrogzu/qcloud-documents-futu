@@ -46,7 +46,7 @@
 <td>Host</td>
 <td>String</td>
 <td>是</td>
-<td>用户可以从哪台主机登录（对应 MySQL 用户的 host 字段，UserName + Host 唯一标识一个用户，IP形式，IP段以%结尾；支持填入%；为空默认等于%）</td>
+<td>用户可以从哪台主机登录（对应 MySQL 用户的 host 字段，UserName + Host 唯一标识一个用户，IP形式，IP段以%结尾；支持填入%；为空默认等于%）。</td>
 </tr>
 <tr>
 <td>Description</td>
@@ -96,13 +96,13 @@
 <td>StartBackupTime</td>
 <td>String</td>
 <td>是</td>
-<td>每天备份执行的区间的开始时间，格式 mm:ss，形如 22:00</td>
+<td>每天备份执行的区间的开始时间，格式 mm:ss，形如 22:00。</td>
 </tr>
 <tr>
 <td>EndBackupTime</td>
 <td>String</td>
 <td>是</td>
-<td>每天备份执行的区间的结束时间，格式 mm:ss，形如 23:00</td>
+<td>每天备份执行的区间的结束时间，格式 mm:ss，形如 23:00。</td>
 </tr>
 </tbody>
 </table>
@@ -122,13 +122,13 @@
 <td>InstanceId</td>
 <td>String</td>
 <td>是</td>
-<td>实例 Id，唯一标识一个 TDSQL 实例</td>
+<td>实例 Id，唯一标识一个 TDSQL 实例。</td>
 </tr>
 <tr>
 <td>InstanceName</td>
 <td>String</td>
 <td>是</td>
-<td>实例名称，用户可修改</td>
+<td>实例名称，用户可修改。</td>
 </tr>
 <tr>
 <td>AppId</td>
@@ -146,31 +146,31 @@
 <td>Region</td>
 <td>String</td>
 <td>是</td>
-<td>实例所在地域名称，如 ap-shanghai</td>
+<td>实例所在地域名称，如 ap-shanghai。</td>
 </tr>
 <tr>
 <td>Zone</td>
 <td>String</td>
 <td>是</td>
-<td>实例所在可用区名称，如 ap-shanghai-1</td>
+<td>实例所在可用区名称，如 ap-shanghai-1。</td>
 </tr>
 <tr>
 <td>VpcId</td>
 <td>Integer</td>
 <td>是</td>
-<td>私有网络 Id，基础网络时为 0</td>
+<td>私有网络 Id，基础网络时为 0。</td>
 </tr>
 <tr>
 <td>SubnetId</td>
 <td>Integer</td>
 <td>是</td>
-<td>子网 Id，基础网络时为 0</td>
+<td>子网 Id，基础网络时为 0。</td>
 </tr>
 <tr>
 <td>Status</td>
 <td>Integer</td>
 <td>是</td>
-<td>实例状态：0 创建中，1 流程处理中， 2 运行中，3 实例未初始化，-1 实例已隔离，-2 实例已删除</td>
+<td>实例状态：0 创建中，1 流程处理中， 2 运行中，3 实例未初始化，-1 实例已隔离，-2 实例已删除。</td>
 </tr>
 <tr>
 <td>Vip</td>
@@ -188,13 +188,13 @@
 <td>WanDomain</td>
 <td>String</td>
 <td>是</td>
-<td>外网访问的域名，公网可解析</td>
+<td>外网访问的域名，公网可解析。</td>
 </tr>
 <tr>
 <td>WanVip</td>
 <td>String</td>
 <td>是</td>
-<td>外网 IP 地址，公网可访问</td>
+<td>外网 IP 地址，公网可访问。</td>
 </tr>
 <tr>
 <td>WanPort</td>
@@ -206,13 +206,13 @@
 <td>CreateTime</td>
 <td>Timestamp</td>
 <td>是</td>
-<td>实例创建时间，格式为 2006-01-02 15:04:05</td>
+<td>实例创建时间，格式为 2006-01-02 15:04:05。</td>
 </tr>
 <tr>
 <td>UpdateTime</td>
 <td>Timestamp</td>
 <td>是</td>
-<td>实例最后更新时间，格式为 2006-01-02 15:04:05</td>
+<td>实例最后更新时间，格式为 2006-01-02 15:04:05。</td>
 </tr>
 <tr>
 <td>Pid</td>
@@ -224,7 +224,7 @@
 <td>PeriodEndTime</td>
 <td>Timestamp</td>
 <td>是</td>
-<td>实例到期时间，格式为 2006-01-02 15:04:05</td>
+<td>实例到期时间，格式为 2006-01-02 15:04:05。</td>
 </tr>
 <tr>
 <td>Uin</td>
@@ -236,19 +236,19 @@
 <td>TdsqlVersion</td>
 <td>String</td>
 <td>是</td>
-<td>TDSQL 版本信息，如 10.1.9</td>
+<td>TDSQL 版本信息，如 10.1.9。</td>
 </tr>
 <tr>
 <td>Memory</td>
 <td>Integer</td>
 <td>是</td>
-<td>实例内存大小，单位 GB</td>
+<td>实例内存大小，单位 GB。</td>
 </tr>
 <tr>
 <td>Storage</td>
 <td>Integer</td>
 <td>是</td>
-<td>实例存储大小，单位 GB</td>
+<td>实例存储大小，单位 GB。</td>
 </tr>
 </tbody>
 </table>
@@ -312,7 +312,7 @@
 <td>FlowId</td>
 <td>Integer</td>
 <td>是</td>
-<td>关联的流程 Id，可用于查询流程执行状态</td>
+<td>关联的流程 Id，可用于查询流程执行状态。</td>
 </tr>
 <tr>
 <td>InstanceIds</td>
@@ -396,13 +396,13 @@
 <td>StartTime</td>
 <td>Timestamp</td>
 <td>是</td>
-<td>起始时间，形如 2018-03-24 23:59:59</td>
+<td>起始时间，形如 2018-03-24 23:59:59。</td>
 </tr>
 <tr>
 <td>EndTime</td>
 <td>Timestamp</td>
 <td>是</td>
-<td>结束时间，形如 2018-03-24 23:59:59</td>
+<td>结束时间，形如 2018-03-24 23:59:59。</td>
 </tr>
 <tr>
 <td>Data</td>
@@ -460,7 +460,7 @@
 <td>Type</td>
 <td>String</td>
 <td>是</td>
-<td>约束类型,如枚举enum，区间section</td>
+<td>约束类型,如枚举enum，区间section。</td>
 </tr>
 <tr>
 <td>Enum</td>
@@ -542,7 +542,7 @@
 <td>Code</td>
 <td>Integer</td>
 <td>是</td>
-<td>参数修改结果。0表示修改成功；-1表示修改失败；-2表示该参数值非法</td>
+<td>参数修改结果。0表示修改成功；-1表示修改失败；-2表示该参数值非法。</td>
 </tr>
 </tbody>
 </table>
@@ -616,7 +616,7 @@
 <td>IsMasterSwitched</td>
 <td>MonitorData</td>
 <td>是</td>
-<td>是否发生主备切换，1为发生，0否</td>
+<td>是否发生主备切换，1为发生，0否。</td>
 </tr>
 </tbody>
 </table>
@@ -680,7 +680,7 @@
 <td>BinlogDiskAvailable</td>
 <td>MonitorData</td>
 <td>是</td>
-<td>binlog日志磁盘可用空间,单位GB</td>
+<td>binlog日志磁盘可用空间,单位GB。</td>
 </tr>
 <tr>
 <td>CpuUsageRate</td>
@@ -692,13 +692,13 @@
 <td>MemAvailable</td>
 <td>MonitorData</td>
 <td>是</td>
-<td>内存可用空间,单位GB</td>
+<td>内存可用空间,单位GB。</td>
 </tr>
 <tr>
 <td>DataDiskAvailable</td>
 <td>MonitorIntData</td>
 <td>是</td>
-<td>磁盘可用空间,单位GB</td>
+<td>磁盘可用空间,单位GB。</td>
 </tr>
 </tbody>
 </table>
@@ -718,7 +718,7 @@
 <td>CheckSum</td>
 <td>String</td>
 <td>是</td>
-<td>语句校验和，用于查询详情</td>
+<td>语句校验和，用于查询详情。</td>
 </tr>
 <tr>
 <td>Db</td>
@@ -819,7 +819,7 @@
 </tbody>
 </table>
 <h2>SpecConfigInfo</h2>
-<p>实例可售卖规格详细信息，创建实例和扩容实例时 Pid+MemSize 唯一确定一种售卖规格，磁盘大小可用区间为[MinDataDisk,MaxDataDisk]</p>
+<p>实例可售卖规格详细信息，创建实例和扩容实例时 Pid+MemSize 唯一确定一种售卖规格，磁盘大小可用区间为[MinDataDisk,MaxDataDisk]。</p>
 <table>
 <thead>
 <tr>
@@ -840,19 +840,19 @@
 <td>Memory</td>
 <td>Integer</td>
 <td>是</td>
-<td>内存大小，单位 GB</td>
+<td>内存大小，单位 GB。</td>
 </tr>
 <tr>
 <td>MinStorage</td>
 <td>Integer</td>
 <td>是</td>
-<td>数据盘规格最小值，单位 GB</td>
+<td>数据盘规格最小值，单位 GB。</td>
 </tr>
 <tr>
 <td>MaxStorage</td>
 <td>Integer</td>
 <td>是</td>
-<td>数据盘规格最大值，单位 GB</td>
+<td>数据盘规格最大值，单位 GB。</td>
 </tr>
 <tr>
 <td>SuitInfo</td>
@@ -876,7 +876,7 @@
 <td>NodeCount</td>
 <td>Integer</td>
 <td>是</td>
-<td>节点个数，2 表示一主一从，3 表示一主二从</td>
+<td>节点个数，2 表示一主一从，3 表示一主二从。</td>
 </tr>
 </tbody>
 </table>
