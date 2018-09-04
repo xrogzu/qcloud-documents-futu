@@ -19,7 +19,7 @@
 ## 步骤二：创建 Windows 云服务器
 本步骤介绍 Windows 云服务器的创建，云平台提供快速配置 和自定义配置两种方式。本部分以快速配置为例说明，若快速配置不能满足您的需求，您可参考 [自定义配置 Windows 云服务器](/doc/product/213/10516) 文档进行配置。
 
- 1. 登录云平台官网，选择【云产品】-【计算与网络】-【云服务器】，单击【立即选购】按钮，进入 [云服务器购买页面](http://buy.tcecqpoc.fsphere.cn/?tab=custom&devPayMode=hourly&regionId=50000019&zoneId=50190001&instanceType=S2.SMALL1&step=1&bandwidthType=TRAFFIC_POSTPAID_BY_HOUR) 。
+ 1. 登录云平台官网，选择【云产品】-【计算与网络】-【云服务器】，单击【立即选购】按钮，进入 [云服务器购买页面](http://buy.tcecqpoc.fsphere.cn/?tab=custom&devPayMode=hourly&regionId=50000019&zoneId=50190001&instanceType=S2.SMALL1&step=1&bandwidthType=TRAFFIC_POSTPAID_BY_HOUR) 。  
 
  2. 选择镜像。选择符合需求的 Windows 操作系统。
  
@@ -40,19 +40,19 @@
 
 ## 步骤三：登录 Windows 云服务器
 
-本部分操作介绍登录 Windows 云服务器的常用方法，不同情况下可以使用不同的登录方式，此处介绍控制台登录，更多登录方式请见   [登录 Windows 实例](/doc/product/213/5435) 。
+本部分操作介绍登录 Windows 云服务器的常用方法，不同情况下可以使用不同的登录方式，此处介绍控制台登录，更多登录方式请见   [登录 Windows 实例](/doc/product/213/5435) 。  
 
 ### 前提条件
 登录到云服务器时，需要使用管理员帐号和对应的密码。
 
  * 管理员账号：对于 Windows 类型的实例，管理员帐号统一为 Administrator
  * 密码：快速配置中，初始密码由系统随机分配。在下一环节（查看站内信及云服务器信息）中，具体查看操作。
-   更多内容请参考 [登录密码](/doc/product/213/6093) 。
+   更多内容请参考 [登录密码](/doc/product/213/6093) 。  
    
 ### 查看站内信及云服务器信息
-完成云服务器的购买和创建后，云服务器的实例名称、公网 IP 地址、内网 IP 地址、登录名、初始登录密码等信息都将以 [站内信](http://console.tcecqpoc.fsphere.cn/message) 的方式发送到账户上。
+完成云服务器的购买和创建后，云服务器的实例名称、公网 IP 地址、内网 IP 地址、登录名、初始登录密码等信息都将以 [站内信](http://console.tce.futunn.com/message) 的方式发送到账户上。
 
- 1. 登录 [云服务器控制台](http://console.tcecqpoc.fsphere.cn/cvm) 。登录后即可看到公网 IP 地址、内网 IP 地址等信息。
+ 1. 登录 [云服务器控制台](http://console.tce.futunn.com/cvm) 。登录后即可看到公网 IP 地址、内网 IP 地址等信息。
 
  2. 单击右上角【站内信】。
 
@@ -75,26 +75,26 @@
 
  2. 单击【开始】-【服务器管理器】-【工具】-【计算机管理】-【存储】-【磁盘管理】。
 
- 3. 在磁盘1上右键单击，选择【联机】：
+ 3. 在磁盘1上右键单击，选择【联机】：  
 	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1217193557509925a622dcdb81aa2e35/image.png)
 
- 4. 右键单击，选择【初始化磁盘】：
+ 4. 右键单击，选择【初始化磁盘】：  
 	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/94ab92867d77ea69bc803a0b20f2b941/image.png)
 
  5. 根据分区方式的不同，选择【GPT】或【MBR】，单击【确定】按钮：
  > **注意：**
- > 磁盘大于 2TB 时仅支持 GPT 分区形式。若您不确定磁盘后续扩容是否会超过该值，则建议您选择 GPT 分区；若您确定磁盘大小不会超过该值，则建议您选择 MBR 分区以获得更好的兼容性。
+ > 磁盘大于 2TB 时仅支持 GPT 分区形式。若您不确定磁盘后续扩容是否会超过该值，则建议您选择 GPT 分区；若您确定磁盘大小不会超过该值，则建议您选择 MBR 分区以获得更好的兼容性。  
 	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/1f7b0f72767193cfa662e188c86cf31b/image.png)
 
-### 磁盘分区（可选）
+### 磁盘分区（可选）  
 
- 1. 在未分配的空间处右击，选择【新建简单卷】：
+ 1. 在未分配的空间处右击，选择【新建简单卷】：  
 	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/a6ca720af2082d7a470ece17a8e13f5d/image.png)
 
- 2. 在弹出的“新建简单卷向导”窗口中，单击【下一步】：
+ 2. 在弹出的“新建简单卷向导”窗口中，单击【下一步】：  
 	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/10fdcd70b510a57919c6a40cf43452a7/image.png)
 
- 3. 输入分区所需磁盘大小，单击【下一步】：
+ 3. 输入分区所需磁盘大小，单击【下一步】：  
 	![](http://imgcache.tcecqpoc.fsphere.cn/image/mc.qcloudimg.com/static/img/05c8d1425a0208597b1d2c75a9c811b6/image.png)
 
  4. 输入驱动器号，单击【下一步】：  

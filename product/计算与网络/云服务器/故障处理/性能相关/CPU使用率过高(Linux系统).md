@@ -3,7 +3,7 @@ CPU 使用率过高排查的步骤大致为：定位消耗 CPU 的具体进程�
 下面将介绍 Linux 系统下如何定位出 CPU 使用率过高的进程。
 ## 定位工具介绍：top 命令
 **top**：Linux 系统下常用的监控工具，用于实时获取进程级别的 CPU 使用情况。下图是 top 命令的输出信息。  
-![](http://mc.qcloudimg.com/static/img/8aab6354efba19443ffe88f3ace00794/image.png)
+![](http://mc.qcloudimg.com/static/img/8aab6354efba19443ffe88f3ace00794/image.png)  
 上半部分显示 CPU 和内存资源的总体使用情况：
 第一行：系统当前时间，当前登录用户个数以及系统负载。
 第二行：系统总进程数、运行中进程数、休眠、睡眠和僵尸进程数量。
@@ -33,7 +33,7 @@ CPU 使用率过高排查的步骤大致为：定位消耗 CPU 的具体进程�
 2. 输入 top 命令查看系统负载。
 
 3. 输入大写 P，进程按 CPU 使用率降序排列；通过排序，可以方便得获得占用 CPU 资源较多的进程，进行进一步的分析。  
-![](http://mc.qcloudimg.com/static/img/8aab6354efba19443ffe88f3ace00794/image.png)
+![](http://mc.qcloudimg.com/static/img/8aab6354efba19443ffe88f3ace00794/image.png)  
 
 4. 分析占用 CPU 高的进程。
  1. 如果为业务进程，建议分析业务程序是否有优化空间，进行优化或者提升实例的资源配置。

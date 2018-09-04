@@ -11,9 +11,10 @@ yum install 软件名称
 
 2. 输入上述命令后，系统将自动搜索相关的软件包和依赖关系，并且在界面中提示用户确认搜索到的软件包是否合适。
 例如，键入`yum install php`之后，界面显示如图：  
-![](http://mc.qcloudimg.com/static/img/cdf81bb49022aa8924968864571922ed/39.png)
+![](http://mc.qcloudimg.com/static/img/cdf81bb49022aa8924968864571922ed/39.png)  
+
 3. 确认软件包合适无误后，键入`y`，开始安装软件。界面提示`Complete`即安装完成。  
-![](http://mc.qcloudimg.com/static/img/c98bda7d1f3f42156f9015e3c9d00295/40.png)
+![](http://mc.qcloudimg.com/static/img/c98bda7d1f3f42156f9015e3c9d00295/40.png)  
 
 ### 查看已安装软件信息
 软件安装完成后：

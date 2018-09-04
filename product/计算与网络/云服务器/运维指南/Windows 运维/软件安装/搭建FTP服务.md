@@ -28,20 +28,26 @@
 	一般情况选择第一种，单击【Install】开始安装。  
  ![](//mc.qcloudimg.com/static/img/129d6460bae48c8e59fe770ac5f08430/image.jpg)  
 
+
  4. 安装完成后，启动 FileZilla Server 。出现配置 IP 、管理端口对话框，输入本地 IP （即 127.0.0.1）、第 2 步配置的管理端口（本例为 14147 ），单击【OK】。  
  ![](//mc.qcloudimg.com/static/img/3953153a08d6fb1eda1fa087e8f19264/image.jpg)  
 
+
  5. 用户配置。单击工具栏左上角 user 按钮小图标，单击【Add】按钮新增用户；在弹出的对话框中输入用户名（本例测试用户名为 tencent-qcloud ），单击【OK】。  
  ![](//mc.qcloudimg.com/static/img/2a000f0e725f8d830a29e1ed18392ec0/image.png)  
+
  
  6. 密码设置。勾选 “password” ，为新增的用户设置密码后，单击【OK】按钮。  
  ![](//mc.qcloudimg.com/static/img/2635b4a5c6dc8d1debcb593b5307fe79/image.jpg)  
 
+
  7. 弹出提示框告知添加用户目录，单击【确定】进入设置界面。单击【Add】新增用户目录。  
  ![](//mc.qcloudimg.com/static/img/10e37b8b35a6a81381e2a398ae4d9764/image.jpg)  
 
+
  8. 选择 FTP 资源目录。本例使用已新建的 Tencent-Qcloud 目录，单击【确定】。  
  ![](//mc.qcloudimg.com/static/img/abfe5bdfd1011f723b4e5d75e4b3de36/image.jpg)  
+
 （可在该目录下放置文件`欢迎使用云平台服务器.txt`以便后续测试 ）。
 
  9. 用户授权。选中右侧“ User ”框中用户，选择中间目录名称及对应权限，单击【OK】。（请删除 Shared Folders 下面的 New directory 项，否则可能报错)。  
